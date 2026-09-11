@@ -1,0 +1,20 @@
+{
+  "scope": "TECH1 quarter evidence; not long history acceptance",
+  "sha256": {
+    "src/simple_strategy_rules.py": "e2da727d438b06429d72047a64a9152f81a62aa249135bfe80d182877d8469aa",
+    "src/research_portfolio.py": "a5c20703f9d1df2cc5750c8abf362ce10847d7891d3287830c2819910f4bf91f",
+    "adapters/supermind_s1_minute_backtest.py": "c1e87739dcea419665650e4d714ea8d5a414a9ac849cd08d7596c30dcdfaf9e5",
+    "reports/simple_research/quarter_cost1.0.json": "13e12e1ae76f59abad47e3efe22ed23c501b9a6d21d321c402c7b8fa9512c628",
+    "reports/simple_research/quarter_cost1.5.json": "f36e40046bb4ea63a6af0d5a7b832bcd630b576d90a74b5355f81fd6299b3fd4",
+    "reports/simple_research/quarter_screen.json": "e9fd26f5caec2449bde459ddb17ec688d5cc861d34c4d0b30f2f65f692a9cdbc",
+    "reports/simple_research/minute_export_entry.txt": "7fc9997db5bf085fdd33c03a9c1deda80608f8dfbf43a626693dc3858e79584e",
+    "reports/simple_research/minute_export_supp1.txt": "06eb805131ca291ab6ea7d17c32c9afb2cb915f5f60df0e196abefd7b2e3bc54",
+    "reports/simple_research/minute_export_supp2.txt": "bdcc4a4b46c62151ad085796f9d23b9be97226681e18879a8300895da0b3f435",
+    "reports/simple_research/minute_export_supp3.txt": "7e0d77c21425c80c156c639f5c64d4bec36d4e6c1e5ed20975266139087e44b3",
+    "reports/simple_research/minute_export_supp4.txt": "5fde282517855c1a9572f781967ab236785bc2567a285ca65ab9cba4c43659de",
+    "reports/simple_research/minute_export_supp5.txt": "7aa8cc25daab8f0e0fc57397f0ceff8cdf46e2d071d33943a688b1b6f3c9e522",
+    "reports/simple_research/corporate_export.txt": "4dd84e83edf2728aadabe681246bb3a2c9dc20cb3c9fb66a094f8abb09c5b091",
+    "reports/simple_research/rqalpha_quarter_parity.json": "11664eab38f6d1939eb2c3ec9d2520fd50c59d7dbf7cc51cac3414d3c20cabe5",
+    "reports/simple_research/PROTOCOL.md": "8a20b8fad6b92fc37bfe1e6dae2ce8bcdb9a1a6b3c7feffac33cfd306f1c59e8"
+  }
+}

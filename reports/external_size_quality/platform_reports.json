@@ -1,0 +1,42 @@
+{
+  "feasibility": {
+    "id": "6aa10c2d6459be00b6d34168",
+    "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result/outLogs?id=6aa10c2d6459be00b6d34168",
+    "type": "readonly_data_probe_not_portfolio_backtest"
+  },
+  "quarter": {
+    "id": "6aa10cca54104300b63c3a70",
+    "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result/outLogs?id=6aa10cca54104300b63c3a70",
+    "type": "readonly_data_probe_not_portfolio_backtest"
+  },
+  "revision": {
+    "id": "6aa10e116459be00b6d3416a",
+    "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result/outLogs?id=6aa10e116459be00b6d3416a",
+    "type": "readonly_data_probe_not_portfolio_backtest"
+  },
+  "previous_period": {
+    "id": "6aa10ed8277ba100b61aa2a7",
+    "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result/outLogs?id=6aa10ed8277ba100b61aa2a7",
+    "type": "readonly_data_probe_not_portfolio_backtest"
+  },
+  "original_quarters": {
+    "id": "6aa10fa5971aba00b64bb241",
+    "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result/outLogs?id=6aa10fa5971aba00b64bb241",
+    "type": "readonly_data_probe_not_portfolio_backtest"
+  },
+  "cutoff": {
+    "id": "6aa11017971aba00b64bb244",
+    "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result/outLogs?id=6aa11017971aba00b64bb244",
+    "type": "readonly_data_probe_not_portfolio_backtest"
+  },
+  "pilot": {
+    "id": "6aa110b354104300b63c3a7d",
+    "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result/outLogs?id=6aa110b354104300b63c3a7d",
+    "type": "readonly_data_probe_not_portfolio_backtest"
+  },
+  "alias": {
+    "id": "6aa1127a277ba100b61aa2b2",
+    "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result/outLogs?id=6aa1127a277ba100b61aa2b2",
+    "type": "readonly_data_probe_not_portfolio_backtest"
+  }
+}

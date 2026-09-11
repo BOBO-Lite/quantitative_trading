@@ -1,0 +1,10 @@
+[
+  {
+    "cost": 1.0,
+    "training_prefix_identical": true
+  },
+  {
+    "cost": 1.5,
+    "training_prefix_identical": true
+  }
+]

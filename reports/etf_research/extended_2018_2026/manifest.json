@@ -1,0 +1,29 @@
+{
+  "scope": "ETF1 research evidence, not deployment acceptance",
+  "sha256": {
+    "src/etf_dataset.py": "c5cc6aee90ecdc7912778820bf28a16e872dd8a3208f35aa4cd6b4257a2bd2cf",
+    "src/etf_replay.py": "077b023702fced396acfcf9d4694e5917fab6a573d04d635192b0dfd91d36369",
+    "src/validate_etf_rqalpha.py": "958f8c8a0e215b07a9118e698c50ec112f707f018accbff48c08460d3061191f",
+    "adapters/rqalpha_etf_mod.py": "cf14b73819f96fd97e28f9f87345fecd5adcfff399c0b84d61aa05fbb72c6f0d",
+    "tests/test_etf_research.py": "5f6cba919fdd6733c5ac19a11e3972a1f59293fa5ceb6efc94270fd29dbd0c21",
+    "reports/etf_research/PROTOCOL.md": "14dd7cab8e4d20db9d8197c04b8f64c09c000d5d087d78009e5ef254ad99cc0b",
+    "reports/etf_research/SOURCES.md": "ed5a39715041caf19929c0e2d06d65df592c08acad74c9c4d1b376973eada383",
+    "reports/etf_research/extended_2018_2026/RESULT.md": "4b5a0d8e7edcfb315488bec201e6d65dc5385e11e954ee0b07ae82cb24044047",
+    "reports/etf_research/extended_2018_2026/data_audit.json": "ae559f74699acc2e4295edcf630a922af90f581731ddd090e30e9e22cad8a2fd",
+    "reports/etf_research/extended_2018_2026/probe_export.txt": "bbacdf3bc87fbb741bfb1254ac696024a6ad41f5eecd954103cc088fe93cc823",
+    "reports/etf_research/extended_2018_2026/minute_export.txt": "083c1699a23fd1cb4a270060ca69f9ac8af2be84860f80b5b518cacc62a56ab3",
+    "reports/etf_research/extended_2018_2026/cost1.0.json": "17908ccdce920f1d4bc89f31d29792614fdede97b59e53ec2b875fc6154b5160",
+    "reports/etf_research/extended_2018_2026/cost1.5.json": "7a4c2c5f3f9d0d1c0332e419fdb308b1dbc2f2899a6a887153974e89cf348080",
+    "reports/etf_research/extended_2018_2026/rqalpha_parity.json": "8a359919bfdd2e804887ee4e4cdf656fae96931c12923e5fcd5278bd3ede4ef4",
+    "reports/etf_research/ETF2_PROTOCOL.md": "9f046b17dffc9bde4bac0d381944ddb026d49643a71c201801cb526bb3b6c82f",
+    "reports/etf_research/module_tests.txt": "29e7d668fdb8549674be3d32eff62de54108d65e23889f2b2ccabb5a19751185",
+    "reports/etf_research/platform_restore.json": "33c53c753a9b5a560ddb075c3e316916eda23d3db5c3277fd895d00008b4a6c8",
+    "reports/etf_research/etf1_regression.json": "83bfaf4534a410aaa5c399264e42a2ae95baca2c74cf6daa10712b8bb72be742",
+    "reports/etf_research/NEXT_RESEARCH_SCOPE.md": "c205a36a95f5d04061d4f3fd3faa220a0fc4ca42214f1d893bd252d1c4f6958f",
+    "reports/etf_research/long_trend/cost1.0.json": "fc8f0d53fde6a5215e94750fc895a7e0830b1f346b6ef8d432b33ea19398d6c0",
+    "reports/etf_research/long_trend/cost1.5.json": "5505d2ce4562ebcf49df8fb9438c11230b3462c2d49dfd416cb3c1d006ce7fc7",
+    "reports/etf_research/long_trend/rqalpha_parity.json": "1332ea98ba77f5c3aa368a68f81479bd47ce0742a9a8aca2817f6e3691544362"
+  },
+  "refreshed_at": "2026-09-09T04:46:07.468853+00:00",
+  "refresh_basis": "ETF1/2完整本地结果与训练前缀回归一致；旧RQAlpha报告为既有核账，本次新增ETF3/退出RQ核验。"
+}

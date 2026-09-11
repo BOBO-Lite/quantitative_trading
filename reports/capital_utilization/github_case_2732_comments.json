@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://github.com/quantopian/zipline/issues/2732#issuecomment-667518334",
+    "body": "Convert the price feed so you are modelling in satoshi?"
+  },
+  {
+    "url": "https://github.com/quantopian/zipline/issues/2732#issuecomment-854353788",
+    "body": "As @phatcher said, you can simulate your test on a smaller scale, e.g. on Satoshi level (1e8).\r\n\r\nI can think of two methods:\r\n\r\n1. Increase your capital to the base of 1e8, and leave the input as is. This way you can analyse the result in Satoshi, but you need to correct for the final portfolio value and any other factors that are dependent on the capital base.\r\n2. Scale the input to Satoshi or any other level and change the `handle_data` method to either order on Satoshi level or based on your portfolio percentage using `order_target_percent` method.\r\n\r\nNOTE: Zipline rounds the inputs to 3 decimal points. So re-scaling to Satoshi turns prices that are lower than 5000 to `NaN` (not considering rounding errors for higher prices). My suggestion is to either use 1e5 for Bitcoin or log-scale."
+  }
+]

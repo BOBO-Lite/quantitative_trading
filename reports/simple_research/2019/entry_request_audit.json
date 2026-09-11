@@ -1,0 +1,33 @@
+{
+  "status": "PASS_REQUEST_SET",
+  "batches": [
+    {
+      "batch": "01",
+      "requested": 700,
+      "received": 700,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "batch": "02",
+      "requested": 700,
+      "received": 700,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "batch": "03",
+      "requested": 700,
+      "received": 700,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "batch": "04",
+      "requested": 662,
+      "received": 662,
+      "missing": [],
+      "extra": []
+    }
+  ]
+}

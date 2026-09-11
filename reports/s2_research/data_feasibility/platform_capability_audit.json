@@ -1,0 +1,56 @@
+{
+  "status": "FIXED_CAPABILITY_SAMPLE_CHECKED",
+  "log_sha256": "04ecafc3fd16883b4fb4953f53198005bd488072c6c777b07159c96669f8814a",
+  "packets": 5,
+  "daily_rows": 243,
+  "active_days": 124,
+  "paused_days": 119,
+  "st_days": 124,
+  "metadata_delisted_date": "2020-12-16",
+  "dividend_events": [
+    {
+      "symbol": "000001.SZ",
+      "ex_date": "2018-07-12",
+      "record_date": "2018-07-11",
+      "pay_date": "2018-07-12",
+      "announcement_date": "2018-07-06",
+      "cash_per_share": 0.136,
+      "shares_per_share": 0,
+      "normalized_date_only": true
+    },
+    {
+      "symbol": "000001.SZ",
+      "ex_date": "2017-07-21",
+      "record_date": "2017-07-20",
+      "pay_date": "2017-07-21",
+      "announcement_date": "2017-07-17",
+      "cash_per_share": 0.158,
+      "shares_per_share": 0,
+      "normalized_date_only": true
+    },
+    {
+      "symbol": "600036.SH",
+      "ex_date": "2018-07-12",
+      "record_date": "2018-07-11",
+      "pay_date": "2018-07-12",
+      "announcement_date": "2018-07-05",
+      "cash_per_share": 0.84,
+      "shares_per_share": 0,
+      "normalized_date_only": true
+    },
+    {
+      "symbol": "600036.SH",
+      "ex_date": "2017-06-14",
+      "record_date": "2017-06-13",
+      "pay_date": "2017-06-14",
+      "announcement_date": "2017-06-06",
+      "cash_per_share": 0.74,
+      "shares_per_share": 0,
+      "normalized_date_only": true
+    }
+  ],
+  "dividend_events_count": 4,
+  "corporate_action_execution_validated": false,
+  "full_universe_coverage_validated": false,
+  "formal_strategy_validated": false
+}

@@ -1,0 +1,176 @@
+{
+  "status": "SNAPSHOT_AUDITED_PIT_BLOCKED",
+  "row_count": 7,
+  "sources": [
+    {
+      "name": "eastmoney_appointments_2019-03-31",
+      "sha256": "8373adda0864e2646394fa090fcdc7e1f7082eed59d57c863bf7cde98aa2cfac",
+      "rows": 2
+    },
+    {
+      "name": "eastmoney_appointments_2018-12-31",
+      "sha256": "2418ff1d9f35eb63726ec55657a5522a5dbecb23a0e17edf393b06154176aa72",
+      "rows": 2
+    },
+    {
+      "name": "cninfo_appointments_2019",
+      "sha256": "69a00a16774ab54e08041748e54268bc85fdbe8a17371cedfdd1eb26b1ac8bda",
+      "rows": 3
+    }
+  ],
+  "source_errors": [],
+  "rows": [
+    {
+      "provider": "eastmoney",
+      "code": "000001",
+      "report_period": "2019-03-31",
+      "first_scheduled_date": "2019-04-24",
+      "changed_scheduled_dates": [
+        null,
+        null,
+        null
+      ],
+      "actual_report_date": "2019-04-24",
+      "published_at": null,
+      "available_at": null,
+      "event_clear": false,
+      "pit_ready": false,
+      "blockers": [
+        "APPOINTMENT_VERSION_PUBLICATION_TIME_MISSING",
+        "HISTORICAL_COVERAGE_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "provider": "eastmoney",
+      "code": "600036",
+      "report_period": "2019-03-31",
+      "first_scheduled_date": "2019-04-30",
+      "changed_scheduled_dates": [
+        null,
+        null,
+        null
+      ],
+      "actual_report_date": "2019-04-30",
+      "published_at": null,
+      "available_at": null,
+      "event_clear": false,
+      "pit_ready": false,
+      "blockers": [
+        "APPOINTMENT_VERSION_PUBLICATION_TIME_MISSING",
+        "HISTORICAL_COVERAGE_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "provider": "eastmoney",
+      "code": "000001",
+      "report_period": "2018-12-31",
+      "first_scheduled_date": "2019-03-07",
+      "changed_scheduled_dates": [
+        null,
+        null,
+        null
+      ],
+      "actual_report_date": "2019-03-07",
+      "published_at": null,
+      "available_at": null,
+      "event_clear": false,
+      "pit_ready": false,
+      "blockers": [
+        "APPOINTMENT_VERSION_PUBLICATION_TIME_MISSING",
+        "HISTORICAL_COVERAGE_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "provider": "eastmoney",
+      "code": "600036",
+      "report_period": "2018-12-31",
+      "first_scheduled_date": "2019-03-23",
+      "changed_scheduled_dates": [
+        null,
+        null,
+        null
+      ],
+      "actual_report_date": "2019-03-23",
+      "published_at": null,
+      "available_at": null,
+      "event_clear": false,
+      "pit_ready": false,
+      "blockers": [
+        "APPOINTMENT_VERSION_PUBLICATION_TIME_MISSING",
+        "HISTORICAL_COVERAGE_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "provider": "cninfo",
+      "code": "000001",
+      "report_period": "2019-03-31",
+      "first_scheduled_date": "2019-04-24",
+      "changed_scheduled_dates": [
+        null,
+        null,
+        null
+      ],
+      "actual_report_date": "2019-04-24",
+      "published_at": null,
+      "available_at": null,
+      "event_clear": false,
+      "pit_ready": false,
+      "blockers": [
+        "APPOINTMENT_VERSION_PUBLICATION_TIME_MISSING",
+        "HISTORICAL_COVERAGE_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "provider": "cninfo",
+      "code": "000002",
+      "report_period": "2019-03-31",
+      "first_scheduled_date": "2019-04-30",
+      "changed_scheduled_dates": [
+        null,
+        null,
+        null
+      ],
+      "actual_report_date": "2019-04-30",
+      "published_at": null,
+      "available_at": null,
+      "event_clear": false,
+      "pit_ready": false,
+      "blockers": [
+        "APPOINTMENT_VERSION_PUBLICATION_TIME_MISSING",
+        "HISTORICAL_COVERAGE_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "provider": "cninfo",
+      "code": "000006",
+      "report_period": "2019-03-31",
+      "first_scheduled_date": "2019-04-30",
+      "changed_scheduled_dates": [
+        null,
+        null,
+        null
+      ],
+      "actual_report_date": "2019-04-30",
+      "published_at": null,
+      "available_at": null,
+      "event_clear": false,
+      "pit_ready": false,
+      "blockers": [
+        "APPOINTMENT_VERSION_PUBLICATION_TIME_MISSING",
+        "HISTORICAL_COVERAGE_EVIDENCE_MISSING"
+      ]
+    }
+  ],
+  "cross_source_checks": [
+    {
+      "code": "000001",
+      "report_period": "2019-03-31",
+      "dates_agree": true,
+      "pit_ready": false
+    }
+  ],
+  "source_conflict_count": 0,
+  "event_clear": false,
+  "formal_backtest_ready": false,
+  "interpretation": "仅核验历史预约目标日期，不证明当时已知，不可用于放行开仓"
+}

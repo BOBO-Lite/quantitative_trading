@@ -1,0 +1,64 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+
+需要帮助？
+
+试试AI小助手吧
+
+全局搜索
+HI！mx_69lp3klgu
+
+如果您有本地使用其他数据的需求，请联系我们
+
+联系客服
+全部
+股票
+A股
+上市公司财务数据
+估值指标表
+估值指标表
+
+A股上市公司估值相关计算财务指标
+
+字段说明
+使用代码
+数据样例
+get_fundamentals(query_object, date=None, statDate=None, latest=False)
+
+​
+
+
+
+参数说明：
+
+参数	含义	支持格式	说明
+query_object	所需要查询的表条件	query_object	
+date	查询指定日期的财务数据	str,int,float,datetime-like	1.在回测模块:默认值会随着回测日期变化而变化
+2.在研究模块和模拟交易模块: 默认是今天的上一个交易日
+3.该参数与 statDate参数不能并存
+statDate	查询指定季度或年份的财务数据	str	1.季报：'年+q+季度序号'，例如：'2022q1'表示2022年一季报
+2.年报：年份的数字，例如：'2022'表示2022年年报，效果与'2022q4'相同
+3.该参数与 date不能并存
+latest	是否提取最新报告	bool	默认为False,提取原始报告数据(较早日期)
+
+
+
+使用样例
+
+#获取全市场2023年2月1日全市场股票最近一期静态市盈率
+get_fundamentals(
+    query(
+        asharevalue.symbol,
+        asharevalue.report_date,
+        asharevalue.stat_date,
+        asharevalue.pe_lyr
+    ),
+    date = '20230201'
+)
+
+​

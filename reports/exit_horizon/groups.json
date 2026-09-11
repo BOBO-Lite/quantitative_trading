@@ -1,0 +1,270 @@
+[
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "reason": "ALL",
+    "total": 36,
+    "complete": 33,
+    "statuses": {
+      "COMPLETE": 33,
+      "EXIT_AFTER_WINDOW": 3
+    },
+    "hold_better": 17,
+    "exit_better": 16,
+    "median_difference_pct": 0.4347558846884911
+  },
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "reason": "cash_defense",
+    "total": 26,
+    "complete": 25,
+    "statuses": {
+      "COMPLETE": 25,
+      "EXIT_AFTER_WINDOW": 1
+    },
+    "hold_better": 10,
+    "exit_better": 15,
+    "median_difference_pct": -0.7778920479378589
+  },
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "reason": "close_confirmed_stop",
+    "total": 7,
+    "complete": 7,
+    "statuses": {
+      "COMPLETE": 7
+    },
+    "hold_better": 6,
+    "exit_better": 1,
+    "median_difference_pct": 5.110086201417402
+  },
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "reason": "persistent_weak_loss",
+    "total": 1,
+    "complete": 1,
+    "statuses": {
+      "COMPLETE": 1
+    },
+    "hold_better": 1,
+    "exit_better": 0,
+    "median_difference_pct": 7.167129293666624
+  },
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "reason": "time_exit",
+    "total": 2,
+    "complete": 0,
+    "statuses": {
+      "EXIT_AFTER_WINDOW": 2
+    },
+    "hold_better": 0,
+    "exit_better": 0,
+    "median_difference_pct": null
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "reason": "ALL",
+    "total": 36,
+    "complete": 36,
+    "statuses": {
+      "COMPLETE": 36
+    },
+    "hold_better": 13,
+    "exit_better": 23,
+    "median_difference_pct": -4.420050847668692
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "reason": "cash_defense",
+    "total": 26,
+    "complete": 26,
+    "statuses": {
+      "COMPLETE": 26
+    },
+    "hold_better": 9,
+    "exit_better": 17,
+    "median_difference_pct": -3.9474981378728655
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "reason": "close_confirmed_stop",
+    "total": 7,
+    "complete": 7,
+    "statuses": {
+      "COMPLETE": 7
+    },
+    "hold_better": 4,
+    "exit_better": 3,
+    "median_difference_pct": 1.183411758772427
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "reason": "persistent_weak_loss",
+    "total": 1,
+    "complete": 1,
+    "statuses": {
+      "COMPLETE": 1
+    },
+    "hold_better": 0,
+    "exit_better": 1,
+    "median_difference_pct": -12.272710894528673
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "reason": "time_exit",
+    "total": 2,
+    "complete": 2,
+    "statuses": {
+      "COMPLETE": 2
+    },
+    "hold_better": 0,
+    "exit_better": 2,
+    "median_difference_pct": -22.723913629254966
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "reason": "ALL",
+    "total": 38,
+    "complete": 34,
+    "statuses": {
+      "BLOCKED": 1,
+      "COMPLETE": 34,
+      "EXIT_AFTER_WINDOW": 3
+    },
+    "hold_better": 18,
+    "exit_better": 16,
+    "median_difference_pct": 0.8244809633395611
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "reason": "cash_defense",
+    "total": 25,
+    "complete": 24,
+    "statuses": {
+      "COMPLETE": 24,
+      "EXIT_AFTER_WINDOW": 1
+    },
+    "hold_better": 10,
+    "exit_better": 14,
+    "median_difference_pct": -0.517306042230152
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "reason": "close_confirmed_stop",
+    "total": 9,
+    "complete": 9,
+    "statuses": {
+      "COMPLETE": 9
+    },
+    "hold_better": 7,
+    "exit_better": 2,
+    "median_difference_pct": 6.379927192316886
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "reason": "persistent_weak_loss",
+    "total": 2,
+    "complete": 1,
+    "statuses": {
+      "BLOCKED": 1,
+      "COMPLETE": 1
+    },
+    "hold_better": 1,
+    "exit_better": 0,
+    "median_difference_pct": 7.29957795146982
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "reason": "time_exit",
+    "total": 2,
+    "complete": 0,
+    "statuses": {
+      "EXIT_AFTER_WINDOW": 2
+    },
+    "hold_better": 0,
+    "exit_better": 0,
+    "median_difference_pct": null
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "reason": "ALL",
+    "total": 38,
+    "complete": 37,
+    "statuses": {
+      "BLOCKED": 1,
+      "COMPLETE": 37
+    },
+    "hold_better": 14,
+    "exit_better": 23,
+    "median_difference_pct": -4.128632148492343
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "reason": "cash_defense",
+    "total": 25,
+    "complete": 25,
+    "statuses": {
+      "COMPLETE": 25
+    },
+    "hold_better": 10,
+    "exit_better": 15,
+    "median_difference_pct": -2.1902046208985775
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "reason": "close_confirmed_stop",
+    "total": 9,
+    "complete": 9,
+    "statuses": {
+      "COMPLETE": 9
+    },
+    "hold_better": 4,
+    "exit_better": 5,
+    "median_difference_pct": -4.128632148492343
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "reason": "persistent_weak_loss",
+    "total": 2,
+    "complete": 1,
+    "statuses": {
+      "BLOCKED": 1,
+      "COMPLETE": 1
+    },
+    "hold_better": 0,
+    "exit_better": 1,
+    "median_difference_pct": -12.11736755680201
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "reason": "time_exit",
+    "total": 2,
+    "complete": 2,
+    "statuses": {
+      "COMPLETE": 2
+    },
+    "hold_better": 0,
+    "exit_better": 2,
+    "median_difference_pct": -22.574831659318306
+  }
+]

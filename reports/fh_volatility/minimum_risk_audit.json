@@ -1,0 +1,16 @@
+[
+  {
+    "cost": 1.0,
+    "final_equity": 31786.52726528002,
+    "recovery_budget": 128.19421925527215,
+    "minimum_4000_at_3pct_stop_loss": 135.89682120000046,
+    "minimum_trade_feasible": false
+  },
+  {
+    "cost": 1.5,
+    "final_equity": 30325.351529642492,
+    "recovery_budget": 122.3013363661935,
+    "minimum_4000_at_3pct_stop_loss": 143.84374770000022,
+    "minimum_trade_feasible": false
+  }
+]

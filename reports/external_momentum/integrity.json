@@ -1,0 +1,91 @@
+{
+  "status": "PASS_EXTMOM_RESEARCH_INTEGRITY",
+  "checked_at": "2026-09-09T06:40:30.697921+00:00",
+  "predecessors": {
+    "recovery_research": {
+      "manifest_sha256": "3217c4e245189eec5981ba2e21df23972be549f605586e8fca6b736877da490e",
+      "unchanged_evidence_files": 59
+    },
+    "external_strategy_review": {
+      "manifest_sha256": "230562ef9dd3854de05530b82a68e66cb58f0bc12e755b614b33e2a6a6c27643",
+      "unchanged_evidence_files": 47
+    }
+  },
+  "intentionally_updated_progress_documents": [
+    "CHANGELOG.md",
+    "README.md",
+    "SYSTEM_STATUS.md"
+  ],
+  "frozen_sha256": {
+    "adapters/supermind_s1_minute_backtest.py": "c1e87739dcea419665650e4d714ea8d5a414a9ac849cd08d7596c30dcdfaf9e5",
+    "runtime/s1_daily.csv": "e741a2bc7c5d0d6bb9e542fb10c30737592f720e3b0b089d29f268398ce38b29"
+  },
+  "tests_passed": 301,
+  "signal_months": 36,
+  "independently_recomputed_windows": 16252,
+  "daily_account_comparisons": 1460,
+  "fill_account_comparisons": 112,
+  "platform_original_restored": true,
+  "decision": "M0 failed to improve returns; research only, not adopted",
+  "limitations": [
+    "A-share small-account adaptation, not original Clenow performance",
+    "Same fills with independent account reconstruction; not RQAlpha matching validation",
+    "Daily close drawdown only; full-minute drawdown not validated",
+    "Account-constraint overlay not run",
+    "No live orders or changes to formal strategy and holdings"
+  ],
+  "evidence_sha256": {
+    "adapters/supermind_extmom_screen.py": "3ae1859b0af491ae1e695eefc34c1eea6e945d043000efc29fa09b6665afbaa0",
+    "CHANGELOG.md": "323def596048601b9f8e9c838e6e97d9d5313b042408ef053d9c7566046e20e9",
+    "README.md": "f6b3913caa6e043c1d337b2a8eddd5a69433187a01c0cab0d2960d58a802ab97",
+    "reports/external_momentum/000563_bonus_source.txt": "6f180187181b127a68bc6f56ac051bc1dd2a2a3716ce41b72324ddc2446db382",
+    "reports/external_momentum/002030_bonus_source.txt": "6b456e1f580be2fea08e8f6509a0bd08f41efb822f163043ec49408e8fef2eab",
+    "reports/external_momentum/002030_par_source.txt": "ebbd418e3e382b282f98e5c63b5331ad13b415a0ceb0f6b09bec3f70b2e9d068",
+    "reports/external_momentum/002414_bonus_source.txt": "569b11d44d4b09e9c9612b415663b976e3231ae0ad39e8f6c9b9e4658fbd81fb",
+    "reports/external_momentum/600161_bonus_source.txt": "167de0fcf359740d4250fdefab1c5f4035edb7165d7214bbaff7a8d1933b8088",
+    "reports/external_momentum/600161_par_source.txt": "fe860a4c22945bb1e75f79c38d0031daffd3b7a5935d9717d37004e135ef913b",
+    "reports/external_momentum/600270_delisting_source.txt": "1a8eadcf32f6a5f84413490eab47a040ffbd19ce1bc63edc6e9bf2233b6338d1",
+    "reports/external_momentum/account_verification.json": "c9ae28aaf637335d611fbc2ae7a09682f175d35ba6b4c1b59300e6124b5b480d",
+    "reports/external_momentum/attribution.json": "b53d7bec8cbb8c9bc8bd86aabceb24e9f67c1d6803d5fd89513f09ad7b88ca39",
+    "reports/external_momentum/comparison.json": "8cdfcde9270e4a662ff94622e0bf26668b4b5251c0d8e95cec80d3060b558672",
+    "reports/external_momentum/corporate_events.json": "8fec0f8120602b83d3cbddc06a6e109c4d19571f7b4c05d48de03933662e7d83",
+    "reports/external_momentum/data_export.txt": "cdc6d6084f9d11ead39b02c0d3e38d0fd4cda0cb8e40e5165c6f457973833bfe",
+    "reports/external_momentum/data_export_02.txt": "848064e42bb5f6e6e1fca7356c3bec91bafe2cb6d6cf0c87534e6ca923cdbfda",
+    "reports/external_momentum/data_export_03.txt": "8178eeeeb5d318c7ced9c1654dc2f2b2edb111a28cea44d04982a45d0c7734d4",
+    "reports/external_momentum/data_export_failures.json": "95d334f3f8f9b2d285db6d96c6ebf397daa6a2f2a65c0bda66f55486a2eeccf5",
+    "reports/external_momentum/data_probe.py": "8346f56d0ea4616c6d8d523e78567ad85311863bbcf8ee282a010008bf4c67c8",
+    "reports/external_momentum/data_probe_02.py": "109e6d6d1ccfc52d8a2c8b8ba4b63fd58a393e9b34d192f54a14ffda483e5bce",
+    "reports/external_momentum/data_probe_03.py": "cfe13ead40965b41482d0fa0ab75859de2fdd707b5ea81b6dd6018bab463faa9",
+    "reports/external_momentum/data_requests.json": "f3a8960cae91dab27194e72ea931ef3832c3d035d87861050946bcca67f3cf03",
+    "reports/external_momentum/failed_export_01.json": "1daf61a6cf97db7cf6a702e988bbe1eecd260cb1e2a8320c2e619542398033a5",
+    "reports/external_momentum/input_audit.json": "5da013f082d369e9b0a3c63a4b1b3b0c4b3b4476f56e77a0f62f6cc8917aaae4",
+    "reports/external_momentum/M0_cost1.0.json": "8cdb55cd987d38541fcd78df02a1aba4fd5333c340b584ec691d91453a0b8125",
+    "reports/external_momentum/M0_cost1.5.json": "621ce34f6d5c2a4f016cd5b25f118ccc3ca2b841ce762c74071a0627a56d717d",
+    "reports/external_momentum/platform_before.py": "03b59b685aec9cf324ea8383705539b941577077da069ba22b5e6abc1416456f",
+    "reports/external_momentum/platform_reports.json": "05a7d06b879564ccfbf7fb60fa0233f607ea14f8637729ec34bba2ca90c19306",
+    "reports/external_momentum/platform_restore.json": "c57821594919947d91442b405c255c16b9059b2a92e98b341d5f641bb1347811",
+    "reports/external_momentum/PROTOCOL.md": "05da4b0c4a30bef2eb8cb353cc3079fa0804350727f72acb8230f51c7a495340",
+    "reports/external_momentum/replay_attempts.json": "5cc1df797781f930d3676869649e1df669c3aa120e7f305eb000ce7eb6e89073",
+    "reports/external_momentum/RESULT.md": "6e99508c3064a0bbbe296ca91110ba6191e20538b69e22f2c48c42c293097eef",
+    "reports/external_momentum/run_status.json": "6009310c0583d6adc4a12bf222b283c5a641426811df6ff09b6050641b334ac5",
+    "reports/external_momentum/screen.json": "65674b0bcd74b8609ca9b620b83efe9864599dae52d04a06b2f7e3e58b29c56d",
+    "reports/external_momentum/screen_export.txt": "95e18d9cb5a9edb21ee263ddacbc56e30b4c705172afb43a77047ae865fc0f25",
+    "reports/external_momentum/screen_export_2018.txt": "1b1bd25db787b2d7e1d93447032fccd003caf2cc6ef0911697b2f82cfadbc1d5",
+    "reports/external_momentum/screen_export_2019.txt": "4f93b527b74a8bd3501e29babe72ce53ab3a19cec1d249017b46368d57e0ecf5",
+    "reports/external_momentum/screen_export_2020.txt": "328b27f41484bd72418243ee382afdb5f6b788aacfe15fbb2964b996190656b8",
+    "reports/external_momentum/screen_probe_2018.py": "0e92c4bfd02e2132adc9fe528656966fb9943c707cf64d1c7fd5c61ad6182953",
+    "reports/external_momentum/screen_probe_2019.py": "893436537d5e7f7ec5815b88771df0513057f35f45d73477815f1f184fb46748",
+    "reports/external_momentum/screen_probe_2020.py": "9475ea2b08872b910d5b686cc9e1629179e1e83ca8397bc93d1395e1b2d73c9e",
+    "reports/external_momentum/test_record.json": "8dd7a027d19dfc94e8618db3e37d933fba1823c054bdde6ab3d851fc2b932bac",
+    "reports/external_momentum/universe_resolution.json": "24a08b291f05df71152b0bbf8946b7222074a1432d6f6f5f66230eb0c7496993",
+    "src/external_momentum.py": "0d868a420903079137543247ee61d6080af15e58ab4c428f767f5e9af423aaa4",
+    "src/external_momentum_corporate.py": "739f541cd624b13c4a8106ac19468785b9e4a2a7bbe1deb5d584c650b67839d1",
+    "src/external_momentum_replay.py": "b217f905ebacfd680970fc79b3e8aaaa7ef1cbd0adf291cc82efd31e8e071db8",
+    "src/prepare_extmom_data.py": "71be4f37d73ffc1837ec1945b88dcda6d8c1ba541f770fa92b7eb4ffd9337105",
+    "src/report_external_momentum.py": "a157ed462df3e411cb451e785bf301f76485e84830f97ef31e138252ce748a77",
+    "src/run_external_momentum.py": "ce673f02ac8a0f8af03b1ed35b3f86d2f427219d0bd61e6d78cfbbb396aa5d56",
+    "src/verify_external_momentum.py": "0d80e4a5c038c4dbd598879bee729e18e031dd8ddf8501f7c7bef9ff0535f18d",
+    "SYSTEM_STATUS.md": "6d5dc4e79b5d9b2f9094df0030db98413b96f0c42f11f1999afec548fd59bd15",
+    "tests/test_external_momentum.py": "7bcb6b9ca822259637925bfe35f100cf0b9c264ff63ae6c133e3643d1a3d209c"
+  }
+}

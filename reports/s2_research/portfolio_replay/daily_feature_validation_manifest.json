@@ -1,0 +1,15 @@
+{
+  "module_tests": 170,
+  "core_tests": 6,
+  "failures": 0,
+  "integrity": "PASS",
+  "formal_optimization_runs": 0,
+  "sha256": {
+    "adapters/supermind_s1_minute_backtest.py": "c1e87739dcea419665650e4d714ea8d5a414a9ac849cd08d7596c30dcdfaf9e5",
+    "adapters/supermind_feature_history_probe.py": "2c9353882de36115e883fbcdeefe47c566a364f1fd5732306d515311812a6e95",
+    "src/research_daily_features.py": "44ae99a69d8c73f4a10bbd030d17a298d90a2a20744868f5ab0fad7564a35289",
+    "src/build_history_sample_bundle.py": "98df5b30008b371f84cffdff79e1d2e98e22561d8012a23b327efc6f8090cbff",
+    "reports/s2_research/feature_export_6a9fdb7054104300b63c389a.txt": "9bbb80ecc0a2de40d27dd42a31ce44e9282d2cf413abb6a736d85379ca7de55b",
+    "reports/s2_research/portfolio_replay/historical_daily_features.json": "aa5e83f5518267a4d28258a758e6d9ab77f241e333f201cc315e0d1de0732d4b"
+  }
+}

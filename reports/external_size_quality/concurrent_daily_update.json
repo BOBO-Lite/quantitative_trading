@@ -1,0 +1,43 @@
+{
+  "prior_rows_byte_identical": false,
+  "reconstructed_before_sha256": "7dd8112197654a341d344155a19f3f4be90cc1895f732da15536b14975a5c3fd",
+  "appended_rows": 3195,
+  "current_hash_matches_manifest": true,
+  "update_manifest": {
+    "schema_version": 1,
+    "source": "public_eod_incremental",
+    "benchmark_provider": "tencent_public_fallback",
+    "read_only_market_data": true,
+    "generated_at": "2026-09-09T15:21:46+08:00",
+    "target_date": "2026-09-09",
+    "status": "UPDATED",
+    "daily_action": "append",
+    "benchmark_action": "append",
+    "minimum_coverage": 0.995,
+    "coverage": 1.0,
+    "quality": {
+      "snapshot_symbols": 3195,
+      "accepted_symbols": 3195,
+      "rejected": [],
+      "stale_traded_symbols": [],
+      "metadata_missing_symbols": [],
+      "paused_symbols": 7,
+      "mode": "closing_snapshot_sina_with_eastmoney_fallback",
+      "requested_symbols": 3195,
+      "quote_missing_symbols": [],
+      "quote_failures": []
+    },
+    "daily_sha256_before": "e741a2bc7c5d0d6bb9e542fb10c30737592f720e3b0b089d29f268398ce38b29",
+    "daily_sha256_after": "aaae5e1bf17b043c01b8f556122a7c9a5581c509da75a830eab68932953eedfe",
+    "benchmark_sha256_before": "2a80f71cb1f81a829835ff56a9c5e7137af6280ede6774c673253160cd14752d",
+    "benchmark_sha256_after": "7127df0336322073a878cf8845bc90b9a952fb65f82c0de482832ebbe83ed96a",
+    "elapsed_seconds": 29.844,
+    "limitations": [
+      "东方财富公开接口不是带服务承诺的正式行情源",
+      "当前名称用于 ST 状态，仅适合当日研究扫描",
+      "股票代码池来自最近一次已验收元数据，新上市代码需周期性刷新股票池",
+      "创业板、科创板和北交所按账户权限硬排除，不参与增量覆盖率或候选排名",
+      "程序不会自动下单、撤单或读取资金账户"
+    ]
+  }
+}

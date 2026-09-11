@@ -1,0 +1,53 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+HI！
+mx_69lp3klgu
+全局搜索
+
+需要帮助？
+
+试试AI小助手吧
+
+< S1执行修正版_v3_研究验收
+返回策略目录
+返回策略编辑
+返回回测列表
+
+回测日期：2026-09-04 至 2026-09-04
+|
+资金：30,000.00
+|
+频率：分钟
+|
+总运行时长：253秒
+（完成）
+
+导出结果
+绩效分析
+开启模拟交易
+分享至社区
+收益概览
+交易明细
+历史持仓
+输出日志
+收益
+Alpha
+Beta
+Sharpe
+Sortino
+Information Ratio
+Volatility
+最大回撤
+
+2026-09-04 09:00:00 - INFO
+
+日志条数超过限制,以下日志省略
+
+2026-09-04 09:00:00 - INFO
+
+MINBUNDLE tech1_2019-11-21 9 17 151522 f97989953c8fb5d8cc1441b8f8c1db8cbfc6d65ef4a8232bd92ee8ab4748c053 xmuUeE2eqEO+mfNDIZuV/y4qicevUMlNgiK5MaY0yFfGdUrXVo9HJ3lMT0u3ueW2dgrU+7SwFM1S4sGKrXVFjFMQJhHRplEpCU/OhKYSt5f0sMVV4g/9/nAWR1ypVJT8NCzEKvJ6Zq/zZKPmtxROLmY+//mr/+eTwvmkcEjhKJ/pXF//43/4N6dwTM7TQxMpMDjxgt1vPzAtX85LxiPcW/7+X/+Tkp5ccf1CsJ6YTqUQN174U+nVvw3Ws9o3oZPnt6qeahhUPTk9R7geSVd/SdVz38QnnfNJ53zSOX8WnXOlX9SzlSglV3yx1Zes1JyIktEmRSha5rdcp7cSXae8oKUfSqssJSmryYnWnZu25ZTnSkIgeZC03ywrwUd940tK4KpvXQGrySQ9m3238FSEk/Tlz7quXKE/W52VyahXHqpgOxn05nhd5NQ9XSrtLI688qo7e27ySnXDlcvqyi5y98A6r35ZWeGauEj1V3XMm8DJJjxtq7ZWFZ7busB690UJma9qgL8bUOfWndd2o9pqSM8eyc

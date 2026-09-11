@@ -1,0 +1,106 @@
+[
+  {
+    "mode": "L",
+    "cost": 1.0,
+    "total": 7,
+    "entered": 5,
+    "statuses": {
+      "NO_FILL": 1,
+      "COMPLETE": 5,
+      "NO_SIGNAL": 1
+    },
+    "wins": 2,
+    "losses": 3,
+    "median_increment_pct": -0.06941908955567523,
+    "diagnostic_sum_yuan": 64.81960975000402,
+    "years": {
+      "2019": {
+        "n": 3,
+        "diagnostic_sum_yuan": -234.16752916999758
+      },
+      "2020": {
+        "n": 2,
+        "diagnostic_sum_yuan": 298.9871389200016
+      }
+    },
+    "passed": false
+  },
+  {
+    "mode": "L",
+    "cost": 1.5,
+    "total": 9,
+    "entered": 5,
+    "statuses": {
+      "COMPLETE": 5,
+      "NO_FILL": 2,
+      "NO_SIGNAL": 2
+    },
+    "wins": 2,
+    "losses": 3,
+    "median_increment_pct": -0.7384963512688715,
+    "diagnostic_sum_yuan": 272.03353200249967,
+    "years": {
+      "2019": {
+        "n": 3,
+        "diagnostic_sum_yuan": -299.19720660250186
+      },
+      "2020": {
+        "n": 2,
+        "diagnostic_sum_yuan": 571.2307386050015
+      }
+    },
+    "passed": false
+  },
+  {
+    "mode": "LM",
+    "cost": 1.0,
+    "total": 7,
+    "entered": 4,
+    "statuses": {
+      "NO_FILL": 1,
+      "COMPLETE": 4,
+      "NO_SIGNAL": 2
+    },
+    "wins": 2,
+    "losses": 2,
+    "median_increment_pct": 0.629166932137252,
+    "diagnostic_sum_yuan": 75.73559867000131,
+    "years": {
+      "2019": {
+        "n": 2,
+        "diagnostic_sum_yuan": -223.2515402500003
+      },
+      "2020": {
+        "n": 2,
+        "diagnostic_sum_yuan": 298.9871389200016
+      }
+    },
+    "passed": false
+  },
+  {
+    "mode": "LM",
+    "cost": 1.5,
+    "total": 9,
+    "entered": 4,
+    "statuses": {
+      "COMPLETE": 4,
+      "NO_FILL": 2,
+      "NO_SIGNAL": 3
+    },
+    "wins": 1,
+    "losses": 3,
+    "median_increment_pct": -1.8003979193470925,
+    "diagnostic_sum_yuan": -299.9774581324991,
+    "years": {
+      "2019": {
+        "n": 3,
+        "diagnostic_sum_yuan": -374.8664410625006
+      },
+      "2020": {
+        "n": 1,
+        "diagnostic_sum_yuan": 74.88898293000148
+      }
+    },
+    "passed": false
+  }
+]

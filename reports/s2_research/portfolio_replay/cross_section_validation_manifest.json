@@ -1,0 +1,14 @@
+{
+  "module_tests": 179,
+  "core_tests": 6,
+  "failures": 0,
+  "integrity": "PASS",
+  "formal_strategy_validated": false,
+  "sha256": {
+    "adapters/supermind_s1_minute_backtest.py": "c1e87739dcea419665650e4d714ea8d5a414a9ac849cd08d7596c30dcdfaf9e5",
+    "adapters/supermind_cross_section_probe.py": "d165415f7ac8f3eee6a5376c1fd2c19ef1ec2be306bc7a9e5a1fa26a61d52381",
+    "src/audit_historical_cross_section.py": "4d15c15e2c4a813694dc2833536bd0411a9f56ba02d710cddc262e8be170c48a",
+    "reports/s2_research/cross_export_6a9fdf61d8cd0b00b6bd6729.txt": "f2740bb26899492c9f4ee3b96edf5c23dbba6bc6d05590958449e9232760d2e7",
+    "reports/s2_research/portfolio_replay/historical_ranked_features.json": "7c5033d84d35a6d1453c6a7cb9fc271188a97b9d3ab1e0142ccf9eec3df55292"
+  }
+}

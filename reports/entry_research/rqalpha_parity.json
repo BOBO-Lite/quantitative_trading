@@ -1,0 +1,26 @@
+[
+  {
+    "cost": 1.0,
+    "status": "PASS_ENTRY_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 70,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 29201.970711330025,
+    "final_equity": 29201.970711330025,
+    "taxes": [],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "B1"
+  },
+  {
+    "cost": 1.5,
+    "status": "PASS_ENTRY_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 70,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 30205.630784649995,
+    "final_equity": 30205.63078465,
+    "taxes": [],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "B1"
+  }
+]

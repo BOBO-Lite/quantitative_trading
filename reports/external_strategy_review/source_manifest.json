@@ -1,0 +1,202 @@
+[
+  {
+    "repo": "charliedream1/ai_quant_trade",
+    "commit": "4e4cb796fab4fe59d7260a7654a6b902ef4d85a9",
+    "path": "ai_notes/02_理论/3_选股/小市值策略.md",
+    "url": "https://github.com/charliedream1/ai_quant_trade/blob/4e4cb796fab4fe59d7260a7654a6b902ef4d85a9/ai_notes/02_%E7%90%86%E8%AE%BA/3_%E9%80%89%E8%82%A1/%E5%B0%8F%E5%B8%82%E5%80%BC%E7%AD%96%E7%95%A5.md",
+    "local": "reports/external_strategy_review/sources/charliedream1__ai_quant_trade/ai_notes/02_理论/3_选股/小市值策略.md",
+    "sha256": "7642a15fb4b41c26dfaa0cdcff02e8932d4406b0b1c158e5dc198859ef9d0909"
+  },
+  {
+    "repo": "charliedream1/ai_quant_trade",
+    "commit": "4e4cb796fab4fe59d7260a7654a6b902ef4d85a9",
+    "path": "egs_online_platform/聚宽_JoinQuant/03_模拟盘及实盘/01_股票规则类/小市值+多均线.py",
+    "url": "https://github.com/charliedream1/ai_quant_trade/blob/4e4cb796fab4fe59d7260a7654a6b902ef4d85a9/egs_online_platform/%E8%81%9A%E5%AE%BD_JoinQuant/03_%E6%A8%A1%E6%8B%9F%E7%9B%98%E5%8F%8A%E5%AE%9E%E7%9B%98/01_%E8%82%A1%E7%A5%A8%E8%A7%84%E5%88%99%E7%B1%BB/%E5%B0%8F%E5%B8%82%E5%80%BC%2B%E5%A4%9A%E5%9D%87%E7%BA%BF.py",
+    "local": "reports/external_strategy_review/sources/charliedream1__ai_quant_trade/egs_online_platform/聚宽_JoinQuant/03_模拟盘及实盘/01_股票规则类/小市值+多均线.py",
+    "sha256": "92e0cb8afe72066f5f979f0d2dce6b940f0253548d26c50b9c373a5ccaa4def1"
+  },
+  {
+    "repo": "charliedream1/ai_quant_trade",
+    "commit": "4e4cb796fab4fe59d7260a7654a6b902ef4d85a9",
+    "path": "egs_online_platform/聚宽_JoinQuant/03_模拟盘及实盘/01_股票规则类/强势股+趋势预测.py",
+    "url": "https://github.com/charliedream1/ai_quant_trade/blob/4e4cb796fab4fe59d7260a7654a6b902ef4d85a9/egs_online_platform/%E8%81%9A%E5%AE%BD_JoinQuant/03_%E6%A8%A1%E6%8B%9F%E7%9B%98%E5%8F%8A%E5%AE%9E%E7%9B%98/01_%E8%82%A1%E7%A5%A8%E8%A7%84%E5%88%99%E7%B1%BB/%E5%BC%BA%E5%8A%BF%E8%82%A1%2B%E8%B6%8B%E5%8A%BF%E9%A2%84%E6%B5%8B.py",
+    "local": "reports/external_strategy_review/sources/charliedream1__ai_quant_trade/egs_online_platform/聚宽_JoinQuant/03_模拟盘及实盘/01_股票规则类/强势股+趋势预测.py",
+    "sha256": "558ec0c3ef44692b6839e237e7d706b1a4fcd7e23f94a4c2a4763ce08a3fc4c0"
+  },
+  {
+    "repo": "JizhiXiang/Quant-Strategy",
+    "commit": "7a3fbbae48fefe77047bf1a9611bb88a378c3630",
+    "path": "joinquant_rsrs因子_年均18%收益.py",
+    "url": "https://github.com/JizhiXiang/Quant-Strategy/blob/7a3fbbae48fefe77047bf1a9611bb88a378c3630/joinquant_rsrs%E5%9B%A0%E5%AD%90_%E5%B9%B4%E5%9D%8718%25%E6%94%B6%E7%9B%8A.py",
+    "local": "reports/external_strategy_review/sources/JizhiXiang__Quant-Strategy/joinquant_rsrs因子_年均18%收益.py",
+    "sha256": "85245ff4ad863a4da49ae06ee2dcfc9be2df83d2cb9f097cd6b1d748bc20f02a"
+  },
+  {
+    "repo": "JizhiXiang/Quant-Strategy",
+    "commit": "7a3fbbae48fefe77047bf1a9611bb88a378c3630",
+    "path": "joinquant_价值投资-选股策略.py",
+    "url": "https://github.com/JizhiXiang/Quant-Strategy/blob/7a3fbbae48fefe77047bf1a9611bb88a378c3630/joinquant_%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84-%E9%80%89%E8%82%A1%E7%AD%96%E7%95%A5.py",
+    "local": "reports/external_strategy_review/sources/JizhiXiang__Quant-Strategy/joinquant_价值投资-选股策略.py",
+    "sha256": "ff97685a337298bd59a5e4fb3206e0977fd6840357e5f3cb5e330acdc96f42b1"
+  },
+  {
+    "repo": "JizhiXiang/Quant-Strategy",
+    "commit": "7a3fbbae48fefe77047bf1a9611bb88a378c3630",
+    "path": "README.md",
+    "url": "https://github.com/JizhiXiang/Quant-Strategy/blob/7a3fbbae48fefe77047bf1a9611bb88a378c3630/README.md",
+    "local": "reports/external_strategy_review/sources/JizhiXiang__Quant-Strategy/README.md",
+    "sha256": "5f150e8f2e5a7c7b8f918f1cb2a963c209a06a72f8552c2ed5e3634a2a90027b"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "path": "examples/benchmarks/LightGBM/README.md",
+    "url": "https://github.com/microsoft/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/examples/benchmarks/LightGBM/README.md",
+    "local": "reports/external_strategy_review/sources/microsoft__qlib/examples/benchmarks/LightGBM/README.md",
+    "sha256": "3d625defe10d1854a89605bb14ae6af1db18306ea3c8ab51d5f5cfcddd5654bf"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "path": "examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml",
+    "url": "https://github.com/microsoft/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml",
+    "local": "reports/external_strategy_review/sources/microsoft__qlib/examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml",
+    "sha256": "0cbe1f729f43a2b8cd735759e6244c2e9f8db967555bfe24a7143fce4605d680"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "path": "examples/benchmarks/README.md",
+    "url": "https://github.com/microsoft/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/examples/benchmarks/README.md",
+    "local": "reports/external_strategy_review/sources/microsoft__qlib/examples/benchmarks/README.md",
+    "sha256": "db76060037d83ecec8c4fa0d506155fab1cd57fe5318a6dd289b0f6dfaca7ddb"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "path": "examples/run_all_model.py",
+    "url": "https://github.com/microsoft/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/examples/run_all_model.py",
+    "local": "reports/external_strategy_review/sources/microsoft__qlib/examples/run_all_model.py",
+    "sha256": "805d370b14c78d29fc76edb7ae9f9f18694fba77d8d548a095cfb00cc24cfdac"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "path": "LICENSE",
+    "url": "https://github.com/microsoft/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/LICENSE",
+    "local": "reports/external_strategy_review/sources/microsoft__qlib/LICENSE",
+    "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "path": "qlib/contrib/data/handler.py",
+    "url": "https://github.com/microsoft/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/qlib/contrib/data/handler.py",
+    "local": "reports/external_strategy_review/sources/microsoft__qlib/qlib/contrib/data/handler.py",
+    "sha256": "b621481c6009c39066c67c71390fd2bea635f56daf9f2c4e38817eff268e3232"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "path": "qlib/contrib/evaluate.py",
+    "url": "https://github.com/microsoft/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/qlib/contrib/evaluate.py",
+    "local": "reports/external_strategy_review/sources/microsoft__qlib/qlib/contrib/evaluate.py",
+    "sha256": "f4440ebaab095d7f239f5ea53fc8d9f686a304262a10223afb07d93b9d1da636"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "path": "qlib/contrib/strategy/signal_strategy.py",
+    "url": "https://github.com/microsoft/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/qlib/contrib/strategy/signal_strategy.py",
+    "local": "reports/external_strategy_review/sources/microsoft__qlib/qlib/contrib/strategy/signal_strategy.py",
+    "sha256": "b1b4145e94065879768cfc9750c08a7c3af8880d3c338e0de675f5fb6b78d932"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "path": "qlib/workflow/record_temp.py",
+    "url": "https://github.com/microsoft/qlib/blob/79633dd9506ea689e5400dea0197717b5b3d74b7/qlib/workflow/record_temp.py",
+    "local": "reports/external_strategy_review/sources/microsoft__qlib/qlib/workflow/record_temp.py",
+    "sha256": "38b37f03eaf4a3989e2a76eb7cfa561e0ce01948627a513f59eec4e46157ef1a"
+  },
+  {
+    "repo": "robertquant/python_jointquant",
+    "commit": "afa41b9094dbad7cfa581498fadc95de7be2dd42",
+    "path": "dividend_enhanced_strategy.py",
+    "url": "https://github.com/robertquant/python_jointquant/blob/afa41b9094dbad7cfa581498fadc95de7be2dd42/dividend_enhanced_strategy.py",
+    "local": "reports/external_strategy_review/sources/robertquant__python_jointquant/dividend_enhanced_strategy.py",
+    "sha256": "89c8cecf860029f034d4244002c29fcb176700b7cef73942bd6379cb7f48f55d"
+  },
+  {
+    "repo": "robertquant/python_jointquant",
+    "commit": "afa41b9094dbad7cfa581498fadc95de7be2dd42",
+    "path": "Low_Valuation_Stock_Selection.py",
+    "url": "https://github.com/robertquant/python_jointquant/blob/afa41b9094dbad7cfa581498fadc95de7be2dd42/Low_Valuation_Stock_Selection.py",
+    "local": "reports/external_strategy_review/sources/robertquant__python_jointquant/Low_Valuation_Stock_Selection.py",
+    "sha256": "4f5d1fa09556f39c6d4256d7ef402fd3e0dbc9f2c5c5c959db13302a8d537cf7"
+  },
+  {
+    "repo": "robertquant/python_jointquant",
+    "commit": "afa41b9094dbad7cfa581498fadc95de7be2dd42",
+    "path": "README.md",
+    "url": "https://github.com/robertquant/python_jointquant/blob/afa41b9094dbad7cfa581498fadc95de7be2dd42/README.md",
+    "local": "reports/external_strategy_review/sources/robertquant__python_jointquant/README.md",
+    "sha256": "8dfbb68577f24da82320bc95eff2f508266cc56c0edc2238e89e7a8e086aa51a"
+  },
+  {
+    "repo": "robertquant/python_jointquant",
+    "commit": "afa41b9094dbad7cfa581498fadc95de7be2dd42",
+    "path": "rsrs_value_strategy.py",
+    "url": "https://github.com/robertquant/python_jointquant/blob/afa41b9094dbad7cfa581498fadc95de7be2dd42/rsrs_value_strategy.py",
+    "local": "reports/external_strategy_review/sources/robertquant__python_jointquant/rsrs_value_strategy.py",
+    "sha256": "eb294c6a02595d6dfd3ea2d7a417fd61fdebb652ce729760dcbb9fa545deca1d"
+  },
+  {
+    "repo": "robertquant/python_jointquant",
+    "commit": "afa41b9094dbad7cfa581498fadc95de7be2dd42",
+    "path": "small_cap.py",
+    "url": "https://github.com/robertquant/python_jointquant/blob/afa41b9094dbad7cfa581498fadc95de7be2dd42/small_cap.py",
+    "local": "reports/external_strategy_review/sources/robertquant__python_jointquant/small_cap.py",
+    "sha256": "366689acd815f16332a5990c38bbbcb221af2ce13c906499005d14f42a8ba686"
+  },
+  {
+    "repo": "skyte/momentum",
+    "commit": "9deee370b2122ce8c8930a8aaa5b46cf8d28aa41",
+    "path": "config.yaml",
+    "url": "https://github.com/skyte/momentum/blob/9deee370b2122ce8c8930a8aaa5b46cf8d28aa41/config.yaml",
+    "local": "reports/external_strategy_review/sources/skyte__momentum/config.yaml",
+    "sha256": "b2f38047f3cc09ea17ae24b659c981e33cdecd7acd3047afc7383fe6d733fb60"
+  },
+  {
+    "repo": "skyte/momentum",
+    "commit": "9deee370b2122ce8c8930a8aaa5b46cf8d28aa41",
+    "path": "LICENSE",
+    "url": "https://github.com/skyte/momentum/blob/9deee370b2122ce8c8930a8aaa5b46cf8d28aa41/LICENSE",
+    "local": "reports/external_strategy_review/sources/skyte__momentum/LICENSE",
+    "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+  },
+  {
+    "repo": "skyte/momentum",
+    "commit": "9deee370b2122ce8c8930a8aaa5b46cf8d28aa41",
+    "path": "momentum.py",
+    "url": "https://github.com/skyte/momentum/blob/9deee370b2122ce8c8930a8aaa5b46cf8d28aa41/momentum.py",
+    "local": "reports/external_strategy_review/sources/skyte__momentum/momentum.py",
+    "sha256": "02abd301053bcc9d2410e621aed166e6effd040092b5f033fb4e0d3553504398"
+  },
+  {
+    "repo": "skyte/momentum",
+    "commit": "9deee370b2122ce8c8930a8aaa5b46cf8d28aa41",
+    "path": "momentum_posis.py",
+    "url": "https://github.com/skyte/momentum/blob/9deee370b2122ce8c8930a8aaa5b46cf8d28aa41/momentum_posis.py",
+    "local": "reports/external_strategy_review/sources/skyte__momentum/momentum_posis.py",
+    "sha256": "189df3f8015a95d98c83bc90f8b863b065182015d68b53616f486c9e406c6fc9"
+  },
+  {
+    "repo": "skyte/momentum",
+    "commit": "9deee370b2122ce8c8930a8aaa5b46cf8d28aa41",
+    "path": "README.md",
+    "url": "https://github.com/skyte/momentum/blob/9deee370b2122ce8c8930a8aaa5b46cf8d28aa41/README.md",
+    "local": "reports/external_strategy_review/sources/skyte__momentum/README.md",
+    "sha256": "75b62def1ba457c2d2075654047219238069fdc307b88c26c2b75fc95d9a880e"
+  }
+]

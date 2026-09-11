@@ -1,0 +1,122 @@
+[
+  {
+    "mode": "E1R",
+    "cost": 1.0,
+    "return_pct": 5.852762801966738,
+    "drawdown_pct": 14.145364071734646,
+    "equity": 31755.828840590024,
+    "buys": 40,
+    "events": 2,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "E1R",
+    "cost": 1.5,
+    "return_pct": 3.700805848883326,
+    "drawdown_pct": 13.742426000548758,
+    "equity": 31110.241754664996,
+    "buys": 40,
+    "events": 2,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "FR",
+    "cost": 1.0,
+    "return_pct": 6.563189399366753,
+    "drawdown_pct": 14.04954998110023,
+    "equity": 31968.956819810024,
+    "buys": 36,
+    "events": 3,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "FU",
+    "cost": 1.0,
+    "return_pct": 3.7974960089667498,
+    "drawdown_pct": 15.42641570656592,
+    "equity": 31139.248802690025,
+    "buys": 39,
+    "events": 8,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "E1U",
+    "cost": 1.0,
+    "return_pct": 3.69572051210012,
+    "drawdown_pct": 15.157669753403646,
+    "equity": 31108.716153630034,
+    "buys": 44,
+    "events": 8,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "E1U",
+    "cost": 1.5,
+    "return_pct": 0.9975637800749837,
+    "drawdown_pct": 15.192172007169392,
+    "equity": 30299.269134022492,
+    "buys": 44,
+    "events": 8,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "FU",
+    "cost": 1.5,
+    "return_pct": 0.0127073409666556,
+    "drawdown_pct": 15.156083856176828,
+    "equity": 30003.81220229,
+    "buys": 41,
+    "events": 11,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "E1H",
+    "cost": 1.0,
+    "return_pct": 5.852762801966738,
+    "drawdown_pct": 14.145364071734646,
+    "equity": 31755.828840590024,
+    "buys": 40,
+    "events": 2,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "E1H",
+    "cost": 1.5,
+    "return_pct": 3.700805848883326,
+    "drawdown_pct": 13.742426000548758,
+    "equity": 31110.241754664996,
+    "buys": 40,
+    "events": 2,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "FH",
+    "cost": 1.5,
+    "return_pct": 3.8694613688083024,
+    "drawdown_pct": 12.712878393357252,
+    "equity": 31160.838410642493,
+    "buys": 38,
+    "events": 4,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "FH",
+    "cost": 1.0,
+    "return_pct": 8.170531230233413,
+    "drawdown_pct": 12.761702322233337,
+    "equity": 32451.159369070025,
+    "buys": 36,
+    "events": 4,
+    "status": "COMPLETED"
+  },
+  {
+    "mode": "FR",
+    "cost": 1.5,
+    "return_pct": 2.66045640394994,
+    "drawdown_pct": 12.909915289778851,
+    "equity": 30798.13692118498,
+    "buys": 58,
+    "events": 4,
+    "status": "COMPLETED"
+  }
+]

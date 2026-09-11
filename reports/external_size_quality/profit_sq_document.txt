@@ -1,0 +1,44 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+
+需要帮助？
+
+试试AI小助手吧
+
+全局搜索
+HI！mx_69lp3klgu
+
+如果您有本地使用其他数据的需求，请联系我们
+
+联系客服
+全部
+股票
+A股
+上市公司财务数据
+盈利能力表(单季度)
+盈利能力表(单季度)
+
+A股上市公司单季度盈利能力计算财务指标数据
+
+字段说明
+使用代码
+数据样例
+
+表名：profit_sq
+
+含义	字段
+净资产收益率roe-扣除非经常损益	roe_dnrgal
+总资产净利率roa	overall_assets_net_income_ratio
+销售净利率	net_profit_margin_on_sales
+销售毛利率	gross_sales_profits
+净利润／营业总收入	net_profit_div_income
+营业利润／营业总收入	opt_profit_div_income
+营业总成本／营业总收入	opt_cost_div_income
+管理费用／营业总收入	administration_cost_div_income
+净资产收益率roe（累计）	roe
+净资产收益率roe（单季度）	roe_one_season

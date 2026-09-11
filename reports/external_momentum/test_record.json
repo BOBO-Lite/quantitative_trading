@@ -1,0 +1,7 @@
+{
+  "command": "PYTHONPATH=src .venv-framework/Scripts/python.exe -X utf8 -m unittest discover -s tests -p test_*.py",
+  "status": "PASS",
+  "tests": 301,
+  "failures": 0,
+  "notes": "Observed completed command: Ran 301 tests in 3.209s; existing NumPy deprecation warnings only. New momentum tests: 15."
+}

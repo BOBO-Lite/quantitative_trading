@@ -1,0 +1,120 @@
+[
+  {
+    "cost": 1.0,
+    "status": "PASS_EXIT_EXTENSION_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 50,
+    "maximum_cash_or_equity_difference": 1.8189894035458565e-12,
+    "final_cash": 29221.198780790015,
+    "final_equity": 29221.198780790015,
+    "taxes": [
+      {
+        "datetime": "2019-04-16T09:35:00",
+        "amount": 28.0
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "E0"
+  },
+  {
+    "cost": 1.5,
+    "status": "PASS_EXIT_EXTENSION_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 74,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 30369.840030245003,
+    "final_equity": 30369.840030245003,
+    "taxes": [
+      {
+        "datetime": "2019-04-16T09:35:00",
+        "amount": 28.0
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "E0"
+  },
+  {
+    "cost": 1.0,
+    "status": "PASS_EXIT_EXTENSION_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 76,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 31723.950894850033,
+    "final_equity": 31723.95089485003,
+    "taxes": [
+      {
+        "datetime": "2019-04-24T09:32:00",
+        "amount": 28.0
+      },
+      {
+        "datetime": "2019-09-26T09:32:00",
+        "amount": 5.0
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "E1"
+  },
+  {
+    "cost": 1.5,
+    "status": "PASS_EXIT_EXTENSION_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 76,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 31046.321775444994,
+    "final_equity": 31046.321775444994,
+    "taxes": [
+      {
+        "datetime": "2019-04-24T09:32:00",
+        "amount": 28.0
+      },
+      {
+        "datetime": "2019-09-26T09:32:00",
+        "amount": 5.0
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "E1"
+  },
+  {
+    "cost": 1.0,
+    "status": "PASS_EXIT_EXTENSION_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 70,
+    "maximum_cash_or_equity_difference": 7.275957614183426e-12,
+    "final_cash": 29783.65552374002,
+    "final_equity": 29783.655523740017,
+    "taxes": [
+      {
+        "datetime": "2019-04-24T09:32:00",
+        "amount": 28.0
+      },
+      {
+        "datetime": "2019-09-26T09:32:00",
+        "amount": 5.0
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "E2"
+  },
+  {
+    "cost": 1.5,
+    "status": "PASS_EXIT_EXTENSION_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 60,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 30728.734834265004,
+    "final_equity": 30728.734834265,
+    "taxes": [
+      {
+        "datetime": "2019-04-24T09:32:00",
+        "amount": 28.0
+      },
+      {
+        "datetime": "2019-09-26T09:32:00",
+        "amount": 5.0
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "E2"
+  }
+]

@@ -1,0 +1,177 @@
+{
+  "rows": [
+    {
+      "mode": "baseline",
+      "cost": 1.0,
+      "status": "COMPLETED",
+      "return_pct": 5.746502982833435,
+      "max_drawdown_pct": 13.624561637023158,
+      "final_equity": 31723.95089485003,
+      "delta_yuan": 0.0,
+      "delta_return_pp": 0.0,
+      "delta_drawdown_pp": 0.0,
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.937691624205122,
+        "2020": -4.393240121098052
+      },
+      "fills": 76,
+      "buys": 38,
+      "common_buy_times": 38,
+      "last_fill": "2020-05-25T09:32:00",
+      "fees": 506.91810515000003
+    },
+    {
+      "mode": "baseline",
+      "cost": 1.5,
+      "status": "COMPLETED",
+      "return_pct": 3.4877392514833128,
+      "max_drawdown_pct": 13.216346239141874,
+      "final_equity": 31046.321775444994,
+      "delta_yuan": 0.0,
+      "delta_return_pp": 0.0,
+      "delta_drawdown_pp": 0.0,
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 4.337903932658382,
+        "2020": -3.9772229983527363
+      },
+      "fills": 76,
+      "buys": 38,
+      "common_buy_times": 38,
+      "last_fill": "2020-05-25T09:32:00",
+      "fees": 757.795224555
+    },
+    {
+      "mode": "rs20",
+      "cost": 1.0,
+      "status": "COMPLETED",
+      "return_pct": 4.1853737640000555,
+      "max_drawdown_pct": 12.331058152850826,
+      "final_equity": 31255.612129200013,
+      "delta_yuan": -468.3387656500163,
+      "delta_return_pp": -1.5611292188333792,
+      "delta_drawdown_pp": -1.2935034841723314,
+      "yearly": {
+        "2018": 3.685149446166669,
+        "2019": 4.907510891912814,
+        "2020": -4.218063486040435
+      },
+      "fills": 76,
+      "buys": 38,
+      "common_buy_times": 24,
+      "last_fill": "2020-03-10T09:32:00",
+      "fees": 505.0598708
+    },
+    {
+      "mode": "rs20",
+      "cost": 1.5,
+      "status": "COMPLETED",
+      "return_pct": -1.4568865101166284,
+      "max_drawdown_pct": 12.757075639515014,
+      "final_equity": 29562.934046965012,
+      "delta_yuan": -1483.387728479982,
+      "delta_return_pp": -4.944625761599941,
+      "delta_drawdown_pp": -0.4592705996268598,
+      "yearly": {
+        "2018": 3.5527493288749934,
+        "2019": 0.8344292903295747,
+        "2020": -5.625252805593517
+      },
+      "fills": 78,
+      "buys": 39,
+      "common_buy_times": 22,
+      "last_fill": "2020-03-10T09:32:00",
+      "fees": 765.866953035
+    },
+    {
+      "mode": "stable60",
+      "cost": 1.0,
+      "status": "COMPLETED",
+      "return_pct": -5.173940657799969,
+      "max_drawdown_pct": 12.49045196723534,
+      "final_equity": 28447.81780266001,
+      "delta_yuan": -3276.133092190019,
+      "delta_return_pp": -10.920443640633405,
+      "delta_drawdown_pp": -1.1341096697878195,
+      "yearly": {
+        "2018": 3.685149446166669,
+        "2019": -8.54422272744687,
+        "2020": 0.0
+      },
+      "fills": 60,
+      "buys": 30,
+      "common_buy_times": 18,
+      "last_fill": "2019-11-11T09:32:00",
+      "fees": 390.18419734
+    },
+    {
+      "mode": "stable60",
+      "cost": 1.5,
+      "status": "COMPLETED",
+      "return_pct": -5.046063731299988,
+      "max_drawdown_pct": 12.220228675926037,
+      "final_equity": 28486.180880610005,
+      "delta_yuan": -2560.140894834989,
+      "delta_return_pp": -8.5338029827833,
+      "delta_drawdown_pp": -0.996117563215837,
+      "yearly": {
+        "2018": 3.5527493288749934,
+        "2019": -8.3037998661589,
+        "2020": 0.0
+      },
+      "fills": 60,
+      "buys": 30,
+      "common_buy_times": 16,
+      "last_fill": "2019-11-11T09:32:00",
+      "fees": 583.80711939
+    },
+    {
+      "mode": "cap2",
+      "cost": 1.0,
+      "status": "COMPLETED",
+      "return_pct": 2.4182091914667136,
+      "max_drawdown_pct": 12.383767538621193,
+      "final_equity": 30725.46275744001,
+      "delta_yuan": -998.4881374100187,
+      "delta_return_pp": -3.328293791366721,
+      "delta_drawdown_pp": -1.240794098401965,
+      "yearly": {
+        "2018": 2.7854154906000073,
+        "2019": 6.114447349106755,
+        "2020": -6.098794996038648
+      },
+      "fills": 74,
+      "buys": 37,
+      "common_buy_times": 20,
+      "last_fill": "2020-05-25T09:32:00",
+      "fees": 493.74924256
+    },
+    {
+      "mode": "cap2",
+      "cost": 1.5,
+      "status": "COMPLETED",
+      "return_pct": 1.2530913275833333,
+      "max_drawdown_pct": 12.105496816807849,
+      "final_equity": 30375.927398275,
+      "delta_yuan": -670.394377169996,
+      "delta_return_pp": -2.2346479238999795,
+      "delta_drawdown_pp": -1.110849422334026,
+      "yearly": {
+        "2018": 2.8480840226750015,
+        "2019": 5.840489449549646,
+        "2020": -6.983445952118994
+      },
+      "fills": 84,
+      "buys": 42,
+      "common_buy_times": 18,
+      "last_fill": "2020-05-28T09:32:00",
+      "fees": 833.4216017250001
+    }
+  ],
+  "decisions": {
+    "rs20": "本组收益负向或无改善",
+    "stable60": "本组收益负向或无改善",
+    "cap2": "本组收益负向或无改善"
+  }
+}

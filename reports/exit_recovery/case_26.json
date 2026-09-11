@@ -1,0 +1,42 @@
+{
+  "case": {
+    "cost": 1.5,
+    "mode": "L",
+    "symbol": "601828.SH",
+    "entry": "2020-01-20",
+    "exit": "2020-02-04",
+    "end": "2020-04-21",
+    "signal": null,
+    "trigger": {
+      "symbol": "601828.SH",
+      "entry_date": "2020-01-20",
+      "trigger_time": "2020-01-23T15:00:00",
+      "reason": "close_confirmed_stop",
+      "close_signal": true,
+      "holding_days": 4,
+      "route": "trend_breakout",
+      "drawdown": 0.05631126398135855,
+      "price": 11.68,
+      "stop": 11.881,
+      "entry_reference": 11.967925,
+      "initial_r": 0.3909999999999993,
+      "prior_context": {
+        "asof": "2020-01-22",
+        "volume_ratio": 1.2976644711044538,
+        "down": false,
+        "relative5": 0.04220950571762261,
+        "two_below_ma10": false
+      }
+    },
+    "original_quantity": 600,
+    "original_capital": 7188.3627113249995,
+    "original_profit": -1149.5816574749997,
+    "starting_cash": 6038.78105385
+  },
+  "result": {
+    "status": "NO_SIGNAL",
+    "increment": 0.0,
+    "fills": [],
+    "daily": []
+  }
+}

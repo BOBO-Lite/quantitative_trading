@@ -1,0 +1,46 @@
+[
+  {
+    "cost": 1.0,
+    "status": "COMPLETED",
+    "days": 2106,
+    "final": {
+      "date": "2026-09-04",
+      "cash": 29639.8,
+      "equity": 29639.8,
+      "receivable": 0,
+      "drawdown": 0.12525159515756779,
+      "paused": true,
+      "hard_halted": false,
+      "positions": {}
+    },
+    "metrics": {
+      "marked_return": -0.012006666666666721,
+      "max_close_drawdown": 0.12525159515756779,
+      "fees": 610.0,
+      "dividends_paid": 301.4
+    },
+    "block": null
+  },
+  {
+    "cost": 1.5,
+    "status": "COMPLETED",
+    "days": 2106,
+    "final": {
+      "date": "2026-09-04",
+      "cash": 29245.30000000003,
+      "equity": 29245.30000000003,
+      "receivable": 0,
+      "drawdown": 0.12998221011108213,
+      "paused": true,
+      "hard_halted": false,
+      "positions": {}
+    },
+    "metrics": {
+      "marked_return": -0.025156666666665717,
+      "max_close_drawdown": 0.12998221011108213,
+      "fees": 885.0,
+      "dividends_paid": 301.4
+    },
+    "block": null
+  }
+]

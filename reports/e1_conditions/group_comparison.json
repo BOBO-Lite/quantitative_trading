@@ -1,0 +1,636 @@
+{
+  "groups": [
+    {
+      "field": "ma20",
+      "value": "far10",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 59,
+            "signals": 720,
+            "mean_date_balanced_pct": 1.4324006835969805,
+            "excess_same_date_all_candidates_pp": 0.6867088757056248,
+            "raw_signal_win_pct": 53.888888888888886
+          },
+          "10": {
+            "days": 55,
+            "signals": 702,
+            "mean_date_balanced_pct": 2.0663318279961245,
+            "excess_same_date_all_candidates_pp": 0.9782684638978565,
+            "raw_signal_win_pct": 66.66666666666666
+          },
+          "20": {
+            "days": 55,
+            "signals": 702,
+            "mean_date_balanced_pct": 1.8190416718141993,
+            "excess_same_date_all_candidates_pp": 0.8219326076811424,
+            "raw_signal_win_pct": 75.49857549857549
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 68,
+            "signals": 1020,
+            "mean_date_balanced_pct": 0.921313812244041,
+            "excess_same_date_all_candidates_pp": 0.6195984863114014,
+            "raw_signal_win_pct": 36.56862745098039
+          },
+          "10": {
+            "days": 68,
+            "signals": 1020,
+            "mean_date_balanced_pct": 1.7415146599129325,
+            "excess_same_date_all_candidates_pp": 0.1579459406375067,
+            "raw_signal_win_pct": 38.92156862745098
+          },
+          "20": {
+            "days": 66,
+            "signals": 1014,
+            "mean_date_balanced_pct": 6.098034112492304,
+            "excess_same_date_all_candidates_pp": 1.3139766224818423,
+            "raw_signal_win_pct": 49.5069033530572
+          }
+        }
+      },
+      "supported_for_account_test": true
+    },
+    {
+      "field": "ma20",
+      "value": "mid5to10",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 64,
+            "signals": 1463,
+            "mean_date_balanced_pct": 0.6721503921802343,
+            "excess_same_date_all_candidates_pp": 0.02628836855701286,
+            "raw_signal_win_pct": 54.4771018455229
+          },
+          "10": {
+            "days": 60,
+            "signals": 1418,
+            "mean_date_balanced_pct": 0.5660261402233816,
+            "excess_same_date_all_candidates_pp": -0.1301627856234118,
+            "raw_signal_win_pct": 65.79689703808181
+          },
+          "20": {
+            "days": 60,
+            "signals": 1418,
+            "mean_date_balanced_pct": 0.047601472117164416,
+            "excess_same_date_all_candidates_pp": -0.3063948238928425,
+            "raw_signal_win_pct": 68.26516220028209
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 81,
+            "signals": 1684,
+            "mean_date_balanced_pct": 0.7925918879500418,
+            "excess_same_date_all_candidates_pp": 0.28342611967767134,
+            "raw_signal_win_pct": 47.92161520190024
+          },
+          "10": {
+            "days": 80,
+            "signals": 1681,
+            "mean_date_balanced_pct": 2.183262087574743,
+            "excess_same_date_all_candidates_pp": 0.5616889946839312,
+            "raw_signal_win_pct": 48.720999405116
+          },
+          "20": {
+            "days": 77,
+            "signals": 1670,
+            "mean_date_balanced_pct": 5.175882214541784,
+            "excess_same_date_all_candidates_pp": 0.3743445943242685,
+            "raw_signal_win_pct": 55.32934131736526
+          }
+        }
+      },
+      "supported_for_account_test": false
+    },
+    {
+      "field": "ma20",
+      "value": "near5",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 62,
+            "signals": 409,
+            "mean_date_balanced_pct": 0.17842793439165555,
+            "excess_same_date_all_candidates_pp": -0.24519021791529666,
+            "raw_signal_win_pct": 46.454767726161364
+          },
+          "10": {
+            "days": 58,
+            "signals": 387,
+            "mean_date_balanced_pct": -0.10465157712207122,
+            "excess_same_date_all_candidates_pp": -0.545303419224518,
+            "raw_signal_win_pct": 50.3875968992248
+          },
+          "20": {
+            "days": 58,
+            "signals": 387,
+            "mean_date_balanced_pct": -0.5219995462399026,
+            "excess_same_date_all_candidates_pp": -0.5690088838142929,
+            "raw_signal_win_pct": 43.669250645994836
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 72,
+            "signals": 841,
+            "mean_date_balanced_pct": 0.25079131267456295,
+            "excess_same_date_all_candidates_pp": 0.08213897123093188,
+            "raw_signal_win_pct": 53.983353151010704
+          },
+          "10": {
+            "days": 71,
+            "signals": 833,
+            "mean_date_balanced_pct": 1.4041252333318797,
+            "excess_same_date_all_candidates_pp": -0.010498142961860683,
+            "raw_signal_win_pct": 49.459783913565424
+          },
+          "20": {
+            "days": 68,
+            "signals": 818,
+            "mean_date_balanced_pct": 4.7210154743285075,
+            "excess_same_date_all_candidates_pp": -0.19403512178378918,
+            "raw_signal_win_pct": 45.47677261613692
+          }
+        }
+      },
+      "supported_for_account_test": false
+    },
+    {
+      "field": "volume",
+      "value": "high",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 65,
+            "signals": 1050,
+            "mean_date_balanced_pct": 0.23628349311914848,
+            "excess_same_date_all_candidates_pp": -0.2643279489381968,
+            "raw_signal_win_pct": 56.38095238095238
+          },
+          "10": {
+            "days": 61,
+            "signals": 1018,
+            "mean_date_balanced_pct": -0.013557604398843081,
+            "excess_same_date_all_candidates_pp": -0.5580547863524038,
+            "raw_signal_win_pct": 64.53831041257368
+          },
+          "20": {
+            "days": 61,
+            "signals": 1018,
+            "mean_date_balanced_pct": -0.6232726513247858,
+            "excess_same_date_all_candidates_pp": -0.9317855706771075,
+            "raw_signal_win_pct": 68.17288801571709
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 81,
+            "signals": 1460,
+            "mean_date_balanced_pct": -0.18382791547053917,
+            "excess_same_date_all_candidates_pp": -0.12152949308386188,
+            "raw_signal_win_pct": 44.93150684931507
+          },
+          "10": {
+            "days": 80,
+            "signals": 1454,
+            "mean_date_balanced_pct": 1.222798444073221,
+            "excess_same_date_all_candidates_pp": 0.1411917599751259,
+            "raw_signal_win_pct": 44.42916093535076
+          },
+          "20": {
+            "days": 77,
+            "signals": 1442,
+            "mean_date_balanced_pct": 4.359016645827654,
+            "excess_same_date_all_candidates_pp": 0.025505324314704186,
+            "raw_signal_win_pct": 50.20804438280167
+          }
+        }
+      },
+      "supported_for_account_test": false
+    },
+    {
+      "field": "volume",
+      "value": "moderate",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 65,
+            "signals": 1542,
+            "mean_date_balanced_pct": 0.3132471272954084,
+            "excess_same_date_all_candidates_pp": -0.07949917082548413,
+            "raw_signal_win_pct": 50.778210116731515
+          },
+          "10": {
+            "days": 61,
+            "signals": 1489,
+            "mean_date_balanced_pct": 0.1564930133292326,
+            "excess_same_date_all_candidates_pp": -0.03171891350111017,
+            "raw_signal_win_pct": 63.062458025520485
+          },
+          "20": {
+            "days": 61,
+            "signals": 1489,
+            "mean_date_balanced_pct": 0.06761724337955712,
+            "excess_same_date_all_candidates_pp": 0.37355548304282465,
+            "raw_signal_win_pct": 65.34586971121557
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 81,
+            "signals": 2085,
+            "mean_date_balanced_pct": 0.7495576920720561,
+            "excess_same_date_all_candidates_pp": 0.17398078865023278,
+            "raw_signal_win_pct": 46.906474820143885
+          },
+          "10": {
+            "days": 80,
+            "signals": 2080,
+            "mean_date_balanced_pct": 1.889183128724549,
+            "excess_same_date_all_candidates_pp": 0.20207555385442091,
+            "raw_signal_win_pct": 47.21153846153846
+          },
+          "20": {
+            "days": 77,
+            "signals": 2060,
+            "mean_date_balanced_pct": 5.008807318681921,
+            "excess_same_date_all_candidates_pp": 0.171870585901705,
+            "raw_signal_win_pct": 52.13592233009708
+          }
+        }
+      },
+      "supported_for_account_test": false
+    },
+    {
+      "field": "volatility",
+      "value": "high2",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 66,
+            "signals": 2402,
+            "mean_date_balanced_pct": 0.47355706235008943,
+            "excess_same_date_all_candidates_pp": 0.015274894234305779,
+            "raw_signal_win_pct": 53.12239800166528
+          },
+          "10": {
+            "days": 62,
+            "signals": 2333,
+            "mean_date_balanced_pct": 0.2776678839590367,
+            "excess_same_date_all_candidates_pp": -0.026483710989419807,
+            "raw_signal_win_pct": 63.90912987569652
+          },
+          "20": {
+            "days": 62,
+            "signals": 2333,
+            "mean_date_balanced_pct": -0.12475060920289233,
+            "excess_same_date_all_candidates_pp": -0.04556471438304718,
+            "raw_signal_win_pct": 67.38105443634805
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 85,
+            "signals": 3093,
+            "mean_date_balanced_pct": 0.5278350021943554,
+            "excess_same_date_all_candidates_pp": 0.08122856491580345,
+            "raw_signal_win_pct": 46.071774975751694
+          },
+          "10": {
+            "days": 84,
+            "signals": 3083,
+            "mean_date_balanced_pct": 1.5572187740737848,
+            "excess_same_date_all_candidates_pp": 0.10742467369211095,
+            "raw_signal_win_pct": 46.67531625040545
+          },
+          "20": {
+            "days": 81,
+            "signals": 3051,
+            "mean_date_balanced_pct": 4.717112033238178,
+            "excess_same_date_all_candidates_pp": 0.2394054895932267,
+            "raw_signal_win_pct": 53.29400196656834
+          }
+        }
+      },
+      "supported_for_account_test": false
+    },
+    {
+      "field": "volatility",
+      "value": "low2",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 39,
+            "signals": 190,
+            "mean_date_balanced_pct": 0.4890268848737146,
+            "excess_same_date_all_candidates_pp": -0.4167782536263803,
+            "raw_signal_win_pct": 52.10526315789473
+          },
+          "10": {
+            "days": 35,
+            "signals": 174,
+            "mean_date_balanced_pct": 0.9043358931647741,
+            "excess_same_date_all_candidates_pp": -0.3592122515630445,
+            "raw_signal_win_pct": 60.3448275862069
+          },
+          "20": {
+            "days": 35,
+            "signals": 174,
+            "mean_date_balanced_pct": 1.3210263919430933,
+            "excess_same_date_all_candidates_pp": -0.40522070879388766,
+            "raw_signal_win_pct": 54.59770114942529
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 53,
+            "signals": 452,
+            "mean_date_balanced_pct": -0.7527287245158663,
+            "excess_same_date_all_candidates_pp": -1.0480328123276994,
+            "raw_signal_win_pct": 46.23893805309734
+          },
+          "10": {
+            "days": 52,
+            "signals": 451,
+            "mean_date_balanced_pct": -0.7468359019351539,
+            "excess_same_date_all_candidates_pp": -1.6335550000383106,
+            "raw_signal_win_pct": 41.90687361419069
+          },
+          "20": {
+            "days": 52,
+            "signals": 451,
+            "mean_date_balanced_pct": 1.4968027983187884,
+            "excess_same_date_all_candidates_pp": -2.42024567501423,
+            "raw_signal_win_pct": 38.13747228381374
+          }
+        }
+      },
+      "supported_for_account_test": false
+    },
+    {
+      "field": "breakout",
+      "value": "far2",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 63,
+            "signals": 1001,
+            "mean_date_balanced_pct": 0.522315154684418,
+            "excess_same_date_all_candidates_pp": 0.06798872769041285,
+            "raw_signal_win_pct": 50.349650349650354
+          },
+          "10": {
+            "days": 59,
+            "signals": 974,
+            "mean_date_balanced_pct": 0.9093095395097053,
+            "excess_same_date_all_candidates_pp": 0.3235657463307751,
+            "raw_signal_win_pct": 60.06160164271047
+          },
+          "20": {
+            "days": 59,
+            "signals": 974,
+            "mean_date_balanced_pct": 1.042653649681869,
+            "excess_same_date_all_candidates_pp": 0.5635241090225375,
+            "raw_signal_win_pct": 65.29774127310061
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 80,
+            "signals": 1367,
+            "mean_date_balanced_pct": 0.10074764286269702,
+            "excess_same_date_all_candidates_pp": -0.45566714579582096,
+            "raw_signal_win_pct": 48.64667154352597
+          },
+          "10": {
+            "days": 79,
+            "signals": 1365,
+            "mean_date_balanced_pct": 1.0354566976163222,
+            "excess_same_date_all_candidates_pp": -0.5581677667766347,
+            "raw_signal_win_pct": 47.1062271062271
+          },
+          "20": {
+            "days": 76,
+            "signals": 1355,
+            "mean_date_balanced_pct": 4.239389361661682,
+            "excess_same_date_all_candidates_pp": -0.4595668159633922,
+            "raw_signal_win_pct": 54.90774907749078
+          }
+        }
+      },
+      "supported_for_account_test": false
+    },
+    {
+      "field": "breakout",
+      "value": "near2",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 66,
+            "signals": 1591,
+            "mean_date_balanced_pct": 0.43824281391022285,
+            "excess_same_date_all_candidates_pp": -0.020039354205560772,
+            "raw_signal_win_pct": 54.74544311753614
+          },
+          "10": {
+            "days": 62,
+            "signals": 1533,
+            "mean_date_balanced_pct": 0.27175894186262145,
+            "excess_same_date_all_candidates_pp": -0.032392653085835034,
+            "raw_signal_win_pct": 65.94911937377691
+          },
+          "20": {
+            "days": 62,
+            "signals": 1533,
+            "mean_date_balanced_pct": -0.16008147007888562,
+            "excess_same_date_all_candidates_pp": -0.08089557525904048,
+            "raw_signal_win_pct": 67.25375081539465
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 81,
+            "signals": 2178,
+            "mean_date_balanced_pct": 0.4147832275190203,
+            "excess_same_date_all_candidates_pp": 0.39824786782856353,
+            "raw_signal_win_pct": 44.490358126721766
+          },
+          "10": {
+            "days": 80,
+            "signals": 2169,
+            "mean_date_balanced_pct": 1.8808860557245897,
+            "excess_same_date_all_candidates_pp": 0.6258353941469857,
+            "raw_signal_win_pct": 45.41263254956201
+          },
+          "20": {
+            "days": 77,
+            "signals": 2147,
+            "mean_date_balanced_pct": 5.22069390728039,
+            "excess_same_date_all_candidates_pp": 0.6198410791511036,
+            "raw_signal_win_pct": 49.091755938518865
+          }
+        }
+      },
+      "supported_for_account_test": false
+    },
+    {
+      "field": "market",
+      "value": "hot5",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 56,
+            "signals": 2411,
+            "mean_date_balanced_pct": 1.0492595214252134,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 54.99792617171298
+          },
+          "10": {
+            "days": 53,
+            "signals": 2335,
+            "mean_date_balanced_pct": 1.6090573494186908,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 66.85224839400429
+          },
+          "20": {
+            "days": 53,
+            "signals": 2335,
+            "mean_date_balanced_pct": 1.1081266867975321,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 69.80728051391864
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 50,
+            "signals": 3020,
+            "mean_date_balanced_pct": 0.3188106294485607,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 47.913907284768214
+          },
+          "10": {
+            "days": 50,
+            "signals": 3020,
+            "mean_date_balanced_pct": 1.4828226475011552,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 46.35761589403973
+          },
+          "20": {
+            "days": 50,
+            "signals": 3020,
+            "mean_date_balanced_pct": 3.430021733857208,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 50.46357615894039
+          }
+        }
+      },
+      "supported_for_account_test": false
+    },
+    {
+      "field": "market",
+      "value": "moderate5",
+      "periods": {
+        "discovery": {
+          "5": {
+            "days": 10,
+            "signals": 181,
+            "mean_date_balanced_pct": -2.851191010417023,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 27.071823204419886
+          },
+          "10": {
+            "days": 9,
+            "signals": 172,
+            "mean_date_balanced_pct": -7.380293403598478,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 20.348837209302324
+          },
+          "20": {
+            "days": 9,
+            "signals": 172,
+            "mean_date_balanced_pct": -7.0711377643444004,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 21.511627906976745
+          }
+        },
+        "review2020": {
+          "5": {
+            "days": 35,
+            "signals": 525,
+            "mean_date_balanced_pct": 0.6291718770356822,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 35.61904761904762
+          },
+          "10": {
+            "days": 34,
+            "signals": 514,
+            "mean_date_balanced_pct": 1.401222707558907,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 44.3579766536965
+          },
+          "20": {
+            "days": 31,
+            "signals": 482,
+            "mean_date_balanced_pct": 6.16752075298002,
+            "excess_same_date_all_candidates_pp": 0.0,
+            "raw_signal_win_pct": 56.84647302904564
+          }
+        }
+      },
+      "supported_for_account_test": false
+    }
+  ],
+  "market_group_warning": "Market groups have no same-date cross-sectional control and cannot be selected by the same excess test.",
+  "overall": {
+    "discovery": {
+      "5": {
+        "days": 66,
+        "signals": 2592,
+        "mean_date_balanced_pct": 0.45828216811578365,
+        "excess_same_date_all_candidates_pp": 0.0,
+        "raw_signal_win_pct": 53.04783950617284
+      },
+      "10": {
+        "days": 62,
+        "signals": 2507,
+        "mean_date_balanced_pct": 0.30415159494845645,
+        "excess_same_date_all_candidates_pp": 0.0,
+        "raw_signal_win_pct": 63.66174710809733
+      },
+      "20": {
+        "days": 62,
+        "signals": 2507,
+        "mean_date_balanced_pct": -0.07918589481984514,
+        "excess_same_date_all_candidates_pp": 0.0,
+        "raw_signal_win_pct": 66.49381731152772
+      }
+    },
+    "review2020": {
+      "5": {
+        "days": 85,
+        "signals": 3545,
+        "mean_date_balanced_pct": 0.4466064372785519,
+        "excess_same_date_all_candidates_pp": 0.0,
+        "raw_signal_win_pct": 46.09308885754584
+      },
+      "10": {
+        "days": 84,
+        "signals": 3534,
+        "mean_date_balanced_pct": 1.449794100381674,
+        "excess_same_date_all_candidates_pp": 0.0,
+        "raw_signal_win_pct": 46.066779852857955
+      },
+      "20": {
+        "days": 81,
+        "signals": 3502,
+        "mean_date_balanced_pct": 4.477706543644951,
+        "excess_same_date_all_candidates_pp": 0.0,
+        "raw_signal_win_pct": 51.34209023415192
+      }
+    }
+  }
+}

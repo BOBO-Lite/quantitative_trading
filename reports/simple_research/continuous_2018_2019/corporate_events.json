@@ -1,0 +1,6648 @@
+{
+  "cash": [
+    {
+      "symbol": "000001.SZ",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.145,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "000006.SZ",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.195,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "000019.SZ",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "000027.SZ",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "000028.SZ",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "000031.SZ",
+      "ex_date": "2019-05-16",
+      "cash_per_share": 0.11,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-15",
+      "pay_date": "2019-05-16",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "000042.SZ",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "000059.SZ",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-18"
+    },
+    {
+      "symbol": "000060.SZ",
+      "ex_date": "2019-05-16",
+      "cash_per_share": 0.08,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-15",
+      "pay_date": "2019-05-16",
+      "announcement_date": "2019-05-08"
+    },
+    {
+      "symbol": "000069.SZ",
+      "ex_date": "2019-05-21",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-20",
+      "pay_date": "2019-05-21",
+      "announcement_date": "2019-05-13"
+    },
+    {
+      "symbol": "000078.SZ",
+      "ex_date": "2019-07-16",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-07-15",
+      "pay_date": "2019-07-16",
+      "announcement_date": "2019-07-10"
+    },
+    {
+      "symbol": "000089.SZ",
+      "ex_date": "2019-07-26",
+      "cash_per_share": 0.086,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-25",
+      "pay_date": "2019-07-26",
+      "announcement_date": "2019-07-18"
+    },
+    {
+      "symbol": "000099.SZ",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.025,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "000156.SZ",
+      "ex_date": "2019-08-23",
+      "cash_per_share": 0.22,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-22",
+      "pay_date": "2019-08-23",
+      "announcement_date": "2019-08-17"
+    },
+    {
+      "symbol": "000157.SZ",
+      "ex_date": "2018-08-24",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-08-23",
+      "pay_date": "2018-08-24",
+      "announcement_date": "2018-08-18"
+    },
+    {
+      "symbol": "000157.SZ",
+      "ex_date": "2019-08-05",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-02",
+      "pay_date": "2019-08-05",
+      "announcement_date": "2019-07-27"
+    },
+    {
+      "symbol": "000166.SZ",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "000333.SZ",
+      "ex_date": "2019-05-30",
+      "cash_per_share": 1.304,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-29",
+      "pay_date": "2019-05-30",
+      "announcement_date": "2019-05-23"
+    },
+    {
+      "symbol": "000338.SZ",
+      "ex_date": "2019-07-31",
+      "cash_per_share": 0.28,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-30",
+      "pay_date": "2019-07-31",
+      "announcement_date": "2019-07-24"
+    },
+    {
+      "symbol": "000338.SZ",
+      "ex_date": "2019-10-25",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-24",
+      "pay_date": "2019-10-25",
+      "announcement_date": "2019-10-18"
+    },
+    {
+      "symbol": "000402.SZ",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "000417.SZ",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "000423.SZ",
+      "ex_date": "2019-08-15",
+      "cash_per_share": 1.0095,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-14",
+      "pay_date": "2019-08-15",
+      "announcement_date": "2019-08-08"
+    },
+    {
+      "symbol": "000425.SZ",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "000429.SZ",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.562,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "000488.SZ",
+      "ex_date": "2019-08-09",
+      "cash_per_share": 0.24,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-08",
+      "pay_date": "2019-08-09",
+      "announcement_date": "2019-08-05"
+    },
+    {
+      "symbol": "000498.SZ",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.075,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "000501.SZ",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-16"
+    },
+    {
+      "symbol": "000516.SZ",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.0868,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-24"
+    },
+    {
+      "symbol": "000519.SZ",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.041,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "000521.SZ",
+      "ex_date": "2019-06-24",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-21",
+      "pay_date": "2019-06-24",
+      "announcement_date": "2019-06-18"
+    },
+    {
+      "symbol": "000525.SZ",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "000528.SZ",
+      "ex_date": "2019-05-28",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-27",
+      "pay_date": "2019-05-28",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "000530.SZ",
+      "ex_date": "2019-07-15",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-12",
+      "pay_date": "2019-07-15",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "000538.SZ",
+      "ex_date": "2019-06-05",
+      "cash_per_share": 2.0001,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-04",
+      "pay_date": "2019-06-05",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "000539.SZ",
+      "ex_date": "2019-07-01",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-28",
+      "pay_date": "2019-07-01",
+      "announcement_date": "2019-06-22"
+    },
+    {
+      "symbol": "000541.SZ",
+      "ex_date": "2019-05-13",
+      "cash_per_share": 0.156,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-10",
+      "pay_date": "2019-05-13",
+      "announcement_date": "2019-05-07"
+    },
+    {
+      "symbol": "000543.SZ",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.044,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-25"
+    },
+    {
+      "symbol": "000544.SZ",
+      "ex_date": "2019-06-18",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-17",
+      "pay_date": "2019-06-18",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "000552.SZ",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "000553.SZ",
+      "ex_date": "2019-07-24",
+      "cash_per_share": 0.097,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-23",
+      "pay_date": "2019-07-24",
+      "announcement_date": "2019-07-17"
+    },
+    {
+      "symbol": "000559.SZ",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-09"
+    },
+    {
+      "symbol": "000581.SZ",
+      "ex_date": "2018-07-18",
+      "cash_per_share": 1.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-17",
+      "pay_date": "2018-07-18",
+      "announcement_date": "2018-07-10"
+    },
+    {
+      "symbol": "000581.SZ",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 1.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-19"
+    },
+    {
+      "symbol": "000582.SZ",
+      "ex_date": "2019-06-10",
+      "cash_per_share": 0.1142,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-06",
+      "pay_date": "2019-06-10",
+      "announcement_date": "2019-06-03"
+    },
+    {
+      "symbol": "000598.SZ",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.066,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "000600.SZ",
+      "ex_date": "2019-06-05",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-04",
+      "pay_date": "2019-06-05",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "000623.SZ",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "000630.SZ",
+      "ex_date": "2019-05-30",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-29",
+      "pay_date": "2019-05-30",
+      "announcement_date": "2019-05-22"
+    },
+    {
+      "symbol": "000651.SZ",
+      "ex_date": "2019-08-06",
+      "cash_per_share": 1.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-05",
+      "pay_date": "2019-08-06",
+      "announcement_date": "2019-07-31"
+    },
+    {
+      "symbol": "000656.SZ",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.36,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "000672.SZ",
+      "ex_date": "2019-05-20",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-17",
+      "pay_date": "2019-05-20",
+      "announcement_date": "2019-05-11"
+    },
+    {
+      "symbol": "000680.SZ",
+      "ex_date": "2019-07-25",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-24",
+      "pay_date": "2019-07-25",
+      "announcement_date": "2019-07-18"
+    },
+    {
+      "symbol": "000685.SZ",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.139,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "000686.SZ",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "000690.SZ",
+      "ex_date": "2019-06-05",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-04",
+      "pay_date": "2019-06-05",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "000703.SZ",
+      "ex_date": "2019-06-11",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-10",
+      "pay_date": "2019-06-11",
+      "announcement_date": "2019-06-01"
+    },
+    {
+      "symbol": "000708.SZ",
+      "ex_date": "2019-05-22",
+      "cash_per_share": 0.8,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-21",
+      "pay_date": "2019-05-22",
+      "announcement_date": "2019-05-16"
+    },
+    {
+      "symbol": "000709.SZ",
+      "ex_date": "2019-07-08",
+      "cash_per_share": 0.1027,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-05",
+      "pay_date": "2019-07-08",
+      "announcement_date": "2019-07-02"
+    },
+    {
+      "symbol": "000718.SZ",
+      "ex_date": "2019-05-14",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-13",
+      "pay_date": "2019-05-14",
+      "announcement_date": "2019-05-08"
+    },
+    {
+      "symbol": "000726.SZ",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "000728.SZ",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "000728.SZ",
+      "ex_date": "2019-11-12",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-11-11",
+      "pay_date": "2019-11-12",
+      "announcement_date": "2019-11-06"
+    },
+    {
+      "symbol": "000729.SZ",
+      "ex_date": "2019-07-15",
+      "cash_per_share": 0.022,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-12",
+      "pay_date": "2019-07-15",
+      "announcement_date": "2019-07-08"
+    },
+    {
+      "symbol": "000731.SZ",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "000733.SZ",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-29"
+    },
+    {
+      "symbol": "000738.SZ",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-22"
+    },
+    {
+      "symbol": "000739.SZ",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.11,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "000768.SZ",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "000776.SZ",
+      "ex_date": "2019-12-13",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-12-12",
+      "pay_date": "2019-12-13",
+      "announcement_date": "2019-12-07"
+    },
+    {
+      "symbol": "000778.SZ",
+      "ex_date": "2019-07-29",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-26",
+      "pay_date": "2019-07-29",
+      "announcement_date": "2019-07-23"
+    },
+    {
+      "symbol": "000783.SZ",
+      "ex_date": "2019-07-15",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-12",
+      "pay_date": "2019-07-15",
+      "announcement_date": "2019-07-06"
+    },
+    {
+      "symbol": "000799.SZ",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "000800.SZ",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-04"
+    },
+    {
+      "symbol": "000818.SZ",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "000822.SZ",
+      "ex_date": "2019-05-22",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-21",
+      "pay_date": "2019-05-22",
+      "announcement_date": "2019-05-15"
+    },
+    {
+      "symbol": "000825.SZ",
+      "ex_date": "2018-07-10",
+      "cash_per_share": 0.243,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-09",
+      "pay_date": "2018-07-10",
+      "announcement_date": "2018-07-03"
+    },
+    {
+      "symbol": "000825.SZ",
+      "ex_date": "2019-06-03",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-31",
+      "pay_date": "2019-06-03",
+      "announcement_date": "2019-05-25"
+    },
+    {
+      "symbol": "000848.SZ",
+      "ex_date": "2019-04-22",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-19",
+      "pay_date": "2019-04-22",
+      "announcement_date": "2019-04-13"
+    },
+    {
+      "symbol": "000869.SZ",
+      "ex_date": "2019-07-08",
+      "cash_per_share": 0.6,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-05",
+      "pay_date": "2019-07-08",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "000876.SZ",
+      "ex_date": "2018-07-13",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-12",
+      "pay_date": "2018-07-13",
+      "announcement_date": "2018-07-06"
+    },
+    {
+      "symbol": "000876.SZ",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "000877.SZ",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.38,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "000885.SZ",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.23,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-10"
+    },
+    {
+      "symbol": "000886.SZ",
+      "ex_date": "2019-07-04",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-03",
+      "pay_date": "2019-07-04",
+      "announcement_date": "2019-06-27"
+    },
+    {
+      "symbol": "000887.SZ",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-27"
+    },
+    {
+      "symbol": "000888.SZ",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "000895.SZ",
+      "ex_date": "2019-04-22",
+      "cash_per_share": 0.55,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-19",
+      "pay_date": "2019-04-22",
+      "announcement_date": "2019-04-13"
+    },
+    {
+      "symbol": "000900.SZ",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "000901.SZ",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.0701,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "000902.SZ",
+      "ex_date": "2019-05-22",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-05-21",
+      "pay_date": "2019-05-22",
+      "announcement_date": "2019-05-16"
+    },
+    {
+      "symbol": "000903.SZ",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.045,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "000905.SZ",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.01,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "000926.SZ",
+      "ex_date": "2019-07-17",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-16",
+      "pay_date": "2019-07-17",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "000928.SZ",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "000937.SZ",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-23"
+    },
+    {
+      "symbol": "000951.SZ",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.46,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-22"
+    },
+    {
+      "symbol": "000965.SZ",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.081,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "000970.SZ",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.09,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "000975.SZ",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-10"
+    },
+    {
+      "symbol": "000983.SZ",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-18"
+    },
+    {
+      "symbol": "000988.SZ",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "000997.SZ",
+      "ex_date": "2019-08-07",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-06",
+      "pay_date": "2019-08-07",
+      "announcement_date": "2019-07-30"
+    },
+    {
+      "symbol": "000999.SZ",
+      "ex_date": "2019-08-08",
+      "cash_per_share": 0.39,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-07",
+      "pay_date": "2019-08-08",
+      "announcement_date": "2019-08-01"
+    },
+    {
+      "symbol": "001914.SZ",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-31"
+    },
+    {
+      "symbol": "001979.SZ",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.7898,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "002001.SZ",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.7,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-04"
+    },
+    {
+      "symbol": "002003.SZ",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-22"
+    },
+    {
+      "symbol": "002004.SZ",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.22,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-29"
+    },
+    {
+      "symbol": "002020.SZ",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-22"
+    },
+    {
+      "symbol": "002022.SZ",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.065,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "002024.SZ",
+      "ex_date": "2019-06-25",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-24",
+      "pay_date": "2019-06-25",
+      "announcement_date": "2019-06-19"
+    },
+    {
+      "symbol": "002025.SZ",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "002028.SZ",
+      "ex_date": "2019-06-10",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-06",
+      "pay_date": "2019-06-10",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "002029.SZ",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "002032.SZ",
+      "ex_date": "2019-05-24",
+      "cash_per_share": 1.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-23",
+      "pay_date": "2019-05-24",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "002032.SZ",
+      "ex_date": "2019-10-25",
+      "cash_per_share": 0.258,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-24",
+      "pay_date": "2019-10-25",
+      "announcement_date": "2019-10-18"
+    },
+    {
+      "symbol": "002033.SZ",
+      "ex_date": "2019-06-10",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-06",
+      "pay_date": "2019-06-10",
+      "announcement_date": "2019-06-01"
+    },
+    {
+      "symbol": "002042.SZ",
+      "ex_date": "2019-06-18",
+      "cash_per_share": 0.3525,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-17",
+      "pay_date": "2019-06-18",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "002043.SZ",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "002047.SZ",
+      "ex_date": "2019-07-18",
+      "cash_per_share": 0.025,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-17",
+      "pay_date": "2019-07-18",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "002048.SZ",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "002051.SZ",
+      "ex_date": "2019-05-08",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-07",
+      "pay_date": "2019-05-08",
+      "announcement_date": "2019-04-26"
+    },
+    {
+      "symbol": "002056.SZ",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.1492,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "002060.SZ",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.035,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "002064.SZ",
+      "ex_date": "2019-08-13",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-12",
+      "pay_date": "2019-08-13",
+      "announcement_date": "2019-08-06"
+    },
+    {
+      "symbol": "002065.SZ",
+      "ex_date": "2019-07-22",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-19",
+      "pay_date": "2019-07-22",
+      "announcement_date": "2019-07-13"
+    },
+    {
+      "symbol": "002067.SZ",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "002068.SZ",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "002078.SZ",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-16"
+    },
+    {
+      "symbol": "002081.SZ",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-25"
+    },
+    {
+      "symbol": "002085.SZ",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.3035,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "002087.SZ",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "002092.SZ",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.17,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "002097.SZ",
+      "ex_date": "2019-05-28",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-05-27",
+      "pay_date": "2019-05-28",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "002099.SZ",
+      "ex_date": "2019-04-10",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-09",
+      "pay_date": "2019-04-10",
+      "announcement_date": "2019-04-01"
+    },
+    {
+      "symbol": "002101.SZ",
+      "ex_date": "2019-07-01",
+      "cash_per_share": 0.315,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-28",
+      "pay_date": "2019-07-01",
+      "announcement_date": "2019-06-22"
+    },
+    {
+      "symbol": "002111.SZ",
+      "ex_date": "2019-07-03",
+      "cash_per_share": 0.3558,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-02",
+      "pay_date": "2019-07-03",
+      "announcement_date": "2019-06-27"
+    },
+    {
+      "symbol": "002126.SZ",
+      "ex_date": "2019-06-18",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-17",
+      "pay_date": "2019-06-18",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "002128.SZ",
+      "ex_date": "2019-10-25",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-24",
+      "pay_date": "2019-10-25",
+      "announcement_date": "2019-10-18"
+    },
+    {
+      "symbol": "002132.SZ",
+      "ex_date": "2019-11-18",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-11-15",
+      "pay_date": "2019-11-18",
+      "announcement_date": "2019-11-12"
+    },
+    {
+      "symbol": "002138.SZ",
+      "ex_date": "2019-04-26",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-25",
+      "pay_date": "2019-04-26",
+      "announcement_date": "2019-04-22"
+    },
+    {
+      "symbol": "002142.SZ",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-02"
+    },
+    {
+      "symbol": "002145.SZ",
+      "ex_date": "2019-05-13",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-10",
+      "pay_date": "2019-05-13",
+      "announcement_date": "2019-05-07"
+    },
+    {
+      "symbol": "002146.SZ",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.45,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "002151.SZ",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.07,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "002152.SZ",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "002155.SZ",
+      "ex_date": "2019-06-18",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-17",
+      "pay_date": "2019-06-18",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "002191.SZ",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "002203.SZ",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.0713,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "002210.SZ",
+      "ex_date": "2018-07-11",
+      "cash_per_share": 0.035,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-10",
+      "pay_date": "2018-07-11",
+      "announcement_date": "2018-07-04"
+    },
+    {
+      "symbol": "002221.SZ",
+      "ex_date": "2019-05-30",
+      "cash_per_share": 0.037,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-29",
+      "pay_date": "2019-05-30",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "002223.SZ",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-25"
+    },
+    {
+      "symbol": "002230.SZ",
+      "ex_date": "2019-10-21",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-18",
+      "pay_date": "2019-10-21",
+      "announcement_date": "2019-10-14"
+    },
+    {
+      "symbol": "002233.SZ",
+      "ex_date": "2019-04-23",
+      "cash_per_share": 0.43,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-22",
+      "pay_date": "2019-04-23",
+      "announcement_date": "2019-04-17"
+    },
+    {
+      "symbol": "002233.SZ",
+      "ex_date": "2019-09-11",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-09-10",
+      "pay_date": "2019-09-11",
+      "announcement_date": "2019-09-04"
+    },
+    {
+      "symbol": "002237.SZ",
+      "ex_date": "2018-07-05",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-04",
+      "pay_date": "2018-07-05",
+      "announcement_date": "2018-06-27"
+    },
+    {
+      "symbol": "002242.SZ",
+      "ex_date": "2019-05-15",
+      "cash_per_share": 0.8,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-14",
+      "pay_date": "2019-05-15",
+      "announcement_date": "2019-05-08"
+    },
+    {
+      "symbol": "002242.SZ",
+      "ex_date": "2019-10-10",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-09",
+      "pay_date": "2019-10-10",
+      "announcement_date": "2019-09-25"
+    },
+    {
+      "symbol": "002244.SZ",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "002250.SZ",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-29"
+    },
+    {
+      "symbol": "002251.SZ",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "002254.SZ",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-22"
+    },
+    {
+      "symbol": "002266.SZ",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.01,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "002267.SZ",
+      "ex_date": "2019-06-24",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-06-21",
+      "pay_date": "2019-06-24",
+      "announcement_date": "2019-06-18"
+    },
+    {
+      "symbol": "002268.SZ",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.015,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-04"
+    },
+    {
+      "symbol": "002277.SZ",
+      "ex_date": "2019-05-21",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-20",
+      "pay_date": "2019-05-21",
+      "announcement_date": "2019-05-14"
+    },
+    {
+      "symbol": "002281.SZ",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.17,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "002283.SZ",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.031,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "002285.SZ",
+      "ex_date": "2019-05-24",
+      "cash_per_share": 0.021,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-23",
+      "pay_date": "2019-05-24",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "002294.SZ",
+      "ex_date": "2019-04-16",
+      "cash_per_share": 0.8,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-15",
+      "pay_date": "2019-04-16",
+      "announcement_date": "2019-04-09"
+    },
+    {
+      "symbol": "002313.SZ",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.025,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "002317.SZ",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "002318.SZ",
+      "ex_date": "2019-04-18",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-17",
+      "pay_date": "2019-04-18",
+      "announcement_date": "2019-04-11"
+    },
+    {
+      "symbol": "002325.SZ",
+      "ex_date": "2019-07-26",
+      "cash_per_share": 0.01,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-25",
+      "pay_date": "2019-07-26",
+      "announcement_date": "2019-07-19"
+    },
+    {
+      "symbol": "002327.SZ",
+      "ex_date": "2019-05-15",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-14",
+      "pay_date": "2019-05-15",
+      "announcement_date": "2019-05-09"
+    },
+    {
+      "symbol": "002340.SZ",
+      "ex_date": "2019-05-15",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-14",
+      "pay_date": "2019-05-15",
+      "announcement_date": "2019-05-08"
+    },
+    {
+      "symbol": "002344.SZ",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.021,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-17"
+    },
+    {
+      "symbol": "002350.SZ",
+      "ex_date": "2019-06-10",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-06",
+      "pay_date": "2019-06-10",
+      "announcement_date": "2019-05-31"
+    },
+    {
+      "symbol": "002352.SZ",
+      "ex_date": "2019-04-18",
+      "cash_per_share": 0.21,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-17",
+      "pay_date": "2019-04-18",
+      "announcement_date": "2019-04-12"
+    },
+    {
+      "symbol": "002353.SZ",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "002373.SZ",
+      "ex_date": "2019-05-22",
+      "cash_per_share": 0.055,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-21",
+      "pay_date": "2019-05-22",
+      "announcement_date": "2019-05-15"
+    },
+    {
+      "symbol": "002375.SZ",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.042,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "002376.SZ",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-22"
+    },
+    {
+      "symbol": "002385.SZ",
+      "ex_date": "2018-05-07",
+      "cash_per_share": 0.08,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-05-04",
+      "pay_date": "2018-05-07",
+      "announcement_date": "2018-04-27"
+    },
+    {
+      "symbol": "002385.SZ",
+      "ex_date": "2019-01-07",
+      "cash_per_share": 0.072,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-01-04",
+      "pay_date": "2019-01-07",
+      "announcement_date": "2018-12-27"
+    },
+    {
+      "symbol": "002385.SZ",
+      "ex_date": "2019-12-24",
+      "cash_per_share": 0.0607,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-12-23",
+      "pay_date": "2019-12-24",
+      "announcement_date": "2019-12-18"
+    },
+    {
+      "symbol": "002386.SZ",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "002392.SZ",
+      "ex_date": "2019-05-20",
+      "cash_per_share": 0.028,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-17",
+      "pay_date": "2019-05-20",
+      "announcement_date": "2019-05-11"
+    },
+    {
+      "symbol": "002396.SZ",
+      "ex_date": "2019-07-03",
+      "cash_per_share": 0.11,
+      "shares_per_share": 0,
+      "source_rows_merged": 4,
+      "record_date": "2019-07-02",
+      "pay_date": "2019-07-03",
+      "announcement_date": "2019-06-26"
+    },
+    {
+      "symbol": "002399.SZ",
+      "ex_date": "2019-07-15",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-12",
+      "pay_date": "2019-07-15",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "002400.SZ",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.01,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "002401.SZ",
+      "ex_date": "2019-08-13",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-12",
+      "pay_date": "2019-08-13",
+      "announcement_date": "2019-08-07"
+    },
+    {
+      "symbol": "002419.SZ",
+      "ex_date": "2019-04-24",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-23",
+      "pay_date": "2019-04-24",
+      "announcement_date": "2019-04-16"
+    },
+    {
+      "symbol": "002433.SZ",
+      "ex_date": "2019-05-27",
+      "cash_per_share": 0.0707,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-05-24",
+      "pay_date": "2019-05-27",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "002434.SZ",
+      "ex_date": "2019-07-02",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-01",
+      "pay_date": "2019-07-02",
+      "announcement_date": "2019-06-25"
+    },
+    {
+      "symbol": "002440.SZ",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-29"
+    },
+    {
+      "symbol": "002444.SZ",
+      "ex_date": "2019-12-10",
+      "cash_per_share": 0.19,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-12-09",
+      "pay_date": "2019-12-10",
+      "announcement_date": "2019-12-03"
+    },
+    {
+      "symbol": "002448.SZ",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "002449.SZ",
+      "ex_date": "2019-05-15",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-14",
+      "pay_date": "2019-05-15",
+      "announcement_date": "2019-05-09"
+    },
+    {
+      "symbol": "002457.SZ",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-23"
+    },
+    {
+      "symbol": "002462.SZ",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-09"
+    },
+    {
+      "symbol": "002465.SZ",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-25"
+    },
+    {
+      "symbol": "002482.SZ",
+      "ex_date": "2019-07-03",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-02",
+      "pay_date": "2019-07-03",
+      "announcement_date": "2019-06-26"
+    },
+    {
+      "symbol": "002493.SZ",
+      "ex_date": "2019-05-28",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-27",
+      "pay_date": "2019-05-28",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "002500.SZ",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "002521.SZ",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "002537.SZ",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.0506,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "002538.SZ",
+      "ex_date": "2019-05-30",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-29",
+      "pay_date": "2019-05-30",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "002541.SZ",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.085,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "002542.SZ",
+      "ex_date": "2019-07-15",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-12",
+      "pay_date": "2019-07-15",
+      "announcement_date": "2019-07-09"
+    },
+    {
+      "symbol": "002558.SZ",
+      "ex_date": "2019-07-17",
+      "cash_per_share": 0.17,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-16",
+      "pay_date": "2019-07-17",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "002563.SZ",
+      "ex_date": "2018-05-25",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-05-24",
+      "pay_date": "2018-05-25",
+      "announcement_date": "2018-05-19"
+    },
+    {
+      "symbol": "002563.SZ",
+      "ex_date": "2019-05-28",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-27",
+      "pay_date": "2019-05-28",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "002574.SZ",
+      "ex_date": "2019-06-17",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-14",
+      "pay_date": "2019-06-17",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "002582.SZ",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.079,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-15"
+    },
+    {
+      "symbol": "002586.SZ",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 3,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-13"
+    },
+    {
+      "symbol": "002588.SZ",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "002597.SZ",
+      "ex_date": "2019-04-26",
+      "cash_per_share": 0.36,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-25",
+      "pay_date": "2019-04-26",
+      "announcement_date": "2019-04-18"
+    },
+    {
+      "symbol": "002601.SZ",
+      "ex_date": "2019-06-17",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-14",
+      "pay_date": "2019-06-17",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "002601.SZ",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.6,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "002601.SZ",
+      "ex_date": "2019-12-13",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-12-12",
+      "pay_date": "2019-12-13",
+      "announcement_date": "2019-12-09"
+    },
+    {
+      "symbol": "002603.SZ",
+      "ex_date": "2019-07-01",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-28",
+      "pay_date": "2019-07-01",
+      "announcement_date": "2019-06-25"
+    },
+    {
+      "symbol": "002626.SZ",
+      "ex_date": "2019-05-28",
+      "cash_per_share": 0.8,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-27",
+      "pay_date": "2019-05-28",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "002648.SZ",
+      "ex_date": "2019-04-29",
+      "cash_per_share": 0.09,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-26",
+      "pay_date": "2019-04-29",
+      "announcement_date": "2019-04-23"
+    },
+    {
+      "symbol": "002661.SZ",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-29"
+    },
+    {
+      "symbol": "002697.SZ",
+      "ex_date": "2019-05-14",
+      "cash_per_share": 0.053,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-13",
+      "pay_date": "2019-05-14",
+      "announcement_date": "2019-05-07"
+    },
+    {
+      "symbol": "002701.SZ",
+      "ex_date": "2019-10-25",
+      "cash_per_share": 0.108,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-24",
+      "pay_date": "2019-10-25",
+      "announcement_date": "2019-10-18"
+    },
+    {
+      "symbol": "002706.SZ",
+      "ex_date": "2019-04-24",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-23",
+      "pay_date": "2019-04-24",
+      "announcement_date": "2019-04-18"
+    },
+    {
+      "symbol": "002742.SZ",
+      "ex_date": "2018-05-11",
+      "cash_per_share": 0.07,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-05-10",
+      "pay_date": "2018-05-11",
+      "announcement_date": "2018-05-07"
+    },
+    {
+      "symbol": "002742.SZ",
+      "ex_date": "2019-08-22",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-21",
+      "pay_date": "2019-08-22",
+      "announcement_date": "2019-08-14"
+    },
+    {
+      "symbol": "002745.SZ",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.13,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-22"
+    },
+    {
+      "symbol": "002756.SZ",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 1.0,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "002821.SZ",
+      "ex_date": "2019-06-10",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-06",
+      "pay_date": "2019-06-10",
+      "announcement_date": "2019-05-31"
+    },
+    {
+      "symbol": "002822.SZ",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 3,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "002841.SZ",
+      "ex_date": "2019-05-10",
+      "cash_per_share": 0.541,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-09",
+      "pay_date": "2019-05-10",
+      "announcement_date": "2019-05-06"
+    },
+    {
+      "symbol": "002859.SZ",
+      "ex_date": "2019-04-19",
+      "cash_per_share": 0.22,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-18",
+      "pay_date": "2019-04-19",
+      "announcement_date": "2019-04-12"
+    },
+    {
+      "symbol": "002859.SZ",
+      "ex_date": "2019-09-30",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-09-27",
+      "pay_date": "2019-09-30",
+      "announcement_date": "2019-09-20"
+    },
+    {
+      "symbol": "002879.SZ",
+      "ex_date": "2019-05-15",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-14",
+      "pay_date": "2019-05-15",
+      "announcement_date": "2019-05-08"
+    },
+    {
+      "symbol": "002882.SZ",
+      "ex_date": "2019-06-03",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-31",
+      "pay_date": "2019-06-03",
+      "announcement_date": "2019-05-25"
+    },
+    {
+      "symbol": "002900.SZ",
+      "ex_date": "2019-06-04",
+      "cash_per_share": 0.65,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-03",
+      "pay_date": "2019-06-04",
+      "announcement_date": "2019-05-28"
+    },
+    {
+      "symbol": "600000.SH",
+      "ex_date": "2018-07-13",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-12",
+      "pay_date": "2018-07-13",
+      "announcement_date": "2018-07-06"
+    },
+    {
+      "symbol": "600000.SH",
+      "ex_date": "2019-06-11",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-10",
+      "pay_date": "2019-06-11",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600008.SH",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.08,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-15"
+    },
+    {
+      "symbol": "600009.SH",
+      "ex_date": "2019-08-22",
+      "cash_per_share": 0.66,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-21",
+      "pay_date": "2019-08-22",
+      "announcement_date": "2019-08-16"
+    },
+    {
+      "symbol": "600015.SH",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.174,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "600016.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.345,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-29"
+    },
+    {
+      "symbol": "600017.SH",
+      "ex_date": "2019-06-05",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-04",
+      "pay_date": "2019-06-05",
+      "announcement_date": "2019-05-29"
+    },
+    {
+      "symbol": "600018.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.154,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "600019.SH",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-27"
+    },
+    {
+      "symbol": "600021.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.33,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "600023.SH",
+      "ex_date": "2018-07-23",
+      "cash_per_share": 0.17,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2018-07-20",
+      "pay_date": "2018-07-23",
+      "announcement_date": "2018-07-16"
+    },
+    {
+      "symbol": "600023.SH",
+      "ex_date": "2019-06-18",
+      "cash_per_share": 0.18,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-06-17",
+      "pay_date": "2019-06-18",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "600025.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.1502,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-29"
+    },
+    {
+      "symbol": "600028.SH",
+      "ex_date": "2019-06-11",
+      "cash_per_share": 0.26,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-10",
+      "pay_date": "2019-06-11",
+      "announcement_date": "2019-06-03"
+    },
+    {
+      "symbol": "600028.SH",
+      "ex_date": "2019-09-17",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-09-16",
+      "pay_date": "2019-09-17",
+      "announcement_date": "2019-09-09"
+    },
+    {
+      "symbol": "600029.SH",
+      "ex_date": "2019-07-24",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-23",
+      "pay_date": "2019-07-24",
+      "announcement_date": "2019-07-18"
+    },
+    {
+      "symbol": "600030.SH",
+      "ex_date": "2019-08-02",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-01",
+      "pay_date": "2019-08-02",
+      "announcement_date": "2019-07-26"
+    },
+    {
+      "symbol": "600031.SH",
+      "ex_date": "2019-07-17",
+      "cash_per_share": 0.26,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-16",
+      "pay_date": "2019-07-17",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "600033.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "600036.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.94,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "600037.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.18,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600038.SH",
+      "ex_date": "2019-07-16",
+      "cash_per_share": 0.26,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-15",
+      "pay_date": "2019-07-16",
+      "announcement_date": "2019-07-10"
+    },
+    {
+      "symbol": "600039.SH",
+      "ex_date": "2019-07-18",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-17",
+      "pay_date": "2019-07-18",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "600050.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.0533,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "600054.SH",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.132,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-19"
+    },
+    {
+      "symbol": "600056.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.4337,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600057.SH",
+      "ex_date": "2019-06-04",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-06-03",
+      "pay_date": "2019-06-04",
+      "announcement_date": "2019-05-29"
+    },
+    {
+      "symbol": "600057.SH",
+      "ex_date": "2019-10-08",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-09-30",
+      "pay_date": "2019-10-08",
+      "announcement_date": "2019-09-25"
+    },
+    {
+      "symbol": "600059.SH",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600060.SH",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.09,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "600066.SH",
+      "ex_date": "2019-05-15",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-14",
+      "pay_date": "2019-05-15",
+      "announcement_date": "2019-05-09"
+    },
+    {
+      "symbol": "600068.SH",
+      "ex_date": "2019-08-08",
+      "cash_per_share": 0.18,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-07",
+      "pay_date": "2019-08-08",
+      "announcement_date": "2019-08-01"
+    },
+    {
+      "symbol": "600075.SH",
+      "ex_date": "2019-06-03",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-31",
+      "pay_date": "2019-06-03",
+      "announcement_date": "2019-05-28"
+    },
+    {
+      "symbol": "600076.SH",
+      "ex_date": "2019-08-05",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-02",
+      "pay_date": "2019-08-05",
+      "announcement_date": "2019-07-30"
+    },
+    {
+      "symbol": "600077.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.031,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600085.SH",
+      "ex_date": "2019-07-29",
+      "cash_per_share": 0.26,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-26",
+      "pay_date": "2019-07-29",
+      "announcement_date": "2019-07-23"
+    },
+    {
+      "symbol": "600085.SH",
+      "ex_date": "2019-12-09",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-12-06",
+      "pay_date": "2019-12-09",
+      "announcement_date": "2019-12-03"
+    },
+    {
+      "symbol": "600089.SH",
+      "ex_date": "2019-07-04",
+      "cash_per_share": 0.18,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-03",
+      "pay_date": "2019-07-04",
+      "announcement_date": "2019-06-27"
+    },
+    {
+      "symbol": "600104.SH",
+      "ex_date": "2018-07-17",
+      "cash_per_share": 1.83,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-16",
+      "pay_date": "2018-07-17",
+      "announcement_date": "2018-07-10"
+    },
+    {
+      "symbol": "600104.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 1.26,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "600108.SH",
+      "ex_date": "2019-07-23",
+      "cash_per_share": 0.0045,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-22",
+      "pay_date": "2019-07-23",
+      "announcement_date": "2019-07-16"
+    },
+    {
+      "symbol": "600109.SH",
+      "ex_date": "2019-06-03",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-31",
+      "pay_date": "2019-06-03",
+      "announcement_date": "2019-05-27"
+    },
+    {
+      "symbol": "600116.SH",
+      "ex_date": "2019-06-18",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-17",
+      "pay_date": "2019-06-18",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "600118.SH",
+      "ex_date": "2019-05-16",
+      "cash_per_share": 0.11,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-15",
+      "pay_date": "2019-05-16",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "600123.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-27"
+    },
+    {
+      "symbol": "600125.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-15"
+    },
+    {
+      "symbol": "600126.SH",
+      "ex_date": "2019-10-23",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-22",
+      "pay_date": "2019-10-23",
+      "announcement_date": "2019-10-16"
+    },
+    {
+      "symbol": "600129.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "600138.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.14,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600141.SH",
+      "ex_date": "2019-06-17",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-14",
+      "pay_date": "2019-06-17",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "600143.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "600153.SH",
+      "ex_date": "2018-07-20",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-19",
+      "pay_date": "2018-07-20",
+      "announcement_date": "2018-07-16"
+    },
+    {
+      "symbol": "600153.SH",
+      "ex_date": "2019-06-25",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-24",
+      "pay_date": "2019-06-25",
+      "announcement_date": "2019-06-17"
+    },
+    {
+      "symbol": "600158.SH",
+      "ex_date": "2019-05-15",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-14",
+      "pay_date": "2019-05-15",
+      "announcement_date": "2019-05-09"
+    },
+    {
+      "symbol": "600160.SH",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-23"
+    },
+    {
+      "symbol": "600168.SH",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.119,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-02"
+    },
+    {
+      "symbol": "600170.SH",
+      "ex_date": "2019-07-17",
+      "cash_per_share": 0.135,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-16",
+      "pay_date": "2019-07-17",
+      "announcement_date": "2019-07-10"
+    },
+    {
+      "symbol": "600176.SH",
+      "ex_date": "2019-05-24",
+      "cash_per_share": 0.225,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-23",
+      "pay_date": "2019-05-24",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "600177.SH",
+      "ex_date": "2018-06-07",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-06-06",
+      "pay_date": "2018-06-07",
+      "announcement_date": "2018-05-31"
+    },
+    {
+      "symbol": "600183.SH",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "600188.SH",
+      "ex_date": "2019-06-11",
+      "cash_per_share": 0.54,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-10",
+      "pay_date": "2019-06-11",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600188.SH",
+      "ex_date": "2019-11-19",
+      "cash_per_share": 1.0,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-11-18",
+      "pay_date": "2019-11-19",
+      "announcement_date": "2019-11-12"
+    },
+    {
+      "symbol": "600199.SH",
+      "ex_date": "2019-07-18",
+      "cash_per_share": 0.015,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-17",
+      "pay_date": "2019-07-18",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "600208.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.059,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-04"
+    },
+    {
+      "symbol": "600211.SH",
+      "ex_date": "2019-04-19",
+      "cash_per_share": 0.37,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-18",
+      "pay_date": "2019-04-19",
+      "announcement_date": "2019-04-15"
+    },
+    {
+      "symbol": "600215.SH",
+      "ex_date": "2019-05-30",
+      "cash_per_share": 0.064,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-29",
+      "pay_date": "2019-05-30",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "600216.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "600219.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-24"
+    },
+    {
+      "symbol": "600229.SH",
+      "ex_date": "2019-07-09",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-08",
+      "pay_date": "2019-07-09",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "600230.SH",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-16"
+    },
+    {
+      "symbol": "600251.SH",
+      "ex_date": "2018-05-30",
+      "cash_per_share": 0.035,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-05-29",
+      "pay_date": "2018-05-30",
+      "announcement_date": "2018-05-23"
+    },
+    {
+      "symbol": "600251.SH",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.013,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600252.SH",
+      "ex_date": "2019-05-21",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-20",
+      "pay_date": "2019-05-21",
+      "announcement_date": "2019-05-14"
+    },
+    {
+      "symbol": "600256.SH",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-31"
+    },
+    {
+      "symbol": "600261.SH",
+      "ex_date": "2019-05-30",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-29",
+      "pay_date": "2019-05-30",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "600269.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600271.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.44,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-17"
+    },
+    {
+      "symbol": "600273.SH",
+      "ex_date": "2019-05-09",
+      "cash_per_share": 0.125,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-08",
+      "pay_date": "2019-05-09",
+      "announcement_date": "2019-04-30"
+    },
+    {
+      "symbol": "600273.SH",
+      "ex_date": "2019-10-16",
+      "cash_per_share": 0.165,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-15",
+      "pay_date": "2019-10-16",
+      "announcement_date": "2019-10-09"
+    },
+    {
+      "symbol": "600277.SH",
+      "ex_date": "2019-08-27",
+      "cash_per_share": 0.085,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-26",
+      "pay_date": "2019-08-27",
+      "announcement_date": "2019-08-20"
+    },
+    {
+      "symbol": "600282.SH",
+      "ex_date": "2019-04-26",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-25",
+      "pay_date": "2019-04-26",
+      "announcement_date": "2019-04-20"
+    },
+    {
+      "symbol": "600284.SH",
+      "ex_date": "2019-04-26",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-25",
+      "pay_date": "2019-04-26",
+      "announcement_date": "2019-04-19"
+    },
+    {
+      "symbol": "600285.SH",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600292.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600295.SH",
+      "ex_date": "2019-07-16",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-15",
+      "pay_date": "2019-07-16",
+      "announcement_date": "2019-07-10"
+    },
+    {
+      "symbol": "600298.SH",
+      "ex_date": "2019-06-04",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-03",
+      "pay_date": "2019-06-04",
+      "announcement_date": "2019-05-28"
+    },
+    {
+      "symbol": "600308.SH",
+      "ex_date": "2018-06-22",
+      "cash_per_share": 0.174,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-06-21",
+      "pay_date": "2018-06-22",
+      "announcement_date": "2018-06-14"
+    },
+    {
+      "symbol": "600308.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.185,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600315.SH",
+      "ex_date": "2019-08-01",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-31",
+      "pay_date": "2019-08-01",
+      "announcement_date": "2019-07-25"
+    },
+    {
+      "symbol": "600320.SH",
+      "ex_date": "2019-07-16",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-15",
+      "pay_date": "2019-07-16",
+      "announcement_date": "2019-07-10"
+    },
+    {
+      "symbol": "600323.SH",
+      "ex_date": "2019-07-17",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-16",
+      "pay_date": "2019-07-17",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "600325.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "600325.SH",
+      "ex_date": "2019-11-07",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-11-06",
+      "pay_date": "2019-11-07",
+      "announcement_date": "2019-10-31"
+    },
+    {
+      "symbol": "600326.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.08,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600328.SH",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.184,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-29"
+    },
+    {
+      "symbol": "600329.SH",
+      "ex_date": "2019-07-15",
+      "cash_per_share": 0.22,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-12",
+      "pay_date": "2019-07-15",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "600332.SH",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.424,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "600339.SH",
+      "ex_date": "2019-07-25",
+      "cash_per_share": 0.052,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-24",
+      "pay_date": "2019-07-25",
+      "announcement_date": "2019-07-19"
+    },
+    {
+      "symbol": "600343.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "600345.SH",
+      "ex_date": "2019-07-26",
+      "cash_per_share": 0.36,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-25",
+      "pay_date": "2019-07-26",
+      "announcement_date": "2019-07-19"
+    },
+    {
+      "symbol": "600348.SH",
+      "ex_date": "2019-07-08",
+      "cash_per_share": 0.28,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-05",
+      "pay_date": "2019-07-08",
+      "announcement_date": "2019-07-01"
+    },
+    {
+      "symbol": "600350.SH",
+      "ex_date": "2019-08-15",
+      "cash_per_share": 0.221,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-14",
+      "pay_date": "2019-08-15",
+      "announcement_date": "2019-08-08"
+    },
+    {
+      "symbol": "600352.SH",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-31"
+    },
+    {
+      "symbol": "600362.SH",
+      "ex_date": "2019-07-26",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-25",
+      "pay_date": "2019-07-26",
+      "announcement_date": "2019-07-22"
+    },
+    {
+      "symbol": "600367.SH",
+      "ex_date": "2019-04-17",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-16",
+      "pay_date": "2019-04-17",
+      "announcement_date": "2019-04-11"
+    },
+    {
+      "symbol": "600369.SH",
+      "ex_date": "2019-08-08",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-07",
+      "pay_date": "2019-08-08",
+      "announcement_date": "2019-08-01"
+    },
+    {
+      "symbol": "600372.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-08"
+    },
+    {
+      "symbol": "600373.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-07"
+    },
+    {
+      "symbol": "600376.SH",
+      "ex_date": "2019-07-08",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-05",
+      "pay_date": "2019-07-08",
+      "announcement_date": "2019-07-02"
+    },
+    {
+      "symbol": "600377.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.46,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-04"
+    },
+    {
+      "symbol": "600380.SH",
+      "ex_date": "2019-05-24",
+      "cash_per_share": 0.16,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-23",
+      "pay_date": "2019-05-24",
+      "announcement_date": "2019-05-20"
+    },
+    {
+      "symbol": "600383.SH",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.6,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "600387.SH",
+      "ex_date": "2019-07-02",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-01",
+      "pay_date": "2019-07-02",
+      "announcement_date": "2019-06-25"
+    },
+    {
+      "symbol": "600388.SH",
+      "ex_date": "2019-07-04",
+      "cash_per_share": 0.17,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-03",
+      "pay_date": "2019-07-04",
+      "announcement_date": "2019-06-27"
+    },
+    {
+      "symbol": "600389.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600395.SH",
+      "ex_date": "2019-07-29",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-26",
+      "pay_date": "2019-07-29",
+      "announcement_date": "2019-07-23"
+    },
+    {
+      "symbol": "600398.SH",
+      "ex_date": "2018-06-08",
+      "cash_per_share": 0.48,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-06-07",
+      "pay_date": "2018-06-08",
+      "announcement_date": "2018-06-02"
+    },
+    {
+      "symbol": "600398.SH",
+      "ex_date": "2019-05-15",
+      "cash_per_share": 0.38,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-14",
+      "pay_date": "2019-05-15",
+      "announcement_date": "2019-05-09"
+    },
+    {
+      "symbol": "600406.SH",
+      "ex_date": "2019-07-23",
+      "cash_per_share": 0.37,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-22",
+      "pay_date": "2019-07-23",
+      "announcement_date": "2019-07-17"
+    },
+    {
+      "symbol": "600409.SH",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.231,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "600415.SH",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-19"
+    },
+    {
+      "symbol": "600420.SH",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "600426.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600436.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.6,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "600449.SH",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "600461.SH",
+      "ex_date": "2019-07-08",
+      "cash_per_share": 0.17,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-05",
+      "pay_date": "2019-07-08",
+      "announcement_date": "2019-07-02"
+    },
+    {
+      "symbol": "600467.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.013,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-06"
+    },
+    {
+      "symbol": "600479.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600481.SH",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "600483.SH",
+      "ex_date": "2019-07-29",
+      "cash_per_share": 0.21,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-26",
+      "pay_date": "2019-07-29",
+      "announcement_date": "2019-07-22"
+    },
+    {
+      "symbol": "600489.SH",
+      "ex_date": "2018-08-08",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-08-07",
+      "pay_date": "2018-08-08",
+      "announcement_date": "2018-07-31"
+    },
+    {
+      "symbol": "600489.SH",
+      "ex_date": "2019-07-25",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-24",
+      "pay_date": "2019-07-25",
+      "announcement_date": "2019-07-18"
+    },
+    {
+      "symbol": "600495.SH",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.012,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-31"
+    },
+    {
+      "symbol": "600496.SH",
+      "ex_date": "2019-07-15",
+      "cash_per_share": 0.013,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-12",
+      "pay_date": "2019-07-15",
+      "announcement_date": "2019-07-08"
+    },
+    {
+      "symbol": "600497.SH",
+      "ex_date": "2019-05-24",
+      "cash_per_share": 0.07,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-23",
+      "pay_date": "2019-05-24",
+      "announcement_date": "2019-05-20"
+    },
+    {
+      "symbol": "600498.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.34,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-04"
+    },
+    {
+      "symbol": "600502.SH",
+      "ex_date": "2019-06-11",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-10",
+      "pay_date": "2019-06-11",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600507.SH",
+      "ex_date": "2019-05-08",
+      "cash_per_share": 1.7,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-07",
+      "pay_date": "2019-05-08",
+      "announcement_date": "2019-04-27"
+    },
+    {
+      "symbol": "600508.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.28,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "600511.SH",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-23"
+    },
+    {
+      "symbol": "600512.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "600519.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 14.539,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-22"
+    },
+    {
+      "symbol": "600522.SH",
+      "ex_date": "2019-07-16",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-15",
+      "pay_date": "2019-07-16",
+      "announcement_date": "2019-07-10"
+    },
+    {
+      "symbol": "600528.SH",
+      "ex_date": "2019-08-20",
+      "cash_per_share": 0.115,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-19",
+      "pay_date": "2019-08-20",
+      "announcement_date": "2019-08-14"
+    },
+    {
+      "symbol": "600535.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600545.SH",
+      "ex_date": "2019-07-29",
+      "cash_per_share": 0.1293,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-26",
+      "pay_date": "2019-07-29",
+      "announcement_date": "2019-07-23"
+    },
+    {
+      "symbol": "600547.SH",
+      "ex_date": "2018-02-08",
+      "cash_per_share": 0.08,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-02-07",
+      "pay_date": "2018-02-08",
+      "announcement_date": "2018-02-02"
+    },
+    {
+      "symbol": "600547.SH",
+      "ex_date": "2018-05-25",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-05-24",
+      "pay_date": "2018-05-25",
+      "announcement_date": "2018-05-18"
+    },
+    {
+      "symbol": "600548.SH",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.71,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "600549.SH",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-04"
+    },
+    {
+      "symbol": "600563.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 1.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600569.SH",
+      "ex_date": "2019-05-10",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-09",
+      "pay_date": "2019-05-10",
+      "announcement_date": "2019-05-01"
+    },
+    {
+      "symbol": "600577.SH",
+      "ex_date": "2019-06-12",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-11",
+      "pay_date": "2019-06-12",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600580.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "600582.SH",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "600583.SH",
+      "ex_date": "2018-06-05",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-06-04",
+      "pay_date": "2018-06-05",
+      "announcement_date": "2018-05-30"
+    },
+    {
+      "symbol": "600583.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-07"
+    },
+    {
+      "symbol": "600585.SH",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 1.69,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "600586.SH",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "600587.SH",
+      "ex_date": "2019-07-01",
+      "cash_per_share": 0.045,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-28",
+      "pay_date": "2019-07-01",
+      "announcement_date": "2019-06-24"
+    },
+    {
+      "symbol": "600597.SH",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "600598.SH",
+      "ex_date": "2019-05-22",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-21",
+      "pay_date": "2019-05-22",
+      "announcement_date": "2019-05-14"
+    },
+    {
+      "symbol": "600603.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600606.SH",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "600611.SH",
+      "ex_date": "2019-07-23",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-22",
+      "pay_date": "2019-07-23",
+      "announcement_date": "2019-07-15"
+    },
+    {
+      "symbol": "600612.SH",
+      "ex_date": "2019-08-14",
+      "cash_per_share": 1.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-13",
+      "pay_date": "2019-08-14",
+      "announcement_date": "2019-08-07"
+    },
+    {
+      "symbol": "600623.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.26,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "600641.SH",
+      "ex_date": "2019-07-30",
+      "cash_per_share": 0.196,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-29",
+      "pay_date": "2019-07-30",
+      "announcement_date": "2019-07-24"
+    },
+    {
+      "symbol": "600642.SH",
+      "ex_date": "2019-06-05",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-04",
+      "pay_date": "2019-06-05",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "600648.SH",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.22,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "600655.SH",
+      "ex_date": "2019-07-22",
+      "cash_per_share": 0.27,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-19",
+      "pay_date": "2019-07-22",
+      "announcement_date": "2019-07-15"
+    },
+    {
+      "symbol": "600660.SH",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.75,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-22"
+    },
+    {
+      "symbol": "600662.SH",
+      "ex_date": "2019-07-31",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-30",
+      "pay_date": "2019-07-31",
+      "announcement_date": "2019-07-24"
+    },
+    {
+      "symbol": "600668.SH",
+      "ex_date": "2019-07-18",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-17",
+      "pay_date": "2019-07-18",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "600673.SH",
+      "ex_date": "2019-05-16",
+      "cash_per_share": 0.07,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-15",
+      "pay_date": "2019-05-16",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "600674.SH",
+      "ex_date": "2019-07-22",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-19",
+      "pay_date": "2019-07-22",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "600676.SH",
+      "ex_date": "2019-06-18",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-17",
+      "pay_date": "2019-06-18",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "600688.SH",
+      "ex_date": "2019-07-18",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-17",
+      "pay_date": "2019-07-18",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "600690.SH",
+      "ex_date": "2019-08-08",
+      "cash_per_share": 0.351,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-07",
+      "pay_date": "2019-08-08",
+      "announcement_date": "2019-08-02"
+    },
+    {
+      "symbol": "600704.SH",
+      "ex_date": "2019-05-30",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-29",
+      "pay_date": "2019-05-30",
+      "announcement_date": "2019-05-23"
+    },
+    {
+      "symbol": "600708.SH",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "600713.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "600720.SH",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.296,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-25"
+    },
+    {
+      "symbol": "600729.SH",
+      "ex_date": "2019-06-11",
+      "cash_per_share": 0.65,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-10",
+      "pay_date": "2019-06-11",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600740.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-17"
+    },
+    {
+      "symbol": "600741.SH",
+      "ex_date": "2019-07-23",
+      "cash_per_share": 1.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-22",
+      "pay_date": "2019-07-23",
+      "announcement_date": "2019-07-17"
+    },
+    {
+      "symbol": "600742.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.6,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600754.SH",
+      "ex_date": "2019-06-11",
+      "cash_per_share": 0.6,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-10",
+      "pay_date": "2019-06-11",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600755.SH",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.27,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "600757.SH",
+      "ex_date": "2018-05-22",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-05-21",
+      "pay_date": "2018-05-22",
+      "announcement_date": "2018-05-15"
+    },
+    {
+      "symbol": "600757.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600761.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600782.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "600787.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.023,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600790.SH",
+      "ex_date": "2019-05-27",
+      "cash_per_share": 0.18,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-24",
+      "pay_date": "2019-05-27",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "600795.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "600802.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.033,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "600803.SH",
+      "ex_date": "2019-08-06",
+      "cash_per_share": 0.21,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-05",
+      "pay_date": "2019-08-06",
+      "announcement_date": "2019-07-31"
+    },
+    {
+      "symbol": "600808.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.31,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-06"
+    },
+    {
+      "symbol": "600820.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.19,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "600823.SH",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.26,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-04"
+    },
+    {
+      "symbol": "600826.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.17,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600827.SH",
+      "ex_date": "2019-08-01",
+      "cash_per_share": 0.18,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-31",
+      "pay_date": "2019-08-01",
+      "announcement_date": "2019-07-26"
+    },
+    {
+      "symbol": "600835.SH",
+      "ex_date": "2019-06-05",
+      "cash_per_share": 0.44,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-04",
+      "pay_date": "2019-06-05",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "600837.SH",
+      "ex_date": "2019-07-26",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-25",
+      "pay_date": "2019-07-26",
+      "announcement_date": "2019-07-18"
+    },
+    {
+      "symbol": "600838.SH",
+      "ex_date": "2019-08-23",
+      "cash_per_share": 0.074,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-22",
+      "pay_date": "2019-08-23",
+      "announcement_date": "2019-08-16"
+    },
+    {
+      "symbol": "600839.SH",
+      "ex_date": "2019-08-08",
+      "cash_per_share": 0.022,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-07",
+      "pay_date": "2019-08-08",
+      "announcement_date": "2019-08-01"
+    },
+    {
+      "symbol": "600848.SH",
+      "ex_date": "2019-05-16",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-15",
+      "pay_date": "2019-05-16",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "600850.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.36,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-22"
+    },
+    {
+      "symbol": "600859.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.47,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-24"
+    },
+    {
+      "symbol": "600863.SH",
+      "ex_date": "2019-08-15",
+      "cash_per_share": 0.096,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-08-14",
+      "pay_date": "2019-08-15",
+      "announcement_date": "2019-08-07"
+    },
+    {
+      "symbol": "600868.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.004,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-22"
+    },
+    {
+      "symbol": "600873.SH",
+      "ex_date": "2019-08-13",
+      "cash_per_share": 0.33,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-12",
+      "pay_date": "2019-08-13",
+      "announcement_date": "2019-08-06"
+    },
+    {
+      "symbol": "600875.SH",
+      "ex_date": "2019-08-26",
+      "cash_per_share": 0.11,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-23",
+      "pay_date": "2019-08-26",
+      "announcement_date": "2019-08-16"
+    },
+    {
+      "symbol": "600886.SH",
+      "ex_date": "2019-07-30",
+      "cash_per_share": 0.225,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-29",
+      "pay_date": "2019-07-30",
+      "announcement_date": "2019-07-24"
+    },
+    {
+      "symbol": "600887.SH",
+      "ex_date": "2019-04-08",
+      "cash_per_share": 0.7,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-04",
+      "pay_date": "2019-04-08",
+      "announcement_date": "2019-04-01"
+    },
+    {
+      "symbol": "600888.SH",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.07,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-13"
+    },
+    {
+      "symbol": "600893.SH",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.142,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "600897.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 1.28,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "600900.SH",
+      "ex_date": "2019-07-18",
+      "cash_per_share": 0.68,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-17",
+      "pay_date": "2019-07-18",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "600909.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600917.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.08,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-06"
+    },
+    {
+      "symbol": "600919.SH",
+      "ex_date": "2019-07-12",
+      "cash_per_share": 0.34,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-11",
+      "pay_date": "2019-07-12",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "600926.SH",
+      "ex_date": "2019-07-04",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-03",
+      "pay_date": "2019-07-04",
+      "announcement_date": "2019-06-26"
+    },
+    {
+      "symbol": "600963.SH",
+      "ex_date": "2019-05-20",
+      "cash_per_share": 0.027,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-17",
+      "pay_date": "2019-05-20",
+      "announcement_date": "2019-05-13"
+    },
+    {
+      "symbol": "600966.SH",
+      "ex_date": "2019-07-16",
+      "cash_per_share": 0.017,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-15",
+      "pay_date": "2019-07-16",
+      "announcement_date": "2019-07-10"
+    },
+    {
+      "symbol": "600970.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.265,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-04"
+    },
+    {
+      "symbol": "600976.SH",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-29"
+    },
+    {
+      "symbol": "600977.SH",
+      "ex_date": "2019-07-26",
+      "cash_per_share": 0.281,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-25",
+      "pay_date": "2019-07-26",
+      "announcement_date": "2019-07-19"
+    },
+    {
+      "symbol": "600993.SH",
+      "ex_date": "2019-07-26",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-25",
+      "pay_date": "2019-07-26",
+      "announcement_date": "2019-07-19"
+    },
+    {
+      "symbol": "600997.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.26,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "600998.SH",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-19"
+    },
+    {
+      "symbol": "600999.SH",
+      "ex_date": "2019-08-27",
+      "cash_per_share": 0.264,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-26",
+      "pay_date": "2019-08-27",
+      "announcement_date": "2019-08-20"
+    },
+    {
+      "symbol": "601000.SH",
+      "ex_date": "2019-05-24",
+      "cash_per_share": 0.07,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-23",
+      "pay_date": "2019-05-24",
+      "announcement_date": "2019-05-18"
+    },
+    {
+      "symbol": "601003.SH",
+      "ex_date": "2019-05-30",
+      "cash_per_share": 0.6,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-29",
+      "pay_date": "2019-05-30",
+      "announcement_date": "2019-05-23"
+    },
+    {
+      "symbol": "601006.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.48,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "601009.SH",
+      "ex_date": "2018-08-08",
+      "cash_per_share": 0.345,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-08-07",
+      "pay_date": "2018-08-08",
+      "announcement_date": "2018-07-31"
+    },
+    {
+      "symbol": "601009.SH",
+      "ex_date": "2019-07-31",
+      "cash_per_share": 0.392,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-30",
+      "pay_date": "2019-07-31",
+      "announcement_date": "2019-07-25"
+    },
+    {
+      "symbol": "601012.SH",
+      "ex_date": "2019-06-10",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-06",
+      "pay_date": "2019-06-10",
+      "announcement_date": "2019-05-31"
+    },
+    {
+      "symbol": "601016.SH",
+      "ex_date": "2019-06-24",
+      "cash_per_share": 0.0464,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-21",
+      "pay_date": "2019-06-24",
+      "announcement_date": "2019-06-18"
+    },
+    {
+      "symbol": "601018.SH",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.093,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-22"
+    },
+    {
+      "symbol": "601019.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.29,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "601021.SH",
+      "ex_date": "2019-05-24",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-23",
+      "pay_date": "2019-05-24",
+      "announcement_date": "2019-05-20"
+    },
+    {
+      "symbol": "601058.SH",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-27"
+    },
+    {
+      "symbol": "601069.SH",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.01,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-31"
+    },
+    {
+      "symbol": "601086.SH",
+      "ex_date": "2019-06-21",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-20",
+      "pay_date": "2019-06-21",
+      "announcement_date": "2019-06-17"
+    },
+    {
+      "symbol": "601086.SH",
+      "ex_date": "2019-10-24",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-23",
+      "pay_date": "2019-10-24",
+      "announcement_date": "2019-10-18"
+    },
+    {
+      "symbol": "601088.SH",
+      "ex_date": "2019-07-08",
+      "cash_per_share": 0.88,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-05",
+      "pay_date": "2019-07-08",
+      "announcement_date": "2019-07-01"
+    },
+    {
+      "symbol": "601098.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.61,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "601101.SH",
+      "ex_date": "2019-07-26",
+      "cash_per_share": 0.19,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-25",
+      "pay_date": "2019-07-26",
+      "announcement_date": "2019-07-19"
+    },
+    {
+      "symbol": "601111.SH",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.1033,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "601117.SH",
+      "ex_date": "2018-06-27",
+      "cash_per_share": 0.095,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-06-26",
+      "pay_date": "2018-06-27",
+      "announcement_date": "2018-06-20"
+    },
+    {
+      "symbol": "601117.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.118,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-22"
+    },
+    {
+      "symbol": "601127.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.08,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-07"
+    },
+    {
+      "symbol": "601128.SH",
+      "ex_date": "2019-06-05",
+      "cash_per_share": 0.18,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-04",
+      "pay_date": "2019-06-05",
+      "announcement_date": "2019-05-28"
+    },
+    {
+      "symbol": "601138.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.129,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "601139.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "601155.SH",
+      "ex_date": "2019-05-27",
+      "cash_per_share": 1.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-24",
+      "pay_date": "2019-05-27",
+      "announcement_date": "2019-05-20"
+    },
+    {
+      "symbol": "601163.SH",
+      "ex_date": "2019-07-25",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-24",
+      "pay_date": "2019-07-25",
+      "announcement_date": "2019-07-19"
+    },
+    {
+      "symbol": "601166.SH",
+      "ex_date": "2018-06-15",
+      "cash_per_share": 0.65,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-06-14",
+      "pay_date": "2018-06-15",
+      "announcement_date": "2018-06-08"
+    },
+    {
+      "symbol": "601166.SH",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.69,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "601168.SH",
+      "ex_date": "2018-05-17",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-05-16",
+      "pay_date": "2018-05-17",
+      "announcement_date": "2018-05-11"
+    },
+    {
+      "symbol": "601169.SH",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.286,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "601179.SH",
+      "ex_date": "2019-07-01",
+      "cash_per_share": 0.034,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-28",
+      "pay_date": "2019-07-01",
+      "announcement_date": "2019-06-25"
+    },
+    {
+      "symbol": "601186.SH",
+      "ex_date": "2019-07-25",
+      "cash_per_share": 0.21,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-24",
+      "pay_date": "2019-07-25",
+      "announcement_date": "2019-07-17"
+    },
+    {
+      "symbol": "601211.SH",
+      "ex_date": "2019-08-12",
+      "cash_per_share": 0.275,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-09",
+      "pay_date": "2019-08-12",
+      "announcement_date": "2019-08-05"
+    },
+    {
+      "symbol": "601225.SH",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.33,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-05"
+    },
+    {
+      "symbol": "601228.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.035,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "601238.SH",
+      "ex_date": "2019-06-25",
+      "cash_per_share": 0.28,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-24",
+      "pay_date": "2019-06-25",
+      "announcement_date": "2019-06-18"
+    },
+    {
+      "symbol": "601238.SH",
+      "ex_date": "2019-09-24",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-09-23",
+      "pay_date": "2019-09-24",
+      "announcement_date": "2019-09-18"
+    },
+    {
+      "symbol": "601288.SH",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.1739,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "601318.SH",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 1.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "601318.SH",
+      "ex_date": "2019-09-04",
+      "cash_per_share": 0.75,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-09-03",
+      "pay_date": "2019-09-04",
+      "announcement_date": "2019-08-29"
+    },
+    {
+      "symbol": "601326.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.077,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "601328.SH",
+      "ex_date": "2019-07-09",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-08",
+      "pay_date": "2019-07-09",
+      "announcement_date": "2019-07-02"
+    },
+    {
+      "symbol": "601333.SH",
+      "ex_date": "2019-08-12",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-09",
+      "pay_date": "2019-08-12",
+      "announcement_date": "2019-08-06"
+    },
+    {
+      "symbol": "601336.SH",
+      "ex_date": "2019-08-09",
+      "cash_per_share": 0.77,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-08",
+      "pay_date": "2019-08-09",
+      "announcement_date": "2019-08-02"
+    },
+    {
+      "symbol": "601366.SH",
+      "ex_date": "2019-07-08",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-05",
+      "pay_date": "2019-07-08",
+      "announcement_date": "2019-07-01"
+    },
+    {
+      "symbol": "601369.SH",
+      "ex_date": "2019-07-03",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-02",
+      "pay_date": "2019-07-03",
+      "announcement_date": "2019-06-26"
+    },
+    {
+      "symbol": "601375.SH",
+      "ex_date": "2019-12-03",
+      "cash_per_share": 0.02,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-12-02",
+      "pay_date": "2019-12-03",
+      "announcement_date": "2019-11-26"
+    },
+    {
+      "symbol": "601377.SH",
+      "ex_date": "2019-08-26",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-23",
+      "pay_date": "2019-08-26",
+      "announcement_date": "2019-08-19"
+    },
+    {
+      "symbol": "601390.SH",
+      "ex_date": "2019-07-23",
+      "cash_per_share": 0.128,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-22",
+      "pay_date": "2019-07-23",
+      "announcement_date": "2019-07-16"
+    },
+    {
+      "symbol": "601398.SH",
+      "ex_date": "2019-07-03",
+      "cash_per_share": 0.2506,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-02",
+      "pay_date": "2019-07-03",
+      "announcement_date": "2019-06-27"
+    },
+    {
+      "symbol": "601555.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.09,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-29"
+    },
+    {
+      "symbol": "601566.SH",
+      "ex_date": "2019-06-04",
+      "cash_per_share": 1.0,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-03",
+      "pay_date": "2019-06-04",
+      "announcement_date": "2019-05-29"
+    },
+    {
+      "symbol": "601579.SH",
+      "ex_date": "2019-07-22",
+      "cash_per_share": 0.11,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-19",
+      "pay_date": "2019-07-22",
+      "announcement_date": "2019-07-16"
+    },
+    {
+      "symbol": "601588.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "601601.SH",
+      "ex_date": "2019-07-23",
+      "cash_per_share": 1.0,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-22",
+      "pay_date": "2019-07-23",
+      "announcement_date": "2019-07-16"
+    },
+    {
+      "symbol": "601607.SH",
+      "ex_date": "2019-07-16",
+      "cash_per_share": 0.41,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-15",
+      "pay_date": "2019-07-16",
+      "announcement_date": "2019-07-09"
+    },
+    {
+      "symbol": "601611.SH",
+      "ex_date": "2019-07-25",
+      "cash_per_share": 0.056,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-24",
+      "pay_date": "2019-07-25",
+      "announcement_date": "2019-07-19"
+    },
+    {
+      "symbol": "601618.SH",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.07,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "601628.SH",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.16,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "601636.SH",
+      "ex_date": "2019-05-24",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-23",
+      "pay_date": "2019-05-24",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "601668.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.168,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "601669.SH",
+      "ex_date": "2019-07-24",
+      "cash_per_share": 0.0978,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-23",
+      "pay_date": "2019-07-24",
+      "announcement_date": "2019-07-18"
+    },
+    {
+      "symbol": "601678.SH",
+      "ex_date": "2019-04-19",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-18",
+      "pay_date": "2019-04-19",
+      "announcement_date": "2019-04-13"
+    },
+    {
+      "symbol": "601699.SH",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.268,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-18"
+    },
+    {
+      "symbol": "601717.SH",
+      "ex_date": "2019-07-08",
+      "cash_per_share": 0.145,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-05",
+      "pay_date": "2019-07-08",
+      "announcement_date": "2019-07-02"
+    },
+    {
+      "symbol": "601718.SH",
+      "ex_date": "2019-08-15",
+      "cash_per_share": 0.01,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-14",
+      "pay_date": "2019-08-15",
+      "announcement_date": "2019-08-09"
+    },
+    {
+      "symbol": "601727.SH",
+      "ex_date": "2019-08-08",
+      "cash_per_share": 0.0615,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-07",
+      "pay_date": "2019-08-08",
+      "announcement_date": "2019-07-31"
+    },
+    {
+      "symbol": "601766.SH",
+      "ex_date": "2019-08-15",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-14",
+      "pay_date": "2019-08-15",
+      "announcement_date": "2019-08-09"
+    },
+    {
+      "symbol": "601788.SH",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "601800.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.2308,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-27"
+    },
+    {
+      "symbol": "601801.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.175,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "601808.SH",
+      "ex_date": "2019-06-14",
+      "cash_per_share": 0.07,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-13",
+      "pay_date": "2019-06-14",
+      "announcement_date": "2019-06-07"
+    },
+    {
+      "symbol": "601818.SH",
+      "ex_date": "2019-06-26",
+      "cash_per_share": 0.161,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-25",
+      "pay_date": "2019-06-26",
+      "announcement_date": "2019-06-19"
+    },
+    {
+      "symbol": "601828.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.27,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "601838.SH",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "601857.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.09,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "601857.SH",
+      "ex_date": "2019-09-24",
+      "cash_per_share": 0.0777,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-09-23",
+      "pay_date": "2019-09-24",
+      "announcement_date": "2019-09-17"
+    },
+    {
+      "symbol": "601869.SH",
+      "ex_date": "2019-07-26",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-25",
+      "pay_date": "2019-07-26",
+      "announcement_date": "2019-07-19"
+    },
+    {
+      "symbol": "601872.SH",
+      "ex_date": "2019-07-17",
+      "cash_per_share": 0.058,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-16",
+      "pay_date": "2019-07-17",
+      "announcement_date": "2019-07-10"
+    },
+    {
+      "symbol": "601888.SH",
+      "ex_date": "2019-06-24",
+      "cash_per_share": 0.55,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-21",
+      "pay_date": "2019-06-24",
+      "announcement_date": "2019-06-14"
+    },
+    {
+      "symbol": "601898.SH",
+      "ex_date": "2018-07-18",
+      "cash_per_share": 0.055,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-17",
+      "pay_date": "2018-07-18",
+      "announcement_date": "2018-07-12"
+    },
+    {
+      "symbol": "601898.SH",
+      "ex_date": "2019-07-16",
+      "cash_per_share": 0.078,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-15",
+      "pay_date": "2019-07-16",
+      "announcement_date": "2019-07-09"
+    },
+    {
+      "symbol": "601899.SH",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-04"
+    },
+    {
+      "symbol": "601918.SH",
+      "ex_date": "2019-07-11",
+      "cash_per_share": 0.01,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-10",
+      "pay_date": "2019-07-11",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "601928.SH",
+      "ex_date": "2019-07-18",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-17",
+      "pay_date": "2019-07-18",
+      "announcement_date": "2019-07-11"
+    },
+    {
+      "symbol": "601933.SH",
+      "ex_date": "2019-06-24",
+      "cash_per_share": 0.11,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-21",
+      "pay_date": "2019-06-24",
+      "announcement_date": "2019-06-17"
+    },
+    {
+      "symbol": "601939.SH",
+      "ex_date": "2019-07-10",
+      "cash_per_share": 0.306,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-09",
+      "pay_date": "2019-07-10",
+      "announcement_date": "2019-07-02"
+    },
+    {
+      "symbol": "601952.SH",
+      "ex_date": "2019-05-30",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-29",
+      "pay_date": "2019-05-30",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "601958.SH",
+      "ex_date": "2019-07-03",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-02",
+      "pay_date": "2019-07-03",
+      "announcement_date": "2019-06-27"
+    },
+    {
+      "symbol": "601958.SH",
+      "ex_date": "2019-10-31",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-10-30",
+      "pay_date": "2019-10-31",
+      "announcement_date": "2019-10-25"
+    },
+    {
+      "symbol": "601966.SH",
+      "ex_date": "2019-06-25",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-24",
+      "pay_date": "2019-06-25",
+      "announcement_date": "2019-06-19"
+    },
+    {
+      "symbol": "601985.SH",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "601988.SH",
+      "ex_date": "2019-06-03",
+      "cash_per_share": 0.184,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-31",
+      "pay_date": "2019-06-03",
+      "announcement_date": "2019-05-25"
+    },
+    {
+      "symbol": "601989.SH",
+      "ex_date": "2019-07-18",
+      "cash_per_share": 0.009,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-07-17",
+      "pay_date": "2019-07-18",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "601991.SH",
+      "ex_date": "2019-08-23",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-08-22",
+      "pay_date": "2019-08-23",
+      "announcement_date": "2019-08-15"
+    },
+    {
+      "symbol": "601992.SH",
+      "ex_date": "2019-07-04",
+      "cash_per_share": 0.055,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-03",
+      "pay_date": "2019-07-04",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "601997.SH",
+      "ex_date": "2018-07-10",
+      "cash_per_share": 0.33,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-07-09",
+      "pay_date": "2018-07-10",
+      "announcement_date": "2018-07-03"
+    },
+    {
+      "symbol": "601998.SH",
+      "ex_date": "2019-07-22",
+      "cash_per_share": 0.23,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-19",
+      "pay_date": "2019-07-22",
+      "announcement_date": "2019-07-15"
+    },
+    {
+      "symbol": "603012.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-21"
+    },
+    {
+      "symbol": "603026.SH",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.6,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-10"
+    },
+    {
+      "symbol": "603035.SH",
+      "ex_date": "2019-07-18",
+      "cash_per_share": 0.375,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-17",
+      "pay_date": "2019-07-18",
+      "announcement_date": "2019-07-10"
+    },
+    {
+      "symbol": "603113.SH",
+      "ex_date": "2019-12-30",
+      "cash_per_share": 0.148,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-12-27",
+      "pay_date": "2019-12-30",
+      "announcement_date": "2019-12-24"
+    },
+    {
+      "symbol": "603128.SH",
+      "ex_date": "2019-07-09",
+      "cash_per_share": 0.098,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-08",
+      "pay_date": "2019-07-09",
+      "announcement_date": "2019-07-03"
+    },
+    {
+      "symbol": "603160.SH",
+      "ex_date": "2019-07-04",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-03",
+      "pay_date": "2019-07-04",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "603167.SH",
+      "ex_date": "2018-06-25",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2018-06-22",
+      "pay_date": "2018-06-25",
+      "announcement_date": "2018-06-19"
+    },
+    {
+      "symbol": "603167.SH",
+      "ex_date": "2019-06-13",
+      "cash_per_share": 0.6,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-12",
+      "pay_date": "2019-06-13",
+      "announcement_date": "2019-06-05"
+    },
+    {
+      "symbol": "603179.SH",
+      "ex_date": "2019-04-12",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-11",
+      "pay_date": "2019-04-12",
+      "announcement_date": "2019-04-05"
+    },
+    {
+      "symbol": "603192.SH",
+      "ex_date": "2019-06-04",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-03",
+      "pay_date": "2019-06-04",
+      "announcement_date": "2019-05-28"
+    },
+    {
+      "symbol": "603198.SH",
+      "ex_date": "2019-06-06",
+      "cash_per_share": 0.7,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-05",
+      "pay_date": "2019-06-06",
+      "announcement_date": "2019-05-30"
+    },
+    {
+      "symbol": "603288.SH",
+      "ex_date": "2019-05-07",
+      "cash_per_share": 0.98,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-06",
+      "pay_date": "2019-05-07",
+      "announcement_date": "2019-04-26"
+    },
+    {
+      "symbol": "603298.SH",
+      "ex_date": "2019-05-31",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-30",
+      "pay_date": "2019-05-31",
+      "announcement_date": "2019-05-24"
+    },
+    {
+      "symbol": "603328.SH",
+      "ex_date": "2019-07-19",
+      "cash_per_share": 0.7,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-18",
+      "pay_date": "2019-07-19",
+      "announcement_date": "2019-07-12"
+    },
+    {
+      "symbol": "603328.SH",
+      "ex_date": "2019-09-25",
+      "cash_per_share": 0.75,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-09-24",
+      "pay_date": "2019-09-25",
+      "announcement_date": "2019-09-18"
+    },
+    {
+      "symbol": "603348.SH",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-11"
+    },
+    {
+      "symbol": "603365.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "603365.SH",
+      "ex_date": "2019-11-07",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-11-06",
+      "pay_date": "2019-11-07",
+      "announcement_date": "2019-10-31"
+    },
+    {
+      "symbol": "603367.SH",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.262,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-17"
+    },
+    {
+      "symbol": "603368.SH",
+      "ex_date": "2019-05-28",
+      "cash_per_share": 0.62,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-27",
+      "pay_date": "2019-05-28",
+      "announcement_date": "2019-05-22"
+    },
+    {
+      "symbol": "603535.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "603557.SH",
+      "ex_date": "2019-07-05",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-07-04",
+      "pay_date": "2019-07-05",
+      "announcement_date": "2019-06-27"
+    },
+    {
+      "symbol": "603587.SH",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 1.0,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-21"
+    },
+    {
+      "symbol": "603588.SH",
+      "ex_date": "2019-05-23",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-22",
+      "pay_date": "2019-05-23",
+      "announcement_date": "2019-05-16"
+    },
+    {
+      "symbol": "603589.SH",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 1.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-22"
+    },
+    {
+      "symbol": "603590.SH",
+      "ex_date": "2019-06-03",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-31",
+      "pay_date": "2019-06-03",
+      "announcement_date": "2019-05-27"
+    },
+    {
+      "symbol": "603596.SH",
+      "ex_date": "2019-05-24",
+      "cash_per_share": 0.06,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-23",
+      "pay_date": "2019-05-24",
+      "announcement_date": "2019-05-20"
+    },
+    {
+      "symbol": "603608.SH",
+      "ex_date": "2019-06-11",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-10",
+      "pay_date": "2019-06-11",
+      "announcement_date": "2019-05-31"
+    },
+    {
+      "symbol": "603636.SH",
+      "ex_date": "2019-05-17",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-05-16",
+      "pay_date": "2019-05-17",
+      "announcement_date": "2019-05-13"
+    },
+    {
+      "symbol": "603639.SH",
+      "ex_date": "2019-07-04",
+      "cash_per_share": 0.3,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-03",
+      "pay_date": "2019-07-04",
+      "announcement_date": "2019-06-28"
+    },
+    {
+      "symbol": "603657.SH",
+      "ex_date": "2019-05-10",
+      "cash_per_share": 0.8,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-09",
+      "pay_date": "2019-05-10",
+      "announcement_date": "2019-04-30"
+    },
+    {
+      "symbol": "603689.SH",
+      "ex_date": "2019-06-20",
+      "cash_per_share": 0.16,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-19",
+      "pay_date": "2019-06-20",
+      "announcement_date": "2019-06-13"
+    },
+    {
+      "symbol": "603693.SH",
+      "ex_date": "2019-06-27",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-26",
+      "pay_date": "2019-06-27",
+      "announcement_date": "2019-06-20"
+    },
+    {
+      "symbol": "603777.SH",
+      "ex_date": "2019-07-16",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-15",
+      "pay_date": "2019-07-16",
+      "announcement_date": "2019-07-09"
+    },
+    {
+      "symbol": "603800.SH",
+      "ex_date": "2019-05-22",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-21",
+      "pay_date": "2019-05-22",
+      "announcement_date": "2019-05-16"
+    },
+    {
+      "symbol": "603808.SH",
+      "ex_date": "2019-07-02",
+      "cash_per_share": 0.525,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-01",
+      "pay_date": "2019-07-02",
+      "announcement_date": "2019-06-26"
+    },
+    {
+      "symbol": "603810.SH",
+      "ex_date": "2019-06-25",
+      "cash_per_share": 0.525,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-24",
+      "pay_date": "2019-06-25",
+      "announcement_date": "2019-06-18"
+    },
+    {
+      "symbol": "603826.SH",
+      "ex_date": "2019-04-26",
+      "cash_per_share": 0.12,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-04-25",
+      "pay_date": "2019-04-26",
+      "announcement_date": "2019-04-19"
+    },
+    {
+      "symbol": "603839.SH",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.35,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "603868.SH",
+      "ex_date": "2019-05-07",
+      "cash_per_share": 1.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-06",
+      "pay_date": "2019-05-07",
+      "announcement_date": "2019-04-26"
+    },
+    {
+      "symbol": "603888.SH",
+      "ex_date": "2019-07-30",
+      "cash_per_share": 0.248,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-07-29",
+      "pay_date": "2019-07-30",
+      "announcement_date": "2019-07-23"
+    },
+    {
+      "symbol": "603896.SH",
+      "ex_date": "2019-06-18",
+      "cash_per_share": 0.23,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-17",
+      "pay_date": "2019-06-18",
+      "announcement_date": "2019-06-12"
+    },
+    {
+      "symbol": "603897.SH",
+      "ex_date": "2019-06-04",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-03",
+      "pay_date": "2019-06-04",
+      "announcement_date": "2019-05-28"
+    },
+    {
+      "symbol": "603916.SH",
+      "ex_date": "2019-05-15",
+      "cash_per_share": 0.24,
+      "shares_per_share": 0,
+      "source_rows_merged": 2,
+      "record_date": "2019-05-14",
+      "pay_date": "2019-05-15",
+      "announcement_date": "2019-05-08"
+    },
+    {
+      "symbol": "603920.SH",
+      "ex_date": "2019-06-19",
+      "cash_per_share": 0.44,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-18",
+      "pay_date": "2019-06-19",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "603968.SH",
+      "ex_date": "2019-06-17",
+      "cash_per_share": 0.5,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-14",
+      "pay_date": "2019-06-17",
+      "announcement_date": "2019-06-11"
+    },
+    {
+      "symbol": "603969.SH",
+      "ex_date": "2019-05-29",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-05-28",
+      "pay_date": "2019-05-29",
+      "announcement_date": "2019-05-23"
+    },
+    {
+      "symbol": "603993.SH",
+      "ex_date": "2019-06-28",
+      "cash_per_share": 0.11,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2019-06-27",
+      "pay_date": "2019-06-28",
+      "announcement_date": "2019-06-24"
+    }
+  ],
+  "unknown": [
+    {
+      "symbol": "000418.SZ",
+      "error": "公司行动两接口事件集合不符：000418.SZ"
+    },
+    {
+      "symbol": "600480.SH",
+      "error": "公司行动两接口事件集合不符：600480.SH"
+    }
+  ],
+  "unsupported": [
+    {
+      "symbol": "000012.SZ",
+      "record_date": "2019-06-25",
+      "ex_date": "2019-06-26",
+      "shares_per_share": 0.09999989
+    },
+    {
+      "symbol": "000036.SZ",
+      "record_date": "2019-06-27",
+      "ex_date": "2019-06-28",
+      "shares_per_share": 0.3
+    },
+    {
+      "symbol": "000039.SZ",
+      "record_date": "2019-06-27",
+      "ex_date": "2019-06-28",
+      "shares_per_share": 0.20000048
+    },
+    {
+      "symbol": "000060.SZ",
+      "record_date": "2018-05-15",
+      "ex_date": "2018-05-16",
+      "shares_per_share": 0.49999925
+    },
+    {
+      "symbol": "000062.SZ",
+      "record_date": "2019-05-09",
+      "ex_date": "2019-05-10",
+      "shares_per_share": 0.4500003625
+    },
+    {
+      "symbol": "000090.SZ",
+      "record_date": "2019-06-19",
+      "ex_date": "2019-06-20",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "000513.SZ",
+      "record_date": "2019-07-02",
+      "ex_date": "2019-07-03",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "000541.SZ",
+      "record_date": "2018-05-10",
+      "ex_date": "2018-05-11",
+      "shares_per_share": 0.09999989
+    },
+    {
+      "symbol": "000789.SZ",
+      "record_date": "2019-05-28",
+      "ex_date": "2019-05-29",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "000791.SZ",
+      "record_date": "2019-04-23",
+      "ex_date": "2019-04-24",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "000852.SZ",
+      "record_date": "2019-07-17",
+      "ex_date": "2019-07-18",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "000898.SZ",
+      "record_date": "2019-06-27",
+      "ex_date": "2019-06-28",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "000975.SZ",
+      "record_date": "2018-05-31",
+      "ex_date": "2018-06-01",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "002110.SZ",
+      "record_date": "2019-05-21",
+      "ex_date": "2019-05-22",
+      "shares_per_share": 0.49999925
+    },
+    {
+      "symbol": "002117.SZ",
+      "record_date": "2019-05-29",
+      "ex_date": "2019-05-30",
+      "shares_per_share": 0.5
+    },
+    {
+      "symbol": "002179.SZ",
+      "record_date": "2019-05-16",
+      "ex_date": "2019-05-17",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "002195.SZ",
+      "record_date": "2019-06-10",
+      "ex_date": "2019-06-11",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "002293.SZ",
+      "record_date": "2019-05-28",
+      "ex_date": "2019-05-29",
+      "shares_per_share": 0.09999989
+    },
+    {
+      "symbol": "002300.SZ",
+      "record_date": "2019-07-02",
+      "ex_date": "2019-07-03",
+      "shares_per_share": 0.1
+    },
+    {
+      "symbol": "002320.SZ",
+      "record_date": "2019-05-28",
+      "ex_date": "2019-05-29",
+      "shares_per_share": 0.49999925
+    },
+    {
+      "symbol": "002475.SZ",
+      "record_date": "2019-07-04",
+      "ex_date": "2019-07-05",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "002536.SZ",
+      "record_date": "2019-06-19",
+      "ex_date": "2019-06-20",
+      "shares_per_share": 0.49999925
+    },
+    {
+      "symbol": "002559.SZ",
+      "record_date": "2019-05-28",
+      "ex_date": "2019-05-29",
+      "shares_per_share": 0.49999925
+    },
+    {
+      "symbol": "002757.SZ",
+      "record_date": "2019-06-17",
+      "ex_date": "2019-06-18",
+      "shares_per_share": 0.5001207597
+    },
+    {
+      "symbol": "002776.SZ",
+      "record_date": "2019-07-02",
+      "ex_date": "2019-07-03",
+      "shares_per_share": 0.49999925
+    },
+    {
+      "symbol": "002867.SZ",
+      "record_date": "2019-07-09",
+      "ex_date": "2019-07-10",
+      "shares_per_share": 0.49999925
+    },
+    {
+      "symbol": "600103.SH",
+      "record_date": "2019-05-31",
+      "ex_date": "2019-06-03",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "600106.SH",
+      "record_date": "2019-06-13",
+      "ex_date": "2019-06-14",
+      "shares_per_share": 0.1
+    },
+    {
+      "symbol": "600120.SH",
+      "record_date": "2019-06-11",
+      "ex_date": "2019-06-12",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "600120.SH",
+      "record_date": "2019-10-16",
+      "ex_date": "2019-10-17",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600161.SH",
+      "record_date": "2019-06-13",
+      "ex_date": "2019-06-14",
+      "shares_per_share": 0.2
+    },
+    {
+      "symbol": "600177.SH",
+      "record_date": "2019-06-04",
+      "ex_date": "2019-06-05",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600195.SH",
+      "record_date": "2019-07-15",
+      "ex_date": "2019-07-16",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600236.SH",
+      "record_date": "2019-07-09",
+      "ex_date": "2019-07-10",
+      "shares_per_share": 0.3
+    },
+    {
+      "symbol": "600266.SH",
+      "record_date": "2019-06-14",
+      "ex_date": "2019-06-17",
+      "shares_per_share": 0.20000048
+    },
+    {
+      "symbol": "600276.SH",
+      "record_date": "2019-03-27",
+      "ex_date": "2019-03-28",
+      "shares_per_share": 0.2
+    },
+    {
+      "symbol": "600320.SH",
+      "record_date": "2018-08-10",
+      "ex_date": "2018-08-13",
+      "shares_per_share": 0.20000048
+    },
+    {
+      "symbol": "600327.SH",
+      "record_date": "2019-05-29",
+      "ex_date": "2019-05-30",
+      "shares_per_share": 0.20000048
+    },
+    {
+      "symbol": "600346.SH",
+      "record_date": "2019-06-26",
+      "ex_date": "2019-06-27",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600477.SH",
+      "record_date": "2019-06-10",
+      "ex_date": "2019-06-11",
+      "shares_per_share": 0.2
+    },
+    {
+      "symbol": "600500.SH",
+      "record_date": "2019-07-05",
+      "ex_date": "2019-07-08",
+      "shares_per_share": 0.3
+    },
+    {
+      "symbol": "600529.SH",
+      "record_date": "2019-06-19",
+      "ex_date": "2019-06-20",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600547.SH",
+      "record_date": "2019-08-19",
+      "ex_date": "2019-08-20",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600663.SH",
+      "record_date": "2019-05-29",
+      "ex_date": "2019-05-30",
+      "shares_per_share": 0.2
+    },
+    {
+      "symbol": "600675.SH",
+      "record_date": "2019-06-20",
+      "ex_date": "2019-06-21",
+      "shares_per_share": 0.20000048
+    },
+    {
+      "symbol": "600681.SH",
+      "record_date": "2019-04-24",
+      "ex_date": "2019-04-25",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600717.SH",
+      "record_date": "2019-06-24",
+      "ex_date": "2019-06-25",
+      "shares_per_share": 0.2
+    },
+    {
+      "symbol": "600750.SH",
+      "record_date": "2019-06-11",
+      "ex_date": "2019-06-12",
+      "shares_per_share": 0.25
+    },
+    {
+      "symbol": "600771.SH",
+      "record_date": "2019-05-29",
+      "ex_date": "2019-05-30",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600801.SH",
+      "record_date": "2019-05-31",
+      "ex_date": "2019-06-03",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600971.SH",
+      "record_date": "2019-05-27",
+      "ex_date": "2019-05-28",
+      "shares_per_share": 0.20000048
+    },
+    {
+      "symbol": "600987.SH",
+      "record_date": "2019-05-16",
+      "ex_date": "2019-05-17",
+      "shares_per_share": 0.45000048000000004
+    },
+    {
+      "symbol": "601000.SH",
+      "record_date": "2018-05-16",
+      "ex_date": "2018-05-17",
+      "shares_per_share": 0.3
+    },
+    {
+      "symbol": "601015.SH",
+      "record_date": "2019-05-08",
+      "ex_date": "2019-05-09",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "601200.SH",
+      "record_date": "2019-04-30",
+      "ex_date": "2019-05-06",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "601229.SH",
+      "record_date": "2019-07-02",
+      "ex_date": "2019-07-03",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "601668.SH",
+      "record_date": "2018-06-28",
+      "ex_date": "2018-06-29",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "601997.SH",
+      "record_date": "2019-06-14",
+      "ex_date": "2019-06-17",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "603018.SH",
+      "record_date": "2019-05-16",
+      "ex_date": "2019-05-17",
+      "shares_per_share": 0.4799992896
+    },
+    {
+      "symbol": "603059.SH",
+      "record_date": "2019-06-17",
+      "ex_date": "2019-06-18",
+      "shares_per_share": 0.25
+    },
+    {
+      "symbol": "603228.SH",
+      "record_date": "2019-05-15",
+      "ex_date": "2019-05-16",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "603259.SH",
+      "record_date": "2019-07-01",
+      "ex_date": "2019-07-02",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "603260.SH",
+      "record_date": "2019-07-10",
+      "ex_date": "2019-07-11",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "603278.SH",
+      "record_date": "2019-04-15",
+      "ex_date": "2019-04-16",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "603323.SH",
+      "record_date": "2019-06-11",
+      "ex_date": "2019-06-12",
+      "shares_per_share": 0.1
+    },
+    {
+      "symbol": "603338.SH",
+      "record_date": "2019-05-21",
+      "ex_date": "2019-05-22",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "603393.SH",
+      "record_date": "2019-05-30",
+      "ex_date": "2019-05-31",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "603458.SH",
+      "record_date": "2019-06-20",
+      "ex_date": "2019-06-21",
+      "shares_per_share": 0.4500003625
+    },
+    {
+      "symbol": "603680.SH",
+      "record_date": "2019-07-10",
+      "ex_date": "2019-07-11",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "603858.SH",
+      "record_date": "2019-08-16",
+      "ex_date": "2019-08-19",
+      "shares_per_share": 0.29999961
+    },
+    {
+      "symbol": "603890.SH",
+      "record_date": "2019-05-07",
+      "ex_date": "2019-05-08",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "603980.SH",
+      "record_date": "2019-06-12",
+      "ex_date": "2019-06-13",
+      "shares_per_share": 0.39999944
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-08T15:31:18+08:00",
+  "strategy_version": "S2.0-research",
+  "strategy_status": "research_only_pending_backtest",
+  "automatic_trading": false,
+  "state": {
+    "date": "2026-09-08",
+    "regime": "range_mean_reversion",
+    "label": "震荡回撤低吸",
+    "benchmark_close": 7770.73,
+    "ma20": 7868.6179,
+    "ma60": 8077.3819,
+    "ma20_slope_5": -0.005999,
+    "return_20": -0.024701,
+    "target_exposure": 0.7,
+    "max_single_exposure": 0.35,
+    "max_positions": 3,
+    "live_enabled": false,
+    "route_status": "RESEARCH_ROUTE_ONLY"
+  },
+  "s1_observation_count": 65,
+  "drawdown_control": {
+    "warning": 0.08,
+    "reduce_risk": 0.12,
+    "hard_stop": 0.15
+  },
+  "capital_rule": "Only deposited and account-snapshot-confirmed equity enters sizing; external liquidity is excluded until deposited.",
+  "market_neutral": {
+    "enabled": false,
+    "reason": "Cash-only A-share account has no verified short, margin, futures or hedge permission."
+  },
+  "industry_data": {
+    "mapping_ready": true,
+    "returns_ready": true,
+    "manifest": "C:\\Users\\22680\\Documents\\ChatGPT\\量化\\runtime\\industry_history\\manifest.json",
+    "returns_path": "C:\\Users\\22680\\Documents\\ChatGPT\\量化\\runtime\\industry_history\\industry_daily_returns.csv.gz"
+  }
+}

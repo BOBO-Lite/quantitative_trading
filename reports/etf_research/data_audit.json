@@ -1,0 +1,93 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_EXTREMA_EXCEPTION",
+  "warnings": [
+    {
+      "symbol": "510500.SH",
+      "date": "2022-12-05",
+      "field": "high",
+      "minute_aggregate": 6.231,
+      "daily": 6.233,
+      "resolution": "独立日线确认日极值；固定09:35原始分钟未改，不能宣称日内极值完全一致"
+    },
+    {
+      "symbol": "510500.SH",
+      "date": "2022-12-05",
+      "field": "low",
+      "minute_aggregate": 6.189,
+      "daily": 6.186,
+      "resolution": "独立日线确认日极值；固定09:35原始分钟未改，不能宣称日内极值完全一致"
+    }
+  ],
+  "daily_checks": [
+    {
+      "symbol": "510300.SH",
+      "days": 1459,
+      "factor_max_relative_error": 4.981789824265448e-05
+    },
+    {
+      "symbol": "510500.SH",
+      "days": 1459,
+      "factor_max_relative_error": 0.0001645914826297057
+    }
+  ],
+  "events": [
+    {
+      "symbol": "510300.SH",
+      "record_date": "2017-01-20",
+      "ex_date": "2017-01-23",
+      "pay_date": "2017-01-26",
+      "cash": 0.05500000000000001,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2018-01-22",
+      "ex_date": "2018-01-23",
+      "pay_date": "2018-01-26",
+      "cash": 0.046,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2019-01-15",
+      "ex_date": "2019-01-16",
+      "pay_date": "2019-01-21",
+      "cash": 0.059,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2019-12-10",
+      "ex_date": "2019-12-11",
+      "pay_date": "2019-12-16",
+      "cash": 0.062,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2021-01-15",
+      "ex_date": "2021-01-18",
+      "pay_date": "2021-01-21",
+      "cash": 0.072,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2022-01-18",
+      "ex_date": "2022-01-19",
+      "pay_date": "2022-01-24",
+      "cash": 0.075,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510500.SH",
+      "record_date": "2022-08-26",
+      "ex_date": "2022-08-29",
+      "kind": "unsupported_split",
+      "ratio": 1.1453900912
+    }
+  ],
+  "minute_stock_days": 2430,
+  "minute_rows_aggregated": 583200,
+  "scope": "固定两ETF历史数据及09:35分钟，不是绩效"
+}

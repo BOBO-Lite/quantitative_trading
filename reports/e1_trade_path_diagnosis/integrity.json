@@ -1,0 +1,10 @@
+{
+  "source_hashes_verified": true,
+  "trade_pairs": 79,
+  "cash_reconciliations": 2,
+  "files_sha256": {
+    "reports\\e1_trade_path_diagnosis\\RESULT.md": "b4c3de8e3719601df36b5b5acc7cd3b75b4671bec6bd8538d4da775ea07c6d79",
+    "reports\\e1_trade_path_diagnosis\\diagnosis.json": "2d41952b519f701d4e9c611d623f6ce798a356e64753d778d2e5b62da3c8f46f",
+    "src\\e1_trade_path_diagnosis.py": "9d25390bc6c3b2cf81feaea75ffc1af251593972f424e9409a5e7926fe246a2a"
+  }
+}

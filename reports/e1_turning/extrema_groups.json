@@ -1,0 +1,21 @@
+{
+  "groups": {
+    "winner": {
+      "count": 13,
+      "net_profit": 6824.101145120008,
+      "mean_peak_gain_pct": 15.57394244447314,
+      "mean_trough_return_pct": -2.485200908642621,
+      "ever_positive_price_count": 13,
+      "ever_negative_price_count": 13
+    },
+    "loser": {
+      "count": 25,
+      "net_profit": -5232.150250269988,
+      "mean_peak_gain_pct": 2.6234046949945027,
+      "mean_trough_return_pct": -4.170970757585754,
+      "ever_positive_price_count": 24,
+      "ever_negative_price_count": 25
+    }
+  },
+  "warning": "Outcome-grouped retrospective diagnostics; extrema include entry-day T+1-locked prices and omit exit-minute prices. Not executable potential profits or prospective classes."
+}

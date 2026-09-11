@@ -1,0 +1,4547 @@
+{
+  "scope": "Fixed original entries and quantities, normal cost. Independent pair PnL differences, not portfolio return; no reinvestment. Original execution and aggregate final equity reproduced.",
+  "summaries": {
+    "E1": {
+      "F1": {
+        "trigger_count": 27,
+        "triggered_original_losers": 20,
+        "changed_trades": 15,
+        "total_pnl_difference": -2903.8096557599965,
+        "helped": 3,
+        "hurt": 12,
+        "original_losers_difference": 534.1622330500068,
+        "original_winners_difference": -3437.9718888100033,
+        "yearly_difference": {
+          "2018": 0.0,
+          "2019": -3678.638291520001,
+          "2020": 774.8286357600045
+        }
+      },
+      "F3": {
+        "trigger_count": 11,
+        "triggered_original_losers": 5,
+        "changed_trades": 9,
+        "total_pnl_difference": -2117.9976243899873,
+        "helped": 1,
+        "hurt": 8,
+        "original_losers_difference": -67.92754447999323,
+        "original_winners_difference": -2050.070079909994,
+        "yearly_difference": {
+          "2018": 0.0,
+          "2019": -2117.9976243899873,
+          "2020": 0.0
+        }
+      },
+      "entry_medians": {
+        "winner": {
+          "count": 13,
+          "features": {
+            "ret5_pct": 4.262177650429799,
+            "prior5_pct": 3.807471264367801,
+            "acceleration_pp": 0.35988601913250484,
+            "volume5_vs_previous5": 1.2379259344391909,
+            "atr5_vs20": 1.1811023622047243,
+            "close_location": 0.8148148148148184
+          }
+        },
+        "loser": {
+          "count": 25,
+          "features": {
+            "ret5_pct": 5.4777070063694255,
+            "prior5_pct": 0.5411255411255311,
+            "acceleration_pp": 4.9655431139238315,
+            "volume5_vs_previous5": 1.3744901366279658,
+            "atr5_vs20": 1.2240117130307475,
+            "close_location": 0.8333333333333308
+          }
+        }
+      }
+    },
+    "filtered": {
+      "F1": {
+        "trigger_count": 28,
+        "triggered_original_losers": 20,
+        "changed_trades": 22,
+        "total_pnl_difference": -2581.60363265,
+        "helped": 11,
+        "hurt": 11,
+        "original_losers_difference": 2156.2338372999984,
+        "original_winners_difference": -4737.837469949998,
+        "yearly_difference": {
+          "2018": 0.0,
+          "2019": -3071.356808759996,
+          "2020": 489.7531761099963
+        }
+      },
+      "F3": {
+        "trigger_count": 13,
+        "triggered_original_losers": 10,
+        "changed_trades": 13,
+        "total_pnl_difference": 1542.6678379499972,
+        "helped": 9,
+        "hurt": 4,
+        "original_losers_difference": 2209.659498629997,
+        "original_winners_difference": -666.9916606799998,
+        "yearly_difference": {
+          "2018": 0.0,
+          "2019": 378.42790329000127,
+          "2020": 1164.239934659996
+        }
+      },
+      "entry_medians": {
+        "winner": {
+          "count": 15,
+          "features": {
+            "ret5_pct": 9.044193216855078,
+            "prior5_pct": 3.5106382978723483,
+            "acceleration_pp": 4.406965354279535,
+            "volume5_vs_previous5": 1.3698048205383502,
+            "atr5_vs20": 1.391159299416178,
+            "close_location": 0.8620689655172418
+          }
+        },
+        "loser": {
+          "count": 26,
+          "features": {
+            "ret5_pct": 10.092169543697093,
+            "prior5_pct": 3.893093748135734,
+            "acceleration_pp": 7.6323903465221,
+            "volume5_vs_previous5": 1.5257100268323338,
+            "atr5_vs20": 1.4492045829211995,
+            "close_location": 0.8469125214408233
+          }
+        }
+      }
+    }
+  },
+  "trades": {
+    "E1": [
+      {
+        "symbol": "601009.SH",
+        "buy": "2018-01-26T09:46:00",
+        "original_sell": "2018-01-30T09:32:00",
+        "year": "2018",
+        "entry_features": {
+          "ret5_pct": 3.871681415929218,
+          "prior5_pct": 9.310761789600953,
+          "acceleration_pp": -5.439080373671735,
+          "volume5_vs_previous5": 1.2379259344391909,
+          "atr5_vs20": 1.5895196506550195,
+          "close_location": 0.6511627906976775
+        },
+        "original_net_trade_pnl": 35.95622562999961,
+        "results": {
+          "original": {
+            "pnl": 35.95622562999779,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-01-30T09:32:00",
+                "price": 9.690299999999999,
+                "quantity": 700,
+                "fees": 8.459437099999999
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 35.95622562999779,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-01-30T09:32:00",
+                "price": 9.690299999999999,
+                "quantity": 700,
+                "fees": 8.459437099999999
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 35.95622562999779,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-01-30T09:32:00",
+                "price": 9.690299999999999,
+                "quantity": 700,
+                "fees": 8.459437099999999
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000876.SZ",
+        "buy": "2018-01-29T09:46:00",
+        "original_sell": "2018-01-30T09:32:00",
+        "year": "2018",
+        "entry_features": {
+          "ret5_pct": 2.050663449939716,
+          "prior5_pct": 6.010230179028109,
+          "acceleration_pp": -3.959566729088393,
+          "volume5_vs_previous5": 0.6932754684991753,
+          "atr5_vs20": 1.2160804020100502,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -59.023828320000575,
+        "results": {
+          "original": {
+            "pnl": -59.023828320001485,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-01-30T09:32:00",
+                "price": 8.42157,
+                "quantity": 800,
+                "fees": 8.43600056
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -59.023828320001485,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-01-30T09:32:00",
+                "price": 8.42157,
+                "quantity": 800,
+                "fees": 8.43600056
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -59.023828320001485,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-01-30T09:32:00",
+                "price": 8.42157,
+                "quantity": 800,
+                "fees": 8.43600056
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600398.SH",
+        "buy": "2018-01-26T09:46:00",
+        "original_sell": "2018-02-05T09:32:00",
+        "year": "2018",
+        "entry_features": {
+          "ret5_pct": 1.3397129186602852,
+          "prior5_pct": 7.510288065843618,
+          "acceleration_pp": -6.1705751471833326,
+          "volume5_vs_previous5": 0.7853931937000895,
+          "atr5_vs20": 1.0141843971631215,
+          "close_location": 0.6153846153846151
+        },
+        "original_net_trade_pnl": 1052.0736248000012,
+        "results": {
+          "original": {
+            "pnl": 1052.0736247999994,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-02-05T09:32:00",
+                "price": 12.56742,
+                "quantity": 600,
+                "fees": 8.84563052
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 1052.0736247999994,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-02-05T09:32:00",
+                "price": 12.56742,
+                "quantity": 600,
+                "fees": 8.84563052
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 1052.0736247999994,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-02-05T09:32:00",
+                "price": 12.56742,
+                "quantity": 600,
+                "fees": 8.84563052
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601318.SH",
+        "buy": "2019-02-19T09:46:00",
+        "original_sell": "2019-03-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 1.397732567168819,
+          "prior5_pct": 4.665149544863456,
+          "acceleration_pp": -3.267416977694637,
+          "volume5_vs_previous5": 1.100212279000137,
+          "atr5_vs20": 1.0602975724353974,
+          "close_location": 0.9207317073170757
+        },
+        "original_net_trade_pnl": 287.9159666500009,
+        "results": {
+          "original": {
+            "pnl": 287.9159666500018,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-11T09:32:00",
+                "price": 69.00093,
+                "quantity": 100,
+                "fees": 8.51904743
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -4.641752780000388,
+            "trigger": {
+              "day": "2019-02-19",
+              "close_return_pct": -0.4636140558470392
+            },
+            "sells": [
+              {
+                "fill_time": "2019-02-20T09:32:00",
+                "price": 66.07386,
+                "quantity": 100,
+                "fees": 8.36976686
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -65.54967389000012,
+            "trigger": {
+              "day": "2019-02-21",
+              "close_return_pct": -0.9031017526163088
+            },
+            "sells": [
+              {
+                "fill_time": "2019-02-22T09:32:00",
+                "price": 65.46447,
+                "quantity": 100,
+                "fees": 8.33868797
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600030.SH",
+        "buy": "2019-02-19T09:46:00",
+        "original_sell": "2019-03-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 5.090137857900312,
+          "prior5_pct": 4.77777777777777,
+          "acceleration_pp": 0.31236008012254235,
+          "volume5_vs_previous5": 1.7372042264465521,
+          "atr5_vs20": 1.3333333333333335,
+          "close_location": 0.9800000000000004
+        },
+        "original_net_trade_pnl": 1176.074642030001,
+        "results": {
+          "original": {
+            "pnl": 1176.074642030002,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-11T09:32:00",
+                "price": 23.976,
+                "quantity": 300,
+                "fees": 8.668327999999999
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -46.07774220999636,
+            "trigger": {
+              "day": "2019-02-19",
+              "close_return_pct": -1.1493758867445414
+            },
+            "sells": [
+              {
+                "fill_time": "2019-02-20T09:32:00",
+                "price": 19.900080000000003,
+                "quantity": 300,
+                "fees": 8.04471224
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 1176.074642030002,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-11T09:32:00",
+                "price": 23.976,
+                "quantity": 300,
+                "fees": 8.668327999999999
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600585.SH",
+        "buy": "2019-02-19T09:46:00",
+        "original_sell": "2019-03-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 4.996989765201687,
+          "prior5_pct": 4.137931034482767,
+          "acceleration_pp": 0.8590587307189201,
+          "volume5_vs_previous5": 1.2439956100939096,
+          "atr5_vs20": 1.2795838751625468,
+          "close_location": 0.9019607843137307
+        },
+        "original_net_trade_pnl": -19.81990192000012,
+        "results": {
+          "original": {
+            "pnl": -19.81990192000376,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-11T09:32:00",
+                "price": 35.34462,
+                "quantity": 200,
+                "fees": 8.60515124
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -35.79575008000393,
+            "trigger": {
+              "day": "2019-02-19",
+              "close_return_pct": -0.8631436475239562
+            },
+            "sells": [
+              {
+                "fill_time": "2019-02-20T09:32:00",
+                "price": 35.2647,
+                "quantity": 200,
+                "fees": 8.5969994
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -161.6055543399998,
+            "trigger": {
+              "day": "2019-02-21",
+              "close_return_pct": -1.4285092383564457
+            },
+            "sells": [
+              {
+                "fill_time": "2019-02-22T09:32:00",
+                "price": 34.63533,
+                "quantity": 200,
+                "fees": 8.53280366
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600160.SH",
+        "buy": "2019-03-12T09:46:00",
+        "original_sell": "2019-03-29T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 5.4777070063694255,
+          "prior5_pct": 0.512163892445594,
+          "acceleration_pp": 4.9655431139238315,
+          "volume5_vs_previous5": 1.4673907112278826,
+          "atr5_vs20": 1.5040650406504055,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -73.89942348999921,
+        "results": {
+          "original": {
+            "pnl": -73.89942349000194,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-29T09:32:00",
+                "price": 8.41158,
+                "quantity": 700,
+                "fees": 8.002934060000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -143.79375919000086,
+            "trigger": {
+              "day": "2019-03-12",
+              "close_return_pct": -2.6885952681005576
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-13T09:32:00",
+                "price": 8.31168,
+                "quantity": 700,
+                "fees": 7.967269760000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -94.86772420000125,
+            "trigger": {
+              "day": "2019-03-14",
+              "close_return_pct": -2.8062632302914836
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-15T09:32:00",
+                "price": 8.38161,
+                "quantity": 700,
+                "fees": 7.9922347700000005
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002242.SZ",
+        "buy": "2019-03-12T09:46:00",
+        "original_sell": "2019-03-29T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 8.991113434396247,
+          "prior5_pct": 10.641989589358003,
+          "acceleration_pp": -1.6508761549617557,
+          "volume5_vs_previous5": 0.9746945329773206,
+          "atr5_vs20": 1.4916334661354569,
+          "close_location": 0.9172413793103465
+        },
+        "original_net_trade_pnl": 204.35518181000043,
+        "results": {
+          "original": {
+            "pnl": 204.3551818099986,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-29T09:32:00",
+                "price": 22.307669999999998,
+                "quantity": 300,
+                "fees": 8.41307351
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -412.71195337000245,
+            "trigger": {
+              "day": "2019-03-12",
+              "close_return_pct": -5.150508118968222
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-13T09:32:00",
+                "price": 20.24973,
+                "quantity": 300,
+                "fees": 8.09820869
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -226.99271850999867,
+            "trigger": {
+              "day": "2019-03-14",
+              "close_return_pct": -4.50180617156497
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-15T09:32:00",
+                "price": 20.86911,
+                "quantity": 300,
+                "fees": 8.19297383
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600277.SH",
+        "buy": "2019-03-13T09:46:00",
+        "original_sell": "2019-03-29T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 3.2357473035439233,
+          "prior5_pct": 0.0,
+          "acceleration_pp": 3.2357473035439233,
+          "volume5_vs_previous5": 1.4983185381848654,
+          "atr5_vs20": 1.2744479495268124,
+          "close_location": 0.8148148148148184
+        },
+        "original_net_trade_pnl": 189.44879810000157,
+        "results": {
+          "original": {
+            "pnl": 189.44879810000202,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-29T09:32:00",
+                "price": 7.1128800000000005,
+                "quantity": 600,
+                "fees": 7.17654128
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -68.16175347999888,
+            "trigger": {
+              "day": "2019-03-13",
+              "close_return_pct": -2.165781043181325
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-14T09:32:00",
+                "price": 6.6833100000000005,
+                "quantity": 600,
+                "fees": 7.0450928600000005
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 3.7295632400018803,
+            "trigger": {
+              "day": "2019-03-15",
+              "close_return_pct": -0.6901517979804317
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-18T09:32:00",
+                "price": 6.80319,
+                "quantity": 600,
+                "fees": 7.0817761400000006
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600036.SH",
+        "buy": "2019-04-01T09:46:00",
+        "original_sell": "2019-04-24T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 4.853168469860902,
+          "prior5_pct": 2.1471424060625077,
+          "acceleration_pp": 2.7060260637983946,
+          "volume5_vs_previous5": 1.349972676013609,
+          "atr5_vs20": 1.1785132935431368,
+          "close_location": 0.7905759162303676
+        },
+        "original_net_trade_pnl": 126.23685754000144,
+        "results": {
+          "original": {
+            "pnl": 126.23685754000326,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-24T09:32:00",
+                "price": 35.524440000000006,
+                "quantity": 200,
+                "fees": 8.62349288
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -157.33444729999974,
+            "trigger": {
+              "day": "2019-04-01",
+              "close_return_pct": -2.138677648881715
+            },
+            "sells": [
+              {
+                "fill_time": "2019-04-02T09:32:00",
+                "price": 34.10586,
+                "quantity": 200,
+                "fees": 8.47879772
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 126.23685754000326,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-24T09:32:00",
+                "price": 35.524440000000006,
+                "quantity": 200,
+                "fees": 8.62349288
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600887.SH",
+        "buy": "2019-04-01T09:46:00",
+        "original_sell": "2019-04-24T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 4.262177650429799,
+          "prior5_pct": 5.001880406167736,
+          "acceleration_pp": -0.7397027557379365,
+          "volume5_vs_previous5": 0.8642324573709106,
+          "atr5_vs20": 1.0456730769230762,
+          "close_location": 0.7168141592920348
+        },
+        "original_net_trade_pnl": 100.59202425999956,
+        "results": {
+          "original": {
+            "pnl": 212.59202426000047,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-24T09:32:00",
+                "price": 30.799169999999997,
+                "quantity": 200,
+                "fees": 8.14151534
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -123.06984997999825,
+            "trigger": {
+              "day": "2019-04-01",
+              "close_return_pct": -1.5223187408617722
+            },
+            "sells": [
+              {
+                "fill_time": "2019-04-02T09:32:00",
+                "price": 29.68029,
+                "quantity": 200,
+                "fees": 8.027389580000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -170.99739445999876,
+            "trigger": {
+              "day": "2019-04-03",
+              "close_return_pct": -2.9778168851016473
+            },
+            "sells": [
+              {
+                "fill_time": "2019-04-04T09:32:00",
+                "price": 29.44053,
+                "quantity": 200,
+                "fees": 8.002934060000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601566.SH",
+        "buy": "2019-04-01T09:46:00",
+        "original_sell": "2019-04-24T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 3.1046931407942235,
+          "prior5_pct": 2.7448071216617187,
+          "acceleration_pp": 0.35988601913250484,
+          "volume5_vs_previous5": 1.1661989686384042,
+          "atr5_vs20": 1.3927576601671254,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": 63.02675534000082,
+        "results": {
+          "original": {
+            "pnl": 63.02675533999718,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-24T09:32:00",
+                "price": 14.61537,
+                "quantity": 300,
+                "fees": 7.23615161
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 63.02675533999718,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-24T09:32:00",
+                "price": 14.61537,
+                "quantity": 300,
+                "fees": 7.23615161
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 63.02675533999718,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-24T09:32:00",
+                "price": 14.61537,
+                "quantity": 300,
+                "fees": 7.23615161
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601238.SH",
+        "buy": "2019-09-09T09:46:00",
+        "original_sell": "2019-09-26T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 1.449275362318847,
+          "prior5_pct": 7.417582417582413,
+          "acceleration_pp": -5.968307055263566,
+          "volume5_vs_previous5": 0.8629859099334245,
+          "atr5_vs20": 1.0650887573964505,
+          "close_location": 0.6999999999999968
+        },
+        "original_net_trade_pnl": -105.38676329999907,
+        "results": {
+          "original": {
+            "pnl": -85.3867633000009,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 12.13785,
+                "quantity": 500,
+                "fees": 8.09515175
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -150.31883625000046,
+            "trigger": {
+              "day": "2019-09-09",
+              "close_return_pct": -0.8302826336944902
+            },
+            "sells": [
+              {
+                "fill_time": "2019-09-10T09:32:00",
+                "price": 12.04794,
+                "quantity": 500,
+                "fees": 8.0722247
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 9.439645350001229,
+            "trigger": {
+              "day": "2019-09-11",
+              "close_return_pct": -0.4245145593642752
+            },
+            "sells": [
+              {
+                "fill_time": "2019-09-12T09:32:00",
+                "price": 12.36762,
+                "quantity": 500,
+                "fees": 8.1537431
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000708.SZ",
+        "buy": "2019-09-09T09:46:00",
+        "original_sell": "2019-09-26T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 5.121107266435998,
+          "prior5_pct": 3.807471264367801,
+          "acceleration_pp": 1.313636002068197,
+          "volume5_vs_previous5": 1.4078453660923775,
+          "atr5_vs20": 1.1342592592592573,
+          "close_location": 0.6981132075471692
+        },
+        "original_net_trade_pnl": 449.5094127600005,
+        "results": {
+          "original": {
+            "pnl": 449.5094127600023,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 16.82316,
+                "quantity": 400,
+                "fees": 8.431924640000002
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 449.5094127600023,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 16.82316,
+                "quantity": 400,
+                "fees": 8.431924640000002
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 449.5094127600023,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 16.82316,
+                "quantity": 400,
+                "fees": 8.431924640000002
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600869.SH",
+        "buy": "2019-09-09T09:52:00",
+        "original_sell": "2019-09-26T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 6.060606060606055,
+          "prior5_pct": 1.5384615384615552,
+          "acceleration_pp": 4.5221445221445,
+          "volume5_vs_previous5": 0.7777442461114784,
+          "atr5_vs20": 0.8888888888888886,
+          "close_location": 0.8571428571428602
+        },
+        "original_net_trade_pnl": 239.91053164000004,
+        "results": {
+          "original": {
+            "pnl": 239.91053164000186,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 5.1748199999999995,
+                "quantity": 1100,
+                "fees": 7.90307402
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 239.91053164000186,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 5.1748199999999995,
+                "quantity": 1100,
+                "fees": 7.90307402
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -56.64114982999672,
+            "trigger": {
+              "day": "2019-09-11",
+              "close_return_pct": -1.1110347142735844
+            },
+            "sells": [
+              {
+                "fill_time": "2019-09-12T09:32:00",
+                "price": 4.90509,
+                "quantity": 1100,
+                "fees": 7.751755490000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000875.SZ",
+        "buy": "2019-10-15T09:46:00",
+        "original_sell": "2019-10-16T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 9.999999999999986,
+          "prior5_pct": 0.0,
+          "acceleration_pp": 9.999999999999986,
+          "volume5_vs_previous5": 1.6739957965284618,
+          "atr5_vs20": 1.6511627906976754,
+          "close_location": 0.7999999999999983
+        },
+        "original_net_trade_pnl": -52.43597772999874,
+        "results": {
+          "original": {
+            "pnl": -52.43597772999783,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-16T09:32:00",
+                "price": 3.34665,
+                "quantity": 2300,
+                "fees": 8.92562045
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -52.43597772999783,
+            "trigger": {
+              "day": "2019-10-15",
+              "close_return_pct": -0.09990009990009652
+            },
+            "sells": [
+              {
+                "fill_time": "2019-10-16T09:32:00",
+                "price": 3.34665,
+                "quantity": 2300,
+                "fees": 8.92562045
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -52.43597772999783,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-16T09:32:00",
+                "price": 3.34665,
+                "quantity": 2300,
+                "fees": 8.92562045
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600583.SH",
+        "buy": "2019-10-15T10:04:00",
+        "original_sell": "2019-10-16T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 10.204081632653072,
+          "prior5_pct": -5.769230769230771,
+          "acceleration_pp": 15.973312401883842,
+          "volume5_vs_previous5": 1.9953814658995896,
+          "atr5_vs20": 1.1733333333333333,
+          "close_location": 0.6153846153846164
+        },
+        "original_net_trade_pnl": -107.53435977999652,
+        "results": {
+          "original": {
+            "pnl": -107.5343597799947,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-16T09:32:00",
+                "price": 5.934060000000001,
+                "quantity": 1300,
+                "fees": 8.934281780000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -107.5343597799947,
+            "trigger": {
+              "day": "2019-10-15",
+              "close_return_pct": -0.43290043290041824
+            },
+            "sells": [
+              {
+                "fill_time": "2019-10-16T09:32:00",
+                "price": 5.934060000000001,
+                "quantity": 1300,
+                "fees": 8.934281780000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -107.5343597799947,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-16T09:32:00",
+                "price": 5.934060000000001,
+                "quantity": 1300,
+                "fees": 8.934281780000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600337.SH",
+        "buy": "2019-10-29T09:46:00",
+        "original_sell": "2019-10-30T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 9.749999999999993,
+          "prior5_pct": 1.0101010101009944,
+          "acceleration_pp": 8.739898989898998,
+          "volume5_vs_previous5": 1.9290482178766213,
+          "atr5_vs20": 1.5289575289575283,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -266.53096990000085,
+        "results": {
+          "original": {
+            "pnl": -266.5309699000027,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-30T09:32:00",
+                "price": 4.305689999999999,
+                "quantity": 1500,
+                "fees": 8.29385285
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -266.5309699000027,
+            "trigger": {
+              "day": "2019-10-29",
+              "close_return_pct": -3.8992327582931474
+            },
+            "sells": [
+              {
+                "fill_time": "2019-10-30T09:32:00",
+                "price": 4.305689999999999,
+                "quantity": 1500,
+                "fees": 8.29385285
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -266.5309699000027,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-30T09:32:00",
+                "price": 4.305689999999999,
+                "quantity": 1500,
+                "fees": 8.29385285
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601333.SH",
+        "buy": "2019-10-29T09:49:00",
+        "original_sell": "2019-10-30T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 3.1948881789137573,
+          "prior5_pct": 0.0,
+          "acceleration_pp": 3.1948881789137573,
+          "volume5_vs_previous5": 1.3744901366279658,
+          "atr5_vs20": 1.113402061855674,
+          "close_location": 0.8333333333333308
+        },
+        "original_net_trade_pnl": -130.25700100000086,
+        "results": {
+          "original": {
+            "pnl": -130.25700099999813,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-30T09:32:00",
+                "price": 3.1968,
+                "quantity": 2500,
+                "fees": 9.07592
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -130.25700099999813,
+            "trigger": {
+              "day": "2019-10-29",
+              "close_return_pct": -0.4082337415670656
+            },
+            "sells": [
+              {
+                "fill_time": "2019-10-30T09:32:00",
+                "price": 3.1968,
+                "quantity": 2500,
+                "fees": 9.07592
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -130.25700099999813,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-30T09:32:00",
+                "price": 3.1968,
+                "quantity": 2500,
+                "fees": 9.07592
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600926.SH",
+        "buy": "2019-10-29T10:31:00",
+        "original_sell": "2019-10-30T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 3.3448673587082034,
+          "prior5_pct": -2.033898305084747,
+          "acceleration_pp": 5.378765663792951,
+          "volume5_vs_previous5": 1.1826942186565865,
+          "atr5_vs20": 0.9658792650918634,
+          "close_location": 0.8620689655172439
+        },
+        "original_net_trade_pnl": -108.05995279999843,
+        "results": {
+          "original": {
+            "pnl": -108.05995279999479,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-30T09:32:00",
+                "price": 8.91108,
+                "quantity": 800,
+                "fees": 8.63572064
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -108.05995279999479,
+            "trigger": {
+              "day": "2019-10-29",
+              "close_return_pct": -0.7644240460204843
+            },
+            "sells": [
+              {
+                "fill_time": "2019-10-30T09:32:00",
+                "price": 8.91108,
+                "quantity": 800,
+                "fees": 8.63572064
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -108.05995279999479,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-10-30T09:32:00",
+                "price": 8.91108,
+                "quantity": 800,
+                "fees": 8.63572064
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600690.SH",
+        "buy": "2019-11-06T09:46:00",
+        "original_sell": "2019-11-07T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 14.786488209050376,
+          "prior5_pct": 1.2258064516128986,
+          "acceleration_pp": 13.560681757437477,
+          "volume5_vs_previous5": 4.03696912562881,
+          "atr5_vs20": 2.0709914320685443,
+          "close_location": 0.7755102040816347
+        },
+        "original_net_trade_pnl": -40.34400211999946,
+        "results": {
+          "original": {
+            "pnl": -40.34400212000037,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 18.17181,
+                "quantity": 400,
+                "fees": 8.70704924
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -40.34400212000037,
+            "trigger": {
+              "day": "2019-11-06",
+              "close_return_pct": -0.5933693090663383
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 18.17181,
+                "quantity": 400,
+                "fees": 8.70704924
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -40.34400212000037,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 18.17181,
+                "quantity": 400,
+                "fees": 8.70704924
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000878.SZ",
+        "buy": "2019-11-06T09:46:00",
+        "original_sell": "2019-11-07T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 5.508072174738832,
+          "prior5_pct": 0.0950570342205248,
+          "acceleration_pp": 5.413015140518307,
+          "volume5_vs_previous5": 0.969790630029606,
+          "atr5_vs20": 1.0804248861911998,
+          "close_location": 0.6
+        },
+        "original_net_trade_pnl": -89.13705814999958,
+        "results": {
+          "original": {
+            "pnl": -89.1370581500014,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 11.15883,
+                "quantity": 500,
+                "fees": 7.84550165
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -89.1370581500014,
+            "trigger": {
+              "day": "2019-11-06",
+              "close_return_pct": -1.3376004526446938
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 11.15883,
+                "quantity": 500,
+                "fees": 7.84550165
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -89.1370581500014,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 11.15883,
+                "quantity": 500,
+                "fees": 7.84550165
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002047.SZ",
+        "buy": "2019-11-06T09:46:00",
+        "original_sell": "2019-11-07T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 2.333931777378817,
+          "prior5_pct": 3.3395176252319247,
+          "acceleration_pp": -1.0055858478531077,
+          "volume5_vs_previous5": 0.9174660551890612,
+          "atr5_vs20": 1.218045112781955,
+          "close_location": 0.7857142857142848
+        },
+        "original_net_trade_pnl": -14.477024900000288,
+        "results": {
+          "original": {
+            "pnl": -14.477024899999378,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 5.74425,
+                "quantity": 1000,
+                "fees": 7.9295675
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -14.477024899999378,
+            "trigger": {
+              "day": "2019-11-06",
+              "close_return_pct": -0.44798407167745413
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 5.74425,
+                "quantity": 1000,
+                "fees": 7.9295675
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -14.477024899999378,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 5.74425,
+                "quantity": 1000,
+                "fees": 7.9295675
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600690.SH",
+        "buy": "2019-11-08T09:46:00",
+        "original_sell": "2019-11-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 14.375000000000004,
+          "prior5_pct": 5.193951347797476,
+          "acceleration_pp": 9.181048652202527,
+          "volume5_vs_previous5": 2.8444705939171246,
+          "atr5_vs20": 1.7223529411764726,
+          "close_location": 0.8717948717948701
+        },
+        "original_net_trade_pnl": -276.5521304800013,
+        "results": {
+          "original": {
+            "pnl": -276.55213048000223,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 18.14184,
+                "quantity": 400,
+                "fees": 8.700935359999999
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -276.55213048000223,
+            "trigger": {
+              "day": "2019-11-08",
+              "close_return_pct": -1.2701888101249281
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 18.14184,
+                "quantity": 400,
+                "fees": 8.700935359999999
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -276.55213048000223,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 18.14184,
+                "quantity": 400,
+                "fees": 8.700935359999999
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002507.SZ",
+        "buy": "2019-11-08T09:46:00",
+        "original_sell": "2019-11-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 7.913978494623652,
+          "prior5_pct": -1.8573237653018215,
+          "acceleration_pp": 9.771302259925474,
+          "volume5_vs_previous5": 1.0539886752271956,
+          "atr5_vs20": 1.2189542483660147,
+          "close_location": 0.7399999999999984
+        },
+        "original_net_trade_pnl": -230.03123550999862,
+        "results": {
+          "original": {
+            "pnl": -230.03123550999953,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 24.88509,
+                "quantity": 300,
+                "fees": 8.807418770000002
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -230.03123550999953,
+            "trigger": {
+              "day": "2019-11-08",
+              "close_return_pct": -1.9744914975563743
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 24.88509,
+                "quantity": 300,
+                "fees": 8.807418770000002
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -230.03123550999953,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 24.88509,
+                "quantity": 300,
+                "fees": 8.807418770000002
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600993.SH",
+        "buy": "2019-11-08T09:54:00",
+        "original_sell": "2019-11-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 6.530160486995018,
+          "prior5_pct": 6.482027106658816,
+          "acceleration_pp": 0.048133380336201625,
+          "volume5_vs_previous5": 1.8398473179885948,
+          "atr5_vs20": 1.240847784200386,
+          "close_location": 0.7236842105263153
+        },
+        "original_net_trade_pnl": -155.66107135999937,
+        "results": {
+          "original": {
+            "pnl": -155.66107135999846,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 18.8811,
+                "quantity": 200,
+                "fees": 6.925872200000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -155.66107135999846,
+            "trigger": {
+              "day": "2019-11-08",
+              "close_return_pct": -2.242803162108553
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 18.8811,
+                "quantity": 200,
+                "fees": 6.925872200000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -155.66107135999846,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 18.8811,
+                "quantity": 200,
+                "fees": 6.925872200000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601198.SH",
+        "buy": "2019-12-20T09:46:00",
+        "original_sell": "2019-12-24T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 10.332103321033227,
+          "prior5_pct": -1.6333938294010864,
+          "acceleration_pp": 11.965497150434313,
+          "volume5_vs_previous5": 4.534685986459374,
+          "atr5_vs20": 1.9570815450643773,
+          "close_location": 0.5909090909090927
+        },
+        "original_net_trade_pnl": -136.2645980799989,
+        "results": {
+          "original": {
+            "pnl": -136.26459808000072,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-12-24T09:32:00",
+                "price": 11.99799,
+                "quantity": 600,
+                "fees": 8.67138494
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -136.26459808000072,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-12-24T09:32:00",
+                "price": 11.99799,
+                "quantity": 600,
+                "fees": 8.67138494
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -136.26459808000072,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-12-24T09:32:00",
+                "price": 11.99799,
+                "quantity": 600,
+                "fees": 8.67138494
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000807.SZ",
+        "buy": "2019-12-20T09:46:00",
+        "original_sell": "2020-01-20T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 12.227074235807844,
+          "prior5_pct": 1.103752759381904,
+          "acceleration_pp": 11.12332147642594,
+          "volume5_vs_previous5": 2.195240987511474,
+          "atr5_vs20": 1.3941908713692939,
+          "close_location": 0.6999999999999964
+        },
+        "original_net_trade_pnl": -119.66741590000038,
+        "results": {
+          "original": {
+            "pnl": -119.66741589999947,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-20T09:32:00",
+                "price": 5.1748199999999995,
+                "quantity": 1500,
+                "fees": 8.9587373
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -209.5315617999986,
+            "trigger": {
+              "day": "2019-12-20",
+              "close_return_pct": -2.3876886472306236
+            },
+            "sells": [
+              {
+                "fill_time": "2019-12-23T09:32:00",
+                "price": 5.11488,
+                "quantity": 1500,
+                "fees": 8.9128832
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -119.66741589999947,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-20T09:32:00",
+                "price": 5.1748199999999995,
+                "quantity": 1500,
+                "fees": 8.9587373
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601717.SH",
+        "buy": "2019-12-20T09:46:00",
+        "original_sell": "2020-01-20T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 5.756578947368407,
+          "prior5_pct": -0.9771986970683932,
+          "acceleration_pp": 6.733777644436801,
+          "volume5_vs_previous5": 1.8893015115700624,
+          "atr5_vs20": 1.1811023622047243,
+          "close_location": 0.7692307692307672
+        },
+        "original_net_trade_pnl": 283.2308931000016,
+        "results": {
+          "original": {
+            "pnl": 283.2308931000007,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-20T09:32:00",
+                "price": 6.77322,
+                "quantity": 1000,
+                "fees": 8.454342200000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -146.1200261999984,
+            "trigger": {
+              "day": "2019-12-20",
+              "close_return_pct": -1.6439511029928133
+            },
+            "sells": [
+              {
+                "fill_time": "2019-12-23T09:32:00",
+                "price": 6.343649999999999,
+                "quantity": 1000,
+                "fees": 8.2352615
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -116.16531089999626,
+            "trigger": {
+              "day": "2019-12-24",
+              "close_return_pct": -2.107166403920646
+            },
+            "sells": [
+              {
+                "fill_time": "2019-12-25T09:32:00",
+                "price": 6.37362,
+                "quantity": 1000,
+                "fees": 8.2505462
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002317.SZ",
+        "buy": "2019-12-25T09:46:00",
+        "original_sell": "2020-01-23T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 3.2258064516129004,
+          "prior5_pct": 1.9940179461615193,
+          "acceleration_pp": 1.231788505451381,
+          "volume5_vs_previous5": 1.496320104000284,
+          "atr5_vs20": 1.253218884120173,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": 2615.77023146,
+        "results": {
+          "original": {
+            "pnl": 2615.770231459999,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-23T09:32:00",
+                "price": 15.13485,
+                "quantity": 600,
+                "fees": 9.6312641
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 2615.770231459999,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-23T09:32:00",
+                "price": 15.13485,
+                "quantity": 600,
+                "fees": 9.6312641
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 2615.770231459999,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-23T09:32:00",
+                "price": 15.13485,
+                "quantity": 600,
+                "fees": 9.6312641
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600233.SH",
+        "buy": "2020-01-20T09:54:00",
+        "original_sell": "2020-02-03T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 3.6747458952306467,
+          "prior5_pct": -0.15612802498049527,
+          "acceleration_pp": 3.830873920211142,
+          "volume5_vs_previous5": 1.062348811201952,
+          "atr5_vs20": 0.974193548387096,
+          "close_location": 0.857142857142855
+        },
+        "original_net_trade_pnl": -306.5083827999997,
+        "results": {
+          "original": {
+            "pnl": -306.50838280000244,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-03T09:32:00",
+                "price": 12.86712,
+                "quantity": 500,
+                "fees": 8.2811156
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -306.50838280000244,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-03T09:32:00",
+                "price": 12.86712,
+                "quantity": 500,
+                "fees": 8.2811156
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -306.50838280000244,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-03T09:32:00",
+                "price": 12.86712,
+                "quantity": 500,
+                "fees": 8.2811156
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000028.SZ",
+        "buy": "2020-01-23T09:46:00",
+        "original_sell": "2020-02-03T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 3.8240131578947345,
+          "prior5_pct": -0.02055498458374272,
+          "acceleration_pp": 3.8445681424784772,
+          "volume5_vs_previous5": 1.6298511069908854,
+          "atr5_vs20": 1.3977272727272687,
+          "close_location": 0.7295918367346961
+        },
+        "original_net_trade_pnl": -382.4068135999996,
+        "results": {
+          "original": {
+            "pnl": -382.4068135999987,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-03T09:32:00",
+                "price": 47.752199999999995,
+                "quantity": 100,
+                "fees": 7.4353622
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -382.4068135999987,
+            "trigger": {
+              "day": "2020-01-23",
+              "close_return_pct": -3.8315769833279445
+            },
+            "sells": [
+              {
+                "fill_time": "2020-02-03T09:32:00",
+                "price": 47.752199999999995,
+                "quantity": 100,
+                "fees": 7.4353622
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -382.4068135999987,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-03T09:32:00",
+                "price": 47.752199999999995,
+                "quantity": 100,
+                "fees": 7.4353622
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601828.SH",
+        "buy": "2020-01-20T09:50:00",
+        "original_sell": "2020-02-04T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 2.3175965665235942,
+          "prior5_pct": 3.280141843971651,
+          "acceleration_pp": -0.962545277448057,
+          "volume5_vs_previous5": 0.7471633059871139,
+          "atr5_vs20": 1.043478260869565,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -1324.1208279499988,
+        "results": {
+          "original": {
+            "pnl": -1324.1208279499988,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-04T09:32:00",
+                "price": 10.0899,
+                "quantity": 700,
+                "fees": 8.602094300000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -1324.1208279499988,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-04T09:32:00",
+                "price": 10.0899,
+                "quantity": 700,
+                "fees": 8.602094300000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -1324.1208279499988,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-04T09:32:00",
+                "price": 10.0899,
+                "quantity": 700,
+                "fees": 8.602094300000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002262.SZ",
+        "buy": "2020-03-06T09:54:00",
+        "original_sell": "2020-03-10T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 6.034482758620707,
+          "prior5_pct": -1.9442096365173356,
+          "acceleration_pp": 7.978692395138043,
+          "volume5_vs_previous5": 1.0562106902198922,
+          "atr5_vs20": 1.2240117130307475,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -105.55053079999925,
+        "results": {
+          "original": {
+            "pnl": -105.55053079999925,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-03-10T09:32:00",
+                "price": 12.267719999999999,
+                "quantity": 500,
+                "fees": 8.1282686
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -110.5429833499984,
+            "trigger": {
+              "day": "2020-03-06",
+              "close_return_pct": -0.5817333791610091
+            },
+            "sells": [
+              {
+                "fill_time": "2020-03-09T09:32:00",
+                "price": 12.257729999999999,
+                "quantity": 500,
+                "fees": 8.12572115
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -105.55053079999925,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-03-10T09:32:00",
+                "price": 12.267719999999999,
+                "quantity": 500,
+                "fees": 8.1282686
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600873.SH",
+        "buy": "2020-03-06T09:55:00",
+        "original_sell": "2020-03-10T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 8.333333333333325,
+          "prior5_pct": 0.452488687782826,
+          "acceleration_pp": 7.880844645550499,
+          "volume5_vs_previous5": 1.8983561378585982,
+          "atr5_vs20": 1.5969581749049413,
+          "close_location": 0.41176470588234954
+        },
+        "original_net_trade_pnl": -335.0657580799998,
+        "results": {
+          "original": {
+            "pnl": -335.0657580799998,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-03-10T09:32:00",
+                "price": 4.74525,
+                "quantity": 1400,
+                "fees": 8.388108500000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -125.3827509799994,
+            "trigger": {
+              "day": "2020-03-06",
+              "close_return_pct": -0.9039250487942518
+            },
+            "sells": [
+              {
+                "fill_time": "2020-03-09T09:32:00",
+                "price": 4.8951,
+                "quantity": 1400,
+                "fees": 8.4951014
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -335.0657580799998,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-03-10T09:32:00",
+                "price": 4.74525,
+                "quantity": 1400,
+                "fees": 8.388108500000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000726.SZ",
+        "buy": "2020-03-06T10:16:00",
+        "original_sell": "2020-03-10T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 3.9827771797632083,
+          "prior5_pct": 0.5411255411255311,
+          "acceleration_pp": 3.441651638637677,
+          "volume5_vs_previous5": 2.2285901763954987,
+          "atr5_vs20": 1.2731006160164269,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -127.58240107999882,
+        "results": {
+          "original": {
+            "pnl": -127.58240107999882,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-03-10T09:32:00",
+                "price": 9.390600000000001,
+                "quantity": 400,
+                "fees": 6.915682400000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -127.58240107999882,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-03-10T09:32:00",
+                "price": 9.390600000000001,
+                "quantity": 400,
+                "fees": 6.915682400000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -127.58240107999882,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-03-10T09:32:00",
+                "price": 9.390600000000001,
+                "quantity": 400,
+                "fees": 6.915682400000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002439.SZ",
+        "buy": "2020-05-20T09:49:00",
+        "original_sell": "2020-05-25T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 3.2530120481927716,
+          "prior5_pct": 0.7281553398058138,
+          "acceleration_pp": 2.5248567083869577,
+          "volume5_vs_previous5": 0.930653217216479,
+          "atr5_vs20": 1.125,
+          "close_location": 0.8777777777777782
+        },
+        "original_net_trade_pnl": -405.25269634999904,
+        "results": {
+          "original": {
+            "pnl": -405.2526963500022,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-05-25T09:32:00",
+                "price": 39.11085,
+                "quantity": 100,
+                "fees": 6.99465335
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -107.7025243700009,
+            "trigger": {
+              "day": "2020-05-20",
+              "close_return_pct": -2.539321143972284
+            },
+            "sells": [
+              {
+                "fill_time": "2020-05-21T09:32:00",
+                "price": 42.08787,
+                "quantity": 100,
+                "fees": 7.14648137
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -405.2526963500022,
+            "trigger": {
+              "day": "2020-05-22",
+              "close_return_pct": -9.044443928164847
+            },
+            "sells": [
+              {
+                "fill_time": "2020-05-25T09:32:00",
+                "price": 39.11085,
+                "quantity": 100,
+                "fees": 6.99465335
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600426.SH",
+        "buy": "2020-05-20T10:29:00",
+        "original_sell": "2020-05-25T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 2.6434195725534293,
+          "prior5_pct": 6.915213469633197,
+          "acceleration_pp": -4.2717938970797675,
+          "volume5_vs_previous5": 1.0011052575909167,
+          "atr5_vs20": 1.072056239015818,
+          "close_location": 0.8695652173913054
+        },
+        "original_net_trade_pnl": -260.58012486999996,
+        "results": {
+          "original": {
+            "pnl": -260.5801248700009,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-05-25T09:32:00",
+                "price": 17.63235,
+                "quantity": 300,
+                "fees": 7.69774955
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 12.007784360001097,
+            "trigger": {
+              "day": "2020-05-20",
+              "close_return_pct": -0.479130414054485
+            },
+            "sells": [
+              {
+                "fill_time": "2020-05-21T09:32:00",
+                "price": 18.541439999999998,
+                "quantity": 300,
+                "fees": 7.83684032
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -260.5801248700009,
+            "trigger": {
+              "day": "2020-05-22",
+              "close_return_pct": -4.759015388082643
+            },
+            "sells": [
+              {
+                "fill_time": "2020-05-25T09:32:00",
+                "price": 17.63235,
+                "quantity": 300,
+                "fees": 7.69774955
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "filtered": [
+      {
+        "symbol": "601009.SH",
+        "buy": "2018-01-26T09:46:00",
+        "original_sell": "2018-01-30T09:32:00",
+        "year": "2018",
+        "entry_features": {
+          "ret5_pct": 3.871681415929218,
+          "prior5_pct": 9.310761789600953,
+          "acceleration_pp": -5.439080373671735,
+          "volume5_vs_previous5": 1.2379259344391909,
+          "atr5_vs20": 1.5895196506550195,
+          "close_location": 0.6511627906976775
+        },
+        "original_net_trade_pnl": 35.95622562999961,
+        "results": {
+          "original": {
+            "pnl": 35.95622562999779,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-01-30T09:32:00",
+                "price": 9.690299999999999,
+                "quantity": 700,
+                "fees": 8.459437099999999
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 35.95622562999779,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-01-30T09:32:00",
+                "price": 9.690299999999999,
+                "quantity": 700,
+                "fees": 8.459437099999999
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 35.95622562999779,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2018-01-30T09:32:00",
+                "price": 9.690299999999999,
+                "quantity": 700,
+                "fees": 8.459437099999999
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600837.SH",
+        "buy": "2019-02-19T09:46:00",
+        "original_sell": "2019-03-01T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 7.236842105263164,
+          "prior5_pct": 6.081754735792644,
+          "acceleration_pp": 1.15508736947052,
+          "volume5_vs_previous5": 1.521761933307013,
+          "atr5_vs20": 1.4468085106382975,
+          "close_location": 0.8360655737704923
+        },
+        "original_net_trade_pnl": 644.4133341999996,
+        "results": {
+          "original": {
+            "pnl": 644.4133341999986,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-01T09:32:00",
+                "price": 12.89709,
+                "quantity": 500,
+                "fees": 8.28875795
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -24.575307500002964,
+            "trigger": {
+              "day": "2019-02-19",
+              "close_return_pct": -0.18624417932973092
+            },
+            "sells": [
+              {
+                "fill_time": "2019-02-20T09:32:00",
+                "price": 11.55843,
+                "quantity": 500,
+                "fees": 7.94739965
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 644.4133341999986,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-01T09:32:00",
+                "price": 12.89709,
+                "quantity": 500,
+                "fees": 8.28875795
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002078.SZ",
+        "buy": "2019-02-21T09:55:00",
+        "original_sell": "2019-03-04T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 7.834101382488479,
+          "prior5_pct": 8.319467554076532,
+          "acceleration_pp": -0.48536617158805306,
+          "volume5_vs_previous5": 1.528875547677368,
+          "atr5_vs20": 1.3110047846889963,
+          "close_location": 0.8260869565217389
+        },
+        "original_net_trade_pnl": -16.504239920001055,
+        "results": {
+          "original": {
+            "pnl": -16.504239920002874,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-04T09:32:00",
+                "price": 7.1928,
+                "quantity": 800,
+                "fees": 7.934662400000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -16.504239920002874,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-04T09:32:00",
+                "price": 7.1928,
+                "quantity": 800,
+                "fees": 7.934662400000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -16.504239920002874,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-04T09:32:00",
+                "price": 7.1928,
+                "quantity": 800,
+                "fees": 7.934662400000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600326.SH",
+        "buy": "2019-03-01T09:46:00",
+        "original_sell": "2019-03-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 9.243697478991608,
+          "prior5_pct": 3.0303030303030276,
+          "acceleration_pp": 6.213394448688581,
+          "volume5_vs_previous5": 2.0532769805457294,
+          "atr5_vs20": 1.6880733944954107,
+          "close_location": 0.6603773584905644
+        },
+        "original_net_trade_pnl": -369.74662743999943,
+        "results": {
+          "original": {
+            "pnl": -369.74662743999943,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-11T09:32:00",
+                "price": 7.632359999999999,
+                "quantity": 800,
+                "fees": 8.114002880000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -114.13305687999673,
+            "trigger": {
+              "day": "2019-03-01",
+              "close_return_pct": -0.9664437173730667
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-04T09:32:00",
+                "price": 7.95204,
+                "quantity": 800,
+                "fees": 8.244432320000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -369.74662743999943,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-11T09:32:00",
+                "price": 7.632359999999999,
+                "quantity": 800,
+                "fees": 8.114002880000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601997.SH",
+        "buy": "2019-03-04T09:46:00",
+        "original_sell": "2019-03-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 13.19966583124479,
+          "prior5_pct": 3.72616984402081,
+          "acceleration_pp": 9.47349598722398,
+          "volume5_vs_previous5": 3.5535726083701817,
+          "atr5_vs20": 2.083102493074792,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -381.84868104999987,
+        "results": {
+          "original": {
+            "pnl": -381.84868104999987,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-11T09:32:00",
+                "price": 13.07691,
+                "quantity": 500,
+                "fees": 8.33461205
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -202.12038924999797,
+            "trigger": {
+              "day": "2019-03-04",
+              "close_return_pct": -1.4029448812057477
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-05T09:32:00",
+                "price": 13.436549999999999,
+                "quantity": 500,
+                "fees": 8.42632025
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -87.29398059999949,
+            "trigger": {
+              "day": "2019-03-06",
+              "close_return_pct": -0.4618569835961095
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-07T09:32:00",
+                "price": 13.666319999999999,
+                "quantity": 500,
+                "fees": 8.4849116
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002475.SZ",
+        "buy": "2019-02-19T09:46:00",
+        "original_sell": "2019-03-19T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 3.9886039886039892,
+          "prior5_pct": 7.405140758873929,
+          "acceleration_pp": -3.41653677026994,
+          "volume5_vs_previous5": 1.2881147833670394,
+          "atr5_vs20": 1.2025664527956001,
+          "close_location": 0.91150442477876
+        },
+        "original_net_trade_pnl": 1479.7586000600013,
+        "results": {
+          "original": {
+            "pnl": 1479.7586000599986,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-19T09:32:00",
+                "price": 23.4765,
+                "quantity": 300,
+                "fees": 8.5919045
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -11.986221880000812,
+            "trigger": {
+              "day": "2019-02-19",
+              "close_return_pct": -1.0188945253880255
+            },
+            "sells": [
+              {
+                "fill_time": "2019-02-20T09:32:00",
+                "price": 18.50148,
+                "quantity": 300,
+                "fees": 7.83072644
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 1479.7586000599986,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-19T09:32:00",
+                "price": 23.4765,
+                "quantity": 300,
+                "fees": 8.5919045
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "603188.SH",
+        "buy": "2019-03-12T09:46:00",
+        "original_sell": "2019-03-27T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 7.647740440324435,
+          "prior5_pct": 2.6159334126040434,
+          "acceleration_pp": 5.031807027720392,
+          "volume5_vs_previous5": 1.2303902173054044,
+          "atr5_vs20": 1.5367231638418088,
+          "close_location": 0.8301886792452803
+        },
+        "original_net_trade_pnl": -275.9202905200009,
+        "results": {
+          "original": {
+            "pnl": -275.92029052,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-27T09:32:00",
+                "price": 9.030959999999999,
+                "quantity": 600,
+                "fees": 7.76347376
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -275.92029052,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-27T09:32:00",
+                "price": 9.030959999999999,
+                "quantity": 600,
+                "fees": 7.76347376
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -216.01085991999935,
+            "trigger": {
+              "day": "2019-03-14",
+              "close_return_pct": -4.640813731722826
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-15T09:32:00",
+                "price": 9.13086,
+                "quantity": 600,
+                "fees": 7.794043160000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000690.SZ",
+        "buy": "2019-03-19T09:54:00",
+        "original_sell": "2019-03-27T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 9.342105263157908,
+          "prior5_pct": 1.8766756032171594,
+          "acceleration_pp": 7.465429659940749,
+          "volume5_vs_previous5": 1.2888626439068376,
+          "atr5_vs20": 1.341666666666667,
+          "close_location": 0.9666666666666675
+        },
+        "original_net_trade_pnl": -339.23335164999844,
+        "results": {
+          "original": {
+            "pnl": -339.2333516499966,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-27T09:32:00",
+                "price": 7.88211,
+                "quantity": 700,
+                "fees": 7.8139132700000005
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -129.55034454999986,
+            "trigger": {
+              "day": "2019-03-19",
+              "close_return_pct": -1.6570959017001896
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-20T09:32:00",
+                "price": 8.181809999999999,
+                "quantity": 700,
+                "fees": 7.92090617
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -45.67714170999534,
+            "trigger": {
+              "day": "2019-03-21",
+              "close_return_pct": -1.1779587319155516
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-22T09:32:00",
+                "price": 8.30169,
+                "quantity": 700,
+                "fees": 7.963703330000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002242.SZ",
+        "buy": "2019-03-12T09:46:00",
+        "original_sell": "2019-03-29T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 8.991113434396247,
+          "prior5_pct": 10.641989589358003,
+          "acceleration_pp": -1.6508761549617557,
+          "volume5_vs_previous5": 0.9746945329773206,
+          "atr5_vs20": 1.4916334661354569,
+          "close_location": 0.9172413793103465
+        },
+        "original_net_trade_pnl": 132.9034545400009,
+        "results": {
+          "original": {
+            "pnl": 132.90345453999907,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-29T09:32:00",
+                "price": 22.307669999999998,
+                "quantity": 200,
+                "fees": 7.27538234
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -278.474635579998,
+            "trigger": {
+              "day": "2019-03-12",
+              "close_return_pct": -5.150508118968222
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-13T09:32:00",
+                "price": 20.24973,
+                "quantity": 200,
+                "fees": 7.0654724600000005
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -154.6618123399967,
+            "trigger": {
+              "day": "2019-03-14",
+              "close_return_pct": -4.50180617156497
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-15T09:32:00",
+                "price": 20.86911,
+                "quantity": 200,
+                "fees": 7.12864922
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601021.SH",
+        "buy": "2019-03-28T09:46:00",
+        "original_sell": "2019-03-29T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 10.027322404371585,
+          "prior5_pct": 5.17241379310347,
+          "acceleration_pp": 4.854908611268115,
+          "volume5_vs_previous5": 1.1619896224163524,
+          "atr5_vs20": 1.3848797250859095,
+          "close_location": 0.7897435897435918
+        },
+        "original_net_trade_pnl": -161.0591634100001,
+        "results": {
+          "original": {
+            "pnl": -161.0591634099983,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-29T09:32:00",
+                "price": 39.32064,
+                "quantity": 100,
+                "fees": 7.00535264
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -161.0591634099983,
+            "trigger": {
+              "day": "2019-03-28",
+              "close_return_pct": -3.9959304859967126
+            },
+            "sells": [
+              {
+                "fill_time": "2019-03-29T09:32:00",
+                "price": 39.32064,
+                "quantity": 100,
+                "fees": 7.00535264
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -161.0591634099983,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-03-29T09:32:00",
+                "price": 39.32064,
+                "quantity": 100,
+                "fees": 7.00535264
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600859.SH",
+        "buy": "2019-04-01T09:46:00",
+        "original_sell": "2019-04-16T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 8.833718244803702,
+          "prior5_pct": 7.444168734491319,
+          "acceleration_pp": 1.3895495103123832,
+          "volume5_vs_previous5": 1.7635367217837747,
+          "atr5_vs20": 1.5157515751575152,
+          "close_location": 0.8764044943820267
+        },
+        "original_net_trade_pnl": -267.21354042999883,
+        "results": {
+          "original": {
+            "pnl": -267.21354042999883,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-16T09:32:00",
+                "price": 18.46152,
+                "quantity": 300,
+                "fees": 7.82461256
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -267.21354042999883,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-16T09:32:00",
+                "price": 18.46152,
+                "quantity": 300,
+                "fees": 7.82461256
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -267.21354042999883,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-16T09:32:00",
+                "price": 18.46152,
+                "quantity": 300,
+                "fees": 7.82461256
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000069.SZ",
+        "buy": "2019-04-03T09:46:00",
+        "original_sell": "2019-04-23T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 17.2752808988764,
+          "prior5_pct": -0.41958041958042314,
+          "acceleration_pp": 17.694861318456823,
+          "volume5_vs_previous5": 1.8653924091381082,
+          "atr5_vs20": 1.3682092555331988,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -395.3957312099992,
+        "results": {
+          "original": {
+            "pnl": -395.3957312099992,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-23T09:32:00",
+                "price": 7.94205,
+                "quantity": 700,
+                "fees": 7.83531185
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -395.3957312099992,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-23T09:32:00",
+                "price": 7.94205,
+                "quantity": 700,
+                "fees": 7.83531185
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -395.3957312099992,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-23T09:32:00",
+                "price": 7.94205,
+                "quantity": 700,
+                "fees": 7.83531185
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002506.SZ",
+        "buy": "2019-04-03T09:58:00",
+        "original_sell": "2019-04-24T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 14.2314990512334,
+          "prior5_pct": 1.3461538461538414,
+          "acceleration_pp": 12.885345205079558,
+          "volume5_vs_previous5": 1.460497830425262,
+          "atr5_vs20": 1.120448179271709,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": 912.43304936,
+        "results": {
+          "original": {
+            "pnl": 912.4330493599991,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-24T09:32:00",
+                "price": 7.1928,
+                "quantity": 800,
+                "fees": 7.934662400000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -110.02123288000075,
+            "trigger": {
+              "day": "2019-04-03",
+              "close_return_pct": -0.5969155222886435
+            },
+            "sells": [
+              {
+                "fill_time": "2019-04-04T09:32:00",
+                "price": 5.91408,
+                "quantity": 800,
+                "fees": 7.41294464
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 912.4330493599991,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-04-24T09:32:00",
+                "price": 7.1928,
+                "quantity": 800,
+                "fees": 7.934662400000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600765.SH",
+        "buy": "2019-09-10T09:46:00",
+        "original_sell": "2019-09-24T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 6.666666666666665,
+          "prior5_pct": 15.760869565217405,
+          "acceleration_pp": -9.09420289855074,
+          "volume5_vs_previous5": 1.2763179630098673,
+          "atr5_vs20": 1.3123209169054446,
+          "close_location": 0.9047619047619025
+        },
+        "original_net_trade_pnl": -423.85813400000006,
+        "results": {
+          "original": {
+            "pnl": -423.8581340000019,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-24T09:32:00",
+                "price": 10.669319999999999,
+                "quantity": 500,
+                "fees": 7.7206766
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -234.14493709999806,
+            "trigger": {
+              "day": "2019-09-10",
+              "close_return_pct": -4.189886768283979
+            },
+            "sells": [
+              {
+                "fill_time": "2019-09-11T09:32:00",
+                "price": 11.04894,
+                "quantity": 500,
+                "fees": 7.8174797
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -214.1751269000015,
+            "trigger": {
+              "day": "2019-09-12",
+              "close_return_pct": -4.27690776122831
+            },
+            "sells": [
+              {
+                "fill_time": "2019-09-16T09:32:00",
+                "price": 11.088899999999999,
+                "quantity": 500,
+                "fees": 7.827669500000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600452.SH",
+        "buy": "2019-09-09T10:31:00",
+        "original_sell": "2019-09-26T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 14.294187425860017,
+          "prior5_pct": -0.5896226415094463,
+          "acceleration_pp": 14.883810067369463,
+          "volume5_vs_previous5": 2.2241033212495585,
+          "atr5_vs20": 1.391159299416178,
+          "close_location": 0.6400000000000006
+        },
+        "original_net_trade_pnl": 493.49261669000134,
+        "results": {
+          "original": {
+            "pnl": 493.49261669000407,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 21.18879,
+                "quantity": 300,
+                "fees": 8.24188487
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 493.49261669000407,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 21.18879,
+                "quantity": 300,
+                "fees": 8.24188487
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 493.49261669000407,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 21.18879,
+                "quantity": 300,
+                "fees": 8.24188487
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000708.SZ",
+        "buy": "2019-09-12T09:46:00",
+        "original_sell": "2019-09-26T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 8.946322067594448,
+          "prior5_pct": 7.173295454545459,
+          "acceleration_pp": 1.7730266130489891,
+          "volume5_vs_previous5": 1.3986790381513465,
+          "atr5_vs20": 1.4678536102868427,
+          "close_location": 0.7171717171717191
+        },
+        "original_net_trade_pnl": -82.78911459999836,
+        "results": {
+          "original": {
+            "pnl": -82.78911459999654,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 16.82316,
+                "quantity": 300,
+                "fees": 7.5739434800000005
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -154.6804313199973,
+            "trigger": {
+              "day": "2019-09-12",
+              "close_return_pct": -3.676136070502256
+            },
+            "sells": [
+              {
+                "fill_time": "2019-09-16T09:32:00",
+                "price": 16.5834,
+                "quantity": 300,
+                "fees": 7.5372602
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -94.7710007200003,
+            "trigger": {
+              "day": "2019-09-17",
+              "close_return_pct": -2.738106963459064
+            },
+            "sells": [
+              {
+                "fill_time": "2019-09-18T09:32:00",
+                "price": 16.7832,
+                "quantity": 300,
+                "fees": 7.5678296
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600641.SH",
+        "buy": "2019-09-24T09:47:00",
+        "original_sell": "2019-09-26T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 6.214689265536721,
+          "prior5_pct": 1.8077239112571863,
+          "acceleration_pp": 4.406965354279535,
+          "volume5_vs_previous5": 1.3698048205383502,
+          "atr5_vs20": 1.3020961775585713,
+          "close_location": 0.4444444444444436
+        },
+        "original_net_trade_pnl": 256.01235480000014,
+        "results": {
+          "original": {
+            "pnl": 256.01235480000105,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 14.14584,
+                "quantity": 400,
+                "fees": 7.88575136
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 256.01235480000105,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 14.14584,
+                "quantity": 400,
+                "fees": 7.88575136
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 256.01235480000105,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-09-26T09:32:00",
+                "price": 14.14584,
+                "quantity": 400,
+                "fees": 7.88575136
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600690.SH",
+        "buy": "2019-11-06T09:46:00",
+        "original_sell": "2019-11-07T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 14.786488209050376,
+          "prior5_pct": 1.2258064516128986,
+          "acceleration_pp": 13.560681757437477,
+          "volume5_vs_previous5": 4.03696912562881,
+          "atr5_vs20": 2.0709914320685443,
+          "close_location": 0.7755102040816347
+        },
+        "original_net_trade_pnl": -40.34400211999946,
+        "results": {
+          "original": {
+            "pnl": -40.34400212000037,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 18.17181,
+                "quantity": 400,
+                "fees": 8.70704924
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -40.34400212000037,
+            "trigger": {
+              "day": "2019-11-06",
+              "close_return_pct": -0.5933693090663383
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 18.17181,
+                "quantity": 400,
+                "fees": 8.70704924
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -40.34400212000037,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 18.17181,
+                "quantity": 400,
+                "fees": 8.70704924
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600285.SH",
+        "buy": "2019-11-06T09:52:00",
+        "original_sell": "2019-11-07T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 13.758389261744973,
+          "prior5_pct": 2.640642939150384,
+          "acceleration_pp": 11.11774632259459,
+          "volume5_vs_previous5": 2.3131451573851507,
+          "atr5_vs20": 1.7205882352941195,
+          "close_location": 0.9729729729729735
+        },
+        "original_net_trade_pnl": -103.30159977999938,
+        "results": {
+          "original": {
+            "pnl": -103.30159977999938,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 10.05993,
+                "quantity": 600,
+                "fees": 8.07833858
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -103.30159977999938,
+            "trigger": {
+              "day": "2019-11-06",
+              "close_return_pct": -1.9607843137254832
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 10.05993,
+                "quantity": 600,
+                "fees": 8.07833858
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -103.30159977999938,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-07T09:32:00",
+                "price": 10.05993,
+                "quantity": 600,
+                "fees": 8.07833858
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600690.SH",
+        "buy": "2019-11-08T09:46:00",
+        "original_sell": "2019-11-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 14.375000000000004,
+          "prior5_pct": 5.193951347797476,
+          "acceleration_pp": 9.181048652202527,
+          "volume5_vs_previous5": 2.8444705939171246,
+          "atr5_vs20": 1.7223529411764726,
+          "close_location": 0.8717948717948701
+        },
+        "original_net_trade_pnl": -276.5521304800013,
+        "results": {
+          "original": {
+            "pnl": -276.55213048000223,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 18.14184,
+                "quantity": 400,
+                "fees": 8.700935359999999
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -276.55213048000223,
+            "trigger": {
+              "day": "2019-11-08",
+              "close_return_pct": -1.2701888101249281
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 18.14184,
+                "quantity": 400,
+                "fees": 8.700935359999999
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -276.55213048000223,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 18.14184,
+                "quantity": 400,
+                "fees": 8.700935359999999
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002251.SZ",
+        "buy": "2019-11-08T10:02:00",
+        "original_sell": "2019-11-11T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 13.532934131736528,
+          "prior5_pct": 5.5625790139064435,
+          "acceleration_pp": 7.970355117830085,
+          "volume5_vs_previous5": 1.2755970929034453,
+          "atr5_vs20": 1.576182136602452,
+          "close_location": 0.6086956521739144
+        },
+        "original_net_trade_pnl": -102.48528177999924,
+        "results": {
+          "original": {
+            "pnl": -102.48528177999833,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 9.52047,
+                "quantity": 600,
+                "fees": 7.913263820000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -102.48528177999833,
+            "trigger": {
+              "day": "2019-11-08",
+              "close_return_pct": -1.0306463722612569
+            },
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 9.52047,
+                "quantity": 600,
+                "fees": 7.913263820000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -102.48528177999833,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-11-11T09:32:00",
+                "price": 9.52047,
+                "quantity": 600,
+                "fees": 7.913263820000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600754.SH",
+        "buy": "2019-12-23T09:46:00",
+        "original_sell": "2019-12-24T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 8.333333333333348,
+          "prior5_pct": 3.6513545347467646,
+          "acceleration_pp": 4.6819787985865835,
+          "volume5_vs_previous5": 1.3180225472928913,
+          "atr5_vs20": 1.5232198142414863,
+          "close_location": 0.7368421052631582
+        },
+        "original_net_trade_pnl": -418.2703109399981,
+        "results": {
+          "original": {
+            "pnl": -418.27031093999904,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-12-24T09:32:00",
+                "price": 27.502470000000002,
+                "quantity": 200,
+                "fees": 7.805251940000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -418.27031093999904,
+            "trigger": {
+              "day": "2019-12-23",
+              "close_return_pct": -5.552075043600446
+            },
+            "sells": [
+              {
+                "fill_time": "2019-12-24T09:32:00",
+                "price": 27.502470000000002,
+                "quantity": 200,
+                "fees": 7.805251940000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -418.27031093999904,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2019-12-24T09:32:00",
+                "price": 27.502470000000002,
+                "quantity": 200,
+                "fees": 7.805251940000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000807.SZ",
+        "buy": "2019-12-20T09:46:00",
+        "original_sell": "2020-01-20T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 12.227074235807844,
+          "prior5_pct": 1.103752759381904,
+          "acceleration_pp": 11.12332147642594,
+          "volume5_vs_previous5": 2.195240987511474,
+          "atr5_vs20": 1.3941908713692939,
+          "close_location": 0.6999999999999964
+        },
+        "original_net_trade_pnl": -112.35625484000047,
+        "results": {
+          "original": {
+            "pnl": -112.35625484000047,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-20T09:32:00",
+                "price": 5.1748199999999995,
+                "quantity": 1400,
+                "fees": 8.69482148
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -196.22945768000136,
+            "trigger": {
+              "day": "2019-12-20",
+              "close_return_pct": -2.3876886472306236
+            },
+            "sells": [
+              {
+                "fill_time": "2019-12-23T09:32:00",
+                "price": 5.11488,
+                "quantity": 1400,
+                "fees": 8.65202432
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -112.35625484000047,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-20T09:32:00",
+                "price": 5.1748199999999995,
+                "quantity": 1400,
+                "fees": 8.69482148
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000501.SZ",
+        "buy": "2019-12-25T09:48:00",
+        "original_sell": "2020-01-21T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 9.414758269720092,
+          "prior5_pct": 4.060017652250658,
+          "acceleration_pp": 5.354740617469434,
+          "volume5_vs_previous5": 1.4767776926202798,
+          "atr5_vs20": 1.386401326699834,
+          "close_location": 0.7083333333333303
+        },
+        "original_net_trade_pnl": -385.79554109999935,
+        "results": {
+          "original": {
+            "pnl": -385.79554110000026,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-21T09:32:00",
+                "price": 12.23775,
+                "quantity": 500,
+                "fees": 8.12062625
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -385.79554110000026,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-21T09:32:00",
+                "price": 12.23775,
+                "quantity": 500,
+                "fees": 8.12062625
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -385.79554110000026,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-01-21T09:32:00",
+                "price": 12.23775,
+                "quantity": 500,
+                "fees": 8.12062625
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600060.SH",
+        "buy": "2019-12-26T09:54:00",
+        "original_sell": "2020-02-03T09:32:00",
+        "year": "2019",
+        "entry_features": {
+          "ret5_pct": 9.044193216855078,
+          "prior5_pct": 3.5106382978723483,
+          "acceleration_pp": 5.5335549189827296,
+          "volume5_vs_previous5": 1.0917932949746656,
+          "atr5_vs20": 1.4332247557003264,
+          "close_location": 0.4838709677419344
+        },
+        "original_net_trade_pnl": 134.70895355999983,
+        "results": {
+          "original": {
+            "pnl": 134.70895355999892,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-03T09:32:00",
+                "price": 11.34864,
+                "quantity": 400,
+                "fees": 7.315122560000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -21.055566000002727,
+            "trigger": {
+              "day": "2019-12-26",
+              "close_return_pct": -0.19096673608978154
+            },
+            "sells": [
+              {
+                "fill_time": "2019-12-27T09:32:00",
+                "price": 10.95903,
+                "quantity": 400,
+                "fees": 7.23564212
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -45.01933824000298,
+            "trigger": {
+              "day": "2019-12-30",
+              "close_return_pct": -1.556966278935279
+            },
+            "sells": [
+              {
+                "fill_time": "2019-12-31T09:32:00",
+                "price": 10.89909,
+                "quantity": 400,
+                "fees": 7.22341436
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600998.SH",
+        "buy": "2020-01-21T09:52:00",
+        "original_sell": "2020-02-03T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 9.999999999999986,
+          "prior5_pct": 1.5625,
+          "acceleration_pp": 8.437499999999986,
+          "volume5_vs_previous5": 0.9188923505538723,
+          "atr5_vs20": 1.3617021276595747,
+          "close_location": 0.9696969696969691
+        },
+        "original_net_trade_pnl": 473.32201499999974,
+        "results": {
+          "original": {
+            "pnl": 473.32201500000156,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-03T09:32:00",
+                "price": 17.03295,
+                "quantity": 400,
+                "fees": 8.474721800000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -85.83267059999707,
+            "trigger": {
+              "day": "2020-01-21",
+              "close_return_pct": -1.7438257944587088
+            },
+            "sells": [
+              {
+                "fill_time": "2020-01-22T09:32:00",
+                "price": 15.63435,
+                "quantity": 400,
+                "fees": 8.1894074
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 473.32201500000156,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-02-03T09:32:00",
+                "price": 17.03295,
+                "quantity": 400,
+                "fees": 8.474721800000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002572.SZ",
+        "buy": "2020-05-27T09:47:00",
+        "original_sell": "2020-05-28T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 11.326234269119073,
+          "prior5_pct": 0.7804878048780495,
+          "acceleration_pp": 10.545746464241024,
+          "volume5_vs_previous5": 1.2807204409413315,
+          "atr5_vs20": 1.4521354933726063,
+          "close_location": 0.8620689655172418
+        },
+        "original_net_trade_pnl": 36.11615057999916,
+        "results": {
+          "original": {
+            "pnl": 36.116150580000976,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-05-28T09:32:00",
+                "price": 23.676299999999998,
+                "quantity": 200,
+                "fees": 7.4149826
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 36.116150580000976,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-05-28T09:32:00",
+                "price": 23.676299999999998,
+                "quantity": 200,
+                "fees": 7.4149826
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 36.116150580000976,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-05-28T09:32:00",
+                "price": 23.676299999999998,
+                "quantity": 200,
+                "fees": 7.4149826
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000501.SZ",
+        "buy": "2020-06-02T09:46:00",
+        "original_sell": "2020-06-08T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 17.402376910016983,
+          "prior5_pct": 6.509945750452073,
+          "acceleration_pp": 10.89243115956491,
+          "volume5_vs_previous5": 2.3494402139356136,
+          "atr5_vs20": 1.9299999999999988,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -703.3649307999995,
+        "results": {
+          "original": {
+            "pnl": -632.9649307999971,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-06-08T09:32:00",
+                "price": 12.56742,
+                "quantity": 400,
+                "fees": 7.56375368
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -164.1800553999965,
+            "trigger": {
+              "day": "2020-06-02",
+              "close_return_pct": -0.5196484188080608
+            },
+            "sells": [
+              {
+                "fill_time": "2020-06-03T09:32:00",
+                "price": 13.91607,
+                "quantity": 400,
+                "fees": 7.83887828
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 61.98446416000661,
+            "trigger": {
+              "day": "2020-06-04",
+              "close_return_pct": -1.7788933755320202
+            },
+            "sells": [
+              {
+                "fill_time": "2020-06-05T09:32:00",
+                "price": 14.30568,
+                "quantity": 400,
+                "fees": 7.9183587200000005
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601021.SH",
+        "buy": "2020-06-08T10:23:00",
+        "original_sell": "2020-06-16T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 9.149232914923289,
+          "prior5_pct": 7.657657657657668,
+          "acceleration_pp": 1.4915752572656205,
+          "volume5_vs_previous5": 1.3399414909794205,
+          "atr5_vs20": 1.0523489932885906,
+          "close_location": 0.6014492753623216
+        },
+        "original_net_trade_pnl": -251.6496938199998,
+        "results": {
+          "original": {
+            "pnl": -251.6496938199998,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-06-16T09:32:00",
+                "price": 37.332629999999995,
+                "quantity": 100,
+                "fees": 6.90396413
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -108.8655508899974,
+            "trigger": {
+              "day": "2020-06-08",
+              "close_return_pct": -1.1318739209895456
+            },
+            "sells": [
+              {
+                "fill_time": "2020-06-09T09:32:00",
+                "price": 38.761199999999995,
+                "quantity": 100,
+                "fees": 6.9768212
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -103.87309833999825,
+            "trigger": {
+              "day": "2020-06-10",
+              "close_return_pct": -2.163847742079017
+            },
+            "sells": [
+              {
+                "fill_time": "2020-06-11T09:32:00",
+                "price": 38.811150000000005,
+                "quantity": 100,
+                "fees": 6.9793686500000005
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002867.SZ",
+        "buy": "2020-06-15T09:48:00",
+        "original_sell": "2020-06-19T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 10.1570166830226,
+          "prior5_pct": 2.3576656499191495,
+          "acceleration_pp": 7.799351033103451,
+          "volume5_vs_previous5": 1.5225445059872997,
+          "atr5_vs20": 1.3560478305228532,
+          "close_location": 0.883177570093458
+        },
+        "original_net_trade_pnl": -307.07232286,
+        "results": {
+          "original": {
+            "pnl": -307.07232285999635,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-06-19T09:32:00",
+                "price": 21.3786,
+                "quantity": 200,
+                "fees": 7.1806172
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -39.47686617999716,
+            "trigger": {
+              "day": "2020-06-15",
+              "close_return_pct": -2.856670267971184
+            },
+            "sells": [
+              {
+                "fill_time": "2020-06-16T09:32:00",
+                "price": 22.71726,
+                "quantity": 200,
+                "fees": 7.31716052
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -221.2021390000009,
+            "trigger": {
+              "day": "2020-06-17",
+              "close_return_pct": -4.431967506868939
+            },
+            "sells": [
+              {
+                "fill_time": "2020-06-18T09:32:00",
+                "price": 21.808169999999997,
+                "quantity": 200,
+                "fees": 7.224433339999999
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002099.SZ",
+        "buy": "2020-06-15T10:04:00",
+        "original_sell": "2020-06-19T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 7.152875175315576,
+          "prior5_pct": 5.629629629629629,
+          "acceleration_pp": 1.5232455456859473,
+          "volume5_vs_previous5": 1.3910570377773934,
+          "atr5_vs20": 1.402469135802469,
+          "close_location": 0.949999999999999
+        },
+        "original_net_trade_pnl": 46.25026071999946,
+        "results": {
+          "original": {
+            "pnl": 46.25026072000037,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-06-19T09:32:00",
+                "price": 7.842149999999999,
+                "quantity": 800,
+                "fees": 8.1995972
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 46.25026072000037,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-06-19T09:32:00",
+                "price": 7.842149999999999,
+                "quantity": 800,
+                "fees": 8.1995972
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 46.25026072000037,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-06-19T09:32:00",
+                "price": 7.842149999999999,
+                "quantity": 800,
+                "fees": 8.1995972
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000513.SZ",
+        "buy": "2020-06-17T09:46:00",
+        "original_sell": "2020-07-17T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 6.750285062713779,
+          "prior5_pct": 11.354173313962136,
+          "acceleration_pp": -4.603888251248357,
+          "volume5_vs_previous5": 1.1717920195483424,
+          "atr5_vs20": 1.132817170903273,
+          "close_location": 0.7979274611398923
+        },
+        "original_net_trade_pnl": 147.81103470000107,
+        "results": {
+          "original": {
+            "pnl": 147.8110347000038,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-07-17T09:32:00",
+                "price": 49.010940000000005,
+                "quantity": 100,
+                "fees": 7.499557940000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -19.93537097999797,
+            "trigger": {
+              "day": "2020-06-17",
+              "close_return_pct": -0.6061506061506017
+            },
+            "sells": [
+              {
+                "fill_time": "2020-06-18T09:32:00",
+                "price": 47.332620000000006,
+                "quantity": 100,
+                "fees": 7.4139636200000005
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -51.88706729999831,
+            "trigger": {
+              "day": "2020-06-19",
+              "close_return_pct": -1.070213570213563
+            },
+            "sells": [
+              {
+                "fill_time": "2020-06-22T09:32:00",
+                "price": 47.01294,
+                "quantity": 100,
+                "fees": 7.3976599400000005
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002294.SZ",
+        "buy": "2020-06-22T09:46:00",
+        "original_sell": "2020-07-17T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 10.9375,
+          "prior5_pct": 13.441654357459388,
+          "acceleration_pp": -2.504154357459388,
+          "volume5_vs_previous5": 1.3707543105705666,
+          "atr5_vs20": 1.3014474512271865,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": 1190.9421241600003,
+        "results": {
+          "original": {
+            "pnl": 1190.9421241599994,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-07-17T09:32:00",
+                "price": 32.28768,
+                "quantity": 200,
+                "fees": 8.29334336
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 1190.9421241599994,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-07-17T09:32:00",
+                "price": 32.28768,
+                "quantity": 200,
+                "fees": 8.29334336
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 1190.9421241599994,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-07-17T09:32:00",
+                "price": 32.28768,
+                "quantity": 200,
+                "fees": 8.29334336
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "603298.SH",
+        "buy": "2020-06-24T09:47:00",
+        "original_sell": "2020-07-24T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 12.017167381974247,
+          "prior5_pct": -0.6396588486140775,
+          "acceleration_pp": 12.656826230588324,
+          "volume5_vs_previous5": 2.139060398667209,
+          "atr5_vs20": 1.2636600593209204,
+          "close_location": 0.5249999999999972
+        },
+        "original_net_trade_pnl": 1109.8703913500012,
+        "results": {
+          "original": {
+            "pnl": 1109.8703913499994,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-07-24T09:32:00",
+                "price": 12.90708,
+                "quantity": 500,
+                "fees": 8.2913054
+              }
+            ]
+          },
+          "F1": {
+            "pnl": 1109.8703913499994,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-07-24T09:32:00",
+                "price": 12.90708,
+                "quantity": 500,
+                "fees": 8.2913054
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 1109.8703913499994,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-07-24T09:32:00",
+                "price": 12.90708,
+                "quantity": 500,
+                "fees": 8.2913054
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000928.SZ",
+        "buy": "2020-07-23T10:18:00",
+        "original_sell": "2020-07-27T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 9.280742459396762,
+          "prior5_pct": -0.919540229885063,
+          "acceleration_pp": 10.200282689281826,
+          "volume5_vs_previous5": 0.7149794208049034,
+          "atr5_vs20": 1.4134275618374557,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": -376.0935885099989,
+        "results": {
+          "original": {
+            "pnl": -376.09358850999706,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-07-27T09:32:00",
+                "price": 4.4955,
+                "quantity": 1300,
+                "fees": 7.9805165
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -389.0739651399999,
+            "trigger": {
+              "day": "2020-07-23",
+              "close_return_pct": -3.869715190469891
+            },
+            "sells": [
+              {
+                "fill_time": "2020-07-24T09:32:00",
+                "price": 4.4855100000000006,
+                "quantity": 1300,
+                "fees": 7.97389313
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -376.09358850999706,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-07-27T09:32:00",
+                "price": 4.4955,
+                "quantity": 1300,
+                "fees": 7.9805165
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "603551.SH",
+        "buy": "2020-07-30T10:01:00",
+        "original_sell": "2020-08-03T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 13.12959818902093,
+          "prior5_pct": 5.116002379536,
+          "acceleration_pp": 8.01359580948493,
+          "volume5_vs_previous5": 2.0577975534269477,
+          "atr5_vs20": 1.392320534223706,
+          "close_location": 0.907692307692307
+        },
+        "original_net_trade_pnl": -681.2386425699979,
+        "results": {
+          "original": {
+            "pnl": -681.2386425699951,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-08-03T09:32:00",
+                "price": 17.942040000000002,
+                "quantity": 300,
+                "fees": 7.745132120000001
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -681.2386425699951,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-08-03T09:32:00",
+                "price": 17.942040000000002,
+                "quantity": 300,
+                "fees": 7.745132120000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -681.2386425699951,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-08-03T09:32:00",
+                "price": 17.942040000000002,
+                "quantity": 300,
+                "fees": 7.745132120000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "600388.SH",
+        "buy": "2020-08-24T09:53:00",
+        "original_sell": "2020-08-26T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 10.355648535564853,
+          "prior5_pct": 5.17051705170517,
+          "acceleration_pp": 5.185131483859683,
+          "volume5_vs_previous5": 2.614529902509629,
+          "atr5_vs20": 1.7584905660377372,
+          "close_location": 0.9074074074074122
+        },
+        "original_net_trade_pnl": -79.9425075399995,
+        "results": {
+          "original": {
+            "pnl": -79.9425075399995,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-08-26T09:32:00",
+                "price": 10.49949,
+                "quantity": 600,
+                "fees": 8.212843939999999
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -67.96062141999937,
+            "trigger": {
+              "day": "2020-08-24",
+              "close_return_pct": -0.8538631180140421
+            },
+            "sells": [
+              {
+                "fill_time": "2020-08-25T09:32:00",
+                "price": 10.51947,
+                "quantity": 600,
+                "fees": 8.21895782
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -79.9425075399995,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-08-26T09:32:00",
+                "price": 10.49949,
+                "quantity": 600,
+                "fees": 8.212843939999999
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000416.SZ",
+        "buy": "2020-09-02T09:46:00",
+        "original_sell": "2020-09-07T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 14.022140221402202,
+          "prior5_pct": -1.2750455373406244,
+          "acceleration_pp": 15.297185758742826,
+          "volume5_vs_previous5": 1.6792538174923732,
+          "atr5_vs20": 1.3945945945945926,
+          "close_location": 1.0
+        },
+        "original_net_trade_pnl": 74.81442598999911,
+        "results": {
+          "original": {
+            "pnl": 74.81442599000002,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-09-07T09:32:00",
+                "price": 6.293699999999999,
+                "quantity": 900,
+                "fees": 7.888808299999999
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -185.7915971199982,
+            "trigger": {
+              "day": "2020-09-02",
+              "close_return_pct": -1.2296265931160844
+            },
+            "sells": [
+              {
+                "fill_time": "2020-09-03T09:32:00",
+                "price": 6.00399,
+                "quantity": 900,
+                "fees": 7.755831410000001
+              }
+            ]
+          },
+          "F3": {
+            "pnl": 74.81442599000002,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-09-07T09:32:00",
+                "price": 6.293699999999999,
+                "quantity": 900,
+                "fees": 7.888808299999999
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "000932.SZ",
+        "buy": "2020-09-03T09:48:00",
+        "original_sell": "2020-09-07T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 15.246636771300448,
+          "prior5_pct": -1.327433628318575,
+          "acceleration_pp": 16.574070399619025,
+          "volume5_vs_previous5": 3.4623157763120345,
+          "atr5_vs20": 1.7474402730375431,
+          "close_location": 0.7187499999999979
+        },
+        "original_net_trade_pnl": -157.67359731999932,
+        "results": {
+          "original": {
+            "pnl": -157.6735973199975,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-09-07T09:32:00",
+                "price": 5.13486,
+                "quantity": 1200,
+                "fees": 8.14253432
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -145.69171119999737,
+            "trigger": {
+              "day": "2020-09-03",
+              "close_return_pct": -0.09990009990008542
+            },
+            "sells": [
+              {
+                "fill_time": "2020-09-04T09:32:00",
+                "price": 5.14485,
+                "quantity": 1200,
+                "fees": 8.1486482
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -157.6735973199975,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-09-07T09:32:00",
+                "price": 5.13486,
+                "quantity": 1200,
+                "fees": 8.14253432
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "601949.SH",
+        "buy": "2020-12-03T09:47:00",
+        "original_sell": "2020-12-10T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 9.722222222222232,
+          "prior5_pct": 4.159132007233257,
+          "acceleration_pp": 5.563090214988975,
+          "volume5_vs_previous5": 1.0904412378695052,
+          "atr5_vs20": 1.409742120343839,
+          "close_location": 0.8636363636363664
+        },
+        "original_net_trade_pnl": -385.5309935999994,
+        "results": {
+          "original": {
+            "pnl": -385.5309935999976,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-12-10T09:32:00",
+                "price": 6.013979999999999,
+                "quantity": 1000,
+                "fees": 8.0671298
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -56.02912529999958,
+            "trigger": {
+              "day": "2020-12-03",
+              "close_return_pct": -0.413066557267161
+            },
+            "sells": [
+              {
+                "fill_time": "2020-12-04T09:32:00",
+                "price": 6.343649999999999,
+                "quantity": 1000,
+                "fees": 8.2352615
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -165.86308139999892,
+            "trigger": {
+              "day": "2020-12-07",
+              "close_return_pct": -2.9183982162038435
+            },
+            "sells": [
+              {
+                "fill_time": "2020-12-08T09:32:00",
+                "price": 6.23376,
+                "quantity": 1000,
+                "fees": 8.179217600000001
+              }
+            ]
+          }
+        }
+      },
+      {
+        "symbol": "002262.SZ",
+        "buy": "2020-12-04T09:46:00",
+        "original_sell": "2020-12-10T09:32:00",
+        "year": "2020",
+        "entry_features": {
+          "ret5_pct": 13.782816229116946,
+          "prior5_pct": -2.9530978575564415,
+          "acceleration_pp": 16.73591408667339,
+          "volume5_vs_previous5": 1.5156058955963838,
+          "atr5_vs20": 1.4305555555555562,
+          "close_location": 0.7011494252873577
+        },
+        "original_net_trade_pnl": -417.0551434299996,
+        "results": {
+          "original": {
+            "pnl": -417.0551434299996,
+            "trigger": null,
+            "sells": [
+              {
+                "fill_time": "2020-12-10T09:32:00",
+                "price": 18.05193,
+                "quantity": 300,
+                "fees": 7.76194529
+              }
+            ]
+          },
+          "F1": {
+            "pnl": -159.44459185000233,
+            "trigger": {
+              "day": "2020-12-04",
+              "close_return_pct": -1.2855050006752688
+            },
+            "sells": [
+              {
+                "fill_time": "2020-12-07T09:32:00",
+                "price": 18.91107,
+                "quantity": 300,
+                "fees": 7.89339371
+              }
+            ]
+          },
+          "F3": {
+            "pnl": -201.38119327000095,
+            "trigger": {
+              "day": "2020-12-08",
+              "close_return_pct": -3.862906958882184
+            },
+            "sells": [
+              {
+                "fill_time": "2020-12-09T09:32:00",
+                "price": 18.77121,
+                "quantity": 300,
+                "fees": 7.87199513
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

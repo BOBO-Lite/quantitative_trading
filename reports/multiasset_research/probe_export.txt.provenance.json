@@ -1,0 +1,40 @@
+{
+  "note": "仅重封已校验数据包，没有生成或修改行情",
+  "packets": {
+    "etf_calendar": [
+      "reports/etf_research/extended_2018_2026/probe_export.txt",
+      "reports/multiasset_research/raw_probe_export.txt"
+    ],
+    "etf_minute_sample_510300.SH": [
+      "reports/etf_research/extended_2018_2026/probe_export.txt"
+    ],
+    "etf_dividend_510300.SH": [
+      "reports/etf_research/extended_2018_2026/probe_export.txt"
+    ],
+    "etf_daily_510300.SH": [
+      "reports/etf_research/extended_2018_2026/probe_export.txt"
+    ],
+    "etf_minute_sample_518880.SH": [
+      "reports/multiasset_research/raw_probe_export.txt"
+    ],
+    "etf_dividend_518880.SH": [
+      "reports/multiasset_research/raw_probe_export.txt"
+    ],
+    "etf_daily_518880.SH": [
+      "reports/multiasset_research/raw_probe_export.txt"
+    ],
+    "etf_minute_sample_511010.SH": [
+      "reports/multiasset_research/raw_probe_export.txt"
+    ],
+    "etf_dividend_511010.SH": [
+      "reports/multiasset_research/raw_probe_export.txt"
+    ],
+    "etf_daily_511010.SH": [
+      "reports/multiasset_research/raw_probe_export.txt"
+    ]
+  },
+  "source_sha256": {
+    "reports/etf_research/extended_2018_2026/probe_export.txt": "bbacdf3bc87fbb741bfb1254ac696024a6ad41f5eecd954103cc088fe93cc823",
+    "reports/multiasset_research/raw_probe_export.txt": "9ab95a5cc1a1d13c274e83641f840f844e7df9f26e82276336765058e4654f76"
+  }
+}

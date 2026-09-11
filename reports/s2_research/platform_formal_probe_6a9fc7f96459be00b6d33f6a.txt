@@ -1,0 +1,305 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+HI！
+mx_69lp3klgu
+全局搜索
+
+需要帮助？
+
+试试AI小助手吧
+
+< 执行撮合审计_v3_仅历史回测
+返回策略目录
+返回策略编辑
+返回回测列表
+
+回测日期：2019-04-17 至 2019-04-19
+|
+资金：30,000.00
+|
+频率：分钟
+|
+总运行时长：1秒
+（完成）
+
+导出结果
+绩效分析
+开启模拟交易
+分享至社区
+收益概览
+交易明细
+历史持仓
+输出日志
+收益
+Alpha
+Beta
+Sharpe
+Sortino
+Information Ratio
+Volatility
+最大回撤
+
+2026-09-08 16:31:54 - INFO
+
+回测结束
+
+2019-04-19 15:30:00 - INFO
+
+PROBE_END 2019-04-19 15:30:00 StockAccount({'available_cash': 30057.192656999992, 'frozen_cash': 0.0, 'market_value': 0, 'total_value': 30057.192656999992, 'transaction_cost': 0, 'positions': {}, 'pnl': 0})
+
+2019-04-19 15:30:00 - INFO
+
+RECON 2019-04-19 15:30:00 000001.SZ minute_flow=[124603609.0, 1814875936.7000008] daily={"open":{"1555545600000":14.3},"close":{"1555545600000":14.34},"volume":{"1555545600000":50704530.0},"turnover":{"1555545600000":721908800.5900000334}}
+
+2019-04-19 15:30:00 - INFO
+
+RECON 2019-04-19 15:30:00 600036.SH minute_flow=[41174863.0, 1481680329.8399997] daily={"open":{"1555545600000":35.8},"close":{"1555545600000":35.5},"volume":{"1555545600000":32274070.0},"turnover":{"1555545600000":1143221193.0}}
+
+2019-04-19 09:47:00 - INFO
+
+ACCOUNT 2019-04-19 09:47:00 StockAccount({'available_cash': 30057.192656999992, 'frozen_cash': 0.0, 'market_value': 0, 'total_value': 30057.192656999992, 'transaction_cost': 31.635343, 'positions': {}, 'pnl': 0})
+
+2019-04-19 09:47:00 - INFO
+
+BAR 2019-04-19 09:47:00 000001.SZ open=14.48 close=14.56 vol=1844637.0 amount=26793399.02
+
+2019-04-19 09:47:00 - INFO
+
+BAR 2019-04-19 09:47:00 600036.SH open=36.16 close=36.09 vol=821500.0 amount=29712675.76
+
+2019-04-19 09:46:00 - INFO
+
+ACCOUNT 2019-04-19 09:46:00 StockAccount({'available_cash': 30057.192656999992, 'frozen_cash': 0.0, 'market_value': 0, 'total_value': 30057.192656999992, 'transaction_cost': 31.635343, 'positions': {}, 'pnl': 0})
+
+2019-04-19 09:46:00 - INFO
+
+BAR 2019-04-19 09:46:00 000001.SZ open=14.45 close=14.47 vol=515700.0 amount=7464367.2
+
+2019-04-19 09:46:00 - INFO
+
+BAR 2019-04-19 09:46:00 600036.SH open=36.08 close=36.15 vol=642454.0 amount=23194158.4
+
+2019-04-19 09:45:00 - INFO
+
+FILL 2019-04-19 09:45:00 Trade({'order_book_id': '000001.SZ', 'trading_datetime': datetime.datetime(2019, 4, 19, 9, 45), 'datetime': datetime.datetime(2019, 4, 19, 9, 45), 'order_id': 'e7aa8bede753431e8592a63800690e0a', 'last_price': 14.43555, 'last_quantity': 500, 'commission': 5.0, 'tax': 7.217775, 'transaction_cost': 12.217775, 'side': SIDE.SELL, 'position_effect': None, 'exec_id': '8200979736914530b092c1c8f86ed9ee', 'frozen_price': 0.0, 'close_today_amount': 0, 'pnl': 30.59999999999974})
+
+2019-04-19 09:45:00 - INFO
+
+ORDER 2019-04-19 09:45:00 Order({'order_id': 'e7aa8bede753431e8592a63800690e0a', 'symbol': '000001.SZ', 'created': datetime.datetime(2019, 4, 19, 9, 45), 'order_type': 'SHORT', 'limit_price': 0, 'amount': 500, 'filled_amount': 500, 'type': ORDER_TYPE.MARKET, 'transaction_cost': 12.217775, 'avg_price': 14.43555, 'status': ORDER_STATUS.FILLED, 'datetime': datetime.datetime(2019, 4, 19, 9, 45), 'offset_flag': None})
+
+2019-04-19 09:45:00 - INFO
+
+ORDER 2019-04-19 09:45:00 Order({'order_id': 'e7aa8bede753431e8592a63800690e0a', 'symbol': '000001.SZ', 'created': datetime.datetime(2019, 4, 19, 9, 45), 'order_type': 'SHORT', 'limit_price': 0, 'amount': 500, 'filled_amount': 0, 'type': ORDER_TYPE.MARKET, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': datetime.datetime(2019, 4, 19, 9, 45), 'offset_flag': None})
+
+2019-04-19 09:45:00 - INFO
+
+ORDER 2019-04-19 09:45:00 Order({'order_id': 'e7aa8bede753431e8592a63800690e0a', 'symbol': '000001.SZ', 'created': datetime.datetime(2019, 4, 19, 9, 45), 'order_type': 'SHORT', 'limit_price': 0, 'amount': 500, 'filled_amount': 0, 'type': ORDER_TYPE.MARKET, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': datetime.datetime(2019, 4, 19, 9, 45), 'offset_flag': None})
+
+2019-04-19 09:45:00 - INFO
+
+FILL 2019-04-19 09:45:00 Trade({'order_book_id': '600036.SH', 'trading_datetime': datetime.datetime(2019, 4, 19, 9, 45), 'datetime': datetime.datetime(2019, 4, 19, 9, 45), 'order_id': '417ba36d987a44a186267bfea2b931d5', 'last_price': 36.04392, 'last_quantity': 400, 'commission': 5.0, 'tax': 14.417568, 'transaction_cost': 19.417568, 'side': SIDE.SELL, 'position_effect': None, 'exec_id': 'bc77799996814c4ba42969bbdc261dd1', 'frozen_price': 0.0, 'close_today_amount': 0, 'pnl': 58.22799999999688})
+
+2019-04-19 09:45:00 - INFO
+
+ORDER 2019-04-19 09:45:00 Order({'order_id': '417ba36d987a44a186267bfea2b931d5', 'symbol': '600036.SH', 'created': datetime.datetime(2019, 4, 19, 9, 45), 'order_type': 'SHORT', 'limit_price': 0, 'amount': 400, 'filled_amount': 400, 'type': ORDER_TYPE.MARKET, 'transaction_cost': 19.417568, 'avg_price': 36.04392, 'status': ORDER_STATUS.FILLED, 'datetime': datetime.datetime(2019, 4, 19, 9, 45), 'offset_flag': None})
+
+2019-04-19 09:45:00 - INFO
+
+ORDER 2019-04-19 09:45:00 Order({'order_id': '417ba36d987a44a186267bfea2b931d5', 'symbol': '600036.SH', 'created': datetime.datetime(2019, 4, 19, 9, 45), 'order_type': 'SHORT', 'limit_price': 0, 'amount': 400, 'filled_amount': 0, 'type': ORDER_TYPE.MARKET, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': datetime.datetime(2019, 4, 19, 9, 45), 'offset_flag': None})
+
+2019-04-19 09:45:00 - INFO
+
+ORDER 2019-04-19 09:45:00 Order({'order_id': '417ba36d987a44a186267bfea2b931d5', 'symbol': '600036.SH', 'created': datetime.datetime(2019, 4, 19, 9, 45), 'order_type': 'SHORT', 'limit_price': 0, 'amount': 400, 'filled_amount': 0, 'type': ORDER_TYPE.MARKET, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': datetime.datetime(2019, 4, 19, 9, 45), 'offset_flag': None})
+
+2019-04-19 09:45:00 - INFO
+
+BAR 2019-04-19 09:45:00 000001.SZ open=14.44 close=14.45 vol=391160.0 amount=5647056.6
+
+2019-04-19 09:45:00 - INFO
+
+BAR 2019-04-19 09:45:00 600036.SH open=35.89 close=36.06 vol=793466.0 amount=28547702.92
+
+2019-04-19 09:31:00 - INFO
+
+BAR 2019-04-19 09:31:00 000001.SZ open=14.45 close=14.46 vol=2471500.0 amount=35730719.879999995
+
+2019-04-19 09:31:00 - INFO
+
+BAR 2019-04-19 09:31:00 600036.SH open=35.6 close=35.68 vol=632700.0 amount=22534322.99
+
+2019-04-19 09:30:00 - INFO
+
+BAR 2019-04-19 09:30:00 000001.SZ open=14.34 close=14.34 vol=714900.0 amount=10251666.0
+
+2019-04-19 09:30:00 - INFO
+
+BAR 2019-04-19 09:30:00 600036.SH open=35.5 close=35.5 vol=250674.0 amount=8898927.0
+
+2019-04-18 15:30:00 - INFO
+
+PROBE_END 2019-04-18 15:30:00 StockAccount({'available_cash': 8453.484999999997, 'frozen_cash': 0.0, 'market_value': 21370.0, 'total_value': 29823.484999999997, 'transaction_cost': 0, 'positions': {'600036.SH': StockPosition({'symbol': '600036.SH', 'amount': 400, 'available_amount': 400, 'pnl': -159.3400000000031, 'market_value': 14200.0, 'cost_basis': 35.89835000000001, 'last_price': 35.5, 'datetime': datetime.datetime(2019, 4, 18, 15, 30), 'position_days': 1, 'profit_rate': -0.011092747735016232, 'draw_down': 0.011092747735016228, 'markup': -0.00921015908456596, 'pre_price': 35.83}), '000001.SZ': StockPosition({'symbol': '000001.SZ', 'amount': 500, 'available_amount': 500, 'pnl': -17.17499999999994, 'market_value': 7170.0, 'cost_basis': 14.37435, 'last_price': 14.34, 'datetime': datetime.datetime(2019, 4, 18, 15, 30), 'position_days': 1, 'profit_rate': -0.002388011971343848, 'draw_down': 0.002388011971343862, 'markup': -0.000696864111498243, 'pre_price': 14.35})}, 'pnl': -176.51500000000306})
+
+2019-04-18 15:30:00 - INFO
+
+RECON 2019-04-18 15:30:00 000001.SZ minute_flow=[50704530.0, 721908800.5900002] daily={"open":{"1555459200000":14.42},"close":{"1555459200000":14.35},"volume":{"1555459200000":100410987.0},"turnover":{"1555459200000":1443493493.4100000858}}
+
+2019-04-18 15:30:00 - INFO
+
+RECON 2019-04-18 15:30:00 600036.SH minute_flow=[32274070.0, 1143221192.9400003] daily={"open":{"1555459200000":35.89},"close":{"1555459200000":35.83},"volume":{"1555459200000":49478982.0},"turnover":{"1555459200000":1778194094.0}}
+
+2019-04-18 09:47:00 - INFO
+
+ACCOUNT 2019-04-18 09:47:00 StockAccount({'available_cash': 8453.484999999997, 'frozen_cash': 0.0, 'market_value': 21353.0, 'total_value': 29806.484999999997, 'transaction_cost': 0, 'positions': {'600036.SH': StockPosition({'symbol': '600036.SH', 'amount': 400, 'available_amount': 400, 'pnl': -131.340000000003, 'market_value': 14228.0, 'cost_basis': 35.89835000000001, 'last_price': 35.57, 'datetime': datetime.datetime(2019, 4, 18, 9, 47), 'position_days': 1, 'profit_rate': -0.009143476136042656, 'draw_down': 0.009143476136042605, 'markup': -0.007256488975718616, 'pre_price': 35.83}), '000001.SZ': StockPosition({'symbol': '000001.SZ', 'amount': 500, 'available_amount': 500, 'pnl': -62.17499999999987, 'market_value': 7125.0, 'cost_basis': 14.37435, 'last_price': 14.25, 'datetime': datetime.datetime(2019, 4, 18, 9, 47), 'position_days': 1, 'profit_rate': -0.008644811896262239, 'draw_down': 0.008644811896262206, 'markup': -0.006968641114982554, 'pre_price': 14.35})}, 'pnl': -193.51500000000286})
+
+2019-04-18 09:47:00 - INFO
+
+BAR 2019-04-18 09:47:00 000001.SZ open=14.23 close=14.25 vol=380020.0 amount=5413839.4
+
+2019-04-18 09:47:00 - INFO
+
+BAR 2019-04-18 09:47:00 600036.SH open=35.52 close=35.57 vol=408400.0 amount=14504568.0
+
+2019-04-18 09:46:00 - INFO
+
+ACCOUNT 2019-04-18 09:46:00 StockAccount({'available_cash': 8453.484999999997, 'frozen_cash': 0.0, 'market_value': 21327.0, 'total_value': 29780.484999999997, 'transaction_cost': 0, 'positions': {'600036.SH': StockPosition({'symbol': '600036.SH', 'amount': 400, 'available_amount': 400, 'pnl': -147.34000000000265, 'market_value': 14212.0, 'cost_basis': 35.89835000000001, 'last_price': 35.53, 'datetime': datetime.datetime(2019, 4, 18, 9, 46), 'position_days': 1, 'profit_rate': -0.010257345621170385, 'draw_down': 0.010257345621170422, 'markup': -0.008372871895059926, 'pre_price': 35.83}), '000001.SZ': StockPosition({'symbol': '000001.SZ', 'amount': 500, 'available_amount': 500, 'pnl': -72.17499999999966, 'market_value': 7115.0, 'cost_basis': 14.37435, 'last_price': 14.23, 'datetime': datetime.datetime(2019, 4, 18, 9, 46), 'position_days': 1, 'profit_rate': -0.01003521187957741, 'draw_down': 0.010035211879577455, 'markup': -0.00836236933797904, 'pre_price': 14.35})}, 'pnl': -219.51500000000232})
+
+2019-04-18 09:46:00 - INFO
+
+BAR 2019-04-18 09:46:00 000001.SZ open=14.25 close=14.23 vol=285100.0 amount=4060315.0
+
+2019-04-18 09:46:00 - INFO
+
+BAR 2019-04-18 09:46:00 600036.SH open=35.5 close=35.53 vol=159304.0 amount=5655429.96
+
+2019-04-18 09:45:00 - INFO
+
+BAR 2019-04-18 09:45:00 000001.SZ open=14.27 close=14.25 vol=741800.0 amount=10574776.0
+
+2019-04-18 09:45:00 - INFO
+
+BAR 2019-04-18 09:45:00 600036.SH open=35.47 close=35.5 vol=390100.0 amount=13837621.0
+
+2019-04-18 09:31:00 - INFO
+
+BAR 2019-04-18 09:31:00 000001.SZ open=14.3 close=14.27 vol=821500.0 amount=11734373.58
+
+2019-04-18 09:31:00 - INFO
+
+BAR 2019-04-18 09:31:00 600036.SH open=35.8 close=35.7 vol=765500.0 amount=27358947.0
+
+2019-04-18 09:30:00 - INFO
+
+BAR 2019-04-18 09:30:00 000001.SZ open=14.35 close=14.35 vol=1261120.0 amount=18097072.0
+
+2019-04-18 09:30:00 - INFO
+
+BAR 2019-04-18 09:30:00 600036.SH open=35.83 close=35.83 vol=584900.0 amount=20956967.0
+
+2019-04-17 15:30:00 - INFO
+
+PROBE_END 2019-04-17 15:30:00 StockAccount({'available_cash': 8453.484999999997, 'frozen_cash': 0.0, 'market_value': 21507.0, 'total_value': 29960.484999999997, 'transaction_cost': 0, 'positions': {'600036.SH': StockPosition({'symbol': '600036.SH', 'amount': 400, 'available_amount': 400, 'pnl': -27.340000000003783, 'market_value': 14332.0, 'cost_basis': 35.89835000000001, 'last_price': 35.83, 'datetime': datetime.datetime(2019, 4, 17, 15, 30), 'position_days': 0, 'profit_rate': -0.0019033244827123123, 'draw_down': 0.001903324482712354, 'markup': -0.00472222222222227, 'pre_price': 36.0}), '000001.SZ': StockPosition({'symbol': '000001.SZ', 'amount': 500, 'available_amount': 500, 'pnl': -12.175000000000047, 'market_value': 7175.0, 'cost_basis': 14.37435, 'last_price': 14.35, 'datetime': datetime.datetime(2019, 4, 17, 15, 30), 'position_days': 0, 'profit_rate': -0.0016928119796862627, 'draw_down': 0.0016928119796862928, 'markup': -0.015775034293552842, 'pre_price': 14.58})}, 'pnl': -39.51500000000383})
+
+2019-04-17 15:30:00 - INFO
+
+RECON 2019-04-17 15:30:00 000001.SZ minute_flow=[100410987.0, 1443493493.4100008] daily={"open":{"1555372800000":13.67},"close":{"1555372800000":14.58},"volume":{"1555372800000":237937518.0},"turnover":{"1555372800000":3379550307.1799998283}}
+
+2019-04-17 15:30:00 - INFO
+
+RECON 2019-04-17 15:30:00 600036.SH minute_flow=[49478982.0, 1778194093.5100007] daily={"open":{"1555372800000":34.7},"close":{"1555372800000":36.0},"volume":{"1555372800000":84081516.0},"turnover":{"1555372800000":2991158275.0}}
+
+2019-04-17 09:47:00 - INFO
+
+ACCOUNT 2019-04-17 09:47:00 StockAccount({'available_cash': 8453.484999999997, 'frozen_cash': 0.0, 'market_value': 21510.0, 'total_value': 29963.484999999997, 'transaction_cost': 10.0, 'positions': {'600036.SH': StockPosition({'symbol': '600036.SH', 'amount': 400, 'available_amount': 0, 'pnl': -19.340000000002533, 'market_value': 14340.0, 'cost_basis': 35.89835000000001, 'last_price': 35.85, 'datetime': datetime.datetime(2019, 4, 17, 9, 47), 'position_days': 0, 'profit_rate': -0.0013463897401483486, 'draw_down': 0.001346389740148335, 'markup': -0.004166666666666628, 'pre_price': 36.0}), '000001.SZ': StockPosition({'symbol': '000001.SZ', 'amount': 500, 'available_amount': 0, 'pnl': -17.17499999999994, 'market_value': 7170.0, 'cost_basis': 14.37435, 'last_price': 14.34, 'datetime': datetime.datetime(2019, 4, 17, 9, 47), 'position_days': 0, 'profit_rate': -0.002388011971343848, 'draw_down': 0.002388011971343862, 'markup': -0.016460905349794254, 'pre_price': 14.58})}, 'pnl': -36.51500000000247})
+
+2019-04-17 09:47:00 - INFO
+
+BAR 2019-04-17 09:47:00 000001.SZ open=14.34 close=14.34 vol=558100.0 amount=8000565.4
+
+2019-04-17 09:47:00 - INFO
+
+BAR 2019-04-17 09:47:00 600036.SH open=35.82 close=35.85 vol=79600.0 amount=2853909.0
+
+2019-04-17 09:46:00 - INFO
+
+ACCOUNT 2019-04-17 09:46:00 StockAccount({'available_cash': 8453.484999999997, 'frozen_cash': 0.0, 'market_value': 21493.0, 'total_value': 29946.484999999997, 'transaction_cost': 10.0, 'positions': {'600036.SH': StockPosition({'symbol': '600036.SH', 'amount': 400, 'available_amount': 0, 'pnl': -31.340000000002988, 'market_value': 14328.0, 'cost_basis': 35.89835000000001, 'last_price': 35.82, 'datetime': datetime.datetime(2019, 4, 17, 9, 46), 'position_days': 0, 'profit_rate': -0.0021817918539941954, 'draw_down': 0.0021817918539941417, 'markup': -0.004999999999999992, 'pre_price': 36.0}), '000001.SZ': StockPosition({'symbol': '000001.SZ', 'amount': 500, 'available_amount': 0, 'pnl': -22.174999999999834, 'market_value': 7165.0, 'cost_basis': 14.37435, 'last_price': 14.33, 'datetime': datetime.datetime(2019, 4, 17, 9, 46), 'position_days': 0, 'profit_rate': -0.003083211963001433, 'draw_down': 0.003083211963001431, 'markup': -0.017146776406035666, 'pre_price': 14.58})}, 'pnl': -53.51500000000282})
+
+2019-04-17 09:46:00 - INFO
+
+BAR 2019-04-17 09:46:00 000001.SZ open=14.35 close=14.33 vol=676400.0 amount=9697110.6
+
+2019-04-17 09:46:00 - INFO
+
+BAR 2019-04-17 09:46:00 600036.SH open=35.85 close=35.82 vol=350600.0 amount=12565046.0
+
+2019-04-17 09:45:00 - INFO
+
+FILL 2019-04-17 09:45:00 Trade({'order_book_id': '000001.SZ', 'trading_datetime': datetime.datetime(2019, 4, 17, 9, 45), 'datetime': datetime.datetime(2019, 4, 17, 9, 45), 'order_id': '0695a81bb43247f1ba63b9164b29e21c', 'last_price': 14.36435, 'last_quantity': 500, 'commission': 5.0, 'tax': 0, 'transaction_cost': 5.0, 'side': SIDE.BUY, 'position_effect': None, 'exec_id': 'a9225ee9fbda4b28b5d078d401149570', 'frozen_price': 14.35, 'close_today_amount': 0, 'pnl': None})
+
+2019-04-17 09:45:00 - INFO
+
+ORDER 2019-04-17 09:45:00 Order({'order_id': '0695a81bb43247f1ba63b9164b29e21c', 'symbol': '000001.SZ', 'created': datetime.datetime(2019, 4, 17, 9, 45), 'order_type': 'LONG', 'limit_price': 0, 'amount': 500, 'filled_amount': 500, 'type': ORDER_TYPE.MARKET, 'transaction_cost': 5.0, 'avg_price': 14.36435, 'status': ORDER_STATUS.FILLED, 'datetime': datetime.datetime(2019, 4, 17, 9, 45), 'offset_flag': None})
+
+2019-04-17 09:45:00 - INFO
+
+ORDER 2019-04-17 09:45:00 Order({'order_id': '0695a81bb43247f1ba63b9164b29e21c', 'symbol': '000001.SZ', 'created': datetime.datetime(2019, 4, 17, 9, 45), 'order_type': 'LONG', 'limit_price': 0, 'amount': 500, 'filled_amount': 0, 'type': ORDER_TYPE.MARKET, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': datetime.datetime(2019, 4, 17, 9, 45), 'offset_flag': None})
+
+2019-04-17 09:45:00 - INFO
+
+ORDER 2019-04-17 09:45:00 Order({'order_id': '0695a81bb43247f1ba63b9164b29e21c', 'symbol': '000001.SZ', 'created': datetime.datetime(2019, 4, 17, 9, 45), 'order_type': 'LONG', 'limit_price': 0, 'amount': 500, 'filled_amount': 0, 'type': ORDER_TYPE.MARKET, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': datetime.datetime(2019, 4, 17, 9, 45), 'offset_flag': None})
+
+2019-04-17 09:45:00 - INFO
+
+FILL 2019-04-17 09:45:00 Trade({'order_book_id': '600036.SH', 'trading_datetime': datetime.datetime(2019, 4, 17, 9, 45), 'datetime': datetime.datetime(2019, 4, 17, 9, 45), 'order_id': '43b8b12ed5594735809499d22ab46b82', 'last_price': 35.885850000000005, 'last_quantity': 400, 'commission': 5.0, 'tax': 0, 'transaction_cost': 5.0, 'side': SIDE.BUY, 'position_effect': None, 'exec_id': 'deb1255a27664408ba5734a19e8c2383', 'frozen_price': 38.0, 'close_today_amount': 0, 'pnl': None})
+
+2019-04-17 09:45:00 - INFO
+
+ORDER 2019-04-17 09:45:00 Order({'order_id': '43b8b12ed5594735809499d22ab46b82', 'symbol': '600036.SH', 'created': datetime.datetime(2019, 4, 17, 9, 45), 'order_type': 'LONG', 'limit_price': 38.0, 'amount': 400, 'filled_amount': 400, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 5.0, 'avg_price': 35.885850000000005, 'status': ORDER_STATUS.FILLED, 'datetime': datetime.datetime(2019, 4, 17, 9, 45), 'offset_flag': None})
+
+2019-04-17 09:45:00 - INFO
+
+ORDER 2019-04-17 09:45:00 Order({'order_id': '43b8b12ed5594735809499d22ab46b82', 'symbol': '600036.SH', 'created': datetime.datetime(2019, 4, 17, 9, 45), 'order_type': 'LONG', 'limit_price': 38.0, 'amount': 400, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': datetime.datetime(2019, 4, 17, 9, 45), 'offset_flag': None})
+
+2019-04-17 09:45:00 - INFO
+
+ORDER 2019-04-17 09:45:00 Order({'order_id': '43b8b12ed5594735809499d22ab46b82', 'symbol': '600036.SH', 'created': datetime.datetime(2019, 4, 17, 9, 45), 'order_type': 'LONG', 'limit_price': 38.0, 'amount': 400, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': datetime.datetime(2019, 4, 17, 9, 45), 'offset_flag': None})
+
+2019-04-17 09:45:00 - INFO
+
+INTENT 2019-04-17 09:45:00 LIMIT 600036.SH 400 cap38; MARKET 000001.SZ 500
+
+2019-04-17 09:45:00 - INFO
+
+BAR 2019-04-17 09:45:00 000001.SZ open=14.34 close=14.35 vol=594900.0 amount=8536469.0
+
+2019-04-17 09:45:00 - INFO
+
+BAR 2019-04-17 09:45:00 600036.SH open=35.9 close=35.85 vol=110200.0 amount=3952386.0
+
+2019-04-17 09:31:00 - INFO
+
+BAR 2019-04-17 09:31:00 000001.SZ open=14.42 close=14.44 vol=2925463.0 amount=42188463.38
+
+2019-04-17 09:31:00 - INFO
+
+BAR 2019-04-17 09:31:00 600036.SH open=35.89 close=35.94 vol=1458989.0 amount=52364554.74
+
+2019-04-17 09:30:00 - INFO
+
+BAR 2019-04-17 09:30:00 000001.SZ open=14.58 close=14.58 vol=3424979.0 amount=49936193.82
+
+2019-04-17 09:30:00 - INFO
+
+BAR 2019-04-17 09:30:00 600036.SH open=36.0 close=36.0 vol=802025.0 amount=28872900.0
+
+2026-09-08 16:31:53 - INFO
+
+回测开始
+
+2026-09-08 16:31:53 - INFO
+
+INFO :回测开始运行

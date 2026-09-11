@@ -1,0 +1,46 @@
+[
+  {
+    "cost": 1.0,
+    "status": "COMPLETED",
+    "days": 1215,
+    "final": {
+      "date": "2022-12-30",
+      "cash": 30928.199999999997,
+      "equity": 30928.199999999997,
+      "receivable": 0,
+      "drawdown": 0.08722752465780104,
+      "paused": false,
+      "hard_halted": false,
+      "positions": {}
+    },
+    "metrics": {
+      "marked_return": 0.030939999999999968,
+      "max_close_drawdown": 0.08722752465780104,
+      "fees": 510.0,
+      "dividends_paid": 186.2
+    },
+    "block": null
+  },
+  {
+    "cost": 1.5,
+    "status": "COMPLETED",
+    "days": 1215,
+    "final": {
+      "date": "2022-12-30",
+      "cash": 30258.90000000003,
+      "equity": 30258.90000000003,
+      "receivable": 0,
+      "drawdown": 0.09982864588601326,
+      "paused": false,
+      "hard_halted": false,
+      "positions": {}
+    },
+    "metrics": {
+      "marked_return": 0.008630000000001026,
+      "max_close_drawdown": 0.09982864588601326,
+      "fees": 765.0,
+      "dividends_paid": 186.2
+    },
+    "block": null
+  }
+]

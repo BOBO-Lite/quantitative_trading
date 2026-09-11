@@ -1,0 +1,28 @@
+{
+  "report_id": "6a9fd2729f7e2800b688439d",
+  "status": "PASS_SAMPLED_LIFECYCLE_AND_CASH",
+  "formal_strategy_validated": false,
+  "source_sha256": "d9b06082ce222cda48a1ddb566016f92e75c8dba711d2514d06a55726be75308",
+  "fills": [
+    {
+      "side": "SELL",
+      "price": 35.5644,
+      "quantity": 500.0,
+      "fees": 22.7822
+    },
+    {
+      "side": "BUY",
+      "price": 35.885850000000005,
+      "quantity": 500.0,
+      "fees": 5.0
+    }
+  ],
+  "reconstructed_cash": 29811.492799999996,
+  "platform_cash": 29811.4928,
+  "cash_difference": -3.637978807091713e-12,
+  "notes": [
+    "Forced historical entry, not strategy selection",
+    "Auction callback 09:26 not reconciled to independent auction price",
+    "Partial fills, breakeven and trailing not exercised"
+  ]
+}

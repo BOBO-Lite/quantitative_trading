@@ -1,0 +1,27 @@
+{
+  "symbol": "600919.SH",
+  "source_url": "https://epaper.cs.com.cn/zgzqb/html/2020-12/17/nw.D110000zgzqb_20201217_10-A07.htm",
+  "announcement": "江苏银行2020-073配股发行结果公告",
+  "announcement_date": "2020-12-17",
+  "cash_events": [
+    {
+      "symbol": "600919.SH",
+      "ex_date": "2020-06-24",
+      "cash_per_share": 0.278,
+      "shares_per_share": 0,
+      "source_rows_merged": 1,
+      "record_date": "2020-06-23",
+      "pay_date": "2020-06-24",
+      "announcement_date": "2020-06-18"
+    }
+  ],
+  "rights_issue": {
+    "symbol": "600919.SH",
+    "record_date": "2020-12-08",
+    "ex_date": "2020-12-17",
+    "event_type": "rights_issue",
+    "rights_per_share": 0.3,
+    "subscription_price": 4.59
+  },
+  "handling": "Retain original actual-record-date holding guard. Stop if an account holds this stock on the rights record date; do not assume free shares or exclude earlier entries. Other unresolved symbols stay blocked."
+}

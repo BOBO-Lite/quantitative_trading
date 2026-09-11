@@ -1,0 +1,262 @@
+[
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "year": "2018",
+    "reason": "cash_defense",
+    "n": 3,
+    "median_difference_pct": -5.383018752980007,
+    "worst_difference_pct": -9.794273650214356,
+    "best_difference_pct": -2.6175709910449214
+  },
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "year": "2019",
+    "reason": "cash_defense",
+    "n": 20,
+    "median_difference_pct": 0.0002733005726730797,
+    "worst_difference_pct": -8.71313090501328,
+    "best_difference_pct": 16.75732060881328
+  },
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "year": "2019",
+    "reason": "close_confirmed_stop",
+    "n": 4,
+    "median_difference_pct": 4.843447005578114,
+    "worst_difference_pct": 2.7355558705879752,
+    "best_difference_pct": 9.213469999919084
+  },
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "year": "2019",
+    "reason": "persistent_weak_loss",
+    "n": 1,
+    "median_difference_pct": 7.167129293666624,
+    "worst_difference_pct": 7.167129293666624,
+    "best_difference_pct": 7.167129293666624
+  },
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "year": "2020",
+    "reason": "cash_defense",
+    "n": 2,
+    "median_difference_pct": -6.142248845472343,
+    "worst_difference_pct": -8.40532854383092,
+    "best_difference_pct": -3.8791691471137666
+  },
+  {
+    "cost": 1.0,
+    "horizon": 20,
+    "year": "2020",
+    "reason": "close_confirmed_stop",
+    "n": 3,
+    "median_difference_pct": 5.110086201417402,
+    "worst_difference_pct": -4.353919435490621,
+    "best_difference_pct": 7.539248784360806
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "year": "2018",
+    "reason": "cash_defense",
+    "n": 3,
+    "median_difference_pct": -12.446596837970738,
+    "worst_difference_pct": -15.33358789404369,
+    "best_difference_pct": -0.8581848671982559
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "year": "2019",
+    "reason": "cash_defense",
+    "n": 21,
+    "median_difference_pct": -2.301488266737242,
+    "worst_difference_pct": -32.87933442867661,
+    "best_difference_pct": 50.566173919765724
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "year": "2019",
+    "reason": "close_confirmed_stop",
+    "n": 4,
+    "median_difference_pct": 0.6342619586723126,
+    "worst_difference_pct": -21.50664791553172,
+    "best_difference_pct": 15.42215011136915
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "year": "2019",
+    "reason": "persistent_weak_loss",
+    "n": 1,
+    "median_difference_pct": -12.272710894528673,
+    "worst_difference_pct": -12.272710894528673,
+    "best_difference_pct": -12.272710894528673
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "year": "2019",
+    "reason": "time_exit",
+    "n": 2,
+    "median_difference_pct": -22.723913629254966,
+    "worst_difference_pct": -24.174851861521766,
+    "best_difference_pct": -21.272975396988162
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "year": "2020",
+    "reason": "cash_defense",
+    "n": 2,
+    "median_difference_pct": -14.80180495025308,
+    "worst_difference_pct": -16.734483693172027,
+    "best_difference_pct": -12.869126207334133
+  },
+  {
+    "cost": 1.0,
+    "horizon": 60,
+    "year": "2020",
+    "reason": "close_confirmed_stop",
+    "n": 3,
+    "median_difference_pct": 1.183411758772427,
+    "worst_difference_pct": -4.240974874894335,
+    "best_difference_pct": 9.748585239381043
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "year": "2018",
+    "reason": "cash_defense",
+    "n": 3,
+    "median_difference_pct": -5.265302920935764,
+    "worst_difference_pct": -9.674054108097515,
+    "best_difference_pct": -2.4888973848411275
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "year": "2019",
+    "reason": "cash_defense",
+    "n": 20,
+    "median_difference_pct": 0.11567052813755396,
+    "worst_difference_pct": -8.587116249231075,
+    "best_difference_pct": 16.906789941022797
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "year": "2019",
+    "reason": "close_confirmed_stop",
+    "n": 6,
+    "median_difference_pct": 4.959288525666833,
+    "worst_difference_pct": -2.118465899422769,
+    "best_difference_pct": 11.94659506115875
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "year": "2019",
+    "reason": "persistent_weak_loss",
+    "n": 1,
+    "median_difference_pct": 7.29957795146982,
+    "worst_difference_pct": 7.29957795146982,
+    "best_difference_pct": 7.29957795146982
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "year": "2020",
+    "reason": "cash_defense",
+    "n": 1,
+    "median_difference_pct": -3.7568961136063437,
+    "worst_difference_pct": -3.7568961136063437,
+    "best_difference_pct": -3.7568961136063437
+  },
+  {
+    "cost": 1.5,
+    "horizon": 20,
+    "year": "2020",
+    "reason": "close_confirmed_stop",
+    "n": 3,
+    "median_difference_pct": 6.462598713483997,
+    "worst_difference_pct": -4.209895443503551,
+    "best_difference_pct": 7.640390005428163
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "year": "2018",
+    "reason": "cash_defense",
+    "n": 3,
+    "median_difference_pct": -12.322704968496051,
+    "worst_difference_pct": -15.208539862924392,
+    "best_difference_pct": -0.7310756238046888
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "year": "2019",
+    "reason": "cash_defense",
+    "n": 21,
+    "median_difference_pct": -0.531881678160041,
+    "worst_difference_pct": -15.742197474818855,
+    "best_difference_pct": 50.6413476560241
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "year": "2019",
+    "reason": "close_confirmed_stop",
+    "n": 6,
+    "median_difference_pct": -7.323846649372811,
+    "worst_difference_pct": -21.870420268390713,
+    "best_difference_pct": 15.525205281752747
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "year": "2019",
+    "reason": "persistent_weak_loss",
+    "n": 1,
+    "median_difference_pct": -12.11736755680201,
+    "worst_difference_pct": -12.11736755680201,
+    "best_difference_pct": -12.11736755680201
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "year": "2019",
+    "reason": "time_exit",
+    "n": 2,
+    "median_difference_pct": -22.574831659318306,
+    "worst_difference_pct": -24.040452597140337,
+    "best_difference_pct": -21.10921072149628
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "year": "2020",
+    "reason": "cash_defense",
+    "n": 1,
+    "median_difference_pct": -12.737967014844637,
+    "worst_difference_pct": -12.737967014844637,
+    "best_difference_pct": -12.737967014844637
+  },
+  {
+    "cost": 1.5,
+    "horizon": 60,
+    "year": "2020",
+    "reason": "close_confirmed_stop",
+    "n": 3,
+    "median_difference_pct": 9.407487607235208,
+    "worst_difference_pct": -4.128632148492343,
+    "best_difference_pct": 9.877112639554026
+  }
+]

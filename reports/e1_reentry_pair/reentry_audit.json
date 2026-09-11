@@ -1,0 +1,438 @@
+{
+  "E1_1.0": {
+    "first_soft_cross": "2020-05-20T11:29:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [],
+    "last_buy": "2020-05-20T10:29:00",
+    "flat_close_days": 635
+  },
+  "E1_1.5": {
+    "first_soft_cross": "2020-05-21T09:54:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [],
+    "last_buy": "2020-05-20T10:29:00",
+    "flat_close_days": 635
+  },
+  "F_1.0": {
+    "first_soft_cross": "2020-02-04T09:32:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [],
+    "last_buy": "2020-01-23T09:46:00",
+    "flat_close_days": 640
+  },
+  "F_1.5": {
+    "first_soft_cross": "2019-12-23T14:45:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [],
+    "last_buy": "2020-01-23T09:46:00",
+    "flat_close_days": 640
+  },
+  "E1R_1.0": {
+    "first_soft_cross": "2020-05-20T11:29:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600782.SH",
+        "intent_time": "2020-06-17T09:45:00",
+        "fill_time": "2020-06-17T09:46:00",
+        "price": 4.32432,
+        "quantity": 1000,
+        "intent_drawdown": 0.13479749364918725
+      },
+      {
+        "symbol": "600025.SH",
+        "intent_time": "2020-06-29T09:48:00",
+        "fill_time": "2020-06-29T09:49:00",
+        "price": 3.68368,
+        "quantity": 1200,
+        "intent_drawdown": 0.1405410856387499
+      }
+    ],
+    "last_buy": "2020-06-29T09:49:00",
+    "flat_close_days": 616
+  },
+  "E1R_1.5": {
+    "first_soft_cross": "2020-05-21T09:54:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600019.SH",
+        "intent_time": "2020-06-18T09:58:00",
+        "fill_time": "2020-06-18T09:59:00",
+        "price": 4.74711,
+        "quantity": 1100,
+        "intent_drawdown": 0.1310116738144368
+      },
+      {
+        "symbol": "600025.SH",
+        "intent_time": "2020-06-29T09:48:00",
+        "fill_time": "2020-06-29T09:49:00",
+        "price": 3.6855200000000004,
+        "quantity": 1300,
+        "intent_drawdown": 0.13628372485442442
+      }
+    ],
+    "last_buy": "2020-06-29T09:49:00",
+    "flat_close_days": 617
+  },
+  "FR_1.0": {
+    "first_soft_cross": "2020-02-04T09:32:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600782.SH",
+        "intent_time": "2020-06-17T09:45:00",
+        "fill_time": "2020-06-17T09:46:00",
+        "price": 4.32432,
+        "quantity": 1000,
+        "intent_drawdown": 0.12085963700816038
+      },
+      {
+        "symbol": "600025.SH",
+        "intent_time": "2020-06-29T09:48:00",
+        "fill_time": "2020-06-29T09:49:00",
+        "price": 3.68368,
+        "quantity": 1400,
+        "intent_drawdown": 0.13945789835930067
+      }
+    ],
+    "last_buy": "2020-06-29T09:49:00",
+    "flat_close_days": 621
+  },
+  "FR_1.5": {
+    "first_soft_cross": "2019-12-23T14:45:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600019.SH",
+        "intent_time": "2020-06-18T09:58:00",
+        "fill_time": "2020-06-18T09:59:00",
+        "price": 4.74711,
+        "quantity": 1100,
+        "intent_drawdown": 0.12065029538961447
+      },
+      {
+        "symbol": "600025.SH",
+        "intent_time": "2020-06-29T09:48:00",
+        "fill_time": "2020-06-29T09:49:00",
+        "price": 3.6855200000000004,
+        "quantity": 1300,
+        "intent_drawdown": 0.125976527466368
+      }
+    ],
+    "last_buy": "2020-12-09T09:46:00",
+    "flat_close_days": 590
+  },
+  "E1U_1.0": {
+    "first_soft_cross": "2020-05-20T11:29:00",
+    "first_hard_cross": "2020-06-03T10:31:00",
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600489.SH",
+        "intent_time": "2020-05-21T10:17:00",
+        "fill_time": "2020-05-21T10:18:00",
+        "price": 9.41941,
+        "quantity": 600,
+        "intent_drawdown": 0.12569102400348697
+      },
+      {
+        "symbol": "000921.SZ",
+        "intent_time": "2020-05-27T09:45:00",
+        "fill_time": "2020-05-27T09:46:00",
+        "price": 10.9109,
+        "quantity": 500,
+        "intent_drawdown": 0.1408500537687537
+      },
+      {
+        "symbol": "000688.SZ",
+        "intent_time": "2020-05-27T09:45:00",
+        "fill_time": "2020-05-27T09:46:00",
+        "price": 18.848829999999996,
+        "quantity": 300,
+        "intent_drawdown": 0.1408500537687537
+      },
+      {
+        "symbol": "600109.SH",
+        "intent_time": "2020-06-02T09:45:00",
+        "fill_time": "2020-06-02T09:46:00",
+        "price": 10.990979999999999,
+        "quantity": 500,
+        "intent_drawdown": 0.1452625783440954
+      },
+      {
+        "symbol": "000501.SZ",
+        "intent_time": "2020-06-02T09:45:00",
+        "fill_time": "2020-06-02T09:46:00",
+        "price": 14.294279999999997,
+        "quantity": 400,
+        "intent_drawdown": 0.1452625783440954
+      },
+      {
+        "symbol": "600750.SH",
+        "intent_time": "2020-06-02T09:45:00",
+        "fill_time": "2020-06-02T09:46:00",
+        "price": 13.443429999999998,
+        "quantity": 400,
+        "intent_drawdown": 0.1452625783440954
+      }
+    ],
+    "last_buy": "2020-06-02T09:46:00",
+    "flat_close_days": 633
+  },
+  "E1U_1.5": {
+    "first_soft_cross": "2020-05-21T09:54:00",
+    "first_hard_cross": "2020-06-03T14:57:00",
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600489.SH",
+        "intent_time": "2020-05-21T10:17:00",
+        "fill_time": "2020-05-21T10:18:00",
+        "price": 9.424115,
+        "quantity": 500,
+        "intent_drawdown": 0.12133131020713672
+      },
+      {
+        "symbol": "000921.SZ",
+        "intent_time": "2020-05-27T09:45:00",
+        "fill_time": "2020-05-27T09:46:00",
+        "price": 10.916350000000001,
+        "quantity": 500,
+        "intent_drawdown": 0.1365370810637262
+      },
+      {
+        "symbol": "000688.SZ",
+        "intent_time": "2020-05-27T09:45:00",
+        "fill_time": "2020-05-27T09:46:00",
+        "price": 18.858245,
+        "quantity": 300,
+        "intent_drawdown": 0.1365370810637262
+      },
+      {
+        "symbol": "600109.SH",
+        "intent_time": "2020-06-02T09:45:00",
+        "fill_time": "2020-06-02T09:46:00",
+        "price": 10.99647,
+        "quantity": 500,
+        "intent_drawdown": 0.1417343771955809
+      },
+      {
+        "symbol": "000501.SZ",
+        "intent_time": "2020-06-02T09:45:00",
+        "fill_time": "2020-06-02T09:46:00",
+        "price": 14.30142,
+        "quantity": 400,
+        "intent_drawdown": 0.1417343771955809
+      },
+      {
+        "symbol": "600750.SH",
+        "intent_time": "2020-06-02T09:45:00",
+        "fill_time": "2020-06-02T09:46:00",
+        "price": 13.450145000000001,
+        "quantity": 300,
+        "intent_drawdown": 0.1417343771955809
+      }
+    ],
+    "last_buy": "2020-06-02T09:46:00",
+    "flat_close_days": 633
+  },
+  "FU_1.0": {
+    "first_soft_cross": "2020-02-04T09:32:00",
+    "first_hard_cross": "2020-05-22T09:31:00",
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "002262.SZ",
+        "intent_time": "2020-03-06T09:53:00",
+        "fill_time": "2020-03-06T09:54:00",
+        "price": 12.452439999999998,
+        "quantity": 500,
+        "intent_drawdown": 0.12085963700816038
+      },
+      {
+        "symbol": "600873.SH",
+        "intent_time": "2020-03-06T09:54:00",
+        "fill_time": "2020-03-06T09:55:00",
+        "price": 4.974969999999999,
+        "quantity": 1400,
+        "intent_drawdown": 0.12089446299607842
+      },
+      {
+        "symbol": "000726.SZ",
+        "intent_time": "2020-03-06T10:15:00",
+        "fill_time": "2020-03-06T10:16:00",
+        "price": 9.679669999999998,
+        "quantity": 400,
+        "intent_drawdown": 0.12703332928521938
+      },
+      {
+        "symbol": "002439.SZ",
+        "intent_time": "2020-05-20T09:48:00",
+        "fill_time": "2020-05-20T09:49:00",
+        "price": 43.04299999999999,
+        "quantity": 100,
+        "intent_drawdown": 0.13629180112529837
+      },
+      {
+        "symbol": "600426.SH",
+        "intent_time": "2020-05-20T10:28:00",
+        "fill_time": "2020-05-20T10:29:00",
+        "price": 18.45844,
+        "quantity": 300,
+        "intent_drawdown": 0.1380121856536819
+      },
+      {
+        "symbol": "600489.SH",
+        "intent_time": "2020-05-21T10:17:00",
+        "fill_time": "2020-05-21T10:18:00",
+        "price": 9.41941,
+        "quantity": 500,
+        "intent_drawdown": 0.1453069656821635
+      }
+    ],
+    "last_buy": "2020-05-21T10:18:00",
+    "flat_close_days": 636
+  },
+  "FU_1.5": {
+    "first_soft_cross": "2019-12-23T14:45:00",
+    "first_hard_cross": "2020-05-22T10:01:00",
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "002262.SZ",
+        "intent_time": "2020-03-06T09:53:00",
+        "fill_time": "2020-03-06T09:54:00",
+        "price": 12.45866,
+        "quantity": 500,
+        "intent_drawdown": 0.12065029538961447
+      },
+      {
+        "symbol": "600873.SH",
+        "intent_time": "2020-03-06T09:54:00",
+        "fill_time": "2020-03-06T09:55:00",
+        "price": 4.977455,
+        "quantity": 1300,
+        "intent_drawdown": 0.12084607443081896
+      },
+      {
+        "symbol": "002439.SZ",
+        "intent_time": "2020-05-20T09:48:00",
+        "fill_time": "2020-05-20T09:49:00",
+        "price": 43.0645,
+        "quantity": 100,
+        "intent_drawdown": 0.13317990481692654
+      },
+      {
+        "symbol": "600426.SH",
+        "intent_time": "2020-05-20T10:28:00",
+        "fill_time": "2020-05-20T10:29:00",
+        "price": 18.467660000000002,
+        "quantity": 300,
+        "intent_drawdown": 0.1351032019980669
+      },
+      {
+        "symbol": "600820.SH",
+        "intent_time": "2020-05-21T10:24:00",
+        "fill_time": "2020-05-21T10:25:00",
+        "price": 5.998985,
+        "quantity": 800,
+        "intent_drawdown": 0.14330037639494386
+      }
+    ],
+    "last_buy": "2020-05-21T10:25:00",
+    "flat_close_days": 636
+  },
+  "E1H_1.0": {
+    "first_soft_cross": "2020-05-20T11:29:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600782.SH",
+        "intent_time": "2020-06-17T09:45:00",
+        "fill_time": "2020-06-17T09:46:00",
+        "price": 4.32432,
+        "quantity": 1000,
+        "intent_drawdown": 0.13479749364918725
+      },
+      {
+        "symbol": "600025.SH",
+        "intent_time": "2020-06-29T09:48:00",
+        "fill_time": "2020-06-29T09:49:00",
+        "price": 3.68368,
+        "quantity": 1200,
+        "intent_drawdown": 0.1405410856387499
+      }
+    ],
+    "last_buy": "2020-06-29T09:49:00",
+    "flat_close_days": 616
+  },
+  "E1H_1.5": {
+    "first_soft_cross": "2020-05-21T09:54:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600019.SH",
+        "intent_time": "2020-06-18T09:58:00",
+        "fill_time": "2020-06-18T09:59:00",
+        "price": 4.74711,
+        "quantity": 1100,
+        "intent_drawdown": 0.1310116738144368
+      },
+      {
+        "symbol": "600025.SH",
+        "intent_time": "2020-06-29T09:48:00",
+        "fill_time": "2020-06-29T09:49:00",
+        "price": 3.6855200000000004,
+        "quantity": 1300,
+        "intent_drawdown": 0.13628372485442442
+      }
+    ],
+    "last_buy": "2020-06-29T09:49:00",
+    "flat_close_days": 617
+  },
+  "FH_1.0": {
+    "first_soft_cross": "2020-02-04T09:32:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600782.SH",
+        "intent_time": "2020-06-17T09:45:00",
+        "fill_time": "2020-06-17T09:46:00",
+        "price": 4.32432,
+        "quantity": 1000,
+        "intent_drawdown": 0.12085963700816038
+      },
+      {
+        "symbol": "600025.SH",
+        "intent_time": "2020-06-29T09:48:00",
+        "fill_time": "2020-06-29T09:49:00",
+        "price": 3.68368,
+        "quantity": 1400,
+        "intent_drawdown": 0.12657942177063175
+      }
+    ],
+    "last_buy": "2020-09-04T09:46:00",
+    "flat_close_days": 620
+  },
+  "FH_1.5": {
+    "first_soft_cross": "2019-12-23T14:45:00",
+    "first_hard_cross": null,
+    "actual_buys_with_intent_drawdown_at_least_12": [
+      {
+        "symbol": "600019.SH",
+        "intent_time": "2020-06-18T09:58:00",
+        "fill_time": "2020-06-18T09:59:00",
+        "price": 4.74711,
+        "quantity": 1100,
+        "intent_drawdown": 0.12065029538961447
+      },
+      {
+        "symbol": "600025.SH",
+        "intent_time": "2020-06-29T09:48:00",
+        "fill_time": "2020-06-29T09:49:00",
+        "price": 3.6855200000000004,
+        "quantity": 1300,
+        "intent_drawdown": 0.125976527466368
+      }
+    ],
+    "last_buy": "2020-06-29T09:49:00",
+    "flat_close_days": 622
+  }
+}

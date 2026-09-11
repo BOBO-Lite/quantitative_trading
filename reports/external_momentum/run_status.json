@@ -1,0 +1,44 @@
+[
+  {
+    "cost": 1.0,
+    "status": "COMPLETED",
+    "metrics": {
+      "total_return": -0.23597627366666651,
+      "cagr": -0.08594298417758839,
+      "max_daily_close_drawdown": 0.42597979714222445
+    },
+    "final": {
+      "date": "2020-12-31",
+      "cash": 18548.711790000005,
+      "equity": 22920.711790000005,
+      "exposure": 4372.0,
+      "receivable": 0.0,
+      "drawdown": 0.3982764331182913,
+      "positions": {
+        "601717.SH": 400
+      }
+    },
+    "fills": 56
+  },
+  {
+    "cost": 1.5,
+    "status": "COMPLETED",
+    "metrics": {
+      "total_return": -0.23789312216666658,
+      "cagr": -0.08670926930284206,
+      "max_daily_close_drawdown": 0.4269861481544106
+    },
+    "final": {
+      "date": "2020-12-31",
+      "cash": 18491.206335000003,
+      "equity": 22863.206335000003,
+      "exposure": 4372.0,
+      "receivable": 0.0,
+      "drawdown": 0.39951623275950776,
+      "positions": {
+        "601717.SH": 400
+      }
+    },
+    "fills": 56
+  }
+]

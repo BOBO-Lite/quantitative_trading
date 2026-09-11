@@ -1,0 +1,228 @@
+{
+  "rows": [
+    {
+      "mode": "B",
+      "cost": 1.0,
+      "return_pct": -1.3629546809665882,
+      "annualized_pct": -0.4563980498768605,
+      "baseline_return_pct": 5.746502982833435,
+      "delta_yuan": -2132.8372991400065,
+      "max_drawdown_pct": 11.202757359109361,
+      "baseline_drawdown_pct": 13.624561637023158,
+      "final_equity": 29591.113595710023,
+      "buys": 51,
+      "fees": 670.26940429,
+      "yearly": {
+        "2018": 3.3101659882666556,
+        "2019": 1.8510197420944285,
+        "2020": -6.258561518336547
+      },
+      "event_counts": {},
+      "mean_close_exposure_pct": 10.165376211063027
+    },
+    {
+      "mode": "B",
+      "cost": 1.5,
+      "return_pct": -2.5507976048500414,
+      "annualized_pct": -0.8575996144410292,
+      "baseline_return_pct": 3.4877392514833128,
+      "delta_yuan": -1811.5610569000055,
+      "max_drawdown_pct": 11.427337350279576,
+      "baseline_drawdown_pct": 13.216346239141874,
+      "final_equity": 29234.76071854499,
+      "buys": 50,
+      "fees": 981.9322814550001,
+      "yearly": {
+        "2018": 3.218600206933342,
+        "2019": 0.10966767863513915,
+        "2020": -5.692918722359119
+      },
+      "event_counts": {},
+      "mean_close_exposure_pct": 9.882987781653794
+    },
+    {
+      "mode": "P",
+      "cost": 1.0,
+      "return_pct": 1.2945834254667332,
+      "annualized_pct": 0.4296789244070398,
+      "baseline_return_pct": 5.746502982833435,
+      "delta_yuan": -1335.5758672100128,
+      "max_drawdown_pct": 13.157739508625433,
+      "baseline_drawdown_pct": 13.624561637023158,
+      "final_equity": 30388.375027640017,
+      "buys": 42,
+      "fees": 562.05297236,
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 8.947007697416499,
+        "2020": -10.107324382408034
+      },
+      "event_counts": {
+        "earned_profit_reversal": 3
+      },
+      "mean_close_exposure_pct": 7.200506041126603
+    },
+    {
+      "mode": "P",
+      "cost": 1.5,
+      "return_pct": 0.8449203159583307,
+      "annualized_pct": 0.28085059632261267,
+      "baseline_return_pct": 3.4877392514833128,
+      "delta_yuan": -792.8456806574977,
+      "max_drawdown_pct": 13.118547316222218,
+      "baseline_drawdown_pct": 13.216346239141874,
+      "final_equity": 30253.476094787497,
+      "buys": 41,
+      "fees": 821.3244052125,
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 8.71169921742052,
+        "2020": -10.194028975250301
+      },
+      "event_counts": {
+        "earned_profit_reversal": 4
+      },
+      "mean_close_exposure_pct": 6.947009221974016
+    },
+    {
+      "mode": "Q",
+      "cost": 1.0,
+      "return_pct": 5.746502982833435,
+      "annualized_pct": 1.879937863466985,
+      "baseline_return_pct": 5.746502982833435,
+      "delta_yuan": 0.0,
+      "max_drawdown_pct": 13.624561637023158,
+      "baseline_drawdown_pct": 13.624561637023158,
+      "final_equity": 31723.95089485003,
+      "buys": 38,
+      "fees": 506.91810515000003,
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.937691624205122,
+        "2020": -4.393240121098052
+      },
+      "event_counts": {},
+      "mean_close_exposure_pct": 7.226411514308041
+    },
+    {
+      "mode": "Q",
+      "cost": 1.5,
+      "return_pct": 3.4877392514833128,
+      "annualized_pct": 1.1493197848870151,
+      "baseline_return_pct": 3.4877392514833128,
+      "delta_yuan": 0.0,
+      "max_drawdown_pct": 13.216346239141874,
+      "baseline_drawdown_pct": 13.216346239141874,
+      "final_equity": 31046.321775444994,
+      "buys": 38,
+      "fees": 757.795224555,
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 4.337903932658382,
+        "2020": -3.9772229983527363
+      },
+      "event_counts": {},
+      "mean_close_exposure_pct": 6.935241721830169
+    },
+    {
+      "mode": "PQ",
+      "cost": 1.0,
+      "return_pct": 1.2945834254667332,
+      "annualized_pct": 0.4296789244070398,
+      "baseline_return_pct": 5.746502982833435,
+      "delta_yuan": -1335.5758672100128,
+      "max_drawdown_pct": 13.157739508625433,
+      "baseline_drawdown_pct": 13.624561637023158,
+      "final_equity": 30388.375027640017,
+      "buys": 42,
+      "fees": 562.05297236,
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 8.947007697416499,
+        "2020": -10.107324382408034
+      },
+      "event_counts": {
+        "earned_profit_reversal": 3
+      },
+      "mean_close_exposure_pct": 7.200506041126603
+    },
+    {
+      "mode": "PQ",
+      "cost": 1.5,
+      "return_pct": -0.888281034716687,
+      "annualized_pct": -0.29697474518532996,
+      "baseline_return_pct": 3.4877392514833128,
+      "delta_yuan": -1312.8060858600002,
+      "max_drawdown_pct": 13.096196780509883,
+      "baseline_drawdown_pct": 13.216346239141874,
+      "final_equity": 29733.515689584994,
+      "buys": 43,
+      "fees": 857.569310415,
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 6.69262903660639,
+        "2020": -10.067211082449523
+      },
+      "event_counts": {
+        "earned_profit_reversal": 4,
+        "weak_rebound_exit": 1
+      },
+      "mean_close_exposure_pct": 6.958867849022579
+    },
+    {
+      "mode": "BPQ",
+      "cost": 1.0,
+      "return_pct": 3.57566019590001,
+      "annualized_pct": 1.1779564346671378,
+      "baseline_return_pct": 5.746502982833435,
+      "delta_yuan": -651.2528360800243,
+      "max_drawdown_pct": 9.269777617734565,
+      "baseline_drawdown_pct": 13.624561637023158,
+      "final_equity": 31072.698058770005,
+      "buys": 50,
+      "fees": 661.09894123,
+      "yearly": {
+        "2018": 3.3101659882666556,
+        "2019": 2.3605375331700706,
+        "2020": -2.0550400465687124
+      },
+      "event_counts": {
+        "earned_profit_reversal": 7,
+        "profitable_time_exit_extended": 7,
+        "weak_rebound_exit": 4
+      },
+      "mean_close_exposure_pct": 9.737944490988571
+    },
+    {
+      "mode": "BPQ",
+      "cost": 1.5,
+      "return_pct": 1.3552701089333041,
+      "annualized_pct": 0.449731090383354,
+      "baseline_return_pct": 3.4877392514833128,
+      "delta_yuan": -639.7407427650032,
+      "max_drawdown_pct": 9.605297537802215,
+      "baseline_drawdown_pct": 13.216346239141874,
+      "final_equity": 30406.58103267999,
+      "buys": 51,
+      "fees": 1004.9769673200001,
+      "yearly": {
+        "2018": 3.218600206933342,
+        "2019": 1.1810840240011222,
+        "2020": -2.951451952743711
+      },
+      "event_counts": {
+        "earned_profit_reversal": 7,
+        "profitable_time_exit_extended": 7,
+        "weak_rebound_exit": 4
+      },
+      "mean_close_exposure_pct": 9.662452705710587
+    }
+  ],
+  "decisions": {
+    "B": "两档收益不如E1，不采用",
+    "P": "两档收益不如E1，不采用",
+    "Q": "与E1收益相同，未带来可计量增益",
+    "PQ": "两档收益不如E1，不采用",
+    "BPQ": "两档收益不如E1，不采用"
+  }
+}

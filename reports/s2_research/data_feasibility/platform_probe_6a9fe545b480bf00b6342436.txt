@@ -1,0 +1,77 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+HI！
+mx_69lp3klgu
+全局搜索
+
+需要帮助？
+
+试试AI小助手吧
+
+< S1执行修正版_v3_研究验收
+返回策略目录
+返回策略编辑
+返回回测列表
+
+回测日期：2019-04-22 至 2019-04-23
+|
+资金：30,000.00
+|
+频率：分钟
+|
+总运行时长：7秒
+（完成）
+
+导出结果
+绩效分析
+开启模拟交易
+分享至社区
+收益概览
+交易明细
+历史持仓
+输出日志
+收益
+Alpha
+Beta
+Sharpe
+Sortino
+Information Ratio
+Volatility
+最大回撤
+
+2026-09-08 18:37:00 - INFO
+
+回测结束
+
+2019-04-22 09:00:00 - INFO
+
+DATA_FEASIBILITY_EXPORT_DONE
+
+2019-04-22 09:00:00 - INFO
+
+MINBUNDLE 000939.SZ_historical_daily 0 1 3076 f2fcb288d07ede161c9ef3a59984c909d4463a021f00ad966a2d978e049f497e eJzt1lFvgjAQB/Dv0mckPdclg+f56oNxL1sWQ5RNEqTGFvdg+t3XCk7KLXcfQBKTa/hfoP7SQi/C2MK2RuRitVi/rZaLV5GIra7bQ+Mvfgh9LBt/ZV99732p9U+Ia21KX8+hLQxse2r0uTz54VextToMKrMxtqvHojXlrr/Lpq4Ole3u1Y8/E7ErbCHyS/c4X+cSXmZSzeR8LWV+/aVSyneRqzTLknv+xOSKyTM6B8nkwOTM/OHf+bsefILoltzkcNt0k8Tfa4ek8JWSiGMEEcfIIYoxQxwjhTimZ44NfHWDF+4jI/SfGpIAnlMF9K7ALYgCtyAO1IJJcAtiwS38P8I8fYu7fYQfeZHcjx/0OqEVgFYAWgFoBaAVgFYAWgGuCoODF8ngFw65V0Y5ghjlSCLOMcUoRxajnJk/1gi5Gx49me8praEYDcVoKEZDMRqK0VCMRsidc7+zNY2p
+
+2019-04-22 09:00:00 - INFO
+
+MINBUNDLE 600036.SH_dividend 0 1 471 94fb5ce5121f2d69be84a6ecf91073db67c3f3cf7e2a1840ada9f7db94005085 eJylkF0LglAMhv/LrlVmiYZ39kEJolKni4o4nNJKMg3PMYjwv7eiLiKwi2Cw7WU877YbSCVULcGF6YjNp+FoCBpsy7w+FSSuQF5PmzJ/aEIeeJJdsiQtEknCPrukXKpye6RGVaKQu7R6CWsNEqEEuLc3gKoOmo6Otm5aDNF9hoGIS/K2KXdtYzYhFI31dHR0s9My1nwt1GqAhmO1kdHoWc3HST9w2E7D5usl/wKJeK6rcylTesTAi72+H/hswaMwWPAwYjz2GZ/549ALoLkD78V8sg==
+
+2019-04-22 09:00:00 - INFO
+
+MINBUNDLE 000001.SZ_dividend 0 1 473 a29770a35eb66e27ac16173f9df2c2537a3c6db0d1dc5c897416cf674f957f6a eJylkEsLgkAQx7/LnEtmjR54swchiEVuh4pYNrWSfIS7ChF+98aoQwR2aJjDzJ8/v3ncQWmpSwUWrGZ8vfJmU+hAkCdlmpG4A3VLD3nSaFKdRRhXcRhloSLhFFeRUDoPLtToQmbqGBUvYd+BUGoJ1v0NoMpENuzisGsyjmg900DELc3GJpjhbwlFtlFjY2aLrf5aqHUAGqw/akOToTeoP476AcR2HNZfT/kXSMRrWVxzFdErJvbSHjuuwzdi4bkb4S24WDpc+M7cs12oH9QVfRc=
+
+2019-04-22 00:00:00 - INFO
+
+DATA_FEASIBILITY_READ_ONLY_V1
+
+2026-09-08 18:36:53 - INFO
+
+回测开始
+
+2026-09-08 18:36:53 - INFO
+
+INFO :回测开始运行

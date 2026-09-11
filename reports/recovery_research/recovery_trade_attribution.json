@@ -1,0 +1,120 @@
+[
+  {
+    "cost": 1.0,
+    "original_fill_prefix_identical": true,
+    "additional_round_trips": [
+      {
+        "symbol": "600019.SH",
+        "entry_time": "2020-06-18T09:59:00",
+        "entry_price": 4.744739999999999,
+        "entry_quantity": 1200,
+        "remaining": 0,
+        "realized_pnl_excluding_dividends": -192.07732167999893,
+        "exit_fills": [
+          {
+            "order_id": 318,
+            "symbol": "600019.SH",
+            "buy": false,
+            "intent_time": "2020-06-24T09:31:00",
+            "fill_time": "2020-06-24T09:32:00",
+            "price": 4.5954,
+            "quantity": 1200,
+            "fees": 7.8123848,
+            "net_pnl": -192.07732167999893,
+            "cash_after": 31531.87357317003,
+            "route": "trend_breakout",
+            "reason": "scheduled_exit"
+          }
+        ],
+        "exit_time": "2020-06-24T09:32:00",
+        "last_exit_reason": "scheduled_exit"
+      },
+      {
+        "symbol": "600025.SH",
+        "entry_time": "2020-06-29T09:49:00",
+        "entry_price": 3.68368,
+        "entry_quantity": 1300,
+        "remaining": 0,
+        "realized_pnl_excluding_dividends": 263.51499786000113,
+        "exit_fills": [
+          {
+            "order_id": 320,
+            "symbol": "600025.SH",
+            "buy": false,
+            "intent_time": "2020-07-17T09:31:00",
+            "fill_time": "2020-07-17T09:32:00",
+            "price": 3.8961,
+            "quantity": 1300,
+            "fees": 7.5831143,
+            "net_pnl": 263.51499786000113,
+            "cash_after": 31795.38857103003,
+            "route": "trend_breakout",
+            "reason": "scheduled_exit"
+          }
+        ],
+        "exit_time": "2020-07-17T09:32:00",
+        "last_exit_reason": "scheduled_exit"
+      }
+    ],
+    "additional_equity": 71.43767618000129
+  },
+  {
+    "cost": 1.5,
+    "original_fill_prefix_identical": true,
+    "additional_round_trips": [
+      {
+        "symbol": "600019.SH",
+        "entry_time": "2020-06-18T09:59:00",
+        "entry_price": 4.74711,
+        "entry_quantity": 1100,
+        "remaining": 0,
+        "realized_pnl_excluding_dividends": -188.35442096499992,
+        "exit_fills": [
+          {
+            "order_id": 319,
+            "symbol": "600019.SH",
+            "buy": false,
+            "intent_time": "2020-06-24T09:31:00",
+            "fill_time": "2020-06-24T09:32:00",
+            "price": 4.5931,
+            "quantity": 1100,
+            "fees": 11.365093649999999,
+            "net_pnl": -188.35442096499992,
+            "cash_after": 30857.967354479995,
+            "route": "trend_breakout",
+            "reason": "scheduled_exit"
+          }
+        ],
+        "exit_time": "2020-06-24T09:32:00",
+        "last_exit_reason": "scheduled_exit"
+      },
+      {
+        "symbol": "600025.SH",
+        "entry_time": "2020-06-29T09:49:00",
+        "entry_price": 3.6855200000000004,
+        "entry_quantity": 1300,
+        "remaining": 0,
+        "realized_pnl_excluding_dividends": 252.27440018499965,
+        "exit_fills": [
+          {
+            "order_id": 321,
+            "symbol": "600025.SH",
+            "buy": false,
+            "intent_time": "2020-07-17T09:31:00",
+            "fill_time": "2020-07-17T09:32:00",
+            "price": 3.8941500000000002,
+            "quantity": 1300,
+            "fees": 11.372732175000001,
+            "net_pnl": 252.27440018499965,
+            "cash_after": 31110.241754664996,
+            "route": "trend_breakout",
+            "reason": "scheduled_exit"
+          }
+        ],
+        "exit_time": "2020-07-17T09:32:00",
+        "last_exit_reason": "scheduled_exit"
+      }
+    ],
+    "additional_equity": 63.91997922000155
+  }
+]

@@ -1,0 +1,1032 @@
+{
+  "status": "EXPLORATORY_INCOMPLETE_DATA",
+  "input_audit": {
+    "start": "2018-01-02",
+    "end": "2020-11-30",
+    "days": 707,
+    "symbols": 662,
+    "source_sha256": {
+      "screen_export_2018.txt": "1b1bd25db787b2d7e1d93447032fccd003caf2cc6ef0911697b2f82cfadbc1d5",
+      "screen_export_2019.txt": "4f93b527b74a8bd3501e29babe72ce53ab3a19cec1d249017b46368d57e0ecf5",
+      "screen_export_2020.txt": "328b27f41484bd72418243ee382afdb5f6b788aacfe15fbb2964b996190656b8"
+    },
+    "overlapping_rows": 1239530,
+    "overlap_conflicts_kept_earliest": 0,
+    "missing": {
+      "missing_60day_window": 1060,
+      "missing_member_days": 6882
+    },
+    "coverage": {
+      "member_days_with_60day_window": 318110
+    },
+    "universe_member_days": 326052,
+    "scope": "historical CSI500 mainboard monthly membership, incomplete reconstructed daily windows",
+    "limitations": [
+      "data originally exported only for valid month-end windows; missingness can bias the sample",
+      "future month-end membership does not determine daily selection; previous known monthly membership used",
+      "factor-return exposure proxy; no exact cash-dividend or share-distribution ledger",
+      "daily open and approximate price-limit checks; no minute queue, fill or capacity validation"
+    ]
+  },
+  "runs": [
+    {
+      "file": "breakout_trail8_cost1.0.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "trail8",
+      "cost": 1.0,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -57.52152170255729,
+        "cagr_pct": -26.300225230812412,
+        "max_drawdown_pct": 69.50308257484423,
+        "final_equity": 12743.543489232816,
+        "closed_trades": 139,
+        "win_rate_pct": 30.215827338129497,
+        "profit_factor": 0.6060509963776994,
+        "mean_exposure_pct": 83.99331733179638,
+        "fees": 2121.4149156529834
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -43.24155136358287
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -11.997696236592892
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -14.955860201804105
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 16,
+        "sell_limit_proxy": 9,
+        "sell_paused": 10,
+        "held_missing_mark_carried": 365,
+        "buy_limit_proxy": 2
+      }
+    },
+    {
+      "file": "breakout_trail8_cost1.5.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "trail8",
+      "cost": 1.5,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -68.86528188561539,
+        "cagr_pct": -34.02575432219332,
+        "max_drawdown_pct": 74.96532706438805,
+        "final_equity": 9340.415434315382,
+        "closed_trades": 140,
+        "win_rate_pct": 27.142857142857142,
+        "profit_factor": 0.5056477731235696,
+        "mean_exposure_pct": 84.35460971511304,
+        "fees": 3090.3912639483437
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -46.17852053142073
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -13.663384407012536
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -32.996994156246075
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 30,
+        "sell_limit_proxy": 9,
+        "sell_paused": 10,
+        "held_missing_mark_carried": 365,
+        "buy_limit_proxy": 2
+      }
+    },
+    {
+      "file": "breakout_ma10_cost1.0.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "ma10",
+      "cost": 1.0,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -69.36967232773526,
+        "cagr_pct": -34.408716384049086,
+        "max_drawdown_pct": 77.27177605703133,
+        "final_equity": 9189.09830167942,
+        "closed_trades": 251,
+        "win_rate_pct": 27.49003984063745,
+        "profit_factor": 0.6886120718612296,
+        "mean_exposure_pct": 77.514704869495,
+        "fees": 3787.6800877171845
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -54.122612409934156
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 33.37177321187315
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -49.940208351448334
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 40,
+        "sell_limit_proxy": 10,
+        "sell_paused": 11,
+        "buy_missing_day": 2,
+        "buy_limit_proxy": 2
+      }
+    },
+    {
+      "file": "breakout_ma10_cost1.5.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "ma10",
+      "cost": 1.5,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -73.89902912899333,
+        "cagr_pct": -38.04510263011448,
+        "max_drawdown_pct": 77.65872030124117,
+        "final_equity": 7830.291261302002,
+        "closed_trades": 253,
+        "win_rate_pct": 26.48221343873518,
+        "profit_factor": 0.6536941537414034,
+        "mean_exposure_pct": 77.09590378610766,
+        "fees": 5594.215416256665
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -57.186132217946174
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 33.86559897780308
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -54.458931824912874
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 49,
+        "sell_limit_proxy": 10,
+        "sell_paused": 11,
+        "buy_missing_day": 2,
+        "buy_limit_proxy": 4
+      }
+    },
+    {
+      "file": "breakout_low10_cost1.0.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "low10",
+      "cost": 1.0,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -18.808529035220335,
+        "cagr_pct": -7.157615800534467,
+        "max_drawdown_pct": 57.094340956901945,
+        "final_equity": 24357.4412894339,
+        "closed_trades": 76,
+        "win_rate_pct": 25.0,
+        "profit_factor": 0.8703886230233182,
+        "mean_exposure_pct": 82.76664926163387,
+        "fees": 1285.5429838787788
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -37.538389050247545
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -3.3979290623747715
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": 34.558393031017246
+        }
+      },
+      "data_gap_effects": {
+        "buy_limit_proxy": 2,
+        "buy_lot_or_cash": 5,
+        "sell_paused": 10,
+        "sell_limit_proxy": 4,
+        "held_missing_mark_carried": 365
+      }
+    },
+    {
+      "file": "breakout_low10_cost1.5.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "low10",
+      "cost": 1.5,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -34.46540598669819,
+        "cagr_pct": -13.983139974493907,
+        "max_drawdown_pct": 64.70685631754652,
+        "final_equity": 19660.378203990545,
+        "closed_trades": 76,
+        "win_rate_pct": 21.05263157894737,
+        "profit_factor": 0.7327540968705719,
+        "mean_exposure_pct": 84.95149688167078,
+        "fees": 1850.1969605217039
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -38.885288616193016
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -19.243186765381324
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": 32.78397802934332
+        }
+      },
+      "data_gap_effects": {
+        "buy_limit_proxy": 2,
+        "buy_lot_or_cash": 6,
+        "sell_paused": 10,
+        "sell_limit_proxy": 4,
+        "held_missing_mark_carried": 365
+      }
+    },
+    {
+      "file": "pullback_trail8_cost1.0.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "trail8",
+      "cost": 1.0,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -56.04956920473094,
+        "cagr_pct": -25.399912697354164,
+        "max_drawdown_pct": 69.18782415116272,
+        "final_equity": 13185.129238580717,
+        "closed_trades": 141,
+        "win_rate_pct": 29.78723404255319,
+        "profit_factor": 0.527838212961066,
+        "mean_exposure_pct": 81.99161684521957,
+        "fees": 2127.725340150306
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -49.62269591464433
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -3.104224035656289
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -9.962512276731584
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 37,
+        "sell_limit_proxy": 1
+      }
+    },
+    {
+      "file": "pullback_trail8_cost1.5.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "trail8",
+      "cost": 1.5,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -64.15508274107661,
+        "cagr_pct": -30.62833654506565,
+        "max_drawdown_pct": 73.5039853279136,
+        "final_equity": 10753.475177677017,
+        "closed_trades": 142,
+        "win_rate_pct": 29.577464788732396,
+        "profit_factor": 0.4593040650210498,
+        "mean_exposure_pct": 81.0560283435709,
+        "fees": 3152.60172600263
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -50.58618827635071
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -4.488090940955692
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -24.051062884688847
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 43,
+        "sell_limit_proxy": 1
+      }
+    },
+    {
+      "file": "pullback_ma10_cost1.0.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "ma10",
+      "cost": 1.0,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -80.92771157371682,
+        "cagr_pct": -44.59998134137319,
+        "max_drawdown_pct": 82.43132483768207,
+        "final_equity": 5721.686527884955,
+        "closed_trades": 233,
+        "win_rate_pct": 21.459227467811157,
+        "profit_factor": 0.3025296025966578,
+        "mean_exposure_pct": 80.58539581402842,
+        "fees": 3300.0223175823767
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -62.71867033805023
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -36.938647400198576
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -18.876228923560813
+        }
+      },
+      "data_gap_effects": {
+        "buy_state": 1,
+        "buy_lot_or_cash": 109,
+        "sell_limit_proxy": 2,
+        "held_missing_mark_carried": 730
+      }
+    },
+    {
+      "file": "pullback_ma10_cost1.5.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "ma10",
+      "cost": 1.5,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -84.35865366612987,
+        "cagr_pct": -48.38088173620396,
+        "max_drawdown_pct": 85.5209472493731,
+        "final_equity": 4692.403900161038,
+        "closed_trades": 231,
+        "win_rate_pct": 20.77922077922078,
+        "profit_factor": 0.2779950932949937,
+        "mean_exposure_pct": 77.68934656217762,
+        "fees": 4851.416662701179
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -64.65298759827986
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -38.682052967041216
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -27.833803894706588
+        }
+      },
+      "data_gap_effects": {
+        "buy_state": 1,
+        "buy_lot_or_cash": 110,
+        "sell_limit_proxy": 4,
+        "held_missing_mark_carried": 730
+      }
+    },
+    {
+      "file": "pullback_low10_cost1.0.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "low10",
+      "cost": 1.0,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -56.08562153135335,
+        "cagr_pct": -25.421730212923777,
+        "max_drawdown_pct": 72.55632547662617,
+        "final_equity": 13174.313540593994,
+        "closed_trades": 91,
+        "win_rate_pct": 23.076923076923077,
+        "profit_factor": 0.3884440899074814,
+        "mean_exposure_pct": 88.28594977134856,
+        "fees": 1412.4832110867144
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -41.76323562765821
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -16.383674586720964
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -9.818298597765873
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 20,
+        "held_missing_mark_carried": 242
+      }
+    },
+    {
+      "file": "pullback_low10_cost1.5.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "low10",
+      "cost": 1.5,
+      "market_filter": false,
+      "metrics": {
+        "total_return_pct": -57.10615096723313,
+        "cagr_pct": -26.044158673252916,
+        "max_drawdown_pct": 73.19619009202981,
+        "final_equity": 12868.154709830063,
+        "closed_trades": 92,
+        "win_rate_pct": 21.73913043478261,
+        "profit_factor": 0.3741046052169515,
+        "mean_exposure_pct": 87.7855870065644,
+        "fees": 2112.364201634541
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -42.719518610656394
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -18.365191166160532
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -8.269664973786284
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 21,
+        "held_missing_mark_carried": 242
+      }
+    },
+    {
+      "file": "breakout_trail8_cost1.0_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "trail8",
+      "cost": 1.0,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -29.552616828641177,
+        "cagr_pct": -11.73803024593475,
+        "max_drawdown_pct": 47.55117609619851,
+        "final_equity": 21134.21495140765,
+        "closed_trades": 84,
+        "win_rate_pct": 28.571428571428573,
+        "profit_factor": 0.7452417575780317,
+        "mean_exposure_pct": 50.71024036424535,
+        "fees": 1458.3487639496643
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -12.179982550466184
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 7.074336200989384
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -25.08203782279853
+        }
+      },
+      "data_gap_effects": {
+        "buy_state": 1,
+        "buy_limit_proxy": 3,
+        "buy_lot_or_cash": 5,
+        "sell_paused": 10,
+        "sell_limit_proxy": 3
+      }
+    },
+    {
+      "file": "breakout_trail8_cost1.5_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "trail8",
+      "cost": 1.5,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -42.78790918640952,
+        "cagr_pct": -18.047913570449303,
+        "max_drawdown_pct": 49.08512637050385,
+        "final_equity": 17163.627244077143,
+        "closed_trades": 85,
+        "win_rate_pct": 27.058823529411764,
+        "profit_factor": 0.6390040004926231,
+        "mean_exposure_pct": 50.61495751529653,
+        "fees": 2152.6255254373573
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -13.156364419217114
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 7.420677493455385
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -38.671557429880785
+        }
+      },
+      "data_gap_effects": {
+        "buy_state": 1,
+        "buy_limit_proxy": 3,
+        "buy_lot_or_cash": 7,
+        "sell_paused": 10,
+        "sell_limit_proxy": 5
+      }
+    },
+    {
+      "file": "breakout_ma10_cost1.0_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "ma10",
+      "cost": 1.0,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -46.50454381179691,
+        "cagr_pct": -19.986649278533086,
+        "max_drawdown_pct": 61.26998193529989,
+        "final_equity": 16048.63685646093,
+        "closed_trades": 129,
+        "win_rate_pct": 27.131782945736433,
+        "profit_factor": 0.7191384390236955,
+        "mean_exposure_pct": 45.167957541029445,
+        "fees": 2219.0441334897496
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -25.28760754099999
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 39.77300938864599
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -48.77276259361288
+        }
+      },
+      "data_gap_effects": {
+        "buy_state": 1,
+        "buy_limit_proxy": 5,
+        "sell_limit_proxy": 6,
+        "buy_lot_or_cash": 8,
+        "sell_paused": 11
+      }
+    },
+    {
+      "file": "breakout_ma10_cost1.5_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "ma10",
+      "cost": 1.5,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -54.46618884621528,
+        "cagr_pct": -24.452854381787848,
+        "max_drawdown_pct": 65.10553263867874,
+        "final_equity": 13660.143346135414,
+        "closed_trades": 128,
+        "win_rate_pct": 25.78125,
+        "profit_factor": 0.6606754097736601,
+        "mean_exposure_pct": 44.54234531920078,
+        "fees": 3216.524489628719
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -25.982396114166693
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 28.5706540081351
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -52.15273401252344
+        }
+      },
+      "data_gap_effects": {
+        "buy_state": 1,
+        "buy_limit_proxy": 4,
+        "sell_limit_proxy": 6,
+        "buy_lot_or_cash": 12,
+        "sell_paused": 11
+      }
+    },
+    {
+      "file": "breakout_low10_cost1.0_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "low10",
+      "cost": 1.0,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -16.604733895077416,
+        "cagr_pct": -6.267115135693013,
+        "max_drawdown_pct": 29.4600591970679,
+        "final_equity": 25018.579831476774,
+        "closed_trades": 21,
+        "win_rate_pct": 38.095238095238095,
+        "profit_factor": 0.6954001302453825,
+        "mean_exposure_pct": 70.87550553073166,
+        "fees": 386.06743797484063
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -16.54669995302257
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -3.8056724926142538
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": 3.8839419846008694
+        }
+      },
+      "data_gap_effects": {
+        "buy_state": 1,
+        "buy_limit_proxy": 2,
+        "sell_missing_day": 484,
+        "held_missing_mark_carried": 968
+      }
+    },
+    {
+      "file": "breakout_low10_cost1.5_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "breakout",
+      "exit": "low10",
+      "cost": 1.5,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -19.85488390093152,
+        "cagr_pct": -7.585874361216605,
+        "max_drawdown_pct": 30.17369073666769,
+        "final_equity": 24043.534829720546,
+        "closed_trades": 21,
+        "win_rate_pct": 38.095238095238095,
+        "profit_factor": 0.6232823093471497,
+        "mean_exposure_pct": 71.12640450101179,
+        "fees": 572.8994667335749
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -17.18375247911723
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": -4.136306954686509
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": 0.9502405917534817
+        }
+      },
+      "data_gap_effects": {
+        "buy_state": 1,
+        "buy_limit_proxy": 2,
+        "sell_missing_day": 484,
+        "held_missing_mark_carried": 968
+      }
+    },
+    {
+      "file": "pullback_trail8_cost1.0_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "trail8",
+      "cost": 1.0,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -29.261039200095496,
+        "cagr_pct": -11.60799335098136,
+        "max_drawdown_pct": 48.15508613807615,
+        "final_equity": 21221.68823997135,
+        "closed_trades": 77,
+        "win_rate_pct": 27.272727272727273,
+        "profit_factor": 0.7909406581821056,
+        "mean_exposure_pct": 49.943059215930155,
+        "fees": 1456.1809176607846
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -27.540464094382187
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 79.10252361635904
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -45.49185254371294
+        }
+      },
+      "data_gap_effects": {
+        "sell_limit_proxy": 1,
+        "buy_lot_or_cash": 1
+      }
+    },
+    {
+      "file": "pullback_trail8_cost1.5_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "trail8",
+      "cost": 1.5,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -32.15264128224881,
+        "cagr_pct": -12.913199150455767,
+        "max_drawdown_pct": 49.91781503847691,
+        "final_equity": 20354.20761532536,
+        "closed_trades": 77,
+        "win_rate_pct": 25.974025974025974,
+        "profit_factor": 0.7702369616078015,
+        "mean_exposure_pct": 50.36330856234294,
+        "fees": 2167.5154606462365
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -28.32880250096894
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 78.16276105375444
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -46.86614209250679
+        }
+      },
+      "data_gap_effects": {
+        "sell_limit_proxy": 1,
+        "buy_lot_or_cash": 1
+      }
+    },
+    {
+      "file": "pullback_ma10_cost1.0_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "ma10",
+      "cost": 1.0,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -38.03980981338492,
+        "cagr_pct": -15.685635404043396,
+        "max_drawdown_pct": 48.78016297130533,
+        "final_equity": 18588.057055984526,
+        "closed_trades": 165,
+        "win_rate_pct": 23.636363636363637,
+        "profit_factor": 0.7622106051391115,
+        "mean_exposure_pct": 41.43705175214758,
+        "fees": 2939.017143523498
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -34.72588323527284
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 69.32675322163398
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -43.94089535196039
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 16,
+        "sell_limit_proxy": 2
+      }
+    },
+    {
+      "file": "pullback_ma10_cost1.5_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "ma10",
+      "cost": 1.5,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -40.08504239034454,
+        "cagr_pct": -16.688369161010808,
+        "max_drawdown_pct": 50.28257119648618,
+        "final_equity": 17974.48728289664,
+        "closed_trades": 165,
+        "win_rate_pct": 22.424242424242426,
+        "profit_factor": 0.7495438408763673,
+        "mean_exposure_pct": 41.586641550266975,
+        "fees": 4386.454098193068
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -36.34136140114528
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 69.64895533417177
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -44.521243259945805
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 18,
+        "sell_limit_proxy": 1
+      }
+    },
+    {
+      "file": "pullback_low10_cost1.0_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "low10",
+      "cost": 1.0,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -33.161143670334404,
+        "cagr_pct": -13.376824055267555,
+        "max_drawdown_pct": 41.258835999957185,
+        "final_equity": 20051.65689889968,
+        "closed_trades": 53,
+        "win_rate_pct": 20.754716981132077,
+        "profit_factor": 0.46292138537986555,
+        "mean_exposure_pct": 53.53668172309841,
+        "fees": 879.024248690542
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -29.074544215552567
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 14.4450608562112
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -17.65640564134332
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 12,
+        "held_missing_mark_carried": 242
+      }
+    },
+    {
+      "file": "pullback_low10_cost1.5_market60.json",
+      "status": "EXPLORATORY_INCOMPLETE_DATA",
+      "entry": "pullback",
+      "exit": "low10",
+      "cost": 1.5,
+      "market_filter": true,
+      "metrics": {
+        "total_return_pct": -28.153441703031756,
+        "cagr_pct": -11.117150535226482,
+        "max_drawdown_pct": 39.470916608315946,
+        "final_equity": 21553.96748909047,
+        "closed_trades": 51,
+        "win_rate_pct": 23.529411764705884,
+        "profit_factor": 0.4885650723108524,
+        "mean_exposure_pct": 54.85921611277218,
+        "fees": 1276.2543190865108
+      },
+      "yearly": {
+        "2018": {
+          "start": "2018-01-02",
+          "end": "2018-12-28",
+          "return_pct": -29.92933859643825
+        },
+        "2019": {
+          "start": "2019-01-02",
+          "end": "2019-12-31",
+          "return_pct": 13.730999626287188
+        },
+        "2020": {
+          "start": "2020-01-02",
+          "end": "2020-11-30",
+          "return_pct": -9.844776257297195
+        }
+      },
+      "data_gap_effects": {
+        "buy_lot_or_cash": 12,
+        "held_missing_mark_carried": 242
+      }
+    }
+  ],
+  "selection_warning": "All six rules are exploratory comparisons on the same historical sample; best is not out-of-sample proof."
+}

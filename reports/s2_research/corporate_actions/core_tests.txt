@@ -1,0 +1,11 @@
+test_config_guards (__main__.SystemTests.test_config_guards) ... ok
+test_daily_windows_exclude_current_bar_and_st_from_ranking (__main__.SystemTests.test_daily_windows_exclude_current_bar_and_st_from_ranking) ... ok
+test_entry_uses_next_bar (__main__.SystemTests.test_entry_uses_next_bar) ... ok
+test_minimum_commission_and_tax (__main__.SystemTests.test_minimum_commission_and_tax) ... ok
+test_position_size_respects_risk_limits (__main__.SystemTests.test_position_size_respects_risk_limits) ... ok
+test_t_plus_one_ignores_entry_day_stop (__main__.SystemTests.test_t_plus_one_ignores_entry_day_stop) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.071s
+
+OK

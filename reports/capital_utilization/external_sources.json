@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/quantopian/pyfolio/master/pyfolio/tears.py",
+    "status": 200,
+    "characters": 47386
+  },
+  {
+    "url": "https://raw.githubusercontent.com/quantopian/alphalens/master/README.rst",
+    "status": 200,
+    "characters": 4669
+  },
+  {
+    "url": "https://www.quantconnect.com/docs/v2/writing-algorithms/trading-and-orders/position-sizing",
+    "status": 200,
+    "characters": 417835
+  }
+]

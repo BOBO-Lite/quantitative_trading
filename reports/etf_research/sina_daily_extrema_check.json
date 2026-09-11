@@ -1,0 +1,15 @@
+{
+  "source": "AKShare fund_etf_hist_sina",
+  "version": "1.18.94",
+  "rows": [
+    {
+      "date": "2022-12-05",
+      "open": 6.216,
+      "high": 6.233,
+      "low": 6.186,
+      "close": 6.218,
+      "volume": 389476546,
+      "amount": 2420516580
+    }
+  ]
+}

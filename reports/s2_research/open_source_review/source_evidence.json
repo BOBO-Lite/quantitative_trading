@@ -1,0 +1,122 @@
+[
+  {
+    "repo": "ricequant/rqalpha",
+    "path": "LICENSE",
+    "ref": "a5fb4e43879c381e61131399dcc094d495c7080a",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/a5fb4e43879c381e61131399dcc094d495c7080a/LICENSE",
+    "local_file": "ricequant_rqalpha__LICENSE",
+    "sha256": "0150898c38f6e95b1012b905eafedf580a93974963c9f77f7bfc712b78e64ff2"
+  },
+  {
+    "repo": "ricequant/rqalpha",
+    "path": "rqalpha/mod/rqalpha_mod_sys_simulation/matcher/bar_matcher.py",
+    "ref": "a5fb4e43879c381e61131399dcc094d495c7080a",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/a5fb4e43879c381e61131399dcc094d495c7080a/rqalpha/mod/rqalpha_mod_sys_simulation/matcher/bar_matcher.py",
+    "local_file": "ricequant_rqalpha__rqalpha__mod__rqalpha_mod_sys_simulation__matcher__bar_matcher.py",
+    "sha256": "b1b6ea0d2993ca3d529acbbb92850ae971a8d590304ea4f31e6ecc725217f0e5"
+  },
+  {
+    "repo": "ricequant/rqalpha",
+    "path": "rqalpha/portfolio/position.py",
+    "ref": "a5fb4e43879c381e61131399dcc094d495c7080a",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/a5fb4e43879c381e61131399dcc094d495c7080a/rqalpha/portfolio/position.py",
+    "local_file": "ricequant_rqalpha__rqalpha__portfolio__position.py",
+    "sha256": "7d787df643ac78f12e241b4bd535ae248320a946346a3acc95d783141b7d7d7f"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "path": "docs/advanced/PIT.rst",
+    "ref": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/docs/advanced/PIT.rst",
+    "local_file": "microsoft_qlib__docs__advanced__PIT.rst",
+    "sha256": "719bd98b46d5cadabc91ec278af2594b594b399aa13c5e4853fba9e6e2d2754c"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "path": "scripts/data_collector/pit/README.md",
+    "ref": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/scripts/data_collector/pit/README.md",
+    "local_file": "microsoft_qlib__scripts__data_collector__pit__README.md",
+    "sha256": "83315e2bc065febee6be487640c5acfa1da5594ba9c8769f5754e525662de40f"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "path": "qlib/backtest/exchange.py",
+    "ref": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+    "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/qlib/backtest/exchange.py",
+    "local_file": "microsoft_qlib__qlib__backtest__exchange.py",
+    "sha256": "4affc13ab45af464cfb5b55663b80b2fc3dadb4769045d34d0fd218f760d7e08"
+  },
+  {
+    "repo": "vnpy/vnpy",
+    "path": "vnpy/alpha/strategy/backtesting.py",
+    "ref": "fa5206fe63836f3f8cd1ebd7168fbd19a5e2ff09",
+    "url": "https://raw.githubusercontent.com/vnpy/vnpy/fa5206fe63836f3f8cd1ebd7168fbd19a5e2ff09/vnpy/alpha/strategy/backtesting.py",
+    "local_file": "vnpy_vnpy__vnpy__alpha__strategy__backtesting.py",
+    "sha256": "d7a416825831f23d959832d58e4b12e7d0ad6f6d2d83f51a3f0b30bc8a83d100"
+  },
+  {
+    "repo": "vnpy/vnpy",
+    "path": "docs/community/app/cta_backtester.md",
+    "ref": "fa5206fe63836f3f8cd1ebd7168fbd19a5e2ff09",
+    "url": "https://raw.githubusercontent.com/vnpy/vnpy/fa5206fe63836f3f8cd1ebd7168fbd19a5e2ff09/docs/community/app/cta_backtester.md",
+    "local_file": "vnpy_vnpy__docs__community__app__cta_backtester.md",
+    "sha256": "ff262709286fd0232b368e89e5d5c25e7ef173e5f86123943c550423d5725f5d"
+  },
+  {
+    "repo": "akfamily/akshare",
+    "path": "akshare/stock_feature/stock_disclosure_cninfo.py",
+    "ref": "8e95744b79ae22326308ccd2b4e62650c5b53c55",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/8e95744b79ae22326308ccd2b4e62650c5b53c55/akshare/stock_feature/stock_disclosure_cninfo.py",
+    "local_file": "akfamily_akshare__akshare__stock_feature__stock_disclosure_cninfo.py",
+    "sha256": "a43d2f4e4ba90144bfc02099e9c807560e34535d433ebddb4de7d4988c03fa49"
+  },
+  {
+    "repo": "akfamily/akshare",
+    "path": "akshare/stock_feature/stock_yjbb_em.py",
+    "ref": "8e95744b79ae22326308ccd2b4e62650c5b53c55",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/8e95744b79ae22326308ccd2b4e62650c5b53c55/akshare/stock_feature/stock_yjbb_em.py",
+    "local_file": "akfamily_akshare__akshare__stock_feature__stock_yjbb_em.py",
+    "sha256": "ba31774889d5fc5508e5fe96ba7a98f2ae23a74b257f739750303b50e1cdd555"
+  },
+  {
+    "repo": "akfamily/akshare",
+    "path": "akshare/stock/stock_dividend_cninfo.py",
+    "ref": "8e95744b79ae22326308ccd2b4e62650c5b53c55",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/8e95744b79ae22326308ccd2b4e62650c5b53c55/akshare/stock/stock_dividend_cninfo.py",
+    "local_file": "akfamily_akshare__akshare__stock__stock_dividend_cninfo.py",
+    "sha256": "a3d548dd1296cb5c565ae9ad1a2f60a49209bcf49f3153193425cce6ad8b2914"
+  },
+  {
+    "repo": "akfamily/akshare",
+    "path": "akshare/stock_feature/stock_report_em.py",
+    "ref": "8e95744b79ae22326308ccd2b4e62650c5b53c55",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/8e95744b79ae22326308ccd2b4e62650c5b53c55/akshare/stock_feature/stock_report_em.py",
+    "local_file": "akfamily_akshare__akshare__stock_feature__stock_report_em.py",
+    "sha256": "be9dbdd536d805dd8615f1ff8184eb869549195533899d8a25c7776a1b1814c9"
+  },
+  {
+    "repo": "ricequant/rqalpha",
+    "path": "rqalpha/mod/rqalpha_mod_sys_accounts/position_model.py",
+    "ref": "a5fb4e43879c381e61131399dcc094d495c7080a",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/a5fb4e43879c381e61131399dcc094d495c7080a/rqalpha/mod/rqalpha_mod_sys_accounts/position_model.py",
+    "local_file": "ricequant_rqalpha__rqalpha__mod__rqalpha_mod_sys_accounts__position_model.py",
+    "sha256": "cab5c4b882daa72ff8d1a8e4ec81b8488c54daee0474418f17d36e838234494d"
+  },
+  {
+    "repo": "akfamily/akshare",
+    "path": "akshare/stock_feature/stock_yjyg_em.py",
+    "ref": "8e95744b79ae22326308ccd2b4e62650c5b53c55",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/8e95744b79ae22326308ccd2b4e62650c5b53c55/akshare/stock_feature/stock_yjyg_em.py",
+    "local_file": "akfamily_akshare__akshare__stock_feature__stock_yjyg_em.py",
+    "sha256": "730ec19d1f993e7b76419821171cc72fa63a119fd2bb39a6656c73728b0e32bc"
+  },
+  {
+    "repo": "akfamily/akshare",
+    "path": "akshare/stock_feature/stock_yjyg_cninfo.py",
+    "ref": "8e95744b79ae22326308ccd2b4e62650c5b53c55",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/8e95744b79ae22326308ccd2b4e62650c5b53c55/akshare/stock_feature/stock_yjyg_cninfo.py",
+    "local_file": "akfamily_akshare__akshare__stock_feature__stock_yjyg_cninfo.py",
+    "sha256": "28cd0ee6b1c19150310e5e1d980fd6020a8158932e68c2e84363f227e54f062e"
+  }
+]

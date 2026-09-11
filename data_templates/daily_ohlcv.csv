@@ -1,0 +1,2 @@
+date,symbol,open,high,low,close,volume,amount,paused,st,limit_up,limit_down,listing_days,industry
+2026-08-31,EXAMPLE.SH,10.00,10.50,9.90,10.45,1000000,10300000,false,false,11.00,9.00,500,示例行业

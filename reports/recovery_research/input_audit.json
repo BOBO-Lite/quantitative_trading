@@ -1,0 +1,60 @@
+{
+  "batches": [
+    {
+      "file": "minute_export_01.txt",
+      "stock_days": 27,
+      "sha256": "5151d0526c2e8f6914d01095aa8eaabfbbcc1ac6e45399452362fd4a920dcacc",
+      "status": "PASS_REQUEST_SET_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_02.txt",
+      "stock_days": 27,
+      "sha256": "ac7fb45bb71acd843bee8543511aafc5cb4dcf8a32a17c604ef37b045f614f11",
+      "status": "PASS_REQUEST_SET_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_03.txt",
+      "stock_days": 81,
+      "sha256": "0b428192c134e98f8a2fd10f50e3427eafe6a38b3d05326fe526fcda1aa36fb3",
+      "status": "PASS_REQUEST_SET_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_04.txt",
+      "stock_days": 81,
+      "sha256": "e1f67ea436d0b190ed428b30d2cedb28109efe82d1df8a0040a17de3a22f519f",
+      "status": "PASS_REQUEST_SET_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_05.txt",
+      "stock_days": 81,
+      "sha256": "4a86e6a19e93238517899f5a35b8b3756f29b498606ae8f4c0230823c2d0c946",
+      "status": "PASS_REQUEST_SET_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_06.txt",
+      "stock_days": 54,
+      "sha256": "8d16d6d09cf52984f43ff6bafaae2f25945be293d9c976dd05cac2028d50c69b",
+      "status": "PASS_REQUEST_SET_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_07.txt",
+      "stock_days": 54,
+      "sha256": "dbc619db9e3484e667b76e5aeaaaea72dbdd627688126750b721eed45a788b53",
+      "status": "PASS_REQUEST_SET_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_08.txt",
+      "stock_days": 27,
+      "sha256": "fc46dc547d11f94ea0409033cc8f89db7b2189fcfdf4aeaa86f48afdca5836e1",
+      "status": "PASS_REQUEST_SET_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_09.txt",
+      "stock_days": 54,
+      "sha256": "3b8732e7432cb43f7948aacacdf9379f2b3c480ad6a093e3f873b5d5ef16ee5e",
+      "status": "PASS_REQUEST_SET_AND_MINUTE_DAILY_CHECKS"
+    }
+  ],
+  "unique_stock_days": 486,
+  "minutes": 116640
+}

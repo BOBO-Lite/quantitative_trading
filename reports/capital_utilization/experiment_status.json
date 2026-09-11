@@ -1,0 +1,30 @@
+[
+  {
+    "mode": "E1H",
+    "cost": 1.0,
+    "return_pct": 3.015706235500093,
+    "drawdown_pct": 14.37975428828614,
+    "buys": 43
+  },
+  {
+    "mode": "E1H",
+    "cost": 1.5,
+    "return_pct": 2.867567361916712,
+    "drawdown_pct": 14.41054899042583,
+    "buys": 46
+  },
+  {
+    "mode": "FH",
+    "cost": 1.5,
+    "return_pct": 4.727865479383353,
+    "drawdown_pct": 13.570887689976418,
+    "buys": 44
+  },
+  {
+    "mode": "FH",
+    "cost": 1.0,
+    "return_pct": 4.442664975566757,
+    "drawdown_pct": 13.844785673090087,
+    "buys": 54
+  }
+]

@@ -1,0 +1,90 @@
+
+YEAR=2018
+PILOT=True
+INDEXES=['000300.SH','000905.SH','000852.SH','000001.SH','399001.SZ','399006.SZ','000016.SH','000688.SH','399330.SZ']
+
+def emit(key,value):
+    raw=json.dumps(value,ensure_ascii=True,separators=(',',':'),allow_nan=False).encode('utf8')
+    encoded=base64.b64encode(zlib.compress(raw)).decode('ascii')
+    parts=[encoded[i:i+3000] for i in range(0,len(encoded),3000)]
+    for i,part in enumerate(parts):log.info('MINBUNDLE {} {} {} {} {} {}'.format(key,i,len(parts),len(raw),hashlib.sha256(raw).hexdigest(),part))
+
+def frame_rows(frame,prefix):
+    f=json.loads(frame.to_json(orient='split',date_format='iso'))
+    if len(set(f['columns']))!=len(f['columns']):raise SignalGap('duplicate frame fields')
+    if any(not c.startswith(prefix) for c in f['columns']):raise SignalGap('unexpected table fields')
+    return [dict(zip([c[len(prefix):] for c in f['columns']],row)) for row in f['data']]
+
+def quarters(asof):
+    y=int(asof[:4]);ends=[str(y)+'-'+q for q in ['03-31','06-30','09-30','12-31']]
+    ends=[e for e in ends if e<=asof]
+    q=max(ends) if ends else str(y-1)+'-12-31'
+    out=[q]
+    for i in range(7):out.append(prev(out[-1]))
+    return out
+
+def get_financial(symbols,asof):
+    aliases={s:('001914.SZ' if s=='000043.SZ' and asof<'2019-12-16' else s) for s in symbols}
+    if len(set(aliases.values()))!=len(aliases):raise SignalGap('duplicate mapped issuer')
+    inverse={v:k for k,v in aliases.items()};batch=list(inverse);out=[]
+    queries={
+    'income':query(income.symbol,income.report_date,income.stat_date,income.np_atsopc,income.reporttypecode,income.change_id).filter(income.symbol.in_(batch),income.report_date<=asof),
+    'balance':query(balance.symbol,balance.report_date,balance.stat_date,balance.total_assets,balance.total_liabilities,balance.total_quity_atsopc,balance.other_equity_instrument,balance.reporttypecode,balance.change_id).filter(balance.symbol.in_(batch),balance.report_date<=asof),
+    'cashflow':query(cashflow.symbol,cashflow.report_date,cashflow.stat_date,cashflow.net_cash_flows_from_opt_act,cashflow.reporttypecode,cashflow.change_id).filter(cashflow.symbol.in_(batch),cashflow.report_date<=asof)}
+    for j,period in enumerate(quarters(asof)):
+        quarter=period[:4]+'q'+str(['03-31','06-30','09-30','12-31'].index(period[5:])+1)
+        for table in ['income','balance','cashflow']:
+            if table!='income' and j>=4:continue
+            frame=get_fundamentals(queries[table],statDate=quarter,latest=True)
+            for r in frame_rows(frame,table+'_stat_'):
+                source=r['symbol'];s=inverse[source]
+                row=dict(symbol=s,source_symbol=source,table=table,period=d(r['stat_date']),published=d(r['report_date']),report_type=r['reporttypecode'],change_id=r['change_id'])
+                if row['period']!=period:raise SignalGap('wrong report period')
+                if table=='income':row['income']=r['np_atsopc']
+                elif table=='balance':row.update(assets=r['total_assets'],liabilities=r['total_liabilities'],equity=r['total_quity_atsopc'],other_equity_instrument=r['other_equity_instrument'])
+                else:row['cash']=r['net_cash_flows_from_opt_act']
+                out.append(row)
+    return out
+
+def snapshot(asof,trade):
+    indexes={c:sorted(get_index_stocks(c,asof)) for c in INDEXES}
+    universe=sorted(set(s for values in indexes.values() for s in values if (s.endswith('.SZ') and s.startswith(('000','001','002','003'))) or (s.endswith('.SH') and s.startswith(('600','601','603','605')))))
+    meta=get_all_securities('stock',asof)
+    pool=[];fin=[]
+    for offset in range(0,len(universe),200):
+        batch=universe[offset:offset+200]
+        frames=get_price(batch,asof.replace('-',''),asof.replace('-',''),'1d',['close','is_st','is_paused'],skip_paused=False,fq=None,is_panel=False)
+        q=query(valuation.symbol,valuation.date,valuation.pe_ttm,valuation.circulating_cap).filter(valuation.symbol.in_(batch))
+        val={r['symbol']:r for r in frame_rows(get_fundamentals(q,date=asof.replace('-','')),'valuation_')}
+        for s in batch:
+            frame=frames[s]
+            if len(frame)!=1 or frame.index[0].strftime('%Y-%m-%d')!=asof:raise SignalGap('price coverage '+s)
+            r=frame.iloc[0];v=val.get(s)
+            if v is not None and d(v['date'])!=asof:raise SignalGap('valuation date '+s)
+            pool.append(dict(symbol=s,asof=asof,listed=d(meta.loc[s,'listed_date']),close=float(r['close']),st=float(r['is_st']),paused=float(r['is_paused']),float_shares=v['circulating_cap'] if v else None,provider_pe=v['pe_ttm'] if v else None))
+    ranked,excluded,missing=prepare_pool(pool,asof)
+    if missing:fin+=get_financial(missing,asof)
+    fetched=[]
+    for offset in range(0,len(ranked),100):
+        batch=[s for cap,s in ranked[offset:offset+100]]
+        fin+=get_financial(batch,asof);fetched+=batch
+        decision=select(pool,fin,asof)
+        if decision['qualifying_before_stop']>=5:break
+    if not ranked:decision=select(pool,fin,asof)
+    return dict(asof=asof,trade=trade,indexes=indexes,pool=pool,financial=fin,fetched=fetched,decision=decision)
+
+def init(context):set_benchmark('000905.SH')
+
+def before_trading(context):
+    if get_datetime().strftime('%Y%m%d')!='20260904':raise ValueError('FIXED_READONLY_CALLBACK')
+    frame=get_price(['000905.SH'],'20171229','20201231','1d',['close'],skip_paused=False,fq=None,is_panel=False)['000905.SH']
+    days=[t.strftime('%Y-%m-%d') for t in frame.index]
+    trades=[(days[i-1],days[i]) for i in range(1,len(days)) if (i-1)%5==0]
+    schedule=trades[:1] if PILOT else [(s,t) for s,t in trades if t.startswith(str(YEAR))]
+    emit('schedule',dict(year=YEAR,pilot=PILOT,all_days=days,schedule=schedule,interval=5,execution_not_simulated=True))
+    for asof,trade in schedule:
+        try:emit('signal_'+asof,snapshot(asof,trade))
+        except Exception as exc:emit('signal_'+asof,dict(asof=asof,trade=trade,error=str(exc)))
+    log.info('SIZEQ_SIGNALS_DONE')
+
+def handle_bar(context,bar_dict):pass

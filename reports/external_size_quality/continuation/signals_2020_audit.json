@@ -1,0 +1,837 @@
+{
+  "status": "PASS_SIGNAL_RECONSTRUCTION",
+  "year": 2020,
+  "pilot": false,
+  "source_sha256": "4aa4cc2050ea4f66e70677064f92f64d0daf7cfbc4cc7c35f99d5e0204af42d4",
+  "expected_signals": 48,
+  "audited_signals": 48,
+  "financial_rows": 202517,
+  "independently_checked_decisions": 12084,
+  "accounting_flags": {
+    "adjusted_report_rows": 171376,
+    "version_change_rows": 99875,
+    "other_equity_rows": 2426
+  },
+  "signals": [
+    {
+      "asof": "2020-01-06",
+      "trade": "2020-01-07",
+      "status": "PASS",
+      "members": 2215,
+      "financial_rows": 2600,
+      "consumed_decisions": 170,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603180.SH",
+        "603871.SH",
+        "603208.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-01-13",
+      "trade": "2020-01-14",
+      "status": "PASS",
+      "members": 2216,
+      "financial_rows": 2600,
+      "consumed_decisions": 186,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603180.SH",
+        "603871.SH",
+        "603208.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-01-20",
+      "trade": "2020-01-21",
+      "status": "PASS",
+      "members": 2217,
+      "financial_rows": 3900,
+      "consumed_decisions": 204,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603180.SH",
+        "603871.SH",
+        "603208.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-02-04",
+      "trade": "2020-02-05",
+      "status": "PASS",
+      "members": 2217,
+      "financial_rows": 3900,
+      "consumed_decisions": 235,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603180.SH",
+        "603871.SH",
+        "603225.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-02-11",
+      "trade": "2020-02-12",
+      "status": "PASS",
+      "members": 2219,
+      "financial_rows": 3900,
+      "consumed_decisions": 234,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603180.SH",
+        "603871.SH",
+        "603225.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-02-18",
+      "trade": "2020-02-19",
+      "status": "PASS",
+      "members": 2220,
+      "financial_rows": 3903,
+      "consumed_decisions": 224,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603180.SH",
+        "603871.SH",
+        "603225.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-02-25",
+      "trade": "2020-02-26",
+      "status": "PASS",
+      "members": 2222,
+      "financial_rows": 3906,
+      "consumed_decisions": 202,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH",
+        "603225.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-03-03",
+      "trade": "2020-03-04",
+      "status": "PASS",
+      "members": 2222,
+      "financial_rows": 3915,
+      "consumed_decisions": 201,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH",
+        "603225.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-03-10",
+      "trade": "2020-03-11",
+      "status": "PASS",
+      "members": 2223,
+      "financial_rows": 2615,
+      "consumed_decisions": 199,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH",
+        "603225.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-03-17",
+      "trade": "2020-03-18",
+      "status": "PASS",
+      "members": 2225,
+      "financial_rows": 2621,
+      "consumed_decisions": 182,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH",
+        "603225.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-03-24",
+      "trade": "2020-03-25",
+      "status": "PASS",
+      "members": 2225,
+      "financial_rows": 2636,
+      "consumed_decisions": 195,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH",
+        "603225.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-03-31",
+      "trade": "2020-04-01",
+      "status": "PASS",
+      "members": 2225,
+      "financial_rows": 1051,
+      "consumed_decisions": 77,
+      "targets": [
+        "603860.SH",
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-04-08",
+      "trade": "2020-04-09",
+      "status": "PASS",
+      "members": 2226,
+      "financial_rows": 1057,
+      "consumed_decisions": 89,
+      "targets": [
+        "603860.SH",
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-04-15",
+      "trade": "2020-04-16",
+      "status": "PASS",
+      "members": 2226,
+      "financial_rows": 1084,
+      "consumed_decisions": 70,
+      "targets": [
+        "603860.SH",
+        "002951.SZ",
+        "603136.SH",
+        "603757.SH",
+        "603871.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-04-22",
+      "trade": "2020-04-23",
+      "status": "PASS",
+      "members": 2227,
+      "financial_rows": 1159,
+      "consumed_decisions": 43,
+      "targets": [
+        "603860.SH",
+        "002951.SZ",
+        "603136.SH",
+        "603757.SH",
+        "603380.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-04-29",
+      "trade": "2020-04-30",
+      "status": "PASS",
+      "members": 2228,
+      "financial_rows": 4335,
+      "consumed_decisions": 253,
+      "targets": [
+        "603136.SH",
+        "603180.SH",
+        "603183.SH",
+        "603810.SH",
+        "603903.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-05-11",
+      "trade": "2020-05-12",
+      "status": "PASS",
+      "members": 2230,
+      "financial_rows": 11200,
+      "consumed_decisions": 616,
+      "targets": [
+        "603810.SH",
+        "603301.SH",
+        "600731.SH",
+        "600051.SH",
+        "603238.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-05-18",
+      "trade": "2020-05-19",
+      "status": "PASS",
+      "members": 2230,
+      "financial_rows": 11200,
+      "consumed_decisions": 644,
+      "targets": [
+        "603810.SH",
+        "603301.SH",
+        "600731.SH",
+        "600051.SH",
+        "603808.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-05-25",
+      "trade": "2020-05-26",
+      "status": "PASS",
+      "members": 2231,
+      "financial_rows": 6400,
+      "consumed_decisions": 366,
+      "targets": [
+        "603810.SH",
+        "603301.SH",
+        "600731.SH",
+        "603327.SH",
+        "600051.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-06-01",
+      "trade": "2020-06-02",
+      "status": "PASS",
+      "members": 2229,
+      "financial_rows": 6400,
+      "consumed_decisions": 356,
+      "targets": [
+        "603810.SH",
+        "600731.SH",
+        "603301.SH",
+        "603327.SH",
+        "600051.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-06-08",
+      "trade": "2020-06-09",
+      "status": "PASS",
+      "members": 2231,
+      "financial_rows": 6400,
+      "consumed_decisions": 326,
+      "targets": [
+        "603810.SH",
+        "603301.SH",
+        "600731.SH",
+        "600051.SH",
+        "603327.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-06-15",
+      "trade": "2020-06-16",
+      "status": "PASS",
+      "members": 2227,
+      "financial_rows": 9600,
+      "consumed_decisions": 557,
+      "targets": [
+        "603810.SH",
+        "600731.SH",
+        "600051.SH",
+        "603327.SH",
+        "603301.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-06-22",
+      "trade": "2020-06-23",
+      "status": "PASS",
+      "members": 2230,
+      "financial_rows": 9600,
+      "consumed_decisions": 531,
+      "targets": [
+        "603810.SH",
+        "600731.SH",
+        "600051.SH",
+        "603327.SH",
+        "603301.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-07-01",
+      "trade": "2020-07-02",
+      "status": "PASS",
+      "members": 2229,
+      "financial_rows": 9100,
+      "consumed_decisions": 640,
+      "targets": [
+        "603810.SH",
+        "600731.SH",
+        "603327.SH",
+        "600051.SH",
+        "603301.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-07-08",
+      "trade": "2020-07-09",
+      "status": "PASS",
+      "members": 2230,
+      "financial_rows": 9100,
+      "consumed_decisions": 696,
+      "targets": [
+        "603810.SH",
+        "600731.SH",
+        "603327.SH",
+        "600051.SH",
+        "002234.SZ"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-07-15",
+      "trade": "2020-07-16",
+      "status": "PASS",
+      "members": 2231,
+      "financial_rows": 7803,
+      "consumed_decisions": 527,
+      "targets": [
+        "603880.SH",
+        "603810.SH",
+        "600731.SH",
+        "603327.SH",
+        "600051.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-07-22",
+      "trade": "2020-07-23",
+      "status": "PASS",
+      "members": 2143,
+      "financial_rows": 6515,
+      "consumed_decisions": 466,
+      "targets": [
+        "603880.SH",
+        "603810.SH",
+        "600731.SH",
+        "603327.SH",
+        "600051.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-07-29",
+      "trade": "2020-07-30",
+      "status": "PASS",
+      "members": 2143,
+      "financial_rows": 6542,
+      "consumed_decisions": 471,
+      "targets": [
+        "603880.SH",
+        "603810.SH",
+        "600731.SH",
+        "603327.SH",
+        "600051.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-08-05",
+      "trade": "2020-08-06",
+      "status": "PASS",
+      "members": 2143,
+      "financial_rows": 6578,
+      "consumed_decisions": 455,
+      "targets": [
+        "603880.SH",
+        "603810.SH",
+        "603327.SH",
+        "600731.SH",
+        "600051.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-08-12",
+      "trade": "2020-08-13",
+      "status": "PASS",
+      "members": 2143,
+      "financial_rows": 5323,
+      "consumed_decisions": 394,
+      "targets": [
+        "603810.SH",
+        "603319.SH",
+        "603327.SH",
+        "600731.SH",
+        "603880.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-08-19",
+      "trade": "2020-08-20",
+      "status": "PASS",
+      "members": 2140,
+      "financial_rows": 5494,
+      "consumed_decisions": 368,
+      "targets": [
+        "603079.SH",
+        "603810.SH",
+        "603327.SH",
+        "600731.SH",
+        "603880.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-08-26",
+      "trade": "2020-08-27",
+      "status": "PASS",
+      "members": 2140,
+      "financial_rows": 2958,
+      "consumed_decisions": 189,
+      "targets": [
+        "603908.SH",
+        "603466.SH",
+        "603810.SH",
+        "603617.SH",
+        "603587.SH"
+      ],
+      "missing_float_shares": [
+        "600039.SH"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2020-09-02",
+      "trade": "2020-09-03",
+      "status": "PASS",
+      "members": 2140,
+      "financial_rows": 3200,
+      "consumed_decisions": 122,
+      "targets": [
+        "603871.SH",
+        "603908.SH",
+        "603810.SH",
+        "603466.SH",
+        "603687.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-09-09",
+      "trade": "2020-09-10",
+      "status": "PASS",
+      "members": 2140,
+      "financial_rows": 3200,
+      "consumed_decisions": 110,
+      "targets": [
+        "603871.SH",
+        "603810.SH",
+        "603908.SH",
+        "603466.SH",
+        "603687.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-09-16",
+      "trade": "2020-09-17",
+      "status": "PASS",
+      "members": 2138,
+      "financial_rows": 3200,
+      "consumed_decisions": 121,
+      "targets": [
+        "603871.SH",
+        "603908.SH",
+        "603810.SH",
+        "603687.SH",
+        "603466.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-09-23",
+      "trade": "2020-09-24",
+      "status": "PASS",
+      "members": 2138,
+      "financial_rows": 3200,
+      "consumed_decisions": 105,
+      "targets": [
+        "603871.SH",
+        "603908.SH",
+        "603810.SH",
+        "603466.SH",
+        "603687.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-09-30",
+      "trade": "2020-10-09",
+      "status": "PASS",
+      "members": 2138,
+      "financial_rows": 1300,
+      "consumed_decisions": 100,
+      "targets": [
+        "603908.SH",
+        "603871.SH",
+        "603687.SH",
+        "603810.SH",
+        "603466.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-10-15",
+      "trade": "2020-10-16",
+      "status": "PASS",
+      "members": 2136,
+      "financial_rows": 1300,
+      "consumed_decisions": 98,
+      "targets": [
+        "603871.SH",
+        "603908.SH",
+        "603687.SH",
+        "603466.SH",
+        "603810.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-10-22",
+      "trade": "2020-10-23",
+      "status": "PASS",
+      "members": 2136,
+      "financial_rows": 2639,
+      "consumed_decisions": 179,
+      "targets": [
+        "603871.SH",
+        "603687.SH",
+        "603908.SH",
+        "603810.SH",
+        "600678.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-10-29",
+      "trade": "2020-10-30",
+      "status": "PASS",
+      "members": 2136,
+      "financial_rows": 1483,
+      "consumed_decisions": 87,
+      "targets": [
+        "603657.SH",
+        "603013.SH",
+        "603871.SH",
+        "603687.SH",
+        "603956.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-11-05",
+      "trade": "2020-11-06",
+      "status": "PASS",
+      "members": 2136,
+      "financial_rows": 3200,
+      "consumed_decisions": 163,
+      "targets": [
+        "603657.SH",
+        "603013.SH",
+        "603871.SH",
+        "603956.SH",
+        "600678.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-11-12",
+      "trade": "2020-11-13",
+      "status": "PASS",
+      "members": 2136,
+      "financial_rows": 3200,
+      "consumed_decisions": 129,
+      "targets": [
+        "603657.SH",
+        "603013.SH",
+        "603871.SH",
+        "603956.SH",
+        "603661.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-11-19",
+      "trade": "2020-11-20",
+      "status": "PASS",
+      "members": 2136,
+      "financial_rows": 3200,
+      "consumed_decisions": 110,
+      "targets": [
+        "603657.SH",
+        "603013.SH",
+        "603871.SH",
+        "603956.SH",
+        "603661.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-11-26",
+      "trade": "2020-11-27",
+      "status": "PASS",
+      "members": 2136,
+      "financial_rows": 1600,
+      "consumed_decisions": 86,
+      "targets": [
+        "603657.SH",
+        "603013.SH",
+        "603871.SH",
+        "603956.SH",
+        "603661.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-12-03",
+      "trade": "2020-12-04",
+      "status": "PASS",
+      "members": 2136,
+      "financial_rows": 1600,
+      "consumed_decisions": 74,
+      "targets": [
+        "603657.SH",
+        "603013.SH",
+        "603871.SH",
+        "603956.SH",
+        "603661.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-12-10",
+      "trade": "2020-12-11",
+      "status": "PASS",
+      "members": 2136,
+      "financial_rows": 1600,
+      "consumed_decisions": 79,
+      "targets": [
+        "603657.SH",
+        "603013.SH",
+        "603871.SH",
+        "603956.SH",
+        "603661.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-12-17",
+      "trade": "2020-12-18",
+      "status": "PASS",
+      "members": 2116,
+      "financial_rows": 1600,
+      "consumed_decisions": 78,
+      "targets": [
+        "603657.SH",
+        "603013.SH",
+        "603871.SH",
+        "603956.SH",
+        "603661.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2020-12-24",
+      "trade": "2020-12-25",
+      "status": "PASS",
+      "members": 2116,
+      "financial_rows": 1600,
+      "consumed_decisions": 77,
+      "targets": [
+        "603657.SH",
+        "603013.SH",
+        "603871.SH",
+        "603956.SH",
+        "603661.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "performance_completed": false
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "version": "ETF3.0",
+    "cost": 1.0,
+    "status": "COMPLETED",
+    "days": 2106,
+    "final": {
+      "date": "2026-09-04",
+      "cash": 38193.5,
+      "equity": 38193.5,
+      "receivable": 0,
+      "drawdown": 0.049872755813056835,
+      "paused": false,
+      "hard_halted": false,
+      "positions": {}
+    },
+    "metrics": {
+      "marked_return": 0.2731166666666667,
+      "max_close_drawdown": 0.05154944363318836,
+      "fees": 380.0,
+      "dividends_paid": 585.1
+    },
+    "block": null,
+    "fills_by_symbol": {
+      "510300.SH": 46,
+      "518880.SH": 30
+    }
+  },
+  {
+    "version": "ETF3.0",
+    "cost": 1.5,
+    "status": "COMPLETED",
+    "days": 2106,
+    "final": {
+      "date": "2026-09-04",
+      "cash": 37302.0,
+      "equity": 37302.0,
+      "receivable": 0,
+      "drawdown": 0.051850571528065714,
+      "paused": false,
+      "hard_halted": false,
+      "positions": {}
+    },
+    "metrics": {
+      "marked_return": 0.24340000000000006,
+      "max_close_drawdown": 0.053121481168932116,
+      "fees": 570.0,
+      "dividends_paid": 569.1
+    },
+    "block": null,
+    "fills_by_symbol": {
+      "510300.SH": 46,
+      "518880.SH": 30
+    }
+  }
+]

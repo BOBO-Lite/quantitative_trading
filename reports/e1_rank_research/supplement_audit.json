@@ -1,0 +1,40 @@
+[
+  {
+    "export": "minute_export_01.txt",
+    "stock_days": 54,
+    "symbols": [
+      "002563.SZ",
+      "002601.SZ"
+    ],
+    "minute_daily_checks": 54,
+    "corporate_scope_verified": true
+  },
+  {
+    "export": "minute_export_02.txt",
+    "stock_days": 27,
+    "symbols": [
+      "000501.SZ"
+    ],
+    "minute_daily_checks": 27,
+    "corporate_scope_verified": true
+  },
+  {
+    "export": "minute_export_03.txt",
+    "stock_days": 27,
+    "symbols": [
+      "002701.SZ"
+    ],
+    "minute_daily_checks": 27,
+    "corporate_scope_verified": true
+  },
+  {
+    "export": "minute_export_04.txt",
+    "stock_days": 54,
+    "symbols": [
+      "000688.SZ",
+      "000921.SZ"
+    ],
+    "minute_daily_checks": 54,
+    "corporate_scope_verified": true
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "status": "PASS_INDEPENDENT_ACCOUNT_RECONSTRUCTION",
+    "cost": 1.0,
+    "days": 730,
+    "fills": 56,
+    "maximum_difference": 0.0,
+    "scope": "same fills, separate original-unit accounting; not RQAlpha parity or independent signals/matching"
+  },
+  {
+    "status": "PASS_INDEPENDENT_ACCOUNT_RECONSTRUCTION",
+    "cost": 1.5,
+    "days": 730,
+    "fills": 56,
+    "maximum_difference": 0.0,
+    "scope": "same fills, separate original-unit accounting; not RQAlpha parity or independent signals/matching"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "positive_single_modes": [
+    "R"
+  ],
+  "rule": "combine only modes exceeding E1 in both cost paths",
+  "unseen_validation": false
+}

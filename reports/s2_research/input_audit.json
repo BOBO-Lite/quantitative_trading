@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-09-08T20:05:15.874831+08:00",
+  "status": "BLOCKED_FOR_PERFORMANCE_VALIDATION",
+  "live_enabled": false,
+  "daily_columns": [
+    "date",
+    "symbol",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "amount"
+  ],
+  "daily_source": "sohu_public_history",
+  "benchmark_start": "2017-01-03",
+  "benchmark_end": "2026-09-08",
+  "blockers": [
+    "长历史日线源明确formal_backtest_ready=false，当前存续股票生存者偏差尚未消除",
+    "长历史日线缺少真实时点字段：factor, high_limit, is_paused, is_st, low_limit",
+    "缺少覆盖完整研究期的分钟、时点财报事件、除权和成交回放输入包；已有固定样本不代表全区间就绪"
+  ],
+  "optimization_runs": 0,
+  "sample_evidence_reports": {
+    "verified_long_benchmark_and_industry": {
+      "path": "reports\\s2_research\\long_history\\manifest.json",
+      "sha256": "cadada0541cd47584a4edf415e19eb6f58553c49f7387a6bc923fb69f94e0ecc",
+      "status": "PASS_BENCHMARK_AND_HISTORICAL_INDUSTRY_SAMPLE",
+      "full_research_ready": false
+    },
+    "calendar_snapshot": {
+      "path": "reports\\s2_research\\data_feasibility\\calendar_source_audit.json",
+      "reported_status": "SNAPSHOT_AUDITED_PIT_BLOCKED",
+      "reported_rows": 7,
+      "full_research_ready": false
+    },
+    "corporate_actions_and_delisted_daily": {
+      "path": "reports\\s2_research\\data_feasibility\\platform_capability_audit.json",
+      "reported_status": "FIXED_CAPABILITY_SAMPLE_CHECKED",
+      "reported_rows": 243,
+      "full_research_ready": false
+    }
+  },
+  "reason": "功能测试可继续；禁止用不完整数据伪造四策略收益或最优配置"
+}

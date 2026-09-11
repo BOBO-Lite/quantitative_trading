@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "510300.SH",
+    "min_historical_one_lot": 301.7,
+    "max_historical_one_lot": 580.7,
+    "latest_one_lot": 461.59999999999997,
+    "fixed_30000_gap_budget_position_cap": 7500,
+    "latest_planned_quantity": 1200
+  },
+  {
+    "symbol": "511010.SH",
+    "min_historical_one_lot": 10941.4,
+    "max_historical_one_lot": 14178.899999999998,
+    "latest_one_lot": 14122.1,
+    "fixed_30000_gap_budget_position_cap": 7500,
+    "latest_planned_quantity": 0
+  },
+  {
+    "symbol": "518880.SH",
+    "min_historical_one_lot": 259.8,
+    "max_historical_one_lot": 1190.4,
+    "latest_one_lot": 916.4,
+    "fixed_30000_gap_budget_position_cap": 7500,
+    "latest_planned_quantity": 600
+  }
+]

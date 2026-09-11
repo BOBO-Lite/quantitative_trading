@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "failed_combined_screen",
+    "id": "6aa0f481425f5900b6f9935b"
+  },
+  {
+    "kind": "screen_2018",
+    "id": "6aa0f66e9f7e2800b68845b8"
+  },
+  {
+    "kind": "screen_2019",
+    "id": "6aa0f6e8acb66d00b64c51aa"
+  },
+  {
+    "kind": "screen_2020",
+    "id": "6aa0f766b876cb00b63409e0"
+  },
+  {
+    "kind": "execution_initial",
+    "id": "6aa0f9af971aba00b64bb1fc"
+  },
+  {
+    "kind": "execution_prelisting_fix",
+    "id": "6aa0fa6b25203400b630eebd"
+  },
+  {
+    "kind": "execution_remaining_dates",
+    "id": "6aa0fc5a277ba100b61aa27e"
+  }
+]

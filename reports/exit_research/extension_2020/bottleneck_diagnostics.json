@@ -1,0 +1,115 @@
+[
+  {
+    "variant": "E0",
+    "cost": 1.0,
+    "days_2020": 243,
+    "drawdown_ge_12_days": 243,
+    "cash_only_and_ge_12_days": 243,
+    "trend_route_and_ge_12_days": 102,
+    "last_fill": "2019-04-24T09:32:00",
+    "closed_trips": 25,
+    "exit_reasons": {
+      "cash_defense": 8,
+      "protective_stop": 16,
+      "scheduled_exit": 1
+    }
+  },
+  {
+    "variant": "E0",
+    "cost": 1.5,
+    "days_2020": 243,
+    "drawdown_ge_12_days": 243,
+    "cash_only_and_ge_12_days": 243,
+    "trend_route_and_ge_12_days": 102,
+    "last_fill": "2019-11-11T09:32:00",
+    "closed_trips": 37,
+    "exit_reasons": {
+      "cash_defense": 22,
+      "protective_stop": 15
+    }
+  },
+  {
+    "variant": "E1",
+    "cost": 1.0,
+    "days_2020": 243,
+    "drawdown_ge_12_days": 154,
+    "cash_only_and_ge_12_days": 151,
+    "trend_route_and_ge_12_days": 68,
+    "last_fill": "2020-05-25T09:32:00",
+    "closed_trips": 38,
+    "exit_reasons": {
+      "cash_defense": 29,
+      "scheduled_exit": 9
+    }
+  },
+  {
+    "variant": "E1",
+    "cost": 1.5,
+    "days_2020": 243,
+    "drawdown_ge_12_days": 153,
+    "cash_only_and_ge_12_days": 151,
+    "trend_route_and_ge_12_days": 67,
+    "last_fill": "2020-05-25T09:32:00",
+    "closed_trips": 38,
+    "exit_reasons": {
+      "cash_defense": 26,
+      "scheduled_exit": 12
+    }
+  },
+  {
+    "variant": "E2",
+    "cost": 1.0,
+    "days_2020": 243,
+    "drawdown_ge_12_days": 153,
+    "cash_only_and_ge_12_days": 151,
+    "trend_route_and_ge_12_days": 67,
+    "last_fill": "2020-05-25T09:32:00",
+    "closed_trips": 35,
+    "exit_reasons": {
+      "cash_defense": 25,
+      "scheduled_exit": 10
+    }
+  },
+  {
+    "variant": "E2",
+    "cost": 1.5,
+    "days_2020": 243,
+    "drawdown_ge_12_days": 226,
+    "cash_only_and_ge_12_days": 226,
+    "trend_route_and_ge_12_days": 86,
+    "last_fill": "2020-02-04T09:32:00",
+    "closed_trips": 30,
+    "exit_reasons": {
+      "cash_defense": 20,
+      "scheduled_exit": 10
+    }
+  },
+  {
+    "variant": "B1",
+    "cost": 1.0,
+    "days_2020": 243,
+    "drawdown_ge_12_days": 243,
+    "cash_only_and_ge_12_days": 243,
+    "trend_route_and_ge_12_days": 102,
+    "last_fill": "2019-11-11T09:32:00",
+    "closed_trips": 35,
+    "exit_reasons": {
+      "cash_defense": 19,
+      "protective_stop": 16
+    }
+  },
+  {
+    "variant": "B1",
+    "cost": 1.5,
+    "days_2020": 243,
+    "drawdown_ge_12_days": 243,
+    "cash_only_and_ge_12_days": 243,
+    "trend_route_and_ge_12_days": 102,
+    "last_fill": "2019-11-11T09:32:00",
+    "closed_trips": 35,
+    "exit_reasons": {
+      "cash_defense": 21,
+      "protective_stop": 14
+    }
+  }
+]

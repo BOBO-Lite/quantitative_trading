@@ -1,0 +1,668 @@
+[
+  {
+    "cost": 1.0,
+    "symbol": "601009.SH",
+    "entry": "2018-01-26T09:46:00",
+    "exit": "2018-01-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2018-01-30T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "000876.SZ",
+    "entry": "2018-01-29T09:46:00",
+    "exit": "2018-01-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2018-01-30T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600398.SH",
+    "entry": "2018-01-26T09:46:00",
+    "exit": "2018-02-05T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2018-02-05T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "601318.SH",
+    "entry": "2019-02-19T09:46:00",
+    "exit": "2019-03-11T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-03-08T15:00:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600030.SH",
+    "entry": "2019-02-19T09:46:00",
+    "exit": "2019-03-11T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-03-08T15:00:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600585.SH",
+    "entry": "2019-02-19T09:46:00",
+    "exit": "2019-03-11T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-03-08T15:00:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600160.SH",
+    "entry": "2019-03-12T09:46:00",
+    "exit": "2019-03-29T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-03-29T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "002242.SZ",
+    "entry": "2019-03-12T09:46:00",
+    "exit": "2019-03-29T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-03-29T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600277.SH",
+    "entry": "2019-03-13T09:46:00",
+    "exit": "2019-03-29T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-03-29T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600036.SH",
+    "entry": "2019-04-01T09:46:00",
+    "exit": "2019-04-24T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-04-24T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600887.SH",
+    "entry": "2019-04-01T09:46:00",
+    "exit": "2019-04-24T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-04-24T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "601566.SH",
+    "entry": "2019-04-01T09:46:00",
+    "exit": "2019-04-24T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-04-24T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "601238.SH",
+    "entry": "2019-09-09T09:46:00",
+    "exit": "2019-09-26T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-09-26T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "000708.SZ",
+    "entry": "2019-09-09T09:46:00",
+    "exit": "2019-09-26T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-09-26T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600869.SH",
+    "entry": "2019-09-09T09:52:00",
+    "exit": "2019-09-26T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-09-26T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "000875.SZ",
+    "entry": "2019-10-15T09:46:00",
+    "exit": "2019-10-16T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-16T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600583.SH",
+    "entry": "2019-10-15T10:04:00",
+    "exit": "2019-10-16T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-16T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600337.SH",
+    "entry": "2019-10-29T09:46:00",
+    "exit": "2019-10-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-30T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "601333.SH",
+    "entry": "2019-10-29T09:49:00",
+    "exit": "2019-10-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-30T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600926.SH",
+    "entry": "2019-10-29T10:31:00",
+    "exit": "2019-10-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-30T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600690.SH",
+    "entry": "2019-11-06T09:46:00",
+    "exit": "2019-11-07T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-07T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "000878.SZ",
+    "entry": "2019-11-06T09:46:00",
+    "exit": "2019-11-07T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-07T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "002047.SZ",
+    "entry": "2019-11-06T09:46:00",
+    "exit": "2019-11-07T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-07T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600690.SH",
+    "entry": "2019-11-08T09:46:00",
+    "exit": "2019-11-11T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-11T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "002507.SZ",
+    "entry": "2019-11-08T09:46:00",
+    "exit": "2019-11-11T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-11T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600993.SH",
+    "entry": "2019-11-08T09:54:00",
+    "exit": "2019-11-11T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-11T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "601198.SH",
+    "entry": "2019-12-20T09:46:00",
+    "exit": "2019-12-24T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-12-23T15:00:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "601717.SH",
+    "entry": "2019-12-20T09:46:00",
+    "exit": "2019-12-27T09:32:00",
+    "fill_reason": "persistent_weak_loss",
+    "origin_reason": "persistent_weak_loss",
+    "trigger_time": "2019-12-27T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "000807.SZ",
+    "entry": "2019-12-20T09:46:00",
+    "exit": "2020-01-20T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "time_exit",
+    "trigger_time": "2020-01-17T15:00:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "002317.SZ",
+    "entry": "2019-12-25T09:46:00",
+    "exit": "2020-01-23T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "time_exit",
+    "trigger_time": "2020-01-22T15:00:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "000028.SZ",
+    "entry": "2020-01-23T09:46:00",
+    "exit": "2020-02-03T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2020-02-03T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "000555.SZ",
+    "entry": "2019-12-27T09:46:00",
+    "exit": "2020-02-04T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2020-02-03T09:31:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "601828.SH",
+    "entry": "2020-01-20T09:50:00",
+    "exit": "2020-02-04T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2020-01-23T15:00:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600782.SH",
+    "entry": "2020-06-17T09:46:00",
+    "exit": "2020-06-24T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2020-06-23T15:00:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "600025.SH",
+    "entry": "2020-06-29T09:49:00",
+    "exit": "2020-07-17T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2020-07-16T15:00:00"
+  },
+  {
+    "cost": 1.0,
+    "symbol": "002491.SZ",
+    "entry": "2020-09-04T09:46:00",
+    "exit": "2020-09-07T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2020-09-07T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "601009.SH",
+    "entry": "2018-01-26T09:46:00",
+    "exit": "2018-01-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2018-01-30T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "000876.SZ",
+    "entry": "2018-01-29T09:46:00",
+    "exit": "2018-01-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2018-01-30T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600398.SH",
+    "entry": "2018-01-26T09:46:00",
+    "exit": "2018-02-05T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2018-02-05T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "000776.SZ",
+    "entry": "2019-02-19T09:46:00",
+    "exit": "2019-03-01T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-02-28T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "601318.SH",
+    "entry": "2019-02-19T09:46:00",
+    "exit": "2019-03-11T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-03-08T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600030.SH",
+    "entry": "2019-02-19T09:46:00",
+    "exit": "2019-03-11T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-03-08T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600326.SH",
+    "entry": "2019-03-01T09:46:00",
+    "exit": "2019-03-11T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-03-08T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600256.SH",
+    "entry": "2019-03-19T09:46:00",
+    "exit": "2019-03-27T09:32:00",
+    "fill_reason": "persistent_weak_loss",
+    "origin_reason": "persistent_weak_loss",
+    "trigger_time": "2019-03-27T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600160.SH",
+    "entry": "2019-03-12T09:46:00",
+    "exit": "2019-03-29T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-03-29T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "002242.SZ",
+    "entry": "2019-03-12T09:46:00",
+    "exit": "2019-03-29T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-03-29T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "601021.SH",
+    "entry": "2019-03-28T09:46:00",
+    "exit": "2019-03-29T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-03-29T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "000333.SZ",
+    "entry": "2019-04-08T09:46:00",
+    "exit": "2019-04-15T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-04-12T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600036.SH",
+    "entry": "2019-04-01T09:46:00",
+    "exit": "2019-04-24T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-04-24T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600887.SH",
+    "entry": "2019-04-01T09:46:00",
+    "exit": "2019-04-24T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-04-24T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600704.SH",
+    "entry": "2019-04-15T09:50:00",
+    "exit": "2019-04-24T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-04-24T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "601238.SH",
+    "entry": "2019-09-09T09:46:00",
+    "exit": "2019-09-26T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-09-26T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "000708.SZ",
+    "entry": "2019-09-09T09:46:00",
+    "exit": "2019-09-26T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-09-26T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600869.SH",
+    "entry": "2019-09-09T09:52:00",
+    "exit": "2019-09-26T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-09-26T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "000875.SZ",
+    "entry": "2019-10-15T09:46:00",
+    "exit": "2019-10-16T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-16T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600583.SH",
+    "entry": "2019-10-15T10:04:00",
+    "exit": "2019-10-16T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-16T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600337.SH",
+    "entry": "2019-10-29T09:46:00",
+    "exit": "2019-10-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-30T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "601333.SH",
+    "entry": "2019-10-29T09:49:00",
+    "exit": "2019-10-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-30T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600926.SH",
+    "entry": "2019-10-29T10:31:00",
+    "exit": "2019-10-30T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-10-30T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600690.SH",
+    "entry": "2019-11-06T09:46:00",
+    "exit": "2019-11-07T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-07T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "000878.SZ",
+    "entry": "2019-11-06T09:46:00",
+    "exit": "2019-11-07T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-07T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "002047.SZ",
+    "entry": "2019-11-06T09:46:00",
+    "exit": "2019-11-07T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-07T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600690.SH",
+    "entry": "2019-11-08T09:46:00",
+    "exit": "2019-11-11T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-11T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "002507.SZ",
+    "entry": "2019-11-08T09:46:00",
+    "exit": "2019-11-11T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-11T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600993.SH",
+    "entry": "2019-11-08T09:54:00",
+    "exit": "2019-11-11T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2019-11-11T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "601198.SH",
+    "entry": "2019-12-20T09:46:00",
+    "exit": "2019-12-24T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2019-12-23T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "601717.SH",
+    "entry": "2019-12-20T09:46:00",
+    "exit": "2019-12-27T09:32:00",
+    "fill_reason": "persistent_weak_loss",
+    "origin_reason": "persistent_weak_loss",
+    "trigger_time": "2019-12-27T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "000807.SZ",
+    "entry": "2019-12-20T09:46:00",
+    "exit": "2020-01-20T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "time_exit",
+    "trigger_time": "2020-01-17T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "002317.SZ",
+    "entry": "2019-12-25T09:46:00",
+    "exit": "2020-01-23T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "time_exit",
+    "trigger_time": "2020-01-22T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "000028.SZ",
+    "entry": "2020-01-23T09:46:00",
+    "exit": "2020-02-03T09:32:00",
+    "fill_reason": "cash_defense",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2020-02-03T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "000555.SZ",
+    "entry": "2019-12-27T09:46:00",
+    "exit": "2020-02-04T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "cash_defense",
+    "trigger_time": "2020-02-03T09:31:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "601828.SH",
+    "entry": "2020-01-20T09:50:00",
+    "exit": "2020-02-04T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2020-01-23T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600019.SH",
+    "entry": "2020-06-18T09:59:00",
+    "exit": "2020-06-24T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2020-06-23T15:00:00"
+  },
+  {
+    "cost": 1.5,
+    "symbol": "600025.SH",
+    "entry": "2020-06-29T09:49:00",
+    "exit": "2020-07-17T09:32:00",
+    "fill_reason": "scheduled_exit",
+    "origin_reason": "close_confirmed_stop",
+    "trigger_time": "2020-07-16T15:00:00"
+  }
+]

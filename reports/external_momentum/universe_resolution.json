@@ -1,0 +1,12 @@
+{
+  "symbol": "600270.SH",
+  "signal": "2018-12-28",
+  "reason": "DELISTED_BEFORE_SIGNAL",
+  "publication_date": "2018-12-23",
+  "delisting_effective": "2018-12-28",
+  "source_url": "https://finance.sina.com.cn/roll/2018-12-23/doc-ihmutuee1905254.shtml",
+  "source_sha256": "1a8eadcf32f6a5f84413490eab47a040ffbd19ce1bc63edc6e9bf2233b6338d1",
+  "metadata_source": "runtime/industry_history/monthly_universe.csv.gz",
+  "metadata_last_listed_date": "2018-12-27",
+  "note": "Only resolves this absent-date source error; old raw packets retained. No alias to acquiring company."
+}

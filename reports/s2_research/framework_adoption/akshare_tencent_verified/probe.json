@@ -1,0 +1,126 @@
+{
+  "provider": "tencent",
+  "akshare_version": "1.18.94",
+  "target_date": "2026-09-08",
+  "cases": [
+    {
+      "symbol": "000001.SZ",
+      "target_date": "2026-09-08",
+      "observed_at": "2026-09-08T19:11:20.183605+08:00",
+      "raw_file": "000001.SZ.raw.json",
+      "sha256": "c8283ea8840afbc173b011585b71b952f32ec24f2198ca099185a77e2676e8d1",
+      "row": {
+        "date": "2026-09-08",
+        "symbol": "000001.SZ",
+        "open": 11.66,
+        "close": 11.78,
+        "high": 11.81,
+        "low": 11.65,
+        "volume": 74051600.0,
+        "amount": 870361100.0,
+        "provider": "akshare_tencent_daily",
+        "observed_at": "2026-09-08T19:11:20.183605+08:00",
+        "adjustment": "none",
+        "volume_unit": "shares",
+        "historical_state_verified": false,
+        "automatic_trading": false,
+        "source_volume_multiplier": 100,
+        "unit_adapter_version": "1.18.94"
+      },
+      "status": "PASS_DATED_PRICE_ROW",
+      "comparison": {
+        "matches": true,
+        "deltas": {
+          "open": 0.0,
+          "high": 0.0,
+          "low": 0.0,
+          "close": 0.0,
+          "volume": 3.0,
+          "amount": 35.830000042915344
+        }
+      }
+    },
+    {
+      "symbol": "600036.SH",
+      "target_date": "2026-09-08",
+      "observed_at": "2026-09-08T19:11:22.957730+08:00",
+      "raw_file": "600036.SH.raw.json",
+      "sha256": "c48f17d390c29d4cfe8759730a9d0899ebbe1a08e4c3c374738dc33e08783ee6",
+      "row": {
+        "date": "2026-09-08",
+        "symbol": "600036.SH",
+        "open": 41.01,
+        "close": 40.9,
+        "high": 41.38,
+        "low": 40.81,
+        "volume": 49310200.0,
+        "amount": 2021762700.0,
+        "provider": "akshare_tencent_daily",
+        "observed_at": "2026-09-08T19:11:22.957730+08:00",
+        "adjustment": "none",
+        "volume_unit": "shares",
+        "historical_state_verified": false,
+        "automatic_trading": false,
+        "source_volume_multiplier": 1,
+        "unit_adapter_version": "1.18.94"
+      },
+      "status": "PASS_DATED_PRICE_ROW",
+      "comparison": {
+        "matches": true,
+        "deltas": {
+          "open": 0.0,
+          "high": 0.0,
+          "low": 0.0,
+          "close": 0.0,
+          "volume": 29.0,
+          "amount": 8.0
+        }
+      }
+    },
+    {
+      "symbol": "601555.SH",
+      "target_date": "2026-09-08",
+      "observed_at": "2026-09-08T19:11:25.539572+08:00",
+      "raw_file": "601555.SH.raw.json",
+      "sha256": "43763e0d3c9fad76938da2aac973497b0602d3588e56ff52724d7ba8ca8c2782",
+      "row": {
+        "date": "2026-09-08",
+        "symbol": "601555.SH",
+        "open": 8.38,
+        "close": 8.4,
+        "high": 8.52,
+        "low": 8.33,
+        "volume": 28570000.0,
+        "amount": 241014199.99999997,
+        "provider": "akshare_tencent_daily",
+        "observed_at": "2026-09-08T19:11:25.539572+08:00",
+        "adjustment": "none",
+        "volume_unit": "shares",
+        "historical_state_verified": false,
+        "automatic_trading": false,
+        "source_volume_multiplier": 1,
+        "unit_adapter_version": "1.18.94"
+      },
+      "status": "PASS_DATED_PRICE_ROW",
+      "comparison": {
+        "matches": true,
+        "deltas": {
+          "open": 0.0,
+          "high": 0.0,
+          "low": 0.0,
+          "close": 0.0,
+          "volume": -9.99999999627471,
+          "amount": -46.00000002980232
+        }
+      }
+    }
+  ],
+  "formal_database_updated": false,
+  "automatic_trading": false,
+  "status": "READ_ONLY_SAMPLE_PASS",
+  "reference": {
+    "path": "C:\\Users\\22680\\Documents\\ChatGPT\\量化\\runtime\\s1_daily.csv",
+    "sha256": "e741a2bc7c5d0d6bb9e542fb10c30737592f720e3b0b089d29f268398ce38b29",
+    "note": "现有日线用于数值核对；是否独立上游需按其来源另行判断"
+  }
+}

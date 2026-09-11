@@ -1,0 +1,1510 @@
+{
+  "scope": "Original entry time/price/quantity fixed. Individual trade only; drawdown=0 because original case never reached hard drawdown while held. No cash dividends in the constant-factor window; original E1/W fills exactly reproduced.",
+  "results": {
+    "E1": {
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "002317.SZ",
+          "buy": true,
+          "intent_time": "2019-12-25T09:45:00",
+          "fill_time": "2019-12-25T09:46:00",
+          "price": 10.750739999999999,
+          "quantity": 600,
+          "fees": 5.06450444,
+          "net_pnl": null,
+          "cash_after": 23544.49149556
+        },
+        {
+          "order_id": 2,
+          "symbol": "002317.SZ",
+          "buy": false,
+          "intent_time": "2020-01-23T09:31:00",
+          "fill_time": "2020-01-23T09:32:00",
+          "price": 15.13485,
+          "quantity": 600,
+          "fees": 9.6312641,
+          "net_pnl": 2615.77023146,
+          "cash_after": 32615.77023146
+        }
+      ],
+      "net_pnl": 2615.77023146,
+      "events": []
+    },
+    "W": {
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "002317.SZ",
+          "buy": true,
+          "intent_time": "2019-12-25T09:45:00",
+          "fill_time": "2019-12-25T09:46:00",
+          "price": 10.750739999999999,
+          "quantity": 600,
+          "fees": 5.06450444,
+          "net_pnl": null,
+          "cash_after": 23544.49149556
+        },
+        {
+          "order_id": 3,
+          "symbol": "002317.SZ",
+          "buy": false,
+          "intent_time": "2020-02-03T09:32:00",
+          "fill_time": "2020-02-03T09:33:00",
+          "price": 13.286700000000002,
+          "quantity": 600,
+          "fees": 9.0657302,
+          "net_pnl": 1507.445765360002,
+          "cash_after": 31507.44576536
+        }
+      ],
+      "net_pnl": 1507.445765360002,
+      "events": [
+        {
+          "event": "profitable_time_exit_extended",
+          "date": "2020-01-22T15:00:00",
+          "entry_date": "2019-12-25",
+          "holding_days": 20
+        }
+      ]
+    },
+    "P": {
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "002317.SZ",
+          "buy": true,
+          "intent_time": "2019-12-25T09:45:00",
+          "fill_time": "2019-12-25T09:46:00",
+          "price": 10.750739999999999,
+          "quantity": 600,
+          "fees": 5.06450444,
+          "net_pnl": null,
+          "cash_after": 23544.49149556
+        },
+        {
+          "order_id": 2,
+          "symbol": "002317.SZ",
+          "buy": false,
+          "intent_time": "2019-12-27T10:02:00",
+          "fill_time": "2019-12-27T10:03:00",
+          "price": 12.42756,
+          "quantity": 600,
+          "fees": 8.802833360000001,
+          "net_pnl": 992.2246622000011,
+          "cash_after": 30992.224662200002
+        }
+      ],
+      "net_pnl": 992.2246622000011,
+      "events": [
+        {
+          "event": "earned_profit_reversal",
+          "date": "2019-12-27T10:02:00",
+          "entry_date": "2019-12-25",
+          "observed_peak": 12.8,
+          "price": 12.44,
+          "known_atr": 0.31300000000000017
+        }
+      ]
+    },
+    "V": {
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "002317.SZ",
+          "buy": true,
+          "intent_time": "2019-12-25T09:45:00",
+          "fill_time": "2019-12-25T09:46:00",
+          "price": 10.750739999999999,
+          "quantity": 600,
+          "fees": 5.06450444,
+          "net_pnl": null,
+          "cash_after": 23544.49149556
+        },
+        {
+          "order_id": 2,
+          "symbol": "002317.SZ",
+          "buy": false,
+          "intent_time": "2019-12-30T09:31:00",
+          "fill_time": "2019-12-30T09:32:00",
+          "price": 11.988,
+          "quantity": 600,
+          "fees": 8.668327999999999,
+          "net_pnl": 728.6231675600002,
+          "cash_after": 30728.62316756
+        }
+      ],
+      "net_pnl": 728.6231675600002,
+      "events": [
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-27T10:02:00",
+          "entry_date": "2019-12-25",
+          "price": 12.44,
+          "peak": 12.8,
+          "atr": 0.31300000000000017,
+          "known_ma10": 10.437999999999999,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-26",
+            "volume_ratio": 3.928822021352879,
+            "down": false,
+            "relative5": 0.18774296586567185,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "confirmed_profit_exit",
+          "symbol": "002317.SZ",
+          "date": "2019-12-30T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.0,
+          "peak": 12.8,
+          "atr": 0.35600000000000004,
+          "known_ma10": 10.647000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-27",
+            "volume_ratio": 4.698835575354486,
+            "down": true,
+            "relative5": 0.18117551495079165,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        }
+      ]
+    },
+    "S": {
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "002317.SZ",
+          "buy": true,
+          "intent_time": "2019-12-25T09:45:00",
+          "fill_time": "2019-12-25T09:46:00",
+          "price": 10.750739999999999,
+          "quantity": 600,
+          "fees": 5.06450444,
+          "net_pnl": null,
+          "cash_after": 23544.49149556
+        },
+        {
+          "order_id": 2,
+          "symbol": "002317.SZ",
+          "buy": false,
+          "intent_time": "2020-01-08T09:31:00",
+          "fill_time": "2020-01-08T09:32:00",
+          "price": 12.54744,
+          "quantity": 600,
+          "fees": 8.83951664,
+          "net_pnl": 1064.115978920001,
+          "cash_after": 31064.11597892
+        }
+      ],
+      "net_pnl": 1064.115978920001,
+      "events": [
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-27T10:02:00",
+          "entry_date": "2019-12-25",
+          "price": 12.44,
+          "peak": 12.8,
+          "atr": 0.31300000000000017,
+          "known_ma10": 10.437999999999999,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-26",
+            "volume_ratio": 3.928822021352879,
+            "down": false,
+            "relative5": 0.18774296586567185,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-30T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.0,
+          "peak": 12.8,
+          "atr": 0.35600000000000004,
+          "known_ma10": 10.647000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-27",
+            "volume_ratio": 4.698835575354486,
+            "down": true,
+            "relative5": 0.18117551495079165,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-31T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.21,
+          "peak": 12.8,
+          "atr": 0.37200000000000016,
+          "known_ma10": 10.863,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-30",
+            "volume_ratio": 2.5900398452658133,
+            "down": false,
+            "relative5": 0.17219257429148893,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-02T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.38,
+          "peak": 13.17,
+          "atr": 0.41900000000000015,
+          "known_ma10": 11.11,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-31",
+            "volume_ratio": 3.9511603501762496,
+            "down": false,
+            "relative5": 0.1821961559818548,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-03T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.38,
+          "peak": 13.17,
+          "atr": 0.44250000000000006,
+          "known_ma10": 11.351000000000003,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-02",
+            "volume_ratio": 2.083870635929425,
+            "down": true,
+            "relative5": 0.06697819863657917,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-06T11:02:00",
+          "entry_date": "2019-12-25",
+          "price": 12.66,
+          "peak": 13.17,
+          "atr": 0.4705000000000001,
+          "known_ma10": 11.618999999999998,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-03",
+            "volume_ratio": 1.1149386368836616,
+            "down": false,
+            "relative5": 0.037390153494753164,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-07T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.62,
+          "peak": 13.17,
+          "atr": 0.49400000000000005,
+          "known_ma10": 11.871999999999998,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-06",
+            "volume_ratio": 0.8667516824506825,
+            "down": true,
+            "relative5": 0.00901958336695885,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "confirmed_profit_exit",
+          "symbol": "002317.SZ",
+          "date": "2020-01-08T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.58,
+          "peak": 13.17,
+          "atr": 0.49099999999999994,
+          "known_ma10": 12.129,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-07",
+            "volume_ratio": 0.8712203743632579,
+            "down": true,
+            "relative5": -0.005325414921498961,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": true,
+            "H": false
+          }
+        }
+      ]
+    },
+    "H": {
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "002317.SZ",
+          "buy": true,
+          "intent_time": "2019-12-25T09:45:00",
+          "fill_time": "2019-12-25T09:46:00",
+          "price": 10.750739999999999,
+          "quantity": 600,
+          "fees": 5.06450444,
+          "net_pnl": null,
+          "cash_after": 23544.49149556
+        },
+        {
+          "order_id": 2,
+          "symbol": "002317.SZ",
+          "buy": false,
+          "intent_time": "2020-01-23T13:52:00",
+          "fill_time": "2020-01-23T13:53:00",
+          "price": 14.26572,
+          "quantity": 600,
+          "fees": 9.36531032,
+          "net_pnl": 2094.558185240002,
+          "cash_after": 32094.55818524
+        }
+      ],
+      "net_pnl": 2094.558185240002,
+      "events": [
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-27T10:02:00",
+          "entry_date": "2019-12-25",
+          "price": 12.44,
+          "peak": 12.8,
+          "atr": 0.31300000000000017,
+          "known_ma10": 10.437999999999999,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-26",
+            "volume_ratio": 3.928822021352879,
+            "down": false,
+            "relative5": 0.18774296586567185,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-30T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.0,
+          "peak": 12.8,
+          "atr": 0.35600000000000004,
+          "known_ma10": 10.647000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-27",
+            "volume_ratio": 4.698835575354486,
+            "down": true,
+            "relative5": 0.18117551495079165,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-31T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.21,
+          "peak": 12.8,
+          "atr": 0.37200000000000016,
+          "known_ma10": 10.863,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-30",
+            "volume_ratio": 2.5900398452658133,
+            "down": false,
+            "relative5": 0.17219257429148893,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-02T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.38,
+          "peak": 13.17,
+          "atr": 0.41900000000000015,
+          "known_ma10": 11.11,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-31",
+            "volume_ratio": 3.9511603501762496,
+            "down": false,
+            "relative5": 0.1821961559818548,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-03T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.38,
+          "peak": 13.17,
+          "atr": 0.44250000000000006,
+          "known_ma10": 11.351000000000003,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-02",
+            "volume_ratio": 2.083870635929425,
+            "down": true,
+            "relative5": 0.06697819863657917,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-06T11:02:00",
+          "entry_date": "2019-12-25",
+          "price": 12.66,
+          "peak": 13.17,
+          "atr": 0.4705000000000001,
+          "known_ma10": 11.618999999999998,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-03",
+            "volume_ratio": 1.1149386368836616,
+            "down": false,
+            "relative5": 0.037390153494753164,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-07T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.62,
+          "peak": 13.17,
+          "atr": 0.49400000000000005,
+          "known_ma10": 11.871999999999998,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-06",
+            "volume_ratio": 0.8667516824506825,
+            "down": true,
+            "relative5": 0.00901958336695885,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-08T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.58,
+          "peak": 13.17,
+          "atr": 0.49099999999999994,
+          "known_ma10": 12.129,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-07",
+            "volume_ratio": 0.8712203743632579,
+            "down": true,
+            "relative5": -0.005325414921498961,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": true,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-09T14:06:00",
+          "entry_date": "2019-12-25",
+          "price": 12.92,
+          "peak": 13.45,
+          "atr": 0.5039999999999999,
+          "known_ma10": 12.333,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-08",
+            "volume_ratio": 0.8039775860922755,
+            "down": true,
+            "relative5": -0.03751418515752769,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": true,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-20T09:55:00",
+          "entry_date": "2019-12-25",
+          "price": 15.43,
+          "peak": 16.17,
+          "atr": 0.7274999999999998,
+          "known_ma10": 13.514,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-17",
+            "volume_ratio": 0.6338472020486545,
+            "down": true,
+            "relative5": 0.09239329951759734,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-21T09:35:00",
+          "entry_date": "2019-12-25",
+          "price": 16.35,
+          "peak": 17.15,
+          "atr": 0.7845,
+          "known_ma10": 13.845000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-20",
+            "volume_ratio": 1.6303098146806632,
+            "down": false,
+            "relative5": 0.1705862849874651,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-22T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 15.53,
+          "peak": 17.15,
+          "atr": 0.8560000000000001,
+          "known_ma10": 14.144000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-21",
+            "volume_ratio": 1.800803363770008,
+            "down": true,
+            "relative5": 0.16316934509514358,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profitable_time_exit_extended",
+          "date": "2020-01-22T15:00:00",
+          "entry_date": "2019-12-25",
+          "holding_days": 20
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-23T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 15.16,
+          "peak": 17.15,
+          "atr": 0.885,
+          "known_ma10": 14.358,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-22",
+            "volume_ratio": 1.2106146894634733,
+            "down": true,
+            "relative5": 0.014675486467705667,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "confirmed_profit_exit",
+          "symbol": "002317.SZ",
+          "date": "2020-01-23T13:52:00",
+          "entry_date": "2019-12-25",
+          "price": 14.28,
+          "peak": 17.15,
+          "atr": 0.885,
+          "known_ma10": 14.358,
+          "below_minutes": 30,
+          "features": {
+            "asof": "2020-01-22",
+            "volume_ratio": 1.2106146894634733,
+            "down": true,
+            "relative5": 0.014675486467705667,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": true
+          }
+        }
+      ]
+    },
+    "C": {
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "002317.SZ",
+          "buy": true,
+          "intent_time": "2019-12-25T09:45:00",
+          "fill_time": "2019-12-25T09:46:00",
+          "price": 10.750739999999999,
+          "quantity": 600,
+          "fees": 5.06450444,
+          "net_pnl": null,
+          "cash_after": 23544.49149556
+        },
+        {
+          "order_id": 2,
+          "symbol": "002317.SZ",
+          "buy": false,
+          "intent_time": "2020-01-23T13:52:00",
+          "fill_time": "2020-01-23T13:53:00",
+          "price": 14.26572,
+          "quantity": 600,
+          "fees": 9.36531032,
+          "net_pnl": 2094.558185240002,
+          "cash_after": 32094.55818524
+        }
+      ],
+      "net_pnl": 2094.558185240002,
+      "events": [
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-27T10:02:00",
+          "entry_date": "2019-12-25",
+          "price": 12.44,
+          "peak": 12.8,
+          "atr": 0.31300000000000017,
+          "known_ma10": 10.437999999999999,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-26",
+            "volume_ratio": 3.928822021352879,
+            "down": false,
+            "relative5": 0.18774296586567185,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-30T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.0,
+          "peak": 12.8,
+          "atr": 0.35600000000000004,
+          "known_ma10": 10.647000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-27",
+            "volume_ratio": 4.698835575354486,
+            "down": true,
+            "relative5": 0.18117551495079165,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-31T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.21,
+          "peak": 12.8,
+          "atr": 0.37200000000000016,
+          "known_ma10": 10.863,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-30",
+            "volume_ratio": 2.5900398452658133,
+            "down": false,
+            "relative5": 0.17219257429148893,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-02T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.38,
+          "peak": 13.17,
+          "atr": 0.41900000000000015,
+          "known_ma10": 11.11,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-31",
+            "volume_ratio": 3.9511603501762496,
+            "down": false,
+            "relative5": 0.1821961559818548,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-03T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.38,
+          "peak": 13.17,
+          "atr": 0.44250000000000006,
+          "known_ma10": 11.351000000000003,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-02",
+            "volume_ratio": 2.083870635929425,
+            "down": true,
+            "relative5": 0.06697819863657917,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-06T11:02:00",
+          "entry_date": "2019-12-25",
+          "price": 12.66,
+          "peak": 13.17,
+          "atr": 0.4705000000000001,
+          "known_ma10": 11.618999999999998,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-03",
+            "volume_ratio": 1.1149386368836616,
+            "down": false,
+            "relative5": 0.037390153494753164,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-07T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.62,
+          "peak": 13.17,
+          "atr": 0.49400000000000005,
+          "known_ma10": 11.871999999999998,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-06",
+            "volume_ratio": 0.8667516824506825,
+            "down": true,
+            "relative5": 0.00901958336695885,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-08T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.58,
+          "peak": 13.17,
+          "atr": 0.49099999999999994,
+          "known_ma10": 12.129,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-07",
+            "volume_ratio": 0.8712203743632579,
+            "down": true,
+            "relative5": -0.005325414921498961,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": true,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-09T14:06:00",
+          "entry_date": "2019-12-25",
+          "price": 12.92,
+          "peak": 13.45,
+          "atr": 0.5039999999999999,
+          "known_ma10": 12.333,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-08",
+            "volume_ratio": 0.8039775860922755,
+            "down": true,
+            "relative5": -0.03751418515752769,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": true,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-20T09:55:00",
+          "entry_date": "2019-12-25",
+          "price": 15.43,
+          "peak": 16.17,
+          "atr": 0.7274999999999998,
+          "known_ma10": 13.514,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-17",
+            "volume_ratio": 0.6338472020486545,
+            "down": true,
+            "relative5": 0.09239329951759734,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-21T09:35:00",
+          "entry_date": "2019-12-25",
+          "price": 16.35,
+          "peak": 17.15,
+          "atr": 0.7845,
+          "known_ma10": 13.845000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-20",
+            "volume_ratio": 1.6303098146806632,
+            "down": false,
+            "relative5": 0.1705862849874651,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-22T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 15.53,
+          "peak": 17.15,
+          "atr": 0.8560000000000001,
+          "known_ma10": 14.144000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-21",
+            "volume_ratio": 1.800803363770008,
+            "down": true,
+            "relative5": 0.16316934509514358,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profitable_time_exit_extended",
+          "date": "2020-01-22T15:00:00",
+          "entry_date": "2019-12-25",
+          "holding_days": 20
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-23T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 15.16,
+          "peak": 17.15,
+          "atr": 0.885,
+          "known_ma10": 14.358,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-22",
+            "volume_ratio": 1.2106146894634733,
+            "down": true,
+            "relative5": 0.014675486467705667,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "confirmed_profit_exit",
+          "symbol": "002317.SZ",
+          "date": "2020-01-23T13:52:00",
+          "entry_date": "2019-12-25",
+          "price": 14.28,
+          "peak": 17.15,
+          "atr": 0.885,
+          "known_ma10": 14.358,
+          "below_minutes": 30,
+          "features": {
+            "asof": "2020-01-22",
+            "volume_ratio": 1.2106146894634733,
+            "down": true,
+            "relative5": 0.014675486467705667,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": true
+          }
+        }
+      ]
+    },
+    "F": {
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "002317.SZ",
+          "buy": true,
+          "intent_time": "2019-12-25T09:45:00",
+          "fill_time": "2019-12-25T09:46:00",
+          "price": 10.750739999999999,
+          "quantity": 600,
+          "fees": 5.06450444,
+          "net_pnl": null,
+          "cash_after": 23544.49149556
+        },
+        {
+          "order_id": 2,
+          "symbol": "002317.SZ",
+          "buy": false,
+          "intent_time": "2020-01-23T09:31:00",
+          "fill_time": "2020-01-23T09:32:00",
+          "price": 15.13485,
+          "quantity": 600,
+          "fees": 9.6312641,
+          "net_pnl": 2615.77023146,
+          "cash_after": 32615.77023146
+        }
+      ],
+      "net_pnl": 2615.77023146,
+      "events": []
+    },
+    "CF": {
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "002317.SZ",
+          "buy": true,
+          "intent_time": "2019-12-25T09:45:00",
+          "fill_time": "2019-12-25T09:46:00",
+          "price": 10.750739999999999,
+          "quantity": 600,
+          "fees": 5.06450444,
+          "net_pnl": null,
+          "cash_after": 23544.49149556
+        },
+        {
+          "order_id": 2,
+          "symbol": "002317.SZ",
+          "buy": false,
+          "intent_time": "2020-01-23T13:52:00",
+          "fill_time": "2020-01-23T13:53:00",
+          "price": 14.26572,
+          "quantity": 600,
+          "fees": 9.36531032,
+          "net_pnl": 2094.558185240002,
+          "cash_after": 32094.55818524
+        }
+      ],
+      "net_pnl": 2094.558185240002,
+      "events": [
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-27T10:02:00",
+          "entry_date": "2019-12-25",
+          "price": 12.44,
+          "peak": 12.8,
+          "atr": 0.31300000000000017,
+          "known_ma10": 10.437999999999999,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-26",
+            "volume_ratio": 3.928822021352879,
+            "down": false,
+            "relative5": 0.18774296586567185,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-30T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.0,
+          "peak": 12.8,
+          "atr": 0.35600000000000004,
+          "known_ma10": 10.647000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-27",
+            "volume_ratio": 4.698835575354486,
+            "down": true,
+            "relative5": 0.18117551495079165,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2019-12-31T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.21,
+          "peak": 12.8,
+          "atr": 0.37200000000000016,
+          "known_ma10": 10.863,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-30",
+            "volume_ratio": 2.5900398452658133,
+            "down": false,
+            "relative5": 0.17219257429148893,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-02T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.38,
+          "peak": 13.17,
+          "atr": 0.41900000000000015,
+          "known_ma10": 11.11,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2019-12-31",
+            "volume_ratio": 3.9511603501762496,
+            "down": false,
+            "relative5": 0.1821961559818548,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-03T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.38,
+          "peak": 13.17,
+          "atr": 0.44250000000000006,
+          "known_ma10": 11.351000000000003,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-02",
+            "volume_ratio": 2.083870635929425,
+            "down": true,
+            "relative5": 0.06697819863657917,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-06T11:02:00",
+          "entry_date": "2019-12-25",
+          "price": 12.66,
+          "peak": 13.17,
+          "atr": 0.4705000000000001,
+          "known_ma10": 11.618999999999998,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-03",
+            "volume_ratio": 1.1149386368836616,
+            "down": false,
+            "relative5": 0.037390153494753164,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-07T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.62,
+          "peak": 13.17,
+          "atr": 0.49400000000000005,
+          "known_ma10": 11.871999999999998,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-06",
+            "volume_ratio": 0.8667516824506825,
+            "down": true,
+            "relative5": 0.00901958336695885,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-08T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 12.58,
+          "peak": 13.17,
+          "atr": 0.49099999999999994,
+          "known_ma10": 12.129,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-07",
+            "volume_ratio": 0.8712203743632579,
+            "down": true,
+            "relative5": -0.005325414921498961,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": true,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-09T14:06:00",
+          "entry_date": "2019-12-25",
+          "price": 12.92,
+          "peak": 13.45,
+          "atr": 0.5039999999999999,
+          "known_ma10": 12.333,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-08",
+            "volume_ratio": 0.8039775860922755,
+            "down": true,
+            "relative5": -0.03751418515752769,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": true,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-20T09:55:00",
+          "entry_date": "2019-12-25",
+          "price": 15.43,
+          "peak": 16.17,
+          "atr": 0.7274999999999998,
+          "known_ma10": 13.514,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-17",
+            "volume_ratio": 0.6338472020486545,
+            "down": true,
+            "relative5": 0.09239329951759734,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-21T09:35:00",
+          "entry_date": "2019-12-25",
+          "price": 16.35,
+          "peak": 17.15,
+          "atr": 0.7845,
+          "known_ma10": 13.845000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-20",
+            "volume_ratio": 1.6303098146806632,
+            "down": false,
+            "relative5": 0.1705862849874651,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": false,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-22T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 15.53,
+          "peak": 17.15,
+          "atr": 0.8560000000000001,
+          "known_ma10": 14.144000000000002,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-21",
+            "volume_ratio": 1.800803363770008,
+            "down": true,
+            "relative5": 0.16316934509514358,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "profitable_time_exit_extended",
+          "date": "2020-01-22T15:00:00",
+          "entry_date": "2019-12-25",
+          "holding_days": 20
+        },
+        {
+          "event": "profit_exit_veto",
+          "symbol": "002317.SZ",
+          "date": "2020-01-23T09:31:00",
+          "entry_date": "2019-12-25",
+          "price": 15.16,
+          "peak": 17.15,
+          "atr": 0.885,
+          "known_ma10": 14.358,
+          "below_minutes": 0,
+          "features": {
+            "asof": "2020-01-22",
+            "volume_ratio": 1.2106146894634733,
+            "down": true,
+            "relative5": 0.014675486467705667,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": false
+          }
+        },
+        {
+          "event": "confirmed_profit_exit",
+          "symbol": "002317.SZ",
+          "date": "2020-01-23T13:52:00",
+          "entry_date": "2019-12-25",
+          "price": 14.28,
+          "peak": 17.15,
+          "atr": 0.885,
+          "known_ma10": 14.358,
+          "below_minutes": 30,
+          "features": {
+            "asof": "2020-01-22",
+            "volume_ratio": 1.2106146894634733,
+            "down": true,
+            "relative5": 0.014675486467705667,
+            "two_below_ma10": false
+          },
+          "gates": {
+            "V": true,
+            "S": false,
+            "H": true
+          }
+        }
+      ]
+    }
+  }
+}

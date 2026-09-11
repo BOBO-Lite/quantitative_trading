@@ -1,0 +1,37 @@
+{
+  "status": "PASS_SIGNAL_RECONSTRUCTION",
+  "year": 2018,
+  "pilot": true,
+  "source_sha256": "7e49f08f9042a08004a7460424e5d23c6db109b3e933d4d0b69ad49a67601c67",
+  "expected_signals": 1,
+  "audited_signals": 1,
+  "financial_rows": 1616,
+  "independently_checked_decisions": 77,
+  "accounting_flags": {
+    "adjusted_report_rows": 616,
+    "version_change_rows": 81
+  },
+  "signals": [
+    {
+      "asof": "2017-12-29",
+      "trade": "2018-01-02",
+      "status": "PASS",
+      "members": 2181,
+      "financial_rows": 1616,
+      "consumed_decisions": 77,
+      "targets": [
+        "603060.SH",
+        "002346.SZ",
+        "603025.SH",
+        "603318.SH",
+        "603203.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "performance_completed": false
+}

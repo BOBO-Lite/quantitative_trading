@@ -1,0 +1,60 @@
+{
+  "comparisons": [
+    {
+      "cost": 1.0,
+      "momentum": {
+        "total_return": -0.23597627366666651,
+        "max_daily_drawdown": 0.42597979714222445,
+        "years": {
+          "2018": 0.0,
+          "2019": -0.0942301579999999,
+          "2020": -0.15649242124652962
+        },
+        "ending_equity": 22920.711790000005,
+        "cagr": -0.08594298417758839,
+        "fills": 56,
+        "fees": 340.94221,
+        "average_close_exposure": 0.2959916023832147
+      },
+      "baseline": {
+        "total_return": 0.057465029828334346,
+        "max_daily_drawdown": 0.11898724910188196,
+        "years": {
+          "2018": 0.03430020073699991,
+          "2019": 0.06937691624205122,
+          "2020": -0.04393240121098052
+        },
+        "ending_equity": 31723.95089485003
+      }
+    },
+    {
+      "cost": 1.5,
+      "momentum": {
+        "total_return": -0.23789312216666658,
+        "max_daily_drawdown": 0.4269861481544106,
+        "years": {
+          "2018": 0.0,
+          "2019": -0.12922642233333315,
+          "2020": -0.12479329026555641
+        },
+        "ending_equity": 22863.206335000003,
+        "cagr": -0.08670926930284206,
+        "fills": 56,
+        "fees": 508.44766500000003,
+        "average_close_exposure": 0.27292880365640654
+      },
+      "baseline": {
+        "total_return": 0.03487739251483313,
+        "max_daily_drawdown": 0.11455533220066572,
+        "years": {
+          "2018": 0.032933898241583215,
+          "2019": 0.043379039326583824,
+          "2020": -0.03977222998352736
+        },
+        "ending_equity": 31046.321775444994
+      }
+    }
+  ],
+  "benchmark_price_return": 0.01860458010235777,
+  "benchmark_note": "CSI500 price index, excludes dividends; not a directly tradable investment return"
+}

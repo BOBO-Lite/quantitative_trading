@@ -1,0 +1,6 @@
+{
+  "loss_count": 25,
+  "trough_before_sell_count": 13,
+  "returned_to_entry_after_observed_trough_count": 9,
+  "warning": "Retrospective holding-window prices only; intrabar rebound order is not reconstructed; no after-exit recovery observations. These are not predictive probabilities."
+}

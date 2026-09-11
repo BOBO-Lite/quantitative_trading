@@ -1,0 +1,42 @@
+{
+  "case": {
+    "cost": 1.0,
+    "mode": "LM",
+    "symbol": "600585.SH",
+    "entry": "2019-02-19",
+    "exit": "2019-03-11",
+    "end": "2019-05-17",
+    "signal": null,
+    "trigger": {
+      "symbol": "600585.SH",
+      "entry_date": "2019-02-19",
+      "trigger_time": "2019-03-08T15:00:00",
+      "reason": "close_confirmed_stop",
+      "close_signal": true,
+      "holding_days": 14,
+      "route": "trend_breakout",
+      "drawdown": 0.05184577947753388,
+      "price": 35.15,
+      "stop": 35.263999999999996,
+      "entry_reference": 35.37534,
+      "initial_r": 1.5379999999999985,
+      "prior_context": {
+        "asof": "2019-03-07",
+        "volume_ratio": 1.2618535377393982,
+        "down": true,
+        "relative5": -0.06450789972669968,
+        "two_below_ma10": false
+      }
+    },
+    "original_quantity": 200,
+    "original_capital": 7080.13875068,
+    "original_profit": -19.81990192000012,
+    "starting_cash": 7060.31884876
+  },
+  "result": {
+    "status": "NO_SIGNAL",
+    "increment": 0.0,
+    "fills": [],
+    "daily": []
+  }
+}

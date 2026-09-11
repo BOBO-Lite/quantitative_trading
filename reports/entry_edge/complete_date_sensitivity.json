@@ -1,0 +1,218 @@
+[
+  {
+    "year": "ALL",
+    "horizon": 5,
+    "group": "FH_ALL",
+    "dates": 156,
+    "excess_pool_pct": 0.2683372573600059,
+    "excess_market_pct": 0.2826466717603086
+  },
+  {
+    "year": "ALL",
+    "horizon": 5,
+    "group": "FH_TOP5",
+    "dates": 156,
+    "excess_pool_pct": 0.007012599604763292,
+    "excess_market_pct": 0.02132201400506597
+  },
+  {
+    "year": "ALL",
+    "horizon": 5,
+    "group": "MOM_TOP5",
+    "dates": 156,
+    "excess_pool_pct": 1.1465671611533572,
+    "excess_market_pct": 1.1608765755536599
+  },
+  {
+    "year": "ALL",
+    "horizon": 20,
+    "group": "FH_ALL",
+    "dates": 150,
+    "excess_pool_pct": 0.9067155233421967,
+    "excess_market_pct": 0.7133221220794231
+  },
+  {
+    "year": "ALL",
+    "horizon": 20,
+    "group": "FH_TOP5",
+    "dates": 150,
+    "excess_pool_pct": 0.5411660424993456,
+    "excess_market_pct": 0.34777264123657187
+  },
+  {
+    "year": "ALL",
+    "horizon": 20,
+    "group": "MOM_TOP5",
+    "dates": 150,
+    "excess_pool_pct": -3.5127575736255157,
+    "excess_market_pct": -3.7061509748882893
+  },
+  {
+    "year": "ALL",
+    "horizon": 60,
+    "group": "FH_ALL",
+    "dates": 117,
+    "excess_pool_pct": 3.746432631607515,
+    "excess_market_pct": 3.5761012582223493
+  },
+  {
+    "year": "ALL",
+    "horizon": 60,
+    "group": "FH_TOP5",
+    "dates": 117,
+    "excess_pool_pct": 3.3167572558202627,
+    "excess_market_pct": 3.1464258824350972
+  },
+  {
+    "year": "ALL",
+    "horizon": 60,
+    "group": "MOM_TOP5",
+    "dates": 117,
+    "excess_pool_pct": -17.749578161246475,
+    "excess_market_pct": -17.919909534631646
+  },
+  {
+    "year": "2019",
+    "horizon": 5,
+    "group": "FH_ALL",
+    "dates": 69,
+    "excess_pool_pct": -0.30198014075594515,
+    "excess_market_pct": -0.15833283824515154
+  },
+  {
+    "year": "2019",
+    "horizon": 5,
+    "group": "FH_TOP5",
+    "dates": 69,
+    "excess_pool_pct": -0.3545147740720422,
+    "excess_market_pct": -0.21086747156124852
+  },
+  {
+    "year": "2019",
+    "horizon": 5,
+    "group": "MOM_TOP5",
+    "dates": 69,
+    "excess_pool_pct": 0.606975725058677,
+    "excess_market_pct": 0.7506230275694706
+  },
+  {
+    "year": "2019",
+    "horizon": 20,
+    "group": "FH_ALL",
+    "dates": 69,
+    "excess_pool_pct": 0.1894244217733612,
+    "excess_market_pct": 0.048092351903142976
+  },
+  {
+    "year": "2019",
+    "horizon": 20,
+    "group": "FH_TOP5",
+    "dates": 69,
+    "excess_pool_pct": -0.11703781927468186,
+    "excess_market_pct": -0.25836988914490006
+  },
+  {
+    "year": "2019",
+    "horizon": 20,
+    "group": "MOM_TOP5",
+    "dates": 69,
+    "excess_pool_pct": -4.594770210716265,
+    "excess_market_pct": -4.7361022805864845
+  },
+  {
+    "year": "2019",
+    "horizon": 60,
+    "group": "FH_ALL",
+    "dates": 38,
+    "excess_pool_pct": 1.1547078299351567,
+    "excess_market_pct": 0.8103465273570384
+  },
+  {
+    "year": "2019",
+    "horizon": 60,
+    "group": "FH_TOP5",
+    "dates": 38,
+    "excess_pool_pct": 0.9796676317460199,
+    "excess_market_pct": 0.6353063291679015
+  },
+  {
+    "year": "2019",
+    "horizon": 60,
+    "group": "MOM_TOP5",
+    "dates": 38,
+    "excess_pool_pct": -10.721274784980965,
+    "excess_market_pct": -11.065636087559083
+  },
+  {
+    "year": "2020",
+    "horizon": 5,
+    "group": "FH_ALL",
+    "dates": 85,
+    "excess_pool_pct": 0.6269570767236768,
+    "excess_market_pct": 0.5667099196972998
+  },
+  {
+    "year": "2020",
+    "horizon": 5,
+    "group": "FH_TOP5",
+    "dates": 85,
+    "excess_pool_pct": 0.163062086060499,
+    "excess_market_pct": 0.10281492903412193
+  },
+  {
+    "year": "2020",
+    "horizon": 5,
+    "group": "MOM_TOP5",
+    "dates": 85,
+    "excess_pool_pct": 1.336848881707758,
+    "excess_market_pct": 1.276601724681381
+  },
+  {
+    "year": "2020",
+    "horizon": 20,
+    "group": "FH_ALL",
+    "dates": 81,
+    "excess_pool_pct": 1.517741276530464,
+    "excess_market_pct": 1.2799993337110693
+  },
+  {
+    "year": "2020",
+    "horizon": 20,
+    "group": "FH_TOP5",
+    "dates": 81,
+    "excess_pool_pct": 1.1018582210475911,
+    "excess_market_pct": 0.8641162782281963
+  },
+  {
+    "year": "2020",
+    "horizon": 20,
+    "group": "MOM_TOP5",
+    "dates": 81,
+    "excess_pool_pct": -2.591043104992655,
+    "excess_market_pct": -2.8287850478120498
+  },
+  {
+    "year": "2020",
+    "horizon": 60,
+    "group": "FH_ALL",
+    "dates": 79,
+    "excess_pool_pct": 4.993085067854979,
+    "excess_market_pct": 4.906464293322118
+  },
+  {
+    "year": "2020",
+    "horizon": 60,
+    "group": "FH_TOP5",
+    "dates": 79,
+    "excess_pool_pct": 4.440926948412937,
+    "excess_market_pct": 4.354306173880077
+  },
+  {
+    "year": "2020",
+    "horizon": 60,
+    "group": "MOM_TOP5",
+    "dates": 79,
+    "excess_pool_pct": -21.13028105109571,
+    "excess_market_pct": -21.21690182562857
+  }
+]

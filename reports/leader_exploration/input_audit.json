@@ -1,0 +1,28 @@
+{
+  "start": "2018-01-02",
+  "end": "2020-11-30",
+  "days": 707,
+  "symbols": 662,
+  "source_sha256": {
+    "screen_export_2018.txt": "1b1bd25db787b2d7e1d93447032fccd003caf2cc6ef0911697b2f82cfadbc1d5",
+    "screen_export_2019.txt": "4f93b527b74a8bd3501e29babe72ce53ab3a19cec1d249017b46368d57e0ecf5",
+    "screen_export_2020.txt": "328b27f41484bd72418243ee382afdb5f6b788aacfe15fbb2964b996190656b8"
+  },
+  "overlapping_rows": 1239530,
+  "overlap_conflicts_kept_earliest": 0,
+  "missing": {
+    "missing_60day_window": 1060,
+    "missing_member_days": 6882
+  },
+  "coverage": {
+    "member_days_with_60day_window": 318110
+  },
+  "universe_member_days": 326052,
+  "scope": "historical CSI500 mainboard monthly membership, incomplete reconstructed daily windows",
+  "limitations": [
+    "data originally exported only for valid month-end windows; missingness can bias the sample",
+    "future month-end membership does not determine daily selection; previous known monthly membership used",
+    "factor-return exposure proxy; no exact cash-dividend or share-distribution ledger",
+    "daily open and approximate price-limit checks; no minute queue, fill or capacity validation"
+  ]
+}

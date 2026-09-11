@@ -1,0 +1,120 @@
+[
+  {
+    "mode": "baseline",
+    "cost": 1.0,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": 0.057465029828334346,
+      "max_minute_close_drawdown": 0.13624561637023158,
+      "drawdown_peak_time": "2020-01-21T09:31:00",
+      "drawdown_trough_time": "2020-05-22T13:47:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 506.91810515000003
+    },
+    "final": {
+      "cash": 31723.95089485003,
+      "equity": 31723.95089485003,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 165.0,
+      "dividend_tax": 33.0,
+      "realized_pnl": 1591.950894850021,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 76
+  },
+  {
+    "mode": "baseline",
+    "cost": 1.5,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": 0.03487739251483313,
+      "max_minute_close_drawdown": 0.13216346239141874,
+      "drawdown_peak_time": "2020-01-21T09:31:00",
+      "drawdown_trough_time": "2020-05-22T13:47:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 757.795224555
+    },
+    "final": {
+      "cash": 31046.321775444994,
+      "equity": 31046.321775444994,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 165.0,
+      "dividend_tax": 33.0,
+      "realized_pnl": 914.3217754449984,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 76
+  },
+  {
+    "mode": "rs20",
+    "cost": 1.0,
+    "status": "MISSING_MINUTES",
+    "requests": [
+      {
+        "symbol": "002563.SZ",
+        "date": "2018-01-30"
+      }
+    ]
+  },
+  {
+    "mode": "rs20",
+    "cost": 1.5,
+    "status": "MISSING_MINUTES",
+    "requests": [
+      {
+        "symbol": "002563.SZ",
+        "date": "2018-01-30"
+      }
+    ]
+  },
+  {
+    "mode": "stable60",
+    "cost": 1.0,
+    "status": "MISSING_MINUTES",
+    "requests": [
+      {
+        "symbol": "002563.SZ",
+        "date": "2018-01-30"
+      }
+    ]
+  },
+  {
+    "mode": "stable60",
+    "cost": 1.5,
+    "status": "MISSING_MINUTES",
+    "requests": [
+      {
+        "symbol": "002563.SZ",
+        "date": "2018-01-30"
+      }
+    ]
+  },
+  {
+    "mode": "cap2",
+    "cost": 1.0,
+    "status": "MISSING_MINUTES",
+    "requests": [
+      {
+        "symbol": "002601.SZ",
+        "date": "2020-01-02"
+      }
+    ]
+  },
+  {
+    "mode": "cap2",
+    "cost": 1.5,
+    "status": "MISSING_MINUTES",
+    "requests": [
+      {
+        "symbol": "002601.SZ",
+        "date": "2020-01-02"
+      }
+    ]
+  }
+]

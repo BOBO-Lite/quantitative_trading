@@ -1,0 +1,97 @@
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\environment.py:155: DeprecationWarning: Use warning instead
+  user_system_log.warn(reason)
+..C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+..C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+.C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+.C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+.C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+.C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+[2019-04-18 09:46:00.000000] ERROR: user_system_log: 策略运行产生异常
+Traceback (most recent call last):
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\main.py", line 222, in run
+    executor.run(bar_dict)
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\core\executor.py", line 47, in run
+    self._split_and_publish(event)
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\core\executor.py", line 99, in _split_and_publish
+    self._env.event_bus.publish_event(e)
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\core\events.py", line 46, in publish_event
+    if listener(event):
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py", line 481, in _on_bar
+    price = self._env.get_last_price(order_book_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\environment.py", line 172, in get_last_price
+    return self.data_proxy.get_last_price(order_book_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\data\data_proxy.py", line 290, in get_last_price
+    return float(self._price_board.get_last_price(order_book_id))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\data\bar_dict_price_board.py", line 33, in get_last_price
+    return self._get_bar(order_book_id).last
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\data\bar_dict_price_board.py", line 30, in _get_bar
+    return self._env.get_bar(order_book_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\environment.py", line 169, in get_bar
+    return self.data_proxy.get_bar(order_book_id, self.calendar_dt, self.config.base.frequency)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\data\data_proxy.py", line 177, in get_bar
+    bar = self._data_source.get_bar(instrument, dt, frequency)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\22680\Documents\ChatGPT\量化\adapters\rqalpha_sample_mod.py", line 84, in get_bar
+    raise ValueError('缺少估值分钟')
+ValueError: 缺少估值分钟
+[2019-04-18 09:46:00.000000] ERROR: user_system_log: 缺少估值分钟
+.C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+.C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+.C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\environment.py:155: DeprecationWarning: Use warning instead
+  user_system_log.warn(reason)
+.C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\model\order.py:373: DeprecationWarning: Use warning instead
+  user_system_log.warn(cancelled_reason)
+.C:\Users\22680\Documents\ChatGPT\量化\.venv-framework\Lib\site-packages\rqalpha\portfolio\account.py:212: DeprecationWarning: Use warning instead
+  user_system_log.warn(_("account.positions is deprecated, please use get_position/get_positions API instead"))
+.
+----------------------------------------------------------------------
+Ran 14 tests in 7.831s
+
+OK

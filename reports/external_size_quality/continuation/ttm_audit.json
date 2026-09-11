@@ -1,0 +1,781 @@
+{
+  "status": "PASS_COUNTEREXAMPLE_REPRODUCTION",
+  "comparisons": 24,
+  "ordinary_controls_matching_two_decimals": 20,
+  "sign_mismatches": 2,
+  "results": [
+    {
+      "asof": "2017-12-29",
+      "symbol": "000001.SZ",
+      "period": "2017-09-30",
+      "legs": [
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2017-09-30",
+          "published": "2017-10-21",
+          "income": 19153000000.0
+        },
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2016-12-31",
+          "published": "2017-03-17",
+          "income": 22599000000.0
+        },
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2016-09-30",
+          "published": "2017-10-21",
+          "income": 18719000000.0
+        }
+      ],
+      "public_ttm": "23033000000.0",
+      "provider_pe": 9.91,
+      "diagnostic_cap_over_ttm": 9.914751494282116,
+      "sign_match": true
+    },
+    {
+      "asof": "2017-12-29",
+      "symbol": "000063.SZ",
+      "period": "2017-09-30",
+      "legs": [
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2017-09-30",
+          "published": "2017-10-27",
+          "income": 3904652000.0
+        },
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2016-12-31",
+          "published": "2017-03-24",
+          "income": -2357418000.0
+        },
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2016-09-30",
+          "published": "2017-10-27",
+          "income": 2858887000.0
+        }
+      ],
+      "public_ttm": "-1311653000.0",
+      "provider_pe": -116.22,
+      "diagnostic_cap_over_ttm": -109.41227892669784,
+      "sign_match": true
+    },
+    {
+      "asof": "2017-12-29",
+      "symbol": "000651.SZ",
+      "period": "2017-09-30",
+      "legs": [
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2017-09-30",
+          "published": "2017-10-31",
+          "income": 15460708932.03
+        },
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2016-12-31",
+          "published": "2017-04-27",
+          "income": 15420964990.94
+        },
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2016-09-30",
+          "published": "2017-10-31",
+          "income": 11229059260.85
+        }
+      ],
+      "public_ttm": "19652614662.12",
+      "provider_pe": 13.38,
+      "diagnostic_cap_over_ttm": 13.376715713828654,
+      "sign_match": true
+    },
+    {
+      "asof": "2017-12-29",
+      "symbol": "002346.SZ",
+      "period": "2017-09-30",
+      "legs": [
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2017-09-30",
+          "published": "2017-10-28",
+          "income": 244410376.45
+        },
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2016-12-31",
+          "published": "2017-04-27",
+          "income": 20161860.14
+        },
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2016-09-30",
+          "published": "2017-10-28",
+          "income": 12029062.16
+        }
+      ],
+      "public_ttm": "252543174.43",
+      "provider_pe": 32.68,
+      "diagnostic_cap_over_ttm": 32.679737013948014,
+      "sign_match": true
+    },
+    {
+      "asof": "2017-12-29",
+      "symbol": "600519.SH",
+      "period": "2017-09-30",
+      "legs": [
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2017-09-30",
+          "published": "2017-10-26",
+          "income": 19983846984.1
+        },
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2016-12-31",
+          "published": "2017-04-15",
+          "income": 16718362734.16
+        },
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2016-09-30",
+          "published": "2017-10-26",
+          "income": 12465577764.14
+        }
+      ],
+      "public_ttm": "24236631954.12",
+      "provider_pe": 36.15,
+      "diagnostic_cap_over_ttm": 36.15128559036672,
+      "sign_match": true
+    },
+    {
+      "asof": "2017-12-29",
+      "symbol": "603060.SH",
+      "period": "2017-09-30",
+      "legs": [
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2017-09-30",
+          "published": "2017-10-30",
+          "income": 106673425.17
+        },
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2016-12-31",
+          "published": "2017-04-12",
+          "income": 115773356.06
+        },
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2016-09-30",
+          "published": "2017-10-30",
+          "income": 85007904.8
+        }
+      ],
+      "public_ttm": "137438876.43",
+      "provider_pe": 34.86,
+      "diagnostic_cap_over_ttm": 34.86349804700597,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-05-02",
+      "symbol": "000001.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-20",
+          "income": 6595000000.0
+        },
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-03-15",
+          "income": 23189000000.0
+        },
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-20",
+          "income": 6214000000.0
+        }
+      ],
+      "public_ttm": "23570000000.0",
+      "provider_pe": 7.93,
+      "diagnostic_cap_over_ttm": 7.925925993299957,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-05-02",
+      "symbol": "000063.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-28",
+          "income": 1687020000.0
+        },
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-03-16",
+          "income": 4568172000.0
+        },
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-28",
+          "income": 1338589000.0
+        }
+      ],
+      "public_ttm": "4916603000.0",
+      "provider_pe": -60.28,
+      "diagnostic_cap_over_ttm": 25.079494967515174,
+      "sign_match": false
+    },
+    {
+      "asof": "2018-05-02",
+      "symbol": "000651.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-27",
+          "income": 5581624396.63
+        },
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-04-26",
+          "income": 22401576204.94
+        },
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-27",
+          "income": 4014536499.66
+        }
+      ],
+      "public_ttm": "23968664101.91",
+      "provider_pe": 11.34,
+      "diagnostic_cap_over_ttm": 11.344438493922242,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-05-02",
+      "symbol": "002346.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-25",
+          "income": 16142305.24
+        },
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-04-25",
+          "income": 259255842.86
+        },
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-25",
+          "income": 17371024.51
+        }
+      ],
+      "public_ttm": "258027123.59",
+      "provider_pe": 28.43,
+      "diagnostic_cap_over_ttm": 28.425568435256764,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-05-02",
+      "symbol": "600519.SH",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-28",
+          "income": 8506906678.2
+        },
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-03-28",
+          "income": 27079360255.74
+        },
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-28",
+          "income": 6123119324.13
+        }
+      ],
+      "public_ttm": "29463147609.81",
+      "provider_pe": 28.47,
+      "diagnostic_cap_over_ttm": 28.47375941919635,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-05-02",
+      "symbol": "603060.SH",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-20",
+          "income": 19430501.17
+        },
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-04-02",
+          "income": 144224161.14
+        },
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-20",
+          "income": 15660461.68
+        }
+      ],
+      "public_ttm": "147994200.63",
+      "provider_pe": 29.26,
+      "diagnostic_cap_over_ttm": 29.255200417105694,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-27",
+      "symbol": "000001.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-20",
+          "income": 6595000000.0
+        },
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-03-15",
+          "income": 23189000000.0
+        },
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-20",
+          "income": 6214000000.0
+        }
+      ],
+      "public_ttm": "23570000000.0",
+      "provider_pe": 6.74,
+      "diagnostic_cap_over_ttm": 6.738494065994908,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-27",
+      "symbol": "000063.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-28",
+          "income": 1687020000.0
+        },
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-03-16",
+          "income": 4568172000.0
+        },
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-28",
+          "income": 1338589000.0
+        }
+      ],
+      "public_ttm": "4916603000.0",
+      "provider_pe": -29.71,
+      "diagnostic_cap_over_ttm": 12.614978772227492,
+      "sign_match": false
+    },
+    {
+      "asof": "2018-07-27",
+      "symbol": "000651.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-27",
+          "income": 5581624396.63
+        },
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-04-26",
+          "income": 22401576204.94
+        },
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-27",
+          "income": 4014536499.66
+        }
+      ],
+      "public_ttm": "23968664101.91",
+      "provider_pe": 11.07,
+      "diagnostic_cap_over_ttm": 11.073376689200206,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-27",
+      "symbol": "002346.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-25",
+          "income": 16142305.24
+        },
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-04-25",
+          "income": 259255842.86
+        },
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-25",
+          "income": 17371024.51
+        }
+      ],
+      "public_ttm": "258027123.59",
+      "provider_pe": 22.61,
+      "diagnostic_cap_over_ttm": 22.60696923719096,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-27",
+      "symbol": "600519.SH",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-28",
+          "income": 8506906678.2
+        },
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-03-28",
+          "income": 27079360255.74
+        },
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-28",
+          "income": 6123119324.13
+        }
+      ],
+      "public_ttm": "29463147609.81",
+      "provider_pe": 31.49,
+      "diagnostic_cap_over_ttm": 31.489420596022427,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-27",
+      "symbol": "603060.SH",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-20",
+          "income": 19430501.17
+        },
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-04-02",
+          "income": 144224161.14
+        },
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-20",
+          "income": 15660461.68
+        }
+      ],
+      "public_ttm": "147994200.63",
+      "provider_pe": 26.76,
+      "diagnostic_cap_over_ttm": 26.757805259547894,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-30",
+      "symbol": "000001.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-20",
+          "income": 6595000000.0
+        },
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-03-15",
+          "income": 23189000000.0
+        },
+        {
+          "symbol": "000001.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-20",
+          "income": 6214000000.0
+        }
+      ],
+      "public_ttm": "23570000000.0",
+      "provider_pe": 6.84,
+      "diagnostic_cap_over_ttm": 6.840482084291048,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-30",
+      "symbol": "000063.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-07-28",
+          "income": -5407237000.0
+        },
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-03-16",
+          "income": 4568172000.0
+        },
+        {
+          "symbol": "000063.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-28",
+          "income": 1338589000.0
+        }
+      ],
+      "public_ttm": "-2177654000.0",
+      "provider_pe": -29.03,
+      "diagnostic_cap_over_ttm": -27.976357978250906,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-30",
+      "symbol": "000651.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-27",
+          "income": 5581624396.63
+        },
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-04-26",
+          "income": 22401576204.94
+        },
+        {
+          "symbol": "000651.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-27",
+          "income": 4014536499.66
+        }
+      ],
+      "public_ttm": "23968664101.91",
+      "provider_pe": 11.1,
+      "diagnostic_cap_over_ttm": 11.098475004452247,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-30",
+      "symbol": "002346.SZ",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-25",
+          "income": 16142305.24
+        },
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-04-25",
+          "income": 259255842.86
+        },
+        {
+          "symbol": "002346.SZ",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-25",
+          "income": 17371024.51
+        }
+      ],
+      "public_ttm": "258027123.59",
+      "provider_pe": 21.99,
+      "diagnostic_cap_over_ttm": 21.99088226327811,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-30",
+      "symbol": "600519.SH",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-28",
+          "income": 8506906678.2
+        },
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-03-28",
+          "income": 27079360255.74
+        },
+        {
+          "symbol": "600519.SH",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-28",
+          "income": 6123119324.13
+        }
+      ],
+      "public_ttm": "29463147609.81",
+      "provider_pe": 30.66,
+      "diagnostic_cap_over_ttm": 30.66440937346362,
+      "sign_match": true
+    },
+    {
+      "asof": "2018-07-30",
+      "symbol": "603060.SH",
+      "period": "2018-03-31",
+      "legs": [
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2018-03-31",
+          "published": "2018-04-20",
+          "income": 19430501.17
+        },
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2017-12-31",
+          "published": "2018-04-02",
+          "income": 144224161.14
+        },
+        {
+          "symbol": "603060.SH",
+          "table": "income",
+          "period": "2017-03-31",
+          "published": "2018-04-20",
+          "income": 15660461.68
+        }
+      ],
+      "public_ttm": "147994200.63",
+      "provider_pe": 27.08,
+      "diagnostic_cap_over_ttm": 27.084845101609034,
+      "sign_match": true
+    }
+  ],
+  "limits": [
+    "24 comparisons only; not a market-wide vintage certification",
+    "capitalization divided by profit is diagnostic; A/H equity scope prevents exact PE equivalence",
+    "SQ1 uses public TTM sign only; provider PE is not a screening gate"
+  ]
+}

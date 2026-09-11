@@ -1,0 +1,32 @@
+{
+  "status": "PASS_BENCHMARK_AND_HISTORICAL_INDUSTRY_SAMPLE",
+  "benchmark_start": "2017-01-03",
+  "benchmark_end": "2026-09-08",
+  "benchmark_days": 2352,
+  "benchmark_overlap": {
+    "overlap_days": 122,
+    "max_close_difference": 0.00120000000060827
+  },
+  "industry_rows": 792,
+  "industry_count": 24,
+  "membership_counts": {
+    "20190228": 2845,
+    "20190331": 2851
+  },
+  "industry_definition": "previous month-end classified historical mainboard members; daily equal-weight returns compounded over 20 sessions; average-tie percentile",
+  "limitations": [
+    "行业样本仅2019年3月至4月；未分类股票不被猜测归入行业",
+    "前复权价仅用于收益比率，不用于成交或现金账本",
+    "完整策略财报时点、长期状态和分钟覆盖仍缺"
+  ],
+  "formal_strategy_validated": false,
+  "hashes": {
+    "reports\\s2_research\\long_history\\platform_export.txt": "0198b41d9ae4faf2e02e420dbf0184255bbfbc567b8d9b7e24e0652b0a0e0d69",
+    "runtime\\s1_benchmark.csv": "2a80f71cb1f81a829835ff56a9c5e7137af6280ede6774c673253160cd14752d",
+    "runtime\\industry_history\\monthly_industry.csv.gz": "1e1b2673b7eb1fdc31b829f19b8444d232283e6cebe2a86e2700b36fe15fa4fe",
+    "reports\\s2_research\\portfolio_replay\\historical_ranked_features.json": "7c5033d84d35a6d1453c6a7cb9fc271188a97b9d3ab1e0142ccf9eec3df55292",
+    "reports\\s2_research\\long_history\\research_benchmark.csv": "472adce334801d160d472ef8de863e29614c47750d5879420d0e81f97928513a",
+    "reports\\s2_research\\long_history\\industry_daily_returns.csv": "1de2c456650e5978b99f5998eb089a14c168c3946ee60bbdf52ed69a8652809c",
+    "reports\\s2_research\\long_history\\historical_enriched_features.json": "118cf9c68fe86f411126f6e94df1975bdb20590c2954bd24efb6f199cf88df98"
+  }
+}

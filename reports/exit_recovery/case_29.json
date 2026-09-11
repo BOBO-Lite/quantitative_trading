@@ -1,0 +1,42 @@
+{
+  "case": {
+    "cost": 1.5,
+    "mode": "LM",
+    "symbol": "600019.SH",
+    "entry": "2020-06-18",
+    "exit": "2020-06-24",
+    "end": "2020-09-11",
+    "signal": null,
+    "trigger": {
+      "symbol": "600019.SH",
+      "entry_date": "2020-06-18",
+      "trigger_time": "2020-06-23T15:00:00",
+      "reason": "close_confirmed_stop",
+      "close_signal": true,
+      "holding_days": 4,
+      "route": "trend_breakout",
+      "drawdown": 0.12512946595412233,
+      "price": 4.61,
+      "stop": 4.636913806863527,
+      "entry_reference": 4.74711,
+      "initial_r": 0.1424133,
+      "prior_context": {
+        "asof": "2020-06-22",
+        "volume_ratio": 0.8007758938255868,
+        "down": true,
+        "relative5": 0.012076122662206368,
+        "two_below_ma10": false
+      }
+    },
+    "original_quantity": 1100,
+    "original_capital": 5229.399327315,
+    "original_profit": -188.35442096499992,
+    "starting_cash": 5041.04490635
+  },
+  "result": {
+    "status": "NO_SIGNAL",
+    "increment": 0.0,
+    "fills": [],
+    "daily": []
+  }
+}

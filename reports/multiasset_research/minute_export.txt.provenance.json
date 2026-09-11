@@ -1,0 +1,90 @@
+{
+  "note": "仅重封已校验数据包，没有生成或修改行情",
+  "packets": {
+    "etf_minutes_510300.SH_2026": [
+      "reports/etf_research/extended_2018_2026/minute_export.txt"
+    ],
+    "etf_minutes_510300.SH_2025": [
+      "reports/etf_research/extended_2018_2026/minute_export.txt"
+    ],
+    "etf_minutes_510300.SH_2024": [
+      "reports/etf_research/extended_2018_2026/minute_export.txt"
+    ],
+    "etf_minutes_510300.SH_2023": [
+      "reports/etf_research/extended_2018_2026/minute_export.txt"
+    ],
+    "etf_minutes_510300.SH_2022": [
+      "reports/etf_research/extended_2018_2026/minute_export.txt"
+    ],
+    "etf_minutes_510300.SH_2021": [
+      "reports/etf_research/extended_2018_2026/minute_export.txt"
+    ],
+    "etf_minutes_510300.SH_2020": [
+      "reports/etf_research/extended_2018_2026/minute_export.txt"
+    ],
+    "etf_minutes_510300.SH_2019": [
+      "reports/etf_research/extended_2018_2026/minute_export.txt"
+    ],
+    "etf_minutes_510300.SH_2018": [
+      "reports/etf_research/extended_2018_2026/minute_export.txt"
+    ],
+    "etf_minutes_518880.SH_2026": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_518880.SH_2025": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_518880.SH_2024": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_518880.SH_2023": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_518880.SH_2022": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_518880.SH_2021": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_518880.SH_2020": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_518880.SH_2019": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_518880.SH_2018": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_511010.SH_2026": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_511010.SH_2025": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_511010.SH_2024": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_511010.SH_2023": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_511010.SH_2022": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_511010.SH_2021": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_511010.SH_2020": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_511010.SH_2019": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ],
+    "etf_minutes_511010.SH_2018": [
+      "reports/multiasset_research/raw_minute_export.txt"
+    ]
+  },
+  "source_sha256": {
+    "reports/etf_research/extended_2018_2026/minute_export.txt": "083c1699a23fd1cb4a270060ca69f9ac8af2be84860f80b5b518cacc62a56ab3",
+    "reports/multiasset_research/raw_minute_export.txt": "f03207876a1a5a2433711b905616757f54e5d6ecd1001acd4c0998f19b1a3ea3"
+  }
+}

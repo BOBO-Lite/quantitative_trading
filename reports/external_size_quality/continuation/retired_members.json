@@ -1,0 +1,15 @@
+{
+  "600270.SH": {
+    "published": "2018-12-23",
+    "effective": "2018-12-28",
+    "source_url": "https://finance.sina.com.cn/roll/2018-12-23/doc-ihmutuee1905254.shtml",
+    "previous_evidence": "reports/external_momentum/universe_resolution.json"
+  },
+  "600401.SH": {
+    "published": "2019-07-08",
+    "effective": "2019-07-12",
+    "source_url": "https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20190708_74758558.shtml",
+    "source_file": "600401_delisting_source.txt",
+    "source_sha256": "8356dd7bca18292cc2f30be15aaa4216d6368ac40e644a33036066255890dabc"
+  }
+}

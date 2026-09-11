@@ -1,0 +1,15 @@
+{
+  "module_tests": 157,
+  "core_tests": 6,
+  "failures": 0,
+  "integrity": "PASS",
+  "report_id": "6a9fd871acb66d00b64c4fda",
+  "sha256": {
+    "adapters/supermind_s1_minute_backtest.py": "c1e87739dcea419665650e4d714ea8d5a414a9ac849cd08d7596c30dcdfaf9e5",
+    "adapters/supermind_minute_bundle_probe.py": "f11972cba9301ef90e7d01192675135d2501e75be1e245c3e48b147a9d820ea3",
+    "src/import_supermind_minute_probe.py": "d1b78276f6eb83214043d5e6179ad4d5123f2bcfa5fc6c26971953fda44124b1",
+    "src/replay_historical_minute_probe.py": "3367c7519eb0464a76a8881b9e3a6b073ebcf243be3753c67021d8393b265c2f",
+    "src/research_portfolio.py": "20881fe2596e262af103449b78adf04f8e59b4a601501cf109b80dd88a31efab",
+    "reports/s2_research/portfolio_replay/historical_minute_sample.json": "62a07ea61c7fc44b23748a2ac9954507100cb881f2303b64243e92577750dd65"
+  }
+}

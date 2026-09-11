@@ -1,0 +1,19 @@
+[
+  "status",
+  "formal_strategy_validated",
+  "research_version",
+  "source_kind",
+  "policy",
+  "execution_convention",
+  "final",
+  "positions",
+  "fills",
+  "orders",
+  "daily",
+  "decisions",
+  "minute_curve",
+  "corporate_ledger",
+  "metrics",
+  "pnl_by_route",
+  "realized_by_route"
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "version": "ETF1.0",
+    "cost": 1.0,
+    "entire_result_identical": true
+  },
+  {
+    "version": "ETF1.0",
+    "cost": 1.5,
+    "entire_result_identical": true
+  },
+  {
+    "version": "ETF2.0",
+    "cost": 1.0,
+    "entire_result_identical": true
+  },
+  {
+    "version": "ETF2.0",
+    "cost": 1.5,
+    "entire_result_identical": true
+  }
+]

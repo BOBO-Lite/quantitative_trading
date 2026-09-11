@@ -1,0 +1,53 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+
+需要帮助？
+
+试试AI小助手吧
+
+全局搜索
+HI！mx_69lp3klgu
+
+如果您有本地使用其他数据的需求，请联系我们
+
+联系客服
+全部
+股票
+A股
+上市公司资料
+分红送股信息
+分红送股信息
+
+记录A股上市公司历史分红送股数据
+
+字段说明
+使用代码
+数据样例
+
+目前有两张表中都存了分红相关的计算指标
+
+字段	含义
+symbol	标的代码
+date	报告期
+plan_announcement_day	预案公告日
+per_share_bonus	每股红股
+per_share_capital_stock	每股转增股本
+bonus_shares_trading_day	红股上市交易日
+announcement_date_of_gmos	股东大会公告日
+cash_dividend_ratio	现金分红比例
+ex_dividend_date	除权除息日
+dividend_announcement_date	分红实施公告日
+date_payable	派息日
+date_of_record	股权登记日
+pre_disclosure_announcement_date	预披露公告日期
+字段	含义
+ex_date	除权除息日
+symbol	标的代码
+cash_dividends 	每股现金红利
+give_stock	每股红股
+transfer_stock	每股转增股本

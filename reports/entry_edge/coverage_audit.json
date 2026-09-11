@@ -1,0 +1,13 @@
+{
+  "original_signal_checks": 6419,
+  "source_errors": 0,
+  "cached_raw_endpoint_field_checks": 4348,
+  "conflicts": [],
+  "signal_statuses": {
+    "OK": 19131,
+    "MISSING_ENDPOINT": 1,
+    "CENSORED": 125
+  },
+  "actual_normal": 36,
+  "actual_pressure": 38
+}

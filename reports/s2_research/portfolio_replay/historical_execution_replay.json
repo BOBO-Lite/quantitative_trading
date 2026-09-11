@@ -1,0 +1,243 @@
+{
+  "input_sha256": "62a07ea61c7fc44b23748a2ac9954507100cb881f2303b64243e92577750dd65",
+  "cases": [
+    {
+      "status": "PASS_FIXED_HISTORICAL_EXECUTION_REPLAY",
+      "formal_strategy_validated": false,
+      "participation": 0.25,
+      "snapshot": {
+        "cash": 30095.444358380002,
+        "equity": 30095.444358380002,
+        "reserved_cash": 0,
+        "realized_pnl": 95.444358380003,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "000001.SZ",
+          "buy": true,
+          "intent_time": "2019-04-17T09:45:00",
+          "fill_time": "2019-04-17T09:46:00",
+          "price": 14.364349999999998,
+          "quantity": 500,
+          "fees": 5.07182175,
+          "net_pnl": null,
+          "cash_after": 22812.75317825
+        },
+        {
+          "order_id": 2,
+          "symbol": "600036.SH",
+          "buy": true,
+          "intent_time": "2019-04-17T09:45:00",
+          "fill_time": "2019-04-17T09:46:00",
+          "price": 35.88585,
+          "quantity": 600,
+          "fees": 5.2153151,
+          "net_pnl": null,
+          "cash_after": 1276.0278631500041
+        },
+        {
+          "order_id": 3,
+          "symbol": "000001.SZ",
+          "buy": false,
+          "intent_time": "2019-04-19T09:45:00",
+          "fill_time": "2019-04-19T09:46:00",
+          "price": 14.43555,
+          "quantity": 500,
+          "fees": 8.68106525,
+          "net_pnl": 21.847113000000718,
+          "cash_after": 8485.121797900003
+        },
+        {
+          "order_id": 4,
+          "symbol": "600036.SH",
+          "buy": false,
+          "intent_time": "2019-04-19T09:45:00",
+          "fill_time": "2019-04-19T09:46:00",
+          "price": 36.04392,
+          "quantity": 600,
+          "fees": 16.02943952,
+          "net_pnl": 73.59724538000228,
+          "cash_after": 30095.444358380002
+        }
+      ],
+      "orders": [
+        {
+          "order_id": 1,
+          "symbol": "000001.SZ",
+          "quantity": 500,
+          "intent_time": "2019-04-17T09:45:00",
+          "buy": true,
+          "factor": 112.6305,
+          "limit": 14.5,
+          "reserve": 7255.0725,
+          "status": "FILLED",
+          "filled_quantity": 500
+        },
+        {
+          "order_id": 2,
+          "symbol": "600036.SH",
+          "quantity": 600,
+          "intent_time": "2019-04-17T09:45:00",
+          "buy": true,
+          "factor": 4.1222,
+          "limit": 36.0,
+          "reserve": 21605.216,
+          "status": "FILLED",
+          "filled_quantity": 600
+        },
+        {
+          "order_id": 3,
+          "symbol": "000001.SZ",
+          "quantity": 500,
+          "intent_time": "2019-04-19T09:45:00",
+          "buy": false,
+          "factor": 112.6305,
+          "limit": null,
+          "reserve": 0.0,
+          "status": "FILLED",
+          "filled_quantity": 500
+        },
+        {
+          "order_id": 4,
+          "symbol": "600036.SH",
+          "quantity": 600,
+          "intent_time": "2019-04-19T09:45:00",
+          "buy": false,
+          "factor": 4.1222,
+          "limit": null,
+          "reserve": 0.0,
+          "status": "FILLED",
+          "filled_quantity": 600
+        }
+      ],
+      "limitations": [
+        "Fixed intents, not strategy signals",
+        "Buy caps 14.5/36 reserve both orders within 30000; differs from platform cap38 fixture",
+        "Local sell tax 0.05%; platform diagnostic 0.10%; do not compare net cash as identical"
+      ]
+    },
+    {
+      "status": "PASS_FIXED_HISTORICAL_EXECUTION_REPLAY",
+      "formal_strategy_validated": false,
+      "participation": 0.001,
+      "snapshot": {
+        "cash": 30053.64573569,
+        "equity": 30053.64573569,
+        "reserved_cash": 0,
+        "realized_pnl": 53.64573569000186,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "fills": [
+        {
+          "order_id": 1,
+          "symbol": "000001.SZ",
+          "buy": true,
+          "intent_time": "2019-04-17T09:45:00",
+          "fill_time": "2019-04-17T09:46:00",
+          "price": 14.364349999999998,
+          "quantity": 500,
+          "fees": 5.07182175,
+          "net_pnl": null,
+          "cash_after": 22812.75317825
+        },
+        {
+          "order_id": 2,
+          "symbol": "600036.SH",
+          "buy": true,
+          "intent_time": "2019-04-17T09:45:00",
+          "fill_time": "2019-04-17T09:46:00",
+          "price": 35.88585,
+          "quantity": 300,
+          "fees": 5.10765755,
+          "net_pnl": null,
+          "cash_after": 12041.890520700003
+        },
+        {
+          "order_id": 3,
+          "symbol": "000001.SZ",
+          "buy": false,
+          "intent_time": "2019-04-19T09:45:00",
+          "fill_time": "2019-04-19T09:46:00",
+          "price": 14.43555,
+          "quantity": 500,
+          "fees": 8.68106525,
+          "net_pnl": 21.847113000000718,
+          "cash_after": 19250.98445545
+        },
+        {
+          "order_id": 4,
+          "symbol": "600036.SH",
+          "buy": false,
+          "intent_time": "2019-04-19T09:45:00",
+          "fill_time": "2019-04-19T09:46:00",
+          "price": 36.04392,
+          "quantity": 300,
+          "fees": 10.51471976,
+          "net_pnl": 31.79862269000114,
+          "cash_after": 30053.64573569
+        }
+      ],
+      "orders": [
+        {
+          "order_id": 1,
+          "symbol": "000001.SZ",
+          "quantity": 500,
+          "intent_time": "2019-04-17T09:45:00",
+          "buy": true,
+          "factor": 112.6305,
+          "limit": 14.5,
+          "reserve": 7255.0725,
+          "status": "FILLED",
+          "filled_quantity": 500
+        },
+        {
+          "order_id": 2,
+          "symbol": "600036.SH",
+          "quantity": 600,
+          "intent_time": "2019-04-17T09:45:00",
+          "buy": true,
+          "factor": 4.1222,
+          "limit": 36.0,
+          "reserve": 21605.216,
+          "status": "PARTIAL_REMAINDER_CANCELLED",
+          "filled_quantity": 300
+        },
+        {
+          "order_id": 3,
+          "symbol": "000001.SZ",
+          "quantity": 500,
+          "intent_time": "2019-04-19T09:45:00",
+          "buy": false,
+          "factor": 112.6305,
+          "limit": null,
+          "reserve": 0.0,
+          "status": "FILLED",
+          "filled_quantity": 500
+        },
+        {
+          "order_id": 4,
+          "symbol": "600036.SH",
+          "quantity": 300,
+          "intent_time": "2019-04-19T09:45:00",
+          "buy": false,
+          "factor": 4.1222,
+          "limit": null,
+          "reserve": 0.0,
+          "status": "FILLED",
+          "filled_quantity": 300
+        }
+      ],
+      "limitations": [
+        "Fixed intents, not strategy signals",
+        "Buy caps 14.5/36 reserve both orders within 30000; differs from platform cap38 fixture",
+        "Local sell tax 0.05%; platform diagnostic 0.10%; do not compare net cash as identical"
+      ]
+    }
+  ]
+}

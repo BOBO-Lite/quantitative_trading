@@ -1,0 +1,191 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+
+需要帮助？
+
+试试AI小助手吧
+
+全局搜索
+HI！mx_69lp3klgu
+
+如果您有本地使用其他数据的需求，请联系我们
+
+联系客服
+全部
+股票
+A股
+上市公司财务数据
+资产负债表
+资产负债表
+
+A股上市公司合并资产负债表数据
+
+字段说明
+使用代码
+数据样例
+
+表名：balance
+
+含义	字段	说明
+基本信息	-	
+股票代码	symbol	-
+查询日期	date	-
+公布日期	report_date	-
+特殊转换标识	spec_conv_id	-
+报表是否公布值	is_report_publish	-
+特殊情况说明	spec_cond_desc	-
+报告期	stat_date	-
+报表类型编码	reporttypecode	1.合并报表:'HB' 2.合并调整报表:'HBTZ'
+报表变动记录标识	change_id	
+流动资产	-	
+货币资金	cash	-
+交易性金融资产	tradable_financial_assets	-
+应收票据	notes_receivable	-
+应收账款	accounts_receivable	-
+预付款项	advance_payment	-
+应收利息	interest_receivable	-
+应收股利	dividends_receivable	-
+其他应收款	receivable_other	-
+存货	inventory	-
+一年内到期的非流动资产	noncurrent_asset_due_within1y	-
+其他流动资产	other_current_assets	-
+流动资产特殊科目	current_assets_si	-
+流动资产平衡科目	balance_of_current_assets	-
+流动资产合计	total_current_assets	-
+拆出资金	funds_lent	-
+应收保费	insurance_premiums_receivable	-
+应收分保账款	cession_premiums_receivable	-
+应收分保合同准备金	provision_of_cession_receivable	-
+非流动金融资产	-	
+可供出售金融资产	available_financial_assets	-
+持有至到期投资	held_to_maturity_investment	-
+长期应收款	long_term_receivables	-
+长期股权投资	long_term_equity_investment	-
+投资性房地产	investment_property	-
+固定资产	fixed_asset	-
+在建工程	cip_project	-
+工程物资	engineering_material	-
+固定资产清理	disposal_of_fixed_assets	-
+生产性生物资产	biological_assets	-
+油气资产	oil_and_gas_assets	-
+无形资产	intangible_assets	-
+开发支出	rd_cost	-
+商誉	goodwill	-
+长期待摊费用	long_term_prepaid_expenses	-
+递延所得税资产	deferred_tax_assets	-
+其他非流动资产	other_non_current_assets	-
+非流动资产特殊科目	noncurrent_assets_si	-
+非流动资产平衡科目	noncurrent_assets_bi	-
+非流动资产合计	total_non_current_assets	-
+发放贷款和垫款	loans_and_payments_on_behalf	-
+其他资产	-	
+现金及存放中央银行款项	cash_and_deposit_of_central_bank	商业银行
+存放同业款项	deposit_interbank_payments	商业银行
+贵金属	precious_metal	商业银行
+衍生金融资产	derivative_financial_assets	金融类公司
+买入返售金融资产	buy_resale_fnncl_assets	金融类公司
+其他资产	other_assets	金融类公司
+应收代位追偿款	subrogation_recourse_fee	保险公司
+应收分保未到期责任准备金	rein undue liability reserve	保险公司
+应收分保未决赔款准备金	outstanding_loss_reserve	保险公司
+应收分保寿险责任准备金	life_insurance_liability_reserve	保险公司
+应收分保长期健康险责任准备金	receivable_deposit_of_lt_hi	保险公司
+保户质押贷款	policy_holder_pledge_loans	保险公司
+定期存款	fixed_deposit	保险公司
+存出资本保证金	refundable_capital_deposit	保险公司
+独立账户资产	independent_accounts_of_assets	保险公司
+客户备付金	client_provisions	证券公司
+存出保证金	refundable_deposits	证券公司
+交易席位费	transaction_placement_fee	证券公司
+融出资金	money_loan	证券公司
+应收款项	receivables	证券公司
+资产特殊科目	asset_special_account	-
+资产平衡科目	asset_balance_account	-
+资产总计	total_assets	-
+流动负债	-	
+短期借款	short_term_loan	-
+交易性金融负债	tradable_fnncl_liab	-
+应付票据	notes_payable	-
+应付账款	account_payable	-
+预收账款	deposit_received	-
+应付职工薪酬	accrued_wages	-
+应交税费	taxes_and_dues	-
+应付利息	interest_payable	-
+应付股利	dividend_payable	-
+其他应付款	other_payable	-
+一年内到期的非流动负债	noncurrent_liab_due_in1y	-
+其他流动负债	other_current_liability	-
+流动负债特殊科目	current_liab_si	-
+流动负债平衡科目	balance_of_current_liabilities	-
+流动负债合计	current_liabilities	-
+向中央银行借款	borrowing_from_central_bank	-
+拆入资金	deposit_funds	-
+卖出回购金融资产款	fnncl_assets_sold_for_repur	-
+代理买卖证券款	customer_brokerage_deposits	-
+代理承销证券款	act_underwriting_sec	-
+吸收存款及同业存放	saving_and_interbank_deposit	-
+保险合同准备金	insurance_contract_reserve	-
+流动负债递延收益	current_liab_di	-
+应付短期债券	st_bond_payable	-
+非流动负债	-	
+长期借款	long_term_loan	-
+应付债券	bonds_payable	-
+长期应付款	long_term_payable	-
+专项应付款	account_payable_special_funds	-
+预计负债	estimated_liabilities	-
+递延所得税负债	deferred_tax_liability	-
+其他非流动负债	other_non_current_liabilities	-
+非流动负债特殊科目	non_current_liabilities	-
+非流动负债平衡科目	noncurrent_liab_bi	-
+非流动负债合计	totalnon_current_liabilities	-
+非流动负债递延收益	noncurrent_liab_di	-
+长期应付职工薪酬	lt_staff_salary_payable	-
+其他负债	-	
+同业及其他金融机构存放款项	interbank_deposit_etc	商业银行
+衍生金融负债	derivative_financial_liabilities	金融类公司
+吸收存款	accept_money_deposits	商业银行
+其他负债	other_liabilities	金融类公司
+预收保费	advance_premium	保险公司
+应付手续费及佣金	charge_and_commi_payable	保险公司
+应付分保账款	rein_payable	保险公司
+应付赔付款	claims_payable	保险公司
+应付保单红利	policyholder_dividends_payable	保险公司
+保户储金及投资款	assured_saving_and_invest	保险公司
+未到期责任准备金	unearned_premium_reserve	保险公司
+未决赔款准备金	outstanding_claims_reserve	保险公司
+寿险责任准备金	life_insurance_reserve	保险公司
+长期健康险责任准备金	health_insurance_reserve	保险公司
+独立账户负债	independent_account_liab	保险公司
+其中：质押借款	pledged_loan	证券公司
+存入保证金	guarantee_deposits	保险公司
+应付短期融资款	short_term_financing_payable	证券公司
+应付款项	accounts_payable	证券公司
+负债特殊科目	special_account_of_liabilities	-
+负债平衡科目	balance_account_of_liabilities	-
+负债合计	total_liabilities	-
+所有者权益	-	
+实收资本（或股本）	equity	-
+资本公积金	capital_reserve	-
+库存股	stock_reduction_unit	-
+专项储备	special_reserves	-
+盈余公积	surplus_reserve	-
+一般风险准备	general_risk_preparation	-
+未分配利润	undistributed_profits	-
+外币报表折算差额	frgn_currency_convert_diff	-
+股东权益特殊科目	holders_equity_si	-
+股东权益平衡科目	holders_equity_bi	-
+归属于母公司股东权益合计	total_quity_atsopc	-
+少数股东权益	minority_equity	-
+股东权益合计	total_equity	-
+股本总数	total_share_capital	-
+其他综合收益	other_consolidated_income	-
+其他权益工具	other_equity_instrument	-
+其他权益工具：优先股	preferred_equity	-
+其他权益工具：永续债	perpetual_bond	-
+交易风险准备	transaction_risk_reserve	证券公司
+负债和股东权益总计	total_liab_and_holders_equity	-

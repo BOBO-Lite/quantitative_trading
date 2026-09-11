@@ -1,0 +1,73 @@
+{
+  "common_buy_times": 24,
+  "new_buy_times": 11,
+  "new_entry_trade_pnl": -2892.5672182099934,
+  "common_entry_trade_pnl": 681.5406257300128,
+  "largest_losses": [
+    {
+      "symbol": "002411.SZ",
+      "buy": "2020-01-14T09:46:00",
+      "sell": "2020-01-16T09:37:00",
+      "pnl": -787.0325171199993,
+      "new_entry": true,
+      "reason": "drawdown_hard_stop"
+    },
+    {
+      "symbol": "000592.SZ",
+      "buy": "2020-01-10T09:46:00",
+      "sell": "2020-01-14T09:32:00",
+      "pnl": -525.9243449999994,
+      "new_entry": true,
+      "reason": "scheduled_exit"
+    },
+    {
+      "symbol": "600114.SH",
+      "buy": "2019-09-20T09:46:00",
+      "sell": "2019-09-25T09:32:00",
+      "pnl": -450.05900826999914,
+      "new_entry": true,
+      "reason": "scheduled_exit"
+    },
+    {
+      "symbol": "600754.SH",
+      "buy": "2019-12-23T09:46:00",
+      "sell": "2019-12-24T09:32:00",
+      "pnl": -418.2703109399981,
+      "new_entry": false,
+      "reason": "scheduled_exit"
+    },
+    {
+      "symbol": "000069.SZ",
+      "buy": "2019-04-03T09:46:00",
+      "sell": "2019-04-23T09:32:00",
+      "pnl": -395.3957312099992,
+      "new_entry": false,
+      "reason": "scheduled_exit"
+    },
+    {
+      "symbol": "601009.SH",
+      "buy": "2019-03-07T09:46:00",
+      "sell": "2019-03-11T09:32:00",
+      "pnl": -370.12301542000023,
+      "new_entry": true,
+      "reason": "scheduled_exit"
+    },
+    {
+      "symbol": "600326.SH",
+      "buy": "2019-03-01T09:46:00",
+      "sell": "2019-03-11T09:32:00",
+      "pnl": -369.74662743999943,
+      "new_entry": false,
+      "reason": "scheduled_exit"
+    },
+    {
+      "symbol": "603012.SH",
+      "buy": "2019-09-20T09:46:00",
+      "sell": "2019-09-23T09:32:00",
+      "pnl": -357.70525579999867,
+      "new_entry": true,
+      "reason": "scheduled_exit"
+    }
+  ],
+  "first_hard_halt": "2020-01-16"
+}

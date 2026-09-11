@@ -1,0 +1,13 @@
+{
+  "cost": 3.822,
+  "confirmed_exit": 4.03,
+  "cutoff": "2026-09-09",
+  "hold_mark": 4.81,
+  "quantity_from_archive": 2000,
+  "exit_price_return_pct": 5.442176870748305,
+  "hold_price_return_pct": 25.850340136054406,
+  "exit_price_profit_2000": 416.00000000000034,
+  "hold_price_profit_2000": 1975.999999999999,
+  "difference_2000": 1559.9999999999986,
+  "excludes_actual_fees_and_dividends": true
+}

@@ -1,0 +1,36 @@
+import base64,hashlib,json,zlib
+SYMBOLS = ['000039.SZ', '000563.SZ', '000564.SZ', '000600.SZ', '000723.SZ', '000727.SZ', '000975.SZ', '002030.SZ', '002065.SZ', '002074.SZ', '002075.SZ', '002118.SZ', '002127.SZ', '002129.SZ', '002174.SZ', '002223.SZ', '002285.SZ', '002371.SZ', '002375.SZ', '002385.SZ', '002414.SZ', '002444.SZ', '002463.SZ', '002603.SZ', '002625.SZ', '002709.SZ', '002812.SZ', '002920.SZ', '600079.SH', '600094.SH', '600126.SH', '600161.SH', '600183.SH', '600195.SH', '600259.SH', '600316.SH', '600393.SH', '600410.SH', '600415.SH', '600536.SH', '600598.SH', '600614.SH', '600640.SH', '600745.SH', '600763.SH', '600801.SH', '600827.SH', '600859.SH', '601179.SH', '601608.SH', '601689.SH', '601717.SH', '601865.SH', '603000.SH', '603233.SH', '603486.SH', '603501.SH', '603650.SH', '603659.SH']
+DATES = ['2018-01-02', '2018-01-03', '2018-01-04', '2018-01-05', '2018-01-08', '2018-01-09', '2018-02-01', '2018-02-02', '2018-02-05', '2018-02-06', '2018-02-07', '2018-02-08', '2018-03-01', '2018-03-02', '2018-03-05', '2018-03-06', '2018-03-07', '2018-03-08', '2018-04-02', '2018-04-03', '2018-04-04', '2018-04-09', '2018-04-10', '2018-04-11', '2018-05-02', '2018-05-03', '2018-05-04', '2018-05-07', '2018-05-08', '2018-05-09', '2018-06-01', '2018-06-04', '2018-06-05', '2018-06-06', '2018-06-07', '2018-06-08', '2018-07-02', '2018-07-03', '2018-07-04', '2018-07-05', '2018-07-06', '2018-07-09', '2018-08-01', '2018-08-02', '2018-08-03', '2018-08-06', '2018-08-07', '2018-08-08', '2018-09-03', '2018-09-04', '2018-09-05', '2018-09-06', '2018-09-07', '2018-09-10', '2018-10-08', '2018-10-09', '2018-10-10', '2018-10-11', '2018-10-12', '2018-10-15', '2018-11-01', '2018-11-02', '2018-11-05', '2018-11-06', '2018-11-07', '2018-11-08', '2018-12-03', '2018-12-04', '2018-12-05', '2018-12-06', '2018-12-07', '2018-12-10', '2019-01-02', '2019-01-03', '2019-01-04', '2019-01-07', '2019-01-08', '2019-01-09', '2019-02-01', '2019-02-11', '2019-02-12', '2019-02-13', '2019-02-14']
+def emit(key,value):
+    raw=json.dumps(value,ensure_ascii=True,separators=(',',':'),allow_nan=False).encode('utf8')
+    encoded=base64.b64encode(zlib.compress(raw)).decode('ascii');parts=[encoded[i:i+3000] for i in range(0,len(encoded),3000)]
+    for i,part in enumerate(parts):log.info('MINBUNDLE {} {} {} {} {} {}'.format(key,i,len(parts),len(raw),hashlib.sha256(raw).hexdigest(),part))
+def packet(f):return json.loads(f.to_json(date_format='iso'))
+def init(context):set_benchmark('000905.SH')
+def before_trading(context):
+    if get_datetime().strftime('%Y%m%d')!='20260904':raise ValueError('FIXED_CALLBACK')
+    fields=['open','high','low','close','volume','turnover','factor','is_st','is_paused','high_limit','low_limit']
+    for s in SYMBOLS:
+        try:
+            f=get_price([s],'20171201','20201231','1d',fields,skip_paused=False,fq=None,is_panel=False)[s]
+            emit('daily_'+s,dict(symbol=s,status='RETURNED',data=packet(f)))
+        except Exception as exc:emit('daily_'+s,dict(symbol=s,status='ERROR',error=str(exc)))
+        for kind in ['dividend','details']:
+            try:
+                if kind=='dividend':f=get_dividend_information(s,start_date='20180101',end_date='20201231')
+                else:f=run_query(query(bonus).filter(bonus.symbol==s,bonus.ex_dividend_date>='2018-01-01',bonus.ex_dividend_date<='2020-12-31'))
+                emit(kind+'_'+s,dict(status='RETURNED',symbol=s,data=packet(f)))
+            except Exception as exc:emit(kind+'_'+s,dict(status='ERROR',symbol=s,error=str(exc)))
+    for day in DATES:
+        d=day.replace('-','')
+        try:
+            frames=get_price(SYMBOLS,d+'0935',d+'0936','1m',['open','high','low','close','volume','turnover'],skip_paused=False,fq=None,is_panel=False)
+            selected={}
+            for s in SYMBOLS:
+                f=frames[s];f=f[[t.strftime('%H:%M')=='09:35' for t in f.index]]
+                if len(f)>1:raise ValueError('MINUTE_GRID '+s+' '+day)
+                selected[s]=packet(f)
+            emit('minute_'+day,dict(status='RETURNED',date=day,data=selected))
+        except Exception as exc:emit('minute_'+day,dict(status='ERROR',date=day,error=str(exc)))
+    log.info('EXTMOM_DATA_DONE')
+def handle_bar(context,bar_dict):pass

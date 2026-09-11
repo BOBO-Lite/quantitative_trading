@@ -1,0 +1,10 @@
+[
+  {
+    "cost": 1.0,
+    "etf1_unchanged_after_etf2": true
+  },
+  {
+    "cost": 1.5,
+    "etf1_unchanged_after_etf2": true
+  }
+]

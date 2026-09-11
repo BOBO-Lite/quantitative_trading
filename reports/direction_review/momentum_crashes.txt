@@ -1,0 +1,1835 @@
+NBER WORKING PAPER SERIES
+MOMENTUM CRASHES
+Kent Daniel
+Tobias J. Moskowitz
+Working Paper 20439
+http://www.nber.org/papers/w20439
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+August 2014
+For helpful comments and discussions, we thank Cliff Asness, John Cochrane, Pierre Collin-Dufresne,
+Eugene Fama, Andrea Frazzini, Gur Huberman, Ronen Israel, Mike Johannes, John Liew, Lasse Pedersen,
+Tano Santos, Paul Tetlock, Sheridan Titman, Narasimhan Jegadeesh, Will Goetzmann, an anonymous
+referee, and participants of the NBER Asset Pricing Summer Institute, the Quantitative Trading &
+Asset Management Conference at Columbia, the 5-Star Conference at NYU, and seminars at Columbia,
+Rutgers, University of Texas at Austin, USC, Yale, Aalto, BI Norwegian Business School, Copenhagen
+Business School, Swiss Finance Institute, the Q group, Kepos Capital, and SAC. Moskowitz has an
+ongoing relationship with AQR Capital, who invests in, among many other things, momentum strategies.
+The views expressed herein are those of the authors and do not necessarily reflect the views of the
+National Bureau of Economic Research.
+At least one co-author has disclosed a financial relationship of potential relevance for this research.
+Further information is available online at http://www.nber.org/papers/w20439.ack
+NBER working papers are circulated for discussion and comment purposes. They have not been peer-
+reviewed or been subject to the review by the NBER Board of Directors that accompanies official
+NBER publications.
+© 2014 by Kent Daniel and Tobias J. Moskowitz. All rights reserved. Short sections of text, not to
+exceed two paragraphs, may be quoted without explicit permission provided that full credit, including
+© notice, is given to the source.
+
+Momentum Crashes
+Kent Daniel and Tobias J. Moskowitz
+NBER Working Paper No. 20439
+August 2014
+JEL No. G11,G12
+ABSTRACT
+Despite their strong positive average returns across numerous asset classes, momentum strategies can
+experience infrequent and persistent strings of negative returns. These momentum crashes are partly
+forecastable. They occur in “panic” states – following market declines and when market volatility
+is high – and are contemporaneous with market rebounds. We show that the low ex-ante expected
+returns in panic states are consistent with a conditionally high premium attached to the option-like
+payoffs of past losers. An implementable dynamic momentum strategy based on forecasts of momentum’s
+mean and variance approximately doubles the alpha and Sharpe Ratio of a static momentum strategy,
+and is not explained by other factors. These results are robust across multiple time periods, international
+equity markets, and other asset classes.
+Kent Daniel
+Graduate School of Business
+Columbia University
+3022 Broadway, Uris Hall 421
+New York, NY 10027
+and NBER
+kd2371@columbia.edu
+Tobias J. Moskowitz
+Booth School of Business
+University of Chicago
+5807 S. Woodlawn Ave.
+Chicago, IL  60637
+and NBER
+tobias.moskowitz@chicagobooth.edu
+
+1 Introduction
+A momentum strategy is a bet on past returns predicting the cr oss-section of future returns,
+typically implemented by buying past winners and selling pa st losers. Momentum is pervasive:
+the academic literature documents the eﬃcacy of momentum st rategies across multiple time
+periods, many markets, and in numerous asset classes. 1
+However, the strong positive average returns and Sharpe rat ios of momentum strategies are
+punctuated with occasional “crashes.” Like the returns to t he carry trade in currencies (e.g.,
+Brunnermeier, Nagel, and Pedersen (2008)), momentum retur ns are negatively skewed, and
+the negative returns can be pronounced and persistent. In ou r 1927 to 2013 U.S. equity sample,
+the two worst months for a momentum strategy that buys the top decile of past 12-month
+winners and shorts the bottom decile of losers are consecuti ve: July and August of 1932. Over
+this short period, the past-loser decile portfolio returne d 232%, while the past-winner decile
+portfolio had a gain of only 32%. In a more recent crash, over t he three-month period from
+March to May of 2009, the past-loser decile rose by 163%, whil e the decile portfolio of past
+winners gained only 8%.
+We investigate the impact and potential predictability of t hese momentum crashes, which
+appear to be a key and robust feature of momentum strategies. We ﬁnd that crashes tend to
+occur in times of market stress, when the market has fallen an d ex-ante measures of volatility
+are high, coupled with an abrupt rise in contemporaneous mar ket returns.
+Our result is consistent with that of Cooper, Gutierrez, and Hameed (2004) and Stivers and
+Sun (2010), who ﬁnd, respectively, that the momentum premiu m falls when the past three-
+year market return has been negative and that the momentum pr emium is low when market
+1Momentum strategies were ﬁrst documented in U.S. common sto ck returns from 1965 to 1989 by Jegadeesh
+and Titman (1993) and Asness (1994), by sorting ﬁrms on the ba sis of three to 12 month past returns.
+Subsequently, Jegadeesh and Titman (2001) show the continu ing eﬃcacy of US equity momentum portfolios
+in common stock returns in the 1990 to 1998 period. Israel and Moskowitz (2013) show the robustness of
+momentum prior to and after these studies from 1927 to 1965 an d from 1990 to 2012. There is evidence
+of momentum going back to the Victorian age from Chabot, Remy , and Jagannathan (2009) and evidence
+from 1801 to 2012 from Geczy and Samonov (2013) in what the aut hors call “the world’s longest backtest.”
+Moskowitz and Grinblatt (1999) ﬁnd momentum in industry por tfolios. Rouwenhorst (1998) and Rouwenhorst
+(1999) ﬁnds momentum in developed and emerging equity marke ts, respectively. Asness, Liew, and Stevens
+(1997) ﬁnd momentum in country indices. Okunev and White (20 03) ﬁnd momentum in currencies; Erb and
+Harvey (2006) in commodities; Moskowitz, Ooi, and Pedersen (2012) in exchange traded futures contracts;
+and Asness, Moskowitz, and Pedersen (2013), who integrate t his evidence across markets and asset classes,
+ﬁnd momentum in bonds as well.
+1
+volatility is high. Cooper, Gutierrez, and Hameed (2004) oﬀ er a behavioral explanation for
+these facts that may also be consistent with momentum perfor ming particularly poorly during
+market rebounds if those are also times when assets become mo re mispriced. However, we
+investigate another source for these crashes by examining c onditional risk measures.
+In particular, the patterns we ﬁnd are suggestive of the chan ging beta of the momentum
+portfolio partly driving the momentum crashes. The time var iation in betas of return sorted
+portfolios was ﬁrst documented by Kothari and Shanken (1992 ), who argue that, by their
+nature, past-return sorted portfolios will have signiﬁcan t time-varying exposure to systematic
+factors. Because momentum strategies are long/overweight (short/underweight) past winners
+(losers), they will have positive loadings on factors which have had a positive realization over
+the formation period of the momentum strategy.
+Grundy and Martin (2001) apply Kothari and Shanken’s insigh ts to price momentum strate-
+gies. Intuitively, the result is straightforward, if not of ten appreciated: when the market has
+fallen signiﬁcantly over the momentum formation period – in our case from 12 months ago to
+one month ago – there is a good chance that the ﬁrms that fell in tandem with the market
+were and are high beta ﬁrms, and those that performed the best were low beta ﬁrms. Thus,
+following market declines, the momentum portfolio is likel y to be long low-beta stocks (the
+past winners), and short high-beta stocks (the past losers) . We verify empirically that there is
+dramatic time variation in the betas of momentum portfolios . We ﬁnd that, following major
+market declines, betas for the past-loser decile can rise ab ove 3, and fall below 0.5 for past
+winners. Hence, when the market rebounds quickly, momentum strategies will crash because
+they have a conditionally large negative beta.
+Grundy and Martin (2001) argue that performance of momentum strategies is dramatically
+improved, particularly in the pre-WWII era, by dynamically hedging market and size risk.
+However, their hedged portfolio is constructed based on forward-looking betas, and is therefore
+not an implementable strategy. We show that this results in a strong bias in estimated
+returns, and that a hedging strategy based on ex-ante betas does not exhibit the performance
+improvement noted in Grundy and Martin (2001).
+The source of the bias is a striking correlation of the loser- portfolio beta with the return on
+the market. Using a Henriksson and Merton (1981) speciﬁcati on, we calculate up- and down-
+betas for the momentum portfolios and show that, in a bear mar ket, a momentum portfolio’s
+2
+up-market beta is more than double its down-market beta ( −1.51 versus −0.70 with a t-stat
+of the diﬀerence = 4 .5). Outside of bear markets, there is no statistically relia ble diﬀerence
+in betas.
+More detailed analysis reveals that most of the up- versus do wn-beta asymmetry in bear
+markets is driven by the past losers. This pattern in dynamic betas of the loser portfolio
+implies that momentum strategies in bear markets behave lik e written call options on the
+market – when the market falls, they gain a little, but when th e market rises they lose a lot.
+Consistent with the written call option-like behavior of th e momentum strategy in bear mar-
+kets, we show that time variation in the momentum premium is r elated to time-varying ex-
+posure to volatility risk. Using VIX-imputed variance-swa p returns, we ﬁnd that the payoﬀs
+to momentum strategies have a strong negative exposure to in novations in market variance
+in bear markets, but not in “normal” markets. However, we als o show that hedging out this
+time varying exposure to market variance (by buying S&P vari ance swaps in bear markets,
+for instance) does not restore the proﬁtability of momentum in bear markets. Hence, time
+varying exposure to volatility risk is only a partial explan ation.
+Using the insights from the relationship between momentum p ayoﬀs and volatility, and the fact
+that the momentum strategy volatility is itself predictabl e and distinct from the predictability
+in its mean return, we design an optimal dynamic momentum str ategy which is levered up or
+down over time so as to maximize the unconditional Sharpe rat io of the portfolio. We ﬁrst show
+theoretically that, to maximize the unconditional Sharpe r atio, a dynamic strategy should
+scale the weights, at each point in time, so that the dynamic s trategy’s conditional volatility
+is proportional to the conditional Sharpe ratio of the strat egy. Then, using the insights from
+our analysis on the forecastability of both the momentum pre mium and momentum volatility,
+we estimate these conditional moments to generate the dynam ic weights.
+We ﬁnd that the optimal dynamic strategy signiﬁcantly outpe rforms the standard static mo-
+mentum strategy, more than doubling its Sharpe ratio and del ivering signiﬁcant positive alpha
+relative to the market, Fama and French factors, the static m omentum portfolio and condi-
+tional versions of all of these models that allow betas to var y in the crash states. In addition,
+the dynamic momentum strategy also signiﬁcantly outperfor ms constant volatility momen-
+tum strategies suggested in the literature ( e.g., Barroso and Santa-Clara (2012)), producing
+positive alpha relative to the constant volatility strateg y and capturing the constant volatil-
+3
+ity strategy’s returns in spanning tests. The dynamic strat egy not only helps smooth the
+volatility of momentum portfolios, as does the constant vol atility approach, but in addition
+also exploits the strong forecastability of the momentum pr emium, which we uncover in our
+analysis of the option-like payoﬀs of losers in bear markets .
+Given the paucity of momentum crashes and the pernicious eﬀe cts of data mining from an
+ever-expanding search across studies (and in practice) for strategies that improve performance,
+we challenge the robustness of our ﬁndings by replicating th e results in diﬀerent sample peri-
+ods, four diﬀerent equity markets, and ﬁve distinct asset cl asses. Across diﬀerent time periods,
+markets, and asset classes, we ﬁnd remarkably consistent re sults. First, the results are robust
+in every quarter-century subsample in US equities. Second, we show that momentum strate-
+gies in all markets and asset classes suﬀer from crashes, whi ch are consistently driven by the
+conditional beta and option-like feature of losers. The sam e option-like behavior of losers in
+bear markets is present in Europe, Japan, the UK, globally, a nd is a feature of index futures-,
+commodity-, ﬁxed income-, and currency-momentum strategi es. Third, the same dynamic
+momentum strategy applied in these alternative markets and asset classes is ubiquitously
+successful in generating superior performance over the sta tic and constant volatility momen-
+tum strategies in each market and asset class. The additiona l improvement from dynamic
+weighting is large enough to produce signiﬁcant momentum pr oﬁts even in markets where the
+static momentum strategy has famously failed to yield posit ive proﬁts – e.g., Japan. Taken
+together, and applied across all markets and asset classes, a dynamic momentum strategy
+delivers an annualized Sharpe ratio of 1.18, which is four ti mes larger than that of the static
+momentum strategy applied to US equities over the same perio d, and thus posing an even
+greater challenge for rational asset pricing models (Hanse n and Jagannathan 1991).
+Finally, we consider several possible explanations for the option-like behavior of momentum
+payoﬀs, particularly for losers. For equity momentum strat egies, one possibility is that the
+optionality arises because a share of common stock is a call o ption on the underlying ﬁrm’s
+assets when there is debt in the capital structure (Merton 19 74). Particularly in distressed
+periods where this option-like behavior is manifested, the underlying ﬁrm values among past
+losers have generally suﬀered severely, and are therefore p otentially much closer to a level
+where the option convexity is strong. The past winners, in co ntrast, would not have suﬀered
+the same losses, and may still be “in-the-money.” While this explanation seems to have merit
+for equity momentum portfolios, this hypothesis does not se em applicable for index future,
+commodity, ﬁxed income, and currency momentum, which also e xhibit strong option-like
+4
+behavior. In the conclusion, we brieﬂy discuss a behavioral ly motivated explanation for these
+option-like features that could apply to all asset classes, but a fuller understanding of these
+convex payoﬀs is an open area for future research.
+The layout of the paper is as follows: Section 2 describes the data and portfolio construction
+and dissects momentum crashes in US equities. Section 3 meas ures the conditional betas and
+option-like payoﬀs of losers and assesses to what extent the se crashes are predictable based
+on these insights. Section 4 examines the performance of an o ptimal dynamic strategy based
+on our ﬁndings, and whether its performance can be explained by dynamic loadings on other
+known factors or other momentum strategies proposed in the l iterature. Section 5 examines
+the robustness of our ﬁndings in diﬀerent time periods, inte rnational equity markets, and
+other asset classes. Section 6 concludes by speculating abo ut the sources of the premia we
+observe and discusses areas for future research.
+2 US Equity Momentum
+In this section, we present the results of our analysis of mom entum in US common stocks over
+the 1927 to 2013 time period. We begin with the data descripti on and portfolio construction.
+2.1 US Equity Data and Momentum Portfolio Construction
+Our principal data source is the Center for Research in Secur ity Prices (CRSP). We construct
+monthly and daily momentum decile portfolios, where both se ts of portfolios are rebalanced
+at the end of each month. The universe starts with all ﬁrms lis ted on NYSE, AMEX or
+NASDAQ as of the formation date, using only the returns of com mon shares (with CRSP
+sharecode of 10 or 11). We require that a ﬁrm have a valid share price and number of shares
+as of the formation date, and that there be a minimum of eight m onthly returns over the
+past 11 months, skipping the most recent month, which is our f ormation period. Following
+convention and CRSP availability, all prices are closing pr ices, and all returns are from close
+to close.
+To form the momentum portfolios, we ﬁrst rank stocks based on their cumulative returns
+from 12 months before to one month before the formation date ( e.g., t − 12 to t − 2), where,
+5
+Figure 1: Winners and Losers, 1927-2013
+Plotted are the cumulative returns for four assets: (1) the r isk-free asset; (2) the CRSP value-weighted index;
+(3) the bottom decile “past loser” portfolio; and (4) the top decile “past winner” portfolio over the full sample
+period 1927:01 to 2013:03. On the right side of the plot the ﬁn al dollar values for each of the four portfolios,
+given a $1 investment in January 1927, are reported.
+consistent with the literature (Jegadeesh and Titman (1993 ), Asness (1994), Fama and French
+(1996)), we use a one month gap between the end of the ranking p eriod and the start of the
+holding period to avoid the short-term one-month reversals documented by Jegadeesh (1990)
+and Lehmann (1990). All ﬁrms meeting the data requirements a re then placed into one of ten
+decile portfolios based on this ranking, where portfolio 10 represents the “Winners” (those
+with the highest past returns) and portfolio 1 the “Losers,” and the value-weighted holding
+period returns of the decile portfolios are computed, where portfolio membership does not
+change within a month, except in the case of delisting.
+The market return is the value weighted index of all listed ﬁr ms in CRSP and the risk free
+rate series is the one-month Treasury bill rate, both obtain ed from Ken French’s data library.
+We convert the monthly risk-free rate series to a daily serie s by converting the risk-free rate
+at the beginning of each month to a daily rate, and assuming th at that daily rate is valid
+throughout the month.
+6
+Table 1: Momentum Portfolio Characteristics, 1927:01-2013:03
+This table presents characteristics of the monthly momentu m decile portfolio excess returns over the 87 year full
+sample period from 1927:01-2013:03. Decile 1 represents th e biggest losers and decile 10 the biggest winners,
+with WML representing the zero-cost winners minus losers po rtfolio. The mean excess return, standard
+deviation, and alpha are in percent, and annualized. The Sha rpe ratio is annualized. The α, t(α), and β
+are estimated from a full-period regression of each decile p ortfolio’s excess return on the excess CRSP-value
+weighted index. For all portfolios except WML, sk(m) denotes the full-period realized skewness of the monthl y
+log returns (not excess) to the portfolios and sk(d) denotes the full-period realized skewness of the daily l og
+returns. For WML, sk is the realized skewness of log(1+ rWML +rf ).
+Momentum Decile Portfolios
+1 2 3 4 5 6 7 8 9 10 wml Mkt
+r − rf -2.5 2.9 2.9 6.4 7.1 7.1 9.2 10.4 11.3 15.3 17.9 7.7
+σ 36.5 30.5 25.9 23.2 21.3 20.2 19.5 19.0 20.3 23.7 30.0 18.8
+α -14.7 -7.8 -6.4 -2.1 -0.9 -0.6 1.8 3.2 3.8 7.5 22.2 0
+t(α) (-6.7) (-4.7) (-5.3) (-2.1) (-1.1) (-1.0) (2.8) (4.5) (4.3 ) (5.1) (7.3) (0)
+β 1.61 1.41 1.23 1.13 1.05 1.02 0.98 0.95 0.99 1.03 -0.58 1
+SR -0.07 0.09 0.11 0.28 0.33 0.35 0.47 0.54 0.56 0.65 0.60 0.41
+sk(m) 0.09 -0.05 -0.19 0.21 -0.13 -0.30 -0.55 -0.54 -0.76 -0.82 -4.70 -0.57
+sk(d) 0.12 0.29 0.22 0.27 0.10 -0.10 -0.44 -0.66 -0.67 -0.61 -1. 18 -0.44
+2.2 Momentum Portfolio Performance
+Figure 1 presents the cumulative monthly returns from 1927: 01-2013:03 for investments in:
+(1) the risk-free asset; (2) the market portfolio; (3) the bo ttom decile “past loser” portfolio;
+and (4) the top decile “past winner” portfolio. On the right s ide of the plot, we present the
+ﬁnal dollar values for each of the four portfolios, given a $1 investment in January, 1927 (and,
+of course, assuming no transaction costs).
+Consistent with the existing literature, there is a strong m omentum premium over the last
+century. The winners signiﬁcantly outperform the losers an d by much more than equities
+have outperformed Treasuries. Table 1 presents return mome nts for the momentum decile
+portfolios over this period. The winner decile excess retur n averages 15.3% per year, and the
+loser portfolio averages −2.5% per year. In contrast the average excess market return i s 7.6%.
+The Sharpe ratio of the WML portfolio is 0.71, and that of the m arket is 0.40. Over this
+period, the beta of the WML portfolio is negative, −0.58, giving it an unconditional CAPM
+alpha of 22.3% per year ( t-stat = 8.5). Given the high alpha, an ex-post optimal combination
+of the market and WML portfolio has a Sharpe ratio more than do uble that of the market.
+7
+2.3 Momentum Crashes
+Despite the fact that the momentum strategy generates subst antial proﬁts over time, since
+1927 there have been a number of long periods over which momen tum under-performed dra-
+matically. Figure 1 highlights two momentum “crashes” in pa rticular: June 1932 to December
+1939 and more recently March 2009 to March 2013. These two per iods represent the two largest
+and sustained drawdown periods for the momentum strategy an d are selected purposely to
+illustrate the crashes we study more generally in this paper . The starting dates for these two
+periods are not selected randomly: March 2009 and June 1932 a re, respectively, the “market
+bottoms” following the stock market decline associated wit h the recent ﬁnancial crisis, and
+with the market decline preceding the great depression.
+Zeroing in on these crash periods, Figure 2 shows the cumulat ive daily returns to the same
+set of portfolios from Figure 1 – risk-free, market, past los ers, past winners – over these
+subsamples. Over both of these periods, the loser portfolio strongly outperforms the winner
+portfolio. From March 8, 2009 to March 28, 2013, the losers pr oduce more than twice the
+proﬁts of the winners, which also underperform the market ov er this period. From June 1,
+1932 to December 30, 1939 the losers outperform the winners b y 50 percent.
+Table 1 also shows that the winner portfolios are considerably more negatively skewed (monthly
+and daily) than the loser portfolios. While the winners stil l outperform the losers over time,
+the Sharpe ratio and alpha understate the signiﬁcance of the se crashes. Looking at the skew-
+ness of the portfolios, winners become more negatively skew ed moving to more extreme deciles.
+For the top winner decile portfolio, the monthly (daily) ske wness is -0.82 (-0.61), while for the
+most extreme bottom decile of losers the skewness is 0.09 (0. 12). The WML portfolio over
+this full sample period has a monthly (daily) skewness of -4. 70 (-1.18).
+Table 2 presents the worst monthly returns to the WML strateg y, as well as the lagged two-
+year returns on the market, and the contemporaneous monthly market return. Several key
+points emerge from Table 2 as well as from Figures 1 and 2:
+1. While past winners have generally outperformed past lose rs, there are relatively long
+periods over which momentum experiences severe losses or “c rashes.”
+2. Fourteen of the 15 worst momentum returns occur when the la gged two-year market
+return is negative. All occur in months where the market rose contemporaneously, often
+in a dramatic fashion.
+8
+Figure 2: Momentum Crashes, F ollowing the Great Depression and the 20 08-09
+Financial Crisis
+Plotted are the cumulative daily returns to four portfolios : (1) the risk-free asset; (2) the CRSP value-weighted
+index; (3) the bottom decile “past loser” portfolio; and (4) the top decile “past winner” portfolio over the
+period from March 8, 2009 through March, 28 2013 (top graph) a nd from June 1, 1932 through December 30,
+1939 (bottom graph).
+9
+3. The clustering evident in this table, and the daily cumula tive returns in Figure 2, make
+clear that the crashes have relatively long duration. They d o not occur over the span of
+minutes or days – a crash is not a Poisson jump. They take place slowly, over the span
+of multiple months.
+4. Similarly, the extreme losses are clustered: The two wors t months for momentum are
+back-to-back, in July and August of 1932, following a market decline of roughly 90%
+from the 1929 peak. March and April of 2009 are the 7th and 4th w orst momentum
+months, respectively, and April and May of 1933 are the 6th an d 12th worst. Three of
+the ten worst momentum monthly returns are from 2009 – a three -month period in which
+the market rose dramatically and volatility fell. While it m ight not seem surprising that
+the most extreme returns occur in periods of high volatility , the eﬀect is asymmetric for
+losses versus gains: the extreme momentum gains are not near ly as large in magnitude,
+or as concentrated in time.
+5. Closer examination reveals that the crash performance is mostly attributable to the short
+side or the performance of losers. For example, in July and Au gust of 1932, the market
+actually rose by 82%. Over these two months, the winner decil e rose by 32%, but the
+loser decile was up by 232%. Similarly, over the three month p eriod from March to May
+of 2009, the market was up by 26%, but the loser decile was up by 163%. Thus, to the
+extent that the strong momentum reversals we observe in the d ata can be characterized
+as a crash, they are a crash where the short side of the portfol io – the losers – are
+“crashing up” rather than down.
+Table 2 also suggests that large changes in market beta may he lp to explain some of the
+large negative returns earned by momentum strategies. For e xample, as of the beginning of
+March 2009, the ﬁrms in the loser decile portfolio were, on av erage, down from their peak
+by 84%. These ﬁrms included those hit hardest by the ﬁnancial crisis: Citigroup, Bank of
+America, Ford, GM, and International Paper (which was highl y levered). In contrast, the
+past-winner portfolio was composed of defensive or counter -cyclical ﬁrms like Autozone. The
+loser ﬁrms, in particular, were often extremely levered, an d at risk of bankruptcy. In the sense
+of the Merton (1974) model, their common stock was eﬀectivel y an out-of-the-money option
+on the underlying ﬁrm value. This suggests that there were po tentially large diﬀerences in
+the market betas of the winner and loser portfolios that gene rate convex, option-like payoﬀs
+– a conjecture we now investigate more formally in the next se ction.
+10
+Figure 3: Market Betas of Winner and Loser Decile Portfolios
+These three plots present the estimated market betas over th ree independent subsamples spanning our full
+sample: 1927:06 to 1939:12, 1940:01 to 1999:12, and 2000:01 to 2013:03. The betas are estimated by running
+a set of 126-day rolling regressions of the momentum portfol io excess returns on the contemporaneous excess
+market return and 10 (daily) lags of the market return, and su mming the betas.
+11
+Table 2: W orst Monthly Momentum Returns
+This table lists the 15 worst monthly returns to the WML momen tum portfolio over the 1927:01-2013:03 time
+period. Also tabulated are Mkt-2y, the 2-year market return s leading up to the portfolio formation date, and
+Mktt, the contemporaneous market return. The dates between July 1932 and September 1939 are marked
+with ∗, those between April and August of 2009 with †; those from January 2001 and November 2002 with ‡.
+All numbers in the table are in percent.
+Rank Month WML t MKT-2y Mkt t
+1 1932-08 ∗ -74.36 -67.77 36.49
+2 1932-07 ∗ -60.98 -74.91 33.63
+3 2001-01 ‡ -49.19 10.74 3.66
+4 2009-04 † -45.52 -40.62 10.20
+5 1939-09 ∗ -43.83 -21.46 16.97
+6 1933-04 ∗ -43.14 -59.00 38.14
+7 2009-03 † -42.28 -44.90 8.97
+8 2002-11 ‡ -37.04 -36.23 6.08
+9 1938-06 ∗ -33.36 -27.83 23.72
+10 2009-08 † -30.54 -27.33 3.33
+11 1931-06 ∗ -29.72 -47.59 13.87
+12 1933-05 ∗ -28.90 -37.18 21.42
+13 2001-11 ‡ -25.31 -19.77 7.71
+14 2001-10 ‡ -24.98 -16.77 2.68
+15 1974-01 -24.04 -5.67 0.46
+3 Time-V arying Beta and Option-Like Payoﬀs
+To investigate the time-varying betas of winners and losers , Figure 3 plots the market betas for
+the winner and loser momentum deciles, estimated using 126 d ay (≈ 6 month) rolling market
+model regressions with daily data. 2 Figure 3 plots the betas over three non-overlapping
+subsamples that span the full sample period: July 1927 to Dec ember 1939, January 1940 to
+December 1999, and January 2000 to March 2013.
+The betas move around substantially, especially for the los ers portfolio, whose beta tends
+2We use 10 daily lags of the market return in estimating the mar ket betas. Speciﬁcally, we estimate a daily
+regression speciﬁcation of the form:
+˜re
+i,t = β0 ˜re
+m,t + β1 ˜re
+m,t−1 + · · · + β10 ˜re
+m,t−10 + ˜ϵi,t
+and then report the sum of the estimated coeﬃcients ˆβ0 + ˆβ1 + · · · + ˆβ10. Particularly for the past loser
+portfolios, and especially in the pre-WWII period, the lagg ed coeﬃcients are strongly signiﬁcant, suggesting
+that market wide information is incorporated into the price s of many of the ﬁrms in these portfolios over the
+span of multiple days. See Lo and MacKinlay (1990) and Jegade esh and Titman (1995).
+12
+to increase dramatically during volatile periods. The ﬁrst and third plots highlight the betas
+several years before, during, and after the momentum crashe s. The beta of the winner portfolio
+is sometimes above 2 following large market rises, but for th e loser portfolio, the beta reaches
+far higher levels (as high as 4 or 5). The widening beta diﬀere nces between winners and losers,
+coupled with the facts from Table 2 that these crash periods a re characterized by sudden and
+dramatic market upswings, means that the WML strategy will e xperience huge losses during
+these times. We examine these patterns more formally by inve stigating how the mean return
+of the momentum portfolio is linked to time variation in mark et beta.
+3.1 Hedging Market Risk in the Momentum Portfolio
+Grundy and Martin (2001) explore this same question, arguin g that the poor performance of
+the momentum portfolio in the pre-WWII period ﬁrst document ed by Jegadeesh and Titman
+(1993) is a result of time varying market and size exposure. S peciﬁcally, they argue that a
+hedged momentum portfolio – for which conditional market an d size exposure is zero – has
+a high average return and a high Sharpe-ratio in the pre-WWII period when the unhedged
+momentum portfolio suﬀers.
+At the time that Grundy and Martin (2001) undertook their stu dy, daily stock return data
+was not available through CRSP in the pre-1962 period. Given the dynamic nature of mo-
+mentum’s risk-exposures, estimating the future hedge coeﬃ cients ex-ante with monthly data
+is problematic. As a result, Grundy and Martin (2001) use an ex-post estimate of the portfo-
+lio’s market and size betas using monthly returns over the cu rrent month and the future ﬁve
+months.
+However, to the extent that the future momentum-portfolio b eta is correlated with the future
+return of the market, this procedure will result in a biased e stimate of the returns of the
+hedged portfolio. We show there is in fact a strong correlati on of this type, which results in
+a large upward bias in the estimated performance of the hedge d portfolio. 3
+3The result that the betas of winner-minus-loser portfolios are non-linearly related to contemporaneous
+market returns has also been documented in Rouwenhorst (199 8) who documents this feature for non-US
+equity momentum strategies (Table V, p. 279). Chan (1988) an d DeBondt and Thaler (1987) document this
+non-linearity for longer-term winner/loser portfolios. H owever, Boguth, Carlson, Fisher, and Simutin (2010),
+building on the results of Jagannathan and Korajczyk (1986) , note that the interpretation of the measures of
+abnormal performance ( i.e., the alphas) in Chan (1988), Grundy and Martin (2001), and Ro uwenhorst (1998)
+are problematic and provide a critique of Grundy and Martin ( 2001) and other studies which “overcondition”
+13
+Table 3: Market Timing Regression Results
+This table presents the results of estimating four speciﬁca tions of a monthly time-series regressions run over
+the period 1927:01 to 2013:03. In all cases the dependent var iable is the return on the WML portfolio. The
+independent variables are a constant, an indicator for bear markets, IB,t−1, which equals one if the cumulative
+past two-year return on the market is negative, the excess ma rket return, Re
+m,t, and a contemporaneous up-
+market indicator, IU,t, which equals one if Re
+m,t > 0. The coeﬃcients ˆα0 and ˆαB are ×100 ( i.e., are in percent
+per month).
+Estimated Coeﬃcients
+(t-statistics in parentheses)
+Coef. Variable (1) (2) (3) (4)
+ˆα0 1 1.852 1.976 1.976 2.030
+(7.3) (7.7) (7.8) (8.4)
+ˆαB IB,t−1 -2.040 0.583
+(-3.4) (0.7)
+ˆβ0 ˜Re
+m,t -0.576 -0.032 -0.032 -0.034
+(-12.5) (-0.5) (-0.6) (-0.6)
+ˆβB IB,t−1· ˜Re
+m,t -1.131 -0.661 -0.708
+(-13.4) (-5.0) (-6.1)
+ˆβB,U IB,t−1·IU,t· ˜Re
+m,t -0.815 -0.727
+(-4.5) (-5.6)
+R2
+ad j 0.130 0.269 0.283 0.283
+3.2 Option-like Behavior of the WML portfolio
+The source of the bias in estimating ex-post betas of the momentum portfolio is that in down
+markets the market beta of the WML portfolio is strongly negatively correlated with the
+contemporaneous realized performance of the portfolio. Th is means that the ex-post hedge
+will have a higher market beta when future market returns are high, and a lower beta when
+future market returns are low, making its performance appea r much better.
+We also show that the return of the momentum portfolio, net of market risk, is signiﬁcantly
+lower in bear markets. Both of these results are linked to the fact that, in bear markets, the
+momentum strategy behaves as if it is eﬀectively short a call option on the market.
+We ﬁrst illustrate these issues with a set of monthly time-se ries regressions, the results of
+which are presented in Table 3. The variables used in the regr essions are:
+in a similar way.
+14
+1. ˜RWML,t is the WML return in month t.
+2. ˜Re
+m,t is the CRSP value-weighted (VW) index excess return in month t.
+3. I B,t−1 is an ex-ante bear-market indicator that equals 1 if the cumulative CRSP V W
+index return in the past 24 months is negative, and is zero oth erwise.
+4. ˜IU,t is the contemporaneous – i.e., not ex-ante – up-market indicator variable. It is 1 if
+the excess CRSP VW index return is greater than the risk-free rate in month t (e.g.,
+Re
+m,t > 0), and is zero otherwise. 4
+Regression (1) in Table 3 ﬁts an unconditional market model t o the WML portfolio:
+˜RWML,t = α0 + β0 ˜Rm,t + ˜ϵt. (1)
+Consistent with the results in the literature, the estimate d market beta is negative, -0.576, and
+the intercept, ˆα, is both economically large (1.85% per month), and statisti cally signiﬁcant
+(t-stat = 7.3).
+Regression (2) in Table 3 ﬁts a conditional CAPM with the bear market indicator, IB, as an
+instrument:
+˜RWML,t = (α0 + αBIB,t−1) + (β0 + βBIB,t−1) ˜Rm,t + ˜ϵt. (2)
+This speciﬁcation is an attempt to capture both expected ret urn and market-beta diﬀerences
+in bear markets. First, consistent with Grundy and Martin (2 001), we see a striking change
+in the market beta of the WML portfolio in bear markets: it is - 1.13 lower, with a t-statistic
+of −13.4 on the diﬀerence. The intercept is also lower: the point est imate for the alpha in
+bear markets – equal to ˆ α0 + ˆαB – is now −6.4 basis points per month.
+Regression (3) introduces an additional element to the regr ession which allows us to assess the
+extent to which the up- and down-market betas of the WML portf olio diﬀer. The speciﬁcation
+is similar to that used by Henriksson and Merton (1981) to ass ess market timing ability of
+fund managers:
+˜RWML,t = [α0 + αB · IB,t−1] + [β0 + IB,t−1(βB + ˜IU,tβB,U )] ˜Rm,t + ˜ϵt. (3)
+If βB,U is diﬀerent from zero, this suggests that the WML portfolio e xhibits option-like be-
+havior relative to the market. Speciﬁcally, a negative βB,U would mean that, in bear markets,
+4Of the 1,035 months in the 1927:01-2013:03 period, there are 183 bear market months by our deﬁnition.
+Also, there are 618 up-months, and 417 down-months.
+15
+the momentum portfolio is eﬀectively short a call option on t he market. In months when the
+contemporaneous market return is negative, the point estim ate of the WML portfolio beta
+is −0.70 ( ˆβ0 + ˆβB). But, when the market return is positive, the market beta of WML is
+considerably more negative – speciﬁcally, the point estima te is ˆβ0 + ˆβB + ˆβB,U = −1.796.
+The predominant source of this optionality comes from the lo ser portfolio. Panel A of Table 4
+presents the results of the regression speciﬁcation in equa tion (3) for each of the ten momentum
+portfolios. The ﬁnal row of the table (the ˆβB,U coeﬃcient) shows the strong up-market betas
+for the loser portfolios in bear markets. For the loser decil e, the down-market beta is 1.560
+(= 1 .338 + 0 .222) and the point estimate of the up-market beta is 2.160 (= 1 .560 + 0.600).
+Also, note the slightly negative up-market beta increment f or the winner decile (= −0.215).
+This pattern also holds for less extreme winners and losers, such as decile 2 versus decile 9 or
+decile 3 versus 8, with the diﬀerences between winners and lo sers declining monotonically for
+less extreme past return sorted portfolios. The net eﬀect is that a momentum portfolio which
+is long winners and short losers will have signiﬁcant negati ve market exposure following bear
+markets precisely when the market swings upward, and that ex posure is even more negative
+for more extreme past return sorted portfolios.
+3.3 Asymmetry in the Optionality
+The optionality associated with the loser portfolios is onl y present in bear markets, however.
+Panel B of Table 4 presents the same set of regressions using t he bull-market indicator IL,t−1
+instead of the bear-market indicator IB,t−1. The key variables here are the estimated coeﬃ-
+cients and t-statistics on βL,U , presented in the last two rows of Panel B. Unlike in Panel A,
+there is no signiﬁcant asymmetry present in the loser portfo lio, though the winner portfolio
+asymmetry is comparable to Panel A. The net eﬀect is that the W ML portfolio shows no
+statistically signiﬁcant optionality in bull markets, unl ike what we see in bear markets.
+3.4 Ex-Ante versus Ex-Post Hedge of Market Risk for WML
+The results of the preceding analysis suggest that calculat ing hedge ratios based on future
+realized betas, as in Grundy and Martin (2001), is likely to p roduce strongly upward biased
+estimates of the performance of the hedged portfolio. This i s because the realized market beta
+16
+Table 4: Momentum Portfolio Optionality
+This table presents the results of regressions of the excess returns of the momentum decile portfolios and the
+Winner-minus-Loser (WML) long-short portfolio on the CRSP value-weighted excess market returns, and a
+number of indicator variables. Panel A reports results for o ptionality in bear markets where for each of the
+momentum portfolios, the following regression is estimate d:
+˜Re
+i,t = [α0 + αBIB,t−1] + [β0 + IB,t−1(βB + ˜IU,tβB,U )] ˜Re
+m,t + ˜ϵt
+where Re
+m is the CRSP value-weighted excess market return, IB,t−1 is an ex-ante bear-market indicator that
+equals 1 if the cumulative CRSP VW index return in the past 24 m onths is negative, and is zero otherwise, and
+IU,t is a contemporaneous up-market indicator that equals 1 if th e excess CRSP VW index return is positive
+in month t, and is zero otherwise. Panel B reports results for optional ity in bull markets where for each of the
+momentum portfolios, the following regression is estimate d:
+˜Re
+i,t = [α0 + αLIL,t−1] + [β0 + IL,t−1(βL + ˜IU,tβL,U )] ˜Rm,t + ˜ϵt
+where IL,t−1 is an ex-ante bull-market indicator (deﬁned as 1 − IB,t−1). The sample period is 1927:01-2013:03.
+The coeﬃcients ˆα0, ˆαB and ˆαL are ×100 ( i.e., are in percent per month).
+Momentum Decile Portfolios – Monthly Excess Returns
+(t-statistics in parentheses)
+1 2 3 4 5 6 7 8 9 10 WML
+Panel A: Optionality in Bear Markets
+ˆα0 -1.406 -0.804 -0.509 -0.200 -0.054 -0.050 0.159 0.260 0.294 0.570 1.976
+(-7.3) (-5.7) (-4.9) (-2.4) (-0.7) (-0.9) (2.7) (4.1) (3.8) (4.6) (7.8)
+ˆαB -0.261 0.370 -0.192 -0.583 -0.317 -0.231 -0.001 -0.039 0.42 0 0.321 0.583
+(-0.4) (0.8) (-0.6) (-2.1) (-1.3) (-1.2) (-0.0) (-0.2) (1.7 ) (0.8) (0.7)
+ˆβ0 1.338 1.152 1.014 0.955 0.922 0.952 0.974 1.018 1.114 1.306 - 0.032
+(30.4) (35.7) (42.6) (49.5) (55.6) (72.1) (72.3) (69.9) (62 .7) (46.1) (-0.6)
+ˆβB 0.222 0.326 0.354 0.156 0.180 0.081 0.028 -0.126 -0.158 -0.4 39 -0.661
+(2.2) (4.4) (6.5) (3.5) (4.7) (2.7) (0.9) (-3.8) (-3.9) (-6. 8) (-5.0)
+ˆβB,U 0.600 0.349 0.180 0.351 0.163 0.121 -0.013 -0.031 -0.183 -0. 215 -0.815
+(4.4) (3.5) (2.4) (5.9) (3.2) (3.0) (-0.3) (-0.7) (-3.3) (-2 .5) (-4.5)
+Panel B: Optionality in Bull Markets
+ˆα0 0.041 0.392 -0.249 0.222 0.089 0.048 0.097 0.079 0.188 0.388 0.347
+(0.1) (1.4) (-1.2) (1.3) (0.6) (0.4) (0.8) (0.6) (1.2) (1.5) (0.7)
+ˆαL -1.436 -1.135 -0.286 -0.653 -0.303 -0.084 -0.164 0.164 0.23 9 0.593 2.029
+(-2.9) (-3.1) (-1.1) (-2.9) (-1.6) (-0.6) (-1.1) (1.0) (1.2 ) (1.9) (3.1)
+ˆβ0 1.890 1.664 1.459 1.304 1.188 1.097 0.992 0.877 0.860 0.754 - 1.136
+(41.3) (49.6) (59.2) (64.5) (69.3) (80.5) (72.2) (58.7) (46 .7) (25.9) (-18.7)
+ˆβL -0.545 -0.498 -0.451 -0.411 -0.308 -0.141 -0.078 0.133 0.28 5 0.670 1.215
+(-6.0) (-7.4) (-9.2) (-10.2) (-9.0) (-5.2) (-2.9) (4.5) (7. 8) (11.5) (10.0)
+ˆβL,U -0.010 -0.025 0.017 0.138 0.094 -0.006 0.136 0.021 -0.077 -0 .251 -0.242
+(-0.1) (-0.2) (0.2) (2.2) (1.8) (-0.1) (3.2) (0.4) (-1.4) (- 2.8) (-1.3)
+17
+Figure 4: Ex-Ante vs. Ex-Post Hedged Portfolio Performance
+Plotted are the cumulative returns to the baseline static WM L strategy, the WML strategy hedged ex-post
+with respect to the market, and the WML strategy hedged ex-ante with respect to the market. The ex post
+hedged portfolio conditionally hedges the market exposure using the ex-post hedged procedure of Grundy and
+Martin (2001), but using daily data. Speciﬁcally, the size o f the market hedge is based on the future 42-day
+(2 month) realized market beta of the WML portfolio using equ ation (2). The ex-ante hedged momentum
+portfolio estimates market betas using the lagged 42 days of returns on the portfolio and the market from
+equation (2). The ﬁrst graph plots the cumulative log return s of the three portfolios over the 1927:06 to
+1939:12 period and the second graph plots their cumulative r eturns over the full sample period from 1927:06
+to 2013:03.
+18
+of the momentum portfolio is more negative when the realized return of the market is positive.
+Thus, hedging ex-post – where the hedge is based on the future realized portfolio be ta – buys
+the market (as a hedge) when the future market return is high, leading to a strong upward
+bias in the estimated performance of the hedged portfolio.
+To see how big the bias is, Figure 4 plots the cumulative log re turn to the static unhedged,
+ex-post hedged, and an ex-ante hedged WML momentum portfolio. 5 The ex-post hedged
+portfolio takes the WML portfolio and hedges out market risk using an ex-post estimate of
+market beta. Following Grundy and Martin (2001), we constru ct the ex-post hedged portfolio
+based on WML’s future 42-day (2 month) realized market beta, estimated using daily data.
+Again, to calculate the beta we use 10 daily lags of the market return. The ex-ante hedged
+portfolio estimates market betas using the lagged 42 days of returns of the portfolio on the
+market, including 10 daily lags.
+The ﬁrst graph in Figure 4 plots the cumulative log returns to all three momentum portfolios
+over the June 1927 to December 1939 period, covering a few yea rs before, during, and after
+the biggest momentum crash. The ex-post hedged portfolio exhibits considerably improved
+performance over the unhedged momentum portfolio as it is ab le to avoid the crash. How-
+ever, the ex-ante hedged portfolio is not only unable to avoid or mitigate the c rash, but also
+underperforms the unhedged portfolio over this period. Hen ce, trying to hedge ex-ante, as an
+investor would in reality, would have made an investor worse oﬀ. The bias in using ex-post
+betas is substantial over this period.
+The second graph in Figure 4 plots the cumulative log returns of the three momentum port-
+folios over the full sample period from 1927 to 2013. Again, t he strong bias in the ex-post
+hedge is clear, as the ex ante hedged portfolio performs no better than the unhedged WML
+portfolio in the overall period and signiﬁcantly worse than the ex post hedged portfolio.
+3.5 Market Stress and Momentum Returns
+A casual interpretation of the results presented in Section 3.2 is that there are option-like
+payoﬀs associated with the past losers in bear markets, and t hat the value of this option is
+not adequately reﬂected in the prices of past losers. This in terpretation further suggests that
+5The calculation of cumulative returns for long-short portf olios is described in Appendix A.1.
+19
+Table 5: Momentum Returns and Estimated Market V ariance
+Each column of this table presents the estimated coeﬃcients and t-statistics for a time-series regression based
+on the following regression speciﬁcation:
+˜RWML,t = γ0 + γB · IB,t−1 + γσ2
+m · ˆσ2
+m,t−1 + γint · IB,t−1 · ˆσ2
+m,t−1 + ˜ϵt,
+where I B,t−1 is the bear market indicator and ˆ σ2
+m,t−1 is the variance of the daily returns on the market,
+measured over the 126-days preceding the start of month t. The regression is estimated using monthly data
+over the period 1927:07-2013:03. The coeﬃcients ˆ γ0 and ˆγB are ×100 ( i.e., are in percent per month).
+(1) (2) (3) (4) (5)
+ˆγ0 1.955 2.428 2.500 1.973 2.129
+(6.6) (7.5) (7.7) (7.1) (5.8)
+ˆγB -2.626 -1.281 0.023
+(-3.8) (-1.6) (0.0)
+ˆγσ2m -0.330 -0.275 -0.088
+(-5.1) (-3.8) (-0.8)
+ˆγint -0.397 -0.323
+(-5.7) (-2.2)
+the value of this option should be a function of the future var iance of the market.
+To examine this hypothesis, we use daily market return data t o construct an ex-ante estimate
+of the market volatility over the next month, and use this mar ket variance estimate in com-
+bination with the bear-market indicator, IB,t−1, to forecast future WML returns. Speciﬁcally,
+we run the following regression:
+˜RWML,t = γ0 + γB · IB + γσ2m · ˆσ2
+m,t−1 + γint · IB · ˆσ2
+m,t−1 + ˜ϵt, (4)
+where I B is the bear market indicator and ˆ σ2
+m,t−1 is the variance of the daily returns of the
+market over the 126-days prior to time t.
+Table 5 reports the regression results, showing that both es timated market variance and
+the bear market indicator independently forecast future mo mentum returns. Columns (1)
+and (2) report regression results for each variable separat ely and column (3) reports results
+using both variables simultaneously. The results are consi stent with those from the previous
+section: in periods of high market stress, as indicated by be ar markets and high volatility,
+future momentum returns are low. Finally, the last two colum ns of Table 5 report results for
+20
+Table 6: Regression of WML Returns on V ariance Swap Returns
+This table presents the results of three daily time-series r egressions of the zero-investment WML portfolio
+returns on an intercept α, on the normalized ex-ante forecasting variable I B,t−1 ˆσ2
+m, and on this forecasting
+variable interacted with the excess market return and the re turn on a (zero-investment) variance swap on the
+S&P 500. (See Appendix A.2 for details on how these swap retur ns are calculated.) The sample is January
+2, 1990 to March 28, 2013. T-statistics are in parentheses. T he intercept ( α) and the coeﬃcient for I Bσ2 are
+converted to annualized, percentage terms by multiplying b y 252 × 100.
+(1) (2) (3)
+α 31.48 29.93 30.29
+(4.7) (4.8) (4.9)
+IBσ 2 -58.62 -49.16 -54.83
+(-5.2) (-4.7) (-5.3)
+˜re
+m,t 0.11 0.10
+(4.5) (3.1)
+IBσ 2 · ˜re
+m,t -0.52 -0.63
+(-28.4) (-24.7)
+˜rvs,t -0.02
+(-0.4)
+IBσ 2 · ˜rvs,t -0.10
+(-4.7)
+the interaction between the bear market indicator and volat ility, where momentum returns
+are shown to be particularly poor during bear markets with hi gh volatility.
+3.6 Exposure to other risk factors
+Our results show that time varying exposure to market risk ca nnot explain the low returns
+of the momentum portfolio in “crash” states. However, the op tion-like behavior of the mo-
+mentum portfolio raises the intriguing question of whether the premium associated with mo-
+mentum might be related to exposure to variance risk since, i n panic states, a long-short
+momentum portfolio behaves like a short (written) call opti on on the market and since short-
+ing options ( i.e., selling variance) has historically earned a large premium .6
+To assess the dynamic exposure of the momentum strategy to va riance innovations, we regress
+6See Christensen and Prabhala (1998) and Carr and Wu (2009).
+21
+daily WML returns on the inferred daily (excess) returns of a variance swap on the S&P 500,
+which we calculate using the VIX and S&P 500 returns. Appendi x A.2 provides details of the
+return calculations. We run a time-series regression with a conditioning variable designed to
+capture the time-variation in factor loadings on the market , and potentially on other variables.
+The conditioning variable I Bσ2 ≡ (1/¯vB)IB,t−1ˆσ2
+m,t−1 is the interaction used earlier but with a
+slight twist:
+• IB is the bear market indicator deﬁned earlier (I B = 1 if the cumulative past two-year
+market return is negative, and is zero otherwise).
+• ˆσ2
+m is the variance of the market excess return over the precedin g 126 days.
+• (1/¯vB) is the inverse of the full-sample mean of ˆ σ2
+m over all months in which I B,t−1 = 1.
+Normalizing the interaction term with the constant 1 /¯vB does not aﬀect the statistical signif-
+icance of the results, but it gives the coeﬃcients a simple in terpretation. Speciﬁcally, since
+∑
+IB,t−1=1
+IBσ 2 = 1,
+the coeﬃcients on I Bσ 2 and on variables interacted with I Bσ 2 can be interpreted as the weighted
+average change in the corresponding coeﬃcient during a bear market, where the weight on
+each observation is proportional to the ex-ante market vari ance leading up to that month.
+Table 6 presents the results of this analysis. In regression (1) the intercept ( α) estimates
+the mean return of the WML portfolio when I B,t−1 = 0 as 31.48% per year. However, the
+coeﬃcient on I Bσ 2 shows that the weighted-average return in “panic” periods ( volatile bear
+markets) is almost 59% per year lower.
+Regression (2) controls for the market return and condition al market risk. Consistent with
+our earlier results, the last coeﬃcient in this column shows that the estimated WML beta
+falls by 0.518 ( t-stat = −28.4) in panic states. However, both the mean WML return in good
+periods and the change in the WML premium in the panic periods (given, respectively, by α
+and the coeﬃcient on I Bσ 2), remain about the same.
+In regression (3), we add the return on the variance swap and i ts interaction with panic
+states. The coeﬃcient on ˜ rvs,t shows that outside of panic states ( i.e., when I B,t−1 = 0), the
+22
+WML return does not covary signiﬁcantly with the variance sw ap. However, the coeﬃcient
+on I Bσ 2 · ˜rvs,t shows that in panic states, WML has a strongly signiﬁcant neg ative loading on
+the variance swap return. That is, WML is eﬀectively “short v olatility” during these periods.
+This is consistent with our previous results, where WML beha ves like a short call option, but
+only in panic periods; outside of these periods, there is no e vidence of any optionality.
+However, the intercept and estimated I Bσ 2 coeﬃcient in regression (3) are essentially un-
+changed, even after controlling for the variance swap retur n. The estimated WML premium
+in non-panic states remains large, and the change in this pre mium in panic states is just as
+negative as before, indicating that although momentum retu rns are related to variance risk,
+neither the unconditional nor conditional returns to momen tum are explained by it.
+We also regress the WML momentum portfolio returns on the thr ee Fama and French (1993)
+factors consisting of the CRSP VW index return in excess of th e risk-free rate, a small minus
+big (SMB) stock factor, and a high BE/ME minus low BE/ME (HML) factor, all obtained
+from Ken French’s website. In addition, we interact each of t he factors with the panic state
+variable IBσ 2. The results are reported in Appendix B, where the abnormal p erformance
+of momentum continues to be signiﬁcantly more negative in be ar market states, whether we
+measure abnormal performance relative to the market model o r to the Fama and French (1993)
+three-factor model, with little diﬀerence in the point esti mates.7
+4 Dynamic W eighting of the Momentum Portfolio
+Using the insights from the previous section, we evaluate th e performance of a strategy which
+dynamically adjusts the weight on the WML momentum strategy using the forecasted return
+and variance of the strategy. We show that the dynamic strate gy generates a Sharpe ratio
+more than double that of the baseline $1-long/$1-short WML s trategy and is not explained
+by other factors or other suggested dynamic momentum portfo lios such as constant volatility
+(e.g., Barroso and Santa-Clara (2012)).
+7Although beyond the scope of this paper, we also examine HML a nd SMB as the dependent variable
+in similar regressions. We ﬁnd that HML has opposite signed m arket exposure in panic states relative to
+WML, which isn’t surprising since value strategies buy long -term losers and sell winners, the opposite of
+what a momentum strategy does. The correlation between WML a nd HML is −0.50. However, an equal
+combination of HML and WML does not completely hedge the pani c-state optionality as the eﬀects on WML
+are quantitatively stronger. The details are provided in Ap pendix B.
+23
+We begin with the design of a strategy which dynamically weig hts WML based on its forecasted
+return and volatility. We show in Appendix C that, for the obj ective function of maximizing
+the in-sample unconditional Sharpe ratio, the optimal weig ht on the risky asset (WML) at
+time t − 1 is:
+w∗
+t−1 =
+( 1
+2λ
+) µt−1
+σ2
+t−1
+(5)
+where µt−1 ≡ Et−1[RWML,t] is the conditional expected return on the (zero-investmen t) WML
+portfolio over the coming month, σ2
+t−1 ≡ Et−1[(R2
+WML,t − µt−1)2] is the conditional variance
+of the WML portfolio return over the coming month, and λ is a time-invariant scalar that
+controls the unconditional risk and return of the dynamic po rtfolio.
+We use the insights from our previous analysis to provide an e stimate of µt−1, the conditional
+mean return of WML. The results from Table 5 provide us with an instrument for the time
+t conditional expected return on the WML portfolio. As a proxy for the expected return,
+we use the ﬁtted regression of the WML returns on the interact ion between the bear-market
+indicator IB,t−1 and the market variance over the preceding 6-months – i.e., the regression
+estimated in the last column of Table 5.
+To forecast the volatility of the WML series, we ﬁrst ﬁt a GARC H model as proposed by
+Glosten, Jagannathan, and Runkle (1993, GJR) to the WML retu rn series. The process is
+deﬁned by:
+RW M L,t = µ + ϵt, (6)
+where ϵt ∼ N (0, σ2
+t ) and where the evolution of σ2
+t is governed by the process:
+σ2
+t = ω + βσ 2
+t−1 + (α + γI (ϵt−1 < 0)) ϵ2
+t−1 (7)
+where I(ϵt−1 < 0) is an indicator variable equal to one if ϵt−1 < 0, and zero otherwise. 8 We
+use maximum likelihood to estimate the parameter set ( µ, ω, α, γ, β) over the full time series
+(estimates of the parameters and standard errors are provid ed in Appendix D).
+We form a linear combination of the forecast of future volati lity from the ﬁtted GJR-GARCH
+process with the realized standard deviation of the 126 dail y returns preceding the current
+month. We show in Appendix D that both components contribute to forecasting future daily
+8Engle and Ng (1993) investigate the performance of a number o f parametric models in explaining daily
+market volatility for Japan. They ﬁnd that the GJR model that we use here best ﬁts the dynamic structure
+of volatility for that market.
+24
+realized WML volatility.
+Our analysis in this section is also related to work by Barros o and Santa-Clara (2012), who
+argue that momentum crashes can be avoided with a momentum po rtfolio that is scaled by
+its trailing volatility. They further show that the uncondi tional Sharpe ratio of the constant-
+volatility momentum strategy is far better than a simple $1- long/$1-short strategy.
+Equation (5) shows that our results would be approximately t he same as those of Barroso and
+Santa-Clara (2012) if the Sharpe ratio of the momentum strat egy were time-invariant, i.e.,
+if the forecast mean were always proportional to the forecas t volatility. Equation (5) shows
+that, in this setting, the weight on WML would be inversely pr oportional to the forecast WML
+volatility – that is the optimal dynamic strategy would be a c onstant volatility strategy like
+the one proposed by Barroso and Santa-Clara (2012).
+However, this is not the case for momentum. In fact, the retur n of WML is actually nega-
+tively related to the forecast WML return volatility, related in pa rt to our ﬁndings of lower
+momentum returns following periods of market stress. This m eans that the Sharpe ratio of
+the optimal dynamic portfolio varies over time, and indeed i s lowest when WML’s volatility
+is forecast to be high (and it’s mean return low). To test this hypothesis, we implement a
+dynamic momentum portfolio using these insights in the next subsection, and show that the
+dynamic strategy outperforms a constant volatility strate gy.
+4.1 Dynamic Strategy Performance
+Figure 5 plots the cumulative returns to the dynamic strateg y from July 1927 to March 2013,
+where λ is chosen so that the in-sample annualized volatility of the strategy is 19% – the
+same as that of the CRSP value-weighted index over the full sa mple. For comparison, we also
+plot the cumulative log returns of the static WML strategy, a nd a constant volatility strategy
+similar to that of Barroso and Santa-Clara (2012) also scale d to 19% annual volatility. As
+Figure 5 shows, the dynamic portfolio outperforms the const ant volatility portfolio, which in
+turn outperforms the basic WML portfolio. The Sharpe ratio ( in parentheses on the ﬁgure) of
+the dynamic portfolio is nearly twice that of the static WML p ortfolio and a bit higher than
+the constant volatility momentum portfolio. In Section 4.3 we will conduct formal spanning
+tests among these portfolios as well as other factors. Consi stent with our previous results, part
+25
+Figure 5: Dynamic Momentum Strategy Performance
+Plotted are the cumulative returns to the dynamic strategy, “dyn”, from equation (5), where λ is chosen so
+that the in-sample annualized volatility of the strategy is 19% – the same as that of the CRSP value-weighted
+index over the full sample. For comparison, we also plot the c umulative log returns of the static WML strategy,
+and a constant volatility strategy, “cvol”, similar to that of Barroso and Santa-Clara (2012), also targeted
+for an annualized volatility of 19%. The ﬁrst graph plots the cumulative returns over the full sample period
+from 1927:07 to 2013:03. The second graph plots the returns o ver four roughly quarter-century subsamples:
+1927-1949, 1950-1974, 1975-1999, and 2000-2013. Annualiz ed Sharpe ratios of each strategy in each period
+are reported in parentheses on the graphs.
+26
+of the outperformance of the dynamic strategy comes from its ability to mitigate momentum
+crashes. However, the dynamic strategy still outperforms t he other momentum strategies even
+outside of the 1930s and the ﬁnancial crisis period, as we dis cuss next.
+4.2 Subsample Performance
+As a check on the robustness of our results, we perform the sam e analysis over a set of
+approximately quarter-century subsamples: 1927 to 1949, 1 950 to 1974, 1975 to 1999, and 2000
+to 2013. We use the same mean and variance forecasting equati on and the same calibration
+in each of the four subsamples. Figure 5 plots the cumulative log returns by subsample and
+presents the strategy Sharpe ratios (in parentheses) by sub sample. For these plots, returns
+for each of the strategies are scaled to an annualized volati lity of 19% in each subsample for
+ease of comparison.
+In each of the subsamples, the ordering of performance remai ns the same: the dynamic strategy
+outperforms the constant volatility strategy, which outpe rforms the static WML strategy. As
+the subsample plots show, part of the improved performance o f the constant volatility, and
+especially dynamic strategy, over the static WML portfolio is the amelioration of big crashes,
+but even over sub-periods devoid of those crashes, there is s till improvement.
+4.3 Spanning T ests
+A more formal test of the dynamic portfolio’s success is to co nduct spanning tests with re-
+spect to the other momentum strategies and other factors. Us ing daily returns, we regress
+the dynamic portfolio’s returns on a host of factors that inc lude the market and Fama and
+French (1993) factors as well as the static WML and constant v olatility (cvol) portfolios. The
+annualized alphas from these regressions are reported in Ta ble 7.
+The ﬁrst column of Panel A of Table 7 reports results from regr essions of our dynamic mo-
+mentum portfolio on the market plus the static momentum port folio, WML. The intercept is
+highly signiﬁcant at 23.74 percent per annum ( t-stat = 11.99), indicating that the dynamic
+portfolio’s returns are not captured by the market or the sta tic momentum portfolio. Since
+this regression only controls for unconditional market exp osure, the second column of Panel
+27
+Table 7: Spanning T ests of the Dynamic Momentum Portfolio
+This table presents the results of spanning tests of the dyna mic (Panel A) and constant volatility (Panel B)
+portfolios with respect to the market (Mkt), Fama and French (1993) factors (Mkt, SMB, HML), the static
+WML portfolio, and each other by running daily time-series r egressions of the dynamic portfolio’s (dyn) and
+constant volatility (cvol) portfolio’s returns on these fa ctors. In addition, we interact each of these factors
+with the market stress indicator IBσ2 to estimate conditional betas with respect to these factors , which
+are labeled “conditional.” For ease of comparison the dyn an d cvol portfolios are scaled to have the same
+annualized volatility as the static WML portfolio (23%). Th e reported intercepts or α’s from these regressions
+are converted to annualized, percentage terms by multiplyi ng by 252 × 100.
+Panel A: Dependent variable = returns to dynamic (dyn) momen tum portfolio
+(1) (2) (3) (4) (5) (6)
+Model: Mkt+WML Mkt+WML FF+WML Mkt+cvol Mkt+cvol FF+cvol
+conditional conditional conditional conditional
+α 23.74 23.23 22.04 7.27 6.92 6.10
+t(α) (11.99) (11.76) (11.60) (6.86) (6.44) (6.08)
+Panel B: Dependent variable = returns to constant volatilit y (cvol) momentum portfolio
+(1) (2) (3) (4) (5) (6)
+Model: Mkt+WML Mkt+WML FF+WML Mkt+dyn Mkt+dyn FF+dyn
+conditional conditional conditional conditional
+α 14.27 14.28 13.88 -0.72 -0.15 -0.02
+t(α) (11.44) (11.55) (11.28) (-0.66) (-0.13) (-0.02)
+A reports regression results that include interactions of o ur panic state indicators with the
+market to capture the conditional variability in beta. The a lpha is virtually unchanged and
+remains highly positively signiﬁcant. The third column the n adds the Fama and French (1993)
+factors SMB and HML and their interactions with the panic sta te variables to account for
+conditional variability in exposure to the market, size, an d value factors, where the latter
+has been shown, for instance, to greatly improve the perform ance of a momentum portfolio
+(e.g., Asness, Moskowitz, and Pedersen (2013)). This regre ssion accounts for whether our
+dynamic portfolio is merely rotating exposure to these fact ors.9 Again, the alpha with respect
+to this conditional model is strong and signiﬁcant at 22 perc ent per year, nearly identical
+in magnitude to the ﬁrst two columns. Hence, our dynamic mome ntum strategy’s abnormal
+performance is not being driven by dynamic exposure to these other factors or to the static
+momentum portfolio.
+Columns (4) through (6) of Panel A of Table 7 repeat the regres sions from columns (1) through
+9 Since the optimal dynamic portfolio solved in Appendix C is n ot conditional on other factors, to form this
+portfolio in the presence of other factors we ﬁrst regress th e static momentum portfolio on the other factors
+using daily returns and then use the residuals to form our dyn amic strategy by forecasting the conditional
+mean and variance of those residuals to form the dynamic weig hts.
+28
+(3) by replacing the static WML portfolio with the constant v olatility (cvol) momentum
+portfolio. The alphas drop in magnitude to about 7 percent pe r year, but remain highly
+statistically signiﬁcant ( t-stats between 6 and 7), suggesting that the dynamic momentu m
+portfolio is not spanned by the constant volatility portfol io.
+Panel B of Table 7 ﬂips the analysis around and examines wheth er the constant volatility
+portfolio is spanned by the static WML portfolio or the dynam ic portfolio. The ﬁrst three
+columns of Panel B indicate that the constant volatility por tfolio is not spanned by the
+static WML portfolio or the Fama and French (1993) factors, g enerating alphas of about
+14 percent per annum with highly signiﬁcant t-statistics. These results are consistent with
+Barroso and Santa-Clara (2012). However, the alphas of the c onstant volatility portfolio are
+slightly smaller in magnitude than those from the dynamic st rategy, consistent with the Sharpe
+ratio comparisons from Figure 5. (Since we scale both the dyn amic and constant volatility
+portfolios to have the same variance, these alphas are compa rable and give the same rankings
+as information ratios would.)
+Columns (4) through (6) of Panel B report results from regres sing the constant volatility
+portfolio’s returns on the dynamic portfolio’s returns. He re, the alphas are all zero, both eco-
+nomically and statistically, suggesting that the dynamic p ortfolio spans the constant volatility
+portfolio. According to Appendix C, this should be the case i n theory, thus implying that
+we obtain decent ex-ante forecasts of the conditional mean and variance of the static WML
+portfolio to form a dynamic strategy that reliably captures and improves upon the returns to
+a constant volatility and static momentum portfolio.
+5 International Equities and Other Asset Classes
+Although ﬁrst documented in individual equities in the US, s ubsequent research has demon-
+strated the existence of strong momentum eﬀects among commo n stocks in other investment
+regions and in other asset classes (see Asness, Moskowitz, a nd Pedersen (2013) for a summary).
+We investigate whether the same momentum crash patterns we o bserve in US equities are
+also present in these other asset markets, and whether our dy namic momentum portfolio
+helps ameliorate these crashes and improves momentum perfo rmance in other markets.
+29
+5.1 Data
+The data come from Asness, Moskowitz, and Pedersen (2013) an d for equities cover the U.S.,
+U.K., Japan, and Continental Europe. Details on data descri ption and sources can be found
+in Asness, Moskowitz, and Pedersen (2013). The US and UK data begin in January 1972
+and Europe and Japan in February 1974, extending to May 2013. 10 We also examine a global
+equity momentum strategy GE, which weights each region’s eq uity momentum strategy by
+the ex-post volatility of the portfolio over the full sample, following Asness, Moskowitz, and
+Pedersen (2013).
+The non-equity data also come from Asness, Moskowitz, and Pe dersen (2013), which contain
+equity country index futures across 18 developed equity mar kets beginning in January 1978, 10
+currencies across developed markets starting in January 19 79, 10 country government bonds
+beginning January 1982, and 27 diﬀerent commodity futures b eginning in January 1972. All
+series end in May 2013.
+In addition, we examine two composite portfolios: GA is a glo bal momentum strategy across
+the non-equity asset classes, which weights each asset clas s momentum strategy portfolio by
+the ex-post volatility of that portfolio. GAll is a global momentum stra tegy across all of the
+equity and non-equity asset classes, which weights the GE an d GA portfolios by their ex-post
+return volatilities over the full sample.
+The deﬁnition of the market index is diﬀerent for each market and asset class: it is the MSCI
+local index for the US, UK, Europe, and Japan, the MSCI World i ndex for country index
+futures, an equal-weighted average of all country bonds for bond markets, an equal-weighted
+average of all currencies for currency markets, and the Gold man Sachs Commodity Index
+(GSCI) for commodities.
+10These data extend beyond the original sample period used in A sness, Moskowitz, and Pedersen (2013),
+since the data are updated monthly following the same proced ure for portfolio construction in Asness,
+Moskowitz, and Pedersen (2013). The data are available from Toby Moskowitz’s website:
+(http://faculty.chicagobooth.edu/tobias.moskowitz/research/data.html).
+30
+5.2 Cross Sectional Equity Momentum Outside the US
+The portfolio formation procedure here is similar to that us ed earlier in the paper, except
+instead of taking the top and bottom decile portfolios, we us e the Asness, Moskowitz, and
+Pedersen (2013) P3 −P1 momentum portfolios, which is long the top third and short the
+bottom third of securities ranked on returns from month t − 12 to t − 2. Both the long and
+the short side of the portfolio are value weighted. As docume nted in Asness, Moskowitz,
+and Pedersen (2013), over this time period there are strong m omentum eﬀects in each of the
+regions except Japan.
+Panels A through D of Table 8 present the results of the regres sions run in Section 2, but here
+for the other stock market universes. Panel A shows the estim ated coeﬃcients and t-statistics
+from the regression speciﬁcation in equation (2). Consiste nt with the results presented earlier,
+the market betas of the momentum strategy are dramatically l ower in bear markets across
+the other stock markets as well. The strategies implemented using European and Japanese
+stocks have market betas that are approximately 0.5 lower du ring bear markets (with t-stats
+of about -7). The UK momentum strategy beta falls by 0.2. The d rop in this period for the
+US momentum strategy is 0.58 – comparable to what we observe f or the WML portfolio over
+the longer 1927 to 2013 period. Globally, averaging across t he US, UK, Europe, and Japan,
+the market betas of the momentum strategy are markedly lower in bear markets.
+The abnormal returns of the momentum strategies are signiﬁc antly positive in bull markets
+for all regions except Japan. Consistent with our analysis i n Section 2, the return is lower in
+bear markets in each region, though using only the bear marke t indicator as a proxy for panic
+periods none of the diﬀerences are statistically signiﬁcan t over these shorter sample periods.
+Panel B investigates the optionality in the momentum strate gy in bear markets using the
+regression speciﬁcation in equation (3). Consistent with t he longer period US results, there
+is statistically signiﬁcant optionality in bear markets in the European, UK, and Japan stock
+markets, and globally across all markets. Interestingly, f or this subsample and methodology,
+the optionality is of the right sign, but is not statisticall y signiﬁcant for the US market. The
+negative beta of long-short momentum strategies is particu larly acute when the contempora-
+neous market return is positive. That is, momentum strategi es in all regions across the world
+exhibit conditional betas and payoﬀs similar to writing cal l options on the local market index.
+31
+In Panel C, we add as a conditioning variable the realized dai ly market return variance,
+annualized, over the preceding 126 trading days (6 months): 11
+˜RP 3−P 1
+t = [α0 + αBIB,t−1 + αV ˆσ2
+m,t−1] + [β0 + βBIB,t−1 + βV ˆσ2
+m,t−1] ˜Re
+m,t + ˜ϵt. (8)
+Two interesting results emerge. First, higher ex-ante market variance is generally associated
+with more negative momentum strategy betas. Second, higher market variance is also asso-
+ciated with strongly lower future abnormal returns to momen tum, net of the market return.
+This last relation is statistically signiﬁcant in all marke ts, and again is consistent with our
+earlier results for the US market over the longer period.
+In Panel D we again use the I Bσ 2 ≡ (1/¯vB)IB,t−1 · ˆσ2
+m measure introduced in Section 3.6,
+designed to capture “panic” periods when the market has fall en and volatility is high. In
+addition, in these regressions we instrument for time varia tion in market beta using IB,t−1,
+ˆσ2
+m,t−1, and I Bσ 2. Speciﬁcally, we run the regression
+˜RP 3−P 1
+t = [α0 + αBIBσ2] + [βBIB,t−1 + βVˆσ2
+m,t−1 + βBVIBσ2] ˜Re
+m,t + ˜ϵt. (9)
+The results in Panel D of Table 8 are consistent with our earli er results for the US over
+the longer period. In particular, the coeﬃcient on the inter action term IBσ 2 is negative,
+economically large, and statistically signiﬁcant in all ma rkets, and for the global strategy.
+In summary, the results in Table 8 suggest that momentum stra tegies in these diﬀerent equity
+markets are also short volatility, and have signiﬁcantly lower abnormal returns in panic periods
+characterized by poor lagged market returns and high market volatility.
+One other point of interest is that, in Panels C and D of Table 8 , the ˆ α for the Japan
+momentum strategy is considerably larger, and in Panel C is i n fact signiﬁcant at a 5% level.
+We will explore the implications of this ﬁnding further in Se ction 5.4, where we apply a
+dynamic Japanese momentum strategy which takes into accoun t the forecastability of both
+the expected return and volatilty.
+11This is the same market variance measure used earlier. Howev er, for the EU, JP, and UK regions we have
+daily MSCI market return data only for the time period from Ja nuary 1990 on. Therefore, over the period
+from 1972:01-1990:06 in the UK, and 1974:02-1990:06 in EU an d JP, we use the realized monthly variance
+over the preceding 6 months, again annualized.
+32
+Table 8: Time Series Regressions for International Equity Markets
+The table reports the estimated coeﬃcients and t-statistics from regressions of the monthly returns to a zer o-
+investment equity momentum strategy in each region on the in dicated set of independent variables. The
+estimated regression intercept ( α), and the coeﬃcients on IB and I Bσ2 are all multiplied by 12 ×100 to put
+them in annualized, percentage terms. GE is a global equity m omentum strategy that is a volatility-weighted
+portfolio of the four equity markets.
+EU JP UK US GE
+start 1974:02 1974:02 1972:01 1972:02 1972:01
+end 2013:05 2013:05 2013:05 2013:05 2013:05
+Panel A
+α 8.935 1.887 7.409 5.181 5.826
+(3.5) (0.5) (2.7) (1.9) (3.6)
+IB -3.549 -0.837 -6.827 -2.921 -4.920
+(-0.7) (-0.1) (-1.1) (-0.5) (-1.2)
+Re
+m 0.071 0.246 0.015 0.150 0.023
+(1.6) (4.8) (0.4) (2.7) (0.7)
+IBRe
+m -0.508 -0.527 -0.197 -0.584 -0.275
+(-7.1) (-7.0) (-3.1) (-6.2) (-4.6)
+Panel B
+α 8.935 1.887 7.409 5.181 5.826
+(3.6) (0.5) (2.7) (1.9) (3.6)
+IB 9.418 11.104 4.249 -0.266 5.019
+(1.2) (1.3) (0.5) (-0.0) (0.8)
+Re
+m 0.071 0.246 0.015 0.150 0.023
+(1.7) (4.8) (0.4) (2.7) (0.7)
+IBRe
+m -0.302 -0.318 0.004 -0.540 -0.098
+(-2.7) (-2.5) (0.0) (-3.3) (-1.0)
+IBIU Re
+m -0.418 -0.367 -0.306 -0.086 -0.342
+(-2.4) (-2.0) (-2.2) (-0.3) (-2.2)
+Panel C
+α 12.237 12.385 10.856 10.331 8.345
+(4.1) (2.5) (3.6) (3.4) (4.8)
+IB 1.445 4.554 0.213 6.018 2.254
+(0.3) (0.7) (0.0) (0.9) (0.5)
+ˆσ2
+m -0.113 -0.221 -0.078 -0.204 -0.252
+(-2.0) (-2.9) (-2.6) (-3.3) (-3.7)
+Re
+m 0.115 0.280 0.020 0.215 0.041
+(2.5) (4.2) (0.5) (3.6) (1.2)
+IBRe
+m -0.391 -0.512 -0.182 -0.485 -0.206
+(-4.8) (-6.5) (-2.5) (-4.8) (-3.2)
+ˆσ2
+mRe
+m -1.755 -0.734 -0.040 -2.361 -1.959
+(-2.6) (-0.7) (-0.2) (-2.5) (-2.2)
+Panel D
+α 10.286 5.333 8.627 7.084 6.720
+(4.4) (1.6) (3.4) (2.8) (4.5)
+IBσ2 -6.509 -9.910 -11.408 -11.055 -8.704
+(-2.0) (-2.2) (-3.2) (-2.6) (-3.6)
+IBRe
+m -0.306 -0.180 -0.176 -0.245 -0.177
+(-3.7) (-1.8) (-2.6) (-2.4) (-2.8)
+ˆσ2
+mRe
+m -0.295 3.685 -0.600 1.839 -2.798
+(-0.2) (3.8) (-0.8) (1.2) (-1.2)
+IBσ2 Re
+m -0.056 -0.307 0.073 -0.261 0.036
+(-0.7) (-3.2) (0.8) (-2.4) (0.5)
+33
+5.3 Cross-Sectional Momentum in Other Asset Classes
+Evidence of the option-like payoﬀs of momentum strategies i n bear markets outside of US
+equities, and indeed in every other equity market we examine d, gives credence to this feature
+of momentum being a robust phenomenon and not likely due to ch ance. For further robustness,
+we also examine momentum strategies in the non-equity asset classes. In addition to providing
+another out of sample test for the option-like payoﬀs of mome ntum strategies in bear markets,
+ﬁnding the same option-like asymmetry in these asset classe s would also present a challenge
+to the Merton (1974) explanation.
+Table 9 presents the results of time series regressions for t he non-equity asset-class momentum
+strategies similar to those in Table 8 for international equ ities. First, the set of I B,t−1 ·
+˜Re
+m coeﬃcients and t-statistics in the last row of Panel A show that, in all asset c lasses,
+the momentum portfolio’s market beta is signiﬁcantly more n egative in bear markets. The
+intuition that, following a bear market, the loser side of th e momentum portfolio will have a
+high market beta is valid for other asset classes as well. The IB,t−1 coeﬃcients in the second
+row of Panel A also provide evidence weakly consistent with t he earlier ﬁnding that market-
+adjusted momentum returns are lower following bear markets . The point estimates are all
+negative, except for bonds, but only in the currency market i s the coeﬃcient signiﬁcant.
+Panel B assesses whether the optionality present in cross-s ectional equity momentum strategies
+is also present in other asset classes. The I B,t−1˜IU,t ˜Re
+m,t coeﬃcient is negative for each of the
+four asset classes, and the two composite portfolios, but is statistically signiﬁcant at a 5%
+level only for commodities. This result is intriguing. Whil e a model such as Merton (1974)
+argues that equities should exhibit option-like features, it is not clear that such a model would
+easily explain the optionality present in commodity future s, and weakly in currency markets.
+Panel C of Table 9 estimates equation (8) for the other-asset -class momentum strategies. Here
+the signs in the relation between lagged volatility and mome ntum strategy returns are again
+negative in the commodity (CM), currency (FX), and equity (E Q) futures asset classes. Panel
+D again uses the interactive variable IBσ 2 as an instrument for volatile bear markets. As in
+Table 8, we control for variation in market beta associated w ith IB,t−1, ˆσ2
+m, and the interaction
+term itself. In all asset classes except FI, the coeﬃcient on this interaction term is negative,
+consistent with our previous ﬁndings in US and internationa l equity markets. However, except
+for FX and the GAll portfolio, the coeﬃcient is not signiﬁcan t at a 5% level.
+34
+Table 9: Time Series Regressions for other Asset Classes
+The table reports the estimated coeﬃcients and t-statistics from regressions of the monthly returns to zero -
+investment momentum strategies in each asset class on the in dicated set of independent variables. GA and
+GAll are the global strategies across all non-equity asset class es and across all asset classes including equities,
+where each asset class and equity market is weighted by the in verse of their full sample volatility. The estimated
+intercept, and the coeﬃcients on IB,t−1 and I Bσ2 are all multiplied by 12 ×100 to put them in annualized,
+percentage terms.
+FI CM FX EQ GA GAll
+start 1983:02 1973:02 1980:02 1979:02 1973:02 1973:02
+end 2013:05 2013:05 2013:05 2013:05 2013:05 2013:05
+Panel A
+α 0.006 16.302 4.745 8.575 4.653 4.639
+(0.0) (3.7) (2.2) (3.8) (4.6) (5.0)
+IB 0.798 -10.470 -8.221 -0.575 -2.426 -3.294
+(0.3) (-1.4) (-2.5) (-0.1) (-1.1) (-1.3)
+Re
+m 0.186 0.308 0.382 0.272 0.162 0.082
+(3.1) (4.1) (4.4) (6.0) (2.7) (1.9)
+IBRe
+m -0.362 -0.730 -1.092 -0.620 -0.485 -0.366
+(-2.7) (-4.5) (-8.6) (-8.5) (-3.9) (-4.4)
+Panel B
+α 0.006 16.302 4.745 8.575 4.653 4.639
+(0.0) (3.8) (2.2) (3.8) (4.6) (5.1)
+IB 1.994 7.014 -4.096 6.248 1.142 3.746
+(0.6) (0.7) (-0.9) (1.1) (0.4) (1.1)
+Re
+m 0.186 0.308 0.382 0.272 0.162 0.082
+(3.1) (4.1) (4.4) (6.0) (2.7) (1.9)
+IBRe
+m -0.278 -0.205 -0.911 -0.485 -0.222 -0.106
+(-1.4) (-0.8) (-5.0) (-4.6) (-1.2) (-0.9)
+IBIU Re
+m -0.197 -1.102 -0.405 -0.312 -0.563 -0.605
+(-0.6) (-2.5) (-1.4) (-1.7) (-1.8) (-2.9)
+Panel C
+α -0.297 20.050 7.527 9.277 5.835 5.963
+(-0.2) (3.5) (2.4) (3.8) (4.9) (5.9)
+IB 1.057 -9.022 -7.475 0.634 -0.759 0.554
+(0.4) (-1.2) (-2.2) (0.2) (-0.3) (0.2)
+ˆσ2
+m 0.136 -0.211 -0.503 -0.047 -0.756 -0.585
+(0.2) (-1.1) (-1.2) (-0.7) (-1.8) (-3.0)
+Re
+m 0.278 0.522 0.429 0.299 0.201 0.104
+(2.1) (4.3) (4.0) (6.3) (3.0) (2.3)
+IBRe
+m -0.385 -0.712 -1.045 -0.549 -0.374 -0.267
+(-2.8) (-4.4) (-8.0) (-6.6) (-2.7) (-2.8)
+ˆσ2
+mRe
+m -55.971 -8.820 -9.702 -2.001 -23.842 -8.605
+(-0.8) (-2.2) (-0.8) (-1.7) (-1.2) (-1.5)
+Panel D
+α 0.218 13.803 3.419 9.240 4.766 4.853
+(0.2) (3.7) (1.8) (4.7) (5.1) (5.6)
+IBσ2 0.026 -4.808 -4.655 -2.683 -2.308 -4.056
+(0.0) (-1.2) (-2.1) (-1.2) (-1.8) (-2.8)
+Re
+m 0.263 0.772 0.672 0.384 0.238 0.128
+(1.9) (5.0) (3.0) (5.9) (2.0) (2.0)
+IBRe
+m -0.281 -1.207 -1.293 -0.669 -0.424 -0.303
+(-0.8) (-4.8) (-5.0) (-6.4) (-2.3) (-2.7)
+ˆσ2
+mRe
+m -46.141 -18.887 -60.175 -8.332 -49.075 -22.030
+(-0.6) (-3.4) (-1.4) (-2.4) (-0.7) (-1.0)
+IBσ2 Re
+m -0.105 0.344 0.268 0.222 0.074 0.095
+(-0.3) (2.5) (1.3) (1.9) (0.4) (0.6)
+35
+These results are largely consistent with those found for US equities and for all other inter-
+national equity markets, too. In addition to providing more robustness, these ﬁndings also
+make it more diﬃcult to reconcile under a Merton (1974)-styl e theory, which is better suited
+for equity returns.
+5.4 Dynamic Strategies in Other Markets and Asset Classes
+Given the robustness of the option-like features to momentu m in other equity markets and
+other asset classes, we examine the eﬃcacy of dynamic moment um strategies that use these
+insights in those other markets to see how robust its outperf ormance is out of sample.
+We form the dynamic momentum strategy as before using the ex-ante expected return and
+volatility of the WML portfolio in each market using the inst ruments from the previous anal-
+ysis – the interaction of the ex-ante bear market indicator f or that asset class, IB,t−1, and the
+asset-class market volatility over the preceding 6-months – to forecast the conditional expected
+return and volatility. Precise speciﬁcations of the foreca sting model and the GARCH model
+parameters for each asset class are given in Appendix D.
+Panel A of Table 10 reports the Sharpe ratio and skewness (in p arentheses) of the simple $1
+long-$1 short WML momentum strategy in each market and asset class, as well as a constant
+volatility momentum strategy and the dynamic momentum stra tegy as described above. In
+addition, we report global combinations of the equity momen tum strategies across all markets
+(GE), the non-equity asset classes (GA), and a combination o f all equity markets and non-
+equity asset classes (GAll).
+As Panel A of Table 10 shows, there is a marked improvement in S harpe ratio going from the
+static WML momentum strategy to a constant volatility momen tum strategy to our dynamic
+momentum strategy in every single market and asset class we s tudy. In most cases, our
+dynamic strategy doubles the Sharpe ratio over the traditio nal static momentum portfolio.
+Furthermore, our dynamic momentum strategy resurrects pos itive returns in markets where
+the typical momentum portfolio has failed to produce positi ve proﬁts, such as Japan. In
+Japan, the static, classic momentum portfolio delivers a 0. 07 Sharpe ratio, but our dynamic
+momentum portfolio in Japan produces a 0.42 Sharpe ratio. (A las, even the dynamic strategy
+does not deliver a signiﬁcant Sharpe ratio for ﬁxed income.)
+36
+Table 10: Dynamic and Constant V olatility Momentum Across Asset Clas ses
+Panel A presents the annualized Sharpe ratios of monthly mom entum strategies in each of the diﬀerent
+asset classes and markets we study. For each asset class, WML denotes the baseline $1-long/$1-short static
+momentum strategy, “cvol” denotes the strategy which is wei ghted by the ex-ante forecast volatility of the
+strategy, using daily returns over the prior six months to es timate volatility, and “dyn” is the maximum sharpe
+ratio strategy described in Appendix C, which dynamically w eights the momentum strategy by the conditional
+Sharpe ratio using ex-ante forecasts of the conditional mean and variance of the moment um strategy’s returns
+using our market stress indicators and past six months volat ility estimates. An * indicates a “fully dynamic”
+implementation where the weighted combination of the dynam ic strategies themselves is also employed to
+aggregate up to the global equity (GE), global asset class, ( GA), and global all (Gall), strategies that combine
+strategies across regions and asset classes. For all other g lobal combinations, each of the component strategies
+is scaled to have equal volatility, and then the strategies a re equally weighted. Panel B reports the intercepts
+or alphas and their t-statistics from spanning regressions of the cvol and optim al dynamic (dyn) portfolios in
+each market and asset class on the static WML momentum strate gy and on each other, within each market and
+asset class. Each spanning regression also includes the mar ket portfolio for that asset class and the interactions
+of the market portfolio with the panic state indicator IBσ2 for each asset class to capture conditional variation
+in the betas.
+EU JP UK US GE GE* FI CM FX EQ GA GA* GAll GAll*
+start 06/90 06/90 06/90 07/72 07/72 07/72 06/83 02/73 02/80 0 2/79 02/73 02/73 02/73 02/73
+end 05/13 05/13 05/13 05/13 05/13 05/13 05/13 05/13 05/13 05/ 13 05/13 05/13 05/13 05/13
+Panel A: Annualized Strategy Sharpe Ratio (Skewness)
+WML 0.462 0.067 0.465 0.283 0.513 0.004 0.587 0.296 0.705 0.6 76 0.754
+(-0.34) (0.02) (-0.62) (-0.04) (-0.34) (-0.24) (0.01) (-0. 54) (-0.18) (-0.48) (-0.33)
+cvol 0.886 0.160 0.751 0.519 0.732 0.020 0.686 0.423 0.800 0. 791 0.942
+(0.55) (-0.13) (-0.02) (-0.09) (0.13) (-0.45) (-0.07) (-0. 47) (0.05) (-0.31) (-0.18)
+dyn 1.130 0.416 0.891 0.646 0.752 0.956 0.066 0.803 0.653 0.8 43 0.973 1.028 1.139 1.223
+(0.97) (1.41) (0.36) (0.08) (0.33) (1.11) (0.06) (0.39) (-0 .20) (0.25) (0.11) (-0.19) (0.20) (0.44)
+Panel B: Spanning T ests
+Regression of cvol on WML, Re
+m and IBσ2 Re
+m
+α 5.44 3.09 6.14 5.09 2.77 0.11 2.01 1.34 1.47 0.58 0.86
+t(α) (4.1) (1.8) (3.4) (4.3) (4.7) (0.4) (3.2) (3.4) (2.8) (4.4) (5.2)
+Regression of dyn on WML, Re
+m and IBσ2 Re
+m
+α 13.75 8.50 14.28 7.26 4.59 6.60 2.51 6.71 3.36 3.31 2.34 3.24 2 .83 4.69
+t(α) (4.9) (2.7) (3.7) (3.5) (4.8) (6.6) (2.5) (3.3) (2.9) (2.9) (4.5) (5.3) (5.3) (7.6)
+Regression of dyn on cvol, Re
+m and IBσ2 Re
+m
+α 9.01 7.27 8.99 3.00 1.95 4.48 2.48 3.98 1.84 1.30 1.59 2.68 1.7 7 3.97
+t(α) (3.9) (2.4) (2.9) (1.9) (2.8) (5.3) (2.5) (2.5) (2.0) (1.8) (3.7) (4.7) (4.2) (6.9)
+Regression of cvol on dyn, Re
+m and IBσ2 Re
+m
+α 0.01 0.38 0.72 1.92 0.48 0.30 -0.21 0.14 -0.11 -0.02 -0.20 0.2 1 -0.16 -0.06
+t(α) (0.0) (0.1) (0.2) (1.2) (0.7) (0.4) (-0.2) (0.1) (-0.1) (-0 .0) (-0.5) (0.4) (-0.4) (-0.1)
+37
+The skewness numbers (in parentheses) are also interesting as the predominantly negative
+skewness of the static momentum strategies across all marke ts is apparent, but the dynamic
+momentum strategies deliver mostly positive skewness – con sistent with amelioration of the
+“crashes” we see in plots of the returns to these strategies.
+We also report results for a “fully dynamic” portfolio that i s a weighted combination of the
+individual asset class or market dynamic strategies, where the weighs are based on the ex-ante
+conditional volatility of each component strategy. That is , each of the component strategies is
+scaled to have equal volatility (ex ante), and then the strat egies are equally weighted. In this
+way, we are also using cross-sectional information on the st rength of the dynamic signal of each
+component strategy to build a fully dynamic combination por tfolio across all asset classes. We
+denote these fully dynamic strategies with a * in Table 10. As the table indicates, there is
+additional Sharpe ratio improvement from this additional t wist on our dynamic momentum
+strategies, providing another robustness test on the use of conditional mean and variance
+forecastability in enhancing the returns to momentum strat egies.
+Panel B of Table 10 reports results from spanning tests of the static WML portfolio, the
+constant volatility strategy, and the dynamic strategy wit hin each market and asset class.
+These daily return regressions also include interactions o f the excess market return and the
+excess market return (for that asset class) interacted with the asset-class speciﬁc panic state
+indicator IBσ 2 to capture conditional variation in the betas. 12 The ﬁrst row reports alphas (and
+their t-statistics) of the constant volatility strategy on WML in e ach market and asset class,
+as well as globally across equity markets (GE), asset classe s (GA), and all markets and asset
+classes (Gall). Consistent with the results of Barroso and S anta-Clara (2012) for US equities,
+the constant volatility strategy delivers positive alpha relative to the static momentum strategy
+in every single market and asset class that is highly signiﬁc ant (except Japan and ﬁxed income,
+where momentum does not yield statistically signiﬁcant pos itive returns to begin with).
+The second row reports alphas of the dynamic momentum strate gy with respect to WML.
+Here too, the alphas are all positive and statistically sign iﬁcant, and in every single market
+and asset class are larger than the constant volatility mome ntum alphas. Since both the
+dynamic and constant volatility strategies are scaled to th e same volatility, this suggests that
+12As with our spanning tests in Section 4, the dynamic strategy used in Panel B is based on ex-ante forecasts
+of the mean and variance of the residual from a regression of t he WML strategy on the excess market return
+Re
+m and the interacted market return IBσ2 Re
+m, using the panic state indicator and lagged residual varian ces
+as forecasting variables. See footnote 9.
+38
+the dynamic momentum portfolio oﬀers improved mean-varian ce eﬃciency over the constant
+volatility portfolio.
+To test this notion more formally, the last two sets of rows of Panel B of Table 10 report the
+alphas from regressions of the dynamic strategy returns on t he constant volatility strategy
+returns, and vice-versa. The results are consistent with our previous ﬁndings: in vi rtually every
+market and asset class the dynamic momentum portfolio deliv ers positive and statistically
+signiﬁcant alpha relative to the constant volatility strat egy, suggesting that the constant
+volatility strategy does not span the dynamic strategy in an y market or asset class. Conversely,
+in every market and asset class the constant volatility stra tegy fails to produce a signiﬁcant
+alpha with respect to the dynamic strategy, suggesting that the dynamic momentum strategy
+spans the constant volatility strategy in every market and a sset class. These results, shown out
+of sample in eight other markets and asset classes, make a com pelling case for the robustness
+of the dynamic momentum portfolio based on the optionality i nsights of momentum strategies
+in every market.
+Overall, the consistent evidence of the optionality of mome ntum strategies, conditional betas
+and return premia, and the signiﬁcant improvement from our d ynamic weighting scheme across
+many diﬀerent markets and vastly diﬀerent asset classes, pr ovides a wealth of out of sample
+evidence. Momentum crashes and their forecastability by be ar market and ex-ante volatility
+measures are a reliable and robust feature of momentum strat egies that may provide clues as
+to the underlying source of this return factor. 13
+6 Conclusions
+In “normal” environments we see consistent price momentum t hat is both statistically and
+economically strong and manifests itself across numerous e quity markets and a wide range of
+diverse asset classes.
+However, in extreme market environments following a long market downturn, the market prices
+of past losers embody a very high premium. When poor market co nditions ameliorate and
+13Although beyond the scope of this paper, it would be interest ing to see if other momentum-type strategies,
+such as earnings momentum in equities (Chan, Jegadeesh, and Lakonishok (1996)), or time-series momentum
+in futures contracts (Moskowitz, Ooi, and Pedersen (2012)) , or cross-momentum eﬀects (Cohen and Frazzini
+(2008)) exhibit similar features.
+39
+the market starts to rebound, the losers experience strong g ains, resulting in a “momentum
+crash” as momentum strategies short these assets. We ﬁnd tha t, in bear market states, and
+in particular when market volatility is high, the down-mark et betas of the past-losers are low,
+but the up-market betas are very large. This optionality doe s not appear to generally be
+reﬂected in the prices of the past losers. Consequently, the expected returns of the past losers
+are very high, and the momentum eﬀect is reversed during thes e times. This feature does
+not apply equally to winners during good times, however, res ulting in an asymmetry in the
+winner and loser exposure to market returns during extreme t imes.
+These results are shown to be robust across eight diﬀerent ma rkets and asset classes, as well
+as multiple time periods. Moreover, these crash periods are predictable: we use bear market
+indicators and ex-ante volatility estimates to forecast the conditional mean and v ariance of
+momentum strategies. Armed with these estimates, we create a simple dynamically-weighted
+version of the momentum portfolio that approximately doubl es the Sharpe ratio of the static
+momentum strategy and is not spanned by constant volatility momentum strategies or other
+factors – doing so consistently in every market, asset class , and time period we study.
+What can explain these ﬁndings? We examine a variety of expla nations ranging from compen-
+sation for crash risk to volatility risk, to other factor ris ks such as the Fama and French (1993)
+factors, but ﬁnd that none of these explanations can account fully for our ﬁndings. For equity
+momentum, a Merton (1974) story for the option-like payoﬀs o f equities may make sense, but
+the existence of the same phenomena and option-like feature s for momentum strategies in fu-
+tures, bonds, currencies, and commodities, makes this stor y more challenging. Alternatively,
+these eﬀects may be loosely consistent with several behavio ral ﬁndings, where in extreme
+situations individuals tend to be fearful and appear to focu s on losses, largely ignoring prob-
+abilities.14 Whether this behavioral phenomenon is fully consistent wit h the empirical results
+documented here is a subject for further research and would i ndicate that the behavior of
+market participants in each of these markets and asset class es is aﬀected similarly, despite
+the fact that the average and marginal investor in these vari ous markets are likely to be quite
+diﬀerent along many other dimensions.
+14See Sunstein and Zeckhauser (2008), Loewenstein, Weber, Hs ee, and Welch (2001), and Loewenstein
+(2000).
+40
+Appendices
+A Detailed Description of Calculations
+A.1 Cumulative Return Calculations
+The cumulative return, on an (implementable) strategy is an investment at time 0, which
+is fully reinvested at each point – i.e., where no cash is put in or taken out. That is, the
+cumulative arithmetic returns between times t and T is denoted R(t, T ).
+R(t, T ) =
+T∏
+s=t+1
+(1 + Rs) − 1,
+where Rs denotes the arithmetic return in the period ending at time t, and rs = log(1 + Rs)
+denotes the log-return over period s,
+r(t, T ) =
+T∑
+s=t+1
+rs.
+For long-short portfolios, the cumulative return is:
+R(t, T ) =
+T∏
+s=t+1
+(1 + RL,s − RS,s + Rf,t) − 1,
+where the terms RL,s, RS,s, and Rf,s are, respectively, the return on the long side of the
+portfolio, the short side of the portfolio, and the risk-fre e rate. Thus, the strategy reﬂects the
+cumulative return, with an initial investment of Vt, which is managed in the following way:
+1. Using the $ V0 as margin, you purchase $ V0 of the long side of the portfolio, and short
+$V0 worth of the short side of the portfolio. Note that this is con sistent with Reg-T
+requirements. Over each period s, the margin posted earns interest at rate Rf,s.
+2. At then end of each period, the value of the investments on t he long and the short side of
+the portfolio are adjusted to reﬂect gains to both the long an d short side of the portfolio.
+So, for example, at the end of the ﬁrst period, the investment s in both the long and
+short side of the portfolio are adjusted to set their value eq ual to the total value of the
+portfolio to Vt+1 = Vt · (1 + RL − RS + Rf ).
+This methodology assumes that there are no margin calls, etc ., except at the end of each
+month. These calculated returns do not incorporate transac tion costs.
+41
+A.2 Calculation of V ariance Swap Returns
+We calculate the returns to a daily variance swap on the S&P 50 0 using daily observations
+on the SPX and the VIX, and daily levels of the one-month Treas ury bill rate. The historical
+daily observations on the SPX and the VIX, beginning on Janua ry 2, 1990, are taken from the
+CBOE’s VIX website. 15 The daily one-month interest rate series is taken from Ken Fr ench’s
+data library.
+The VIX is calculated using a panel of S&P 500 index options wi th a wide range of strike
+prices and with two maturity dates – generally the two closes t-to-maturity contracts, weighted
+in such a way so as to most closely approximate the swap rate fo r a variance swap with a
+constant maturity of 30 calendar days. 16 The calculation method used by the CBOE makes
+the VIX equivalent to the swap rate for a variance swap on the S &P 500 over the coming
+30 calendar days. However, the methodology used by the CBOE i s to: (1) annualize this
+variance; (2) take the square-root of the variance (to conve rt to volatility), multiply by 100
+to convert to percentage terms.
+Given the VIX construction methodology, we can calculate th e daily return on a variance
+swap, from day t−1 to day t, as:
+Rvs,t = Dt
+[
+1
+21
+(
+252
+[
+100·log
+( St
+St−1
+)] 2
+−VIX2
+t−1
+)
++ 20
+21
+(
+VIX2
+t −VIX2
+t−1
+)
+]
+.
+Here Dt is the 20-trading day discount factor. This is calculated as Dt = (1 + r1m,t)20/252,
+where r1m,t is the annualized one-month treasury bill yield as of day t, from Ken French’s
+website. VIX t is the level of the VIX as quoted at the end of day t and St is the level of the
+S&P 500, adjusted for all corporate actions, at the end of day t. Note that the factors of 252
+and 100 in the equation are because the VIX is quoted in annual ized, percentage terms.
+This equation is given a ﬂat forward variance curve. That is, we are implicitly making the
+assumption that the swap rate on 20 trading-day and 21 tradin g-day variance swap rates on
+day t are identical (and equal to VIX 2
+t ). For the market, this approximation should be fairly
+accurate.
+B Exposure to and of Size and V alue Factors
+We regress the WML momentum portfolio returns on the three Fa ma and French (1993)
+factors consisting of the CRSP VW index return in excess of th e risk-free rate, a small minus
+big (SMB) stock factor, and a high BE/ME minus low BE/ME (HML) factor, all obtained
+15The daily data for the new VIX are available at http://www.cboe.com/micro/VIX/historical.aspx.
+16See Chicago Board Options Exchange (2003) for a full descrip tion of the VIX calculation.
+42
+Table 11: Conditional Estimation of WML, HML, and SMB premia
+This table presents the results of monthly time-series regr essions. The dependent variable is indicated at
+the head of each column, and is either: (1) WML; (2) the HML–devil portfolio proposed by Asness and
+Frazzini (2011); the SMB portfolio return of Fama and French (1993); or (4) a portfoli o which is 50% WML
+and 50% HML-devil. The independent variables are: intercept α, the normalized ex-ante forecasting variable
+IBσ2 ≡ (1/¯vB)IB,t−1 · ˆσ2
+m, and this forecasting variable interacted with the excess m arket return and the Fama
+and French (1993) HML and SMB returns. The sample is January 1 927 through March, 2013 for the WML
+and SMB regressions, and January 1927-December 2012 for the HML-d and WML+HML-d portfolios. The
+coeﬃcients for α and IB,t−1 ˆσ2
+m are converted to annualized, percentage terms by multiplyi ng by 12 × 100.
+Dependent Variable – Return Series
+Vars. WML HML-d SMB WML+HML-d
+α 24.93 26.95 2.96 3.14 1.91 0.34 13.41 14.08
+(8.6) (9.4) (1.8) (2.2) (1.5) (0.3) (10.0) (11.0)
+IBσ2 -28.80 -26.94 9.32 6.57 5.33 5.44 -12.01 -11.13
+(-5.8) (-5.4) (3.3) (2.7) (2.4) (2.6) (-5.2) (-5.1)
+re
+m -0.17 -0.15 -0.02 0.21 -0.09
+(-3.3) (-2.7) (-0.6) (9.4) (-4.0)
+IBσ2 · re
+m -0.54 -0.44 0.33 -0.01 -0.11
+(-12.9) (-7.8) (16.3) (-0.4) (-5.8)
+rSMB -0.16
+(-1.9)
+IBσ2 · rSMB -0.18
+(-2.2)
+rHML -0.38
+(-4.8)
+IBσ2 · rHML 0.05
+(0.7)
+from Ken French’s website. In addition, we interact each of t he factors with the panic state
+variable IBσ 2. The results are reported in Table 11, where the abnormal per formance of
+momentum continues to be signiﬁcantly more negative in bear market states, whether we
+measure abnormal performance relative to the market model o r to the Fama and French
+(1993) three-factor model, with little diﬀerence in the poi nt estimates.
+The next two columns of the table repeat the market model regr essions using HML as the
+dependent variable instead of WML. For these regressions, w e use the modiﬁed HML portfolio
+of Asness and Frazzini (2011). Speciﬁcally, Asness and Fraz zini show that the Fama and French
+(1993) HML construction, by using lagged market prices in it s BE/ME calculations, inherently
+induces some positive covariance with momentum. They advoc ate using the most recent (last
+month’s) price to compute BE/ME ratios in constructing thei r HML factor, which they term
+HML-devil (HML-d), in order to examine the value eﬀect separ ately from momentum. As
+Table 11 shows, the abnormal return of the HML portfolio incr eases in the panic states,
+the opposite of what we ﬁnd for momentum. This is not surprisi ng for several reasons. First,
+momentum strategies buy past winners and sell past losers, w hile value strategies typically buy
+43
+longer-term past losers and sell winners (see DeBondt and Th aler (1987) and Fama and French
+(1996)). Also, the correlation between HML-d and UMD is appr oximately -0.50. Finally, this
+result is consistent with the intuition for why the market-b eta of the WML portfolio changes
+with past market-returns. Since growth (low book-to-price ) stocks have generally had high
+past returns and value stocks low past returns, the same intu ition suggests that HML’s beta
+should be high when IB,t−1 = 1, and it is. Speciﬁcally, HML’s market beta is higher by 0.3 3
+when IB,t−1 = 1 ( t-stat = 16.3), as indicated by the interaction term. More dir ectly, the
+correlation of HML with the excess return on the market durin g panic states is 0.59, but
+during normal times it is −0.10. Conversely, for the WML portfolio, the correlation with the
+market is 0.02 during normal times and -0.71 when I B,t−1 = 1.
+The next two columns of Table 11 repeat this exercise using SM B as the dependent variable.
+The premium on SMB is statistically signiﬁcantly higher in p anic states as well, but its beta
+does not change signiﬁcantly during these states. This make s sense since size is a poor proxy
+for recent short-term performance.
+Finally, the last two columns run regressions for a 50-50 equ al combination of WML and
+HML-d following Asness, Moskowitz, and Pedersen (2013), wh o show that a combination of
+value and momentum diversiﬁes away a variety of exposures in cluding aggregate market and
+liquidity risks. Given the opposite-signed results for WML and HML-d on the panic state
+variables, it is not surprising that a combination of WML and HML-d hedges some of this
+risk. However, since the magnitude of the eﬀects on WML are mu ch larger than those of
+HML, the net eﬀect is still a reduction in returns and a decrea se in beta during panic states
+for the momentum-value combination. 17
+C Maximum Sharpe Ratio Strategy
+The setting is discrete time with T periods from 1 , . . . , T. We can trade in two assets, a risky
+asset and a risk free asset. Our objective is to maximize the S harpe ratio of a portfolio where,
+each period, we can trade in or out of the risky asset with no co st.
+Over period t + 1 – which is the span from t to t + 1 – the excess return on a risky asset ˜ rt+1
+is distributed normally, with time- t conditional mean µt and conditional variance σ2
+t . That is,
+µt = Et [˜rt+1] and σ2
+t = Et
+[
+(˜rt+1 − µt)2]
+. (10)
+Suppose further that at t = 0 the agent knows µt and σt for t ∈ {0, . . . , T − 1}.
+The agent’s objective is to maximize the full period Sharpe r atio of a managed portfolio. The
+agent manages the portfolio by placing, at the beginning of e ach period, a fraction wt of the
+17One possibility for the dominance of momentum here is that th e 50-50 momentum-value weighting is based
+on equal dollar allocation to both rather than equal risk allocation. Since momentum is more volatile than
+value, this may be tilting the overall exposure of the combin ation portfolio more toward momentum.
+44
+value of the managed portfolio in the risky asset, and a fract ion 1 − wt in the risk-free asset.
+The time t expected excess return and variance of the managed portfoli o in period t + 1 is
+then given by:
+˜rp,t+1 = wt˜rt+1 ∼ N
+(
+wtµt, w2
+t σ2
+t
+)
+.
+The Sharpe ratio over the T periods is:
+SR =
+E
+[
+1
+T
+∑T
+t=1 ˜rp,t
+]
+√
+E
+[
+1
+T
+∑T
+t=1(˜rp,t − ¯rp)2
+]
+where the ¯rp in the denominator is the sample average per period excess re turn ( 1
+T
+∑T
+t=1 ˜rp,t).
+Given the information structure of this optimization probl em, maximizing the Sharpe ratio is
+equivalent to solving the constrained maximization proble m:
+max
+w0,...,wT −1
+E
+[
+1
+T
+T∑
+t=1
+˜rp,t
+]
+subject to E
+[
+1
+T
+T∑
+t=1
+(˜rp,t − ¯r)2
+]
+= σ2
+p.
+If the period length is suﬃciently short, then E[(˜rp,t − ¯r)2] ≈ σ2
+t = Et
+[
+(˜rt+1 − µt)2]
+. With this
+approximation, substituting in the conditional expectati ons for the managed portfolio from
+equation (10) gives the Lagrangian:
+max
+w0,...,wT −1
+L ≡ max
+wt
+(
+1
+T
+T −1∑
+t=0
+wtµt
+)
+− λ
+(
+1
+T
+T −1∑
+t=0
+w2
+t σ2
+t = σ2
+p
+)
+.
+The T ﬁrst order conditions for optimality are:
+∂L
+∂w t
+⏐
+⏐
+⏐
+⏐
+wt=w∗
+t
+= 1
+T
+(
+µt − 2λw∗
+t σ2
+t
+)
+= 0 ∀t ∈ {0, . . . , T−1}
+giving an optimal weight on the risky asset at time t of:
+w∗
+t =
+( 1
+2λ
+) µt
+σ2
+t
+.
+That is, the weight placed on the risky asset at time t should be proportional to the expected
+excess return over the next period, and inversely proportio nal to the conditional variance.
+D GJR-GARCH Forecasts of Momentum V olatility
+The construction of the dynamic portfolio strategy we explo re in Sections 4 and 5.4 requires
+estimates of the conditional mean return and the conditiona l volatility of the momentum
+45
+strategies. To forecast the volatility we ﬁrst ﬁt a GARCH pro cess to the daily momentum
+returns of each asset class. Speciﬁcally, we ﬁt the GARCH mod el proposed by Glosten,
+Jagannathan, and Runkle (1993), and summarized by equation s (6) and (7). The maximum
+likelihood estimates and t-statistics are:
+parameter: ˆ µ ˆω ˆα ˆγ ˆβ
+ML-est 0.86 ×10−3 1.17×10−6 0.111 -0.016 0.896
+t-stat (14.7) (4.2) (14.4) (-1.6) (85.1)
+We then regress the future realized 22-day WML return volati lity ˆσ22,t+1 on the GJR-GARCH
+estimate (ˆσGARCH,t) and the lagged 126-day WML return volatility (ˆ σ126,t), and a constant.
+The OLS coeﬃcient estimates and t-statistics are:
+coeﬃcient: ˆ α ˆσGARCH,t ˆσ126,t
+coef. est. 0.0010 0.6114 0.2640
+t-stat (3.0) (16.7) (7.2)
+with a regression R2
+adj = 0.617.18 The ﬁtted estimate of ˆσ22,t+1 is then used as an input to the
+dynamic WML portfolio weight, as discussed in Sections 4 and 5.4.
+The same estimation procedure is used to generate a forecast of the future 22-day WML return
+volatility in each of the alternative asset classes. The max imum-likelihood GJR-GARCH
+parameter estimates and t-statistics, and regression estimates and t-statistics are presented in
+Table 12.
+The parameters above and in Table 12 tell an interesting stor y: ﬁrst, in the regressions, the
+coeﬃcient on the GJR-GARCH estimate of volatility is always signiﬁcant, and the coeﬃcient
+on the lagged 126-day volatility is always smaller, but not a lways statistically signiﬁcant.
+There appears to be a longer-lived component of volatility t hat ˆσ126,t is capturing.
+Also interesting is the leverage parameter γ. In each of the asset classes, the maximum-
+likelihood estimate of γ is negative: this means that a strong negative return on the W ML
+portfolio is generally associated with a decrease in the WML return variance. As noted
+elsewhere in the literature, this coeﬃcient is positive at h igh levels of statistical signiﬁcance
+for the market return (see, e.g., Glosten, Jagannathan, and Runkle (1993) and Engle and Ng
+(1993).)
+18The lag one residual autocorrelation is 0.013 ( t-stat = 0 .44), justifying the use of OLS standard errors.
+Also, the t-statistics on the lag 2-5 autocorrelations never exceed 1. 14. It is interesting that the autocorrelation
+of the dependent variable of the regression (ˆσ22,t) is large and statistically signiﬁcant (ˆρ1 = 0.55, t-stat = 24 .5).
+This suggests that the autocorrelation in ˆ σ22,t results from its forecastable component. The residual from its
+projection on the forecast variables is uncorrelated at any conventional statistically signiﬁcant level.
+46
+Table 12: Maximum Likelihood Estimates of GJR-GARCH Model for Moment um Portfolios
+The upper panel of this table presents the maximum likelihoo d estimates of the coeﬃcients of the GJR-GARCH model – given b y equations (6) and
+(7) – ﬁtted to each of the momentum portfolios we examine in Se ction 5.4. Start and end dates for each of the 11 daily return s eries are also given
+in yyyy-mm-dd format. Note that the estimates of the µ and ω coeﬃcients are multiplied by 10 3 and 10 6, respectively. Maximum Likelihood based
+t-statistics are given in parentheses. For β, this t-statistic tests whether β = 1; for all other parameters it tests whether the parameter i s zero. The
+lower panel presents the results of the monthly regressions in which we regress the future one month daily volatility of t he WML portfolio on an
+intercept (α), on the lagged 126 day WML return volatility ( σ126), and on the lagged GJM-GARCH volatility ( σGARCH).
+GARCH estimates by Asset Class
+EU JP UK US GLB FI CM FX EQ GA GAll
+start 1990-01-02 1990-01-02 1990-01-02 1972-02-01 1972-0 2-01 1983-01-03 1972-02-01 1979-01-01 1978-01-02 1972-02 -01 1972-02-01
+end 2013-05-31 2013-05-31 2013-05-31 2013-05-31 2013-05- 31 2013-06-03 2013-06-03 2013-06-03 2013-06-03 2013-06-0 3 2013-05-31
+µ(×103) 0.387 0.187 0.316 0.314 0.124 0.024 0.516 0.238 0.322 0.154 0.159
+(5.3) (3.0) (3.4) (6.2) (6.7) (0.6) (5.0) (4.2) (5.3) (5.8) ( 5.6)
+ω(×106) 0.569 0.616 0.364 0.298 0.024 0.027 1.525 0.455 0.619 0.034 0.035
+(2.4) (4.3) (3.3) (4.1) (3.3) (1.4) (4.1) (4.3) (3.9) (1.6) ( 1.6)
+α 0.089 0.160 0.094 0.104 0.107 0.060 0.055 0.092 0.074 0.037 0 .046
+(6.4) (9.8) (7.7) (12.4) (12.1) (4.1) (9.0) (9.0) (6.9) (3.7 ) (4.2)
+γ -0.020 -0.007 -0.022 -0.026 -0.024 -0.002 -0.008 -0.020 -0. 002 -0.011 -0.007
+(-1.6) (-1.6) (-2.0) (-2.8) (-2.0) (-1.6) (-2.3) (-1.8) (-1 .6) (-1.6) (-0.8)
+β 0.912 0.848 0.918 0.907 0.909 0.945 0.940 0.909 0.916 0.966 0 .955
+(-5.9) (-11.4) (-8.9) (-11.1) (-11.4) (-4.2) (-8.1) (-9.6) (-7.1) (-2.9) (-3.2)
+Regression estimates by Asset Class
+α(×102) 0.053 0.083 0.067 0.036 0.016 0.082 0.177 0.144 0.096 0.065 0.034
+(1.3) (1.8) (1.4) (1.5) (1.5) (4.7) (3.0) (4.4) (2.8) (4.0) ( 2.8)
+ˆσ126 0.334 0.126 0.159 0.227 0.280 0.475 0.161 0.125 0.233 0.113 0 .180
+(4.7) (1.8) (2.1) (4.3) (5.1) (5.7) (2.2) (1.8) (3.5) (1.1) ( 2.2)
+ˆσGARCH 0.561 0.754 0.758 0.682 0.632 0.220 0.665 0.581 0.594 0.637 0 .655
+(8.0) (11.4) (9.9) (13.1) (11.6) (2.9) (9.1) (9.3) (9.2) (6. 1) (7.9)
+47
+References
+Asness, Cliﬀ, and Andrea Frazzini, 2011, The devil in hml’s d etails, AQR Capital Management
+Paper.
+Asness, Cliﬀord S., 1994, The power of past stock returns to e xplain future stock returns,
+Working paper, University of Chicago.
+, John M. Liew, and Ross L. Stevens, 1997, Parallels between t he cross-sectional
+predictability of stock and country returns, Journal of Portfolio Management 23, 79–87.
+Asness, Cliﬀord S., Toby J. Moskowitz, and Lasse Heje Peders en, 2013, Value and momentum
+everywhere, The Journal of Finance 58, 929–895.
+Barroso, Pedro, and Pedro Santa-Clara, 2012, Managing the r isk of momentum, Nova School
+of Business and Economics working paper.
+Boguth, Oliver, Murray Carlson, Adalai Fisher, and Mikhail Simutin, 2010, Conditional risk
+and performance evaluation: Volatility timing, overcondi tioning, and new estimates of mo-
+mentum alphas, Journal of Financial Economics, forthcoming .
+Brunnermeier, Markus K., Stefan Nagel, and Lasse H. Pederse n, 2008, Carry trades and
+currency crashes, NBER Macroeconomics Annual.
+Carr, Peter, and Liuren Wu, 2009, Variance risk premiums, Review of Financial Studies 22,
+1311–1341.
+Chabot, Benjamin, Eric Remy, Ghysels, and Ravi Jagannathan , 2009, Momentum cycles and
+limits to arbitrage - evidence from victorian england and po st-depression us stock markets,
+Working Paper.
+Chan, K.C., 1988, On the contrarian investment strategy, Journal of Business 61, 147–163.
+Chan, Louis K.C., Narasimhan Jegadeesh, and Josef Lakonish ok, 1996, Momentum strategies,
+Journal of Finance 51, 1681–1714.
+Chicago Board Options Exchange, 2003, VIX: CBOE volatility index, CBOE White Paper;
+www.cboe.com.
+Christensen, Bent J, and Nagpurnanand R Prabhala, 1998, The relation between implied and
+realized volatility, Journal of Financial Economics 50, 125–150.
+Cohen, Lauren, and Andrea Frazzini, 2008, Economic links an d predictable returns, The
+Journal of Finance 63, 1977–2011.
+Cooper, Michael J., Roberto C. Gutierrez, and Allaudeen Ham eed, 2004, Market states and
+momentum, Journal of Finance 59, 1345–1365.
+48
+DeBondt, Werner F. M., and Richard H. Thaler, 1987, Further e vidence on investor overre-
+action and stock market seasonality, Journal of Finance 42, 557–581.
+Engle, Robert F., and Victor K. Ng, 1993, Measuring and testi ng the impact of news on
+volatility, Journal of Finance 48, 1749–1778.
+Erb, Claude B., and Campbell R. Harvey, 2006, The strategic a nd tactical value of commodity
+futures, Financial Analysts Journal 62, 69–97.
+Fama, Eugene F., and Kenneth R. French, 1993, Common risk fac tors in the returns on stocks
+and bonds, Journal of Financial Economics 33, 3–56.
+, 1996, Multifactor explanations of asset pricing anomalie s, Journal of Finance 51,
+55–84.
+Geczy, Christopher, and Mikhail Samonov, 2013, 212 years of price momentum (the world’s
+longest backtest: 1801-2012), Octoquant working paper and SSRN # 2292544.
+Glosten, Lawrence R., Ravi Jagannathan, and David Runkle, 1 993, On the relation between
+the expected value and the volatility of the nominal excess r eturn on stocks, Journal of
+Finance 48, 1779–1801.
+Grundy, Bruce, and J. Spencer Martin, 2001, Understanding t he nature of the risks and the
+source of the rewards to momentum investing, Review of Financial Studies 14, 29–78.
+Hansen, Lars P., and Ravi Jagannathan, 1991, Implications o f security market data for models
+of dynamic economies, Journal of Political Economy 99, 225–262.
+Henriksson, Roy D., and Robert C. Merton, 1981, On market tim ing and investment perfor-
+mance. II. Statistical procedures for evaluating forecast ing skills, Journal of Business 54,
+513–533.
+Israel, Ronen, and Tobias J Moskowitz, 2013, The role of shor ting, ﬁrm size, and time on
+market anomalies, Journal of Financial Economics 108, 275–301.
+Jagannathan, Ravi, and Robert A. Korajczyk, 1986, Assessin g the market timing performance
+of managed portfolio, Journal of Business 59, 217–235.
+Jegadeesh, Narasimhan, 1990, Evidence of predictable beha vior of security returns, Journal
+of Finance 45, 881–898.
+, and Sheridan Titman, 1993, Returns to buying winners and se lling losers: Implica-
+tions for stock market eﬃciency, Journal of Finance 48, 65–91.
+, 1995, Overreaction, delayed reaction, and contrarian pro ﬁts, Review of Financial
+Studies 8, 973–999.
+, 2001, Proﬁtability of momentum strategies: An evaluation of alternative explana-
+tions, Journal of Finance 56, 699–720.
+49
+Kothari, S.P., and Jay Shanken, 1992, Stock return variatio n and expected dividends, Journal
+of Financial Economics 31, 177–210.
+Lehmann, Bruce N., 1990, Fads, martingales, and market eﬃci ency, Quarterly Journal of
+Economics 105, 1–28.
+Lo, Andrew W., and A. Craig MacKinlay, 1990, When are contrar ian proﬁts due to stock
+market overreaction?, Review of Financial Studies 3, 175–205.
+Loewenstein, George, Elke U. Weber, Chris K. Hsee, and Ned We lch, 2001, Risk as Feelings,
+Psychological bulletin 127, 267–286.
+Loewenstein, George F., 2000, Emotions in economic theory a nd economic behavior, American
+Economic Review 65, 426–432.
+Merton, Robert C., 1974, On the pricing of corporate debt: Th e risk structure of interest
+rates, The Journal of Finance 29, 449–470.
+Moskowitz, Tobias J., and Mark Grinblatt, 1999, Do industri es explain momentum?, The
+Journal of Finance 54, 1249–1290.
+Moskowitz, Tobias J., Yoa Hua Ooi, and Lasse H. Pedersen, 201 2, Time series momentum,
+Journal of Financial Economics 104, 228–250.
+Okunev, John, and Derek White, 2003, Do momentum-based stra tegies still work in foreign
+currency markets?, Journal of Financial and Quantitative Analysis 38, 425–447.
+Rouwenhorst, K. Geert, 1998, International momentum strat egies, Journal of Finance 53,
+267–284.
+, 1999, Local return factors and turnover in emerging stock m arkets, Journal of Finance
+54, 1439–1464.
+Stivers, Chris, and Licheng Sun, 2010, Cross-sectional ret urn dispersion and time-variation in
+value and momentum premia, Journal of Financial and Quantitative Analysis 45, 987–1014.
+Sunstein, Cass R., and Richard Zeckhauser, 2008, Overreact ion to fearsome risks, Harvard
+University Working Paper.
+50

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_NO_EXIT_REMOVAL_CANDIDATE",
+  "prior_hash_checks": 41,
+  "baseline_exact_parities": 2,
+  "minute_equity_points": 350400,
+  "tests_passed": 3,
+  "window_cost_paths": 148,
+  "complete_comparisons": 140,
+  "exit_after_window": 6,
+  "corporate_blocked": 2,
+  "future_exit_leakage_checks": true,
+  "live_orders": false,
+  "strategy_changed": false
+}

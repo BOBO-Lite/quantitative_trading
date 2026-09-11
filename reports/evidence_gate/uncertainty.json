@@ -1,0 +1,17 @@
+{
+  "market_capped": {
+    "method": "paired circular 12-month blocks; 2000 draws; fixed c",
+    "low95": -0.4589767900022774,
+    "high95": 0.41083051466347537
+  },
+  "market_capped_fee10": {
+    "method": "paired circular 12-month blocks; 2000 draws; fixed c",
+    "low95": -0.4964580761369908,
+    "high95": 0.38399029569068227
+  },
+  "market_capped_fee14": {
+    "method": "paired circular 12-month blocks; 2000 draws; fixed c",
+    "low95": -0.509936536172092,
+    "high95": 0.3739111460215597
+  }
+}

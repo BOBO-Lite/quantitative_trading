@@ -1,0 +1,18 @@
+[
+  {
+    "cost": 1.0,
+    "flat": true,
+    "entry_paused": true,
+    "end_drawdown": 0.12187962041741818,
+    "last_fill": "2019-04-24T09:32:00",
+    "automatic_recovery_defined": false
+  },
+  {
+    "cost": 1.5,
+    "flat": true,
+    "entry_paused": true,
+    "end_drawdown": 0.12154089779194999,
+    "last_fill": "2019-11-11T09:32:00",
+    "automatic_recovery_defined": false
+  }
+]

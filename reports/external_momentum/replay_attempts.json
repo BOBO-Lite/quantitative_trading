@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "first_replay",
+    "costs": [
+      1,
+      1.5
+    ],
+    "status": "MISSING_DATA",
+    "reason": "002414.SZ stock distribution entitlement 2019-05-07 required stock distribution ledger"
+  },
+  {
+    "stage": "after_distribution_support",
+    "costs": [
+      1,
+      1.5
+    ],
+    "status": "MISSING_DATA",
+    "reason": "000600.SZ 2019-06-12 09:35 missing retry minute"
+  },
+  {
+    "stage": "after_remaining_dates_export",
+    "costs": [
+      1,
+      1.5
+    ],
+    "status": "COMPLETED",
+    "output": [
+      "M0_cost1.0.json",
+      "M0_cost1.5.json"
+    ]
+  }
+]

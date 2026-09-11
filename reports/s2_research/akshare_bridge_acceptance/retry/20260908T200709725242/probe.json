@@ -1,0 +1,36 @@
+{
+  "provider": "tencent",
+  "akshare_version": "1.18.94",
+  "target_date": "2026-09-08",
+  "cases": [
+    {
+      "symbol": "600036.SH",
+      "target_date": "2026-09-08",
+      "observed_at": "2026-09-08T20:07:09.927598+08:00",
+      "raw_file": "600036.SH.raw.json",
+      "sha256": "c48f17d390c29d4cfe8759730a9d0899ebbe1a08e4c3c374738dc33e08783ee6",
+      "row": {
+        "date": "2026-09-08",
+        "symbol": "600036.SH",
+        "open": 41.01,
+        "close": 40.9,
+        "high": 41.38,
+        "low": 40.81,
+        "volume": 49310200.0,
+        "amount": 2021762700.0,
+        "provider": "akshare_tencent_daily",
+        "observed_at": "2026-09-08T20:07:09.927598+08:00",
+        "adjustment": "none",
+        "volume_unit": "shares",
+        "historical_state_verified": false,
+        "automatic_trading": false,
+        "source_volume_multiplier": 1,
+        "unit_adapter_version": "1.18.94"
+      },
+      "status": "PASS_DATED_PRICE_ROW"
+    }
+  ],
+  "formal_database_updated": false,
+  "automatic_trading": false,
+  "status": "READ_ONLY_SAMPLE_PASS"
+}

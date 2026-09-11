@@ -1,0 +1,2590 @@
+{
+  "status": "PASS",
+  "account_paths": 12,
+  "account_minute_points": 2102400,
+  "cash_checks": 12,
+  "attribution_checks": 20,
+  "module_tests": 382,
+  "baseline_parity": [
+    {
+      "mode": "R",
+      "minute_points": 175200,
+      "fills_equal": true
+    },
+    {
+      "mode": "F",
+      "minute_points": 175200,
+      "fills_equal": true
+    }
+  ],
+  "supplement_stock_days": 414,
+  "supplement_minute_rows": 99360,
+  "supplements": [
+    {
+      "file": "minute_export_01.txt",
+      "sha256": "ab2078f30abca97107aa0060355815ef362f83d54eb8cb9038541bede37b30c8",
+      "checks": [
+        {
+          "symbol": "601398.SH",
+          "date": "2020-08-12",
+          "volume_delta": 0.0,
+          "amount_delta": -0.309999942779541
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-08-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.48000001907348633
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-08-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.25
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-08-07",
+          "volume_delta": 0.0,
+          "amount_delta": -0.13999998569488525
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-08-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-08-05",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3999999761581421
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-08-04",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3599998950958252
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-08-03",
+          "volume_delta": 0.0,
+          "amount_delta": -0.5
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-31",
+          "volume_delta": 0.0,
+          "amount_delta": 0.20000004768371582
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-30",
+          "volume_delta": 0.0,
+          "amount_delta": 0.26999998092651367
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-29",
+          "volume_delta": 0.0,
+          "amount_delta": 0.23000001907348633
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.12000000476837158
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-27",
+          "volume_delta": 0.0,
+          "amount_delta": -0.08999991416931152
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3900001049041748
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.43000006675720215
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4100000858306885
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.28999996185302734
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-20",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4100000858306885
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-17",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1400001049041748
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.23000001907348633
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.48999977111816406
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-14",
+          "volume_delta": 0.0,
+          "amount_delta": -0.13000011444091797
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-13",
+          "volume_delta": 0.0,
+          "amount_delta": -0.03000020980834961
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-07-13",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1899999976158142
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.17999982833862305
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-07-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.5
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.13000011444091797
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-07-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.19999998807907104
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.32000017166137695
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-07-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4099999964237213
+        },
+        {
+          "symbol": "601398.SH",
+          "date": "2020-07-07",
+          "volume_delta": 0.0,
+          "amount_delta": -0.26999998092651367
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-07-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.06999999284744263
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-07-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-07-03",
+          "volume_delta": 0.0,
+          "amount_delta": -0.07999998331069946
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-07-02",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4100000262260437
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-07-01",
+          "volume_delta": 0.0,
+          "amount_delta": 0.01000000536441803
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-07-01",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3999999761581421
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-30",
+          "volume_delta": 0.0,
+          "amount_delta": 0.369999997317791
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-30",
+          "volume_delta": 0.0,
+          "amount_delta": -0.2800000011920929
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-29",
+          "volume_delta": 0.0,
+          "amount_delta": -0.09000000357627869
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-29",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4399999976158142
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-24",
+          "volume_delta": 0.0,
+          "amount_delta": -0.03999999910593033
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-24",
+          "volume_delta": 0.0,
+          "amount_delta": -0.08000001311302185
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-23",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1599999964237213
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.30000001192092896
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.15000000596046448
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-22",
+          "volume_delta": 0.0,
+          "amount_delta": -0.21000000834465027
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-19",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3100000023841858
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-19",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1599999964237213
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3500000014901161
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.2200000286102295
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.14999999850988388
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-17",
+          "volume_delta": 0.0,
+          "amount_delta": -0.12000000476837158
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.35999999940395355
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.11000001430511475
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3799999952316284
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-15",
+          "volume_delta": 0.0,
+          "amount_delta": -0.38999998569488525
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-12",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1899999976158142
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-12",
+          "volume_delta": 0.0,
+          "amount_delta": -0.47999998927116394
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1499999761581421
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1599999964237213
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.06999999284744263
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.019999995827674866
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.18000000715255737
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-08",
+          "volume_delta": 0.0,
+          "amount_delta": -0.35999999940395355
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0899999737739563
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-05",
+          "volume_delta": 0.0,
+          "amount_delta": -0.030000001192092896
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-05",
+          "volume_delta": 0.0,
+          "amount_delta": 0.33000001311302185
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-04",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4699999988079071
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-04",
+          "volume_delta": 0.0,
+          "amount_delta": -0.41999998688697815
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3100000023841858
+        },
+        {
+          "symbol": "600750.SH",
+          "date": "2020-06-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.03999999165534973
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-02",
+          "volume_delta": 0.0,
+          "amount_delta": 0.06000000238418579
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-06-01",
+          "volume_delta": 0.0,
+          "amount_delta": -0.2900000214576721
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-05-29",
+          "volume_delta": 0.0,
+          "amount_delta": 0.019999980926513672
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-05-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-05-27",
+          "volume_delta": 0.0,
+          "amount_delta": -0.32999998331069946
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-05-26",
+          "volume_delta": 0.0,
+          "amount_delta": 0.36000001430511475
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-05-25",
+          "volume_delta": 0.0,
+          "amount_delta": -0.18000000715255737
+        },
+        {
+          "symbol": "600820.SH",
+          "date": "2020-05-22",
+          "volume_delta": 0.0,
+          "amount_delta": -0.38999998569488525
+        }
+      ]
+    },
+    {
+      "file": "minute_export_02.txt",
+      "sha256": "5978c1c730d214dfc4b242818f0461a39a177f4154cba1c30a56b3211a5f7486",
+      "checks": [
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-08-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-08-12",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-08-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-08-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-08-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-08-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-08-05",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-08-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-08-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-31",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-30",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-29",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-27",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000338.SZ",
+          "date": "2020-07-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        }
+      ]
+    },
+    {
+      "file": "minute_export_03.txt",
+      "sha256": "bd66ffd938fdc8e4d7a3ac3775c6ea0ac2bdbca8950a529837f5cc49a935cfdd",
+      "checks": [
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-19",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-12",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-05",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-08-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-31",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-30",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-29",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-27",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002001.SZ",
+          "date": "2020-07-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        }
+      ]
+    },
+    {
+      "file": "minute_export_04.txt",
+      "sha256": "60d737d4f322d755af1be47b7dfc473c73ae092a478592ed2200f84cac2078df",
+      "checks": [
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-27",
+          "volume_delta": 0.0,
+          "amount_delta": -0.35999999940395355
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-26",
+          "volume_delta": 0.0,
+          "amount_delta": 0.19999998807907104
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-25",
+          "volume_delta": 0.0,
+          "amount_delta": -0.09000000357627869
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.27000001072883606
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.12999999523162842
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.029999971389770508
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-19",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4099999666213989
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-17",
+          "volume_delta": 0.0,
+          "amount_delta": -0.30000001192092896
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4000000059604645
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.12000000476837158
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-12",
+          "volume_delta": 0.0,
+          "amount_delta": -0.030000001192092896
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.09999999403953552
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.12999999523162842
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-07",
+          "volume_delta": 0.0,
+          "amount_delta": -0.26999999582767487
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-06",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1899999976158142
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-05",
+          "volume_delta": 0.0,
+          "amount_delta": 0.18000000715255737
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-04",
+          "volume_delta": 0.0,
+          "amount_delta": -0.41999998688697815
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-08-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.06000000238418579
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-07-31",
+          "volume_delta": 0.0,
+          "amount_delta": 0.23000000417232513
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-07-30",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-07-29",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3799999952316284
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-07-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.07999999821186066
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-07-27",
+          "volume_delta": 0.0,
+          "amount_delta": -0.23999999463558197
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-07-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.12999999523162842
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-07-23",
+          "volume_delta": 0.0,
+          "amount_delta": -0.09999999403953552
+        },
+        {
+          "symbol": "600027.SH",
+          "date": "2020-07-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.27000001072883606
+        }
+      ]
+    },
+    {
+      "file": "minute_export_05.txt",
+      "sha256": "4027ac615962a0d5f7a444c7e2f281c03443f52af61748b0eb07763ef408551a",
+      "checks": [
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-09-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-09-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-09-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-09-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-09-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-09-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-09-02",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-09-01",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-31",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-28",
+          "volume_delta": 0.0,
+          "amount_delta": -1.4901161193847656e-08
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-27",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-26",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-19",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-12",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002533.SZ",
+          "date": "2020-08-05",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        }
+      ]
+    },
+    {
+      "file": "minute_export_06.txt",
+      "sha256": "fc77c57cc78bfab797496283c93ff6ecfc56260590aa94b0ca292e6b9cd3eb2a",
+      "checks": [
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-15",
+          "volume_delta": 0.0,
+          "amount_delta": -0.36000001430511475
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-14",
+          "volume_delta": 0.0,
+          "amount_delta": -0.5
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-11",
+          "volume_delta": 0.0,
+          "amount_delta": -0.10000002384185791
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.16999995708465576
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-09",
+          "volume_delta": 0.0,
+          "amount_delta": -0.38999998569488525
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-08",
+          "volume_delta": 0.0,
+          "amount_delta": -0.19999998807907104
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-07",
+          "volume_delta": 0.0,
+          "amount_delta": -0.10000002384185791
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1600000262260437
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.019999980926513672
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-02",
+          "volume_delta": 0.0,
+          "amount_delta": -0.06000000238418579
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-09-01",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3200000524520874
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-31",
+          "volume_delta": 0.0,
+          "amount_delta": -0.46000003814697266
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-28",
+          "volume_delta": 0.0,
+          "amount_delta": -0.06000000238418579
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-27",
+          "volume_delta": 0.0,
+          "amount_delta": -0.5
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-26",
+          "volume_delta": 0.0,
+          "amount_delta": -0.08000004291534424
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-25",
+          "volume_delta": 0.0,
+          "amount_delta": -0.13999998569488525
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-24",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3400000333786011
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-21",
+          "volume_delta": 0.0,
+          "amount_delta": -0.2200000286102295
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.019999980926513672
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-19",
+          "volume_delta": 0.0,
+          "amount_delta": -0.13000011444091797
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-18",
+          "volume_delta": 0.0,
+          "amount_delta": -0.019999980926513672
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.20000004768371582
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-14",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4699997901916504
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1600000262260437
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-12",
+          "volume_delta": 0.0,
+          "amount_delta": 0.24000000953674316
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-11",
+          "volume_delta": 0.0,
+          "amount_delta": -0.20000004768371582
+        },
+        {
+          "symbol": "600166.SH",
+          "date": "2020-08-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3400000333786011
+        }
+      ]
+    },
+    {
+      "file": "minute_export_07.txt",
+      "sha256": "1b6972f3b101ecb27361971c818b012dd4e08a58e3e676c1eca67648cdc77f1b",
+      "checks": [
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-10-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-10-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-10-19",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-10-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-10-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-10-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-10-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-10-12",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-10-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-30",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-29",
+          "volume_delta": 0.0,
+          "amount_delta": 7.450580596923828e-09
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-23",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4300000071525574
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.019999980926513672
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-22",
+          "volume_delta": 0.0,
+          "amount_delta": -0.12000000476837158
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-22",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1899999976158142
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3199999928474426
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.28999999165534973
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-18",
+          "volume_delta": 0.0,
+          "amount_delta": -0.25999999046325684
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.23000001907348633
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-17",
+          "volume_delta": 0.0,
+          "amount_delta": -0.09999999403953552
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-17",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3400000035762787
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.02000001072883606
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.28999999165534973
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1899999976158142
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.42000001668930054
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4399999976158142
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.21999996900558472
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.12999999523162842
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.10000002384185791
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.41999998688697815
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.42000001668930054
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-09",
+          "volume_delta": 0.0,
+          "amount_delta": -0.22999998927116394
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-09",
+          "volume_delta": 0.0,
+          "amount_delta": -0.24000000953674316
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.20999997854232788
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1899999976158142
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-07",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4599999785423279
+        },
+        {
+          "symbol": "002491.SZ",
+          "date": "2020-09-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.11000001430511475
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-04",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4300000071525574
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3400000035762787
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-03",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1899999976158142
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-02",
+          "volume_delta": 0.0,
+          "amount_delta": -0.25
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-02",
+          "volume_delta": 0.0,
+          "amount_delta": 0.26999998092651367
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-09-01",
+          "volume_delta": 0.0,
+          "amount_delta": 0.09999999403953552
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-09-01",
+          "volume_delta": 0.0,
+          "amount_delta": 0.20000004768371582
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-31",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4599999785423279
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-31",
+          "volume_delta": 0.0,
+          "amount_delta": 0.26999998092651367
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-28",
+          "volume_delta": 0.0,
+          "amount_delta": -0.11000001430511475
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3799999952316284
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-27",
+          "volume_delta": 0.0,
+          "amount_delta": 0.2199999988079071
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-27",
+          "volume_delta": 0.0,
+          "amount_delta": -0.06999999284744263
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-26",
+          "volume_delta": 0.0,
+          "amount_delta": -0.02000001072883606
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-26",
+          "volume_delta": 0.0,
+          "amount_delta": -0.11000001430511475
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3499999940395355
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3199999928474426
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-24",
+          "volume_delta": 0.0,
+          "amount_delta": -0.49000000953674316
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3999999761581421
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3799999952316284
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-20",
+          "volume_delta": 0.0,
+          "amount_delta": -0.46000000834465027
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.039999961853027344
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-19",
+          "volume_delta": 0.0,
+          "amount_delta": 0.19999998807907104
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-19",
+          "volume_delta": 0.0,
+          "amount_delta": 0.23000001907348633
+        },
+        {
+          "symbol": "601997.SH",
+          "date": "2020-08-18",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1899999976158142
+        },
+        {
+          "symbol": "601009.SH",
+          "date": "2020-08-18",
+          "volume_delta": 0.0,
+          "amount_delta": -0.46000003814697266
+        }
+      ]
+    },
+    {
+      "file": "minute_export_08.txt",
+      "sha256": "e6e05ce59db071d4213eb91912a995d9591a9ae7f35dfc3183491d484b3f64e9",
+      "checks": [
+        {
+          "symbol": "600567.SH",
+          "date": "2020-10-09",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4000000059604645
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-30",
+          "volume_delta": 0.0,
+          "amount_delta": 0.14000000059604645
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-29",
+          "volume_delta": 0.0,
+          "amount_delta": -0.20000000298023224
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-28",
+          "volume_delta": 0.0,
+          "amount_delta": -0.25999999791383743
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.12000000476837158
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-24",
+          "volume_delta": 0.0,
+          "amount_delta": -0.27000001072883606
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-23",
+          "volume_delta": 0.0,
+          "amount_delta": -0.17000000178813934
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-22",
+          "volume_delta": 0.0,
+          "amount_delta": -0.25999999046325684
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-21",
+          "volume_delta": 0.0,
+          "amount_delta": -0.24000000953674316
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.26999999582767487
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.45000000298023224
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4000000059604645
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3199999928474426
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-14",
+          "volume_delta": 0.0,
+          "amount_delta": -0.19999998807907104
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25999999046325684
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.49000000953674316
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-09",
+          "volume_delta": 0.0,
+          "amount_delta": -0.04000002145767212
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-08",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1899999976158142
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-07",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4000000059604645
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.09999999403953552
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-03",
+          "volume_delta": 0.0,
+          "amount_delta": -0.44999998807907104
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-02",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3400000035762787
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-09-01",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0899999737739563
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-08-31",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4100000262260437
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-08-28",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4399999976158142
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-08-27",
+          "volume_delta": 0.0,
+          "amount_delta": -0.25
+        },
+        {
+          "symbol": "600567.SH",
+          "date": "2020-08-26",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4099999964237213
+        }
+      ]
+    },
+    {
+      "file": "minute_export_09.txt",
+      "sha256": "6452cab2f71998881d517f274f8e84d2effd76a0221d63ef98fd4ba7dd5db3bd",
+      "checks": [
+        {
+          "symbol": "600894.SH",
+          "date": "2020-10-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.48000000044703484
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-10-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.29999999701976776
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-10-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.03999999910593033
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-10-12",
+          "volume_delta": 0.0,
+          "amount_delta": -0.32999999821186066
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-10-09",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4399999976158142
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-30",
+          "volume_delta": 0.0,
+          "amount_delta": -0.2800000011920929
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-29",
+          "volume_delta": 0.0,
+          "amount_delta": -0.35999999940395355
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-28",
+          "volume_delta": 0.0,
+          "amount_delta": -0.28999999910593033
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-25",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3200000002980232
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-23",
+          "volume_delta": 0.0,
+          "amount_delta": -0.07000000029802322
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-22",
+          "volume_delta": 0.0,
+          "amount_delta": -0.07999999821186066
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-21",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3999999985098839
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3999999985098839
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-11",
+          "volume_delta": 0.0,
+          "amount_delta": -0.45000000298023224
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.17000000178813934
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-09",
+          "volume_delta": 0.0,
+          "amount_delta": -0.25
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-08",
+          "volume_delta": 0.0,
+          "amount_delta": -0.03999999910593033
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1599999964237213
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-03",
+          "volume_delta": 0.0,
+          "amount_delta": -0.32999999821186066
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-02",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600894.SH",
+          "date": "2020-09-01",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        }
+      ]
+    },
+    {
+      "file": "minute_export_10.txt",
+      "sha256": "e7018d4101e1c49e0a6147165414579a53d4cf6fa5af1d1a377e2453887a6c3a",
+      "checks": [
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-10-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-10-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-10-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-10-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-10-12",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-10-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-30",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-29",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000778.SZ",
+          "date": "2020-09-02",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        }
+      ]
+    },
+    {
+      "file": "minute_export_11.txt",
+      "sha256": "19e0a2d8e4d86863daa619df549c8138def2921a5b5e0d0e89ed5873d2d65562",
+      "checks": [
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-31",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-30",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-29",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "002244.SZ",
+          "date": "2020-12-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        }
+      ]
+    },
+    {
+      "file": "minute_export_12.txt",
+      "sha256": "9e6d58182beed4df9b4542b5f8aba613b6f2d6e5ebfe42ff5a7df6ac6fb44e3e",
+      "checks": [
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-31",
+          "volume_delta": 0.0,
+          "amount_delta": 0.48999999463558197
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-30",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3100000023841858
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-29",
+          "volume_delta": 0.0,
+          "amount_delta": 0.06999999284744263
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.26999999582767487
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.020000003278255463
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-24",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3200000002980232
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-23",
+          "volume_delta": 0.0,
+          "amount_delta": -0.49000000208616257
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.45000000298023224
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.17000000178813934
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-18",
+          "volume_delta": 0.0,
+          "amount_delta": -0.28999999910593033
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.04999999701976776
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.2800000011920929
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.06000000238418579
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-14",
+          "volume_delta": 0.0,
+          "amount_delta": -0.20999999344348907
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.12000000476837158
+        },
+        {
+          "symbol": "600388.SH",
+          "date": "2020-12-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1899999976158142
+        }
+      ]
+    }
+  ],
+  "platform": {
+    "exact_match": true,
+    "reloaded": true,
+    "length": 27858,
+    "source": "platform_before.py",
+    "method": "Saved original, navigated away and back, selected all and copied editor source"
+  },
+  "unseen_validation": false,
+  "new_rqalpha_validation": false,
+  "live_orders": false
+}

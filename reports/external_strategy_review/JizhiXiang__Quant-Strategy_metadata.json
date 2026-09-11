@@ -1,0 +1,448 @@
+{
+  "repository": "JizhiXiang/Quant-Strategy",
+  "commit": "7a3fbbae48fefe77047bf1a9611bb88a378c3630",
+  "metadata": {
+    "id": 956321082,
+    "node_id": "R_kgDOOQBNOg",
+    "name": "Quant-Strategy",
+    "full_name": "JizhiXiang/Quant-Strategy",
+    "private": false,
+    "owner": {
+      "login": "JizhiXiang",
+      "id": 30423956,
+      "node_id": "MDQ6VXNlcjMwNDIzOTU2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30423956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JizhiXiang",
+      "html_url": "https://github.com/JizhiXiang",
+      "followers_url": "https://api.github.com/users/JizhiXiang/followers",
+      "following_url": "https://api.github.com/users/JizhiXiang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JizhiXiang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JizhiXiang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JizhiXiang/subscriptions",
+      "organizations_url": "https://api.github.com/users/JizhiXiang/orgs",
+      "repos_url": "https://api.github.com/users/JizhiXiang/repos",
+      "events_url": "https://api.github.com/users/JizhiXiang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JizhiXiang/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/JizhiXiang/Quant-Strategy",
+    "description": "qmt、okx、joinquant、ML、AI、Qlib Quant Strategy 量化策略",
+    "fork": false,
+    "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy",
+    "forks_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/forks",
+    "keys_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/teams",
+    "hooks_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/hooks",
+    "issue_events_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/events",
+    "assignees_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/tags",
+    "blobs_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/languages",
+    "stargazers_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/stargazers",
+    "contributors_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/contributors",
+    "subscribers_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/subscribers",
+    "subscription_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/subscription",
+    "commits_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/merges",
+    "archive_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/downloads",
+    "issues_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/labels{/name}",
+    "releases_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/deployments",
+    "created_at": "2025-03-28T03:58:59Z",
+    "updated_at": "2026-09-04T12:42:33Z",
+    "pushed_at": "2025-11-12T08:00:12Z",
+    "git_url": "git://github.com/JizhiXiang/Quant-Strategy.git",
+    "ssh_url": "git@github.com:JizhiXiang/Quant-Strategy.git",
+    "clone_url": "https://github.com/JizhiXiang/Quant-Strategy.git",
+    "svn_url": "https://github.com/JizhiXiang/Quant-Strategy",
+    "homepage": "https://blog.csdn.net/2401_82851462",
+    "size": 4509,
+    "stargazers_count": 284,
+    "watchers_count": 284,
+    "language": "Jupyter Notebook",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 64,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [
+      "python",
+      "quant",
+      "strategy"
+    ],
+    "visibility": "public",
+    "forks": 64,
+    "open_issues": 0,
+    "watchers": 284,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 64,
+    "subscribers_count": 3
+  },
+  "tree": {
+    "sha": "7a3fbbae48fefe77047bf1a9611bb88a378c3630",
+    "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/trees/7a3fbbae48fefe77047bf1a9611bb88a378c3630",
+    "tree": [
+      {
+        "path": "AI_DeepLOP.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c59c638c6aa99c47edc2bc9d4050ba1412dafabb",
+        "size": 74858,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/c59c638c6aa99c47edc2bc9d4050ba1412dafabb"
+      },
+      {
+        "path": "ML4T",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "24097326592e4f82364ea9b149258e6fa210480b",
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/trees/24097326592e4f82364ea9b149258e6fa210480b"
+      },
+      {
+        "path": "ML4T/07_01_A_simple_regression.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c712df7a09236e204f866dac295af7ceea876dee",
+        "size": 87046,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/c712df7a09236e204f866dac295af7ceea876dee"
+      },
+      {
+        "path": "ML4T/07_01_B_multiple_regression.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5353f0ca8fae9e8ad38f450de5933d697018a7e0",
+        "size": 441050,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/5353f0ca8fae9e8ad38f450de5933d697018a7e0"
+      },
+      {
+        "path": "ML4T/07_01_C_SGDRegressor.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5833150865d79fda7a9d4da25599d4106a7bc740",
+        "size": 76682,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/5833150865d79fda7a9d4da25599d4106a7bc740"
+      },
+      {
+        "path": "ML4T/07_02_fama_macbeth.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d57e5311d4bd5a307d0d817e8a652eba07a6870",
+        "size": 232696,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/9d57e5311d4bd5a307d0d817e8a652eba07a6870"
+      },
+      {
+        "path": "ML4T/07_03_preparing_the_model_data.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3e1e542ce0ab1c7cbe42cb410e8fa59f8330b90",
+        "size": 580397,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/e3e1e542ce0ab1c7cbe42cb410e8fa59f8330b90"
+      },
+      {
+        "path": "ML4T/07_04_statistical_inference.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05692f82760663203ddf296cc870ea7a4cf0066a",
+        "size": 286454,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/05692f82760663203ddf296cc870ea7a4cf0066a"
+      },
+      {
+        "path": "ML4T/07_05_predicting_stock.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35d4a945536cc0e8d9a9054d079d460380ccc30d",
+        "size": 1020105,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/35d4a945536cc0e8d9a9054d079d460380ccc30d"
+      },
+      {
+        "path": "ML4T/07_06_alphalens_analysis.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a655069710a67a6d82c2a7e6c7fb03e07955a01",
+        "size": 169646,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/8a655069710a67a6d82c2a7e6c7fb03e07955a01"
+      },
+      {
+        "path": "ML4T/07_07_logistic_regression_macro_data.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e22167bc29e6748c5f15da8f9e94e7d6d07ef8aa",
+        "size": 227726,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/e22167bc29e6748c5f15da8f9e94e7d6d07ef8aa"
+      },
+      {
+        "path": "ML4T/07_08_predicting_price_movements_with_logistic_regression.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0dfadae56665bf625f3e00d104c721413e7a9e5",
+        "size": 135937,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/c0dfadae56665bf625f3e00d104c721413e7a9e5"
+      },
+      {
+        "path": "ML4T/08_00_data_prep.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "beb4c7b86b52d085531144cff059d35e68ee6a26",
+        "size": 2260,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/beb4c7b86b52d085531144cff059d35e68ee6a26"
+      },
+      {
+        "path": "ML4T/08_01_deflated_sharpe_ratio.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12b840e27c83b762599646de47f5bc32e71e4d4a",
+        "size": 2150,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/12b840e27c83b762599646de47f5bc32e71e4d4a"
+      },
+      {
+        "path": "ML4T/create_datasets_Quandl_Wiki.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2ed406c42f7112e640ec86fc2cda4d98e9066af",
+        "size": 9451,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/a2ed406c42f7112e640ec86fc2cda4d98e9066af"
+      },
+      {
+        "path": "ML_DT决策树_分类demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36ecc04c83cca590ed1c4b93082b385214eb5280",
+        "size": 1388,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/36ecc04c83cca590ed1c4b93082b385214eb5280"
+      },
+      {
+        "path": "ML_DT决策树_回归demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87fadaa21e1a22592d2b9777fd11fe9f5f82f704",
+        "size": 1642,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/87fadaa21e1a22592d2b9777fd11fe9f5f82f704"
+      },
+      {
+        "path": "ML_DT决策树_排序demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "312c9da6e21b4b4400098938633ac98be3b406f1",
+        "size": 2141,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/312c9da6e21b4b4400098938633ac98be3b406f1"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd7cf4b53fc05bff152163c16bf67d24e52a42f4",
+        "size": 10314,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/cd7cf4b53fc05bff152163c16bf67d24e52a42f4"
+      },
+      {
+        "path": "joinquant_rsrs因子_年均18%收益.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5bed67d0c00e72a533a4580f3ae2fa4598df55e6",
+        "size": 1857,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/5bed67d0c00e72a533a4580f3ae2fa4598df55e6"
+      },
+      {
+        "path": "joinquant_上证50利用动态PE增强模型.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9060fba761d5e3513a4461f76993d2e33c2f0873",
+        "size": 10942,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/9060fba761d5e3513a4461f76993d2e33c2f0873"
+      },
+      {
+        "path": "joinquant_价值投资-选股策略.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "737d8afd0dacc219e2a61f8e7019bf497662227a",
+        "size": 2544,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/737d8afd0dacc219e2a61f8e7019bf497662227a"
+      },
+      {
+        "path": "joinquant_手动计算板块指数的PE.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a248ab57e314bb64808ab2873fdd08ef86ec449b",
+        "size": 4289,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/a248ab57e314bb64808ab2873fdd08ef86ec449b"
+      },
+      {
+        "path": "joinquant_概念板块+基本面选股.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6daf04402e322d7b26fb48e763ed2bb80692e741",
+        "size": 4788,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/6daf04402e322d7b26fb48e763ed2bb80692e741"
+      },
+      {
+        "path": "joinquant_网格交易_v1.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "822146e6e1d69ac3d82ba3fc545a6b20716bbc93",
+        "size": 2851,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/822146e6e1d69ac3d82ba3fc545a6b20716bbc93"
+      },
+      {
+        "path": "joinquant_计算macd值与同花顺不一致原因探索.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30ddf61c889c08a5cb7e41f0ff781a4c27e0b7e2",
+        "size": 2468,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/30ddf61c889c08a5cb7e41f0ff781a4c27e0b7e2"
+      },
+      {
+        "path": "miniqmt_均线策略_v1.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8843c327e00b47775557194c16c98d5e099f245d",
+        "size": 3191,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/8843c327e00b47775557194c16c98d5e099f245d"
+      },
+      {
+        "path": "miniqmt_概念板块.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2246cbd8742e97fb6f9d7eec5e1ea19fe99eb771",
+        "size": 662,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/2246cbd8742e97fb6f9d7eec5e1ea19fe99eb771"
+      },
+      {
+        "path": "okx_contract_swap_demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52b701fad4bdd40c1069acb6ad34bb6db28132f3",
+        "size": 6583,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/52b701fad4bdd40c1069acb6ad34bb6db28132f3"
+      },
+      {
+        "path": "okx_spot_inst_demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b37b55b84c93abf7664882c9a560cd734f35c11e",
+        "size": 2170,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/b37b55b84c93abf7664882c9a560cd734f35c11e"
+      },
+      {
+        "path": "optuna_LGB_demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "413d39c3f2403b31a5a142c9061a8d5d7a4f7be3",
+        "size": 1850,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/413d39c3f2403b31a5a142c9061a8d5d7a4f7be3"
+      },
+      {
+        "path": "qlib_backtest_demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5b0cbca783a68e9fcd806bd7b25cb4e951c0ba4",
+        "size": 2597,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/d5b0cbca783a68e9fcd806bd7b25cb4e951c0ba4"
+      },
+      {
+        "path": "qlib_build_formulaic_Alphas.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee9259eb974928f9734699da40d9e38123cb424d",
+        "size": 986,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/ee9259eb974928f9734699da40d9e38123cb424d"
+      },
+      {
+        "path": "qlib_model_demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17ae6446aef3dc993187e78fe24f2117bd449933",
+        "size": 3784,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/17ae6446aef3dc993187e78fe24f2117bd449933"
+      },
+      {
+        "path": "qlib_view_Alpha158.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c7506ee51aea2f2a10382cf8f9063987bccb418",
+        "size": 993,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/0c7506ee51aea2f2a10382cf8f9063987bccb418"
+      },
+      {
+        "path": "qlib_view_Alpha360.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5cfd27ce3125233ac09890ef9fbfb48775795830",
+        "size": 994,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/5cfd27ce3125233ac09890ef9fbfb48775795830"
+      },
+      {
+        "path": "qlib_view_data_cn.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "228e2207f56d415c2b0775d7cb4ac514de407e58",
+        "size": 614,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/228e2207f56d415c2b0775d7cb4ac514de407e58"
+      },
+      {
+        "path": "qlib_view_data_us.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21346160a1777c9fe792a7628a5907dd5ae1bb8b",
+        "size": 607,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/21346160a1777c9fe792a7628a5907dd5ae1bb8b"
+      },
+      {
+        "path": "qmt_macd策略.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b5d6772ee9330d2a92f4522b1434c7a0cffe8f9",
+        "size": 3481,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/0b5d6772ee9330d2a92f4522b1434c7a0cffe8f9"
+      },
+      {
+        "path": "qmt_龙头跟随_v1.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37af3422767881d352173c2e800cfb0fa4605f2c",
+        "size": 4406,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/37af3422767881d352173c2e800cfb0fa4605f2c"
+      },
+      {
+        "path": "yfinace_多标的多均线_v1.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6233055ffdef6f2ec7e038971dae528203090dbf",
+        "size": 1204,
+        "url": "https://api.github.com/repos/JizhiXiang/Quant-Strategy/git/blobs/6233055ffdef6f2ec7e038971dae528203090dbf"
+      }
+    ],
+    "truncated": false
+  }
+}

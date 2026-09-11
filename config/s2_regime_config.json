@@ -1,0 +1,59 @@
+{
+  "version": "S2.1-research",
+  "status": "research_only_pending_backtest",
+  "reference_capital": 30000,
+  "capital_rule": "Only deposited and account-snapshot-confirmed equity enters sizing; external liquidity is excluded until deposited.",
+  "drawdown_control": {
+    "warning": 0.08,
+    "reduce_risk": 0.12,
+    "hard_stop": 0.15
+  },
+  "classifier": {
+    "weak_market_cash_first": true,
+    "trend_ma_slope_days": 5,
+    "range_close_to_ma20_max": 0.035,
+    "range_close_to_ma60_max": 0.04,
+    "range_ma20_to_ma60_max": 0.04,
+    "range_ma20_slope_abs_max": 0.02,
+    "range_min_return_20": -0.03,
+    "rotation_min_return_20": -0.03
+  },
+  "strategies": {
+    "trend_breakout": {
+      "label": "趋势放量突破",
+      "target_exposure": 0.90,
+      "max_single_exposure": 0.40,
+      "max_positions": 3,
+      "selector": "S1.1 observation pool plus execution gates",
+      "live_enabled": false
+    },
+    "range_mean_reversion": {
+      "label": "震荡回撤低吸",
+      "target_exposure": 0.70,
+      "max_single_exposure": 0.35,
+      "max_positions": 3,
+      "selector": "pending point-in-time and minute backtest",
+      "live_enabled": false
+    },
+    "industry_rotation": {
+      "label": "行业轮动",
+      "target_exposure": 0.85,
+      "max_single_exposure": 0.35,
+      "max_positions": 3,
+      "selector": "requires point-in-time industry mapping and industry index data",
+      "live_enabled": false
+    },
+    "defensive_cash": {
+      "label": "熊市现金防守",
+      "target_exposure": 0.00,
+      "max_single_exposure": 0.00,
+      "max_positions": 0,
+      "selector": "cash until a separately validated low-volatility defensive model exists",
+      "live_enabled": true
+    }
+  },
+  "market_neutral": {
+    "enabled": false,
+    "reason": "Cash-only A-share account has no verified short, margin, futures or hedge permission."
+  }
+}

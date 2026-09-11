@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "frozen_strategy": "S1.1",
+  "unvalidated_risk_fraction": 0.0125,
+  "max_total_exposure": 0.7,
+  "s2_status": "research_only_pending_backtest",
+  "s2_max_target_exposure": 0.9,
+  "s2_hard_drawdown_stop": 0.15
+}

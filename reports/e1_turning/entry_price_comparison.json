@@ -1,0 +1,2332 @@
+{
+  "B_1.0": {
+    "same_symbol_day_matches": 11,
+    "cheaper": 5,
+    "more_expensive": 1,
+    "mean_price_difference_pct": -0.21615923889823516,
+    "matches": [
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T10:00:00",
+        "old_price": 10.790779999999998,
+        "new_price": 10.790779999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:49:00",
+        "old_price": 8.47847,
+        "new_price": 8.47847,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601566.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:49:00",
+        "old_price": 14.364349999999998,
+        "new_price": 14.334319999999998,
+        "price_difference_pct": -0.2090592334494823
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:50:00",
+        "old_price": 3.3633599999999997,
+        "new_price": 3.3733699999999995,
+        "price_difference_pct": 0.29761904761904656
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:51:00",
+        "old_price": 3.2432399999999997,
+        "new_price": 3.2432399999999997,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T10:22:00",
+        "old_price": 4.474469999999999,
+        "new_price": 4.4044,
+        "price_difference_pct": -1.5659955257270597
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T10:02:00",
+        "old_price": 18.23822,
+        "new_price": 18.20819,
+        "price_difference_pct": -0.16465422612513825
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T10:22:00",
+        "old_price": 11.3113,
+        "new_price": 11.271259999999998,
+        "price_difference_pct": -0.3539823008849696
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:47:00",
+        "old_price": 6.476469999999999,
+        "new_price": 6.476469999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T10:03:00",
+        "old_price": 5.24524,
+        "new_price": 5.225219999999999,
+        "price_difference_pct": -0.3816793893129833
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:56:00",
+        "old_price": 12.452439999999998,
+        "new_price": 12.452439999999998,
+        "price_difference_pct": 0.0
+      }
+    ]
+  },
+  "B_1.5": {
+    "same_symbol_day_matches": 10,
+    "cheaper": 4,
+    "more_expensive": 1,
+    "mean_price_difference_pct": -0.2168692394431082,
+    "matches": [
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T10:00:00",
+        "old_price": 10.79617,
+        "new_price": 10.79617,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:49:00",
+        "old_price": 8.482705000000001,
+        "new_price": 8.482705000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:50:00",
+        "old_price": 3.36504,
+        "new_price": 3.375055,
+        "price_difference_pct": 0.29761904761904656
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:51:00",
+        "old_price": 3.2448600000000005,
+        "new_price": 3.2448600000000005,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T10:22:00",
+        "old_price": 4.476705,
+        "new_price": 4.406600000000001,
+        "price_difference_pct": -1.5659955257270486
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T10:02:00",
+        "old_price": 18.24733,
+        "new_price": 18.217285000000004,
+        "price_difference_pct": -0.16465422612512715
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T10:22:00",
+        "old_price": 11.316950000000002,
+        "new_price": 11.27689,
+        "price_difference_pct": -0.3539823008849696
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:47:00",
+        "old_price": 6.479705,
+        "new_price": 6.479705,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T10:03:00",
+        "old_price": 5.24786,
+        "new_price": 5.22783,
+        "price_difference_pct": -0.3816793893129833
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:56:00",
+        "old_price": 12.45866,
+        "new_price": 12.45866,
+        "price_difference_pct": 0.0
+      }
+    ]
+  },
+  "P_1.0": {
+    "same_symbol_day_matches": 33,
+    "cheaper": 0,
+    "more_expensive": 0,
+    "mean_price_difference_pct": 0.0,
+    "matches": [
+      {
+        "symbol": "601009.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 9.619609999999998,
+        "new_price": 9.619609999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 10.790779999999998,
+        "new_price": 10.790779999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:46:00",
+        "old_price": 8.47847,
+        "new_price": 8.47847,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601318.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 65.98592,
+        "new_price": 65.98592,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600030.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 20.009989999999995,
+        "new_price": 20.009989999999995,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600585.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 35.37534,
+        "new_price": 35.37534,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600160.SH",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 8.498489999999999,
+        "new_price": 8.498489999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002242.SZ",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 21.581559999999996,
+        "new_price": 21.581559999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600036.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 34.82478999999999,
+        "new_price": 34.82478999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600887.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 30.230199999999996,
+        "new_price": 30.230199999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601238.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 12.32231,
+        "new_price": 12.32231,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000708.SZ",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 15.66565,
+        "new_price": 15.66565,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600869.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:52:00",
+        "new_time": "2019-09-09T09:52:00",
+        "old_price": 4.94494,
+        "new_price": 4.94494,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:46:00",
+        "old_price": 3.3633599999999997,
+        "new_price": 3.3633599999999997,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600583.SH",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T10:04:00",
+        "new_time": "2019-10-15T10:04:00",
+        "old_price": 6.005999999999999,
+        "new_price": 6.005999999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T09:46:00",
+        "old_price": 4.474469999999999,
+        "new_price": 4.474469999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:49:00",
+        "old_price": 3.2432399999999997,
+        "new_price": 3.2432399999999997,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 18.23822,
+        "new_price": 18.23822,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 11.3113,
+        "new_price": 11.3113,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002047.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 5.74574,
+        "new_price": 5.74574,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 18.79878,
+        "new_price": 18.79878,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002507.SZ",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 25.605579999999996,
+        "new_price": 25.605579999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600993.SH",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:54:00",
+        "new_time": "2019-11-08T09:54:00",
+        "old_price": 19.599579999999996,
+        "new_price": 19.599579999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601198.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 12.202189999999998,
+        "new_price": 12.202189999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 5.24524,
+        "new_price": 5.24524,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 6.476469999999999,
+        "new_price": 6.476469999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002317.SZ",
+        "date": "2019-12-25",
+        "old_time": "2019-12-25T09:46:00",
+        "new_time": "2019-12-25T09:46:00",
+        "old_price": 10.750739999999999,
+        "new_price": 10.750739999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601828.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:50:00",
+        "new_time": "2020-01-20T09:50:00",
+        "old_price": 11.961949999999998,
+        "new_price": 11.961949999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600233.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:54:00",
+        "new_time": "2020-01-20T09:54:00",
+        "old_price": 13.453439999999999,
+        "new_price": 13.453439999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:54:00",
+        "old_price": 12.452439999999998,
+        "new_price": 12.452439999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600873.SH",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:55:00",
+        "new_time": "2020-03-06T09:55:00",
+        "old_price": 4.974969999999999,
+        "new_price": 4.974969999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002439.SZ",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T09:49:00",
+        "new_time": "2020-05-20T09:49:00",
+        "old_price": 43.04299999999999,
+        "new_price": 43.04299999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600426.SH",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T10:29:00",
+        "new_time": "2020-05-20T10:29:00",
+        "old_price": 18.45844,
+        "new_price": 18.45844,
+        "price_difference_pct": 0.0
+      }
+    ]
+  },
+  "P_1.5": {
+    "same_symbol_day_matches": 32,
+    "cheaper": 0,
+    "more_expensive": 0,
+    "mean_price_difference_pct": 0.0,
+    "matches": [
+      {
+        "symbol": "601009.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 9.624415,
+        "new_price": 9.624415,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 10.79617,
+        "new_price": 10.79617,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:46:00",
+        "old_price": 8.482705000000001,
+        "new_price": 8.482705000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601318.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 66.01888000000001,
+        "new_price": 66.01888000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600030.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 20.019985,
+        "new_price": 20.019985,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000776.SZ",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 14.822200000000002,
+        "new_price": 14.822200000000002,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600160.SH",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 8.502735000000001,
+        "new_price": 8.502735000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600036.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 34.842185,
+        "new_price": 34.842185,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600887.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 30.2453,
+        "new_price": 30.2453,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601238.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 12.328465000000001,
+        "new_price": 12.328465000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000708.SZ",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 15.673475000000002,
+        "new_price": 15.673475000000002,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600869.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:52:00",
+        "new_time": "2019-09-09T09:52:00",
+        "old_price": 4.9474100000000005,
+        "new_price": 4.9474100000000005,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:46:00",
+        "old_price": 3.36504,
+        "new_price": 3.36504,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600583.SH",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T10:04:00",
+        "new_time": "2019-10-15T10:04:00",
+        "old_price": 6.009,
+        "new_price": 6.009,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T09:46:00",
+        "old_price": 4.476705,
+        "new_price": 4.476705,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:49:00",
+        "old_price": 3.2448600000000005,
+        "new_price": 3.2448600000000005,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600926.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T10:31:00",
+        "new_time": "2019-10-29T10:31:00",
+        "old_price": 9.03353,
+        "new_price": 9.03353,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 18.24733,
+        "new_price": 18.24733,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 11.316950000000002,
+        "new_price": 11.316950000000002,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002047.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 5.74861,
+        "new_price": 5.74861,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 18.80817,
+        "new_price": 18.80817,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002507.SZ",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 25.61837,
+        "new_price": 25.61837,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601198.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 12.208285,
+        "new_price": 12.208285,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 5.24786,
+        "new_price": 5.24786,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 6.479705,
+        "new_price": 6.479705,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002317.SZ",
+        "date": "2019-12-25",
+        "old_time": "2019-12-25T09:46:00",
+        "new_time": "2019-12-25T09:46:00",
+        "old_price": 10.756110000000001,
+        "new_price": 10.756110000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601828.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:50:00",
+        "new_time": "2020-01-20T09:50:00",
+        "old_price": 11.967925,
+        "new_price": 11.967925,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600233.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:54:00",
+        "new_time": "2020-01-20T09:54:00",
+        "old_price": 13.46016,
+        "new_price": 13.46016,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:54:00",
+        "old_price": 12.45866,
+        "new_price": 12.45866,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600873.SH",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:55:00",
+        "new_time": "2020-03-06T09:55:00",
+        "old_price": 4.977455,
+        "new_price": 4.977455,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002439.SZ",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T09:49:00",
+        "new_time": "2020-05-20T09:49:00",
+        "old_price": 43.0645,
+        "new_price": 43.0645,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600426.SH",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T10:29:00",
+        "new_time": "2020-05-20T10:29:00",
+        "old_price": 18.467660000000002,
+        "new_price": 18.467660000000002,
+        "price_difference_pct": 0.0
+      }
+    ]
+  },
+  "Q_1.0": {
+    "same_symbol_day_matches": 38,
+    "cheaper": 0,
+    "more_expensive": 0,
+    "mean_price_difference_pct": 0.0,
+    "matches": [
+      {
+        "symbol": "601009.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 9.619609999999998,
+        "new_price": 9.619609999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 10.790779999999998,
+        "new_price": 10.790779999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:46:00",
+        "old_price": 8.47847,
+        "new_price": 8.47847,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601318.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 65.98592,
+        "new_price": 65.98592,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600030.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 20.009989999999995,
+        "new_price": 20.009989999999995,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600585.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 35.37534,
+        "new_price": 35.37534,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600160.SH",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 8.498489999999999,
+        "new_price": 8.498489999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002242.SZ",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 21.581559999999996,
+        "new_price": 21.581559999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600277.SH",
+        "date": "2019-03-13",
+        "old_time": "2019-03-13T09:46:00",
+        "new_time": "2019-03-13T09:46:00",
+        "old_price": 6.776769999999999,
+        "new_price": 6.776769999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600036.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 34.82478999999999,
+        "new_price": 34.82478999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600887.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 30.230199999999996,
+        "new_price": 30.230199999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601566.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 14.364349999999998,
+        "new_price": 14.364349999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601238.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 12.32231,
+        "new_price": 12.32231,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000708.SZ",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 15.66565,
+        "new_price": 15.66565,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600869.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:52:00",
+        "new_time": "2019-09-09T09:52:00",
+        "old_price": 4.94494,
+        "new_price": 4.94494,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:46:00",
+        "old_price": 3.3633599999999997,
+        "new_price": 3.3633599999999997,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600583.SH",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T10:04:00",
+        "new_time": "2019-10-15T10:04:00",
+        "old_price": 6.005999999999999,
+        "new_price": 6.005999999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T09:46:00",
+        "old_price": 4.474469999999999,
+        "new_price": 4.474469999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:49:00",
+        "old_price": 3.2432399999999997,
+        "new_price": 3.2432399999999997,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600926.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T10:31:00",
+        "new_time": "2019-10-29T10:31:00",
+        "old_price": 9.02902,
+        "new_price": 9.02902,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 18.23822,
+        "new_price": 18.23822,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 11.3113,
+        "new_price": 11.3113,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002047.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 5.74574,
+        "new_price": 5.74574,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 18.79878,
+        "new_price": 18.79878,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002507.SZ",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 25.605579999999996,
+        "new_price": 25.605579999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600993.SH",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:54:00",
+        "new_time": "2019-11-08T09:54:00",
+        "old_price": 19.599579999999996,
+        "new_price": 19.599579999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601198.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 12.202189999999998,
+        "new_price": 12.202189999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 5.24524,
+        "new_price": 5.24524,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 6.476469999999999,
+        "new_price": 6.476469999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002317.SZ",
+        "date": "2019-12-25",
+        "old_time": "2019-12-25T09:46:00",
+        "new_time": "2019-12-25T09:46:00",
+        "old_price": 10.750739999999999,
+        "new_price": 10.750739999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601828.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:50:00",
+        "new_time": "2020-01-20T09:50:00",
+        "old_price": 11.961949999999998,
+        "new_price": 11.961949999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600233.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:54:00",
+        "new_time": "2020-01-20T09:54:00",
+        "old_price": 13.453439999999999,
+        "new_price": 13.453439999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000028.SZ",
+        "date": "2020-01-23",
+        "old_time": "2020-01-23T09:46:00",
+        "new_time": "2020-01-23T09:46:00",
+        "old_price": 51.45139999999999,
+        "new_price": 51.45139999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:54:00",
+        "old_price": 12.452439999999998,
+        "new_price": 12.452439999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600873.SH",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:55:00",
+        "new_time": "2020-03-06T09:55:00",
+        "old_price": 4.974969999999999,
+        "new_price": 4.974969999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000726.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T10:16:00",
+        "new_time": "2020-03-06T10:16:00",
+        "old_price": 9.679669999999998,
+        "new_price": 9.679669999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002439.SZ",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T09:49:00",
+        "new_time": "2020-05-20T09:49:00",
+        "old_price": 43.04299999999999,
+        "new_price": 43.04299999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600426.SH",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T10:29:00",
+        "new_time": "2020-05-20T10:29:00",
+        "old_price": 18.45844,
+        "new_price": 18.45844,
+        "price_difference_pct": 0.0
+      }
+    ]
+  },
+  "Q_1.5": {
+    "same_symbol_day_matches": 38,
+    "cheaper": 0,
+    "more_expensive": 0,
+    "mean_price_difference_pct": 0.0,
+    "matches": [
+      {
+        "symbol": "601009.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 9.624415,
+        "new_price": 9.624415,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 10.79617,
+        "new_price": 10.79617,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:46:00",
+        "old_price": 8.482705000000001,
+        "new_price": 8.482705000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601318.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 66.01888000000001,
+        "new_price": 66.01888000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600030.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 20.019985,
+        "new_price": 20.019985,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000776.SZ",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 14.822200000000002,
+        "new_price": 14.822200000000002,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600326.SH",
+        "date": "2019-03-01",
+        "old_time": "2019-03-01T09:46:00",
+        "new_time": "2019-03-01T09:46:00",
+        "old_price": 8.082105,
+        "new_price": 8.082105,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600160.SH",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 8.502735000000001,
+        "new_price": 8.502735000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002242.SZ",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 21.59234,
+        "new_price": 21.59234,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600256.SH",
+        "date": "2019-03-19",
+        "old_time": "2019-03-19T09:46:00",
+        "new_time": "2019-03-19T09:46:00",
+        "old_price": 4.536795000000001,
+        "new_price": 4.536795000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600036.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 34.842185,
+        "new_price": 34.842185,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600887.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 30.2453,
+        "new_price": 30.2453,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600886.SH",
+        "date": "2019-04-04",
+        "old_time": "2019-04-04T09:55:00",
+        "new_time": "2019-04-04T09:55:00",
+        "old_price": 8.69302,
+        "new_price": 8.69302,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600050.SH",
+        "date": "2019-04-22",
+        "old_time": "2019-04-22T09:48:00",
+        "new_time": "2019-04-22T09:48:00",
+        "old_price": 7.1907700000000006,
+        "new_price": 7.1907700000000006,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601238.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 12.328465000000001,
+        "new_price": 12.328465000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000708.SZ",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 15.673475000000002,
+        "new_price": 15.673475000000002,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600869.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:52:00",
+        "new_time": "2019-09-09T09:52:00",
+        "old_price": 4.9474100000000005,
+        "new_price": 4.9474100000000005,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:46:00",
+        "old_price": 3.36504,
+        "new_price": 3.36504,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600583.SH",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T10:04:00",
+        "new_time": "2019-10-15T10:04:00",
+        "old_price": 6.009,
+        "new_price": 6.009,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T09:46:00",
+        "old_price": 4.476705,
+        "new_price": 4.476705,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:49:00",
+        "old_price": 3.2448600000000005,
+        "new_price": 3.2448600000000005,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600926.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T10:31:00",
+        "new_time": "2019-10-29T10:31:00",
+        "old_price": 9.03353,
+        "new_price": 9.03353,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 18.24733,
+        "new_price": 18.24733,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 11.316950000000002,
+        "new_price": 11.316950000000002,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002047.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 5.74861,
+        "new_price": 5.74861,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 18.80817,
+        "new_price": 18.80817,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002507.SZ",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 25.61837,
+        "new_price": 25.61837,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601198.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 12.208285,
+        "new_price": 12.208285,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 5.24786,
+        "new_price": 5.24786,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 6.479705,
+        "new_price": 6.479705,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002317.SZ",
+        "date": "2019-12-25",
+        "old_time": "2019-12-25T09:46:00",
+        "new_time": "2019-12-25T09:46:00",
+        "old_price": 10.756110000000001,
+        "new_price": 10.756110000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601828.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:50:00",
+        "new_time": "2020-01-20T09:50:00",
+        "old_price": 11.967925,
+        "new_price": 11.967925,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600233.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:54:00",
+        "new_time": "2020-01-20T09:54:00",
+        "old_price": 13.46016,
+        "new_price": 13.46016,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000028.SZ",
+        "date": "2020-01-23",
+        "old_time": "2020-01-23T09:46:00",
+        "new_time": "2020-01-23T09:46:00",
+        "old_price": 51.4771,
+        "new_price": 51.4771,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:54:00",
+        "old_price": 12.45866,
+        "new_price": 12.45866,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600873.SH",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:55:00",
+        "new_time": "2020-03-06T09:55:00",
+        "old_price": 4.977455,
+        "new_price": 4.977455,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002439.SZ",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T09:49:00",
+        "new_time": "2020-05-20T09:49:00",
+        "old_price": 43.0645,
+        "new_price": 43.0645,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600426.SH",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T10:29:00",
+        "new_time": "2020-05-20T10:29:00",
+        "old_price": 18.467660000000002,
+        "new_price": 18.467660000000002,
+        "price_difference_pct": 0.0
+      }
+    ]
+  },
+  "PQ_1.0": {
+    "same_symbol_day_matches": 33,
+    "cheaper": 0,
+    "more_expensive": 0,
+    "mean_price_difference_pct": 0.0,
+    "matches": [
+      {
+        "symbol": "601009.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 9.619609999999998,
+        "new_price": 9.619609999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 10.790779999999998,
+        "new_price": 10.790779999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:46:00",
+        "old_price": 8.47847,
+        "new_price": 8.47847,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601318.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 65.98592,
+        "new_price": 65.98592,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600030.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 20.009989999999995,
+        "new_price": 20.009989999999995,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600585.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 35.37534,
+        "new_price": 35.37534,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600160.SH",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 8.498489999999999,
+        "new_price": 8.498489999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002242.SZ",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 21.581559999999996,
+        "new_price": 21.581559999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600036.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 34.82478999999999,
+        "new_price": 34.82478999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600887.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 30.230199999999996,
+        "new_price": 30.230199999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601238.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 12.32231,
+        "new_price": 12.32231,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000708.SZ",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 15.66565,
+        "new_price": 15.66565,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600869.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:52:00",
+        "new_time": "2019-09-09T09:52:00",
+        "old_price": 4.94494,
+        "new_price": 4.94494,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:46:00",
+        "old_price": 3.3633599999999997,
+        "new_price": 3.3633599999999997,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600583.SH",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T10:04:00",
+        "new_time": "2019-10-15T10:04:00",
+        "old_price": 6.005999999999999,
+        "new_price": 6.005999999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T09:46:00",
+        "old_price": 4.474469999999999,
+        "new_price": 4.474469999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:49:00",
+        "old_price": 3.2432399999999997,
+        "new_price": 3.2432399999999997,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 18.23822,
+        "new_price": 18.23822,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 11.3113,
+        "new_price": 11.3113,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002047.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 5.74574,
+        "new_price": 5.74574,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 18.79878,
+        "new_price": 18.79878,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002507.SZ",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 25.605579999999996,
+        "new_price": 25.605579999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600993.SH",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:54:00",
+        "new_time": "2019-11-08T09:54:00",
+        "old_price": 19.599579999999996,
+        "new_price": 19.599579999999996,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601198.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 12.202189999999998,
+        "new_price": 12.202189999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 5.24524,
+        "new_price": 5.24524,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 6.476469999999999,
+        "new_price": 6.476469999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002317.SZ",
+        "date": "2019-12-25",
+        "old_time": "2019-12-25T09:46:00",
+        "new_time": "2019-12-25T09:46:00",
+        "old_price": 10.750739999999999,
+        "new_price": 10.750739999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601828.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:50:00",
+        "new_time": "2020-01-20T09:50:00",
+        "old_price": 11.961949999999998,
+        "new_price": 11.961949999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600233.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:54:00",
+        "new_time": "2020-01-20T09:54:00",
+        "old_price": 13.453439999999999,
+        "new_price": 13.453439999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:54:00",
+        "old_price": 12.452439999999998,
+        "new_price": 12.452439999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600873.SH",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:55:00",
+        "new_time": "2020-03-06T09:55:00",
+        "old_price": 4.974969999999999,
+        "new_price": 4.974969999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002439.SZ",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T09:49:00",
+        "new_time": "2020-05-20T09:49:00",
+        "old_price": 43.04299999999999,
+        "new_price": 43.04299999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600426.SH",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T10:29:00",
+        "new_time": "2020-05-20T10:29:00",
+        "old_price": 18.45844,
+        "new_price": 18.45844,
+        "price_difference_pct": 0.0
+      }
+    ]
+  },
+  "PQ_1.5": {
+    "same_symbol_day_matches": 34,
+    "cheaper": 0,
+    "more_expensive": 0,
+    "mean_price_difference_pct": 0.0,
+    "matches": [
+      {
+        "symbol": "601009.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 9.624415,
+        "new_price": 9.624415,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T09:46:00",
+        "old_price": 10.79617,
+        "new_price": 10.79617,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:46:00",
+        "old_price": 8.482705000000001,
+        "new_price": 8.482705000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601318.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 66.01888000000001,
+        "new_price": 66.01888000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600030.SH",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 20.019985,
+        "new_price": 20.019985,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000776.SZ",
+        "date": "2019-02-19",
+        "old_time": "2019-02-19T09:46:00",
+        "new_time": "2019-02-19T09:46:00",
+        "old_price": 14.822200000000002,
+        "new_price": 14.822200000000002,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600160.SH",
+        "date": "2019-03-12",
+        "old_time": "2019-03-12T09:46:00",
+        "new_time": "2019-03-12T09:46:00",
+        "old_price": 8.502735000000001,
+        "new_price": 8.502735000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600036.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 34.842185,
+        "new_price": 34.842185,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600887.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:46:00",
+        "old_price": 30.2453,
+        "new_price": 30.2453,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600886.SH",
+        "date": "2019-04-04",
+        "old_time": "2019-04-04T09:55:00",
+        "new_time": "2019-04-04T09:55:00",
+        "old_price": 8.69302,
+        "new_price": 8.69302,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600050.SH",
+        "date": "2019-04-22",
+        "old_time": "2019-04-22T09:48:00",
+        "new_time": "2019-04-22T09:48:00",
+        "old_price": 7.1907700000000006,
+        "new_price": 7.1907700000000006,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601238.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 12.328465000000001,
+        "new_price": 12.328465000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000708.SZ",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:46:00",
+        "new_time": "2019-09-09T09:46:00",
+        "old_price": 15.673475000000002,
+        "new_price": 15.673475000000002,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600869.SH",
+        "date": "2019-09-09",
+        "old_time": "2019-09-09T09:52:00",
+        "new_time": "2019-09-09T09:52:00",
+        "old_price": 4.9474100000000005,
+        "new_price": 4.9474100000000005,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:46:00",
+        "old_price": 3.36504,
+        "new_price": 3.36504,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600583.SH",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T10:04:00",
+        "new_time": "2019-10-15T10:04:00",
+        "old_price": 6.009,
+        "new_price": 6.009,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T09:46:00",
+        "old_price": 4.476705,
+        "new_price": 4.476705,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:49:00",
+        "old_price": 3.2448600000000005,
+        "new_price": 3.2448600000000005,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600926.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T10:31:00",
+        "new_time": "2019-10-29T10:31:00",
+        "old_price": 9.03353,
+        "new_price": 9.03353,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 18.24733,
+        "new_price": 18.24733,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 11.316950000000002,
+        "new_price": 11.316950000000002,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002047.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T09:46:00",
+        "old_price": 5.74861,
+        "new_price": 5.74861,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 18.80817,
+        "new_price": 18.80817,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002507.SZ",
+        "date": "2019-11-08",
+        "old_time": "2019-11-08T09:46:00",
+        "new_time": "2019-11-08T09:46:00",
+        "old_price": 25.61837,
+        "new_price": 25.61837,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601198.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 12.208285,
+        "new_price": 12.208285,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 5.24786,
+        "new_price": 5.24786,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:46:00",
+        "old_price": 6.479705,
+        "new_price": 6.479705,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002317.SZ",
+        "date": "2019-12-25",
+        "old_time": "2019-12-25T09:46:00",
+        "new_time": "2019-12-25T09:46:00",
+        "old_price": 10.756110000000001,
+        "new_price": 10.756110000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601828.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:50:00",
+        "new_time": "2020-01-20T09:50:00",
+        "old_price": 11.967925,
+        "new_price": 11.967925,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600233.SH",
+        "date": "2020-01-20",
+        "old_time": "2020-01-20T09:54:00",
+        "new_time": "2020-01-20T09:54:00",
+        "old_price": 13.46016,
+        "new_price": 13.46016,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:54:00",
+        "old_price": 12.45866,
+        "new_price": 12.45866,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600873.SH",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:55:00",
+        "new_time": "2020-03-06T09:55:00",
+        "old_price": 4.977455,
+        "new_price": 4.977455,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "002439.SZ",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T09:49:00",
+        "new_time": "2020-05-20T09:49:00",
+        "old_price": 43.0645,
+        "new_price": 43.0645,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600426.SH",
+        "date": "2020-05-20",
+        "old_time": "2020-05-20T10:29:00",
+        "new_time": "2020-05-20T10:29:00",
+        "old_price": 18.467660000000002,
+        "new_price": 18.467660000000002,
+        "price_difference_pct": 0.0
+      }
+    ]
+  },
+  "BPQ_1.0": {
+    "same_symbol_day_matches": 11,
+    "cheaper": 5,
+    "more_expensive": 1,
+    "mean_price_difference_pct": -0.21615923889823516,
+    "matches": [
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T10:00:00",
+        "old_price": 10.790779999999998,
+        "new_price": 10.790779999999998,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:49:00",
+        "old_price": 8.47847,
+        "new_price": 8.47847,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "601566.SH",
+        "date": "2019-04-01",
+        "old_time": "2019-04-01T09:46:00",
+        "new_time": "2019-04-01T09:49:00",
+        "old_price": 14.364349999999998,
+        "new_price": 14.334319999999998,
+        "price_difference_pct": -0.2090592334494823
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:50:00",
+        "old_price": 3.3633599999999997,
+        "new_price": 3.3733699999999995,
+        "price_difference_pct": 0.29761904761904656
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:51:00",
+        "old_price": 3.2432399999999997,
+        "new_price": 3.2432399999999997,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T10:22:00",
+        "old_price": 4.474469999999999,
+        "new_price": 4.4044,
+        "price_difference_pct": -1.5659955257270597
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T10:02:00",
+        "old_price": 18.23822,
+        "new_price": 18.20819,
+        "price_difference_pct": -0.16465422612513825
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T10:22:00",
+        "old_price": 11.3113,
+        "new_price": 11.271259999999998,
+        "price_difference_pct": -0.3539823008849696
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:47:00",
+        "old_price": 6.476469999999999,
+        "new_price": 6.476469999999999,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T10:03:00",
+        "old_price": 5.24524,
+        "new_price": 5.225219999999999,
+        "price_difference_pct": -0.3816793893129833
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:56:00",
+        "old_price": 12.452439999999998,
+        "new_price": 12.452439999999998,
+        "price_difference_pct": 0.0
+      }
+    ]
+  },
+  "BPQ_1.5": {
+    "same_symbol_day_matches": 10,
+    "cheaper": 4,
+    "more_expensive": 1,
+    "mean_price_difference_pct": -0.2168692394431082,
+    "matches": [
+      {
+        "symbol": "600398.SH",
+        "date": "2018-01-26",
+        "old_time": "2018-01-26T09:46:00",
+        "new_time": "2018-01-26T10:00:00",
+        "old_price": 10.79617,
+        "new_price": 10.79617,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000876.SZ",
+        "date": "2018-01-29",
+        "old_time": "2018-01-29T09:46:00",
+        "new_time": "2018-01-29T09:49:00",
+        "old_price": 8.482705000000001,
+        "new_price": 8.482705000000001,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000875.SZ",
+        "date": "2019-10-15",
+        "old_time": "2019-10-15T09:46:00",
+        "new_time": "2019-10-15T09:50:00",
+        "old_price": 3.36504,
+        "new_price": 3.375055,
+        "price_difference_pct": 0.29761904761904656
+      },
+      {
+        "symbol": "601333.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:49:00",
+        "new_time": "2019-10-29T09:51:00",
+        "old_price": 3.2448600000000005,
+        "new_price": 3.2448600000000005,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "600337.SH",
+        "date": "2019-10-29",
+        "old_time": "2019-10-29T09:46:00",
+        "new_time": "2019-10-29T10:22:00",
+        "old_price": 4.476705,
+        "new_price": 4.406600000000001,
+        "price_difference_pct": -1.5659955257270486
+      },
+      {
+        "symbol": "600690.SH",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T10:02:00",
+        "old_price": 18.24733,
+        "new_price": 18.217285000000004,
+        "price_difference_pct": -0.16465422612512715
+      },
+      {
+        "symbol": "000878.SZ",
+        "date": "2019-11-06",
+        "old_time": "2019-11-06T09:46:00",
+        "new_time": "2019-11-06T10:22:00",
+        "old_price": 11.316950000000002,
+        "new_price": 11.27689,
+        "price_difference_pct": -0.3539823008849696
+      },
+      {
+        "symbol": "601717.SH",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T09:47:00",
+        "old_price": 6.479705,
+        "new_price": 6.479705,
+        "price_difference_pct": 0.0
+      },
+      {
+        "symbol": "000807.SZ",
+        "date": "2019-12-20",
+        "old_time": "2019-12-20T09:46:00",
+        "new_time": "2019-12-20T10:03:00",
+        "old_price": 5.24786,
+        "new_price": 5.22783,
+        "price_difference_pct": -0.3816793893129833
+      },
+      {
+        "symbol": "002262.SZ",
+        "date": "2020-03-06",
+        "old_time": "2020-03-06T09:54:00",
+        "new_time": "2020-03-06T09:56:00",
+        "old_price": 12.45866,
+        "new_price": 12.45866,
+        "price_difference_pct": 0.0
+      }
+    ]
+  }
+}

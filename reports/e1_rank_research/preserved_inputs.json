@@ -1,0 +1,15 @@
+{
+  "previous_manifest_sha256": "54117e527c3be2740b6eabf4500df410dd0764bbad3056d121f947a826e07f63",
+  "previous_files_checked": 36,
+  "previous_mismatches": [],
+  "files_sha256": {
+    "src/simple_strategy_rules.py": "e2da727d438b06429d72047a64a9152f81a62aa249135bfe80d182877d8469aa",
+    "src/exit_research.py": "5ca64b7b057080218910eaaee739411e16cde13dbac82ca04e881c73ee92f34c",
+    "src/research_portfolio.py": "a5c20703f9d1df2cc5750c8abf362ce10847d7891d3287830c2819910f4bf91f",
+    "src/research_execution.py": "5d90f11b90e96b8b7bd277920ad01833f00db1628619c9ab037d162030c72d95",
+    "src/s2_strategy_rules.py": "f8fb89200c1a1e9ef07c33b2b749c7ad05e7986ab6ce3afc78c63b4c15159694",
+    "adapters/supermind_s1_minute_backtest.py": "c1e87739dcea419665650e4d714ea8d5a414a9ac849cd08d7596c30dcdfaf9e5",
+    "CURRENT_LIVE_PROTOCOL.md": "e66a67c3de0a24eaf2ad8e7959ce0f1f6cd9c1935ecdc1970b3aad139eddb2a9",
+    "config/s1_config.json": "946495c85d2493e9a1369a49574b280ee94c64f05639bd72de57097ec052f7c6"
+  }
+}

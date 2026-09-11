@@ -1,0 +1,8 @@
+{
+  "raw_sha256": "83eeaaec32310b17ff2197e490f10bc8488ef727b35fbf1dc5ef43625d32e279",
+  "normalized_sha256": "3204006f17c8a05563648126260bca6d194710906349069d64040de23dd37e30",
+  "duplicates": [],
+  "packets": 112,
+  "stock_days": 108,
+  "method": "Strip UI generic prefixes; remove exact packet-index duplicates; reject conflicts; validate packet hashes, request sets and daily/minute data"
+}

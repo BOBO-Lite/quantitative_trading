@@ -1,0 +1,15 @@
+{
+  "protocol_sha256": "e51946525db247af9b44facdddbdc967f627d209c3281f02800fc374c45f6c85",
+  "scales": {
+    "market": 0.0009290365709936635,
+    "momentum": 0.00037545208361393313
+  },
+  "continuous_months": 1188,
+  "training_months": 1068,
+  "post_publication_months": 108,
+  "scalar_reconstructed_returns": 2376,
+  "max_scalar_error": 8.326672684688674e-17,
+  "no_a_share_account": true,
+  "no_new_fh_variant": true,
+  "data_vintage": "202607 CRSP via French; downloaded 2026-09-10"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "mode": "E1",
+    "minute_points": 175200,
+    "fills_equal": true
+  },
+  {
+    "mode": "P",
+    "minute_points": 175200,
+    "fills_equal": true
+  }
+]

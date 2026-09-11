@@ -1,0 +1,294 @@
+{
+  "cash": [
+    {
+      "symbol": "000157.SZ",
+      "ex_date": "2018-08-24",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "record_date": "2018-08-23",
+      "pay_date": "2018-08-24",
+      "announcement_date": "2018-08-18"
+    },
+    {
+      "symbol": "000581.SZ",
+      "ex_date": "2018-07-18",
+      "cash_per_share": 1.2,
+      "shares_per_share": 0,
+      "record_date": "2018-07-17",
+      "pay_date": "2018-07-18",
+      "announcement_date": "2018-07-10"
+    },
+    {
+      "symbol": "000825.SZ",
+      "ex_date": "2018-07-10",
+      "cash_per_share": 0.243,
+      "shares_per_share": 0,
+      "record_date": "2018-07-09",
+      "pay_date": "2018-07-10",
+      "announcement_date": "2018-07-03"
+    },
+    {
+      "symbol": "000876.SZ",
+      "ex_date": "2018-07-13",
+      "cash_per_share": 0.15,
+      "shares_per_share": 0,
+      "record_date": "2018-07-12",
+      "pay_date": "2018-07-13",
+      "announcement_date": "2018-07-06"
+    },
+    {
+      "symbol": "002210.SZ",
+      "ex_date": "2018-07-11",
+      "cash_per_share": 0.035,
+      "shares_per_share": 0,
+      "record_date": "2018-07-10",
+      "pay_date": "2018-07-11",
+      "announcement_date": "2018-07-04"
+    },
+    {
+      "symbol": "002237.SZ",
+      "ex_date": "2018-07-05",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "record_date": "2018-07-04",
+      "pay_date": "2018-07-05",
+      "announcement_date": "2018-06-27"
+    },
+    {
+      "symbol": "002385.SZ",
+      "ex_date": "2018-05-07",
+      "cash_per_share": 0.08,
+      "shares_per_share": 0,
+      "record_date": "2018-05-04",
+      "pay_date": "2018-05-07",
+      "announcement_date": "2018-04-27"
+    },
+    {
+      "symbol": "002563.SZ",
+      "ex_date": "2018-05-25",
+      "cash_per_share": 0.25,
+      "shares_per_share": 0,
+      "record_date": "2018-05-24",
+      "pay_date": "2018-05-25",
+      "announcement_date": "2018-05-19"
+    },
+    {
+      "symbol": "002742.SZ",
+      "ex_date": "2018-05-11",
+      "cash_per_share": 0.07,
+      "shares_per_share": 0,
+      "record_date": "2018-05-10",
+      "pay_date": "2018-05-11",
+      "announcement_date": "2018-05-07"
+    },
+    {
+      "symbol": "600000.SH",
+      "ex_date": "2018-07-13",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "record_date": "2018-07-12",
+      "pay_date": "2018-07-13",
+      "announcement_date": "2018-07-06"
+    },
+    {
+      "symbol": "600104.SH",
+      "ex_date": "2018-07-17",
+      "cash_per_share": 1.83,
+      "shares_per_share": 0,
+      "record_date": "2018-07-16",
+      "pay_date": "2018-07-17",
+      "announcement_date": "2018-07-10"
+    },
+    {
+      "symbol": "600153.SH",
+      "ex_date": "2018-07-20",
+      "cash_per_share": 0.2,
+      "shares_per_share": 0,
+      "record_date": "2018-07-19",
+      "pay_date": "2018-07-20",
+      "announcement_date": "2018-07-16"
+    },
+    {
+      "symbol": "600177.SH",
+      "ex_date": "2018-06-07",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "record_date": "2018-06-06",
+      "pay_date": "2018-06-07",
+      "announcement_date": "2018-05-31"
+    },
+    {
+      "symbol": "600251.SH",
+      "ex_date": "2018-05-30",
+      "cash_per_share": 0.035,
+      "shares_per_share": 0,
+      "record_date": "2018-05-29",
+      "pay_date": "2018-05-30",
+      "announcement_date": "2018-05-23"
+    },
+    {
+      "symbol": "600308.SH",
+      "ex_date": "2018-06-22",
+      "cash_per_share": 0.174,
+      "shares_per_share": 0,
+      "record_date": "2018-06-21",
+      "pay_date": "2018-06-22",
+      "announcement_date": "2018-06-14"
+    },
+    {
+      "symbol": "600398.SH",
+      "ex_date": "2018-06-08",
+      "cash_per_share": 0.48,
+      "shares_per_share": 0,
+      "record_date": "2018-06-07",
+      "pay_date": "2018-06-08",
+      "announcement_date": "2018-06-02"
+    },
+    {
+      "symbol": "600489.SH",
+      "ex_date": "2018-08-08",
+      "cash_per_share": 0.03,
+      "shares_per_share": 0,
+      "record_date": "2018-08-07",
+      "pay_date": "2018-08-08",
+      "announcement_date": "2018-07-31"
+    },
+    {
+      "symbol": "600547.SH",
+      "ex_date": "2018-02-08",
+      "cash_per_share": 0.08,
+      "shares_per_share": 0,
+      "record_date": "2018-02-07",
+      "pay_date": "2018-02-08",
+      "announcement_date": "2018-02-02"
+    },
+    {
+      "symbol": "600547.SH",
+      "ex_date": "2018-05-25",
+      "cash_per_share": 0.04,
+      "shares_per_share": 0,
+      "record_date": "2018-05-24",
+      "pay_date": "2018-05-25",
+      "announcement_date": "2018-05-18"
+    },
+    {
+      "symbol": "600583.SH",
+      "ex_date": "2018-06-05",
+      "cash_per_share": 0.05,
+      "shares_per_share": 0,
+      "record_date": "2018-06-04",
+      "pay_date": "2018-06-05",
+      "announcement_date": "2018-05-30"
+    },
+    {
+      "symbol": "600757.SH",
+      "ex_date": "2018-05-22",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "record_date": "2018-05-21",
+      "pay_date": "2018-05-22",
+      "announcement_date": "2018-05-15"
+    },
+    {
+      "symbol": "601009.SH",
+      "ex_date": "2018-08-08",
+      "cash_per_share": 0.345,
+      "shares_per_share": 0,
+      "record_date": "2018-08-07",
+      "pay_date": "2018-08-08",
+      "announcement_date": "2018-07-31"
+    },
+    {
+      "symbol": "601117.SH",
+      "ex_date": "2018-06-27",
+      "cash_per_share": 0.095,
+      "shares_per_share": 0,
+      "record_date": "2018-06-26",
+      "pay_date": "2018-06-27",
+      "announcement_date": "2018-06-20"
+    },
+    {
+      "symbol": "601166.SH",
+      "ex_date": "2018-06-15",
+      "cash_per_share": 0.65,
+      "shares_per_share": 0,
+      "record_date": "2018-06-14",
+      "pay_date": "2018-06-15",
+      "announcement_date": "2018-06-08"
+    },
+    {
+      "symbol": "601168.SH",
+      "ex_date": "2018-05-17",
+      "cash_per_share": 0.1,
+      "shares_per_share": 0,
+      "record_date": "2018-05-16",
+      "pay_date": "2018-05-17",
+      "announcement_date": "2018-05-11"
+    },
+    {
+      "symbol": "601898.SH",
+      "ex_date": "2018-07-18",
+      "cash_per_share": 0.055,
+      "shares_per_share": 0,
+      "record_date": "2018-07-17",
+      "pay_date": "2018-07-18",
+      "announcement_date": "2018-07-12"
+    },
+    {
+      "symbol": "601997.SH",
+      "ex_date": "2018-07-10",
+      "cash_per_share": 0.33,
+      "shares_per_share": 0,
+      "record_date": "2018-07-09",
+      "pay_date": "2018-07-10",
+      "announcement_date": "2018-07-03"
+    },
+    {
+      "symbol": "603167.SH",
+      "ex_date": "2018-06-25",
+      "cash_per_share": 0.4,
+      "shares_per_share": 0,
+      "record_date": "2018-06-22",
+      "pay_date": "2018-06-25",
+      "announcement_date": "2018-06-19"
+    }
+  ],
+  "unsupported": [
+    {
+      "symbol": "000060.SZ",
+      "ex_date": "2018-05-16",
+      "shares_per_share": 0.49999925
+    },
+    {
+      "symbol": "000541.SZ",
+      "ex_date": "2018-05-11",
+      "shares_per_share": 0.09999989
+    },
+    {
+      "symbol": "000975.SZ",
+      "ex_date": "2018-06-01",
+      "shares_per_share": 0.39999944
+    },
+    {
+      "symbol": "600320.SH",
+      "ex_date": "2018-08-13",
+      "shares_per_share": 0.20000048
+    },
+    {
+      "symbol": "601000.SH",
+      "ex_date": "2018-05-17",
+      "shares_per_share": 0.3
+    },
+    {
+      "symbol": "601668.SH",
+      "ex_date": "2018-06-29",
+      "shares_per_share": 0.39999944
+    }
+  ],
+  "unresolved": [
+    {
+      "symbol": "600023.SH",
+      "error": "重复公司行动日期明细"
+    }
+  ]
+}

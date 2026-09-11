@@ -1,0 +1,92 @@
+[
+  {
+    "repo": "ricequant/rqalpha",
+    "checked_at": "2026-09-08T10:28:54.977087+00:00",
+    "html_url": "https://github.com/ricequant/rqalpha",
+    "description": "A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities",
+    "stargazers_count": 6756,
+    "pushed_at": "2026-09-08T09:04:54Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "readme_sha": "5f9c85faf1e9c6b046f91b619607ab11e4f1d013"
+  },
+  {
+    "repo": "vnpy/vnpy",
+    "checked_at": "2026-09-08T10:28:54.979161+00:00",
+    "html_url": "https://github.com/vnpy/vnpy",
+    "description": "基于Python的开源量化交易平台开发框架",
+    "stargazers_count": 45213,
+    "pushed_at": "2026-09-01T01:47:09Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "readme_sha": "60587b155161d4ed274b9116834c6248afab3476"
+  },
+  {
+    "repo": "microsoft/qlib",
+    "checked_at": "2026-09-08T10:28:54.979161+00:00",
+    "html_url": "https://github.com/microsoft/qlib",
+    "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+    "stargazers_count": 48402,
+    "pushed_at": "2026-09-02T18:23:05Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "readme_sha": "42c446e69e5ead8cb6aae2df145d5d24e5d78632"
+  },
+  {
+    "repo": "mementum/backtrader",
+    "checked_at": "2026-09-08T10:28:54.980174+00:00",
+    "html_url": "https://github.com/mementum/backtrader",
+    "description": "Python Backtesting library for trading strategies",
+    "stargazers_count": 23159,
+    "pushed_at": "2024-08-19T17:47:36Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "readme_sha": "56c664e45365dbd7e87b664d38a3c90e4831735d"
+  },
+  {
+    "repo": "akfamily/akshare",
+    "checked_at": "2026-09-08T10:28:54.980174+00:00",
+    "html_url": "https://github.com/akfamily/akshare",
+    "description": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库",
+    "stargazers_count": 22485,
+    "pushed_at": "2026-09-02T04:17:12Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "readme_sha": "cadb0430d4190dfd540c4b7a2f6abe650a4512ad"
+  }
+]

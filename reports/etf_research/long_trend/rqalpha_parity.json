@@ -1,0 +1,18 @@
+[
+  {
+    "cost": 1.0,
+    "status": "PASS_ETF_EXECUTION_ACCOUNT_PARITY",
+    "daily_comparisons": 2106,
+    "fills": 78,
+    "max_cash_equity_difference": 3.637978807091713e-12,
+    "scope": "相同订单意图，独立ETF成交及账户；每天三个真实分钟驱动，只核对日收盘账户，不是逐分钟全路径或独立选股验证"
+  },
+  {
+    "cost": 1.5,
+    "status": "PASS_ETF_EXECUTION_ACCOUNT_PARITY",
+    "daily_comparisons": 2106,
+    "fills": 78,
+    "max_cash_equity_difference": 3.637978807091713e-12,
+    "scope": "相同订单意图，独立ETF成交及账户；每天三个真实分钟驱动，只核对日收盘账户，不是逐分钟全路径或独立选股验证"
+  }
+]

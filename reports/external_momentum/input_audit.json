@@ -1,0 +1,29 @@
+{
+  "status": "PASS_EXTMOM_EXECUTION_INPUTS",
+  "symbols": 59,
+  "minutes": 42589,
+  "invalid_daily_not_imputed": [],
+  "cash_events": 144,
+  "unsupported_events": [
+    {
+      "symbol": "600195.SH",
+      "record_date": "2020-07-07",
+      "ex_date": "2020-07-08",
+      "kind": "stock_distribution_ratio_conflict",
+      "raw": 0.198889828,
+      "plan": 0.2
+    },
+    {
+      "symbol": "000563.SZ",
+      "record_date": "2018-07-16",
+      "ex_date": "2018-07-25",
+      "kind": "rights_issue",
+      "source": "https://vip.stock.finance.sina.com.cn/corp/go.php/vISSUE_ShareBonus/stockid/000563.phtml"
+    }
+  ],
+  "source_sha256": {
+    "data_export.txt": "cdc6d6084f9d11ead39b02c0d3e38d0fd4cda0cb8e40e5165c6f457973833bfe",
+    "data_export_02.txt": "848064e42bb5f6e6e1fca7356c3bec91bafe2cb6d6cf0c87534e6ca923cdbfda",
+    "data_export_03.txt": "8178eeeeb5d318c7ced9c1654dc2f2b2edb111a28cea44d04982a45d0c7734d4"
+  }
+}

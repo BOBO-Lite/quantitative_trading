@@ -1,0 +1,30 @@
+[
+  {
+    "cost": 1.0,
+    "n": 5,
+    "hold_better": 2,
+    "exit_better": 3,
+    "median_difference_pct": -4.240974874894335,
+    "symbols": [
+      "600025.SH",
+      "600030.SH",
+      "601198.SH",
+      "601318.SH",
+      "601828.SH"
+    ]
+  },
+  {
+    "cost": 1.5,
+    "n": 5,
+    "hold_better": 2,
+    "exit_better": 3,
+    "median_difference_pct": -4.128632148492343,
+    "symbols": [
+      "600025.SH",
+      "600030.SH",
+      "601198.SH",
+      "601318.SH",
+      "601828.SH"
+    ]
+  }
+]

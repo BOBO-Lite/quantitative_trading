@@ -1,0 +1,5262 @@
+{
+  "days": 876,
+  "rows": 210240,
+  "checks": [
+    {
+      "symbol": "601808.SH",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": -0.09999999403953552
+    },
+    {
+      "symbol": "600863.SH",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4300000071525574
+    },
+    {
+      "symbol": "002822.SZ",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603059.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4399999976158142
+    },
+    {
+      "symbol": "601918.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1599999964237213
+    },
+    {
+      "symbol": "601898.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1899999976158142
+    },
+    {
+      "symbol": "601699.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3400000333786011
+    },
+    {
+      "symbol": "601666.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.46000000834465027
+    },
+    {
+      "symbol": "600863.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.19999998807907104
+    },
+    {
+      "symbol": "600508.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.17000000178813934
+    },
+    {
+      "symbol": "600395.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.21000000834465027
+    },
+    {
+      "symbol": "600348.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.10000002384185791
+    },
+    {
+      "symbol": "600256.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3799999952316284
+    },
+    {
+      "symbol": "600050.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.18000030517578125
+    },
+    {
+      "symbol": "002757.SZ",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002756.SZ",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002706.SZ",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000541.SZ",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603890.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3999999985098839
+    },
+    {
+      "symbol": "601101.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3700000047683716
+    },
+    {
+      "symbol": "601012.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.10000002384185791
+    },
+    {
+      "symbol": "600168.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.42000000178813934
+    },
+    {
+      "symbol": "002757.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002739.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002536.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002132.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000651.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000589.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000544.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601988.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2200000286102295
+    },
+    {
+      "symbol": "601939.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "601918.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.25
+    },
+    {
+      "symbol": "601898.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.09999999403953552
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.48000001907348633
+    },
+    {
+      "symbol": "601012.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4200000762939453
+    },
+    {
+      "symbol": "600897.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4399999976158142
+    },
+    {
+      "symbol": "600277.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2800000011920929
+    },
+    {
+      "symbol": "600057.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.25999999046325684
+    },
+    {
+      "symbol": "002706.SZ",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002536.SZ",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000667.SZ",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000552.SZ",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603693.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.25999999046325684
+    },
+    {
+      "symbol": "603680.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.14000000059604645
+    },
+    {
+      "symbol": "601998.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.23000001907348633
+    },
+    {
+      "symbol": "601988.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.08000004291534424
+    },
+    {
+      "symbol": "601939.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3399999141693115
+    },
+    {
+      "symbol": "601838.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12999999523162842
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4299999475479126
+    },
+    {
+      "symbol": "601668.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.43000006675720215
+    },
+    {
+      "symbol": "601601.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.440000057220459
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601328.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.16999995708465576
+    },
+    {
+      "symbol": "601288.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.23000001907348633
+    },
+    {
+      "symbol": "601229.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4300000071525574
+    },
+    {
+      "symbol": "601169.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3700000047683716
+    },
+    {
+      "symbol": "601009.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.21000003814697266
+    },
+    {
+      "symbol": "600926.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.36000001430511475
+    },
+    {
+      "symbol": "600919.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.050000011920928955
+    },
+    {
+      "symbol": "600168.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.47999999672174454
+    },
+    {
+      "symbol": "600036.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.49000000953674316
+    },
+    {
+      "symbol": "600016.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.07999992370605469
+    },
+    {
+      "symbol": "600015.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.15999996662139893
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.33000004291534424
+    },
+    {
+      "symbol": "002203.SZ",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000983.SZ",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000885.SZ",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000651.SZ",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000001.SZ",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002101.SZ",
+      "date": "2019-04-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603596.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4399999976158142
+    },
+    {
+      "symbol": "601991.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4399999976158142
+    },
+    {
+      "symbol": "600886.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3199999928474426
+    },
+    {
+      "symbol": "600795.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3100000023841858
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3400000035762787
+    },
+    {
+      "symbol": "600483.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4599999934434891
+    },
+    {
+      "symbol": "600467.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.29999999701976776
+    },
+    {
+      "symbol": "600021.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": -0.25999999046325684
+    },
+    {
+      "symbol": "002486.SZ",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002283.SZ",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "600897.SH",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": -0.11999999731779099
+    },
+    {
+      "symbol": "600795.SH",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.10000002384185791
+    },
+    {
+      "symbol": "600587.SH",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2800000011920929
+    },
+    {
+      "symbol": "600483.SH",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4099999964237213
+    },
+    {
+      "symbol": "600089.SH",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2200000286102295
+    },
+    {
+      "symbol": "603839.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12999999523162842
+    },
+    {
+      "symbol": "603368.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.24000000953674316
+    },
+    {
+      "symbol": "601727.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.07999998331069946
+    },
+    {
+      "symbol": "601668.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4500000476837158
+    },
+    {
+      "symbol": "601069.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.20999997854232788
+    },
+    {
+      "symbol": "600988.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3199999928474426
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.26000022888183594
+    },
+    {
+      "symbol": "600750.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "600713.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.030000001192092896
+    },
+    {
+      "symbol": "600660.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.46000003814697266
+    },
+    {
+      "symbol": "600522.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.440000057220459
+    },
+    {
+      "symbol": "600519.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.039999961853027344
+    },
+    {
+      "symbol": "600489.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.029999971389770508
+    },
+    {
+      "symbol": "600277.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.17000001668930054
+    },
+    {
+      "symbol": "600269.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.23999999463558197
+    },
+    {
+      "symbol": "600103.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3400000035762787
+    },
+    {
+      "symbol": "600085.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.32999998331069946
+    },
+    {
+      "symbol": "600059.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.06999999284744263
+    },
+    {
+      "symbol": "002882.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002521.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002277.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002132.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002033.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000952.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000848.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000598.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000541.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000538.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000042.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601669.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999980926513672
+    },
+    {
+      "symbol": "601668.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.039999961853027344
+    },
+    {
+      "symbol": "601390.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.15999996662139893
+    },
+    {
+      "symbol": "600917.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.35999999940395355
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.07999992370605469
+    },
+    {
+      "symbol": "600528.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2999999523162842
+    },
+    {
+      "symbol": "600085.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.029999971389770508
+    },
+    {
+      "symbol": "002701.SZ",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002237.SZ",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000598.SZ",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000538.SZ",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000402.SZ",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000042.SZ",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603810.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4000000059604645
+    },
+    {
+      "symbol": "603808.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.10999999940395355
+    },
+    {
+      "symbol": "603458.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.24000000953674316
+    },
+    {
+      "symbol": "603368.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.06999999284744263
+    },
+    {
+      "symbol": "603035.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.03999999910593033
+    },
+    {
+      "symbol": "601998.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3399999737739563
+    },
+    {
+      "symbol": "601997.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.13999998569488525
+    },
+    {
+      "symbol": "601988.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.26999998092651367
+    },
+    {
+      "symbol": "601958.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3400000035762787
+    },
+    {
+      "symbol": "601899.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3500000238418579
+    },
+    {
+      "symbol": "601838.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.33000001311302185
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3799999952316284
+    },
+    {
+      "symbol": "601808.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.23000000417232513
+    },
+    {
+      "symbol": "601699.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3500000238418579
+    },
+    {
+      "symbol": "601669.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3500000238418579
+    },
+    {
+      "symbol": "601668.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.09999990463256836
+    },
+    {
+      "symbol": "601666.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.49000000953674316
+    },
+    {
+      "symbol": "601636.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.24000000953674316
+    },
+    {
+      "symbol": "601601.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.13999998569488525
+    },
+    {
+      "symbol": "601600.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.12000000476837158
+    },
+    {
+      "symbol": "601579.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.040000006556510925
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.09999990463256836
+    },
+    {
+      "symbol": "601229.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.36000001430511475
+    },
+    {
+      "symbol": "601169.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.08000004291534424
+    },
+    {
+      "symbol": "601168.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.009999990463256836
+    },
+    {
+      "symbol": "601166.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.029999971389770508
+    },
+    {
+      "symbol": "601101.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.33000001311302185
+    },
+    {
+      "symbol": "601015.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.08000001311302185
+    },
+    {
+      "symbol": "601009.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4299999475479126
+    },
+    {
+      "symbol": "601005.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.36000001430511475
+    },
+    {
+      "symbol": "601001.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.36000001430511475
+    },
+    {
+      "symbol": "600997.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1899999976158142
+    },
+    {
+      "symbol": "600926.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.18000000715255737
+    },
+    {
+      "symbol": "600919.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.49000000953674316
+    },
+    {
+      "symbol": "600886.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3400000035762787
+    },
+    {
+      "symbol": "600808.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.42000001668930054
+    },
+    {
+      "symbol": "600782.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.25999999046325684
+    },
+    {
+      "symbol": "600713.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.020000003278255463
+    },
+    {
+      "symbol": "600688.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.22999998927116394
+    },
+    {
+      "symbol": "600668.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4399999976158142
+    },
+    {
+      "symbol": "600612.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.10999999940395355
+    },
+    {
+      "symbol": "600585.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.07999992370605469
+    },
+    {
+      "symbol": "600569.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3999999761581421
+    },
+    {
+      "symbol": "600567.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1899999976158142
+    },
+    {
+      "symbol": "600548.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.39000000059604645
+    },
+    {
+      "symbol": "600519.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.010000228881835938
+    },
+    {
+      "symbol": "600508.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2199999988079071
+    },
+    {
+      "symbol": "600507.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3700000047683716
+    },
+    {
+      "symbol": "600395.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3400000035762787
+    },
+    {
+      "symbol": "600362.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.30000001192092896
+    },
+    {
+      "symbol": "600348.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4300000071525574
+    },
+    {
+      "symbol": "600332.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.46000003814697266
+    },
+    {
+      "symbol": "600307.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.33000001311302185
+    },
+    {
+      "symbol": "600295.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999995827674866
+    },
+    {
+      "symbol": "600282.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4399999976158142
+    },
+    {
+      "symbol": "600277.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.42000001668930054
+    },
+    {
+      "symbol": "600256.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.10000002384185791
+    },
+    {
+      "symbol": "600188.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3700000047683716
+    },
+    {
+      "symbol": "600176.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12999999523162842
+    },
+    {
+      "symbol": "600126.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3199999928474426
+    },
+    {
+      "symbol": "600123.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.12999999523162842
+    },
+    {
+      "symbol": "600085.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.20000004768371582
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.38999998569488525
+    },
+    {
+      "symbol": "600059.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.32999999821186066
+    },
+    {
+      "symbol": "600022.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1899999976158142
+    },
+    {
+      "symbol": "600019.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.20000004768371582
+    },
+    {
+      "symbol": "600016.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12000000476837158
+    },
+    {
+      "symbol": "600015.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.10000002384185791
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3799999952316284
+    },
+    {
+      "symbol": "002756.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002697.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002254.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002128.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000983.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000959.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000952.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000898.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000825.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000778.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000709.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000685.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000598.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000552.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000429.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000417.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000333.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000001.SZ",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603810.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.25999999046325684
+    },
+    {
+      "symbol": "603179.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "603035.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.26000000536441803
+    },
+    {
+      "symbol": "601939.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.07999992370605469
+    },
+    {
+      "symbol": "601669.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1799999475479126
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.11999988555908203
+    },
+    {
+      "symbol": "601225.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.04999995231628418
+    },
+    {
+      "symbol": "601186.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.5
+    },
+    {
+      "symbol": "601009.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.08999991416931152
+    },
+    {
+      "symbol": "600782.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.16000008583068848
+    },
+    {
+      "symbol": "600753.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.09999999403953552
+    },
+    {
+      "symbol": "600750.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.24000000953674316
+    },
+    {
+      "symbol": "600688.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.5
+    },
+    {
+      "symbol": "600660.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3400000333786011
+    },
+    {
+      "symbol": "600567.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3999999761581421
+    },
+    {
+      "symbol": "600508.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1599999964237213
+    },
+    {
+      "symbol": "600507.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.039999961853027344
+    },
+    {
+      "symbol": "600500.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.25
+    },
+    {
+      "symbol": "600398.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.18000000715255737
+    },
+    {
+      "symbol": "600389.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.19999999925494194
+    },
+    {
+      "symbol": "600295.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.12999999523162842
+    },
+    {
+      "symbol": "600269.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.28999999165534973
+    },
+    {
+      "symbol": "600188.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1499999761581421
+    },
+    {
+      "symbol": "600176.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.059999942779541016
+    },
+    {
+      "symbol": "600123.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.440000057220459
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3799999952316284
+    },
+    {
+      "symbol": "600059.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1899999976158142
+    },
+    {
+      "symbol": "600025.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.13999998569488525
+    },
+    {
+      "symbol": "600015.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.24000000953674316
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.48000001907348633
+    },
+    {
+      "symbol": "002588.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002541.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002254.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000983.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000952.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000685.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000541.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000402.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000333.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000001.SZ",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603458.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.03999999165534973
+    },
+    {
+      "symbol": "601933.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.11000001430511475
+    },
+    {
+      "symbol": "601808.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.47999998927116394
+    },
+    {
+      "symbol": "601669.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12000000476837158
+    },
+    {
+      "symbol": "601225.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.06999993324279785
+    },
+    {
+      "symbol": "601186.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.48000001907348633
+    },
+    {
+      "symbol": "600886.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.32999998331069946
+    },
+    {
+      "symbol": "600790.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.18000000715255737
+    },
+    {
+      "symbol": "600567.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.10000002384185791
+    },
+    {
+      "symbol": "600500.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.06000000238418579
+    },
+    {
+      "symbol": "600188.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3799999952316284
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2999999523162842
+    },
+    {
+      "symbol": "600059.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1899999976158142
+    },
+    {
+      "symbol": "600025.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4100000262260437
+    },
+    {
+      "symbol": "002254.SZ",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000778.SZ",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000729.SZ",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000402.SZ",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000069.SZ",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000039.SZ",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603458.SH",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": -0.09999999403953552
+    },
+    {
+      "symbol": "601966.SH",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2199999988079071
+    },
+    {
+      "symbol": "601958.SH",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4300000071525574
+    },
+    {
+      "symbol": "601933.SH",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4299999475479126
+    },
+    {
+      "symbol": "600668.SH",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4300000071525574
+    },
+    {
+      "symbol": "600188.SH",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2200000286102295
+    },
+    {
+      "symbol": "002506.SZ",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002254.SZ",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002203.SZ",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002024.SZ",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": -4.76837158203125e-07
+    },
+    {
+      "symbol": "000778.SZ",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000726.SZ",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000525.SZ",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000402.SZ",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000069.SZ",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603968.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3400000035762787
+    },
+    {
+      "symbol": "603639.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999995827674866
+    },
+    {
+      "symbol": "603368.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3400000035762787
+    },
+    {
+      "symbol": "603278.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.04999999701976776
+    },
+    {
+      "symbol": "603035.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.17000000178813934
+    },
+    {
+      "symbol": "601966.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3500000238418579
+    },
+    {
+      "symbol": "601808.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.09999999403953552
+    },
+    {
+      "symbol": "601566.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.369999997317791
+    },
+    {
+      "symbol": "601225.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.12000000476837158
+    },
+    {
+      "symbol": "601009.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.08000004291534424
+    },
+    {
+      "symbol": "601001.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3400000035762787
+    },
+    {
+      "symbol": "600897.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.369999997317791
+    },
+    {
+      "symbol": "600859.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.16999998688697815
+    },
+    {
+      "symbol": "600835.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3799999952316284
+    },
+    {
+      "symbol": "600790.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3199999928474426
+    },
+    {
+      "symbol": "600713.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12999999523162842
+    },
+    {
+      "symbol": "600585.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.07999992370605469
+    },
+    {
+      "symbol": "600548.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.04999999701976776
+    },
+    {
+      "symbol": "600348.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.41999998688697815
+    },
+    {
+      "symbol": "600327.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.47999999672174454
+    },
+    {
+      "symbol": "600188.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.19999998807907104
+    },
+    {
+      "symbol": "600161.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1899999976158142
+    },
+    {
+      "symbol": "600123.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.24000000953674316
+    },
+    {
+      "symbol": "600059.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.35999999940395355
+    },
+    {
+      "symbol": "600036.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3000001907348633
+    },
+    {
+      "symbol": "002697.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002506.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002352.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002233.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002203.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002128.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002024.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002003.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000418.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000403.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000402.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000333.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000069.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000039.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000001.SZ",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "603639.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.36000001430511475
+    },
+    {
+      "symbol": "601966.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.41999998688697815
+    },
+    {
+      "symbol": "601888.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "601808.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.030000001192092896
+    },
+    {
+      "symbol": "601566.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1899999976158142
+    },
+    {
+      "symbol": "601318.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.10000038146972656
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.48000001907348633
+    },
+    {
+      "symbol": "600859.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.32999998331069946
+    },
+    {
+      "symbol": "600519.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4399995803833008
+    },
+    {
+      "symbol": "600461.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.06000000238418579
+    },
+    {
+      "symbol": "600276.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": 0.07999992370605469
+    },
+    {
+      "symbol": "600161.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.30000001192092896
+    },
+    {
+      "symbol": "600083.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.13999998569488525
+    },
+    {
+      "symbol": "600036.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.21000003814697266
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3799999952316284
+    },
+    {
+      "symbol": "002697.SZ",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002541.SZ",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "002203.SZ",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000402.SZ",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000069.SZ",
+      "date": "2019-04-01",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": -0.09999990463256836
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": -0.11000001430511475
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.16999995708465576
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2999999523162842
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3700000047683716
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1700000762939453
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": -0.059999942779541016
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3299999237060547
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4299999475479126
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.25999999046325684
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999980926513672
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.039999961853027344
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": -0.0700000524520874
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12000012397766113
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": -0.07999998331069946
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4299999475479126
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3700000047683716
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.48000001907348633
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2799999713897705
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": -0.21000003814697266
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4399999976158142
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.07999998331069946
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.43000006675720215
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": -0.23000001907348633
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.38000011444091797
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.49000000953674316
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3399999141693115
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.09000003337860107
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.38999998569488525
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.42000001668930054
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": 0.09000003337860107
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3999999761581421
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.18000006675720215
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4599999785423279
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3399999141693115
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3199999928474426
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4100000858306885
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": 0.019999980926513672
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.25999999046325684
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1899999976158142
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.48000001907348633
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12999999523162842
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.06999993324279785
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.15999996662139893
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4200000762939453
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.060000061988830566
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.04999995231628418
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1799999475479126
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.49000000953674316
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4300000071525574
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.24000000953674316
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.17000001668930054
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": -0.19000005722045898
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": -0.33000004291534424
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": -0.09999990463256836
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": -0.24000000953674316
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.36999988555908203
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12999999523162842
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": -0.24000000953674316
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": -0.23000001907348633
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.13000011444091797
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": -0.10000002384185791
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": -0.36999988555908203
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3400000333786011
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2999999523162842
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.309999942779541
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.059999942779541016
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.059999942779541016
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4499998092651367
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.309999942779541
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.49000000953674316
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4099999666213989
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": 0.039999961853027344
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": 0.039999961853027344
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2199997901916504
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.15000009536743164
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3999999761581421
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": -0.38000011444091797
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.440000057220459
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": -0.440000057220459
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.41999995708465576
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2999999523162842
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3100000023841858
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.309999942779541
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.33000004291534424
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12999987602233887
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": -0.24000000953674316
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.24000000953674316
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.11000001430511475
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.25999999046325684
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.019999980926513672
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.09000003337860107
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.029999971389770508
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-16",
+      "volume_delta": 0.0,
+      "amount_delta": -0.07999992370605469
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.019999980926513672
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12000000476837158
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": -0.19000005722045898
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": -0.49000000953674316
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.06000000238418579
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.029999971389770508
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2200002670288086
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.23000001907348633
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1700000762939453
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.31999993324279785
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.04999995231628418
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1899999976158142
+    },
+    {
+      "symbol": "600887.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4200000762939453
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2019-04-02",
+      "volume_delta": 0.0,
+      "amount_delta": 0.20999997854232788
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.039999961853027344
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": -0.20999999344348907
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.039999961853027344
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": -0.11000001430511475
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4500000476837158
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.030000001192092896
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.16000008583068848
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": -0.12999999523162842
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.38999998569488525
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2800000011920929
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.24000000953674316
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.030000001192092896
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.059999942779541016
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3700000047683716
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1700000762939453
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": -0.13999998569488525
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2200000286102295
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.14000000059604645
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2200000286102295
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2800000011920929
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": -0.23000001907348633
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.059999942779541016
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3199999928474426
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": -0.1400001049041748
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1599999964237213
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.08999991416931152
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.42000001668930054
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4500000476837158
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.35999999940395355
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": -0.059999942779541016
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3400000035762787
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3400000333786011
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3400000035762787
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3200000524520874
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.24000000953674316
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2999999523162842
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3199999928474426
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4700000286102295
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4699999988079071
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.19000005722045898
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.23999999463558197
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": -0.38999998569488525
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": -0.23999999463558197
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.019999980926513672
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4500000476837158
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.18000000715255737
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.41999995708465576
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4699999988079071
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3500000238418579
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.23000001907348633
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3200000524520874
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.03999999165534973
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.06999993324279785
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.17999999225139618
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.25999999046325684
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4300000071525574
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.04999995231628418
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": -0.24000000953674316
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.15999996662139893
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.30000001192092896
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": -0.16999995708465576
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.25
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.039999961853027344
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": -0.21000000834465027
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.11000001430511475
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.15999996662139893
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.06999999284744263
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.16999995708465576
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4699999988079071
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": 0.009999990463256836
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": 0.33000001311302185
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.21000003814697266
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0899999737739563
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.060000061988830566
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.25999999046325684
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.18000006675720215
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.25999999046325684
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.019999980926513672
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.25999999046325684
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4100000858306885
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.18000000715255737
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.08999991416931152
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.06999999284744263
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3400000333786011
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": -0.23000001907348633
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.28999996185302734
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.07999998331069946
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.26999998092651367
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3799999952316284
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.09999990463256836
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.19999998807907104
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.13999998569488525
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.21000003814697266
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-16",
+      "volume_delta": 0.0,
+      "amount_delta": -0.42000001668930054
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": -0.38000011444091797
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4399999976158142
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.23000001907348633
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4399999976158142
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.20000004768371582
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.13999998569488525
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601398.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.34999990463256836
+    },
+    {
+      "symbol": "600068.SH",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4700000286102295
+    },
+    {
+      "symbol": "000937.SZ",
+      "date": "2019-04-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000423.SZ",
+      "date": "2019-04-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3500000014901161
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": -0.029999971389770508
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3999999985098839
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0700000524520874
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": -0.45000000298023224
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": -0.06000000238418579
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3100000023841858
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3700000047683716
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.020000003278255463
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1899999976158142
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": -0.06000000238418579
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4500000476837158
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": -0.01000000536441803
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.029999971389770508
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.20000000298023224
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.309999942779541
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.13000000268220901
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.009999990463256836
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.49000000208616257
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3500000238418579
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": -0.17999999970197678
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": -0.46000003814697266
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": -0.380000002682209
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.04999995231628418
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3400000035762787
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.08000004291534424
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": -0.20000000298023224
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.26999998092651367
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4299999997019768
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4100000262260437
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": -0.13000000268220901
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.30000001192092896
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4300000071525574
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": 0.06000000238418579
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.040000006556510925
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.23000001907348633
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2900000065565109
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4599999785423279
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": -0.32999999821186066
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": 0.18000000715255737
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.47999999672174454
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.17000001668930054
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": -0.29999999701976776
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3399999737739563
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": -0.07999999821186066
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": -0.15999996662139893
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": -0.21000000834465027
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3100000023841858
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.41999998688697815
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.21999996900558472
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.17000001668930054
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.07999998331069946
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3499999940395355
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.07999998331069946
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3199999928474426
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4399999976158142
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3500000014901161
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": -0.10000002384185791
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.18000000715255737
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.38999998569488525
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.07000000029802322
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3500000238418579
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": -0.24000000208616257
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": -0.11000001430511475
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4099999964237213
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.25999999046325684
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": -0.01000000536441803
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999980926513672
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4300000071525574
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3200000524520874
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.20000000298023224
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.5
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3499999940395355
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.04999995231628418
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": -0.030000001192092896
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999980926513672
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": -0.49000000953674316
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": -0.19000005722045898
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.10999999940395355
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.440000057220459
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": -0.02000001072883606
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3500000238418579
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.06999999284744263
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999980926513672
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3499999940395355
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2900000214576721
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.5
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.07999998331069946
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.1599999964237213
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": -0.029999971389770508
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.11000001430511475
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3500000238418579
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": -0.23999999463558197
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2799999713897705
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4699999988079071
+    },
+    {
+      "symbol": "600000.SH",
+      "date": "2019-04-18",
+      "volume_delta": 0.0,
+      "amount_delta": -0.18000000715255737
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2199999988079071
+    },
+    {
+      "symbol": "600704.SH",
+      "date": "2019-04-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3799999952316284
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.41999998688697815
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4599999785423279
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4399999976158142
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.23000001907348633
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.3500000238418579
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.26999998092651367
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": -0.19000005722045898
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.38999998569488525
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.09999999403953552
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-18",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.050000011920928955
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4399999976158142
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3199999928474426
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": -0.21000000834465027
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-12",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12000000476837158
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-11",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.21999996900558472
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.4000000059604645
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": 0.12999999523162842
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-05",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": -0.24000000953674316
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-04",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": -0.19999998807907104
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-06-03",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": -0.38999998569488525
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-31",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": -0.25999999046325684
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.3700000047683716
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999980926513672
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-28",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.050000011920928955
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-27",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4399999976158142
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": -0.11000001430511475
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-23",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.2800000011920929
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": -0.04000002145767212
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-21",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.13999998569488525
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-20",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4300000071525574
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-17",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.38999998569488525
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-16",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.36000001430511475
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-15",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2200000286102295
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-14",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-13",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": -0.13999998569488525
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-10",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": -0.0899999737739563
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-09",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.2799999713897705
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-08",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-07",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999980926513672
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-05-06",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.19999998807907104
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-30",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4700000286102295
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-29",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.28999996185302734
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-26",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999980926513672
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-25",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": -0.019999980926513672
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-24",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": -0.11000001430511475
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-23",
+      "volume_delta": 0.0,
+      "amount_delta": 2.9802322387695312e-08
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": -0.25999999046325684
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-22",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    },
+    {
+      "symbol": "601818.SH",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": -0.4700000286102295
+    },
+    {
+      "symbol": "000623.SZ",
+      "date": "2019-04-19",
+      "volume_delta": 0.0,
+      "amount_delta": 0.0
+    }
+  ]
+}

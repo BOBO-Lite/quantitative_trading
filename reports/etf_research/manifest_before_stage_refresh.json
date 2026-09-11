@@ -1,0 +1,19 @@
+{
+  "scope": "ETF1 research evidence, not deployment acceptance",
+  "sha256": {
+    "src/etf_dataset.py": "be5748a92c412f1ce9852108b4bfe32cd8de7beaa874317d6f5f6d8e0084a866",
+    "src/etf_replay.py": "dc47b4f21e450b05e4910401810687797fc3b48d3e9b5caff8a85a911761e422",
+    "src/validate_etf_rqalpha.py": "75554b0b865f68abf7494146fb9b9970fde9b846858b4bb0cd88a1de77482562",
+    "adapters/rqalpha_etf_mod.py": "7ca384694860b51134ec3b48bade231eb1e41162ce12bf1839eca35d77dfc5e9",
+    "tests/test_etf_research.py": "892cdef04b18d355677e379add18c66806aa3c354d4e1c2ff3566d2fa6440cdd",
+    "reports/etf_research/PROTOCOL.md": "14dd7cab8e4d20db9d8197c04b8f64c09c000d5d087d78009e5ef254ad99cc0b",
+    "reports/etf_research/SOURCES.md": "ed5a39715041caf19929c0e2d06d65df592c08acad74c9c4d1b376973eada383",
+    "reports/etf_research/TRAINING_RESULT.md": "b4526b34283d8b103301dae3f2312461718924e356073743c5f815cfba1e1617",
+    "reports/etf_research/data_audit.json": "d7b7f46dcfaa529de644de5cc225e4846c9c7c9dfe4432515552302ab21768ff",
+    "reports/etf_research/probe_export.txt": "d40bf8ad1e5c77093790a2d379a1a402d578ff46ecc066f6c27097e64663128b",
+    "reports/etf_research/minute_export.txt": "455cff6bd12133dc192b234ce09672f71fb1bc16a3ba7c7db7835ef21d38067a",
+    "reports/etf_research/cost1.0.json": "0cef5cca3c076a95983ae83189f197ca29f6af0dd5d6164ce0c98aba34000902",
+    "reports/etf_research/cost1.5.json": "0f60a39188a73beb39e467a7642ff0668a245d00c011fb3d083db1049dd3032c",
+    "reports/etf_research/rqalpha_parity.json": "df60c9bfeb9e845db7ef9975384ff33bf1dd44f4697c1609cce9f7ec1bbbe3e0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "report_id": "6aa0f481425f5900b6f9935b",
+  "status": "REJECTED_LOG_LIMIT",
+  "reason": "Platform output logs exceeded line limit; no complete export marker. Rerun unchanged rules by year.",
+  "performance": null
+}

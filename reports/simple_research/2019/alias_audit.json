@@ -1,0 +1,15 @@
+[
+  {
+    "date": "2019-03-13",
+    "old_symbol": "000043.SZ",
+    "canonical_symbol": "001914.SZ",
+    "announcement": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=5798742",
+    "raw_price_volume_amount_state_exact": true,
+    "rows": 240,
+    "provider_factor_delta": -0.004999999999999893,
+    "old_high_limit": 9.933,
+    "canonical_high_limit": 9.93,
+    "note": "原始分钟桥接后，以标准日线提供复权因子及涨跌停价；两者不是新生成价格",
+    "sha256": "3e7919de1509c035863f1adfec985b1a257b9b8d5ae1e898db26f7b63ae714ab"
+  }
+]

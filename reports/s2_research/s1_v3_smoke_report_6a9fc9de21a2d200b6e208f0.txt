@@ -1,0 +1,145 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+HI！
+mx_69lp3klgu
+全局搜索
+
+需要帮助？
+
+试试AI小助手吧
+
+< S1执行修正版_v3_研究验收
+返回策略目录
+返回策略编辑
+返回回测列表
+
+回测日期：2019-04-17 至 2019-04-30
+|
+资金：36,574.00
+|
+频率：分钟
+|
+总运行时长：126秒
+（完成）
+
+导出结果
+绩效分析
+开启模拟交易
+分享至社区
+收益概览
+交易明细
+历史持仓
+输出日志
+收益
+Alpha
+Beta
+Sharpe
+Sortino
+Information Ratio
+Volatility
+最大回撤
+
+2026-09-08 16:42:04 - INFO
+
+回测结束
+
+2019-04-30 15:30:00 - INFO
+
+DAY_END 2019-04-30 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-30 09:00:00 - INFO
+
+PRETRADE 20190430 gate=False universe=2857 eligible=SKIPPED candidates=0
+
+2019-04-29 15:30:00 - INFO
+
+DAY_END 2019-04-29 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-29 09:00:00 - INFO
+
+PRETRADE 20190429 gate=False universe=2857 eligible=SKIPPED candidates=0
+
+2019-04-26 15:30:00 - INFO
+
+DAY_END 2019-04-26 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-26 09:00:00 - INFO
+
+PRETRADE 20190426 gate=False universe=2856 eligible=SKIPPED candidates=0
+
+2019-04-25 15:30:00 - INFO
+
+DAY_END 2019-04-25 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-25 09:00:00 - INFO
+
+PRETRADE 20190425 gate=False universe=2856 eligible=SKIPPED candidates=0
+
+2019-04-24 15:30:00 - INFO
+
+DAY_END 2019-04-24 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-24 09:00:00 - INFO
+
+PRETRADE 20190424 gate=False universe=2856 eligible=SKIPPED candidates=0
+
+2019-04-23 15:30:00 - INFO
+
+DAY_END 2019-04-23 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-23 09:00:00 - INFO
+
+PRETRADE 20190423 gate=True universe=2811 eligible=2353 candidates=15
+
+2019-04-22 15:30:00 - INFO
+
+DAY_END 2019-04-22 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-22 09:00:00 - INFO
+
+PRETRADE 20190422 gate=True universe=2811 eligible=2362 candidates=33
+
+2019-04-19 15:30:00 - INFO
+
+DAY_END 2019-04-19 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-19 09:00:00 - INFO
+
+PRETRADE 20190419 gate=True universe=2811 eligible=2354 candidates=22
+
+2019-04-18 15:30:00 - INFO
+
+DAY_END 2019-04-18 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-18 09:00:00 - INFO
+
+PRETRADE 20190418 gate=True universe=2810 eligible=2358 candidates=41
+
+2019-04-17 15:30:00 - INFO
+
+DAY_END 2019-04-17 15:30:00 positions=0 pending_open_exit=[]
+
+2019-04-17 09:00:00 - INFO
+
+PRETRADE 20190417 gate=True universe=2810 eligible=2361 candidates=36
+
+2019-04-17 00:00:00 - WARN
+
+Platform stamp tax is engine-controlled; verify it against frozen sell tax 0.05%
+
+2019-04-17 00:00:00 - INFO
+
+S1.1-execution-audit-v3-research INIT; MINUTE BACKTEST ONLY; automatic live trading disabled
+
+2026-09-08 16:39:59 - INFO
+
+回测开始
+
+2026-09-08 16:39:58 - INFO
+
+INFO :回测开始运行

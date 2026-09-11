@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2018-01-26",
+    "group": "momentum",
+    "symbol": "601313.SH",
+    "horizon": "20",
+    "status": "MISSING_ENDPOINT"
+  },
+  {
+    "date": "2018-01-26",
+    "group": "momentum",
+    "symbol": "601313.SH",
+    "horizon": "60",
+    "status": "MISSING_ENDPOINT"
+  },
+  {
+    "date": "2018-01-25",
+    "group": "momentum",
+    "symbol": "601313.SH",
+    "horizon": "20",
+    "status": "MISSING_ENDPOINT"
+  },
+  {
+    "date": "2018-01-25",
+    "group": "momentum",
+    "symbol": "601313.SH",
+    "horizon": "60",
+    "status": "MISSING_ENDPOINT"
+  },
+  {
+    "date": "2019-04-01",
+    "group": "fh",
+    "symbol": "000418.SZ",
+    "horizon": "60",
+    "status": "MISSING_ENDPOINT"
+  }
+]

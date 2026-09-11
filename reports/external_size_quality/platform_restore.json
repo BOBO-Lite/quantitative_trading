@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "characters": 27858,
+  "exact_match": true,
+  "method": "save then independent tab reload and select all copy readback",
+  "strategy_id": "6a9fc987615a3100b6697395"
+}

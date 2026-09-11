@@ -1,0 +1,102 @@
+[
+  {
+    "mode": "FH",
+    "cost": 1.0,
+    "parity": true,
+    "flat_buckets": {
+      "defensive_cash": 553,
+      "held": 110,
+      "no_intraday_confirmation_or_engine_block": 9,
+      "no_selected_signal": 16,
+      "sizing_or_portfolio_block": 42
+    },
+    "sizing_reasons": {
+      "sized": 55,
+      "position_count": 2065,
+      "lot_or_risk_budget_zero": 19,
+      "recovery_trend_streak": 107,
+      "minimum_4000_only": 45
+    },
+    "flat_sizing_reasons": {
+      "recovery_trend_streak": 107,
+      "lot_or_risk_budget_zero": 10,
+      "minimum_4000_only": 43
+    },
+    "return_pct": 8.170531230233413
+  },
+  {
+    "mode": "FH",
+    "cost": 1.5,
+    "parity": true,
+    "flat_buckets": {
+      "defensive_cash": 553,
+      "held": 108,
+      "no_intraday_confirmation_or_engine_block": 9,
+      "no_selected_signal": 16,
+      "sizing_or_portfolio_block": 44
+    },
+    "sizing_reasons": {
+      "sized": 110,
+      "minimum_4000_only": 60,
+      "position_count": 1995,
+      "lot_or_risk_budget_zero": 21,
+      "recovery_trend_streak": 107
+    },
+    "flat_sizing_reasons": {
+      "recovery_trend_streak": 107,
+      "lot_or_risk_budget_zero": 13,
+      "minimum_4000_only": 53
+    },
+    "return_pct": 3.8694613688083024
+  },
+  {
+    "mode": "E1H",
+    "cost": 1.0,
+    "parity": true,
+    "flat_buckets": {
+      "defensive_cash": 553,
+      "held": 114,
+      "no_intraday_confirmation_or_engine_block": 8,
+      "no_selected_signal": 16,
+      "sizing_or_portfolio_block": 39
+    },
+    "sizing_reasons": {
+      "sized": 60,
+      "position_count": 2063,
+      "lot_or_risk_budget_zero": 19,
+      "minimum_4000_only": 47,
+      "recovery_trend_streak": 99
+    },
+    "flat_sizing_reasons": {
+      "minimum_4000_only": 45,
+      "recovery_trend_streak": 97,
+      "lot_or_risk_budget_zero": 9
+    },
+    "return_pct": 5.852762801966738
+  },
+  {
+    "mode": "E1H",
+    "cost": 1.5,
+    "parity": true,
+    "flat_buckets": {
+      "defensive_cash": 553,
+      "held": 113,
+      "no_intraday_confirmation_or_engine_block": 8,
+      "no_selected_signal": 16,
+      "sizing_or_portfolio_block": 40
+    },
+    "sizing_reasons": {
+      "sized": 116,
+      "minimum_4000_only": 62,
+      "position_count": 1992,
+      "lot_or_risk_budget_zero": 21,
+      "recovery_trend_streak": 99
+    },
+    "flat_sizing_reasons": {
+      "minimum_4000_only": 54,
+      "recovery_trend_streak": 97,
+      "lot_or_risk_budget_zero": 12
+    },
+    "return_pct": 3.700805848883326
+  }
+]

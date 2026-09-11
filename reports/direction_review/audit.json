@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-10",
+  "type": "direction_review_only",
+  "strategy_changes": false,
+  "new_backtests": false,
+  "prior_stage_hashes": "PASS",
+  "files_sha256": {
+    "external_sources.json": "c3c587bd1344003f2036574a86549ce51c95ce07736da0e92114fa1d2b1f175e",
+    "momentum_crashes.txt": "5c17615295d969f90c08370626daa17a0b10dab1a449bcb07e0bfc5af5b101d1",
+    "overfitting.txt": "8bd9fafe0dde72e72dfc4c005c01ccf816a920fd949be0258411ed21e0dab7e1",
+    "RESULT.md": "b05bfded50a3141e58a5ace41ccd372793bc5f976caee7694de248074bb34416"
+  },
+  "pdf_extractions": {
+    "overfitting": 34,
+    "momentum_crashes": 52
+  }
+}

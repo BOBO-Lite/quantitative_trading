@@ -1,0 +1,1531 @@
+[
+  {
+    "cost": 1.0,
+    "index": 1,
+    "symbol": "601009.SH",
+    "entry": "2018-01-26T09:46:00",
+    "quantity": 700,
+    "exits": [
+      {
+        "date": "2018-01-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 700
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 35.95622562999961,
+    "hold_net": -292.49433726999905,
+    "hold_minus_original": -328.45056289999866,
+    "hold_return_pct": -4.340455022529943,
+    "original_return_pct": 0.5335706037374942,
+    "hold_close_drawdown_pct": 34.61538461538461
+  },
+  {
+    "cost": 1.0,
+    "index": 2,
+    "symbol": "000876.SZ",
+    "entry": "2018-01-29T09:46:00",
+    "quantity": 800,
+    "exits": [
+      {
+        "date": "2018-01-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 800
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -59.023828320000575,
+    "hold_net": 11396.15617224,
+    "hold_minus_original": 11455.180000560002,
+    "hold_return_pct": 167.89066545157613,
+    "original_return_pct": -0.8695519493040331,
+    "hold_close_drawdown_pct": 49.21856215436403
+  },
+  {
+    "cost": 1.0,
+    "index": 3,
+    "symbol": "600398.SH",
+    "entry": "2018-01-26T09:46:00",
+    "quantity": 600,
+    "exits": [
+      {
+        "date": "2018-02-05T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 600
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 1052.0736248000012,
+    "hold_net": -1943.5327446799993,
+    "hold_minus_original": -2995.6063694800005,
+    "hold_return_pct": -29.99495212483849,
+    "original_return_pct": 16.236874883668165,
+    "hold_close_drawdown_pct": 54.33287482806052
+  },
+  {
+    "cost": 1.0,
+    "index": 4,
+    "symbol": "601318.SH",
+    "entry": "2019-02-19T09:46:00",
+    "quantity": 100,
+    "exits": [
+      {
+        "date": "2019-03-11T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 100
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 287.9159666500009,
+    "hold_net": 2489.342014080001,
+    "hold_minus_original": 2201.42604743,
+    "hold_return_pct": 37.69641037418437,
+    "original_return_pct": 4.359946672948257,
+    "hold_close_drawdown_pct": 27.157872385603564
+  },
+  {
+    "cost": 1.0,
+    "index": 5,
+    "symbol": "600030.SH",
+    "entry": "2019-02-19T09:46:00",
+    "quantity": 300,
+    "exits": [
+      {
+        "date": "2019-03-11T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 1176.074642030001,
+    "hold_net": 3066.9429700300016,
+    "hold_minus_original": 1890.8683280000005,
+    "hold_return_pct": 51.04716807332497,
+    "original_return_pct": 19.574958029915273,
+    "hold_close_drawdown_pct": 26.6068759342302
+  },
+  {
+    "cost": 1.0,
+    "index": 6,
+    "symbol": "600585.SH",
+    "entry": "2019-02-19T09:46:00",
+    "quantity": 200,
+    "exits": [
+      {
+        "date": "2019-03-11T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 200
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -19.81990192000012,
+    "hold_net": 3981.86124932,
+    "hold_minus_original": 4001.68115124,
+    "hold_return_pct": 56.23987593375297,
+    "original_return_pct": -0.2799366314409665,
+    "hold_close_drawdown_pct": 19.081579405113935
+  },
+  {
+    "cost": 1.0,
+    "index": 7,
+    "symbol": "600160.SH",
+    "entry": "2019-03-12T09:46:00",
+    "quantity": 700,
+    "exits": [
+      {
+        "date": "2019-03-29T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 700
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -73.89942348999921,
+    "hold_net": -88.00248942999951,
+    "hold_minus_original": -14.103065940000306,
+    "hold_return_pct": -1.4780391776158641,
+    "original_return_pct": -1.2411721967061842,
+    "hold_close_drawdown_pct": 37.4136229022705
+  },
+  {
+    "cost": 1.0,
+    "index": 8,
+    "symbol": "002242.SZ",
+    "entry": "2019-03-12T09:46:00",
+    "quantity": 300,
+    "exits": [
+      {
+        "date": "2019-03-29T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 204.35518181000043,
+    "hold_net": 3696.4672553200007,
+    "hold_minus_original": 3492.1120735100003,
+    "hold_return_pct": 57.04836137073271,
+    "original_return_pct": 3.15385676502346,
+    "hold_close_drawdown_pct": 30.620805369127513
+  },
+  {
+    "cost": 1.0,
+    "index": 9,
+    "symbol": "600277.SH",
+    "entry": "2019-03-13T09:46:00",
+    "quantity": 600,
+    "exits": [
+      {
+        "date": "2019-03-29T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 600
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 189.44879810000157,
+    "hold_net": -2166.1026606199994,
+    "hold_minus_original": -2355.551458720001,
+    "hold_return_pct": -53.20678059958619,
+    "original_return_pct": 4.653500879075103,
+    "hold_close_drawdown_pct": 64.83333333333333
+  },
+  {
+    "cost": 1.0,
+    "index": 10,
+    "symbol": "600036.SH",
+    "entry": "2019-04-01T09:46:00",
+    "quantity": 200,
+    "exits": [
+      {
+        "date": "2019-04-24T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 200
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 126.23685754000144,
+    "hold_net": 2247.972350420001,
+    "hold_minus_original": 2121.7354928799996,
+    "hold_return_pct": 32.25198612455231,
+    "original_return_pct": 1.8111385476011452,
+    "hold_close_drawdown_pct": 25.012394645513137
+  },
+  {
+    "cost": 1.0,
+    "index": 11,
+    "symbol": "600887.SH",
+    "entry": "2019-04-01T09:46:00",
+    "quantity": 200,
+    "exits": [
+      {
+        "date": "2019-04-24T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 200
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 212.59202425999956,
+    "hold_net": 3124.899539600001,
+    "hold_minus_original": 2912.3075153400014,
+    "hold_return_pct": 51.64183870438392,
+    "original_return_pct": 3.513278711058558,
+    "hold_close_drawdown_pct": 20.898493033835653
+  },
+  {
+    "cost": 1.0,
+    "index": 12,
+    "symbol": "601566.SH",
+    "entry": "2019-04-01T09:46:00",
+    "quantity": 300,
+    "exits": [
+      {
+        "date": "2019-04-24T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 63.02675534000082,
+    "hold_net": -399.34809304999953,
+    "hold_minus_original": -462.37484839000035,
+    "hold_return_pct": -9.256278919480575,
+    "original_return_pct": 1.4608639354235433,
+    "hold_close_drawdown_pct": 29.694915254237298
+  },
+  {
+    "cost": 1.0,
+    "index": 13,
+    "symbol": "601238.SH",
+    "entry": "2019-09-09T09:46:00",
+    "quantity": 500,
+    "exits": [
+      {
+        "date": "2019-09-26T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 500
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -85.38676329999907,
+    "hold_net": 593.7833884500005,
+    "hold_minus_original": 679.1701517499996,
+    "hold_return_pct": 9.62962260096052,
+    "original_return_pct": -1.3847512774698882,
+    "hold_close_drawdown_pct": 32.02662721893491
+  },
+  {
+    "cost": 1.0,
+    "index": 14,
+    "symbol": "000708.SZ",
+    "entry": "2019-09-09T09:46:00",
+    "quantity": 400,
+    "exits": [
+      {
+        "date": "2019-09-26T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 400
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "unsupported_share_action"
+  },
+  {
+    "cost": 1.0,
+    "index": 15,
+    "symbol": "600869.SH",
+    "entry": "2019-09-09T09:52:00",
+    "quantity": 1100,
+    "exits": [
+      {
+        "date": "2019-09-26T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 1100
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 239.91053164000004,
+    "hold_net": -1042.2883943400002,
+    "hold_minus_original": -1282.1989259800002,
+    "hold_return_pct": -19.143918011167884,
+    "original_return_pct": 4.406484397862012,
+    "hold_close_drawdown_pct": 35.992647058823536
+  },
+  {
+    "cost": 1.0,
+    "index": 16,
+    "symbol": "000875.SZ",
+    "entry": "2019-10-15T09:46:00",
+    "quantity": 2300,
+    "exits": [
+      {
+        "date": "2019-10-16T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 2300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -52.43597772999874,
+    "hold_net": 2080.194642719999,
+    "hold_minus_original": 2132.630620449998,
+    "hold_return_pct": 26.873103594623228,
+    "original_return_pct": -0.6773969284821798,
+    "hold_close_drawdown_pct": 23.129251700680275
+  },
+  {
+    "cost": 1.0,
+    "index": 17,
+    "symbol": "600583.SH",
+    "entry": "2019-10-15T10:04:00",
+    "quantity": 1300,
+    "exits": [
+      {
+        "date": "2019-10-16T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 1300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -107.53435977999652,
+    "hold_net": -1897.8780779999988,
+    "hold_minus_original": -1790.3437182200023,
+    "hold_return_pct": -24.29166382800936,
+    "original_return_pct": -1.3763731970014819,
+    "hold_close_drawdown_pct": 47.44069912609239
+  },
+  {
+    "cost": 1.0,
+    "index": 18,
+    "symbol": "600337.SH",
+    "entry": "2019-10-29T09:46:00",
+    "quantity": 1500,
+    "exits": [
+      {
+        "date": "2019-10-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 1500
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -266.53096990000085,
+    "hold_net": 138.227882950001,
+    "hold_minus_original": 404.75885285000186,
+    "hold_return_pct": 2.0579510595442274,
+    "original_return_pct": -3.9681407267552355,
+    "hold_close_drawdown_pct": 25.451559934318556
+  },
+  {
+    "cost": 1.0,
+    "index": 19,
+    "symbol": "601333.SH",
+    "entry": "2019-10-29T09:49:00",
+    "quantity": 2500,
+    "exits": [
+      {
+        "date": "2019-10-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 2500
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -130.25700100000086,
+    "hold_net": -2413.181080999999,
+    "hold_minus_original": -2282.924079999998,
+    "hold_return_pct": -29.743956863619758,
+    "original_return_pct": -1.6054985054511548,
+    "hold_close_drawdown_pct": 33.13350280441004
+  },
+  {
+    "cost": 1.0,
+    "index": 20,
+    "symbol": "600926.SH",
+    "entry": "2019-10-29T10:31:00",
+    "quantity": 800,
+    "exits": [
+      {
+        "date": "2019-10-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 800
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -108.05995279999843,
+    "hold_net": 4987.711767840001,
+    "hold_minus_original": 5095.771720639999,
+    "hold_return_pct": 69.00266851076502,
+    "original_return_pct": -1.494959101370911,
+    "hold_close_drawdown_pct": 22.807017543859654
+  },
+  {
+    "cost": 1.0,
+    "index": 21,
+    "symbol": "600690.SH",
+    "entry": "2019-11-06T09:46:00",
+    "quantity": 400,
+    "exits": [
+      {
+        "date": "2019-11-07T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -40.34400211999946,
+    "hold_net": 4533.63904712,
+    "hold_minus_original": 4573.98304924,
+    "hold_return_pct": 62.101573831516845,
+    "original_return_pct": -0.5526302381539602,
+    "hold_close_drawdown_pct": 30.75
+  },
+  {
+    "cost": 1.0,
+    "index": 22,
+    "symbol": "000878.SZ",
+    "entry": "2019-11-06T09:46:00",
+    "quantity": 500,
+    "exits": [
+      {
+        "date": "2019-11-07T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 500
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -89.13705814999958,
+    "hold_net": 1574.2934435000006,
+    "hold_minus_original": 1663.4305016500002,
+    "hold_return_pct": 27.810900066746825,
+    "original_return_pct": -1.5746631142299097,
+    "hold_close_drawdown_pct": 33.141210374639776
+  },
+  {
+    "cost": 1.0,
+    "index": 23,
+    "symbol": "002047.SZ",
+    "entry": "2019-11-06T09:46:00",
+    "quantity": 1000,
+    "exits": [
+      {
+        "date": "2019-11-07T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 1000
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -14.477024900000288,
+    "hold_net": -2180.7974574,
+    "hold_minus_original": -2166.3204324999997,
+    "hold_return_pct": -37.92165301516223,
+    "original_return_pct": -0.25173943278721406,
+    "hold_close_drawdown_pct": 47.88321167883212
+  },
+  {
+    "cost": 1.0,
+    "index": 24,
+    "symbol": "600690.SH",
+    "entry": "2019-11-08T09:46:00",
+    "quantity": 400,
+    "exits": [
+      {
+        "date": "2019-11-11T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -276.5521304800013,
+    "hold_net": 4309.412804879999,
+    "hold_minus_original": 4585.964935360001,
+    "hold_return_pct": 57.27108601618476,
+    "original_return_pct": -3.6753129880580904,
+    "hold_close_drawdown_pct": 30.75
+  },
+  {
+    "cost": 1.0,
+    "index": 25,
+    "symbol": "002507.SZ",
+    "entry": "2019-11-08T09:46:00",
+    "quantity": 300,
+    "exits": [
+      {
+        "date": "2019-11-11T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -230.03123550999862,
+    "hold_net": 5093.249183260001,
+    "hold_minus_original": 5323.280418769999,
+    "hold_return_pct": 66.2601052731937,
+    "original_return_pct": -2.992567874179592,
+    "hold_close_drawdown_pct": 27.496632672695785
+  },
+  {
+    "cost": 1.0,
+    "index": 26,
+    "symbol": "600993.SH",
+    "entry": "2019-11-08T09:54:00",
+    "quantity": 200,
+    "exits": [
+      {
+        "date": "2019-11-11T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 200
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -155.66107135999937,
+    "hold_net": 155.0448008400008,
+    "hold_minus_original": 310.70587220000016,
+    "hold_return_pct": 3.9502310974959043,
+    "original_return_pct": -3.965932436459739,
+    "hold_close_drawdown_pct": 27.576197387518143
+  },
+  {
+    "cost": 1.0,
+    "index": 27,
+    "symbol": "601198.SH",
+    "entry": "2019-12-20T09:46:00",
+    "quantity": 600,
+    "exits": [
+      {
+        "date": "2019-12-24T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 600
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -136.2645980799989,
+    "hold_net": 749.6127868600015,
+    "hold_minus_original": 885.8773849400004,
+    "hold_return_pct": 10.231683980824258,
+    "original_return_pct": -1.8599153186389883,
+    "hold_close_drawdown_pct": 22.34848484848485
+  },
+  {
+    "cost": 1.0,
+    "index": 28,
+    "symbol": "601717.SH",
+    "entry": "2019-12-20T09:46:00",
+    "quantity": 1000,
+    "exits": [
+      {
+        "date": "2019-12-27T09:32:00",
+        "reason": "persistent_weak_loss",
+        "quantity": 1000
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -176.0747414999987,
+    "hold_net": 4633.465235300001,
+    "hold_minus_original": 4809.5399768,
+    "hold_return_pct": 71.48716166015139,
+    "original_return_pct": -2.7165593936014076,
+    "hold_close_drawdown_pct": 30.73593073593074
+  },
+  {
+    "cost": 1.0,
+    "index": 29,
+    "symbol": "000807.SZ",
+    "entry": "2019-12-20T09:46:00",
+    "quantity": 1500,
+    "exits": [
+      {
+        "date": "2020-01-20T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 1500
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -119.66741590000038,
+    "hold_net": 3422.0613214000005,
+    "hold_minus_original": 3541.728737300001,
+    "hold_return_pct": 43.46612441808737,
+    "original_return_pct": -1.5199840972377567,
+    "hold_close_drawdown_pct": 30.03663003663004
+  },
+  {
+    "cost": 1.0,
+    "index": 30,
+    "symbol": "002317.SZ",
+    "entry": "2019-12-25T09:46:00",
+    "quantity": 600,
+    "exits": [
+      {
+        "date": "2020-01-23T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 600
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 2615.77023146,
+    "hold_net": 276.49149556000066,
+    "hold_minus_original": -2339.2787358999994,
+    "hold_return_pct": 4.283032008552601,
+    "original_return_pct": 40.5199718916165,
+    "hold_close_drawdown_pct": 38.72387238723872
+  },
+  {
+    "cost": 1.0,
+    "index": 31,
+    "symbol": "000028.SZ",
+    "entry": "2020-01-23T09:46:00",
+    "quantity": 100,
+    "exits": [
+      {
+        "date": "2020-02-03T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 100
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -382.4068135999996,
+    "hold_net": -510.1914513999991,
+    "hold_minus_original": -127.78463779999947,
+    "hold_return_pct": -9.906261858698695,
+    "original_return_pct": -7.425098993087883,
+    "hold_close_drawdown_pct": 27.507541478129717
+  },
+  {
+    "cost": 1.0,
+    "index": 32,
+    "symbol": "000555.SZ",
+    "entry": "2019-12-27T09:46:00",
+    "quantity": 400,
+    "exits": [
+      {
+        "date": "2020-02-04T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -436.0113461200008,
+    "hold_net": 396.7338619200009,
+    "hold_minus_original": 832.7452080400017,
+    "hold_return_pct": 6.818061328541014,
+    "original_return_pct": -7.49306369614936,
+    "hold_close_drawdown_pct": 29.25831202046035
+  },
+  {
+    "cost": 1.0,
+    "index": 33,
+    "symbol": "601828.SH",
+    "entry": "2020-01-20T09:50:00",
+    "quantity": 700,
+    "exits": [
+      {
+        "date": "2020-02-04T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 700
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "unsupported_share_action"
+  },
+  {
+    "cost": 1.0,
+    "index": 34,
+    "symbol": "600782.SH",
+    "entry": "2020-06-17T09:46:00",
+    "quantity": 1000,
+    "exits": [
+      {
+        "date": "2020-06-24T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 1000
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -210.5974368999996,
+    "hold_net": 260.6367568000005,
+    "hold_minus_original": 471.2341937000001,
+    "hold_return_pct": 6.020209951414324,
+    "original_return_pct": -4.86439748918686,
+    "hold_close_drawdown_pct": 14.468085106382988
+  },
+  {
+    "cost": 1.0,
+    "index": 35,
+    "symbol": "600025.SH",
+    "entry": "2020-06-29T09:49:00",
+    "quantity": 1400,
+    "exits": [
+      {
+        "date": "2020-07-17T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 1400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 284.5546130800003,
+    "hold_net": 1081.79642848,
+    "hold_minus_original": 797.2418153999997,
+    "hold_return_pct": 20.956097788322346,
+    "original_return_pct": 5.512270276396981,
+    "hold_close_drawdown_pct": 8.353808353808356
+  },
+  {
+    "cost": 1.0,
+    "index": 36,
+    "symbol": "002491.SZ",
+    "entry": "2020-09-04T09:46:00",
+    "quantity": 700,
+    "exits": [
+      {
+        "date": "2020-09-07T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 700
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 8.028384780000124,
+    "hold_net": -1093.9804494099994,
+    "hold_minus_original": -1102.0088341899996,
+    "hold_return_pct": -27.695844661038894,
+    "original_return_pct": 0.20325125359036417,
+    "hold_close_drawdown_pct": 33.16239316239316
+  },
+  {
+    "cost": 1.5,
+    "index": 1,
+    "symbol": "601009.SH",
+    "entry": "2018-01-26T09:46:00",
+    "quantity": 700,
+    "exits": [
+      {
+        "date": "2018-01-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 700
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 22.436885167498986,
+    "hold_net": -298.3915563575001,
+    "hold_minus_original": -320.8284415249991,
+    "hold_return_pct": -4.4240949176725275,
+    "original_return_pct": 0.3326599145419798,
+    "hold_close_drawdown_pct": 34.61538461538461
+  },
+  {
+    "cost": 1.5,
+    "index": 2,
+    "symbol": "000876.SZ",
+    "entry": "2018-01-29T09:46:00",
+    "quantity": 800,
+    "exits": [
+      {
+        "date": "2018-01-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 800
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -72.53321372000028,
+    "hold_net": 11390.23420754,
+    "hold_minus_original": 11462.76742126,
+    "hold_return_pct": 167.65715150471254,
+    "original_return_pct": -1.0676437183115821,
+    "hold_close_drawdown_pct": 49.21856215436403
+  },
+  {
+    "cost": 1.5,
+    "index": 3,
+    "symbol": "600398.SH",
+    "entry": "2018-01-26T09:46:00",
+    "quantity": 600,
+    "exits": [
+      {
+        "date": "2018-02-05T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 600
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 1038.1132757999994,
+    "hold_net": -1949.2991655300002,
+    "hold_minus_original": -2987.4124413299996,
+    "hold_return_pct": -30.057197297708584,
+    "original_return_pct": 16.007176373877602,
+    "hold_close_drawdown_pct": 54.332874828060525
+  },
+  {
+    "cost": 1.5,
+    "index": 4,
+    "symbol": "000776.SZ",
+    "entry": "2019-02-19T09:46:00",
+    "quantity": 300,
+    "exits": [
+      {
+        "date": "2019-03-01T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 536.9313990749997,
+    "hold_net": 594.7733000999997,
+    "hold_minus_original": 57.84190102499997,
+    "hold_return_pct": 13.353009179199438,
+    "original_return_pct": 12.054424600504822,
+    "hold_close_drawdown_pct": 31.657458563535922
+  },
+  {
+    "cost": 1.5,
+    "index": 5,
+    "symbol": "601318.SH",
+    "entry": "2019-02-19T09:46:00",
+    "quantity": 100,
+    "exits": [
+      {
+        "date": "2019-03-11T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 100
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 274.37654246249895,
+    "hold_net": 2483.5129716799993,
+    "hold_minus_original": 2209.1364292175003,
+    "hold_return_pct": 37.57497308094815,
+    "original_return_pct": 4.151253210526989,
+    "hold_close_drawdown_pct": 27.157872385603554
+  },
+  {
+    "cost": 1.5,
+    "index": 6,
+    "symbol": "600030.SH",
+    "entry": "2019-02-19T09:46:00",
+    "quantity": 300,
+    "exits": [
+      {
+        "date": "2019-03-11T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 1162.6146720675015,
+    "hold_net": 3061.414410067501,
+    "hold_minus_original": 1898.7997379999997,
+    "hold_return_pct": 50.908303611620575,
+    "original_return_pct": 19.333135858477927,
+    "hold_close_drawdown_pct": 26.6068759342302
+  },
+  {
+    "cost": 1.5,
+    "index": 7,
+    "symbol": "600326.SH",
+    "entry": "2019-03-01T09:46:00",
+    "quantity": 800,
+    "exits": [
+      {
+        "date": "2019-03-11T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 800
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -382.6176517399999,
+    "hold_net": -729.2809852600003,
+    "hold_minus_original": -346.6633335200004,
+    "hold_return_pct": -11.266017757001611,
+    "original_return_pct": -5.910722130110532,
+    "hold_close_drawdown_pct": 40.609137055837564
+  },
+  {
+    "cost": 1.5,
+    "index": 8,
+    "symbol": "600256.SH",
+    "entry": "2019-03-19T09:46:00",
+    "quantity": 1400,
+    "exits": [
+      {
+        "date": "2019-03-27T09:32:00",
+        "reason": "persistent_weak_loss",
+        "quantity": 1400
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "unresolved_corporate_source"
+  },
+  {
+    "cost": 1.5,
+    "index": 9,
+    "symbol": "600160.SH",
+    "entry": "2019-03-12T09:46:00",
+    "quantity": 700,
+    "exits": [
+      {
+        "date": "2019-03-29T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 700
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -86.34692535249997,
+    "hold_net": -93.50377871750061,
+    "hold_minus_original": -7.156853365000643,
+    "hold_return_pct": -1.5689859791920946,
+    "original_return_pct": -1.448894548248479,
+    "hold_close_drawdown_pct": 37.4136229022705
+  },
+  {
+    "cost": 1.5,
+    "index": 10,
+    "symbol": "002242.SZ",
+    "entry": "2019-03-12T09:46:00",
+    "quantity": 300,
+    "exits": [
+      {
+        "date": "2019-03-29T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 191.0352865724999,
+    "hold_net": 3690.70083447,
+    "hold_minus_original": 3499.6655478975,
+    "hold_return_pct": 56.90872140619874,
+    "original_return_pct": 2.9456665251137704,
+    "hold_close_drawdown_pct": 30.620805369127513
+  },
+  {
+    "cost": 1.5,
+    "index": 11,
+    "symbol": "601021.SH",
+    "entry": "2019-03-28T09:46:00",
+    "quantity": 100,
+    "exits": [
+      {
+        "date": "2019-03-29T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 100
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -171.0872701724993,
+    "hold_net": 1492.3332532675,
+    "hold_minus_original": 1663.4205234399992,
+    "hold_return_pct": 36.481329268061266,
+    "original_return_pct": -4.182370809650463,
+    "hold_close_drawdown_pct": 35.53020701309675
+  },
+  {
+    "cost": 1.5,
+    "index": 12,
+    "symbol": "000333.SZ",
+    "entry": "2019-04-08T09:46:00",
+    "quantity": 100,
+    "exits": [
+      {
+        "date": "2019-04-15T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 100
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -271.0454840599996,
+    "hold_net": 4672.649187465,
+    "hold_minus_original": 4943.694671525,
+    "hold_return_pct": 85.55222213252624,
+    "original_return_pct": -4.962611685577749,
+    "hold_close_drawdown_pct": 22.413737137663514
+  },
+  {
+    "cost": 1.5,
+    "index": 13,
+    "symbol": "600036.SH",
+    "entry": "2019-04-01T09:46:00",
+    "quantity": 200,
+    "exits": [
+      {
+        "date": "2019-04-24T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 200
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 112.35795446500015,
+    "hold_net": 2241.958473445,
+    "hold_minus_original": 2129.60051898,
+    "hold_return_pct": 32.13797488032088,
+    "original_return_pct": 1.6106262274571954,
+    "hold_close_drawdown_pct": 25.012394645513137
+  },
+  {
+    "cost": 1.5,
+    "index": 14,
+    "symbol": "600887.SH",
+    "entry": "2019-04-01T09:46:00",
+    "quantity": 200,
+    "exits": [
+      {
+        "date": "2019-04-24T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 200
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 199.89034958499997,
+    "hold_net": 3119.3492640999993,
+    "hold_minus_original": 2919.4589145149994,
+    "hold_return_pct": 51.502875105715894,
+    "original_return_pct": 3.3003446673947403,
+    "hold_close_drawdown_pct": 20.898493033835653
+  },
+  {
+    "cost": 1.5,
+    "index": 15,
+    "symbol": "600704.SH",
+    "entry": "2019-04-15T09:50:00",
+    "quantity": 1000,
+    "exits": [
+      {
+        "date": "2019-04-24T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 1000
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -298.06715584999984,
+    "hold_net": -1406.9840408500004,
+    "hold_minus_original": -1108.9168850000005,
+    "hold_return_pct": -22.414969222376314,
+    "original_return_pct": -4.7485727844806975,
+    "hold_close_drawdown_pct": 25.919837142515366
+  },
+  {
+    "cost": 1.5,
+    "index": 16,
+    "symbol": "601238.SH",
+    "entry": "2019-09-09T09:46:00",
+    "quantity": 500,
+    "exits": [
+      {
+        "date": "2019-09-26T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 500
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -98.07786742500048,
+    "hold_net": 588.175036512499,
+    "hold_minus_original": 686.2529039374995,
+    "hold_return_pct": 9.530001903685559,
+    "original_return_pct": -1.5891226339896036,
+    "hold_close_drawdown_pct": 32.02662721893491
+  },
+  {
+    "cost": 1.5,
+    "index": 17,
+    "symbol": "000708.SZ",
+    "entry": "2019-09-09T09:46:00",
+    "quantity": 400,
+    "exits": [
+      {
+        "date": "2019-09-26T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 400
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "unsupported_share_action"
+  },
+  {
+    "cost": 1.5,
+    "index": 18,
+    "symbol": "600869.SH",
+    "entry": "2019-09-09T09:52:00",
+    "quantity": 800,
+    "exits": [
+      {
+        "date": "2019-09-26T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 800
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 161.63122631999977,
+    "hold_net": -763.8873689200004,
+    "hold_minus_original": -925.5185952400002,
+    "hold_return_pct": -19.263391806693487,
+    "original_return_pct": 4.0759485854577315,
+    "hold_close_drawdown_pct": 35.992647058823536
+  },
+  {
+    "cost": 1.5,
+    "index": 19,
+    "symbol": "000875.SZ",
+    "entry": "2019-10-15T09:46:00",
+    "quantity": 2100,
+    "exits": [
+      {
+        "date": "2019-10-16T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 2100
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -62.61620109749947,
+    "hold_net": 1892.81000124,
+    "hold_minus_original": 1955.4262023374995,
+    "hold_return_pct": 26.75656155081756,
+    "original_return_pct": -0.885135981765759,
+    "hold_close_drawdown_pct": 23.129251700680275
+  },
+  {
+    "cost": 1.5,
+    "index": 20,
+    "symbol": "600583.SH",
+    "entry": "2019-10-15T10:04:00",
+    "quantity": 1200,
+    "exits": [
+      {
+        "date": "2019-10-16T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 1200
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -114.04490261999945,
+    "hold_net": -1758.4081620000006,
+    "hold_minus_original": -1644.3632593800012,
+    "hold_return_pct": -24.360054495904247,
+    "original_return_pct": -1.5799176225634919,
+    "hold_close_drawdown_pct": 47.44069912609239
+  },
+  {
+    "cost": 1.5,
+    "index": 21,
+    "symbol": "600337.SH",
+    "entry": "2019-10-29T09:46:00",
+    "quantity": 1400,
+    "exits": [
+      {
+        "date": "2019-10-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 1400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -262.1410967899992,
+    "hold_net": 123.01898919500036,
+    "hold_minus_original": 385.16008598499957,
+    "hold_return_pct": 1.9604679119055834,
+    "original_return_pct": -4.177560001195444,
+    "hold_close_drawdown_pct": 25.451559934318556
+  },
+  {
+    "cost": 1.5,
+    "index": 22,
+    "symbol": "601333.SH",
+    "entry": "2019-10-29T09:49:00",
+    "quantity": 2400,
+    "exits": [
+      {
+        "date": "2019-10-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 2400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -140.16720216000067,
+    "hold_net": -2323.2808149600005,
+    "hold_minus_original": -2183.1136128,
+    "hold_return_pct": -29.803683409343883,
+    "original_return_pct": -1.7981033074652601,
+    "hold_close_drawdown_pct": 33.190347806261514
+  },
+  {
+    "cost": 1.5,
+    "index": 23,
+    "symbol": "600926.SH",
+    "entry": "2019-10-29T10:31:00",
+    "quantity": 700,
+    "exits": [
+      {
+        "date": "2019-10-30T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 700
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -108.70134707499983,
+    "hold_net": 4357.934147935,
+    "hold_minus_original": 4466.635495009999,
+    "hold_return_pct": 68.83413077299731,
+    "original_return_pct": -1.7169517679166892,
+    "hold_close_drawdown_pct": 22.807017543859654
+  },
+  {
+    "cost": 1.5,
+    "index": 24,
+    "symbol": "600690.SH",
+    "entry": "2019-11-06T09:46:00",
+    "quantity": 400,
+    "exits": [
+      {
+        "date": "2019-11-07T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -54.51327476999904,
+    "hold_net": 4527.4585160199995,
+    "hold_minus_original": 4581.9717907899985,
+    "hold_return_pct": 61.964453715163394,
+    "original_return_pct": -0.7460886233181928,
+    "hold_close_drawdown_pct": 30.75
+  },
+  {
+    "cost": 1.5,
+    "index": 25,
+    "symbol": "000878.SZ",
+    "entry": "2019-11-06T09:46:00",
+    "quantity": 500,
+    "exits": [
+      {
+        "date": "2019-11-07T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 500
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -101.20349333750073,
+    "hold_net": 1568.9401228749985,
+    "hold_minus_original": 1670.1436162124992,
+    "hold_return_pct": 27.690143713608073,
+    "original_return_pct": -1.7861352603434202,
+    "hold_close_drawdown_pct": 33.141210374639776
+  },
+  {
+    "cost": 1.5,
+    "index": 26,
+    "symbol": "002047.SZ",
+    "entry": "2019-11-06T09:46:00",
+    "quantity": 700,
+    "exits": [
+      {
+        "date": "2019-11-07T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 700
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -23.199366717499288,
+    "hold_net": -1532.5873604050003,
+    "hold_minus_original": -1509.387993687501,
+    "hold_return_pct": -38.014489663719985,
+    "original_return_pct": -0.5754400101891567,
+    "hold_close_drawdown_pct": 47.88321167883212
+  },
+  {
+    "cost": 1.5,
+    "index": 27,
+    "symbol": "600690.SH",
+    "entry": "2019-11-08T09:46:00",
+    "quantity": 400,
+    "exits": [
+      {
+        "date": "2019-11-11T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -290.8254735799992,
+    "hold_net": 4303.11915098,
+    "hold_minus_original": 4593.944624559999,
+    "hold_return_pct": 57.139652548612155,
+    "original_return_pct": -3.86177233992282,
+    "hold_close_drawdown_pct": 30.75
+  },
+  {
+    "cost": 1.5,
+    "index": 28,
+    "symbol": "002507.SZ",
+    "entry": "2019-11-08T09:46:00",
+    "quantity": 200,
+    "exits": [
+      {
+        "date": "2019-11-11T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 200
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -168.0293682649999,
+    "hold_net": 3388.74914489,
+    "hold_minus_original": 3556.778513155,
+    "hold_return_pct": 66.0413852407018,
+    "original_return_pct": -3.2746278248639205,
+    "hold_close_drawdown_pct": 27.496632672695775
+  },
+  {
+    "cost": 1.5,
+    "index": 29,
+    "symbol": "600993.SH",
+    "entry": "2019-11-08T09:54:00",
+    "quantity": 200,
+    "exits": [
+      {
+        "date": "2019-11-11T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 200
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -165.49019055999997,
+    "hold_net": 150.56717189000028,
+    "hold_minus_original": 316.05736245000026,
+    "hold_return_pct": 3.8317787445782736,
+    "original_return_pct": -4.211554130054906,
+    "hold_close_drawdown_pct": 27.576197387518143
+  },
+  {
+    "cost": 1.5,
+    "index": 30,
+    "symbol": "601198.SH",
+    "entry": "2019-12-20T09:46:00",
+    "quantity": 600,
+    "exits": [
+      {
+        "date": "2019-12-24T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 600
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -150.39419567999994,
+    "hold_net": 743.4191254349998,
+    "hold_minus_original": 893.8133211149998,
+    "hold_return_pct": 10.138573827582942,
+    "original_return_pct": -2.0510403942721185,
+    "hold_close_drawdown_pct": 22.34848484848485
+  },
+  {
+    "cost": 1.5,
+    "index": 31,
+    "symbol": "601717.SH",
+    "entry": "2019-12-20T09:46:00",
+    "quantity": 800,
+    "exits": [
+      {
+        "date": "2019-12-27T09:32:00",
+        "reason": "persistent_weak_loss",
+        "quantity": 800
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -154.28779470000063,
+    "hold_net": 3700.6582435399996,
+    "hold_minus_original": 3854.9460382400002,
+    "hold_return_pct": 71.28519787654079,
+    "original_return_pct": -2.9720215300410158,
+    "hold_close_drawdown_pct": 30.73593073593073
+  },
+  {
+    "cost": 1.5,
+    "index": 32,
+    "symbol": "000807.SZ",
+    "entry": "2019-12-20T09:46:00",
+    "quantity": 1400,
+    "exits": [
+      {
+        "date": "2020-01-20T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 1400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -126.53166339000109,
+    "hold_net": 3187.38579494,
+    "hold_minus_original": 3313.917458330001,
+    "hold_return_pct": 43.33858590090378,
+    "original_return_pct": -1.7204391673318074,
+    "hold_close_drawdown_pct": 30.03663003663004
+  },
+  {
+    "cost": 1.5,
+    "index": 33,
+    "symbol": "002317.SZ",
+    "entry": "2019-12-25T09:46:00",
+    "quantity": 600,
+    "exits": [
+      {
+        "date": "2020-01-23T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 600
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 2600.6587757849993,
+    "hold_net": 270.7371950099987,
+    "hold_minus_original": -2329.9215807750006,
+    "hold_return_pct": 4.19015915589922,
+    "original_return_pct": 40.25000768853611,
+    "hold_close_drawdown_pct": 38.72387238723872
+  },
+  {
+    "cost": 1.5,
+    "index": 34,
+    "symbol": "000028.SZ",
+    "entry": "2020-01-23T09:46:00",
+    "quantity": 100,
+    "exits": [
+      {
+        "date": "2020-02-03T09:32:00",
+        "reason": "cash_defense",
+        "quantity": 100
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -393.60843060000025,
+    "hold_net": -515.2872156499998,
+    "hold_minus_original": -121.67878504999953,
+    "hold_return_pct": -9.995315374199388,
+    "original_return_pct": -7.635043677200291,
+    "hold_close_drawdown_pct": 27.507541478129717
+  },
+  {
+    "cost": 1.5,
+    "index": 35,
+    "symbol": "000555.SZ",
+    "entry": "2019-12-27T09:46:00",
+    "quantity": 400,
+    "exits": [
+      {
+        "date": "2020-02-04T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 400
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -448.0149987700006,
+    "hold_net": 391.30074931999934,
+    "hold_minus_original": 839.3157480899999,
+    "hold_return_pct": 6.718417658129683,
+    "original_return_pct": -7.692169984529793,
+    "hold_close_drawdown_pct": 29.25831202046035
+  },
+  {
+    "cost": 1.5,
+    "index": 36,
+    "symbol": "601828.SH",
+    "entry": "2020-01-20T09:50:00",
+    "quantity": 600,
+    "exits": [
+      {
+        "date": "2020-02-04T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 600
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "unsupported_share_action"
+  },
+  {
+    "cost": 1.5,
+    "index": 37,
+    "symbol": "600019.SH",
+    "entry": "2020-06-18T09:59:00",
+    "quantity": 1100,
+    "exits": [
+      {
+        "date": "2020-06-24T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 1100
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": -188.35442096499992,
+    "hold_net": 1315.600672685,
+    "hold_minus_original": 1503.95509365,
+    "hold_return_pct": 25.157777984426488,
+    "original_return_pct": -3.601836638888108,
+    "hold_close_drawdown_pct": 10.313075506445667
+  },
+  {
+    "cost": 1.5,
+    "index": 38,
+    "symbol": "600025.SH",
+    "entry": "2020-06-29T09:49:00",
+    "quantity": 1300,
+    "exits": [
+      {
+        "date": "2020-07-17T09:32:00",
+        "reason": "scheduled_exit",
+        "quantity": 1300
+      }
+    ],
+    "status": "COMPLETE",
+    "original_net": 252.27440018499965,
+    "hold_net": 999.2521323599995,
+    "hold_minus_original": 746.9777321749998,
+    "hold_return_pct": 20.82318471237845,
+    "original_return_pct": 5.257088039281941,
+    "hold_close_drawdown_pct": 8.353808353808356
+  }
+]

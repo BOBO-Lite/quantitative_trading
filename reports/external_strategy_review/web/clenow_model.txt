@@ -1,0 +1,28 @@
+Equity Momentum Model Documentation
+A portfolio report like this doesn’t hold much value unless you understand how it’s been done. This page will hopefully shine some additional light on that.
+The really short story is this: The model is as explained in the book
+Stocks on the Move
+, expect that rebalancing is done monthly.
+The Details
+The simulation uses the S&P 500 stocks as investment universe. The important point is that it uses the index members as they were on each day back in history. The importance of this cannot be stressed too much. If you use current members today and assume that you would trade them 5 or ten years ago, your simulation will be useless. The universe much be adjusted to what would have been realistic at the time.
+All cash dividends are taking into account of course, as well as other corporate actions.
+All stocks are ranked based on their volatility adjusted slope. This is explained in detail in Stocks on the Move. It involves calculating an exponential regression slope for each stock based on the past 90 days and then multiplying it by the coefficient of correlation. This way, you not only get a measure of the percentage angle of the stock but you also punish stocks that are volatile, rewarding stocks that are showing a more steady ascent.
+The position weights are set based on the volatility of each stock selected. Stocks are only bought if the S&P 500 index is trading above its 200 day moving average. If not, no new buys are allowed.
+Provided that the index is trending up, as described above, we buy new stocks from the top of the
+ranking list
+until we’re out of cash.
+The rebalance is done once a month. The reason why I’ve selected monthly rebalance here and not weekly as in the book is explained more in detail in the
+ranking documentation
+. Briefly, the effects of capital gains taxes that affect individual investors makes a monthly rebalance more favorable for them.
+Every month, this model looks at which positions to sell, which to keep and which to adjust position size for.
+Programming a simulation like this can be complex for most retail investors. It’s significantly more complex to make a proper equity simulation than a futures simulation. Still, there are a few articles on this site to read in case you would like to replicate the simulation.
+The good news is that it’s much simpler to
+implement such a model
+than to simulate it.
+Exact Position Selection
+A very important point to understand is that the exact stock selection is not important.
+This approach is about trading a broad concept. The money is in the concept, not in the exact stock selection. Your stock selection will likely look a little different from mine, and that’s just fine. Depending on what day you start your portfolio, it will look a little different than mine. If you rebalance on a different day, it will look a little different. That’s not a problem. It doesn’t matter.
+As long as your portfolio is constructed of highly ranked momentum stocks, at an approximate vola parity and use use a trend filter to decrease overall allocation in bear markets, you’ll be fine. If a model is too sensitive to the exact details, it’s usually quite worthless to begin with. This is about the concept. If the concept works, the exact stocks picked won’t make much of a difference. If you came up with stocks that were similar enough to mine, they are likely good enough and it will even out.
+Keep the concept in mind. Don’t focus overly much on the details.
+2015-12-14
+Andreas Clenow

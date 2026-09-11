@@ -1,0 +1,21 @@
+.....................C:\Users\22680\Documents\ChatGPT\量化\src\audit_historical_cross_section.py:72: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  mapping_date = (pd.Timestamp(day['date']).replace(day=1) - pd.Timedelta(days=1)).strftime('%Y-%m-%d')
+....C:\Users\22680\Documents\ChatGPT\量化\src\audit_historical_cross_section.py:72: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  mapping_date = (pd.Timestamp(day['date']).replace(day=1) - pd.Timedelta(days=1)).strftime('%Y-%m-%d')
+..............C:\Users\22680\Documents\ChatGPT\量化\tests\test_audit_simple_daily.py:60: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  prefix=pd.DataFrame({k:[float(frame[k].iloc[0])]*120 for k in frame},index=pd.bdate_range(end=frame.index[0]-pd.Timedelta(days=1),periods=120))
+.............................................................................................................C:\Users\22680\Documents\ChatGPT\量化\src\audit_long_history.py:70: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  month = (pd.Timestamp(day).replace(day=1)-pd.Timedelta(days=1)).strftime('%Y%m%d')
+..C:\Users\22680\Documents\ChatGPT\量化\src\monitor_candidate_minutes.py:36: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  if age < pd.Timedelta(0) or age > pd.Timedelta(minutes=15):
+..C:\Users\22680\Documents\ChatGPT\量化\src\monitor_candidate_minutes.py:64: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  horizon = entry_date.normalize() + pd.Timedelta(days=31)
+C:\Users\22680\Documents\ChatGPT\量化\src\monitor_candidate_minutes.py:65: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  if verified.normalize() < entry_date.normalize() - pd.Timedelta(days=7):
+historical batch progress: 1/1 (cached total 1/1)
+historical batch progress: 1/1 (cached total 0/1)
+...........................................................................................................................................................................
+----------------------------------------------------------------------
+Ran 323 tests in 5.360s
+
+OK

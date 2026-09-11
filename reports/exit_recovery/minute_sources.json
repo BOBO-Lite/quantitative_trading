@@ -1,0 +1,42 @@
+[
+  {
+    "file": "reports/e1_asymmetric/minute_export_01.txt",
+    "sha256": "08833d8d416821aeb85ea6fdfa9cfef60b49270398ecd76eebc8972eeadfb940"
+  },
+  {
+    "file": "reports/exit_recovery/minute_export_01.txt",
+    "sha256": "d58afbc4f664fe6649a813826452f53b4eb6bec6ec5e4c911bb540c8707e926f"
+  },
+  {
+    "file": "reports/exit_research/extension_2020/minute_export_03.txt",
+    "sha256": "afe05d356d2eb7c42ceb731c613efa34c459fa266bf7a5d62ac34137423d28a4"
+  },
+  {
+    "file": "reports/exit_research/extension_2020/minute_export_04.txt",
+    "sha256": "fe2b945a1d909add4a969c89c25bd847ce65a8b972bfaa20cfd4b672b75b2af6"
+  },
+  {
+    "file": "reports/recovery_research/minute_export_01.txt",
+    "sha256": "5151d0526c2e8f6914d01095aa8eaabfbbcc1ac6e45399452362fd4a920dcacc"
+  },
+  {
+    "file": "reports/simple_research/2019/minute_export_entry03.txt",
+    "sha256": "0ed4624da6b82eaeb72399d6628c64aa04ce7535ced5904470b199f57e2c4514"
+  },
+  {
+    "file": "reports/simple_research/2019/minute_export_entry04.txt",
+    "sha256": "fd0a5485e8d37577e6bf9aa50017c5c453363ac354eaa328dd57612441ab576d"
+  },
+  {
+    "file": "reports/simple_research/2019/minute_export_supp1.txt",
+    "sha256": "943dd86157607f6ebc4c1a33dc2bd0b123a73e4549254c32aebeff7761a35149"
+  },
+  {
+    "file": "reports/simple_research/2019/minute_export_supp2.txt",
+    "sha256": "34f6c07585ac83bf09c48e2f505b8ff38cd9778e8ec6567c1fc0599bd7194462"
+  },
+  {
+    "file": "reports/simple_research/minute_export_entry.txt",
+    "sha256": "7fc9997db5bf085fdd33c03a9c1deda80608f8dfbf43a626693dc3858e79584e"
+  }
+]

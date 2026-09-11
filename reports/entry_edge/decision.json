@@ -1,0 +1,7 @@
+{
+  "fh_cross_year_price_edge": true,
+  "momentum_cross_year_price_edge": false,
+  "formal_strategy_adopted": false,
+  "exact_portfolio_comparison_complete": false,
+  "reason": "Daily forward adjusted prices are selection diagnostics, not executable net account returns"
+}

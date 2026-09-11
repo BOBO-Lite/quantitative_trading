@@ -1,0 +1,78 @@
+[
+  {
+    "cost": 1.0,
+    "status": "PASS_RECOVERY_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 80,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 31795.388571030035,
+    "final_equity": 31795.38857103003,
+    "taxes": [
+      {
+        "datetime": "2019-04-24T09:32:00",
+        "amount": 28.0
+      },
+      {
+        "datetime": "2019-09-26T09:32:00",
+        "amount": 5.0
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "R1"
+  },
+  {
+    "cost": 1.5,
+    "status": "PASS_RECOVERY_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 80,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 31110.241754664996,
+    "final_equity": 31110.241754664996,
+    "taxes": [
+      {
+        "datetime": "2019-04-24T09:32:00",
+        "amount": 28.0
+      },
+      {
+        "datetime": "2019-09-26T09:32:00",
+        "amount": 5.0
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "R1"
+  },
+  {
+    "cost": 1.0,
+    "status": "PASS_RECOVERY_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 52,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 29221.522208850005,
+    "final_equity": 29221.52220885001,
+    "taxes": [
+      {
+        "datetime": "2019-10-15T09:32:00",
+        "amount": 2.5
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "R2"
+  },
+  {
+    "cost": 1.5,
+    "status": "PASS_RECOVERY_MINUTE_PARITY",
+    "minute_comparisons": 175200,
+    "fills": 48,
+    "maximum_cash_or_equity_difference": 3.637978807091713e-12,
+    "final_cash": 28916.09325932498,
+    "final_equity": 28916.09325932498,
+    "taxes": [
+      {
+        "datetime": "2019-10-15T09:32:00",
+        "amount": 2.5
+      }
+    ],
+    "scope": "same intents, independent account execution; not independent strategy selection",
+    "variant": "R2"
+  }
+]

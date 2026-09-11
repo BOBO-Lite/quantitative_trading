@@ -1,0 +1,89 @@
+{
+  "initial_requested_days": 3701,
+  "unique_extension_stock_days": 3944,
+  "verified_minutes": 946560,
+  "batches": [
+    {
+      "file": "minute_export_01.txt",
+      "stock_days": 800,
+      "symbols": 240,
+      "sha256": "ba024b0f493118b7bb061ce73f9352a70f852efb5c36408f315213f170c1f447",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_02.txt",
+      "stock_days": 800,
+      "symbols": 255,
+      "sha256": "e5703fd6fb1d4cdca77d80590949aa45a91d58140280a25263d74d80ce0550b4",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_03.txt",
+      "stock_days": 800,
+      "symbols": 218,
+      "sha256": "afe05d356d2eb7c42ceb731c613efa34c459fa266bf7a5d62ac34137423d28a4",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_04.txt",
+      "stock_days": 800,
+      "symbols": 212,
+      "sha256": "fe2b945a1d909add4a969c89c25bd847ce65a8b972bfaa20cfd4b672b75b2af6",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_05.txt",
+      "stock_days": 501,
+      "symbols": 167,
+      "sha256": "71191024e0a23ea0c772a44a904d20cd4d9b194582f217f333ba2125b6b67b18",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_06.txt",
+      "stock_days": 27,
+      "symbols": 1,
+      "sha256": "0f575f9e74b4e08925244240395b61a3d7e943dedc8d36e1a55fec8ac647e05d",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_07.txt",
+      "stock_days": 27,
+      "symbols": 1,
+      "sha256": "219299453945d9b3bf9eba6d19279b1bd7443cd7a9204a81a846d75c40fdd9ae",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_08.txt",
+      "stock_days": 27,
+      "symbols": 1,
+      "sha256": "28739c4d743c4730d7fdffffe057d79e88702e1422b1d3e23e2184c70ec06511",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_09.txt",
+      "stock_days": 81,
+      "symbols": 3,
+      "sha256": "55fb17858e3dfd4396c6d7097f04f630760e4d69077c0fdaf964d6ce80ac667d",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_10.txt",
+      "stock_days": 54,
+      "symbols": 2,
+      "sha256": "3d002a64ce996b80c442c6320d3ba9c23216d496b15bc95d92481b71009816e7",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    },
+    {
+      "file": "minute_export_11.txt",
+      "stock_days": 27,
+      "symbols": 1,
+      "sha256": "8eb8ff0249f7844b5cb3c140422eddc47f1265e5e11ca90e2665f9ebbf49e282",
+      "status": "PASS_COMPLETE_REQUESTS_AND_MINUTE_DAILY_CHECKS"
+    }
+  ],
+  "entry_supplement_stock_days": 54,
+  "entry_supplement_minutes": 12960,
+  "corporate_unresolved_symbols": 11,
+  "corporate_unresolved_policy": "block actual entry, do not remove candidate",
+  "all_eight_paths_completed": true
+}

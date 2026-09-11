@@ -1,0 +1,1467 @@
+{
+  "fixed_baseline_exit_samples": [
+    {
+      "cost": 1.0,
+      "trades": [
+        {
+          "symbol": "601009.SH",
+          "entry_time": "2018-01-26T09:46:00",
+          "entry_price": 9.619609999999998,
+          "entry_quantity": 700,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 35.95622562999961,
+          "exit_time": "2018-01-30T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2018-02-06",
+              "adjusted_close_return": 0.012320328542094305
+            },
+            "10": {
+              "status": "OK",
+              "date": "2018-02-13",
+              "adjusted_close_return": -0.06981519507186851
+            }
+          }
+        },
+        {
+          "symbol": "000876.SZ",
+          "entry_time": "2018-01-29T09:46:00",
+          "entry_price": 8.47847,
+          "entry_quantity": 800,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -59.023828320000575,
+          "exit_time": "2018-01-30T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2018-02-06",
+              "adjusted_close_return": -0.014510278113663788
+            },
+            "10": {
+              "status": "OK",
+              "date": "2018-02-13",
+              "adjusted_close_return": -0.0943168077388149
+            }
+          }
+        },
+        {
+          "symbol": "600398.SH",
+          "entry_time": "2018-01-26T09:46:00",
+          "entry_price": 10.790779999999998,
+          "entry_quantity": 600,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 1052.0736248000012,
+          "exit_time": "2018-02-05T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2018-02-12",
+              "adjusted_close_return": -0.06995230524642282
+            },
+            "10": {
+              "status": "OK",
+              "date": "2018-02-26",
+              "adjusted_close_return": 0.010333863275039823
+            }
+          }
+        },
+        {
+          "symbol": "600585.SH",
+          "entry_time": "2019-02-19T09:46:00",
+          "entry_price": 35.37534,
+          "entry_quantity": 200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -319.36705491999965,
+          "exit_time": "2019-02-22T09:50:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-01",
+              "adjusted_close_return": 0.05706051873198836
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-08",
+              "adjusted_close_return": 0.012968299711815234
+            }
+          }
+        },
+        {
+          "symbol": "002373.SZ",
+          "entry_time": "2019-02-22T09:51:00",
+          "entry_price": 14.714699999999997,
+          "entry_quantity": 400,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -148.6274832399995,
+          "exit_time": "2019-02-27T09:56:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-06",
+              "adjusted_close_return": 0.23612087139845395
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-13",
+              "adjusted_close_return": 0.2853127196064651
+            }
+          }
+        },
+        {
+          "symbol": "601318.SH",
+          "entry_time": "2019-02-19T09:46:00",
+          "entry_price": 65.98592,
+          "entry_quantity": 100,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 346.8269067400006,
+          "exit_time": "2019-02-27T14:21:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-06",
+              "adjusted_close_return": 0.0311517576450413
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-13",
+              "adjusted_close_return": 0.022292083452414957
+            }
+          }
+        },
+        {
+          "symbol": "600030.SH",
+          "entry_time": "2019-02-19T09:46:00",
+          "entry_price": 20.009989999999995,
+          "entry_quantity": 300,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 942.4278626900023,
+          "exit_time": "2019-02-28T09:40:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-07",
+              "adjusted_close_return": 0.13823904721395142
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-14",
+              "adjusted_close_return": -0.005954912803062706
+            }
+          }
+        },
+        {
+          "symbol": "600398.SH",
+          "entry_time": "2019-02-28T09:47:00",
+          "entry_price": 10.030019999999999,
+          "entry_quantity": 700,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -223.37591296000028,
+          "exit_time": "2019-03-08T09:32:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-15",
+              "adjusted_close_return": -0.0020768431983386737
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-22",
+              "adjusted_close_return": 0.019730010384215957
+            }
+          }
+        },
+        {
+          "symbol": "000598.SZ",
+          "entry_time": "2019-02-28T10:16:00",
+          "entry_price": 4.75475,
+          "entry_quantity": 1000,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -41.93743519999953,
+          "exit_time": "2019-03-08T13:04:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-15",
+              "adjusted_close_return": 0.03246753246753231
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-22",
+              "adjusted_close_return": 0.051948051948051965
+            }
+          }
+        },
+        {
+          "symbol": "002244.SZ",
+          "entry_time": "2019-02-27T09:59:00",
+          "entry_price": 4.46446,
+          "entry_quantity": 1600,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 163.73102592000123,
+          "exit_time": "2019-03-08T13:12:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-15",
+              "adjusted_close_return": 0.013452914798206317
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-22",
+              "adjusted_close_return": 0.06278026905829615
+            }
+          }
+        },
+        {
+          "symbol": "002350.SZ",
+          "entry_time": "2019-03-08T09:47:00",
+          "entry_price": 7.707699999999999,
+          "entry_quantity": 900,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -350.97106024000004,
+          "exit_time": "2019-03-11T09:32:00",
+          "last_exit_reason": "scheduled_exit",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-18",
+              "adjusted_close_return": -0.06171284634760721
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-25",
+              "adjusted_close_return": -0.04282115869017655
+            }
+          }
+        },
+        {
+          "symbol": "002242.SZ",
+          "entry_time": "2019-03-12T09:46:00",
+          "entry_price": 21.581559999999996,
+          "entry_quantity": 200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -278.4746355799989,
+          "exit_time": "2019-03-13T09:32:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-20",
+              "adjusted_close_return": 0.11073985680190934
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-27",
+              "adjusted_close_return": 0.03866348448687362
+            }
+          }
+        },
+        {
+          "symbol": "000408.SZ",
+          "entry_time": "2019-03-12T09:46:00",
+          "entry_price": 13.153139999999999,
+          "entry_quantity": 300,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -235.60581916,
+          "exit_time": "2019-03-13T14:27:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-20",
+              "adjusted_close_return": 0.024701195219123395
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-27",
+              "adjusted_close_return": -0.03665338645418337
+            }
+          }
+        },
+        {
+          "symbol": "000157.SZ",
+          "entry_time": "2019-03-18T09:46:00",
+          "entry_price": 4.554549999999999,
+          "entry_quantity": 1000,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -221.1618269999999,
+          "exit_time": "2019-03-27T10:13:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-03",
+              "adjusted_close_return": 0.11607142857142838
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-11",
+              "adjusted_close_return": 0.2075892857142858
+            }
+          }
+        },
+        {
+          "symbol": "600160.SH",
+          "entry_time": "2019-03-12T09:46:00",
+          "entry_price": 8.498489999999999,
+          "entry_quantity": 700,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -73.89942348999921,
+          "exit_time": "2019-03-29T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-08",
+              "adjusted_close_return": 0.17517401392111398
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-15",
+              "adjusted_close_return": 0.04524361948955935
+            }
+          }
+        },
+        {
+          "symbol": "600277.SH",
+          "entry_time": "2019-03-13T09:46:00",
+          "entry_price": 6.776769999999999,
+          "entry_quantity": 900,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 289.1731971500012,
+          "exit_time": "2019-03-29T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-08",
+              "adjusted_close_return": 0.10344827586206895
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-15",
+              "adjusted_close_return": 0.10482758620689636
+            }
+          }
+        },
+        {
+          "symbol": "601021.SH",
+          "entry_time": "2019-03-28T09:46:00",
+          "entry_price": 40.81077,
+          "entry_quantity": 100,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -161.0591634100001,
+          "exit_time": "2019-03-29T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-08",
+              "adjusted_close_return": 0.04064039408866971
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-15",
+              "adjusted_close_return": -0.007389162561576512
+            }
+          }
+        },
+        {
+          "symbol": "600009.SH",
+          "entry_time": "2019-04-01T09:46:00",
+          "entry_price": 64.02395999999999,
+          "entry_quantity": 100,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -356.6150808099992,
+          "exit_time": "2019-04-08T09:51:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-15",
+              "adjusted_close_return": 0.0014739600393056662
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-22",
+              "adjusted_close_return": 0.08909269570913869
+            }
+          }
+        },
+        {
+          "symbol": "601398.SH",
+          "entry_time": "2019-04-08T09:52:00",
+          "entry_price": 5.895889999999999,
+          "entry_quantity": 1200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -219.5180039199986,
+          "exit_time": "2019-04-10T09:38:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-17",
+              "adjusted_close_return": 0.045217391304347876
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-24",
+              "adjusted_close_return": 0.010434782608695459
+            }
+          }
+        },
+        {
+          "symbol": "000423.SZ",
+          "entry_time": "2019-04-10T09:46:00",
+          "entry_price": 51.44139,
+          "entry_quantity": 100,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -284.55222411999966,
+          "exit_time": "2019-04-16T09:32:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-23",
+              "adjusted_close_return": -0.008620689655172376
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-30",
+              "adjusted_close_return": -0.12209302325581406
+            }
+          }
+        },
+        {
+          "symbol": "600887.SH",
+          "entry_time": "2019-04-01T09:46:00",
+          "entry_price": 30.230199999999996,
+          "entry_quantity": 200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -143.03966017999937,
+          "exit_time": "2019-04-16T09:35:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-23",
+              "adjusted_close_return": -0.012633624878522931
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-30",
+              "adjusted_close_return": 0.004211208292840718
+            }
+          }
+        },
+        {
+          "symbol": "600886.SH",
+          "entry_time": "2019-04-04T09:55:00",
+          "entry_price": 8.688679999999998,
+          "entry_quantity": 500,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -60.874250399999255,
+          "exit_time": "2019-04-18T09:32:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-25",
+              "adjusted_close_return": -0.03297997644287387
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-05-07",
+              "adjusted_close_return": -0.08362779740871606
+            }
+          }
+        },
+        {
+          "symbol": "002536.SZ",
+          "entry_time": "2019-04-18T09:46:00",
+          "entry_price": 11.711699999999999,
+          "entry_quantity": 400,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -193.53162771999905,
+          "exit_time": "2019-04-19T10:43:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-26",
+              "adjusted_close_return": -0.06343612334801763
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-05-08",
+              "adjusted_close_return": -0.1444933920704845
+            }
+          }
+        },
+        {
+          "symbol": "600000.SH",
+          "entry_time": "2019-04-17T09:46:00",
+          "entry_price": 11.97196,
+          "entry_quantity": 600,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -171.86256543999934,
+          "exit_time": "2019-04-24T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-05-06",
+              "adjusted_close_return": 0.015490533562822817
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-05-13",
+              "adjusted_close_return": -0.026678141135972333
+            }
+          }
+        },
+        {
+          "symbol": "000623.SZ",
+          "entry_time": "2019-04-17T09:46:00",
+          "entry_price": 19.49948,
+          "entry_quantity": 300,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -177.49300602999938,
+          "exit_time": "2019-04-24T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-05-06",
+              "adjusted_close_return": -0.11099365750528545
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-05-13",
+              "adjusted_close_return": -0.11575052854122636
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cost": 1.5,
+      "trades": [
+        {
+          "symbol": "601009.SH",
+          "entry_time": "2018-01-26T09:46:00",
+          "entry_price": 9.624415,
+          "entry_quantity": 700,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 22.436885167498986,
+          "exit_time": "2018-01-30T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2018-02-06",
+              "adjusted_close_return": 0.012320328542094305
+            },
+            "10": {
+              "status": "OK",
+              "date": "2018-02-13",
+              "adjusted_close_return": -0.06981519507186851
+            }
+          }
+        },
+        {
+          "symbol": "000876.SZ",
+          "entry_time": "2018-01-29T09:46:00",
+          "entry_price": 8.482705000000001,
+          "entry_quantity": 800,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -72.53321372000028,
+          "exit_time": "2018-01-30T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2018-02-06",
+              "adjusted_close_return": -0.014510278113663788
+            },
+            "10": {
+              "status": "OK",
+              "date": "2018-02-13",
+              "adjusted_close_return": -0.0943168077388149
+            }
+          }
+        },
+        {
+          "symbol": "600398.SH",
+          "entry_time": "2018-01-26T09:46:00",
+          "entry_price": 10.79617,
+          "entry_quantity": 600,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 1038.1132757999994,
+          "exit_time": "2018-02-05T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2018-02-12",
+              "adjusted_close_return": -0.06995230524642282
+            },
+            "10": {
+              "status": "OK",
+              "date": "2018-02-26",
+              "adjusted_close_return": 0.010333863275039823
+            }
+          }
+        },
+        {
+          "symbol": "601318.SH",
+          "entry_time": "2019-02-19T09:46:00",
+          "entry_price": 66.01888000000001,
+          "entry_quantity": 100,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 333.2429751649988,
+          "exit_time": "2019-02-27T14:21:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-06",
+              "adjusted_close_return": 0.0311517576450413
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-13",
+              "adjusted_close_return": 0.022292083452414957
+            }
+          }
+        },
+        {
+          "symbol": "000776.SZ",
+          "entry_time": "2019-02-19T09:46:00",
+          "entry_price": 14.822200000000002,
+          "entry_quantity": 300,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 557.8838581725004,
+          "exit_time": "2019-02-27T14:35:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-06",
+              "adjusted_close_return": 0.04761904761904745
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-13",
+              "adjusted_close_return": -0.014109347442680886
+            }
+          }
+        },
+        {
+          "symbol": "600030.SH",
+          "entry_time": "2019-02-19T09:46:00",
+          "entry_price": 20.019985,
+          "entry_quantity": 300,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 929.1444135525007,
+          "exit_time": "2019-02-28T09:40:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-07",
+              "adjusted_close_return": 0.13823904721395142
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-14",
+              "adjusted_close_return": -0.005954912803062706
+            }
+          }
+        },
+        {
+          "symbol": "600681.SH",
+          "entry_time": "2019-02-28T10:12:00",
+          "entry_price": 13.740580000000001,
+          "entry_quantity": 300,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 71.21523754500049,
+          "exit_time": "2019-03-07T09:32:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-14",
+              "adjusted_close_return": -0.02584933530280653
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-21",
+              "adjusted_close_return": 0.01255539143279183
+            }
+          }
+        },
+        {
+          "symbol": "600398.SH",
+          "entry_time": "2019-02-28T09:47:00",
+          "entry_price": 10.03503,
+          "entry_quantity": 700,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -237.0613141599997,
+          "exit_time": "2019-03-08T09:32:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-15",
+              "adjusted_close_return": -0.0020768431983386737
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-22",
+              "adjusted_close_return": 0.019730010384215957
+            }
+          }
+        },
+        {
+          "symbol": "601009.SH",
+          "entry_time": "2019-03-07T09:46:00",
+          "entry_price": 8.232330000000001,
+          "entry_quantity": 900,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -366.22262903999945,
+          "exit_time": "2019-03-08T09:32:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-15",
+              "adjusted_close_return": -0.01538461538461533
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-22",
+              "adjusted_close_return": 0.02564102564102555
+            }
+          }
+        },
+        {
+          "symbol": "002244.SZ",
+          "entry_time": "2019-02-28T09:46:00",
+          "entry_price": 4.56684,
+          "entry_quantity": 1500,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -10.915420575000098,
+          "exit_time": "2019-03-08T13:12:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-03-15",
+              "adjusted_close_return": 0.013452914798206317
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-03-22",
+              "adjusted_close_return": 0.06278026905829615
+            }
+          }
+        },
+        {
+          "symbol": "002266.SZ",
+          "entry_time": "2019-03-08T09:49:00",
+          "entry_price": 5.127680000000001,
+          "entry_quantity": 1500,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 524.6878440749988,
+          "exit_time": "2019-03-27T09:39:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-03",
+              "adjusted_close_return": -0.05390334572490718
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-11",
+              "adjusted_close_return": -0.029739776951672958
+            }
+          }
+        },
+        {
+          "symbol": "600215.SH",
+          "entry_time": "2019-03-08T09:53:00",
+          "entry_price": 8.33248,
+          "entry_quantity": 700,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 354.10440182000093,
+          "exit_time": "2019-03-29T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-08",
+              "adjusted_close_return": -0.01318681318681314
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-15",
+              "adjusted_close_return": -0.020879120879120805
+            }
+          }
+        },
+        {
+          "symbol": "600160.SH",
+          "entry_time": "2019-03-12T09:46:00",
+          "entry_price": 8.502735000000001,
+          "entry_quantity": 700,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -86.34692535249997,
+          "exit_time": "2019-03-29T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-08",
+              "adjusted_close_return": 0.17517401392111398
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-15",
+              "adjusted_close_return": 0.04524361948955935
+            }
+          }
+        },
+        {
+          "symbol": "601021.SH",
+          "entry_time": "2019-03-28T09:46:00",
+          "entry_price": 40.831155,
+          "entry_quantity": 100,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -171.0872701724993,
+          "exit_time": "2019-03-29T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-08",
+              "adjusted_close_return": 0.04064039408866971
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-15",
+              "adjusted_close_return": -0.007389162561576512
+            }
+          }
+        },
+        {
+          "symbol": "600887.SH",
+          "entry_time": "2019-04-01T09:46:00",
+          "entry_price": 30.2453,
+          "entry_quantity": 200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -155.55727040500005,
+          "exit_time": "2019-04-16T09:35:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-23",
+              "adjusted_close_return": -0.012633624878522931
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-04-30",
+              "adjusted_close_return": 0.004211208292840718
+            }
+          }
+        },
+        {
+          "symbol": "600886.SH",
+          "entry_time": "2019-04-04T09:55:00",
+          "entry_price": 8.69302,
+          "entry_quantity": 500,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -71.30976340000052,
+          "exit_time": "2019-04-18T09:32:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-25",
+              "adjusted_close_return": -0.03297997644287387
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-05-07",
+              "adjusted_close_return": -0.08362779740871606
+            }
+          }
+        },
+        {
+          "symbol": "002536.SZ",
+          "entry_time": "2019-04-18T09:46:00",
+          "entry_price": 11.71755,
+          "entry_quantity": 600,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -298.94362855500003,
+          "exit_time": "2019-04-19T10:43:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-04-26",
+              "adjusted_close_return": -0.06343612334801763
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-05-08",
+              "adjusted_close_return": -0.1444933920704845
+            }
+          }
+        },
+        {
+          "symbol": "600036.SH",
+          "entry_time": "2019-04-01T09:46:00",
+          "entry_price": 34.842185,
+          "entry_quantity": 200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 112.35795446500015,
+          "exit_time": "2019-04-24T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-05-06",
+              "adjusted_close_return": -0.05279329608938543
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-05-13",
+              "adjusted_close_return": -0.08379888268156432
+            }
+          }
+        },
+        {
+          "symbol": "600000.SH",
+          "entry_time": "2019-04-17T09:46:00",
+          "entry_price": 11.977940000000002,
+          "entry_quantity": 600,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -185.79121223999937,
+          "exit_time": "2019-04-24T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-05-06",
+              "adjusted_close_return": 0.015490533562822817
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-05-13",
+              "adjusted_close_return": -0.026678141135972333
+            }
+          }
+        },
+        {
+          "symbol": "600050.SH",
+          "entry_time": "2019-04-22T09:48:00",
+          "entry_price": 7.1907700000000006,
+          "entry_quantity": 800,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -108.54286062000119,
+          "exit_time": "2019-04-24T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-05-06",
+              "adjusted_close_return": -0.14647887323943654
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-05-13",
+              "adjusted_close_return": -0.1619718309859154
+            }
+          }
+        },
+        {
+          "symbol": "600869.SH",
+          "entry_time": "2019-09-09T09:52:00",
+          "entry_price": 4.9474100000000005,
+          "entry_quantity": 900,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -103.63788086999921,
+          "exit_time": "2019-09-12T10:19:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-09-20",
+              "adjusted_close_return": 0.04259634888438124
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-09-27",
+              "adjusted_close_return": 0.012170385395537497
+            }
+          }
+        },
+        {
+          "symbol": "601238.SH",
+          "entry_time": "2019-09-09T09:46:00",
+          "entry_price": 12.328465000000001,
+          "entry_quantity": 500,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -177.94203627500065,
+          "exit_time": "2019-09-23T10:57:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-09-30",
+              "adjusted_close_return": 0.016566995775489257
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-10-14",
+              "adjusted_close_return": 0.11598675086355681
+            }
+          }
+        },
+        {
+          "symbol": "000012.SZ",
+          "entry_time": "2019-09-16T09:46:00",
+          "entry_price": 4.576855,
+          "entry_quantity": 1600,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -314.01536611999836,
+          "exit_time": "2019-09-25T09:32:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-10-09",
+              "adjusted_close_return": -0.002309468822170868
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-10-16",
+              "adjusted_close_return": 0.03926096997690531
+            }
+          }
+        },
+        {
+          "symbol": "603676.SH",
+          "entry_time": "2019-09-24T09:46:00",
+          "entry_price": 12.769125,
+          "entry_quantity": 400,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -325.61121757,
+          "exit_time": "2019-09-25T13:37:00",
+          "last_exit_reason": "protective_stop",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-10-09",
+              "adjusted_close_return": -0.04067796610169494
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-10-16",
+              "adjusted_close_return": -0.025423728813559365
+            }
+          }
+        },
+        {
+          "symbol": "000708.SZ",
+          "entry_time": "2019-09-09T09:46:00",
+          "entry_price": 15.673475000000002,
+          "entry_quantity": 400,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 436.2666487100005,
+          "exit_time": "2019-09-26T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-10-10",
+              "adjusted_close_return": 0.014751075599262586
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-10-17",
+              "adjusted_close_return": -0.011063306699446884
+            }
+          }
+        },
+        {
+          "symbol": "600702.SH",
+          "entry_time": "2019-09-25T09:46:00",
+          "entry_price": 30.716005000000003,
+          "entry_quantity": 200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": 49.621161729999585,
+          "exit_time": "2019-09-26T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-10-10",
+              "adjusted_close_return": -0.04105960264900643
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-10-17",
+              "adjusted_close_return": 0.03741721854304636
+            }
+          }
+        },
+        {
+          "symbol": "000875.SZ",
+          "entry_time": "2019-10-15T09:46:00",
+          "entry_price": 3.36504,
+          "entry_quantity": 2100,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -62.61620109749947,
+          "exit_time": "2019-10-16T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-10-23",
+              "adjusted_close_return": -0.006006006006005982
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-10-30",
+              "adjusted_close_return": 0.04504504504504503
+            }
+          }
+        },
+        {
+          "symbol": "600583.SH",
+          "entry_time": "2019-10-15T10:04:00",
+          "entry_price": 6.009,
+          "entry_quantity": 1200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -114.04490261999945,
+          "exit_time": "2019-10-16T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-10-23",
+              "adjusted_close_return": -0.04721753794266437
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-10-30",
+              "adjusted_close_return": -0.006745362563237878
+            }
+          }
+        },
+        {
+          "symbol": "600337.SH",
+          "entry_time": "2019-10-29T09:46:00",
+          "entry_price": 4.476705,
+          "entry_quantity": 1400,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -262.1410967899992,
+          "exit_time": "2019-10-30T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-11-06",
+              "adjusted_close_return": -0.06367924528301894
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-11-13",
+              "adjusted_close_return": -0.0778301886792453
+            }
+          }
+        },
+        {
+          "symbol": "601333.SH",
+          "entry_time": "2019-10-29T09:49:00",
+          "entry_price": 3.2448600000000005,
+          "entry_quantity": 2300,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -134.95190206999905,
+          "exit_time": "2019-10-30T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-11-06",
+              "adjusted_close_return": -0.02857142857142858
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-11-13",
+              "adjusted_close_return": -0.050793650793650724
+            }
+          }
+        },
+        {
+          "symbol": "600926.SH",
+          "entry_time": "2019-10-29T10:31:00",
+          "entry_price": 9.03353,
+          "entry_quantity": 700,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -108.70134707499983,
+          "exit_time": "2019-10-30T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-11-06",
+              "adjusted_close_return": 0.03626373626373636
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-11-13",
+              "adjusted_close_return": -0.00439560439560438
+            }
+          }
+        },
+        {
+          "symbol": "600690.SH",
+          "entry_time": "2019-11-06T09:46:00",
+          "entry_price": 18.24733,
+          "entry_quantity": 400,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -54.51327476999904,
+          "exit_time": "2019-11-07T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-11-14",
+              "adjusted_close_return": -0.030601092896174853
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-11-21",
+              "adjusted_close_return": -0.024590163934426146
+            }
+          }
+        },
+        {
+          "symbol": "000878.SZ",
+          "entry_time": "2019-11-06T09:46:00",
+          "entry_price": 11.316950000000002,
+          "entry_quantity": 500,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -101.20349333750073,
+          "exit_time": "2019-11-07T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-11-14",
+              "adjusted_close_return": -0.03584229390681004
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-11-21",
+              "adjusted_close_return": -0.05197132616487443
+            }
+          }
+        },
+        {
+          "symbol": "002047.SZ",
+          "entry_time": "2019-11-06T09:46:00",
+          "entry_price": 5.74861,
+          "entry_quantity": 700,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -23.199366717499288,
+          "exit_time": "2019-11-07T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-11-14",
+              "adjusted_close_return": 0.05993150684931514
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-11-21",
+              "adjusted_close_return": 0.10787671232876717
+            }
+          }
+        },
+        {
+          "symbol": "600690.SH",
+          "entry_time": "2019-11-08T09:46:00",
+          "entry_price": 18.80817,
+          "entry_quantity": 400,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -290.8254735799992,
+          "exit_time": "2019-11-11T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-11-18",
+              "adjusted_close_return": -0.006162464985994487
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-11-25",
+              "adjusted_close_return": 0.0011204481792717047
+            }
+          }
+        },
+        {
+          "symbol": "002507.SZ",
+          "entry_time": "2019-11-08T09:46:00",
+          "entry_price": 25.61837,
+          "entry_quantity": 200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -168.0293682649999,
+          "exit_time": "2019-11-11T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-11-18",
+              "adjusted_close_return": 0.0371417036737991
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-11-25",
+              "adjusted_close_return": 0.009689140088817272
+            }
+          }
+        },
+        {
+          "symbol": "600993.SH",
+          "entry_time": "2019-11-08T09:54:00",
+          "entry_price": 19.60937,
+          "entry_quantity": 200,
+          "remaining": 0,
+          "realized_pnl_excluding_dividends": -165.49019055999997,
+          "exit_time": "2019-11-11T09:32:00",
+          "last_exit_reason": "cash_defense",
+          "forward": {
+            "5": {
+              "status": "OK",
+              "date": "2019-11-18",
+              "adjusted_close_return": -0.008008542445275046
+            },
+            "10": {
+              "status": "OK",
+              "date": "2019-11-25",
+              "adjusted_close_return": -0.059263214095034655
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "forward_summary": [
+    {
+      "cost": 1.0,
+      "horizon": 5,
+      "total_trades": 25,
+      "available": 25,
+      "unavailable": 0,
+      "up": 16,
+      "down": 9,
+      "flat": 0,
+      "mean": 0.031074147017286134,
+      "median": 0.015490533562822817
+    },
+    {
+      "cost": 1.0,
+      "horizon": 10,
+      "total_trades": 25,
+      "available": 25,
+      "unavailable": 0,
+      "up": 14,
+      "down": 11,
+      "flat": 0,
+      "mean": 0.008633378168507733,
+      "median": 0.010333863275039823
+    },
+    {
+      "cost": 1.5,
+      "horizon": 5,
+      "total_trades": 37,
+      "available": 37,
+      "unavailable": 0,
+      "up": 14,
+      "down": 23,
+      "flat": 0,
+      "mean": -0.003567072306192363,
+      "median": -0.008008542445275046
+    },
+    {
+      "cost": 1.5,
+      "horizon": 10,
+      "total_trades": 37,
+      "available": 37,
+      "unavailable": 0,
+      "up": 16,
+      "down": 21,
+      "flat": 0,
+      "mean": -0.013067480335767517,
+      "median": -0.006745362563237878
+    }
+  ],
+  "entry_overlap": [
+    {
+      "variant": "E1",
+      "cost": 1.0,
+      "original_entries": 25,
+      "candidate_entries": 30,
+      "common": 10,
+      "only_original": 15,
+      "only_candidate": 20
+    },
+    {
+      "variant": "E2",
+      "cost": 1.0,
+      "original_entries": 25,
+      "candidate_entries": 28,
+      "common": 7,
+      "only_original": 18,
+      "only_candidate": 21
+    },
+    {
+      "variant": "E1",
+      "cost": 1.5,
+      "original_entries": 37,
+      "candidate_entries": 31,
+      "common": 24,
+      "only_original": 13,
+      "only_candidate": 7
+    },
+    {
+      "variant": "E2",
+      "cost": 1.5,
+      "original_entries": 37,
+      "candidate_entries": 27,
+      "common": 22,
+      "only_original": 15,
+      "only_candidate": 5
+    }
+  ],
+  "note": "退出日收盘到后5/10交易日复权收盘变化，不是卖出成交价到后续可成交价收益；不含额外持有费用，不能视作可执行策略。"
+}

@@ -1,0 +1,171 @@
+{
+  "income_2017q3": {
+    "columns": [
+      "income_stat_symbol",
+      "income_stat_report_date",
+      "income_stat_stat_date",
+      "income_stat_np_atsopc"
+    ],
+    "index": [
+      0
+    ],
+    "data": [
+      [
+        "001914.SZ",
+        "2017-10-30T00:00:00.000Z",
+        "2017-09-30T00:00:00.000Z",
+        -71740954.0
+      ]
+    ]
+  },
+  "cashflow_2017q3": {
+    "columns": [
+      "cashflow_stat_symbol",
+      "cashflow_stat_report_date",
+      "cashflow_stat_stat_date",
+      "cashflow_stat_net_cash_flows_from_opt_act"
+    ],
+    "index": [
+      0
+    ],
+    "data": [
+      [
+        "001914.SZ",
+        "2017-10-30T00:00:00.000Z",
+        "2017-09-30T00:00:00.000Z",
+        1726124033.25
+      ]
+    ]
+  },
+  "balance_2017q3": {
+    "columns": [
+      "balance_stat_symbol",
+      "balance_stat_report_date",
+      "balance_stat_stat_date",
+      "balance_stat_total_assets",
+      "balance_stat_total_liabilities",
+      "balance_stat_total_quity_atsopc"
+    ],
+    "index": [
+      0
+    ],
+    "data": [
+      [
+        "001914.SZ",
+        "2017-10-30T00:00:00.000Z",
+        "2017-09-30T00:00:00.000Z",
+        19191078011.1,
+        14593775501.06,
+        3960762110.28
+      ]
+    ]
+  },
+  "income_2017q2": {
+    "columns": [
+      "income_stat_symbol",
+      "income_stat_report_date",
+      "income_stat_stat_date",
+      "income_stat_np_atsopc"
+    ],
+    "index": [
+      0
+    ],
+    "data": [
+      [
+        "001914.SZ",
+        "2017-08-12T00:00:00.000Z",
+        "2017-06-30T00:00:00.000Z",
+        -140525749.33
+      ]
+    ]
+  },
+  "cashflow_2017q2": {
+    "columns": [
+      "cashflow_stat_symbol",
+      "cashflow_stat_report_date",
+      "cashflow_stat_stat_date",
+      "cashflow_stat_net_cash_flows_from_opt_act"
+    ],
+    "index": [
+      0
+    ],
+    "data": [
+      [
+        "001914.SZ",
+        "2017-08-12T00:00:00.000Z",
+        "2017-06-30T00:00:00.000Z",
+        1476304469.38
+      ]
+    ]
+  },
+  "balance_2017q2": {
+    "columns": [
+      "balance_stat_symbol",
+      "balance_stat_report_date",
+      "balance_stat_stat_date",
+      "balance_stat_total_assets",
+      "balance_stat_total_liabilities",
+      "balance_stat_total_quity_atsopc"
+    ],
+    "index": [
+      0
+    ],
+    "data": [
+      [
+        "001914.SZ",
+        "2017-08-12T00:00:00.000Z",
+        "2017-06-30T00:00:00.000Z",
+        19047274326.35,
+        14531163624.57,
+        3893113184.6
+      ]
+    ]
+  },
+  "prices": {
+    "000043.SZ": {
+      "columns": [
+        "close",
+        "is_st",
+        "is_paused"
+      ],
+      "index": [
+        "2017-12-29T00:00:00.000Z"
+      ],
+      "data": [
+        [
+          9.71,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "001914.SZ": {
+      "columns": [
+        "close",
+        "is_st",
+        "is_paused"
+      ],
+      "index": [
+        "2017-12-29T00:00:00.000Z"
+      ],
+      "data": [
+        [
+          9.71,
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "valuation": {
+    "columns": [
+      "valuation_symbol",
+      "valuation_date",
+      "valuation_pe_ttm",
+      "valuation_current_market_cap",
+      "valuation_circulating_cap"
+    ],
+    "index": [],
+    "data": []
+  }
+}

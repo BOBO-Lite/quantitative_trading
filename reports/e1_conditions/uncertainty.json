@@ -1,0 +1,65 @@
+{
+  "seed": 20260909,
+  "replications": 2000,
+  "warning": "Descriptive block-bootstrap after searching multiple groups; not a confirmatory significance test.",
+  "results": {
+    "discovery": {
+      "5": {
+        "month_blocks": 7,
+        "date_count": 59,
+        "excess_pp": 0.6867088757056248,
+        "descriptive_month_block_bootstrap_95pct": [
+          0.20164468952541725,
+          1.5955450446353237
+        ]
+      },
+      "10": {
+        "month_blocks": 6,
+        "date_count": 55,
+        "excess_pp": 0.9782684638978563,
+        "descriptive_month_block_bootstrap_95pct": [
+          0.19662494685379908,
+          1.7475962078667786
+        ]
+      },
+      "20": {
+        "month_blocks": 6,
+        "date_count": 55,
+        "excess_pp": 0.8219326076811423,
+        "descriptive_month_block_bootstrap_95pct": [
+          -0.1225552437725468,
+          1.479609613863073
+        ]
+      }
+    },
+    "review2020": {
+      "5": {
+        "month_blocks": 8,
+        "date_count": 68,
+        "excess_pp": 0.6195984863114014,
+        "descriptive_month_block_bootstrap_95pct": [
+          -0.7878989582019038,
+          1.6903265142997688
+        ]
+      },
+      "10": {
+        "month_blocks": 8,
+        "date_count": 68,
+        "excess_pp": 0.1579459406375065,
+        "descriptive_month_block_bootstrap_95pct": [
+          -1.1820037111755972,
+          2.2525104938456852
+        ]
+      },
+      "20": {
+        "month_blocks": 8,
+        "date_count": 66,
+        "excess_pp": 1.3139766224818425,
+        "descriptive_month_block_bootstrap_95pct": [
+          -1.666918650568806,
+          8.065459816992675
+        ]
+      }
+    }
+  }
+}

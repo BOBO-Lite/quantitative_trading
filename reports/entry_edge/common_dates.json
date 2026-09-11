@@ -1,0 +1,65 @@
+[
+  {
+    "group": "FH_ALL",
+    "horizon": 5,
+    "n": 150,
+    "excess_pool_pct": 0.30886121618081713,
+    "excess_market_pct": 0.32927411520861877
+  },
+  {
+    "group": "FH_TOP5",
+    "horizon": 5,
+    "n": 150,
+    "excess_pool_pct": 0.03678333708710617,
+    "excess_market_pct": 0.057196236114907754
+  },
+  {
+    "group": "MOM_TOP5",
+    "horizon": 5,
+    "n": 150,
+    "excess_pool_pct": 0.9824851726831204,
+    "excess_market_pct": 1.0028980717109222
+  },
+  {
+    "group": "FH_ALL",
+    "horizon": 20,
+    "n": 150,
+    "excess_pool_pct": 1.0012850496569035,
+    "excess_market_pct": 0.7906724049260773
+  },
+  {
+    "group": "FH_TOP5",
+    "horizon": 20,
+    "n": 150,
+    "excess_pool_pct": 0.5306749235769709,
+    "excess_market_pct": 0.32006227884614463
+  },
+  {
+    "group": "MOM_TOP5",
+    "horizon": 20,
+    "n": 150,
+    "excess_pool_pct": -3.7607167613647676,
+    "excess_market_pct": -3.971329406095594
+  },
+  {
+    "group": "FH_ALL",
+    "horizon": 60,
+    "n": 150,
+    "excess_pool_pct": 3.3379022143070847,
+    "excess_market_pct": 3.1702246305058064
+  },
+  {
+    "group": "FH_TOP5",
+    "horizon": 60,
+    "n": 150,
+    "excess_pool_pct": 3.4694694941756103,
+    "excess_market_pct": 3.301791910374332
+  },
+  {
+    "group": "MOM_TOP5",
+    "horizon": 60,
+    "n": 150,
+    "excess_pool_pct": -15.665506996741051,
+    "excess_market_pct": -15.833184580542332
+  }
+]

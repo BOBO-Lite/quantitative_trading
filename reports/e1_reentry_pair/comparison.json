@@ -1,0 +1,506 @@
+{
+  "baselines": [
+    {
+      "mode": "E1",
+      "cost": 1.0,
+      "return_pct": 5.746502982833435,
+      "drawdown_pct": 13.624561637023158
+    },
+    {
+      "mode": "E1",
+      "cost": 1.5,
+      "return_pct": 3.4877392514833128,
+      "drawdown_pct": 13.216346239141874
+    },
+    {
+      "mode": "F",
+      "cost": 1.0,
+      "return_pct": 7.897246027033411,
+      "drawdown_pct": 12.085963700816038
+    },
+    {
+      "mode": "F",
+      "cost": 1.5,
+      "return_pct": 3.656394771408311,
+      "drawdown_pct": 12.373050465180125
+    }
+  ],
+  "rows": [
+    {
+      "mode": "E1R",
+      "cost": 1.0,
+      "return_pct": 5.852762801966738,
+      "annualized_pct": 1.9140512679776567,
+      "drawdown_pct": 14.145364071734646,
+      "baseline": "E1",
+      "delta_yuan": 31.87794573999963,
+      "final": {
+        "cash": 31755.828840590024,
+        "equity": 31755.828840590024,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 1623.8288405900207,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 40,
+      "recovery_buys": 2,
+      "flat_days": 616,
+      "first_soft_cross": "2020-05-20T11:29:00",
+      "first_hard_cross": null,
+      "last_buy": "2020-06-29T09:49:00",
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.937691624205122,
+        "2020": -4.297169265551148
+      },
+      "mean_exposure_pct": 7.601877288593499,
+      "event_counts": {
+        "recovery_size_allowed": 2
+      }
+    },
+    {
+      "mode": "E1R",
+      "cost": 1.5,
+      "return_pct": 3.700805848883326,
+      "annualized_pct": 1.2186895734316527,
+      "drawdown_pct": 13.742426000548758,
+      "baseline": "E1",
+      "delta_yuan": 63.91997921999973,
+      "final": {
+        "cash": 31110.241754664996,
+        "equity": 31110.241754664996,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 978.2417546649981,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 40,
+      "recovery_buys": 2,
+      "flat_days": 617,
+      "first_soft_cross": "2020-05-21T09:54:00",
+      "first_hard_cross": null,
+      "last_buy": "2020-06-29T09:49:00",
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 4.337903932658382,
+        "2020": -3.779525700908415
+      },
+      "mean_exposure_pct": 7.341139660553245,
+      "event_counts": {
+        "recovery_size_allowed": 2
+      }
+    },
+    {
+      "mode": "FR",
+      "cost": 1.0,
+      "return_pct": 6.563189399366753,
+      "annualized_pct": 2.1415404602495913,
+      "drawdown_pct": 14.04954998110023,
+      "baseline": "F",
+      "delta_yuan": -400.21698829999696,
+      "final": {
+        "cash": 31968.956819810024,
+        "equity": 31968.956819810024,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 1836.9568198100205,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 36,
+      "recovery_buys": 2,
+      "flat_days": 621,
+      "first_soft_cross": "2020-02-04T09:32:00",
+      "first_hard_cross": null,
+      "last_buy": "2020-06-29T09:49:00",
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.746238134403759,
+        "2020": -3.482064819237496
+      },
+      "mean_exposure_pct": 7.454601840052402,
+      "event_counts": {
+        "persistent_weak_loss": 1,
+        "recovery_size_allowed": 2
+      }
+    },
+    {
+      "mode": "FR",
+      "cost": 1.5,
+      "return_pct": 2.66045640394994,
+      "annualized_pct": 0.8790685426129263,
+      "drawdown_pct": 12.909915289778851,
+      "baseline": "F",
+      "delta_yuan": -298.7815102375034,
+      "final": {
+        "cash": 30798.13692118498,
+        "equity": 30798.13692118498,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 666.136921184996,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 58,
+      "recovery_buys": 2,
+      "flat_days": 590,
+      "first_soft_cross": "2019-12-23T14:45:00",
+      "first_hard_cross": null,
+      "last_buy": "2020-12-09T09:46:00",
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 2.342206018315318,
+        "2020": -2.887331831254536
+      },
+      "mean_exposure_pct": 9.828571166982382,
+      "event_counts": {
+        "persistent_weak_loss": 2,
+        "recovery_size_allowed": 2
+      }
+    },
+    {
+      "mode": "E1U",
+      "cost": 1.0,
+      "return_pct": 3.69572051210012,
+      "annualized_pct": 1.217035007249212,
+      "drawdown_pct": 15.157669753403646,
+      "baseline": "E1",
+      "delta_yuan": -615.2347412199961,
+      "final": {
+        "cash": 31108.716153630034,
+        "equity": 31108.716153630034,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 976.716153630025,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 44,
+      "recovery_buys": 6,
+      "flat_days": 633,
+      "first_soft_cross": "2020-05-20T11:29:00",
+      "first_hard_cross": "2020-06-03T10:31:00",
+      "last_buy": "2020-06-02T09:46:00",
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.937691624205122,
+        "2020": -6.247378666701686
+      },
+      "mean_exposure_pct": 7.395215086229018,
+      "event_counts": {
+        "unrestricted_soft_drawdown_entry": 8
+      }
+    },
+    {
+      "mode": "E1U",
+      "cost": 1.5,
+      "return_pct": 0.9975637800749837,
+      "annualized_pct": 0.3314216435185813,
+      "drawdown_pct": 15.192172007169392,
+      "baseline": "E1",
+      "delta_yuan": -747.0526414224996,
+      "final": {
+        "cash": 30299.269134022492,
+        "equity": 30299.269134022492,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 167.26913402249875,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 44,
+      "recovery_buys": 6,
+      "flat_days": 633,
+      "first_soft_cross": "2020-05-21T09:54:00",
+      "first_hard_cross": "2020-06-03T14:57:00",
+      "last_buy": "2020-06-02T09:46:00",
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 4.337903932658382,
+        "2020": -6.287772689702642
+      },
+      "mean_exposure_pct": 7.093524266600084,
+      "event_counts": {
+        "unrestricted_soft_drawdown_entry": 8
+      }
+    },
+    {
+      "mode": "FU",
+      "cost": 1.0,
+      "return_pct": 3.7974960089667498,
+      "annualized_pct": 1.2501384165860108,
+      "drawdown_pct": 15.42641570656592,
+      "baseline": "F",
+      "delta_yuan": -1229.9250054199974,
+      "final": {
+        "cash": 31139.248802690025,
+        "equity": 31139.248802690025,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 1007.24880269002,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 39,
+      "recovery_buys": 6,
+      "flat_days": 636,
+      "first_soft_cross": "2020-02-04T09:32:00",
+      "first_hard_cross": "2020-05-22T09:31:00",
+      "last_buy": "2020-05-21T10:18:00",
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.746238134403759,
+        "2020": -5.987048171266151
+      },
+      "mean_exposure_pct": 7.200073147537375,
+      "event_counts": {
+        "persistent_weak_loss": 1,
+        "unrestricted_soft_drawdown_entry": 7
+      }
+    },
+    {
+      "mode": "FU",
+      "cost": 1.5,
+      "return_pct": 0.0127073409666556,
+      "annualized_pct": 0.004235600916535631,
+      "drawdown_pct": 15.156083856176828,
+      "baseline": "F",
+      "delta_yuan": -1093.1062291324956,
+      "final": {
+        "cash": 30003.81220229,
+        "equity": 30003.81220229,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": -128.18779770999618,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 41,
+      "recovery_buys": 5,
+      "flat_days": 636,
+      "first_soft_cross": "2019-12-23T14:45:00",
+      "first_hard_cross": "2020-05-22T10:01:00",
+      "last_buy": "2020-05-21T10:25:00",
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 2.342206018315318,
+        "2020": -5.391996092007889
+      },
+      "mean_exposure_pct": 7.004145742263537,
+      "event_counts": {
+        "persistent_weak_loss": 2,
+        "unrestricted_soft_drawdown_entry": 9
+      }
+    },
+    {
+      "mode": "E1H",
+      "cost": 1.0,
+      "return_pct": 5.852762801966738,
+      "annualized_pct": 1.9140512679776567,
+      "drawdown_pct": 14.145364071734646,
+      "baseline": "E1",
+      "delta_yuan": 31.87794573999963,
+      "final": {
+        "cash": 31755.828840590024,
+        "equity": 31755.828840590024,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 1623.8288405900207,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 40,
+      "recovery_buys": 2,
+      "flat_days": 616,
+      "first_soft_cross": "2020-05-20T11:29:00",
+      "first_hard_cross": null,
+      "last_buy": "2020-06-29T09:49:00",
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.937691624205122,
+        "2020": -4.297169265551148
+      },
+      "mean_exposure_pct": 7.601877288593499,
+      "event_counts": {
+        "latched_recovery_allowed": 2
+      }
+    },
+    {
+      "mode": "E1H",
+      "cost": 1.5,
+      "return_pct": 3.700805848883326,
+      "annualized_pct": 1.2186895734316527,
+      "drawdown_pct": 13.742426000548758,
+      "baseline": "E1",
+      "delta_yuan": 63.91997921999973,
+      "final": {
+        "cash": 31110.241754664996,
+        "equity": 31110.241754664996,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 978.2417546649981,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 40,
+      "recovery_buys": 2,
+      "flat_days": 617,
+      "first_soft_cross": "2020-05-21T09:54:00",
+      "first_hard_cross": null,
+      "last_buy": "2020-06-29T09:49:00",
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 4.337903932658382,
+        "2020": -3.779525700908415
+      },
+      "mean_exposure_pct": 7.341139660553245,
+      "event_counts": {
+        "latched_recovery_allowed": 2
+      }
+    },
+    {
+      "mode": "FH",
+      "cost": 1.0,
+      "return_pct": 8.170531230233413,
+      "annualized_pct": 2.652529199857212,
+      "drawdown_pct": 12.761702322233337,
+      "baseline": "F",
+      "delta_yuan": 81.98556096000084,
+      "final": {
+        "cash": 32451.159369070025,
+        "equity": 32451.159369070025,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 2319.1593690700183,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 36,
+      "recovery_buys": 2,
+      "flat_days": 620,
+      "first_soft_cross": "2020-02-04T09:32:00",
+      "first_hard_cross": null,
+      "last_buy": "2020-09-04T09:46:00",
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.746238134403759,
+        "2020": -2.0262401998794033
+      },
+      "mean_exposure_pct": 7.383548841578098,
+      "event_counts": {
+        "persistent_weak_loss": 1,
+        "latched_recovery_allowed": 3
+      }
+    },
+    {
+      "mode": "FH",
+      "cost": 1.5,
+      "return_pct": 3.8694613688083024,
+      "annualized_pct": 1.2735327488291759,
+      "drawdown_pct": 12.712878393357252,
+      "baseline": "F",
+      "delta_yuan": 63.91997921999973,
+      "final": {
+        "cash": 31160.838410642493,
+        "equity": 31160.838410642493,
+        "reserved_cash": 0,
+        "dividend_receivable": 0.0,
+        "dividend_income": 165.0,
+        "dividend_tax": 33.0,
+        "realized_pnl": 1028.8384106424992,
+        "unrealized_pnl": 0,
+        "status": "EXECUTION_REPLAY_ONLY",
+        "formal_strategy_validated": false
+      },
+      "buys": 38,
+      "recovery_buys": 2,
+      "flat_days": 622,
+      "first_soft_cross": "2019-12-23T14:45:00",
+      "first_hard_cross": null,
+      "last_buy": "2020-06-29T09:49:00",
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 2.342206018315318,
+        "2020": -1.7436616969170093
+      },
+      "mean_exposure_pct": 7.190415902568061,
+      "event_counts": {
+        "persistent_weak_loss": 2,
+        "latched_recovery_allowed": 2
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "recovery": "R",
+      "cost": 1.0,
+      "f_minus_e1_yuan": 213.1279792199989,
+      "f_minus_e1_pct": 0.7104265974000009
+    },
+    {
+      "recovery": "R",
+      "cost": 1.5,
+      "f_minus_e1_yuan": -312.10483348000207,
+      "f_minus_e1_pct": -1.0403494449333812
+    },
+    {
+      "recovery": "U",
+      "cost": 1.0,
+      "f_minus_e1_yuan": 30.532649059994128,
+      "f_minus_e1_pct": 0.10177549686663648
+    },
+    {
+      "recovery": "U",
+      "cost": 1.5,
+      "f_minus_e1_yuan": -295.4569317324949,
+      "f_minus_e1_pct": -0.9848564391083104
+    },
+    {
+      "recovery": "H",
+      "cost": 1.0,
+      "f_minus_e1_yuan": 695.3305284799967,
+      "f_minus_e1_pct": 2.3177684282666693
+    },
+    {
+      "recovery": "H",
+      "cost": 1.5,
+      "f_minus_e1_yuan": 50.59665597750109,
+      "f_minus_e1_pct": 0.16865551992498998
+    }
+  ]
+}

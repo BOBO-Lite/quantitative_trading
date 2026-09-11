@@ -1,0 +1,29 @@
+{
+  "module_tests": 187,
+  "core_tests": 6,
+  "total_tests": 193,
+  "failures": 0,
+  "integrity": "PASS",
+  "formal_strategy_validated": false,
+  "performance_runs": 0,
+  "platform_completed_reports": [
+    "6a9fe545b480bf00b6342436",
+    "6a9fe624b480bf00b634243b"
+  ],
+  "platform_failed_reports": [
+    "6a9fe4d19f7e2800b68843d5"
+  ],
+  "editor_research_v5_saved": true,
+  "sha256": {
+    "adapters/supermind_data_feasibility_probe.py": "cf704d7417c4384ceab52e1865c7aa6718918ce711db7ade64c0c230c5965ff1",
+    "adapters/supermind_s1_minute_backtest.py": "c1e87739dcea419665650e4d714ea8d5a414a9ac849cd08d7596c30dcdfaf9e5",
+    "src/audit_report_calendar_sources.py": "4bdf272054727a3b03794a67f62c675d08dd2d9bba6b12f985fcab208bbcd4c2",
+    "src/audit_s2_research_inputs.py": "b824e721bec15cbc976e5426297c2a444ea0ac28b1a300eaa2a568807ed7a16f",
+    "tests/test_audit_report_calendar_sources.py": "d572f87363229e78da6711e0e02bfefa429c473efe9d07b7fc992c0c011b499b",
+    "reports/s2_research/data_feasibility/audit_platform_sample.py": "9970de89cdebb6dd954f22333236b5dda1cf79c5ddc144b2f264b720d4ea7b58",
+    "reports/s2_research/data_feasibility/calendar_source_audit.json": "f3c5ac02fd937294441760114e2cdb896b0de5cfc3288ba2b250c23092bbabfe",
+    "reports/s2_research/data_feasibility/platform_capability_audit.json": "9b6f812336f0fa04c4d3e82733754a9475009ea0fea7abf2850b3ef9eb014d9c",
+    "reports/s2_research/DATA_FEASIBILITY_ADVANCE_2026-09-08.md": "8e853b76586ac6cb4fa584763ed29ab8fb661748c3afbf3c2243dfc8ee85595b",
+    "reports/s2_research/OPEN_SOURCE_COMPARISON_2026-09-08.md": "30fdb28cacba31b9157a5662547c0b31e339e03dd5445ac2422bfee760b17a64"
+  }
+}

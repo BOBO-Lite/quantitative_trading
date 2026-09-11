@@ -1,0 +1,42 @@
+{
+  "case": {
+    "cost": 1.5,
+    "mode": "LM",
+    "symbol": "600326.SH",
+    "entry": "2019-03-01",
+    "exit": "2019-03-11",
+    "end": "2019-05-29",
+    "signal": null,
+    "trigger": {
+      "symbol": "600326.SH",
+      "entry_date": "2019-03-01",
+      "trigger_time": "2019-03-08T15:00:00",
+      "reason": "close_confirmed_stop",
+      "close_signal": true,
+      "holding_days": 6,
+      "route": "trend_breakout",
+      "drawdown": 0.05788323587951816,
+      "price": 7.56,
+      "stop": 7.72,
+      "entry_reference": 8.082105,
+      "initial_r": 0.4360000000000003,
+      "prior_context": {
+        "asof": "2019-03-07",
+        "volume_ratio": 1.552652147854015,
+        "down": true,
+        "relative5": -0.04648504341047244,
+        "two_below_ma10": false
+      }
+    },
+    "original_quantity": 800,
+    "original_capital": 6473.28098526,
+    "original_profit": -382.6176517399999,
+    "starting_cash": 6090.66333352
+  },
+  "result": {
+    "status": "NO_SIGNAL",
+    "increment": 0.0,
+    "fills": [],
+    "daily": []
+  }
+}

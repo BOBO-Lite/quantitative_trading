@@ -1,0 +1,855 @@
+{
+  "status": "PASS",
+  "account_paths": 12,
+  "account_minute_points": 2102400,
+  "cash_checks": 12,
+  "attribution_checks": 38,
+  "module_tests": 373,
+  "baseline_parity": [
+    {
+      "mode": "E1",
+      "minute_points": 175200,
+      "fills_equal": true
+    },
+    {
+      "mode": "P",
+      "minute_points": 175200,
+      "fills_equal": true
+    }
+  ],
+  "supplement_stock_days": 135,
+  "supplement_minute_rows": 32400,
+  "supplements": [
+    {
+      "file": "minute_export_01.txt",
+      "sha256": "bf4939f57655ba6dc71f2a22f67e260529d3083b3eaf99f7d21b016c0f645d17",
+      "checks": [
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-25",
+          "volume_delta": 0.0,
+          "amount_delta": -0.34999990463256836
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-24",
+          "volume_delta": 0.0,
+          "amount_delta": -0.26000022888183594
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.03000020980834961
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-20",
+          "volume_delta": 0.0,
+          "amount_delta": -0.04999995231628418
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-19",
+          "volume_delta": 0.0,
+          "amount_delta": -0.48000001907348633
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-18",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4499998092651367
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-17",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3200000524520874
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-17",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1399998664855957
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3200000524520874
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.019999980926513672
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.36000001430511475
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3600001335144043
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-12",
+          "volume_delta": 0.0,
+          "amount_delta": -0.309999942779541
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-12",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3600001335144043
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-12",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-11",
+          "volume_delta": 0.0,
+          "amount_delta": -0.3200000524520874
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.19000005722045898
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1099998950958252
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.42999982833862305
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1400001049041748
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.14999961853027344
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-06",
+          "volume_delta": 0.0,
+          "amount_delta": -0.059999942779541016
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.25999999046325684
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-05",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4700000286102295
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-05",
+          "volume_delta": 0.0,
+          "amount_delta": -0.18000006675720215
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-05",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1700000762939453
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-04",
+          "volume_delta": 0.0,
+          "amount_delta": -0.09999990463256836
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-02-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.28999996185302734
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-02-03",
+          "volume_delta": 0.0,
+          "amount_delta": -0.49000000953674316
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-02-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.08999991416931152
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-23",
+          "volume_delta": 0.0,
+          "amount_delta": -0.26999998092651367
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-22",
+          "volume_delta": 0.0,
+          "amount_delta": -0.08000004291534424
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4500000476837158
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-21",
+          "volume_delta": 0.0,
+          "amount_delta": -0.029999971389770508
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.48000001907348633
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.309999942779541
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3599998950958252
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-17",
+          "volume_delta": 0.0,
+          "amount_delta": -0.050000011920928955
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-17",
+          "volume_delta": 0.0,
+          "amount_delta": -0.039999961853027344
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-16",
+          "volume_delta": 0.0,
+          "amount_delta": -0.30000001192092896
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-16",
+          "volume_delta": 0.0,
+          "amount_delta": -0.039999961853027344
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-16",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.029999971389770508
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-15",
+          "volume_delta": 0.0,
+          "amount_delta": -0.1899999976158142
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-15",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.38999998569488525
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-14",
+          "volume_delta": 0.0,
+          "amount_delta": -0.27000001072883606
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.08000004291534424
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-13",
+          "volume_delta": 0.0,
+          "amount_delta": -0.33000001311302185
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.2200000286102295
+        },
+        {
+          "symbol": "600118.SH",
+          "date": "2020-01-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4300000071525574
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-09",
+          "volume_delta": 0.0,
+          "amount_delta": -0.009999990463256836
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-08",
+          "volume_delta": 0.0,
+          "amount_delta": -0.21000003814697266
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-08",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-07",
+          "volume_delta": 0.0,
+          "amount_delta": -0.029999971389770508
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1400001049041748
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600309.SH",
+          "date": "2020-01-02",
+          "volume_delta": 0.0,
+          "amount_delta": -0.2799999713897705
+        },
+        {
+          "symbol": "000555.SZ",
+          "date": "2020-01-02",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        }
+      ]
+    },
+    {
+      "file": "minute_export_02.txt",
+      "sha256": "208f9956e9e3e10c25e1f1ef21977a8ce965f5134e1b1aea5343b2d801e99348",
+      "checks": [
+        {
+          "symbol": "600602.SH",
+          "date": "2020-03-09",
+          "volume_delta": 0.0,
+          "amount_delta": 0.02000001072883606
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-03-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.19999998807907104
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-03-05",
+          "volume_delta": 0.0,
+          "amount_delta": -0.08000001311302185
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-03-05",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-03-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.41999998688697815
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-03-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-03-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.16999998688697815
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-03-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-03-02",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3400000035762787
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-03-02",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-28",
+          "volume_delta": 0.0,
+          "amount_delta": -0.4000000059604645
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-28",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-27",
+          "volume_delta": 0.0,
+          "amount_delta": 0.19999998807907104
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-27",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-26",
+          "volume_delta": 0.0,
+          "amount_delta": 0.1899999976158142
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-26",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3500000238418579
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-25",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3199999928474426
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-24",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.009999990463256836
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-20",
+          "volume_delta": 0.0,
+          "amount_delta": -0.25999999046325684
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-20",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-19",
+          "volume_delta": 0.0,
+          "amount_delta": 0.2200000286102295
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-19",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.4100000262260437
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-18",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.3799999952316284
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-17",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-14",
+          "volume_delta": 0.0,
+          "amount_delta": -0.04000002145767212
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-14",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.15000000596046448
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-13",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-12",
+          "volume_delta": 0.0,
+          "amount_delta": -0.27000001072883606
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-12",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.30000001192092896
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-11",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-10",
+          "volume_delta": 0.0,
+          "amount_delta": -0.46000000834465027
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-10",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.32999998331069946
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-07",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.06999999284744263
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-06",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-05",
+          "volume_delta": 0.0,
+          "amount_delta": -0.06999999284744263
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-05",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-04",
+          "volume_delta": 0.0,
+          "amount_delta": -0.2199999988079071
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-04",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-02-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-02-03",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "600602.SH",
+          "date": "2020-01-23",
+          "volume_delta": 0.0,
+          "amount_delta": -0.44999998807907104
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-01-23",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-01-22",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        },
+        {
+          "symbol": "000960.SZ",
+          "date": "2020-01-21",
+          "volume_delta": 0.0,
+          "amount_delta": 0.0
+        }
+      ]
+    }
+  ],
+  "platform_restored": {
+    "exact_match": true,
+    "reloaded": true,
+    "characters": 27858,
+    "checked_at": "2026-09-10T02:31:13.842Z"
+  },
+  "unseen_validation": false,
+  "new_rqalpha_validation": false,
+  "live_orders": false
+}

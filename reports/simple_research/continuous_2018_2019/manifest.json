@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETED_WITH_NO_GO_FOR_DEPLOYMENT",
+  "sha256": {
+    "src/simple_strategy_rules.py": "e2da727d438b06429d72047a64a9152f81a62aa249135bfe80d182877d8469aa",
+    "src/research_portfolio.py": "a5c20703f9d1df2cc5750c8abf362ce10847d7891d3287830c2819910f4bf91f",
+    "src/simple_minute_cache.py": "260284df5759f7c836435475224abf9bd09e2070024f52c3db4aa5265ee6dfe1",
+    "src/simple_corporate_events.py": "395a12c2ddfebed84783f7614849f66ae366fa3c8b642cd64589eda188ed03a2",
+    "src/simple_history_replay.py": "7050a39fc79d6caff6e69b0031fb9fa324d32d12d7f92b6efd72c43962766dee",
+    "reports/simple_research/PROTOCOL.md": "8a20b8fad6b92fc37bfe1e6dae2ce8bcdb9a1a6b3c7feffac33cfd306f1c59e8",
+    "reports/simple_research/continuous_2018_2019/cost1.0.json": "bbf1ef5974ba83884f934d778b68ea8cb89af07b079525915956b909adf53aa4",
+    "reports/simple_research/continuous_2018_2019/cost1.5.json": "8e8dd37b7705b6773555f62ce7ddf90dd231a4bc7df0497c5629bf81a3583bf2",
+    "reports/simple_research/continuous_2018_2019/rqalpha_parity.json": "03f20a20007442c72ebe64ced5200294981a4d054e34b31736f08f1f0d1e51c4",
+    "reports/simple_research/continuous_2018_2019/corporate_events.json": "9aeafa1e2c63d5699092d12d21d42200d677bf8f9422e18d955e402cefbc07b2",
+    "reports/simple_research/continuous_2018_2019/corporate_export.txt": "e392676a0aaf73af57213a9ba87e5c129e89aeb7d4eebe43f00002c215cb0aa3",
+    "src/report_simple_continuous.py": "6c29903c35bcaa5aebfa5bc22061463676507225c78e70fcc230544b85814c7c",
+    "src/report_simple_research.py": "8894e17f9e89a0f1732909a3731fe7d61b4a00ccb3bd998ce954b94a0891e5b6",
+    "reports/simple_research/continuous_2018_2019/RESULT.md": "1aa859c4055c964ff11dfb1aec746a9c97bb1fe7fb1b97a6b54892d3c801a1d3",
+    "reports/simple_research/continuous_2018_2019/pause_proof.json": "e36f40bba8b2dc5bcb413d93db7b6987cb3bf751c1d2344cbf25db888e53bec9",
+    "reports/simple_research/continuous_2018_2019/run_status.json": "c4540e30be32af5094993d55b0fa77e917074d9ef22ba9491872d5f6a76b9334",
+    "reports/simple_research/module_tests.txt": "2e563bd2236b262f8d44bc15c5850dae06999f50ff1af3a984935ef1330a2af8",
+    "reports/simple_research/core_tests.txt": "4588c9c7b96bfa12a5ef07fd4a42a9ac5bf5948393c451135c663da5d3cc6bf0",
+    "reports/simple_research/framework_tests.txt": "d0d9afe4e49dfa42e406e6335dc4d8ab06393c1ab9639273e9a4b6c00fefe351",
+    "reports/simple_research/integrity.json": "e94ef2fa53ad93dde39c0797d4b9be5740df0bdf3d85c1243030c2922ad206e1",
+    "reports/simple_research/platform_restore_verification.json": "fdab7f766a0123b80f153c807422e20339bfb11b3da55148e5122c9cd5260bc6"
+  }
+}

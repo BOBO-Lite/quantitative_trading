@@ -1,0 +1,76 @@
+[
+  {
+    "variant": "B0",
+    "cost": 1.0,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": -0.02596004064033286,
+      "max_minute_close_drawdown": 0.1233459419184304,
+      "drawdown_peak_time": "2019-02-26T09:41:00",
+      "drawdown_trough_time": "2019-04-23T11:14:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 326.19621921
+    },
+    "final": {
+      "cash": 29221.198780790015,
+      "equity": 29221.198780790015,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 140.0,
+      "dividend_tax": 28.0,
+      "realized_pnl": -890.8012192099854,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 50
+  },
+  {
+    "variant": "B0",
+    "cost": 1.5,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": 0.012328001008166778,
+      "max_minute_close_drawdown": 0.12154089779194999,
+      "drawdown_peak_time": "2019-02-26T09:41:00",
+      "drawdown_trough_time": "2019-11-11T09:32:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 732.5809697550001
+    },
+    "final": {
+      "cash": 30369.840030245003,
+      "equity": 30369.840030245003,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 140.0,
+      "dividend_tax": 28.0,
+      "realized_pnl": 257.84003024500544,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 74
+  },
+  {
+    "variant": "B1",
+    "cost": 1.0,
+    "status": "MISSING_MINUTES",
+    "requests": [
+      {
+        "symbol": "600104.SH",
+        "date": "2018-01-29"
+      }
+    ]
+  },
+  {
+    "variant": "B1",
+    "cost": 1.5,
+    "status": "MISSING_MINUTES",
+    "requests": [
+      {
+        "symbol": "600771.SH",
+        "date": "2018-01-29"
+      }
+    ]
+  }
+]

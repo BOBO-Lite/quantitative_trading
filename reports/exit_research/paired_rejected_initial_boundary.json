@@ -1,0 +1,2047 @@
+{
+  "summary": [
+    {
+      "cost": 1.0,
+      "variant": "E1",
+      "total": 25,
+      "paired_closed": 3,
+      "improved": 0,
+      "worse": 0,
+      "same": 3,
+      "mean_pnl_difference": 0.0,
+      "median_pnl_difference": 0.0
+    },
+    {
+      "cost": 1.0,
+      "variant": "E2",
+      "total": 25,
+      "paired_closed": 3,
+      "improved": 0,
+      "worse": 0,
+      "same": 3,
+      "mean_pnl_difference": 0.0,
+      "median_pnl_difference": 0.0
+    },
+    {
+      "cost": 1.5,
+      "variant": "E1",
+      "total": 37,
+      "paired_closed": 3,
+      "improved": 0,
+      "worse": 0,
+      "same": 3,
+      "mean_pnl_difference": 0.0,
+      "median_pnl_difference": 0.0
+    },
+    {
+      "cost": 1.5,
+      "variant": "E2",
+      "total": 37,
+      "paired_closed": 3,
+      "improved": 0,
+      "worse": 0,
+      "same": 3,
+      "mean_pnl_difference": 0.0,
+      "median_pnl_difference": 0.0
+    }
+  ],
+  "trades": [
+    {
+      "cost": 1.0,
+      "symbol": "601009.SH",
+      "entry_time": "2018-01-26T09:46:00",
+      "quantity": 700,
+      "variants": {
+        "E0": {
+          "status": "CLOSED",
+          "net_pnl": 35.95622562999779,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "601009.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 9.619609999999998,
+              "quantity": 700,
+              "fees": 5.06733727,
+              "net_pnl": null,
+              "cash_after": 23261.20566273,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "601009.SH",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 9.690299999999999,
+              "quantity": 700,
+              "fees": 8.459437099999999,
+              "net_pnl": 35.95622562999961,
+              "cash_after": 30035.956225629998,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30035.956225629998,
+            "equity": 30035.956225629998,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 35.95622562999961,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E1": {
+          "status": "CLOSED",
+          "net_pnl": 35.95622562999779,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "601009.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 9.619609999999998,
+              "quantity": 700,
+              "fees": 5.06733727,
+              "net_pnl": null,
+              "cash_after": 23261.20566273,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "601009.SH",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 9.690299999999999,
+              "quantity": 700,
+              "fees": 8.459437099999999,
+              "net_pnl": 35.95622562999961,
+              "cash_after": 30035.956225629998,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30035.956225629998,
+            "equity": 30035.956225629998,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 35.95622562999961,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E2": {
+          "status": "CLOSED",
+          "net_pnl": 35.95622562999779,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "601009.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 9.619609999999998,
+              "quantity": 700,
+              "fees": 5.06733727,
+              "net_pnl": null,
+              "cash_after": 23261.20566273,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "601009.SH",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 9.690299999999999,
+              "quantity": 700,
+              "fees": 8.459437099999999,
+              "net_pnl": 35.95622562999961,
+              "cash_after": 30035.956225629998,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30035.956225629998,
+            "equity": 30035.956225629998,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 35.95622562999961,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "000876.SZ",
+      "entry_time": "2018-01-29T09:46:00",
+      "quantity": 800,
+      "variants": {
+        "E0": {
+          "status": "CLOSED",
+          "net_pnl": -59.023828320001485,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "000876.SZ",
+              "buy": true,
+              "intent_time": "2018-01-29T09:45:00",
+              "fill_time": "2018-01-29T09:46:00",
+              "price": 8.47847,
+              "quantity": 800,
+              "fees": 5.06782776,
+              "net_pnl": null,
+              "cash_after": 23773.82909029,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "000876.SZ",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 8.42157,
+              "quantity": 800,
+              "fees": 8.43600056,
+              "net_pnl": -59.023828320000575,
+              "cash_after": 30502.64908973,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30502.64908973,
+            "equity": 30502.64908973,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": -59.023828320000575,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E1": {
+          "status": "CLOSED",
+          "net_pnl": -59.023828320001485,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "000876.SZ",
+              "buy": true,
+              "intent_time": "2018-01-29T09:45:00",
+              "fill_time": "2018-01-29T09:46:00",
+              "price": 8.47847,
+              "quantity": 800,
+              "fees": 5.06782776,
+              "net_pnl": null,
+              "cash_after": 23773.82909029,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "000876.SZ",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 8.42157,
+              "quantity": 800,
+              "fees": 8.43600056,
+              "net_pnl": -59.023828320000575,
+              "cash_after": 30502.64908973,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30502.64908973,
+            "equity": 30502.64908973,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": -59.023828320000575,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E2": {
+          "status": "CLOSED",
+          "net_pnl": -59.023828320001485,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "000876.SZ",
+              "buy": true,
+              "intent_time": "2018-01-29T09:45:00",
+              "fill_time": "2018-01-29T09:46:00",
+              "price": 8.47847,
+              "quantity": 800,
+              "fees": 5.06782776,
+              "net_pnl": null,
+              "cash_after": 23773.82909029,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "000876.SZ",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 8.42157,
+              "quantity": 800,
+              "fees": 8.43600056,
+              "net_pnl": -59.023828320000575,
+              "cash_after": 30502.64908973,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30502.64908973,
+            "equity": 30502.64908973,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": -59.023828320000575,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600398.SH",
+      "entry_time": "2018-01-26T09:46:00",
+      "quantity": 600,
+      "variants": {
+        "E0": {
+          "status": "CLOSED",
+          "net_pnl": 1052.0736247999994,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "600398.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 10.790779999999998,
+              "quantity": 600,
+              "fees": 5.06474468,
+              "net_pnl": null,
+              "cash_after": 23520.46725532,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "600398.SH",
+              "buy": false,
+              "intent_time": "2018-02-05T09:31:00",
+              "fill_time": "2018-02-05T09:32:00",
+              "price": 12.56742,
+              "quantity": 600,
+              "fees": 8.84563052,
+              "net_pnl": 1052.0736248000012,
+              "cash_after": 31052.0736248,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 31052.0736248,
+            "equity": 31052.0736248,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 1052.0736248000012,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E1": {
+          "status": "CLOSED",
+          "net_pnl": 1052.0736247999994,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "600398.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 10.790779999999998,
+              "quantity": 600,
+              "fees": 5.06474468,
+              "net_pnl": null,
+              "cash_after": 23520.46725532,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "600398.SH",
+              "buy": false,
+              "intent_time": "2018-02-05T09:31:00",
+              "fill_time": "2018-02-05T09:32:00",
+              "price": 12.56742,
+              "quantity": 600,
+              "fees": 8.84563052,
+              "net_pnl": 1052.0736248000012,
+              "cash_after": 31052.0736248,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 31052.0736248,
+            "equity": 31052.0736248,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 1052.0736248000012,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E2": {
+          "status": "CLOSED",
+          "net_pnl": 1052.0736247999994,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "600398.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 10.790779999999998,
+              "quantity": 600,
+              "fees": 5.06474468,
+              "net_pnl": null,
+              "cash_after": 23520.46725532,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "600398.SH",
+              "buy": false,
+              "intent_time": "2018-02-05T09:31:00",
+              "fill_time": "2018-02-05T09:32:00",
+              "price": 12.56742,
+              "quantity": 600,
+              "fees": 8.84563052,
+              "net_pnl": 1052.0736248000012,
+              "cash_after": 31052.0736248,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 31052.0736248,
+            "equity": 31052.0736248,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 1052.0736248000012,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600585.SH",
+      "entry_time": "2019-02-19T09:46:00",
+      "quantity": 200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "002373.SZ",
+      "entry_time": "2019-02-22T09:51:00",
+      "quantity": 400,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "601318.SH",
+      "entry_time": "2019-02-19T09:46:00",
+      "quantity": 100,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600030.SH",
+      "entry_time": "2019-02-19T09:46:00",
+      "quantity": 300,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600398.SH",
+      "entry_time": "2019-02-28T09:47:00",
+      "quantity": 700,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "000598.SZ",
+      "entry_time": "2019-02-28T10:16:00",
+      "quantity": 1000,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "002244.SZ",
+      "entry_time": "2019-02-27T09:59:00",
+      "quantity": 1600,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "002350.SZ",
+      "entry_time": "2019-03-08T09:47:00",
+      "quantity": 900,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "002242.SZ",
+      "entry_time": "2019-03-12T09:46:00",
+      "quantity": 200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "000408.SZ",
+      "entry_time": "2019-03-12T09:46:00",
+      "quantity": 300,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "000157.SZ",
+      "entry_time": "2019-03-18T09:46:00",
+      "quantity": 1000,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600160.SH",
+      "entry_time": "2019-03-12T09:46:00",
+      "quantity": 700,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600277.SH",
+      "entry_time": "2019-03-13T09:46:00",
+      "quantity": 900,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "601021.SH",
+      "entry_time": "2019-03-28T09:46:00",
+      "quantity": 100,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600009.SH",
+      "entry_time": "2019-04-01T09:46:00",
+      "quantity": 100,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "601398.SH",
+      "entry_time": "2019-04-08T09:52:00",
+      "quantity": 1200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "000423.SZ",
+      "entry_time": "2019-04-10T09:46:00",
+      "quantity": 100,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600887.SH",
+      "entry_time": "2019-04-01T09:46:00",
+      "quantity": 200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600886.SH",
+      "entry_time": "2019-04-04T09:55:00",
+      "quantity": 500,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "002536.SZ",
+      "entry_time": "2019-04-18T09:46:00",
+      "quantity": 400,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "600000.SH",
+      "entry_time": "2019-04-17T09:46:00",
+      "quantity": 600,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.0,
+      "symbol": "000623.SZ",
+      "entry_time": "2019-04-17T09:46:00",
+      "quantity": 300,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "601009.SH",
+      "entry_time": "2018-01-26T09:46:00",
+      "quantity": 700,
+      "variants": {
+        "E0": {
+          "status": "CLOSED",
+          "net_pnl": 22.436885167495348,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "601009.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 9.624415,
+              "quantity": 700,
+              "fees": 7.601056357499999,
+              "net_pnl": null,
+              "cash_after": 23255.308443642498,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "601009.SH",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 9.68545,
+              "quantity": 700,
+              "fees": 12.686558474999998,
+              "net_pnl": 22.436885167498986,
+              "cash_after": 30022.436885167495,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30022.436885167495,
+            "equity": 30022.436885167495,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 22.436885167498986,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E1": {
+          "status": "CLOSED",
+          "net_pnl": 22.436885167495348,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "601009.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 9.624415,
+              "quantity": 700,
+              "fees": 7.601056357499999,
+              "net_pnl": null,
+              "cash_after": 23255.308443642498,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "601009.SH",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 9.68545,
+              "quantity": 700,
+              "fees": 12.686558474999998,
+              "net_pnl": 22.436885167498986,
+              "cash_after": 30022.436885167495,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30022.436885167495,
+            "equity": 30022.436885167495,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 22.436885167498986,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E2": {
+          "status": "CLOSED",
+          "net_pnl": 22.436885167495348,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "601009.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 9.624415,
+              "quantity": 700,
+              "fees": 7.601056357499999,
+              "net_pnl": null,
+              "cash_after": 23255.308443642498,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "601009.SH",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 9.68545,
+              "quantity": 700,
+              "fees": 12.686558474999998,
+              "net_pnl": 22.436885167498986,
+              "cash_after": 30022.436885167495,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30022.436885167495,
+            "equity": 30022.436885167495,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 22.436885167498986,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "000876.SZ",
+      "entry_time": "2018-01-29T09:46:00",
+      "quantity": 800,
+      "variants": {
+        "E0": {
+          "status": "CLOSED",
+          "net_pnl": -72.53321371999846,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "000876.SZ",
+              "buy": true,
+              "intent_time": "2018-01-29T09:45:00",
+              "fill_time": "2018-01-29T09:46:00",
+              "price": 8.482705000000001,
+              "quantity": 800,
+              "fees": 7.60179246,
+              "net_pnl": null,
+              "cash_after": 23756.2434856525,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "000876.SZ",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 8.417355,
+              "quantity": 800,
+              "fees": 12.65142126,
+              "net_pnl": -72.53321372000028,
+              "cash_after": 30477.4760643925,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30477.4760643925,
+            "equity": 30477.4760643925,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": -72.53321372000028,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E1": {
+          "status": "CLOSED",
+          "net_pnl": -72.53321371999846,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "000876.SZ",
+              "buy": true,
+              "intent_time": "2018-01-29T09:45:00",
+              "fill_time": "2018-01-29T09:46:00",
+              "price": 8.482705000000001,
+              "quantity": 800,
+              "fees": 7.60179246,
+              "net_pnl": null,
+              "cash_after": 23756.2434856525,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "000876.SZ",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 8.417355,
+              "quantity": 800,
+              "fees": 12.65142126,
+              "net_pnl": -72.53321372000028,
+              "cash_after": 30477.4760643925,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30477.4760643925,
+            "equity": 30477.4760643925,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": -72.53321372000028,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E2": {
+          "status": "CLOSED",
+          "net_pnl": -72.53321371999846,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "000876.SZ",
+              "buy": true,
+              "intent_time": "2018-01-29T09:45:00",
+              "fill_time": "2018-01-29T09:46:00",
+              "price": 8.482705000000001,
+              "quantity": 800,
+              "fees": 7.60179246,
+              "net_pnl": null,
+              "cash_after": 23756.2434856525,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "000876.SZ",
+              "buy": false,
+              "intent_time": "2018-01-30T09:31:00",
+              "fill_time": "2018-01-30T09:32:00",
+              "price": 8.417355,
+              "quantity": 800,
+              "fees": 12.65142126,
+              "net_pnl": -72.53321372000028,
+              "cash_after": 30477.4760643925,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 30477.4760643925,
+            "equity": 30477.4760643925,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": -72.53321372000028,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600398.SH",
+      "entry_time": "2018-01-26T09:46:00",
+      "quantity": 600,
+      "variants": {
+        "E0": {
+          "status": "CLOSED",
+          "net_pnl": 1038.1132758000022,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "600398.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 10.79617,
+              "quantity": 600,
+              "fees": 7.59716553,
+              "net_pnl": null,
+              "cash_after": 23514.70083447,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "600398.SH",
+              "buy": false,
+              "intent_time": "2018-02-05T09:31:00",
+              "fill_time": "2018-02-05T09:32:00",
+              "price": 12.56113,
+              "quantity": 600,
+              "fees": 13.26555867,
+              "net_pnl": 1038.1132757999994,
+              "cash_after": 31038.113275800002,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 31038.113275800002,
+            "equity": 31038.113275800002,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 1038.1132757999994,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E1": {
+          "status": "CLOSED",
+          "net_pnl": 1038.1132758000022,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "600398.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 10.79617,
+              "quantity": 600,
+              "fees": 7.59716553,
+              "net_pnl": null,
+              "cash_after": 23514.70083447,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "600398.SH",
+              "buy": false,
+              "intent_time": "2018-02-05T09:31:00",
+              "fill_time": "2018-02-05T09:32:00",
+              "price": 12.56113,
+              "quantity": 600,
+              "fees": 13.26555867,
+              "net_pnl": 1038.1132757999994,
+              "cash_after": 31038.113275800002,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 31038.113275800002,
+            "equity": 31038.113275800002,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 1038.1132757999994,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        },
+        "E2": {
+          "status": "CLOSED",
+          "net_pnl": 1038.1132758000022,
+          "fills": [
+            {
+              "order_id": 1,
+              "symbol": "600398.SH",
+              "buy": true,
+              "intent_time": "2018-01-26T09:45:00",
+              "fill_time": "2018-01-26T09:46:00",
+              "price": 10.79617,
+              "quantity": 600,
+              "fees": 7.59716553,
+              "net_pnl": null,
+              "cash_after": 23514.70083447,
+              "route": "trend_breakout",
+              "reason": "entry_confirmation"
+            },
+            {
+              "order_id": 2,
+              "symbol": "600398.SH",
+              "buy": false,
+              "intent_time": "2018-02-05T09:31:00",
+              "fill_time": "2018-02-05T09:32:00",
+              "price": 12.56113,
+              "quantity": 600,
+              "fees": 13.26555867,
+              "net_pnl": 1038.1132757999994,
+              "cash_after": 31038.113275800002,
+              "route": "trend_breakout",
+              "reason": "cash_defense"
+            }
+          ],
+          "final": {
+            "cash": 31038.113275800002,
+            "equity": 31038.113275800002,
+            "reserved_cash": 0,
+            "dividend_receivable": 0.0,
+            "dividend_income": 0.0,
+            "dividend_tax": 0.0,
+            "realized_pnl": 1038.1132757999994,
+            "unrealized_pnl": 0,
+            "status": "EXECUTION_REPLAY_ONLY",
+            "formal_strategy_validated": false
+          }
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "601318.SH",
+      "entry_time": "2019-02-19T09:46:00",
+      "quantity": 100,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "000776.SZ",
+      "entry_time": "2019-02-19T09:46:00",
+      "quantity": 300,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600030.SH",
+      "entry_time": "2019-02-19T09:46:00",
+      "quantity": 300,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600681.SH",
+      "entry_time": "2019-02-28T10:12:00",
+      "quantity": 300,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600398.SH",
+      "entry_time": "2019-02-28T09:47:00",
+      "quantity": 700,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "601009.SH",
+      "entry_time": "2019-03-07T09:46:00",
+      "quantity": 900,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "002244.SZ",
+      "entry_time": "2019-02-28T09:46:00",
+      "quantity": 1500,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "002266.SZ",
+      "entry_time": "2019-03-08T09:49:00",
+      "quantity": 1500,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600215.SH",
+      "entry_time": "2019-03-08T09:53:00",
+      "quantity": 700,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600160.SH",
+      "entry_time": "2019-03-12T09:46:00",
+      "quantity": 700,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "601021.SH",
+      "entry_time": "2019-03-28T09:46:00",
+      "quantity": 100,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600887.SH",
+      "entry_time": "2019-04-01T09:46:00",
+      "quantity": 200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600886.SH",
+      "entry_time": "2019-04-04T09:55:00",
+      "quantity": 500,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "002536.SZ",
+      "entry_time": "2019-04-18T09:46:00",
+      "quantity": 600,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600036.SH",
+      "entry_time": "2019-04-01T09:46:00",
+      "quantity": 200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600000.SH",
+      "entry_time": "2019-04-17T09:46:00",
+      "quantity": 600,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600050.SH",
+      "entry_time": "2019-04-22T09:48:00",
+      "quantity": 800,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600869.SH",
+      "entry_time": "2019-09-09T09:52:00",
+      "quantity": 900,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "601238.SH",
+      "entry_time": "2019-09-09T09:46:00",
+      "quantity": 500,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "000012.SZ",
+      "entry_time": "2019-09-16T09:46:00",
+      "quantity": 1600,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "603676.SH",
+      "entry_time": "2019-09-24T09:46:00",
+      "quantity": 400,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "000708.SZ",
+      "entry_time": "2019-09-09T09:46:00",
+      "quantity": 400,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600702.SH",
+      "entry_time": "2019-09-25T09:46:00",
+      "quantity": 200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "000875.SZ",
+      "entry_time": "2019-10-15T09:46:00",
+      "quantity": 2100,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600583.SH",
+      "entry_time": "2019-10-15T10:04:00",
+      "quantity": 1200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600337.SH",
+      "entry_time": "2019-10-29T09:46:00",
+      "quantity": 1400,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "601333.SH",
+      "entry_time": "2019-10-29T09:49:00",
+      "quantity": 2300,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600926.SH",
+      "entry_time": "2019-10-29T10:31:00",
+      "quantity": 700,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600690.SH",
+      "entry_time": "2019-11-06T09:46:00",
+      "quantity": 400,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "000878.SZ",
+      "entry_time": "2019-11-06T09:46:00",
+      "quantity": 500,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "002047.SZ",
+      "entry_time": "2019-11-06T09:46:00",
+      "quantity": 700,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600690.SH",
+      "entry_time": "2019-11-08T09:46:00",
+      "quantity": 400,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "002507.SZ",
+      "entry_time": "2019-11-08T09:46:00",
+      "quantity": 200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    },
+    {
+      "cost": 1.5,
+      "symbol": "600993.SH",
+      "entry_time": "2019-11-08T09:54:00",
+      "quantity": 200,
+      "variants": {
+        "E0": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E1": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        },
+        "E2": {
+          "status": "INVALID_COMPARISON",
+          "error": "缺登记日持仓快照，不得猜测分红资格"
+        }
+      }
+    }
+  ],
+  "note": "固定E0入场时点数量，隔离账户配对；不可把重叠样本损益相加当作组合收益"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PRICE_DIAGNOSTIC_COMPLETE_NOT_PORTFOLIO",
+  "prior_hash_checks": 132,
+  "dates": 156,
+  "signal_pairs": 6419,
+  "price_windows_ok": 19131,
+  "price_windows_missing": 1,
+  "censored": 125,
+  "independent_cached_field_checks": 4348,
+  "platform_restored": true,
+  "production_unchanged": true,
+  "new_account_return_computed": false,
+  "live_orders": false
+}

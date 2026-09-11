@@ -1,0 +1,11 @@
+{
+  "modes": [
+    "B",
+    "P",
+    "Q",
+    "PQ",
+    "BPQ"
+  ],
+  "protocol": "PROTOCOL.md",
+  "stage": "post_extrema_exploratory_causal_replay"
+}

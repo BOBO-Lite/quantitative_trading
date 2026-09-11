@@ -1,0 +1,252 @@
+{
+  "status": "RESEARCH_PORTFOLIO_REPLAY_ONLY",
+  "formal_strategy_validated": false,
+  "source_kind": "SYNTHETIC_TEST_ONLY",
+  "policy": {
+    "breakout_volume": 1.3,
+    "range_discount": 0.025,
+    "industry_top_fraction": 0.2,
+    "risk_fraction": 0.0125,
+    "max_positions": 3,
+    "hard_drawdown": 0.15,
+    "reduce_drawdown": 0.12,
+    "cost_multiplier": 1.0
+  },
+  "execution_convention": "next_minute; scheduled exits earliest 09:32; no auction",
+  "final": {
+    "cash": 29654.4441972,
+    "equity": 29654.4441972,
+    "reserved_cash": 0,
+    "realized_pnl": -345.5558027999991,
+    "unrealized_pnl": 0,
+    "status": "EXECUTION_REPLAY_ONLY",
+    "formal_strategy_validated": false
+  },
+  "positions": {},
+  "fills": [
+    {
+      "order_id": 1,
+      "symbol": "600001.SH",
+      "buy": true,
+      "intent_time": "2026-01-06T09:45:00",
+      "fill_time": "2026-01-06T09:46:00",
+      "price": 10.210199999999999,
+      "quantity": 500,
+      "fees": 5.051051,
+      "net_pnl": null,
+      "cash_after": 24889.848949,
+      "route": "trend_breakout",
+      "reason": "entry_confirmation"
+    },
+    {
+      "order_id": 2,
+      "symbol": "600002.SH",
+      "buy": true,
+      "intent_time": "2026-01-06T09:45:00",
+      "fill_time": "2026-01-06T09:46:00",
+      "price": 10.210199999999999,
+      "quantity": 500,
+      "fees": 5.051051,
+      "net_pnl": null,
+      "cash_after": 19779.697898,
+      "route": "trend_breakout",
+      "reason": "entry_confirmation"
+    },
+    {
+      "order_id": 3,
+      "symbol": "600003.SH",
+      "buy": true,
+      "intent_time": "2026-01-06T09:45:00",
+      "fill_time": "2026-01-06T09:46:00",
+      "price": 10.210199999999999,
+      "quantity": 400,
+      "fees": 5.0408408,
+      "net_pnl": null,
+      "cash_after": 15690.5770572,
+      "route": "trend_breakout",
+      "reason": "entry_confirmation"
+    },
+    {
+      "order_id": 4,
+      "symbol": "600001.SH",
+      "buy": false,
+      "intent_time": "2026-01-07T09:31:00",
+      "fill_time": "2026-01-07T09:32:00",
+      "price": 9.99,
+      "quantity": 500,
+      "fees": 7.5474499999999995,
+      "net_pnl": -122.69850099999985,
+      "cash_after": 20678.0296072,
+      "route": "trend_breakout",
+      "reason": "cash_defense"
+    },
+    {
+      "order_id": 5,
+      "symbol": "600002.SH",
+      "buy": false,
+      "intent_time": "2026-01-07T09:31:00",
+      "fill_time": "2026-01-07T09:32:00",
+      "price": 9.99,
+      "quantity": 500,
+      "fees": 7.5474499999999995,
+      "net_pnl": -122.69850099999985,
+      "cash_after": 25665.4821572,
+      "route": "trend_breakout",
+      "reason": "cash_defense"
+    },
+    {
+      "order_id": 6,
+      "symbol": "600003.SH",
+      "buy": false,
+      "intent_time": "2026-01-07T09:31:00",
+      "fill_time": "2026-01-07T09:32:00",
+      "price": 9.99,
+      "quantity": 400,
+      "fees": 7.03796,
+      "net_pnl": -100.15880079999943,
+      "cash_after": 29654.4441972,
+      "route": "trend_breakout",
+      "reason": "cash_defense"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1,
+      "symbol": "600001.SH",
+      "quantity": 500,
+      "intent_time": "2026-01-06T09:45:00",
+      "buy": true,
+      "factor": 1.0,
+      "limit": 10.4,
+      "reserve": 5205.052,
+      "status": "FILLED",
+      "filled_quantity": 500
+    },
+    {
+      "order_id": 2,
+      "symbol": "600002.SH",
+      "quantity": 500,
+      "intent_time": "2026-01-06T09:45:00",
+      "buy": true,
+      "factor": 1.0,
+      "limit": 10.4,
+      "reserve": 5205.052,
+      "status": "FILLED",
+      "filled_quantity": 500
+    },
+    {
+      "order_id": 3,
+      "symbol": "600003.SH",
+      "quantity": 400,
+      "intent_time": "2026-01-06T09:45:00",
+      "buy": true,
+      "factor": 1.0,
+      "limit": 10.4,
+      "reserve": 4165.0416,
+      "status": "FILLED",
+      "filled_quantity": 400
+    },
+    {
+      "order_id": 4,
+      "symbol": "600001.SH",
+      "quantity": 500,
+      "intent_time": "2026-01-07T09:31:00",
+      "buy": false,
+      "factor": 1.0,
+      "limit": null,
+      "reserve": 0.0,
+      "status": "FILLED",
+      "filled_quantity": 500
+    },
+    {
+      "order_id": 5,
+      "symbol": "600002.SH",
+      "quantity": 500,
+      "intent_time": "2026-01-07T09:31:00",
+      "buy": false,
+      "factor": 1.0,
+      "limit": null,
+      "reserve": 0.0,
+      "status": "FILLED",
+      "filled_quantity": 500
+    },
+    {
+      "order_id": 6,
+      "symbol": "600003.SH",
+      "quantity": 400,
+      "intent_time": "2026-01-07T09:31:00",
+      "buy": false,
+      "factor": 1.0,
+      "limit": null,
+      "reserve": 0.0,
+      "status": "FILLED",
+      "filled_quantity": 400
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-01-06",
+      "route": "trend_breakout",
+      "drawdown": 0.0009807647599999747,
+      "halted": false,
+      "cash": 15690.5770572,
+      "equity": 29970.5770572,
+      "reserved_cash": 0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": -29.42294279999942,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    {
+      "date": "2026-01-07",
+      "route": "defensive_cash",
+      "drawdown": 0.011518526760000092,
+      "halted": false,
+      "cash": 29654.4441972,
+      "equity": 29654.4441972,
+      "reserved_cash": 0,
+      "realized_pnl": -345.5558027999991,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    }
+  ],
+  "decisions": [],
+  "metrics": {
+    "marked_return": -0.011518526760000092,
+    "max_minute_close_drawdown": 0.011518526760000092,
+    "drawdown_peak_time": null,
+    "drawdown_trough_time": "2026-01-07T09:32:00",
+    "drawdown_initial_peak_is_starting_cash": true,
+    "fees_paid": 37.2758028
+  },
+  "pnl_by_route": {
+    "trend_breakout": {
+      "realized": -345.5558027999991,
+      "unrealized": 0,
+      "total": -345.5558027999991
+    },
+    "range_mean_reversion": {
+      "realized": 0,
+      "unrealized": 0,
+      "total": 0
+    },
+    "industry_rotation": {
+      "realized": 0,
+      "unrealized": 0,
+      "total": 0
+    },
+    "defensive_cash": {
+      "realized": 0,
+      "unrealized": 0,
+      "total": 0
+    }
+  },
+  "realized_by_route": {
+    "trend_breakout": -345.5558027999991,
+    "range_mean_reversion": 0,
+    "industry_rotation": 0,
+    "defensive_cash": 0
+  },
+  "input_sha256": "57ae2ba6331b538a70a215110c279560836e82f9f54046f78c1215864aad5470"
+}

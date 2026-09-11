@@ -1,0 +1,18 @@
+{
+  "module_tests": 146,
+  "core_tests": 6,
+  "failures": 0,
+  "integrity": "PASS",
+  "formal_strategy_validated": false,
+  "historical_optimization_runs": 0,
+  "platform_report": "6a9fd2729f7e2800b688439d",
+  "sha256": {
+    "adapters/supermind_s1_minute_backtest.py": "c1e87739dcea419665650e4d714ea8d5a414a9ac849cd08d7596c30dcdfaf9e5",
+    "adapters/supermind_s1_audited_research.py": "03b59b685aec9cf324ea8383705539b941577077da069ba22b5e6abc1416456f",
+    "src/research_portfolio.py": "d3d3469f43e831abdc10973a814e55403688c9f5af82971a7c54b14bf2fdc7fc",
+    "src/s2_strategy_rules.py": "bdffba3331f4d57793290a7ad75054ce6d98fba512204e339e843d12be1f7d99",
+    "reports/s2_research/s1_v5_lifecycle_uploaded.py": "c07a8e373a1eca43daa84658cad4c372709d99e9156dcb6fc92308bb832d7125",
+    "reports/s2_research/s1_v5_lifecycle_report_6a9fd2729f7e2800b688439d.txt": "d9b06082ce222cda48a1ddb566016f92e75c8dba711d2514d06a55726be75308",
+    "reports/s2_research/portfolio_replay/synthetic_bundle.json": "57ae2ba6331b538a70a215110c279560836e82f9f54046f78c1215864aad5470"
+  }
+}

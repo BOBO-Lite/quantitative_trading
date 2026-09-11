@@ -1,0 +1,158 @@
+[
+  {
+    "variant": "R0",
+    "cost": 1.0,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": 0.057465029828334346,
+      "max_minute_close_drawdown": 0.13624561637023158,
+      "drawdown_peak_time": "2020-01-21T09:31:00",
+      "drawdown_trough_time": "2020-05-22T13:47:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 506.91810515000003
+    },
+    "final": {
+      "cash": 31723.95089485003,
+      "equity": 31723.95089485003,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 165.0,
+      "dividend_tax": 33.0,
+      "realized_pnl": 1591.950894850021,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 76
+  },
+  {
+    "variant": "R0",
+    "cost": 1.5,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": 0.03487739251483313,
+      "max_minute_close_drawdown": 0.13216346239141874,
+      "drawdown_peak_time": "2020-01-21T09:31:00",
+      "drawdown_trough_time": "2020-05-22T13:47:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 757.795224555
+    },
+    "final": {
+      "cash": 31046.321775444994,
+      "equity": 31046.321775444994,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 165.0,
+      "dividend_tax": 33.0,
+      "realized_pnl": 914.3217754449984,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 76
+  },
+  {
+    "variant": "R1",
+    "cost": 1.0,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": 0.05984628570100092,
+      "max_minute_close_drawdown": 0.1410132269905583,
+      "drawdown_peak_time": "2020-01-21T09:31:00",
+      "drawdown_trough_time": "2020-06-29T10:42:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 532.41842897
+    },
+    "final": {
+      "cash": 31795.38857103003,
+      "equity": 31795.38857103003,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 165.0,
+      "dividend_tax": 33.0,
+      "realized_pnl": 1663.3885710300233,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 80
+  },
+  {
+    "variant": "R1",
+    "cost": 1.5,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": 0.03700805848883326,
+      "max_minute_close_drawdown": 0.13742426000548758,
+      "drawdown_peak_time": "2020-01-21T09:31:00",
+      "drawdown_trough_time": "2020-06-29T10:42:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 795.683245335
+    },
+    "final": {
+      "cash": 31110.241754664996,
+      "equity": 31110.241754664996,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 165.0,
+      "dividend_tax": 33.0,
+      "realized_pnl": 978.2417546649981,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 80
+  },
+  {
+    "variant": "R2",
+    "cost": 1.0,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": -0.025949259704999728,
+      "max_minute_close_drawdown": 0.13786533674688628,
+      "drawdown_peak_time": "2019-02-26T09:41:00",
+      "drawdown_trough_time": "2019-11-29T11:28:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 337.49079115
+    },
+    "final": {
+      "cash": 29221.52220885001,
+      "equity": 29221.52220885001,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 25.0,
+      "dividend_tax": 2.5,
+      "realized_pnl": -800.9777911499832,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 52
+  },
+  {
+    "variant": "R2",
+    "cost": 1.5,
+    "status": "COMPLETED",
+    "metrics": {
+      "marked_return": -0.03613022468916727,
+      "max_minute_close_drawdown": 0.13755608989788493,
+      "drawdown_peak_time": "2019-02-26T09:41:00",
+      "drawdown_trough_time": "2019-11-07T09:32:00",
+      "drawdown_initial_peak_is_starting_cash": false,
+      "fees_paid": 466.369740675
+    },
+    "final": {
+      "cash": 28916.09325932498,
+      "equity": 28916.09325932498,
+      "reserved_cash": 0,
+      "dividend_receivable": 0.0,
+      "dividend_income": 25.0,
+      "dividend_tax": 2.5,
+      "realized_pnl": -1106.4067406749973,
+      "unrealized_pnl": 0,
+      "status": "EXECUTION_REPLAY_ONLY",
+      "formal_strategy_validated": false
+    },
+    "fills": 48
+  }
+]

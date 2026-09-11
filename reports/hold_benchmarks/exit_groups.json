@@ -1,0 +1,50 @@
+[
+  {
+    "cost": 1.0,
+    "reason": "cash_defense",
+    "cases": 24,
+    "hold_better": 13,
+    "original_better": 11,
+    "median_delta": 357.732362525001
+  },
+  {
+    "cost": 1.0,
+    "reason": "scheduled_exit",
+    "cases": 9,
+    "hold_better": 8,
+    "original_better": 1,
+    "median_delta": 885.8773849400004
+  },
+  {
+    "cost": 1.0,
+    "reason": "persistent_weak_loss",
+    "cases": 1,
+    "hold_better": 1,
+    "original_better": 0,
+    "median_delta": 4809.5399768
+  },
+  {
+    "cost": 1.5,
+    "reason": "cash_defense",
+    "cases": 23,
+    "hold_better": 14,
+    "original_better": 9,
+    "median_delta": 686.2529039374995
+  },
+  {
+    "cost": 1.5,
+    "reason": "scheduled_exit",
+    "cases": 11,
+    "hold_better": 9,
+    "original_better": 2,
+    "median_delta": 893.8133211149998
+  },
+  {
+    "cost": 1.5,
+    "reason": "persistent_weak_loss",
+    "cases": 1,
+    "hold_better": 1,
+    "original_better": 0,
+    "median_delta": 3854.9460382400002
+  }
+]

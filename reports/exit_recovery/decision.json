@@ -1,0 +1,7 @@
+{
+  "eligible": [],
+  "adopted": false,
+  "portfolio_test_required": false,
+  "scope": "32 isolated cost and rule paths, not 32 independent trades",
+  "next": "Broaden fixed-rule signal sample before tuning; separate entry quality from exit recovery"
+}

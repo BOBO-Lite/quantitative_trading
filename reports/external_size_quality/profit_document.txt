@@ -1,0 +1,104 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+
+需要帮助？
+
+试试AI小助手吧
+
+全局搜索
+HI！mx_69lp3klgu
+
+如果您有本地使用其他数据的需求，请联系我们
+
+联系客服
+全部
+股票
+A股
+上市公司财务数据
+盈利能力表
+盈利能力表
+
+A股上市公司盈利能力计算财务指标
+
+字段说明
+使用代码
+数据样例
+
+表名：目前有两张表中都存了盈利能力相关的计算指标
+
+ashareprofit
+profit
+
+表名：ashareprofit
+
+含义	字段
+日期	date
+公告日期	report_date
+报告期	stat_date
+股票代码	symbol
+股东权益收益率(ROE)TTM	roe_ttm
+总资产报酬率（扣非）TTM	ebit_on_total_assets_ttm
+总资产收益率(ROA)TTM	roa_ttm
+投入资本回报率(ROIC)TTM	roic_ttm
+销售净利率TTM	net_sales_rate_ttm
+销售毛利率TTM	gross_sales_rate_ttm
+销售期间费用率TTM	sales_dur_fee_rate_ttm
+销售费用率TTM	sales_fee_rate_ttm
+管理费用率TTM	manage_fee_rate_ttm
+财务费用率TTM	finance_fee_rate_ttm
+营业利润率TTM	operating_profit_rate_ttm
+息税前利润率（扣非）TTM	ebit_rate_ttm
+营业总成本／营业总收入TTM	cost_to_revenue_ttm
+
+表名：profit
+
+含义	字段
+日期	date
+公告日期	report_date
+报告期	stat_date
+股票代码	symbol
+净资产收益率-平均(%)	roe_ths
+净资产收益率-加权(%)	weighted_roe
+净资产收益率-摊薄(%)	diluted_roe
+净资产收益率-扣除/摊薄(%)	deduct_diluted_roe
+净资产收益率-扣除非经常损益(%)	non_recurring_gains_and_losses_roe
+净资产收益率-增发条件(%)	additional_share_offering_roe
+总资产净利率(%)	overall_assets_net_income_ratio
+总资产报酬率(%)	roa
+投入资本回报率(%)	roic
+净资产收益率-年化(%)	annualized_rate_of_return_on_net_assets
+总资产报酬率-年化(%)	annualized_rate_of_return_on_overall_assets
+总资产净利率-年化(%)	annualized_rate_of_net_profit_on_overall_assets
+销售净利率(%)	net_profit_margin_on_sales
+销售毛利率(%)	gross_sales_profits
+销售成本率(%)	ratio_of_sales_to_cost
+销售期间费用率(%)	cost_of_sales_period
+净利润／营业总收入(%)	net_profit_div_income
+营业利润／营业总收入(%)	opt_profit_div_income
+息税前利润／营业总收入(%)	before_tax_profit_div_income
+营业总成本／营业总收入(%)	opt_cost_div_income
+销售费用／营业总收入(%)	sale_cost_div_income
+(管理费用+研发费用)／营业总收入(%)	administration_cost_div_income
+财务费用／营业总收入(%)	financing_cost_div_income
+资产减值损失／营业总收入(%)	impairment_loss_div_income
+净资产收益率-扣除／加权(%)	deduct_weighted_roe
+
+注：
+
+净资产收益率(ROE)TTM是指最近12个月净利润与平均股东权益的比值。公式：股东权益收益率(ROE)TTM=最近12个月净利润/平均股东权益TTM,平均股东权益TTM=(本期股东权益总额+上年同期股东权益总额)/2
+总资产报酬率TTM是指最近12个月息税前利润与平均总资产的比值。公式：总资产报酬率（扣非）TTM=最近12个月息税前利润（扣除非经常性损益）/平均总资产TTM,平均总资产TTM=(本期总资产+上年同期总资产)/2
+总资产收益率(ROA)TTM是指最近12个月净利润与平均总资产的比值。公式：总资产收益率(ROA)TTM=最近12个月净利润/平均总资产TTM,平均总资产TTM=(本期总资产+上年同期总资产)/2
+投入资本回报率(ROIC)TTM是指前推12个月的投入资本回报率。公式：投入资本回报率(ROIC)TTM=最近12个月净利润/平均投入资本TTM,平均投入资本TTM=(本期全部投入资本+上年同期全部投入资本)/2
+销售净利率是指企业实现净利润与销售收入的对比关系,用以衡量企业在一定时期的销售收入获取的能力。当营业收入为负数时,不进行计算。公式：净利率TTM=最近12个月净利润/最近12个月营业总收入
+销售毛利率是毛利占销售收入的百分比,反映每1元销售收入扣减生产成本后还有多少盈余可以用来支付企业运营费用并最终形成收益本指标只适用于一般企业。当营业收入为负数时,不进行计算。公式：毛利率TTM=最近12个月毛利润/最近12个月营业总收入
+销售期间费用率是三项费用合计(销售费用、管理费用、财务费用)占销售收入的百分比该指标越低越好,当销售期间费用率大于销售毛利率时,则说明企业盈利相当困难。公式：销售期间费用率＝(最近12个月销售费用＋最近12个月管理费用＋最近12个月财务费用)／最近12个月营业总收入*100%
+销售费用率，即销售费用占营业总收入的比重。公式：销售费用率TTM=最近12个月销售费用/最近12个月营业总收入
+管理费用率，即管理费用占营业总收入的比重。公式：管理费用率TTM=最近12个月管理费用/最近12个月营业总收入
+财务费用率，即财务费用占营业总收入的比重。公式：财务费用率TTM=最近12个月财务费用/最近12个月营业总收入
+营业利润率，即营业利润占营业总收入的比重。公式：营业利润率TTM=最近12个月营业利润/最近12个月营业总收入
+息税前利润率，即息税前利润占营业总收入的比重。公式：息税前利润率（扣非）TTM=最近12个月息税前利润（扣除非经常性损益）/最近12个月营业总收入；最近12个月扣除非经常性损益后EBIT（反推法）=最近12个月税前利润（扣除非经常损益）+利息费用

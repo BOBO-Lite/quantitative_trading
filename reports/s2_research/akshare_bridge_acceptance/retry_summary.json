@@ -1,0 +1,7 @@
+{
+  "provider": "akshare_tencent_daily",
+  "requested": 1,
+  "accepted": 1,
+  "status": "READ_ONLY_SAMPLE_PASS",
+  "evidence": "reports\\s2_research\\akshare_bridge_acceptance\\retry\\20260908T200709725242\\probe.json"
+}

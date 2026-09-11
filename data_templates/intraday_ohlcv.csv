@@ -1,0 +1,2 @@
+datetime,symbol,open,high,low,close,volume,amount,paused,ask_volume_at_limit,bid_volume_at_limit
+2026-09-01 09:45:00,EXAMPLE.SH,10.40,10.55,10.38,10.52,100000,1048000,false,1,1

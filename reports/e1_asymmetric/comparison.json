@@ -1,0 +1,178 @@
+{
+  "rows": [
+    {
+      "mode": "R",
+      "cost": 1.0,
+      "return_pct": 5.852762801966738,
+      "annualized_pct": 1.9140512679776567,
+      "baseline_return_pct": 5.746502982833435,
+      "delta_yuan": 31.877945739994175,
+      "max_drawdown_pct": 14.145364071734646,
+      "baseline_drawdown_pct": 13.624561637023158,
+      "final_equity": 31755.828840590024,
+      "buys": 40,
+      "fees": 531.4941594100001,
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.937691624205122,
+        "2020": -4.297169265551148
+      },
+      "mean_close_exposure_pct": 7.601877288593499,
+      "flat_close_days": 616,
+      "events": 2
+    },
+    {
+      "mode": "R",
+      "cost": 1.5,
+      "return_pct": 3.700805848883326,
+      "annualized_pct": 1.2186895734316527,
+      "baseline_return_pct": 3.4877392514833128,
+      "delta_yuan": 63.91997922000155,
+      "max_drawdown_pct": 13.742426000548758,
+      "baseline_drawdown_pct": 13.216346239141874,
+      "final_equity": 31110.241754664996,
+      "buys": 40,
+      "fees": 795.683245335,
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 4.337903932658382,
+        "2020": -3.779525700908415
+      },
+      "mean_close_exposure_pct": 7.341139660553245,
+      "flat_close_days": 617,
+      "events": 2
+    },
+    {
+      "mode": "W",
+      "cost": 1.0,
+      "return_pct": 7.440215845100084,
+      "annualized_pct": 2.4209871652000947,
+      "baseline_return_pct": 5.746502982833435,
+      "delta_yuan": 508.1138586799934,
+      "max_drawdown_pct": 12.093978136427507,
+      "baseline_drawdown_pct": 13.624561637023158,
+      "final_equity": 32232.064753530023,
+      "buys": 32,
+      "fees": 430.47224647,
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.937691624205122,
+        "2020": -2.861932755285468
+      },
+      "mean_close_exposure_pct": 6.979706407383943,
+      "flat_close_days": 640,
+      "events": 1
+    },
+    {
+      "mode": "W",
+      "cost": 1.5,
+      "return_pct": 3.480057203949971,
+      "annualized_pct": 1.1468169018860719,
+      "baseline_return_pct": 3.4877392514833128,
+      "delta_yuan": -2.304614259999653,
+      "max_drawdown_pct": 13.107618009968325,
+      "baseline_drawdown_pct": 13.216346239141874,
+      "final_equity": 31044.017161184995,
+      "buys": 35,
+      "fees": 700.665838815,
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 4.337903932658382,
+        "2020": -3.98435091072713
+      },
+      "mean_close_exposure_pct": 6.825312137237032,
+      "flat_close_days": 638,
+      "events": 1
+    },
+    {
+      "mode": "L",
+      "cost": 1.0,
+      "return_pct": -0.21676810593324047,
+      "annualized_pct": -0.07230830762248175,
+      "baseline_return_pct": 5.746502982833435,
+      "delta_yuan": -1788.9813266300007,
+      "max_drawdown_pct": 12.563277132359307,
+      "baseline_drawdown_pct": 13.624561637023158,
+      "final_equity": 29934.96956822003,
+      "buys": 34,
+      "fees": 446.76043178000003,
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": -3.52585078977522,
+        "2020": 0.0
+      },
+      "mean_close_exposure_pct": 4.779035095817455,
+      "flat_close_days": 665,
+      "events": 8
+    },
+    {
+      "mode": "L",
+      "cost": 1.5,
+      "return_pct": 0.001903680541648356,
+      "annualized_pct": 0.0006345561539333744,
+      "baseline_return_pct": 3.4877392514833128,
+      "delta_yuan": -1045.7506712825016,
+      "max_drawdown_pct": 13.222214105687069,
+      "baseline_drawdown_pct": 13.216346239141874,
+      "final_equity": 30000.571104162493,
+      "buys": 32,
+      "fees": 629.6663958375,
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": -3.1865409289209556,
+        "2020": 0.0
+      },
+      "mean_close_exposure_pct": 4.547306731011534,
+      "flat_close_days": 665,
+      "events": 7
+    },
+    {
+      "mode": "RW",
+      "cost": 1.0,
+      "return_pct": 6.036027166700086,
+      "annualized_pct": 1.972832430973659,
+      "baseline_return_pct": 5.746502982833435,
+      "delta_yuan": 86.85725515999366,
+      "max_drawdown_pct": 14.05926911492129,
+      "baseline_drawdown_pct": 13.624561637023158,
+      "final_equity": 31810.808150010023,
+      "buys": 35,
+      "fees": 468.49684999,
+      "yearly": {
+        "2018": 3.430020073699991,
+        "2019": 6.937691624205122,
+        "2020": -4.131477619783308
+      },
+      "mean_close_exposure_pct": 7.460130639963262,
+      "flat_close_days": 621,
+      "events": 3
+    },
+    {
+      "mode": "RW",
+      "cost": 1.5,
+      "return_pct": 3.6931238013499845,
+      "annualized_pct": 1.216190120062155,
+      "baseline_return_pct": 3.4877392514833128,
+      "delta_yuan": 61.6153649600019,
+      "max_drawdown_pct": 13.748876629073404,
+      "baseline_drawdown_pct": 13.216346239141874,
+      "final_equity": 31107.937140404996,
+      "buys": 37,
+      "fees": 738.5538595950001,
+      "yearly": {
+        "2018": 3.2933898241583215,
+        "2019": 4.337903932658382,
+        "2020": -3.78665361328282
+      },
+      "mean_close_exposure_pct": 7.231240126227813,
+      "flat_close_days": 620,
+      "events": 3
+    }
+  ],
+  "decisions": {
+    "R": "两档样本内收益正向，需新时期验证",
+    "W": "成本档方向不同，不稳定",
+    "L": "两档收益未改善，不采用",
+    "RW": "两档样本内收益正向，需新时期验证"
+  }
+}

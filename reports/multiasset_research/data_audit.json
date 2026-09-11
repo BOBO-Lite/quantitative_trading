@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "warnings": [],
+  "daily_checks": [
+    {
+      "symbol": "510300.SH",
+      "days": 2350,
+      "factor_max_relative_error": 5.4098781512412764e-05
+    },
+    {
+      "symbol": "511010.SH",
+      "days": 2350,
+      "factor_max_relative_error": 5.9353866932676524e-05
+    },
+    {
+      "symbol": "518880.SH",
+      "days": 2350,
+      "factor_max_relative_error": 0.0
+    }
+  ],
+  "events": [
+    {
+      "symbol": "510300.SH",
+      "record_date": "2017-01-20",
+      "ex_date": "2017-01-23",
+      "pay_date": "2017-01-26",
+      "cash": 0.05500000000000001,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2018-01-22",
+      "ex_date": "2018-01-23",
+      "pay_date": "2018-01-26",
+      "cash": 0.046,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2019-01-15",
+      "ex_date": "2019-01-16",
+      "pay_date": "2019-01-21",
+      "cash": 0.059,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2019-12-10",
+      "ex_date": "2019-12-11",
+      "pay_date": "2019-12-16",
+      "cash": 0.062,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2021-01-15",
+      "ex_date": "2021-01-18",
+      "pay_date": "2021-01-21",
+      "cash": 0.072,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2022-01-18",
+      "ex_date": "2022-01-19",
+      "pay_date": "2022-01-24",
+      "cash": 0.075,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2023-01-13",
+      "ex_date": "2023-01-16",
+      "pay_date": "2023-01-19",
+      "cash": 0.064,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2024-01-17",
+      "ex_date": "2024-01-18",
+      "pay_date": "2024-01-23",
+      "cash": 0.06899999999999999,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2025-06-17",
+      "ex_date": "2025-06-18",
+      "pay_date": "2025-06-27",
+      "cash": 0.088,
+      "kind": "cash"
+    },
+    {
+      "symbol": "511010.SH",
+      "record_date": "2025-09-22",
+      "ex_date": "2025-09-23",
+      "pay_date": "2025-09-26",
+      "cash": 1.45,
+      "kind": "cash"
+    },
+    {
+      "symbol": "511010.SH",
+      "record_date": "2025-12-25",
+      "ex_date": "2025-12-26",
+      "pay_date": "2025-12-31",
+      "cash": 0.6542,
+      "kind": "cash"
+    },
+    {
+      "symbol": "510300.SH",
+      "record_date": "2026-01-16",
+      "ex_date": "2026-01-19",
+      "pay_date": "2026-01-27",
+      "cash": 0.123,
+      "kind": "cash"
+    },
+    {
+      "symbol": "511010.SH",
+      "record_date": "2026-03-24",
+      "ex_date": "2026-03-25",
+      "pay_date": "2026-03-30",
+      "cash": 0.5715,
+      "kind": "cash"
+    },
+    {
+      "symbol": "511010.SH",
+      "record_date": "2026-06-24",
+      "ex_date": "2026-06-25",
+      "pay_date": "2026-06-30",
+      "cash": 0.8144,
+      "kind": "cash"
+    }
+  ],
+  "minute_stock_days": 6318,
+  "minute_rows_aggregated": 1516320,
+  "scope": "固定两ETF历史数据及09:35分钟，不是绩效"
+}

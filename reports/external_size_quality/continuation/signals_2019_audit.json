@@ -1,0 +1,763 @@
+{
+  "status": "BLOCKED_SIGNALS",
+  "year": 2019,
+  "pilot": false,
+  "source_sha256": "057f395ce2943cf78288796861301e0a430194542b8c7d4fe28ecd00b0751222",
+  "expected_signals": 49,
+  "audited_signals": 37,
+  "financial_rows": 123683,
+  "independently_checked_decisions": 6289,
+  "accounting_flags": {
+    "adjusted_report_rows": 72960,
+    "other_equity_rows": 772,
+    "version_change_rows": 32841
+  },
+  "signals": [
+    {
+      "asof": "2019-01-24",
+      "trade": "2019-01-25",
+      "status": "PASS",
+      "members": 2202,
+      "financial_rows": 1313,
+      "consumed_decisions": 73,
+      "targets": [
+        "603089.SH",
+        "603136.SH",
+        "603326.SH",
+        "603757.SH",
+        "603701.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-01-31",
+      "trade": "2019-02-01",
+      "status": "PASS",
+      "members": 2205,
+      "financial_rows": 1313,
+      "consumed_decisions": 63,
+      "targets": [
+        "603089.SH",
+        "603136.SH",
+        "603757.SH",
+        "603326.SH",
+        "603701.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-02-14",
+      "trade": "2019-02-15",
+      "status": "PASS",
+      "members": 2208,
+      "financial_rows": 1313,
+      "consumed_decisions": 66,
+      "targets": [
+        "603089.SH",
+        "603136.SH",
+        "603757.SH",
+        "603326.SH",
+        "603701.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-02-21",
+      "trade": "2019-02-22",
+      "status": "PASS",
+      "members": 2209,
+      "financial_rows": 1313,
+      "consumed_decisions": 72,
+      "targets": [
+        "603089.SH",
+        "603136.SH",
+        "603326.SH",
+        "603757.SH",
+        "603701.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-02-28",
+      "trade": "2019-03-01",
+      "status": "PASS",
+      "members": 2209,
+      "financial_rows": 1313,
+      "consumed_decisions": 72,
+      "targets": [
+        "603089.SH",
+        "603136.SH",
+        "603326.SH",
+        "603757.SH",
+        "603701.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-03-07",
+      "trade": "2019-03-08",
+      "status": "PASS",
+      "members": 2210,
+      "financial_rows": 1322,
+      "consumed_decisions": 75,
+      "targets": [
+        "603089.SH",
+        "603136.SH",
+        "603326.SH",
+        "603757.SH",
+        "603701.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-03-14",
+      "trade": "2019-03-15",
+      "status": "PASS",
+      "members": 2211,
+      "financial_rows": 2655,
+      "consumed_decisions": 115,
+      "targets": [
+        "603089.SH",
+        "603326.SH",
+        "603757.SH",
+        "603701.SH",
+        "002907.SZ"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-03-21",
+      "trade": "2019-03-22",
+      "status": "PASS",
+      "members": 2212,
+      "financial_rows": 2670,
+      "consumed_decisions": 116,
+      "targets": [
+        "603089.SH",
+        "603326.SH",
+        "603757.SH",
+        "603701.SH",
+        "603711.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-03-28",
+      "trade": "2019-03-29",
+      "status": "PASS",
+      "members": 2212,
+      "financial_rows": 1364,
+      "consumed_decisions": 68,
+      "targets": [
+        "603089.SH",
+        "603326.SH",
+        "603165.SH",
+        "603701.SH",
+        "603757.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-04-04",
+      "trade": "2019-04-08",
+      "status": "PASS",
+      "members": 2212,
+      "financial_rows": 1106,
+      "consumed_decisions": 83,
+      "targets": [
+        "603089.SH",
+        "603860.SH",
+        "603326.SH",
+        "603165.SH",
+        "603701.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-04-12",
+      "trade": "2019-04-15",
+      "status": "PASS",
+      "members": 2213,
+      "financial_rows": 2280,
+      "consumed_decisions": 103,
+      "targets": [
+        "603089.SH",
+        "603860.SH",
+        "603326.SH",
+        "603165.SH",
+        "603458.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-04-19",
+      "trade": "2019-04-22",
+      "status": "PASS",
+      "members": 2214,
+      "financial_rows": 2357,
+      "consumed_decisions": 121,
+      "targets": [
+        "603860.SH",
+        "603283.SH",
+        "603165.SH",
+        "603569.SH",
+        "603180.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2019-04-26",
+      "trade": "2019-04-29",
+      "status": "PASS",
+      "members": 2214,
+      "financial_rows": 2807,
+      "consumed_decisions": 151,
+      "targets": [
+        "603860.SH",
+        "603165.SH",
+        "603569.SH",
+        "603203.SH",
+        "002901.SZ"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2019-05-08",
+      "trade": "2019-05-09",
+      "status": "PASS",
+      "members": 2216,
+      "financial_rows": 6416,
+      "consumed_decisions": 362,
+      "targets": [
+        "603165.SH",
+        "603103.SH",
+        "002901.SZ",
+        "603798.SH",
+        "002833.SZ"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-05-15",
+      "trade": "2019-05-16",
+      "status": "PASS",
+      "members": 2216,
+      "financial_rows": 6416,
+      "consumed_decisions": 360,
+      "targets": [
+        "603165.SH",
+        "603103.SH",
+        "002901.SZ",
+        "603798.SH",
+        "002833.SZ"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-05-22",
+      "trade": "2019-05-23",
+      "status": "PASS",
+      "members": 2218,
+      "financial_rows": 6416,
+      "consumed_decisions": 330,
+      "targets": [
+        "603165.SH",
+        "603103.SH",
+        "002901.SZ",
+        "603798.SH",
+        "002833.SZ"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-05-29",
+      "trade": "2019-05-30",
+      "status": "PASS",
+      "members": 2218,
+      "financial_rows": 6416,
+      "consumed_decisions": 326,
+      "targets": [
+        "603165.SH",
+        "603103.SH",
+        "002901.SZ",
+        "002833.SZ",
+        "603798.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-06-05",
+      "trade": "2019-06-06",
+      "status": "PASS",
+      "members": 2220,
+      "financial_rows": 6416,
+      "consumed_decisions": 352,
+      "targets": [
+        "603165.SH",
+        "603103.SH",
+        "002901.SZ",
+        "002833.SZ",
+        "603798.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-06-13",
+      "trade": "2019-06-14",
+      "status": "PASS",
+      "members": 2221,
+      "financial_rows": 6416,
+      "consumed_decisions": 350,
+      "targets": [
+        "603165.SH",
+        "002901.SZ",
+        "603103.SH",
+        "002833.SZ",
+        "603798.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-06-20",
+      "trade": "2019-06-21",
+      "status": "PASS",
+      "members": 2206,
+      "financial_rows": 4816,
+      "consumed_decisions": 280,
+      "targets": [
+        "603165.SH",
+        "002901.SZ",
+        "603103.SH",
+        "002833.SZ",
+        "002755.SZ"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-06-27",
+      "trade": "2019-06-28",
+      "status": "PASS",
+      "members": 2206,
+      "financial_rows": 4816,
+      "consumed_decisions": 284,
+      "targets": [
+        "603165.SH",
+        "603103.SH",
+        "002901.SZ",
+        "002755.SZ",
+        "002833.SZ"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-07-04",
+      "trade": "2019-07-05",
+      "status": "PASS",
+      "members": 2208,
+      "financial_rows": 3913,
+      "consumed_decisions": 293,
+      "targets": [
+        "603165.SH",
+        "603103.SH",
+        "002901.SZ",
+        "002755.SZ",
+        "002833.SZ"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-07-11",
+      "trade": "2019-07-12",
+      "status": "PASS",
+      "members": 2211,
+      "financial_rows": 5213,
+      "consumed_decisions": 307,
+      "targets": [
+        "603165.SH",
+        "603103.SH",
+        "002901.SZ",
+        "002755.SZ",
+        "002833.SZ"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-09-12",
+      "trade": "2019-09-16",
+      "status": "PASS",
+      "members": 2222,
+      "financial_rows": 3216,
+      "consumed_decisions": 108,
+      "targets": [
+        "603908.SH",
+        "603326.SH",
+        "603388.SH",
+        "002907.SZ",
+        "603180.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-09-20",
+      "trade": "2019-09-23",
+      "status": "PASS",
+      "members": 2224,
+      "financial_rows": 3216,
+      "consumed_decisions": 104,
+      "targets": [
+        "603908.SH",
+        "603326.SH",
+        "603388.SH",
+        "002907.SZ",
+        "603180.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-09-27",
+      "trade": "2019-09-30",
+      "status": "PASS",
+      "members": 2225,
+      "financial_rows": 3216,
+      "consumed_decisions": 125,
+      "targets": [
+        "603908.SH",
+        "603326.SH",
+        "603388.SH",
+        "002907.SZ",
+        "603871.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-10-11",
+      "trade": "2019-10-14",
+      "status": "PASS",
+      "members": 2225,
+      "financial_rows": 2613,
+      "consumed_decisions": 117,
+      "targets": [
+        "603908.SH",
+        "603326.SH",
+        "603388.SH",
+        "002907.SZ",
+        "603180.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-10-18",
+      "trade": "2019-10-21",
+      "status": "PASS",
+      "members": 2225,
+      "financial_rows": 2616,
+      "consumed_decisions": 118,
+      "targets": [
+        "603908.SH",
+        "603326.SH",
+        "603388.SH",
+        "002907.SZ",
+        "603180.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-10-25",
+      "trade": "2019-10-28",
+      "status": "PASS",
+      "members": 2225,
+      "financial_rows": 2730,
+      "consumed_decisions": 110,
+      "targets": [
+        "603908.SH",
+        "603326.SH",
+        "603388.SH",
+        "002907.SZ",
+        "603180.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-11-01",
+      "trade": "2019-11-04",
+      "status": "PASS",
+      "members": 2225,
+      "financial_rows": 3216,
+      "consumed_decisions": 116,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603180.SH",
+        "603203.SH",
+        "603819.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-11-08",
+      "trade": "2019-11-11",
+      "status": "PASS",
+      "members": 2226,
+      "financial_rows": 3216,
+      "consumed_decisions": 128,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603180.SH",
+        "603819.SH",
+        "603871.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-11-15",
+      "trade": "2019-11-18",
+      "status": "PASS",
+      "members": 2228,
+      "financial_rows": 3216,
+      "consumed_decisions": 123,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603819.SH",
+        "603180.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-11-22",
+      "trade": "2019-11-25",
+      "status": "PASS",
+      "members": 2228,
+      "financial_rows": 3216,
+      "consumed_decisions": 130,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH",
+        "603819.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-11-29",
+      "trade": "2019-12-02",
+      "status": "PASS",
+      "members": 2229,
+      "financial_rows": 3216,
+      "consumed_decisions": 185,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH",
+        "603208.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-12-06",
+      "trade": "2019-12-09",
+      "status": "PASS",
+      "members": 2229,
+      "financial_rows": 3216,
+      "consumed_decisions": 183,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH",
+        "603208.SH"
+      ],
+      "missing_float_shares": [
+        "000043.SZ"
+      ],
+      "errors": []
+    },
+    {
+      "asof": "2019-12-20",
+      "trade": "2019-12-23",
+      "status": "PASS",
+      "members": 2212,
+      "financial_rows": 3200,
+      "consumed_decisions": 157,
+      "targets": [
+        "603136.SH",
+        "603757.SH",
+        "603871.SH",
+        "603180.SH",
+        "603208.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    },
+    {
+      "asof": "2019-12-27",
+      "trade": "2019-12-30",
+      "status": "PASS",
+      "members": 2213,
+      "financial_rows": 3200,
+      "consumed_decisions": 163,
+      "targets": [
+        "603757.SH",
+        "603136.SH",
+        "603871.SH",
+        "603180.SH",
+        "603208.SH"
+      ],
+      "missing_float_shares": [],
+      "errors": []
+    }
+  ],
+  "errors": [
+    {
+      "asof": "2019-01-03",
+      "error": "price coverage 600270.SH"
+    },
+    {
+      "asof": "2019-01-10",
+      "error": "price coverage 600270.SH"
+    },
+    {
+      "asof": "2019-01-17",
+      "error": "price coverage 600270.SH"
+    },
+    {
+      "asof": "2019-07-18",
+      "error": "price coverage 600401.SH"
+    },
+    {
+      "asof": "2019-07-25",
+      "error": "price coverage 600401.SH"
+    },
+    {
+      "asof": "2019-08-01",
+      "error": "price coverage 600401.SH"
+    },
+    {
+      "asof": "2019-08-08",
+      "error": "price coverage 600401.SH"
+    },
+    {
+      "asof": "2019-08-15",
+      "error": "price coverage 600401.SH"
+    },
+    {
+      "asof": "2019-08-22",
+      "error": "price coverage 600401.SH"
+    },
+    {
+      "asof": "2019-08-29",
+      "error": "price coverage 600401.SH"
+    },
+    {
+      "asof": "2019-09-05",
+      "error": "price coverage 600401.SH"
+    },
+    {
+      "asof": "2019-12-13",
+      "error": "'000043.SZ'"
+    }
+  ],
+  "performance_completed": false
+}

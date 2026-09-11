@@ -1,0 +1,11 @@
+{
+  "previous_manifest_sha256": "15a022904139dfb3cca6ec66fb97025cc092ed9db77113b7719b8eed2ad9d40b",
+  "previous_files_checked": 54,
+  "mismatches_before_progress_update": [],
+  "user_scope_change": "Pause SQ1 missing financial evidence; allow incomplete-data exploratory results; independently evaluate trend/leader hypotheses",
+  "intentionally_updated_progress": [
+    "README.md",
+    "SYSTEM_STATUS.md",
+    "CHANGELOG.md"
+  ]
+}

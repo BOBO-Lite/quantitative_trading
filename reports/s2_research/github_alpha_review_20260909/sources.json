@@ -1,0 +1,34 @@
+{
+  "repository": "microsoft/qlib",
+  "commit": "79633dd9506ea689e5400dea0197717b5b3d74b7",
+  "files": [
+    {
+      "path": "examples/benchmarks/README.md",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/examples/benchmarks/README.md"
+    },
+    {
+      "path": "examples/benchmarks/LightGBM/README.md",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/examples/benchmarks/LightGBM/README.md"
+    },
+    {
+      "path": "examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml"
+    },
+    {
+      "path": "qlib/workflow/record_temp.py",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/qlib/workflow/record_temp.py"
+    },
+    {
+      "path": "qlib/contrib/evaluate.py",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/qlib/contrib/evaluate.py"
+    },
+    {
+      "path": "docs/component/report.rst",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/docs/component/report.rst"
+    },
+    {
+      "path": "examples/run_all_model.py",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/79633dd9506ea689e5400dea0197717b5b3d74b7/examples/run_all_model.py"
+    }
+  ]
+}

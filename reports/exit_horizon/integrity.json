@@ -1,0 +1,34 @@
+{
+  "status": "EXIT_HORIZON_AUDIT_COMPLETE_NO_ADOPTION",
+  "files_sha256": {
+    "reports/exit_horizon/annual_groups.json": "ffa19970c27ad8d062f200f00705c7fb2c297df39a47d181db57ebab77ae3859",
+    "reports/exit_horizon/candidate_gate.json": "db60dc7e38b4b89105ef1a009cc62083816da8c982997b66fb873717cf86a305",
+    "reports/exit_horizon/cases.json": "2fa1c953329e7084630dfd19f7e7824c61100ae83bfd4075ffcf70e45030c966",
+    "reports/exit_horizon/corporate_resolution.json": "3805698950c486e7d6c2c19cc9a14e2a8e7dc0389a2b9410c6d170352458d9fd",
+    "reports/exit_horizon/execution_audit.json": "9bf0a6b3f248a621ac2198d78802aa2f63d035713e6c464df521f1221d306832",
+    "reports/exit_horizon/fill_causes.json": "0449669be11a1b7b7df7fa3a2cf5d126b3d34374c89c705d1905dfcced8401ab",
+    "reports/exit_horizon/finalize.py": "307017e65ba195eceb5257980f2ec76ea147499e2fbda03d2e156f0f12dc189b",
+    "reports/exit_horizon/groups.json": "7ae35be8afd59f7652793e504a0f5ceb8be6cc2b33099539d1c28de082ee1a69",
+    "reports/exit_horizon/matched_stop_cases.json": "669f05a3a4234d878035745f06beea66ba7d67b599ba05f48e2037c1f98900a3",
+    "reports/exit_horizon/parity_cost1.0.json": "6d399a5bf1d9592b0adcaffbd61866e80493ce406740d012073fd513241fc5e6",
+    "reports/exit_horizon/parity_cost1.5.json": "3be94d4cd5e3d6d86b536efb23417f45338a0d088a89d250e5cc02acb3bc09b9",
+    "reports/exit_horizon/PROTOCOL.md": "b6d2851dfbd06fffe123512c4ad274f42999dcc0788f0a45e96b9dea8e62ffa1",
+    "reports/exit_horizon/protocol_lock.json": "3318b295c8053f0c5f5613c4e1f6efa11fe8e12bb8103df47081655326a9a71b",
+    "reports/exit_horizon/RESULT.md": "30cf51e59b3d977da50e6664c19bbb1fa769c7e4bb2c2c0c6b77aa9dd056f760",
+    "reports/exit_horizon/triggers_cost1.0.json": "d9b2ccbb84a3b5d7d7660e2fd180c173ae1aa0cdde4159dafed1bcdd7a28ae82",
+    "reports/exit_horizon/triggers_cost1.5.json": "8bb522d9714a9ef4dde6874669ba7e39da1fe6991e0b80e24885dd2f82b7bbd7",
+    "src/exit_horizon_audit.py": "360e449c43d20cfc6d5dd6540c39b599133dffb29bb9893196b8ebab4ca412f7",
+    "src/report_exit_horizon.py": "60ab5f4400394085373c4bf310d775283a5c23d1b1aaa2edfd3653ecdede704f",
+    "tests/test_exit_horizon_audit.py": "f1ec424563530427064c95ad8efc342d1c4877823ccf481881490692147ff742"
+  },
+  "production_inputs_sha256": {
+    "src/simple_strategy_rules.py": "e2da727d438b06429d72047a64a9152f81a62aa249135bfe80d182877d8469aa",
+    "src/exit_research.py": "5ca64b7b057080218910eaaee739411e16cde13dbac82ca04e881c73ee92f34c",
+    "src/research_portfolio.py": "a5c20703f9d1df2cc5750c8abf362ce10847d7891d3287830c2819910f4bf91f",
+    "src/research_execution.py": "5d90f11b90e96b8b7bd277920ad01833f00db1628619c9ab037d162030c72d95",
+    "src/s2_strategy_rules.py": "f8fb89200c1a1e9ef07c33b2b749c7ad05e7986ab6ce3afc78c63b4c15159694",
+    "adapters/supermind_s1_minute_backtest.py": "c1e87739dcea419665650e4d714ea8d5a414a9ac849cd08d7596c30dcdfaf9e5",
+    "CURRENT_LIVE_PROTOCOL.md": "e66a67c3de0a24eaf2ad8e7959ce0f1f6cd9c1935ecdc1970b3aad139eddb2a9",
+    "config/s1_config.json": "946495c85d2493e9a1369a49574b280ee94c64f05639bd72de57097ec052f7c6"
+  }
+}
