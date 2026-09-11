@@ -95,3 +95,18 @@ reports/**/*_cost*.json
 *.jpg
 *.jpeg
 *.gif
+
+# 纸面运行态账本与行情缓存（可提交代码/配置示例，不提交密钥与运行 CSV/JSON）
+paper/runtime/
+paper/data/
+paper/**/__pycache__/
+paper/.venv/
+paper/archive_dual_50k_20260911/
+# 旧路径遗留运行文件（若再次出现）
+paper/account.json
+paper/ledger.csv
+paper/daily_nav.csv
+paper/ledger_*.csv
+paper/nav_*.csv
+paper/accounts/*.json
+paper/config_override.json

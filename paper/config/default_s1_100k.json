@@ -1,0 +1,22 @@
+{
+  "mode": "s1_only",
+  "paper_mode": true,
+  "capital": 100000.0,
+  "currency": "CNY",
+  "stage": "U0",
+  "strategy": "S1.1",
+  "strategy_status": "NOT_VALIDATED",
+  "universe_tag": "UNIVERSE_REDUCED",
+  "universe_note": "公开行情缩减主板宇宙；非 SuperMind 全市场扫描；不得伪装全市场。",
+  "market_data": "public",
+  "supermind_required": false,
+  "runtime_dir": "paper/runtime",
+  "account_file": "paper/runtime/account.json",
+  "ledger_file": "paper/runtime/ledger.csv",
+  "nav_file": "paper/runtime/daily_nav.csv",
+  "reports_dir": "paper/runtime/reports",
+  "max_universe": 30,
+  "auto_paper_fill_default": false,
+  "base_config": "config/s1_config.json",
+  "note": "默认单账本 S1 纸交易；初始资金 100000 CNY；禁止真实券商下单。"
+}

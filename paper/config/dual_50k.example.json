@@ -1,0 +1,17 @@
+{
+  "mode": "dual",
+  "paper_mode": true,
+  "capital_total": 50000.0,
+  "book_a": {
+    "name": "A_main",
+    "capital": 25000.0,
+    "strategy": "红利ETF-510880-buyhold"
+  },
+  "book_b": {
+    "name": "B_s1",
+    "capital": 25000.0,
+    "strategy": "S1-U0-UNIVERSE_REDUCED"
+  },
+  "universe_tag": "UNIVERSE_REDUCED",
+  "note": "可选双账本配置示例；非默认。默认请用 default_s1_100k.json。"
+}

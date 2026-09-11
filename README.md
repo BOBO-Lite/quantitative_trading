@@ -63,6 +63,24 @@ ETF1累计收益-1.20%/-2.52%，ETF2为-7.89%/-8.41%，仍保留失败结果并�
 5. 策略是否有效只按 BACKTEST_ACCEPTANCE.md 和可复现报告判定；
 6. archive/ 仅供复盘，任何历史条款都不得直接用于当前实盘。
 
+
+
+## 纸面交易（默认）
+
+无 SuperMind 全量底库时，使用公开行情做 **S1 单账本纸交易**（初始 **100,000 CNY**）。宇宙必须标注 **`UNIVERSE_REDUCED`**；策略状态 **NOT_VALIDATED**；禁止真实券商下单。
+
+```bash
+cd /workspace/quantitative_trading
+PY=/workspace/ashare-etf-quant/.venv/bin/python   # 或本机已装依赖的 python
+$PY -m paper.cli init --capital 100000
+$PY -m paper.cli dry-run
+$PY -m paper.cli run
+$PY -m paper.cli status
+$PY -m paper.cli performance
+```
+
+详情、定时任务与限制见 [paper/README.md](paper/README.md)。
+
 ## 目录
 
 | 路径 | 用途 |
@@ -77,6 +95,7 @@ ETF1累计收益-1.20%/-2.52%，ETF2为-7.89%/-8.41%，仍保留失败结果并�
 | config/s1_config.json | 冻结S1.1参数源 |
 | config/s2_regime_config.json | S2研究环境、仓位和回撤参数源 |
 | src/ | 本地事件回测、风险和绩效计算 |
+| paper/ | **S1 纸交易（默认单账本 100,000 CNY，公开行情 UNIVERSE_REDUCED）**；见 [paper/README.md](paper/README.md) |
 | adapters/ | SuperMind数据与回测环境适配说明 |
 | docs/data/DATA_INTERFACE_PLAN.md | 实时行情、账户快照和只读连接方案 |
 | docs/strategy/GOAL_FIT_AUDIT.md | 小资金、盈利速度、规则验证和全资金实验的适配审计 |
