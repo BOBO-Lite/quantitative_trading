@@ -35,6 +35,18 @@
 
 公开行情缩减宇宙 **不是** SuperMind 全市场扫描。每份报告必须标注 `UNIVERSE_REDUCED`。门控 OFF 或无行情时不成交、不伪造收益。
 
+
+## 3.5 两段式执行节奏
+
+| 阶段 | 时间（Asia/Shanghai） | 命令 | 产出 |
+|---|---|---|---|
+| 收盘扫描 | 交易日 **15:30** | `python -m paper.cli run` | `runtime/reports/T/scan.json` 候选卡片 |
+| 早盘入场 | 次日 **10:00**（窗口 09:45–10:30） | `python -m paper.cli entry` | 按 §3 确认后的纸面买入 / deferred 原因 |
+
+- 默认入场路径需要**公开分钟行情**；不可用时必须记录 deferred/跳过原因。
+- **禁止**在未开 `--approx-next-open` 时用次日开盘价伪装冻结入场。
+- `--approx-next-open` 默认关闭；开启后 mode 标记为 `APPROX_NEXT_OPEN`（非冻结规格原样）。
+
 ## 4. 成本模型
 
 | 项目 | 费率 |

@@ -93,9 +93,10 @@ def scan_candidates(
         "candidates": [],
         "errors": [],
         "deferred_rules": [
-            "T+1 09:45-10:30 分时首次站上 T 日最高且高于当日 VWAP：公开日线不可复现，默认只出卡片",
-            "下一分钟开盘成交 / 禁止同K线最优价：延后",
-            "开盘涨跌幅 -1.5%~+3% 过滤：仅在 --auto-paper-fill 用次日开盘近似时部分检查",
+            "两段式：本命令仅做 T 日收盘候选卡片；T+1 入场请用 python -m paper.cli entry",
+            "T+1 09:45-10:30 分时首次站上 T 日最高且高于当日 VWAP：由 entry 在公开分钟可得时确认",
+            "下一分钟开盘成交 / 禁止同K线最优价：由 entry 执行；无分钟数据则 deferred，禁止静默次日开盘伪装",
+            "开盘涨跌幅 -1.5%~+3%：entry 检查；显式 --approx-next-open 才可用次日开盘近似",
             "一字涨停与次日不可成交状态：数据不足时跳过",
         ],
         "messages": [],
@@ -228,8 +229,9 @@ def scan_candidates(
             "excess20": round(float(r["excess20"]), 4) if pd.notna(r["excess20"]) else None,
             "stop_distance_est": round(float(stop_dist), 4),
             "abandon_if_stop_gt_6pct": bool(stop_dist > 0.06),
-            "entry_mode": "CARD_ONLY_DEFAULT",
-            "approx_next_open_fill": "仅当 --auto-paper-fill：用次日开盘价近似，并检查相对信号收盘涨跌幅约 -1.5%~+3% 与 ≤104%*signal_close",
+            "entry_mode": "CARD_ONLY_AWAIT_T1_ENTRY",
+            "t1_entry": "次日运行 python -m paper.cli entry；公开分钟按 S1_FROZEN_SPEC §3 确认",
+            "approx_next_open_fill": "仅显式 --approx-next-open（或旧 --auto-paper-fill）：次日开盘近似，非冻结规格",
             "tag": "UNIVERSE_REDUCED",
         }
         cards.append(card)

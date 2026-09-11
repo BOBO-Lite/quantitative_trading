@@ -39,11 +39,15 @@ $PY -m paper.cli init --capital 100000
 $PY -m paper.cli dry-run
 $PY -m paper.cli dry-run --date 2026-09-11
 
-# 3) 单日运行：市场开关 + 扫描 + MTM（默认只出卡片、不成交）
+# 3) T 日收盘扫描：市场开关 + 扫描 + MTM（默认只出卡片、不成交）
 $PY -m paper.cli run
-$PY -m paper.cli run --date 2026-09-11
+$PY -m paper.cli run --date 2026-09-10
 
-# 4) 状态 / 绩效
+# 4) T+1 早盘入场确认（读昨日卡片；默认要分钟行情）
+$PY -m paper.cli entry --date 2026-09-11 --signal-date 2026-09-10
+$PY -m paper.cli entry --dry-run
+
+# 5) 状态 / 绩效
 $PY -m paper.cli status
 $PY -m paper.cli performance
 
@@ -61,14 +65,38 @@ python3 -m venv .venv
 .venv/bin/python -m paper.cli dry-run
 ```
 
+### 两段式节奏（重要）
+
+S1 冻结规格是 **T 日收盘评估候选，T+1 的 09:45–10:30 再买**，不是只在 16:30 跑一次。
+
+| 时段 | 命令 | 做什么 |
+|---|---|---|
+| 交易日 **15:30**（收盘后） | `python -m paper.cli run` | 市场开关 + 缩减宇宙扫描，写出候选卡片；默认**不成交** |
+| 次日 **10:00** 左右（窗口内/稍后） | `python -m paper.cli entry` | 读取昨日卡片；公开分钟可得时按 `S1_FROZEN_SPEC` §3 确认入场 |
+
+```bash
+# T 日收盘扫描
+$PY -m paper.cli run --date 2026-09-10
+
+# T+1 早盘入场（默认要分钟行情；拿不到则 deferred 并写明原因）
+$PY -m paper.cli entry --date 2026-09-11 --signal-date 2026-09-10
+$PY -m paper.cli entry --date 2026-09-11 --dry-run
+
+# 仅当明确接受近似时（非冻结规格原样）
+$PY -m paper.cli entry --date 2026-09-11 --approx-next-open
+```
+
 ### 定时调用（cron 示例，Asia/Shanghai）
 
 ```cron
-# 每个交易日 16:30 跑纸面日更（请按本机路径改 PY）
-30 16 * * 1-5 cd /workspace/quantitative_trading && /workspace/ashare-etf-quant/.venv/bin/python -m paper.cli run >> paper/runtime/cron.log 2>&1
+# 每个交易日 15:30 收盘扫描（出卡片）
+30 15 * * 1-5 cd /workspace/quantitative_trading && /workspace/ashare-etf-quant/.venv/bin/python -m paper.cli run >> paper/runtime/cron_scan.log 2>&1
+
+# 每个交易日 10:00 早盘入场确认（读昨日卡片）
+0 10 * * 1-5 cd /workspace/quantitative_trading && /workspace/ashare-etf-quant/.venv/bin/python -m paper.cli entry >> paper/runtime/cron_entry.log 2>&1
 ```
 
-门控 OFF 或无行情时：**不成交、不伪造收益**；日志/摘要会写明原因。
+门控 OFF 或无行情时：**不成交、不伪造收益**；分钟不可用时 **deferred**（禁止静默用次日开盘伪装冻结入场）。
 
 ## 风控与成本（U0 / 不放宽）
 
@@ -99,9 +127,15 @@ python3 -m venv .venv
 | `paper/data/*.parquet` | 行情缓存（gitignore） |
 | `paper/config/default_s1_100k.json` | 默认可提交配置 |
 
-## 入场说明
+## 入场说明（S1_FROZEN_SPEC §3）
 
-S1 冻结规格要求 T+1 分时确认；公开日线环境无法完整复现。默认只写交易卡片；`--auto-paper-fill` 才用「次日开盘」近似（文档化近似，非冻结规格原样）。
+1. 开盘涨跌幅 **-1.5% ~ +3.0%**
+2. **09:45–10:30** 内，某分钟收盘价**首次**高于 T 日最高价，且高于**当日 VWAP**
+3. 信号在该分钟收盘后成立，成交用**下一分钟开盘**近似；禁止同 K 线最优价
+4. 成交价 **≤ 信号收盘 × 1.04**
+5. 股数 / 费用 / 风控 **U0 不变**（整手 100）
+
+公开分钟行情的真实局限：东财 trends 多为当日/近几日分时；akshare 1 分钟历史窗口短且易限流。拿不到分钟数据时命令会 **deferred** 并写明原因，**不会**静默用次日开盘伪装冻结入场。`--approx-next-open`（以及旧的 `run --auto-paper-fill`）仅作**显式**文档化近似，默认关闭。
 
 ## 可选双账本
 

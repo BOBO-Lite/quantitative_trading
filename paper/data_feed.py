@@ -265,3 +265,169 @@ def fetch_universe_bars(symbols: list[str], start_date: str = "20250101") -> tup
     path = DATA_DIR / "universe_bars.parquet"
     out.to_parquet(path, index=False)
     return out, errors
+
+
+def _symbol_to_ts_code(symbol: str) -> str:
+    code = str(symbol).split(".")[0].zfill(6)
+    if "." in str(symbol):
+        return str(symbol).upper()
+    if code.startswith(("5", "6", "9")):
+        return f"{code}.SH"
+    return f"{code}.SZ"
+
+
+def fetch_public_minutes(
+    symbol: str,
+    trade_date: str,
+    *,
+    prefer_offline: bool = False,
+) -> tuple[Optional[pd.DataFrame], dict]:
+    """尝试获取公开 1 分钟行情。
+
+    返回 (df|None, meta)。df 列至少含 datetime/open/high/low/close/volume，尽量含 amount。
+    公开源局限（请在报告中写明）：
+      - 东财 trends2 多为「当日/近几日」分时，历史 T+1 回放常不可得；
+      - akshare 1 分钟历史窗口短且易被限流/断连；
+      - 无稳定免费全历史分钟源时，必须 deferred，不得静默用日线开盘伪装冻结入场。
+    """
+    code = str(symbol).split(".")[0].zfill(6)
+    ts_code = _symbol_to_ts_code(symbol)
+    trade_date = str(pd.Timestamp(trade_date).date())
+    meta: dict = {
+        "symbol": code,
+        "trade_date": trade_date,
+        "attempts": [],
+    }
+    cache_path = DATA_DIR / "minutes" / f"{code}_{trade_date.replace('-', '')}.parquet"
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+
+    def _normalize(df: pd.DataFrame, source: str) -> pd.DataFrame:
+        out = df.copy()
+        # 列名兼容
+        rename = {}
+        for a, b in [
+            ("时间", "datetime"),
+            ("day", "datetime"),
+            ("date", "datetime"),
+            ("开盘", "open"),
+            ("收盘", "close"),
+            ("最高", "high"),
+            ("最低", "low"),
+            ("成交量", "volume"),
+            ("成交额", "amount"),
+            ("turnover", "amount"),
+            ("average", "average"),
+        ]:
+            if a in out.columns and b not in out.columns:
+                rename[a] = b
+        if rename:
+            out = out.rename(columns=rename)
+        if "datetime" not in out.columns:
+            raise ValueError(f"分钟数据缺 datetime: cols={list(out.columns)}")
+        out["datetime"] = pd.to_datetime(out["datetime"])
+        out = out[out["datetime"].dt.strftime("%Y-%m-%d") == trade_date].copy()
+        for c in ("open", "high", "low", "close", "volume"):
+            if c in out.columns:
+                out[c] = pd.to_numeric(out[c], errors="coerce")
+        if "amount" in out.columns:
+            out["amount"] = pd.to_numeric(out["amount"], errors="coerce")
+        elif "turnover" in out.columns:
+            out["amount"] = pd.to_numeric(out["turnover"], errors="coerce")
+        out = out.dropna(subset=["datetime", "open", "close"]).sort_values("datetime")
+        out["symbol"] = code
+        out["source"] = source
+        return out.reset_index(drop=True)
+
+    if cache_path.exists():
+        try:
+            df = pd.read_parquet(cache_path)
+            df = _normalize(df, f"cache:{cache_path.name}")
+            if not df.empty:
+                meta["source"] = f"cache:{cache_path.name}"
+                meta["n_bars"] = len(df)
+                return df, meta
+            meta["attempts"].append("cache_empty_for_date")
+        except Exception as exc:  # noqa: BLE001
+            meta["attempts"].append(f"cache_error:{exc}")
+
+    if prefer_offline:
+        meta["reason"] = "prefer_offline 且无可用本地分钟缓存"
+        return None, meta
+
+    # 1) 东财 trends2（多为当日分时；ndays 有限）
+    try:
+        import sys
+
+        adapters = str(PAPER_DIR.parent / "adapters")
+        if adapters not in sys.path:
+            sys.path.insert(0, adapters)
+        from eastmoney_readonly import realtime_minutes  # type: ignore
+
+        rows = realtime_minutes([ts_code])
+        if rows:
+            df = _normalize(pd.DataFrame(rows), "eastmoney_trends2")
+            if not df.empty:
+                df.to_parquet(cache_path, index=False)
+                meta["source"] = "eastmoney_trends2"
+                meta["n_bars"] = len(df)
+                meta["attempts"].append("eastmoney_ok")
+                return df, meta
+            meta["attempts"].append("eastmoney_no_bars_for_date")
+        else:
+            meta["attempts"].append("eastmoney_empty")
+    except Exception as exc:  # noqa: BLE001
+        meta["attempts"].append(f"eastmoney:{exc}")
+
+    # 2) akshare 分钟（窗口短 / 易断连）
+    try:
+        import akshare as ak
+
+        start = f"{trade_date} 09:30:00"
+        end = f"{trade_date} 15:00:00"
+        raw = ak.stock_zh_a_hist_min_em(
+            symbol=code,
+            start_date=start,
+            end_date=end,
+            period="1",
+            adjust="",
+        )
+        if raw is not None and not raw.empty:
+            df = _normalize(raw, "akshare.stock_zh_a_hist_min_em")
+            if not df.empty:
+                df.to_parquet(cache_path, index=False)
+                meta["source"] = "akshare.stock_zh_a_hist_min_em"
+                meta["n_bars"] = len(df)
+                meta["attempts"].append("akshare_hist_min_ok")
+                return df, meta
+            meta["attempts"].append("akshare_hist_min_empty_for_date")
+        else:
+            meta["attempts"].append("akshare_hist_min_empty")
+    except Exception as exc:  # noqa: BLE001
+        meta["attempts"].append(f"akshare_hist_min:{exc}")
+
+    try:
+        import akshare as ak
+
+        # 仅当日分时；若 trade_date 不是今天则通常无效
+        today = datetime.now().strftime("%Y-%m-%d")
+        if trade_date == today:
+            raw = ak.stock_intraday_em(symbol=code)
+            if raw is not None and not raw.empty:
+                df = _normalize(raw, "akshare.stock_intraday_em")
+                if not df.empty:
+                    df.to_parquet(cache_path, index=False)
+                    meta["source"] = "akshare.stock_intraday_em"
+                    meta["n_bars"] = len(df)
+                    meta["attempts"].append("akshare_intraday_ok")
+                    return df, meta
+            meta["attempts"].append("akshare_intraday_empty")
+        else:
+            meta["attempts"].append("akshare_intraday_skipped_not_today")
+    except Exception as exc:  # noqa: BLE001
+        meta["attempts"].append(f"akshare_intraday:{exc}")
+
+    meta["reason"] = (
+        "公开分钟行情不可用（东财/akshare 失败或无目标日数据）；"
+        "禁止静默用次日开盘伪装冻结入场。可 --approx-next-open 显式近似。"
+    )
+    return None, meta

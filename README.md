@@ -69,12 +69,15 @@ ETF1累计收益-1.20%/-2.52%，ETF2为-7.89%/-8.41%，仍保留失败结果并�
 
 无 SuperMind 全量底库时，使用公开行情做 **S1 单账本纸交易**（初始 **100,000 CNY**）。宇宙必须标注 **`UNIVERSE_REDUCED`**；策略状态 **NOT_VALIDATED**；禁止真实券商下单。
 
+两段式节奏：**交易日 15:30** `run` 收盘扫描出卡片；**次日 10:00** `entry` 按 `S1_FROZEN_SPEC` §3 早盘入场（公开分钟不可用则 deferred，禁止静默用次日开盘伪装）。
+
 ```bash
 cd /workspace/quantitative_trading
 PY=/workspace/ashare-etf-quant/.venv/bin/python   # 或本机已装依赖的 python
 $PY -m paper.cli init --capital 100000
 $PY -m paper.cli dry-run
-$PY -m paper.cli run
+$PY -m paper.cli run              # T 日 15:30 收盘扫描
+$PY -m paper.cli entry            # T+1 早盘入场确认
 $PY -m paper.cli status
 $PY -m paper.cli performance
 ```

@@ -4,8 +4,9 @@
 
 用法示例：
   python -m paper.cli init
-  python -m paper.cli dry-run
-  python -m paper.cli run --date 2026-09-11
+  python -m paper.cli dry-run          # T 日收盘扫描演练
+  python -m paper.cli run --date ...   # T 日 15:30 收盘扫描（出卡片）
+  python -m paper.cli entry            # T+1 09:45–10:30 分时入场确认
   python -m paper.cli status
   python -m paper.cli performance
 
@@ -27,6 +28,7 @@ if str(ROOT) not in sys.path:
 
 from paths import DEFAULT_CAPITAL, load_paper_config  # noqa: E402
 from s1_runner import init_account, performance, run_day, status  # noqa: E402
+from entry_confirm import run_entry  # noqa: E402
 
 
 def _print_json(obj: dict) -> None:
@@ -111,6 +113,44 @@ def cmd_performance(_: argparse.Namespace) -> int:
     return 0
 
 
+
+def cmd_entry(args: argparse.Namespace) -> int:
+    """T+1 早盘入场：读取上一交易日候选卡片，按 S1_FROZEN_SPEC §3 确认。"""
+    out = run_entry(
+        entry_date=args.date,
+        signal_date=args.signal_date,
+        scan_path=args.scan,
+        dry_run=bool(args.dry_run),
+        approx_next_open=bool(args.approx_next_open),
+        persist_fills=not bool(args.dry_run),
+    )
+    tag = "entry-dry" if out.get("dry_run") else "entry"
+    print(f"[{tag}] entry_date={out.get('entry_date')} signal_date={out.get('signal_date')} UNIVERSE_REDUCED")
+    print(f"[{tag}] scan={out.get('scan_file')}")
+    print(
+        f"[{tag}] cards={out.get('n_cards')} filled={len(out.get('filled') or [])} "
+        f"deferred={len(out.get('deferred') or [])} rejected={len(out.get('rejected') or [])} "
+        f"skipped={len(out.get('skipped') or [])}"
+    )
+    if out.get("approx_next_open"):
+        print(f"[{tag}] WARNING: --approx-next-open 显式近似，非冻结规格原样")
+    for d in (out.get("deferred") or [])[:10]:
+        print(f"[{tag}] deferred {d.get('symbol')}: {d.get('status')} | {d.get('reason')}")
+    for r in (out.get("rejected") or [])[:10]:
+        print(f"[{tag}] rejected {r.get('symbol')}: {r.get('status')} | {r.get('reason')}")
+    for f in (out.get("filled") or [])[:10]:
+        print(
+            f"[{tag}] filled {f.get('symbol')} qty={f.get('quantity')} "
+            f"raw={f.get('raw_fill')} mode={f.get('mode')} persisted={f.get('persisted')}"
+        )
+    if out.get("messages"):
+        print(f"[{tag}] messages: {'; '.join(out['messages'])}")
+    if out.get("report"):
+        print(f"[{tag}] report -> {out['report']}")
+    print("paper only | minute confirm or explicit approx | no silent next-open freeze fake")
+    return 0 if out.get("ok", True) else 1
+
+
 def cmd_dual(args: argparse.Namespace) -> int:
     """可选：调用旧双账本日更（非默认）。"""
     from run_daily import main as dual_main
@@ -168,13 +208,13 @@ def build_parser() -> argparse.ArgumentParser:
     p_dry.add_argument("--max-universe", type=int, default=30)
     p_dry.set_defaults(func=cmd_dry_run)
 
-    p_run = sub.add_parser("run", help="单日运行：扫描+MTM（默认不成交）")
+    p_run = sub.add_parser("run", help="T日收盘扫描+MTM（默认只出卡片；入场用 entry）")
     p_run.add_argument("--date", default=None)
     p_run.add_argument("--max-universe", type=int, default=30)
     p_run.add_argument(
         "--auto-paper-fill",
         action="store_true",
-        help="对候选按次日开盘近似纸面成交（默认只出卡片）",
+        help="旧近似：次日开盘成交（非冻结规格）；正式入场请用 entry",
     )
     p_run.set_defaults(func=cmd_run)
 
@@ -183,6 +223,22 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_pf = sub.add_parser("performance", help="查看净值与收益率")
     p_pf.set_defaults(func=cmd_performance)
+
+
+    p_entry = sub.add_parser(
+        "entry",
+        help="T+1 早盘入场：读昨日候选卡片，公开分钟按 §3 确认（默认不成交近似）",
+    )
+    p_entry.add_argument("--date", default=None, help="入场日 YYYY-MM-DD，默认上海当日")
+    p_entry.add_argument("--signal-date", default=None, help="信号日（T日）；默认取前一交易日 scan")
+    p_entry.add_argument("--scan", default=None, help="直接指定 scan.json 路径")
+    p_entry.add_argument("--dry-run", action="store_true", help="确认但不持久化成交")
+    p_entry.add_argument(
+        "--approx-next-open",
+        action="store_true",
+        help="显式用次日开盘近似（非冻结规格；默认关闭，禁止静默启用）",
+    )
+    p_entry.set_defaults(func=cmd_entry)
 
     p_dual = sub.add_parser("dual", help="可选：旧双账本日更（非默认）")
     p_dual.add_argument("--date", default=None)
