@@ -1,7 +1,7 @@
 {
   "mode": "s1_only",
   "paper_mode": true,
-  "capital": 100000.0,
+  "capital": 50000.0,
   "currency": "CNY",
   "stage": "U0",
   "strategy": "S1.1",
@@ -18,5 +18,5 @@
   "max_universe": 30,
   "auto_paper_fill_default": false,
   "base_config": "config/s1_config.json",
-  "note": "默认单账本 S1 纸交易；初始资金 100000 CNY；禁止真实券商下单。"
+  "note": "默认单账本 S1 纸交易；初始资金 50000 CNY；禁止真实券商下单。"
 }

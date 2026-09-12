@@ -1,4 +1,4 @@
-# A股 S1 纸交易（默认单账本 100,000 CNY）
+# A股 S1 纸交易（默认单账本 50,000 CNY）
 
 **模式：纯纸面 / Paper only。不对接真实券商，不下真实单，不要求券商密钥。**  
 **策略状态：S1.1 `NOT_VALIDATED` — 不宣称稳定盈利，不放宽风控。**  
@@ -9,14 +9,14 @@
 | 项 | 约定 |
 |---|---|
 | 账本模式 | **单账本 S1-only** |
-| 初始资金 | **100,000 CNY** |
+| 初始资金 | **50,000 CNY** |
 | 行情 | **公开源**（腾讯日 K / akshare 等） |
 | 股票池标签 | **`UNIVERSE_REDUCED`**（缩减主板宇宙，**不是**全市场扫描） |
 | 持久账本 | `paper/runtime/`（已加入 `.gitignore`，勿提交 CSV/JSON 运行态） |
 
 可选双账本（A=510880 + B=S1，合计 5 万）仅作配置示例，见 `config/dual_50k.example.json` 与 `python -m paper.cli dual`。**默认入口不会跑双账本。**
 
-旧 5 万双账本实验数据已移至 `archive_dual_50k_20260911/`，**不会**并入新 10 万账本。
+旧 5 万双账本实验数据已移至 `archive_dual_50k_20260911/`，**不会**并入新 5 万账本。
 
 ## 重要：UNIVERSE_REDUCED
 
@@ -32,8 +32,8 @@
 cd /workspace/quantitative_trading
 PY=/workspace/ashare-etf-quant/.venv/bin/python   # 或本机 python3 + 依赖
 
-# 1) 初始化 10 万单账本（写 paper/runtime/）
-$PY -m paper.cli init --capital 100000
+# 1) 初始化 5 万单账本（写 paper/runtime/）
+$PY -m paper.cli init --capital 50000
 
 # 2) dry-run：扫描 + 预览，不持久化成交
 $PY -m paper.cli dry-run
@@ -52,7 +52,7 @@ $PY -m paper.cli status
 $PY -m paper.cli performance
 
 # 重建空账本（会删除 runtime 账本文件）
-$PY -m paper.cli init --capital 100000 --force
+$PY -m paper.cli init --capital 50000 --force
 ```
 
 独立 venv：

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""S1 单账本纸交易 CLI（默认 100000 CNY / UNIVERSE_REDUCED）。
+"""S1 单账本纸交易 CLI（默认 50000 CNY / UNIVERSE_REDUCED）。
 
 用法示例：
   python -m paper.cli init
@@ -194,11 +194,11 @@ def _print_result(out: dict) -> None:
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog="paper.cli",
-        description="A股 S1 单账本纸交易（默认本金 100000 CNY，UNIVERSE_REDUCED）",
+        description="A股 S1 单账本纸交易（默认本金 50000 CNY，UNIVERSE_REDUCED）",
     )
     sub = p.add_subparsers(dest="cmd", required=True)
 
-    p_init = sub.add_parser("init", help="初始化纸账户（默认 100000）")
+    p_init = sub.add_parser("init", help="初始化纸账户（默认 50000）")
     p_init.add_argument("--capital", type=float, default=DEFAULT_CAPITAL)
     p_init.add_argument("--force", action="store_true", help="删除 runtime 账本后重建")
     p_init.set_defaults(func=cmd_init)
@@ -250,7 +250,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
-    # 确保默认配置存在且为本金 10 万
+    # 确保默认配置存在且为本金 5 万
     cfg = load_paper_config()
     if float(cfg.get("capital", 0)) != DEFAULT_CAPITAL:
         print(

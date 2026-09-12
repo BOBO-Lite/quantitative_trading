@@ -119,7 +119,7 @@ def performance(cfg: Optional[dict[str, Any]] = None) -> dict[str, Any]:
     if not paths["account"].exists():
         return {"ok": False, "error": "账户未初始化"}
     acc = load_account(paths["account"])
-    initial = float(acc.get("initial_capital") or 100000.0)
+    initial = float(acc.get("initial_capital") or 50000.0)
     equity = float(acc["equity"])
     ret = (equity / initial - 1.0) if initial else 0.0
     nav_rows: list[dict[str, str]] = []
