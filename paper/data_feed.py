@@ -48,7 +48,12 @@ def fetch_kline_tencent(
         days = node.get("qfqday") or node.get("day") or []
         rows.extend(days)
         time.sleep(0.15)
-    by_date = {p[0]: p for p in rows}
+    # 偶发第7列为分红 dict，不是成交额；统一截取前6列
+    by_date = {}
+    for p in rows:
+        if not p or len(p) < 6:
+            continue
+        by_date[p[0]] = list(p[:6])
     ordered = [by_date[k] for k in sorted(by_date)]
     if not ordered:
         raise ValueError(f"腾讯源无数据: {symbol}")

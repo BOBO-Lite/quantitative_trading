@@ -1,0 +1,44 @@
+{
+  "label": "A_U0",
+  "entry_mode": "APPROX_NEXT_OPEN",
+  "status": "NOT_VALIDATED",
+  "universe_tag": "UNIVERSE_REDUCED",
+  "initial_capital": 100000.0,
+  "final_equity": 131562.73,
+  "total_return": 0.315627,
+  "total_return_pct": 31.5627,
+  "CAGR": 0.036247,
+  "CAGR_pct": 3.6247,
+  "MaxDD": -0.030164,
+  "MaxDD_pct": -3.0164,
+  "n_trades": 20,
+  "win_rate": 0.75,
+  "avg_net_pnl": 1578.14,
+  "start_date": "2019-01-02",
+  "end_date": "2026-09-16",
+  "n_nav_days": 1871,
+  "yearly_returns": {
+    "2019": 0.0,
+    "2020": 0.037978,
+    "2021": 0.052779,
+    "2022": 0.016433,
+    "2023": 0.03267,
+    "2024": 0.0,
+    "2025": 0.082128,
+    "2026": 0.059958
+  },
+  "first_nav_equity": 100000.0,
+  "notes": [
+    "entry_mode=APPROX_NEXT_OPEN",
+    "NOT frozen minute confirm 09:45-10:30",
+    "risk_fraction=0.0125",
+    "max_single=0.35",
+    "max_total=0.7",
+    "max_positions=3"
+  ],
+  "warnings": [
+    "NOT_VALIDATED",
+    "APPROX_NEXT_OPEN",
+    "UNIVERSE_REDUCED"
+  ]
+}
