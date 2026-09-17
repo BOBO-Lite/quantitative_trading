@@ -4,6 +4,22 @@
 **策略状态：S1.1 `NOT_VALIDATED` — 不宣称稳定盈利，不放宽风控。**  
 本目录仅供规则演练与流程验证，**不构成投资建议**。
 
+## 目录结构
+
+| 路径 | 作用 |
+|---|---|
+| `cli.py` / `s1_runner.py` / `entry_confirm.py` 等 | 纸交易入口与执行逻辑 |
+| `broker.py` / `ledger_*.py` | 虚拟成交、账本与双账本遗留逻辑 |
+| `data_feed.py` | 公开行情拉取与中证500市场开关 |
+| `config/` | 默认本金等配置示例 |
+| `ops/` | **GitHub 可推送**的脱敏工作记录与晚报 |
+| `ops_sync.py` | `runtime` → `ops` 同步 |
+| `runtime/` | 本机实时账户/净值/当日报告（不入库） |
+| `data/` | 行情缓存（不入库） |
+| `PROTOCOL.md` / `PAPER_PROTOCOL.md` | 纸面协议与成本/风控约定 |
+
+对外查看进度请看 [`ops/`](ops/)，不要把 `runtime/` 提交进 Git。
+
 ## 默认路径（请用这个）
 
 | 项 | 约定 |
@@ -14,9 +30,9 @@
 | 股票池标签 | **`UNIVERSE_REDUCED`**（缩减主板宇宙，**不是**全市场扫描） |
 | 持久账本 | `paper/runtime/`（已加入 `.gitignore`，勿提交 CSV/JSON 运行态） |
 
-可选双账本（A=510880 + B=S1，合计 10 万）仅作配置示例，见 `config/dual_50k.example.json` 与 `python -m paper.cli dual`。**默认入口不会跑双账本。**
+可选双账本（A=510880 + B=S1，合计 5 万）仅作配置示例，见 `config/dual_50k.example.json` 与 `python -m paper.cli dual`。**默认入口不会跑双账本。**
 
-旧 10 万双账本实验数据已移至 `archive_dual_50k_20260911/`，**不会**并入新 10 万账本。
+旧 5 万双账本实验数据已移至 `archive_dual_50k_20260911/`，**不会**并入新 10 万账本。
 
 ## 重要：UNIVERSE_REDUCED
 

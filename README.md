@@ -84,27 +84,69 @@ $PY -m paper.cli performance
 
 详情、定时任务与限制见 [paper/README.md](paper/README.md)。
 
-## 目录
+## 仓库文件架构
 
-| 路径 | 用途 |
+本仓库分三层：**规则与配置**、**可执行代码**、**研究/运行产物**。当前默认在跑的是 `paper/` 公开行情纸交易；`reports/` 多为历史研究证据，不等于当前模拟盘收益。
+
+### 顶层目录
+
+| 路径 | 作用 |
 |---|---|
-| docs/ | 按主题归档的项目文档、研究模板和开源仓库体积方案 |
-| CURRENT_LIVE_PROTOCOL.md | 一页实盘入口和当前持仓规则 |
-| docs/operations/DAILY_OPERATION_PLAYBOOK.md | 每日数据、选股、入场、持仓管理和收盘复盘流程 |
-| S1_FROZEN_SPEC.md | S1平台放量突破的唯一研究定义 |
-| S2_REGIME_SPEC.md | 趋势、震荡、轮动和熊市现金防守的研究路由 |
-| RISK_POLICY.md | 仓位、止损、跳空和回撤停机 |
-| BACKTEST_ACCEPTANCE.md | 数据、费用、样本外和验收门槛 |
-| config/s1_config.json | 冻结S1.1参数源 |
-| config/s2_regime_config.json | S2研究环境、仓位和回撤参数源 |
-| src/ | 本地事件回测、风险和绩效计算 |
-| paper/ | **S1 纸交易（默认单账本 100,000 CNY，公开行情 UNIVERSE_REDUCED）**；见 [paper/README.md](paper/README.md) |
-| adapters/ | SuperMind数据与回测环境适配说明 |
-| docs/data/DATA_INTERFACE_PLAN.md | 实时行情、账户快照和只读连接方案 |
-| docs/strategy/GOAL_FIT_AUDIT.md | 小资金、盈利速度、规则验证和全资金实验的适配审计 |
-| logs/ | 交易、执行偏差和每日净值记录 |
-| data_templates/ | 日线、分钟线和时点股票池数据格式 |
-| archive/ | v1.5及以前的历史记录 |
+| `paper/` | **当前默认：S1 纸交易引擎与账本**（公开行情、单账本 10 万、`UNIVERSE_REDUCED`）。日常扫描/入场/晚报都落在这里。详见 [paper/README.md](paper/README.md) |
+| `paper/ops/` | **可推送的脱敏工作记录**：账户快照、净值、扫描/入场摘要、晚报。GitHub 留痕目录。详见 [paper/ops/README.md](paper/ops/README.md) |
+| `config/` | 冻结策略参数源（`s1_config.json`、`s2_regime_config.json` 等），改参数需走版本与验收流程 |
+| `src/` | 本地策略引擎、日流水线、风险与绩效计算（研究/半自动流水线代码） |
+| `adapters/` | 外部数据与回测适配（公开行情只读、SuperMind、RQAlpha 等）；**无真实下单工具** |
+| `tests/` | 单元/集成测试（含纸交易与核心策略回归） |
+| `docs/` | 按主题归档的说明文档（数据接口、操作手册、策略审计、开源体积方案） |
+| `data_templates/` | 日线/分钟/股票池等**数据格式模板**（样例，不是实盘底库） |
+| `reports/` | 历史研究与验收报告归档（买点、退出、ETF、S1 SuperMind 验收等）。多为 Markdown/JSON 证据，**不是**当前 `paper/ops` 日报 |
+| `archive/` | 旧版规则与历史材料，仅供复盘，不得直接当现行实盘规则 |
+| `logs/` | 本机交易/执行日志目录（通常 gitignore，不入库） |
+| `.venv/` | 本地 Python 虚拟环境（gitignore，不入库） |
+
+### 根目录关键文件
+
+| 文件 | 作用 |
+|---|---|
+| `README.md` | 总览、使用顺序、架构与入口 |
+| `S1_FROZEN_SPEC.md` | S1 冻结交易定义（收盘候选 + T+1 早盘入场） |
+| `S2_REGIME_SPEC.md` | S2 多环境研究路由（多数 live 关闭） |
+| `RISK_POLICY.md` | 仓位、止损、跳空、回撤停机 |
+| `BACKTEST_ACCEPTANCE.md` | 回测验收门槛与样本划分 |
+| `FINAL_STRATEGY_REQUIREMENTS.md` | 终版策略硬性要求登记 |
+| `CHANGELOG.md` | 变更记录 |
+| `requirements.txt` | 轻量运行依赖 |
+| `requirements-framework.txt` | 框架/回测隔离依赖（勿与主依赖混装） |
+| `CURRENT_LIVE_PROTOCOL.md` | 本机实盘一页纸（gitignore，公开树通常不存在） |
+
+### `paper/` 子目录（纸交易）
+
+| 路径 | 作用 | 是否推送 GitHub |
+|---|---|---|
+| `paper/*.py` / `paper/cli.py` | 纸交易代码与 CLI | 是 |
+| `paper/config/` | 纸交易默认/示例配置 | 是 |
+| `paper/ops/` | 脱敏操作记录与晚报（对外留痕） | **是** |
+| `paper/runtime/` | 本机实时账本、当日报告、运行态 | **否**（gitignore） |
+| `paper/data/` | 行情缓存（parquet 等） | **否**（gitignore） |
+| `paper/ops_sync.py` | 把 `runtime` 同步到 `ops` 的脚本 | 是 |
+
+### `docs/` 子目录
+
+| 路径 | 作用 |
+|---|---|
+| `docs/strategy/` | 目标适配、策略审计类文档 |
+| `docs/operations/` | 每日操作手册等运行文档 |
+| `docs/data/` | 数据接口与只读连接方案 |
+| `docs/research/` | 研究模板与说明 |
+| `docs/open_source/` | 开源仓库体积 / `.gitignore` 方案 |
+
+### 怎么找“正在跑的模拟盘”
+
+1. 规则：`S1_FROZEN_SPEC.md` + `RISK_POLICY.md` + `config/s1_config.json`
+2. 代码与命令：`paper/README.md`、`python -m paper.cli ...`
+3. 最新账本与日报（GitHub）：[`paper/ops/`](paper/ops/)
+4. 本机未入库运行态：`paper/runtime/`（只在运行机器上）
 
 开源仓库体积方案位于 `docs/open_source/`：
 
