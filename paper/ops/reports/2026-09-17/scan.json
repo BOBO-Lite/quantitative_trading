@@ -1,0 +1,28 @@
+{
+  "tag": "UNIVERSE_REDUCED",
+  "asof": "2026-09-17",
+  "gate": {
+    "ok": true,
+    "gate_on": false,
+    "date": "2026-09-16",
+    "close": 7683.47,
+    "ma20": 7755.289,
+    "ma60": 7971.952833333333,
+    "source": "cache:000905.parquet",
+    "reason": "OFF: 未满足 close>MA20 且 MA20>MA60"
+  },
+  "universe_source": "skipped_gate_off|UNIVERSE_REDUCED",
+  "universe_size": 0,
+  "candidates": [],
+  "errors": [],
+  "deferred_rules": [
+    "两段式：本命令仅做 T 日收盘候选卡片；T+1 入场请用 python -m paper.cli entry",
+    "T+1 09:45-10:30 分时首次站上 T 日最高且高于当日 VWAP：由 entry 在公开分钟可得时确认",
+    "下一分钟开盘成交 / 禁止同K线最优价：由 entry 执行；无分钟数据则 deferred，禁止静默次日开盘伪装",
+    "开盘涨跌幅 -1.5%~+3%：entry 检查；显式 --approx-next-open 才可用次日开盘近似",
+    "一字涨停与次日不可成交状态：数据不足时跳过"
+  ],
+  "messages": [
+    "市场开关 OFF，不产生新买入候选（仍标注 UNIVERSE_REDUCED）"
+  ]
+}
