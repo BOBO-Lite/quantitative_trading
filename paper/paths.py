@@ -11,7 +11,7 @@ DEFAULT_CONFIG = PAPER_DIR / "config" / "default_s1_100k.json"
 RUNTIME_DIR = PAPER_DIR / "runtime"
 S1_CONFIG_PATH = ROOT / "config" / "s1_config.json"
 
-DEFAULT_CAPITAL = 50_000.0
+DEFAULT_CAPITAL = 100_000.0
 
 
 def load_paper_config(path: Path | None = None) -> dict[str, Any]:
