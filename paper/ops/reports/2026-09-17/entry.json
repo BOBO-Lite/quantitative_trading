@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "entry_date": "2026-09-17",
+  "signal_date": null,
+  "scan_file": "/workspace/quantitative_trading/paper/runtime/reports/2026-09-14/scan.json",
+  "universe_tag": "UNIVERSE_REDUCED",
+  "strategy_status": "NOT_VALIDATED",
+  "approx_next_open": false,
+  "dry_run": true,
+  "gate_on": false,
+  "n_cards": 0,
+  "filled": [],
+  "deferred": [],
+  "rejected": [],
+  "skipped": [],
+  "messages": [
+    "扫描无候选卡片；无需入场"
+  ]
+}

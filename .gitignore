@@ -110,3 +110,8 @@ paper/ledger_*.csv
 paper/nav_*.csv
 paper/accounts/*.json
 paper/config_override.json
+
+# 可推送的脱敏工作记录（与 runtime 分离）
+!paper/ops/
+!paper/ops/**
+!paper/ops_sync.py

@@ -1,0 +1,1 @@
+trade_id,ts,book,symbol,side,qty,raw_price,fill_price,notional,commission,stamp_tax,transfer_fee,slippage_cost,total_cost,cash_after,equity_after,note
